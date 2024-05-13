@@ -1165,3 +1165,76 @@
 [2024-05-14 00:59:47] INFO root fetch - processPackages [consoleme]: Remove: archive file [/home/abi/fetcher/tmp/consoleme-1.3.1.dev3.tar.gz]
 [2024-05-14 00:59:47] INFO root fetch - main [MainThread]: End processing [consoleme]: success
 [2024-05-14 00:59:47] INFO root fetch - main [MainThread]: Store serial: [23192257]
+[2024-05-14 01:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192257]
+[2024-05-14 01:01:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 01:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coltrane
+[2024-05-14 01:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UniswapPy
+[2024-05-14 01:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astromodels
+[2024-05-14 01:01:56] INFO root fetch - processPackages [coltrane]: New version: [0.34.0] Old Version: [0.33.0]
+[2024-05-14 01:01:56] INFO root fetch - processPackages [astromodels]: New version: [2.4.2.dev1] Old Version: [2.4.1.dev2]
+[2024-05-14 01:01:56] INFO root fetch - processPackages [UniswapPy]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-14 01:01:56] INFO root fetch - processPackages [astromodels]: Downloading https://files.pythonhosted.org/packages/2b/40/8cd332ecfa8dbeee5bca4d5258919cf6605230278c6da0e035082d59c1d6/astromodels-2.4.1.dev2.tar.gz
+[2024-05-14 01:01:56] INFO root fetch - processPackages [UniswapPy]: Downloading https://files.pythonhosted.org/packages/c0/4c/8269f84480ef2adf6827cc44d7f2b8a63875f62990cff328b1e36ef80e9f/uniswappy-1.5.0.tar.gz
+[2024-05-14 01:01:57] INFO root fetch - processPackages [UniswapPy]: Downloading https://files.pythonhosted.org/packages/a1/94/49b4680dabf85f5df32756298ac21d590f319cdb476a0970c6c8dcfb7db5/uniswappy-1.5.1.tar.gz
+[2024-05-14 01:01:57] INFO root fetch - processPackages [UniswapPy]: executing diffoscope
+[2024-05-14 01:01:57] INFO root fetch - processPackages [UniswapPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswappy-1.5.0.tar.gz tmp/uniswappy-1.5.1.tar.gz --markdown 20240514/U/UniswapPy/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-14 01:01:57] INFO root fetch - processPackages [astromodels]: Downloading https://files.pythonhosted.org/packages/3d/2d/8378f57cf22b967fa4d15b8fad1bdb2937093761e42b07515c74f3ebf949/astromodels-2.4.2.dev1.tar.gz
+[2024-05-14 01:01:57] INFO root fetch - processPackages [astromodels]: executing diffoscope
+[2024-05-14 01:01:57] INFO root fetch - processPackages [astromodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromodels-2.4.1.dev2.tar.gz tmp/astromodels-2.4.2.dev1.tar.gz --markdown 20240514/a/astromodels/2.4.1.dev2-2.4.2.dev1/README.md --exclude *.pyd
+[2024-05-14 01:01:57] INFO root fetch - processPackages [UniswapPy]: Remove: archive file [/home/abi/fetcher/tmp/uniswappy-1.5.0.tar.gz]
+[2024-05-14 01:01:57] INFO root fetch - processPackages [UniswapPy]: Remove: archive file [/home/abi/fetcher/tmp/uniswappy-1.5.1.tar.gz]
+[2024-05-14 01:01:57] INFO root fetch - main [MainThread]: End processing [UniswapPy]: success
+[2024-05-14 01:01:58] INFO root fetch - processPackages [astromodels]: Remove: archive file [/home/abi/fetcher/tmp/astromodels-2.4.1.dev2.tar.gz]
+[2024-05-14 01:01:58] INFO root fetch - processPackages [astromodels]: Remove: archive file [/home/abi/fetcher/tmp/astromodels-2.4.2.dev1.tar.gz]
+[2024-05-14 01:01:58] INFO root fetch - main [MainThread]: End processing [astromodels]: success
+[2024-05-14 01:04:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192257]
+[2024-05-14 01:04:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coltrane
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UniswapPy
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astromodels
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-edge-torch
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motivationsz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DeFiPy
+[2024-05-14 01:04:12] INFO root fetch - processPackages [UniswapPy]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ai-edge-torch]: New version: [0.dev202405131407] Old Version: [0.dev202405131354]
+[2024-05-14 01:04:12] INFO root fetch - processPackages [astromodels]: New version: [2.4.2.dev1] Old Version: [2.4.1.dev2]
+[2024-05-14 01:04:12] INFO root fetch - processPackages [coltrane]: New version: [0.34.0] Old Version: [0.33.0]
+[2024-05-14 01:04:12] INFO root fetch - processPackages [UniswapPy]: Downloading https://files.pythonhosted.org/packages/c0/4c/8269f84480ef2adf6827cc44d7f2b8a63875f62990cff328b1e36ef80e9f/uniswappy-1.5.0.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/c4/48/90191fd0f17d9b66f145bd0c52e7a3b51167853bcb78880f88853bbfc9db/ai_edge_torch-0.dev202405131354-py3-none-any.whl
+[2024-05-14 01:04:12] WARNING root fetch - processPackages [motivationsz]: Skipping, unable to determine old version
+[2024-05-14 01:04:12] INFO root fetch - main [MainThread]: End processing [motivationsz] error
+[2024-05-14 01:04:12] INFO root fetch - processPackages [astromodels]: Downloading https://files.pythonhosted.org/packages/2b/40/8cd332ecfa8dbeee5bca4d5258919cf6605230278c6da0e035082d59c1d6/astromodels-2.4.1.dev2.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [coltrane]: Downloading https://files.pythonhosted.org/packages/30/7c/8fcc4add579e79fa0bf9960c81932d13974ee01a2788cd744a2e887dce18/coltrane-0.33.0.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [DeFiPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 01:04:12] INFO root fetch - processPackages [UniswapPy]: Downloading https://files.pythonhosted.org/packages/a1/94/49b4680dabf85f5df32756298ac21d590f319cdb476a0970c6c8dcfb7db5/uniswappy-1.5.1.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/97/1e/e8fd165e830d9eb1d01d4f1657eb4fe6456e56a2ccdc0379e4d7d227f714/ai_edge_torch-0.dev202405131407-py3-none-any.whl
+[2024-05-14 01:04:12] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/dc/9b/4b3c802e4dae071394ba27afe644534c7343d192519c932d9f47c592db64/DeFiPy-0.0.8.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [coltrane]: Downloading https://files.pythonhosted.org/packages/de/cd/adac256866ef67f309f56aeeab902149c29a55095eb246719148954b7aef/coltrane-0.34.0.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [UniswapPy]: executing diffoscope
+[2024-05-14 01:04:12] INFO root fetch - processPackages [UniswapPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniswappy-1.5.0.tar.gz tmp/uniswappy-1.5.1.tar.gz --markdown 20240514/U/UniswapPy/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ai-edge-torch]: executing diffoscope
+[2024-05-14 01:04:12] INFO root fetch - processPackages [ai-edge-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_torch-0.dev202405131354-py3-none-any.whl.zip tmp/ai_edge_torch-0.dev202405131407-py3-none-any.whl.zip --markdown 20240514/a/ai-edge-torch/0.dev202405131354-0.dev202405131407/README.md --exclude *.pyd
+[2024-05-14 01:04:12] INFO root fetch - processPackages [astromodels]: Downloading https://files.pythonhosted.org/packages/3d/2d/8378f57cf22b967fa4d15b8fad1bdb2937093761e42b07515c74f3ebf949/astromodels-2.4.2.dev1.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [coltrane]: executing diffoscope
+[2024-05-14 01:04:12] INFO root fetch - processPackages [coltrane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coltrane-0.33.0.tar.gz tmp/coltrane-0.34.0.tar.gz --markdown 20240514/c/coltrane/0.33.0-0.34.0/README.md --exclude *.pyd
+[2024-05-14 01:04:12] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/c6/4a/9e5e65acc4c127e8cc615783ca5a1d8a5a658e0d6a8cfe61a1d50f8ed7db/DeFiPy-0.0.9.tar.gz
+[2024-05-14 01:04:12] INFO root fetch - processPackages [astromodels]: executing diffoscope
+[2024-05-14 01:04:12] INFO root fetch - processPackages [astromodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromodels-2.4.1.dev2.tar.gz tmp/astromodels-2.4.2.dev1.tar.gz --markdown 20240514/a/astromodels/2.4.1.dev2-2.4.2.dev1/README.md --exclude *.pyd
+[2024-05-14 01:04:13] INFO root fetch - processPackages [DeFiPy]: executing diffoscope
+[2024-05-14 01:04:13] INFO root fetch - processPackages [DeFiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeFiPy-0.0.8.tar.gz tmp/DeFiPy-0.0.9.tar.gz --markdown 20240514/D/DeFiPy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:04:13] INFO root fetch - processPackages [coltrane]: Remove: archive file [/home/abi/fetcher/tmp/coltrane-0.33.0.tar.gz]
+[2024-05-14 01:04:13] INFO root fetch - processPackages [coltrane]: Remove: archive file [/home/abi/fetcher/tmp/coltrane-0.34.0.tar.gz]
+[2024-05-14 01:04:13] INFO root fetch - main [MainThread]: End processing [coltrane]: success
+[2024-05-14 01:04:13] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.dev202405131354-py3-none-any.whl.zip]
+[2024-05-14 01:04:13] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.dev202405131407-py3-none-any.whl.zip]
+[2024-05-14 01:04:13] INFO root fetch - main [MainThread]: End processing [ai-edge-torch]: success
+[2024-05-14 01:04:13] INFO root fetch - processPackages [UniswapPy]: Remove: archive file [/home/abi/fetcher/tmp/uniswappy-1.5.0.tar.gz]
+[2024-05-14 01:04:13] INFO root fetch - processPackages [UniswapPy]: Remove: archive file [/home/abi/fetcher/tmp/uniswappy-1.5.1.tar.gz]
+[2024-05-14 01:04:13] INFO root fetch - main [MainThread]: End processing [UniswapPy]: success
+[2024-05-14 01:04:13] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.8.tar.gz]
+[2024-05-14 01:04:13] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.9.tar.gz]
+[2024-05-14 01:04:13] INFO root fetch - main [MainThread]: End processing [DeFiPy]: success
+[2024-05-14 01:04:14] INFO root fetch - processPackages [astromodels]: Remove: archive file [/home/abi/fetcher/tmp/astromodels-2.4.1.dev2.tar.gz]
+[2024-05-14 01:04:14] INFO root fetch - processPackages [astromodels]: Remove: archive file [/home/abi/fetcher/tmp/astromodels-2.4.2.dev1.tar.gz]
+[2024-05-14 01:04:14] INFO root fetch - main [MainThread]: End processing [astromodels]: success
+[2024-05-14 01:04:14] INFO root fetch - main [MainThread]: Store serial: [23192272]
