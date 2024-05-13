@@ -1761,3 +1761,52 @@
 [2024-05-14 01:38:29] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.3.tar.gz]
 [2024-05-14 01:38:29] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
 [2024-05-14 01:38:29] INFO root fetch - main [MainThread]: Store serial: [23192494]
+[2024-05-14 01:40:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192494]
+[2024-05-14 01:40:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 01:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-14 01:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kobz
+[2024-05-14 01:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SelfCalibratingConformal
+[2024-05-14 01:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-file
+[2024-05-14 01:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pmagpy-cli
+[2024-05-14 01:40:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-14 01:40:37] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:40:37] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:40:37] INFO root fetch - processPackages [SelfCalibratingConformal]: New version: [0.65] Old Version: [0.64]
+[2024-05-14 01:40:38] INFO root fetch - processPackages [sc-file]: New version: [3.3.1] Old Version: [3.2.0]
+[2024-05-14 01:40:38] WARNING root fetch - processPackages [kobz]: Skipping, unable to determine old version
+[2024-05-14 01:40:38] INFO root fetch - main [MainThread]: End processing [kobz] error
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [pmagpy-cli]: New version: [4.2.98] Old Version: [4.2.97]
+[2024-05-14 01:40:38] INFO root fetch - processPackages [SelfCalibratingConformal]: Downloading https://files.pythonhosted.org/packages/2e/ef/47177fb508bbb27737ce82664c9c0e2ed5e96497aba96736221bda5ec213/SelfCalibratingConformal-0.64.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/55/8c/5c004b74cc12701b153c07e68b46b0164545efae45d4436ee11766a21e4d/sc_file-3.2.0.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [pmagpy-cli]: Downloading https://files.pythonhosted.org/packages/87/cc/b0a8999a7e1827a4ef40547d3854fbeaa0925edcf8971474756c4cabf77d/pmagpy-cli-4.2.97.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:40:38] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:40:38] INFO root fetch - processPackages [SelfCalibratingConformal]: Downloading https://files.pythonhosted.org/packages/0b/ca/bb9ad2a9840dbb56c98d5326c07f07dd6592827cb033d001526526de2d26/SelfCalibratingConformal-0.65.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/ba/45/4e9371797da4f3cac85dc1f62f8dd09a2eaa15724ded18005acd9dc08d05/sc_file-3.3.1.tar.gz
+[2024-05-14 01:40:38] INFO root fetch - processPackages [SelfCalibratingConformal]: executing diffoscope
+[2024-05-14 01:40:38] INFO root fetch - processPackages [SelfCalibratingConformal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SelfCalibratingConformal-0.64.tar.gz tmp/SelfCalibratingConformal-0.65.tar.gz --markdown 20240514/S/SelfCalibratingConformal/0.64-0.65/README.md --exclude *.pyd
+[2024-05-14 01:40:38] INFO root fetch - processPackages [sc-file]: executing diffoscope
+[2024-05-14 01:40:38] INFO root fetch - processPackages [sc-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_file-3.2.0.tar.gz tmp/sc_file-3.3.1.tar.gz --markdown 20240514/s/sc-file/3.2.0-3.3.1/README.md --exclude *.pyd
+[2024-05-14 01:40:38] INFO root fetch - processPackages [pmagpy-cli]: Downloading https://files.pythonhosted.org/packages/41/b2/fc049db00407037ed5a2a7de125f0d2ee193347d330ad1e30ca400373805/pmagpy-cli-4.2.98.tar.gz
+[2024-05-14 01:40:39] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 01:40:39] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 01:40:39] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:40:39] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:40:39] INFO root fetch - processPackages [pmagpy-cli]: executing diffoscope
+[2024-05-14 01:40:39] INFO root fetch - processPackages [pmagpy-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmagpy-cli-4.2.97.tar.gz tmp/pmagpy-cli-4.2.98.tar.gz --markdown 20240514/p/pmagpy-cli/4.2.97-4.2.98/README.md --exclude *.pyd
+[2024-05-14 01:40:39] INFO root fetch - processPackages [SelfCalibratingConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratingConformal-0.64.tar.gz]
+[2024-05-14 01:40:39] INFO root fetch - processPackages [SelfCalibratingConformal]: Remove: archive file [/home/abi/fetcher/tmp/SelfCalibratingConformal-0.65.tar.gz]
+[2024-05-14 01:40:39] INFO root fetch - main [MainThread]: End processing [SelfCalibratingConformal]: success
+[2024-05-14 01:40:39] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.2.0.tar.gz]
+[2024-05-14 01:40:39] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.3.1.tar.gz]
+[2024-05-14 01:40:39] INFO root fetch - main [MainThread]: End processing [sc-file]: success
+[2024-05-14 01:40:40] INFO root fetch - processPackages [pmagpy-cli]: Remove: archive file [/home/abi/fetcher/tmp/pmagpy-cli-4.2.97.tar.gz]
+[2024-05-14 01:40:40] INFO root fetch - processPackages [pmagpy-cli]: Remove: archive file [/home/abi/fetcher/tmp/pmagpy-cli-4.2.98.tar.gz]
+[2024-05-14 01:40:40] INFO root fetch - main [MainThread]: End processing [pmagpy-cli]: success
+[2024-05-14 01:40:40] INFO root fetch - main [MainThread]: Store serial: [23192519]
