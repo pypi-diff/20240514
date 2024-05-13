@@ -1458,3 +1458,51 @@
 [2024-05-14 01:19:33] INFO root fetch - processPackages [generate-tools]: Remove: archive file [/home/abi/fetcher/tmp/generate_tools-0.1.5-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-14 01:19:33] INFO root fetch - main [MainThread]: End processing [generate-tools]: success
 [2024-05-14 01:19:33] INFO root fetch - main [MainThread]: Store serial: [23192365]
+[2024-05-14 01:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192365]
+[2024-05-14 01:21:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: owega
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-pipelines-sdk
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfx
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: journeylib
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: summarytools
+[2024-05-14 01:21:42] INFO root fetch - processPackages [journeylib]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ml-pipelines-sdk]: New version: [1.9.1] Old Version: [1.9.0rc0]
+[2024-05-14 01:21:42] INFO root fetch - processPackages [tfx]: New version: [1.9.1] Old Version: [1.9.0rc0]
+[2024-05-14 01:21:42] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/10/b7/25ba3b536906eada372ab9a3f06a3922be34893389f67e3b6a4c37c0cf36/journeylib-2.0.1.tar.gz
+[2024-05-14 01:21:42] INFO root fetch - processPackages [owega]: New version: [5.7.3] Old Version: [5.7.2]
+[2024-05-14 01:21:42] INFO root fetch - processPackages [summarytools]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-14 01:21:42] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/16/9e/7a376d11e29b0cee6781cb9c3aca423f8c6fcb4707bf764737bafdfad707/owega-5.7.2.tar.gz
+[2024-05-14 01:21:42] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/13/5e/fc606e6078fc016cf3c7e3bec3e012541ba2a6642f9d3f98946f178df3fd/journeylib-2.0.2.tar.gz
+[2024-05-14 01:21:42] INFO root fetch - processPackages [ml-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/0b/de/0efff1121efe9a2783d7b98152b1b8379cbc7e91a2e26d339a0cc2515e92/ml_pipelines_sdk-1.9.0rc0-py3-none-any.whl
+[2024-05-14 01:21:43] INFO root fetch - processPackages [tfx]: Downloading https://files.pythonhosted.org/packages/80/6c/6f908206558af5cebdf192dfb2a573747f1716b2717c82073521ba76b9a2/tfx-1.9.0rc0-py3-none-any.whl
+[2024-05-14 01:21:43] INFO root fetch - processPackages [summarytools]: Downloading https://files.pythonhosted.org/packages/74/00/2f7a837f632d398c7213b6d6c615426428cc6b1200e5f12fd6b79d6ae2ce/summarytools-0.2.3.tar.gz
+[2024-05-14 01:21:43] INFO root fetch - processPackages [journeylib]: executing diffoscope
+[2024-05-14 01:21:43] INFO root fetch - processPackages [journeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journeylib-2.0.1.tar.gz tmp/journeylib-2.0.2.tar.gz --markdown 20240514/j/journeylib/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-14 01:21:43] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/2e/9c/6c4f8ff66ef29a5670e1d816f53f4d63bee1f6218a63158d475b0b8a7a51/owega-5.7.3.tar.gz
+[2024-05-14 01:21:43] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-14 01:21:43] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.7.2.tar.gz tmp/owega-5.7.3.tar.gz --markdown 20240514/o/owega/5.7.2-5.7.3/README.md --exclude *.pyd
+[2024-05-14 01:21:43] INFO root fetch - processPackages [summarytools]: Downloading https://files.pythonhosted.org/packages/be/62/fb3c5356bdbd25f2e78ec12591900f461c49f3092fe2a6283aee08cabd69/summarytools-0.3.0.tar.gz
+[2024-05-14 01:21:43] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-2.0.1.tar.gz]
+[2024-05-14 01:21:43] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-2.0.2.tar.gz]
+[2024-05-14 01:21:43] INFO root fetch - main [MainThread]: End processing [journeylib]: success
+[2024-05-14 01:21:43] INFO root fetch - processPackages [summarytools]: executing diffoscope
+[2024-05-14 01:21:43] INFO root fetch - processPackages [summarytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summarytools-0.2.3.tar.gz tmp/summarytools-0.3.0.tar.gz --markdown 20240514/s/summarytools/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-14 01:21:43] INFO root fetch - processPackages [tfx]: Downloading https://files.pythonhosted.org/packages/57/e8/257e2dcb9e00cf5a9787fa98e16361bf89ad1d0165cb1763b99377579a93/tfx-1.9.1-py3-none-any.whl
+[2024-05-14 01:21:43] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.2.tar.gz]
+[2024-05-14 01:21:43] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.3.tar.gz]
+[2024-05-14 01:21:43] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-14 01:21:44] INFO root fetch - processPackages [summarytools]: Remove: archive file [/home/abi/fetcher/tmp/summarytools-0.2.3.tar.gz]
+[2024-05-14 01:21:44] INFO root fetch - processPackages [summarytools]: Remove: archive file [/home/abi/fetcher/tmp/summarytools-0.3.0.tar.gz]
+[2024-05-14 01:21:44] INFO root fetch - main [MainThread]: End processing [summarytools]: success
+[2024-05-14 01:21:44] INFO root fetch - processPackages [tfx]: executing diffoscope
+[2024-05-14 01:21:44] INFO root fetch - processPackages [tfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfx-1.9.0rc0-py3-none-any.whl.zip tmp/tfx-1.9.1-py3-none-any.whl.zip --markdown 20240514/t/tfx/1.9.0rc0-1.9.1/README.md --exclude *.pyd
+[2024-05-14 01:21:44] INFO root fetch - processPackages [ml-pipelines-sdk]: Downloading https://files.pythonhosted.org/packages/5e/c3/a57766f5c0762f7177e90323e845c7c0958227afb8537727d5e6c1fb9ab9/ml_pipelines_sdk-1.9.1-py3-none-any.whl
+[2024-05-14 01:21:44] INFO root fetch - processPackages [ml-pipelines-sdk]: executing diffoscope
+[2024-05-14 01:21:44] INFO root fetch - processPackages [ml-pipelines-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_pipelines_sdk-1.9.0rc0-py3-none-any.whl.zip tmp/ml_pipelines_sdk-1.9.1-py3-none-any.whl.zip --markdown 20240514/m/ml-pipelines-sdk/1.9.0rc0-1.9.1/README.md --exclude *.pyd
+[2024-05-14 01:21:46] INFO root fetch - processPackages [ml-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipelines_sdk-1.9.0rc0-py3-none-any.whl.zip]
+[2024-05-14 01:21:46] INFO root fetch - processPackages [ml-pipelines-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipelines_sdk-1.9.1-py3-none-any.whl.zip]
+[2024-05-14 01:21:46] INFO root fetch - main [MainThread]: End processing [ml-pipelines-sdk]: success
+[2024-05-14 01:21:47] INFO root fetch - processPackages [tfx]: Remove: archive file [/home/abi/fetcher/tmp/tfx-1.9.0rc0-py3-none-any.whl.zip]
+[2024-05-14 01:21:47] INFO root fetch - processPackages [tfx]: Remove: archive file [/home/abi/fetcher/tmp/tfx-1.9.1-py3-none-any.whl.zip]
+[2024-05-14 01:21:47] INFO root fetch - main [MainThread]: End processing [tfx]: success
+[2024-05-14 01:21:47] INFO root fetch - main [MainThread]: Store serial: [23192378]
