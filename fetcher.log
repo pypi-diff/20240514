@@ -2018,3 +2018,50 @@
 [2024-05-14 01:51:49] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
 [2024-05-14 01:51:49] INFO root fetch - main [MainThread]: End processing [kolena]: success
 [2024-05-14 01:51:49] INFO root fetch - main [MainThread]: Store serial: [23192607]
+[2024-05-14 01:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192607]
+[2024-05-14 01:53:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudtoolbox
+[2024-05-14 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-14 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-opfield
+[2024-05-14 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carbon-python-sdk
+[2024-05-14 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gradio
+[2024-05-14 01:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gradio-client
+[2024-05-14 01:53:57] WARNING root fetch - processPackages [django-opfield]: Skipping, unable to determine old version
+[2024-05-14 01:53:57] INFO root fetch - main [MainThread]: End processing [django-opfield] error
+[2024-05-14 01:53:57] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:53:57] INFO root fetch - processPackages [carbon-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 01:53:57] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:53:57] INFO root fetch - processPackages [cloudtoolbox]: New version: [0.2.1] Old Version: [0.1.0]
+[2024-05-14 01:53:57] INFO root fetch - processPackages [gradio-client]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-14 01:53:57] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-14 01:53:57] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/26/57/15366437f225c4db33f10eefc2dcaaeb5785566711f4dad3fdfdad41d1c5/carbon_python_sdk-0.1.8.tar.gz
+[2024-05-14 01:53:57] INFO root fetch - processPackages [cloudtoolbox]: Downloading https://files.pythonhosted.org/packages/34/92/8b4e401ba52535513825a68ae85a588bc679b6a985a919acc5fa309afaec/cloudtoolbox-0.1.0.tar.gz
+[2024-05-14 01:53:57] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/43/8a/1e90ee2bfd602ae3eed6e043d256b754a13d9c26462260e83d0dab39a31e/gradio_client-0.8.1.tar.gz
+[2024-05-14 01:53:57] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-05-14 01:53:57] INFO root fetch - processPackages [carbon-python-sdk]: Downloading https://files.pythonhosted.org/packages/e1/f5/2a5b19b30b427b767c9d7c7a83eccb5295f3370ba53da57b38913bff315c/carbon_python_sdk-0.1.9.tar.gz
+[2024-05-14 01:53:58] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:53:58] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-05-14 01:53:58] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-05-14 01:53:58] INFO root fetch - processPackages [carbon-python-sdk]: executing diffoscope
+[2024-05-14 01:53:58] INFO root fetch - processPackages [carbon-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon_python_sdk-0.1.8.tar.gz tmp/carbon_python_sdk-0.1.9.tar.gz --markdown 20240514/c/carbon-python-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 01:53:58] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:53:58] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:53:58] INFO root fetch - processPackages [cloudtoolbox]: Downloading https://files.pythonhosted.org/packages/a6/69/2fa8a5d53ae2ac0c22c72f9274698316f93971512613c5fb6cb1394f5a8d/cloudtoolbox-0.2.1.tar.gz
+[2024-05-14 01:53:58] INFO root fetch - processPackages [cloudtoolbox]: executing diffoscope
+[2024-05-14 01:53:58] INFO root fetch - processPackages [cloudtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudtoolbox-0.1.0.tar.gz tmp/cloudtoolbox-0.2.1.tar.gz --markdown 20240514/c/cloudtoolbox/0.1.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 01:53:58] INFO root fetch - processPackages [gradio-client]: Downloading https://files.pythonhosted.org/packages/7b/af/4443670ba46252320607429d325bd5b202b6b6c3d90edb8ac851405a0aef/gradio_client-0.9.0.tar.gz
+[2024-05-14 01:53:58] INFO root fetch - processPackages [gradio-client]: executing diffoscope
+[2024-05-14 01:53:58] INFO root fetch - processPackages [gradio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_client-0.8.1.tar.gz tmp/gradio_client-0.9.0.tar.gz --markdown 20240514/g/gradio-client/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-14 01:53:58] INFO root fetch - processPackages [cloudtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoolbox-0.1.0.tar.gz]
+[2024-05-14 01:53:58] INFO root fetch - processPackages [cloudtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/cloudtoolbox-0.2.1.tar.gz]
+[2024-05-14 01:53:58] INFO root fetch - main [MainThread]: End processing [cloudtoolbox]: success
+[2024-05-14 01:53:58] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 01:53:58] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 01:53:58] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:53:59] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.8.1.tar.gz]
+[2024-05-14 01:53:59] INFO root fetch - processPackages [gradio-client]: Remove: archive file [/home/abi/fetcher/tmp/gradio_client-0.9.0.tar.gz]
+[2024-05-14 01:53:59] INFO root fetch - main [MainThread]: End processing [gradio-client]: success
+[2024-05-14 01:54:00] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.8.tar.gz]
+[2024-05-14 01:54:00] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
+[2024-05-14 01:54:00] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
+[2024-05-14 01:54:00] INFO root fetch - main [MainThread]: Store serial: [23192626]
