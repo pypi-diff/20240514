@@ -1138,3 +1138,30 @@
 [2024-05-14 00:57:36] INFO root fetch - processPackages [databricks-rag-studio]: Remove: archive file [/home/abi/fetcher/tmp/databricks_rag_studio-0.2.0-py3-none-any.whl.zip]
 [2024-05-14 00:57:36] INFO root fetch - main [MainThread]: End processing [databricks-rag-studio]: success
 [2024-05-14 00:57:36] INFO root fetch - main [MainThread]: Store serial: [23192242]
+[2024-05-14 00:59:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192242]
+[2024-05-14 00:59:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 00:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dekdjtools
+[2024-05-14 00:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: md-incl
+[2024-05-14 00:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: consoleme
+[2024-05-14 00:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: postconcretismz
+[2024-05-14 00:59:44] INFO root fetch - processPackages [consoleme]: New version: [1.3.1.dev3] Old Version: [1.3.0]
+[2024-05-14 00:59:44] WARNING root fetch - processPackages [postconcretismz]: Skipping, unable to determine old version
+[2024-05-14 00:59:44] INFO root fetch - main [MainThread]: End processing [postconcretismz] error
+[2024-05-14 00:59:44] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 00:59:44] WARNING root fetch - processPackages [md-incl]: Skipping, unable to determine old version
+[2024-05-14 00:59:44] INFO root fetch - main [MainThread]: End processing [md-incl] error
+[2024-05-14 00:59:44] INFO root fetch - processPackages [consoleme]: Downloading https://files.pythonhosted.org/packages/fe/ab/e629d785336cc174139c4376222fae504463560e8fb300e8fe712a92851e/consoleme-1.3.0.tar.gz
+[2024-05-14 00:59:44] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-14 00:59:45] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-14 00:59:45] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-14 00:59:45] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240514/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 00:59:45] INFO root fetch - processPackages [consoleme]: Downloading https://files.pythonhosted.org/packages/b6/8c/91e8f4ef1fbbccda3e65a5eb3f7eb8740770f96a9e5f80d6b2b9af03ac1a/consoleme-1.3.1.dev3.tar.gz
+[2024-05-14 00:59:45] INFO root fetch - processPackages [consoleme]: executing diffoscope
+[2024-05-14 00:59:45] INFO root fetch - processPackages [consoleme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleme-1.3.0.tar.gz tmp/consoleme-1.3.1.dev3.tar.gz --markdown 20240514/c/consoleme/1.3.0-1.3.1.dev3/README.md --exclude *.pyd
+[2024-05-14 00:59:45] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-14 00:59:45] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-14 00:59:45] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-14 00:59:47] INFO root fetch - processPackages [consoleme]: Remove: archive file [/home/abi/fetcher/tmp/consoleme-1.3.0.tar.gz]
+[2024-05-14 00:59:47] INFO root fetch - processPackages [consoleme]: Remove: archive file [/home/abi/fetcher/tmp/consoleme-1.3.1.dev3.tar.gz]
+[2024-05-14 00:59:47] INFO root fetch - main [MainThread]: End processing [consoleme]: success
+[2024-05-14 00:59:47] INFO root fetch - main [MainThread]: Store serial: [23192257]
