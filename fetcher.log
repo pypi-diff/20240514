@@ -1985,3 +1985,36 @@
 [2024-05-14 01:49:38] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
 [2024-05-14 01:49:38] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
 [2024-05-14 01:49:38] INFO root fetch - main [MainThread]: Store serial: [23192596]
+[2024-05-14 01:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192596]
+[2024-05-14 01:51:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cacciasz
+[2024-05-14 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sarathi
+[2024-05-14 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolena
+[2024-05-14 01:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolena-client
+[2024-05-14 01:51:47] INFO root fetch - processPackages [kolena-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 01:51:47] WARNING root fetch - processPackages [cacciasz]: Skipping, unable to determine old version
+[2024-05-14 01:51:47] INFO root fetch - main [MainThread]: End processing [cacciasz] error
+[2024-05-14 01:51:47] INFO root fetch - processPackages [sarathi]: New version: [0.0.4a0] Old Version: [0.0.3]
+[2024-05-14 01:51:47] INFO root fetch - processPackages [kolena]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 01:51:47] INFO root fetch - processPackages [sarathi]: Downloading https://files.pythonhosted.org/packages/26/bf/74f33b855745b96e3410cb4c1bfacc712eeef7819337c61fa0c302e23398/sarathi-0.0.3.tar.gz
+[2024-05-14 01:51:47] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a3/a7/78d5afa11fb61ba1e3a48b56f90523118e38fe1c910a463478fb21a82f79/kolena_client-1.8.0.tar.gz
+[2024-05-14 01:51:47] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/0a/d6/97de9a0f80beba1be7fdf36a7755d95f269a93c86487a35a70f230bccde6/kolena-1.8.0.tar.gz
+[2024-05-14 01:51:47] INFO root fetch - processPackages [sarathi]: Downloading https://files.pythonhosted.org/packages/56/df/6727b73fcff68b2d1e189a52e1d0535af5a79d1c2f4b621f7e563fb325c7/sarathi-0.0.4a0.tar.gz
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a8/f0/873193dc29f6f975d384cd4650275c9264bfdf09d2bbeb4e617d8aec3d61/kolena_client-1.9.0.tar.gz
+[2024-05-14 01:51:48] INFO root fetch - processPackages [sarathi]: executing diffoscope
+[2024-05-14 01:51:48] INFO root fetch - processPackages [sarathi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarathi-0.0.3.tar.gz tmp/sarathi-0.0.4a0.tar.gz --markdown 20240514/s/sarathi/0.0.3-0.0.4a0/README.md --exclude *.pyd
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/96/79/bb655005ebffcb47a9d4a3150f2e8aa233b1219d02d5c56c170ff171f870/kolena-1.9.0.tar.gz
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-1.8.0.tar.gz tmp/kolena_client-1.9.0.tar.gz --markdown 20240514/k/kolena-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-1.8.0.tar.gz tmp/kolena-1.9.0.tar.gz --markdown 20240514/k/kolena/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-14 01:51:48] INFO root fetch - processPackages [sarathi]: Remove: archive file [/home/abi/fetcher/tmp/sarathi-0.0.3.tar.gz]
+[2024-05-14 01:51:48] INFO root fetch - processPackages [sarathi]: Remove: archive file [/home/abi/fetcher/tmp/sarathi-0.0.4a0.tar.gz]
+[2024-05-14 01:51:48] INFO root fetch - main [MainThread]: End processing [sarathi]: success
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.8.0.tar.gz]
+[2024-05-14 01:51:48] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.9.0.tar.gz]
+[2024-05-14 01:51:48] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2024-05-14 01:51:49] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.8.0.tar.gz]
+[2024-05-14 01:51:49] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
+[2024-05-14 01:51:49] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2024-05-14 01:51:49] INFO root fetch - main [MainThread]: Store serial: [23192607]
