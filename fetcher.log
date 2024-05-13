@@ -862,3 +862,27 @@
 [2024-05-14 00:35:49] INFO root fetch - processPackages [pyaedt]: Remove: archive file [/home/abi/fetcher/tmp/pyaedt-0.9.1.tar.gz]
 [2024-05-14 00:35:49] INFO root fetch - main [MainThread]: End processing [pyaedt]: success
 [2024-05-14 00:35:49] INFO root fetch - main [MainThread]: Store serial: [23192128]
+[2024-05-14 00:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192128]
+[2024-05-14 00:37:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 00:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradientai
+[2024-05-14 00:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoviewer
+[2024-05-14 00:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reflex-nav-menu
+[2024-05-14 00:37:58] INFO root fetch - processPackages [ecoviewer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 00:37:58] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/c4/0c/f816e44f902f49f76874346f67bd47e86997930ef305492e9ac15e6bf08e/ecoviewer-0.1.0.tar.gz
+[2024-05-14 00:37:58] INFO root fetch - processPackages [gradientai]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-14 00:37:58] WARNING root fetch - processPackages [reflex-nav-menu]: Skipping, unable to determine old version
+[2024-05-14 00:37:58] INFO root fetch - main [MainThread]: End processing [reflex-nav-menu] error
+[2024-05-14 00:37:58] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/4c/b6/ab9baeb11bfb46a85748003c64ee1c2ce82d0bdcbcb2efd956ee8a8f604a/ecoviewer-0.1.1.tar.gz
+[2024-05-14 00:37:58] INFO root fetch - processPackages [gradientai]: Downloading https://files.pythonhosted.org/packages/73/02/0d44ee0c6f57e36730cc2c18e0d4b01b0120738d7e1055ccc231dff3190a/gradientai-1.9.0.tar.gz
+[2024-05-14 00:37:59] INFO root fetch - processPackages [ecoviewer]: executing diffoscope
+[2024-05-14 00:37:59] INFO root fetch - processPackages [ecoviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoviewer-0.1.0.tar.gz tmp/ecoviewer-0.1.1.tar.gz --markdown 20240514/e/ecoviewer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 00:37:59] INFO root fetch - processPackages [gradientai]: Downloading https://files.pythonhosted.org/packages/c8/8c/975a11a75abc2beec79a8bc3a3e831a3880790f1ded8d3c0a4eff7f52768/gradientai-1.9.1.tar.gz
+[2024-05-14 00:37:59] INFO root fetch - processPackages [gradientai]: executing diffoscope
+[2024-05-14 00:37:59] INFO root fetch - processPackages [gradientai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradientai-1.9.0.tar.gz tmp/gradientai-1.9.1.tar.gz --markdown 20240514/g/gradientai/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-14 00:37:59] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.1.0.tar.gz]
+[2024-05-14 00:37:59] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.1.1.tar.gz]
+[2024-05-14 00:37:59] INFO root fetch - main [MainThread]: End processing [ecoviewer]: success
+[2024-05-14 00:38:00] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.0.tar.gz]
+[2024-05-14 00:38:00] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.1.tar.gz]
+[2024-05-14 00:38:00] INFO root fetch - main [MainThread]: End processing [gradientai]: success
+[2024-05-14 00:38:00] INFO root fetch - main [MainThread]: Store serial: [23192140]
