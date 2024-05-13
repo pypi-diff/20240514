@@ -1075,3 +1075,54 @@
 [2024-05-14 00:53:12] INFO root fetch - processPackages [mtbp3]: Remove: archive file [/home/abi/fetcher/tmp/mtbp3-0.2.6-py3-none-any.whl.zip]
 [2024-05-14 00:53:12] INFO root fetch - main [MainThread]: End processing [mtbp3]: success
 [2024-05-14 00:53:12] INFO root fetch - main [MainThread]: Store serial: [23192221]
+[2024-05-14 00:55:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192221]
+[2024-05-14 00:55:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: horde-engine
+[2024-05-14 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arsenylz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sorcerun
+[2024-05-14 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kawin
+[2024-05-14 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shakemap-modules
+[2024-05-14 00:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gable
+[2024-05-14 00:55:21] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-14 00:55:21] WARNING root fetch - processPackages [arsenylz]: Skipping, unable to determine old version
+[2024-05-14 00:55:21] INFO root fetch - main [MainThread]: End processing [arsenylz] error
+[2024-05-14 00:55:21] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [horde-engine]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-05-14 00:55:21] INFO root fetch - processPackages [shakemap-modules]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 00:55:21] INFO root fetch - processPackages [kawin]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-14 00:55:21] INFO root fetch - processPackages [sorcerun]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-14 00:55:21] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [kawin]: Downloading https://files.pythonhosted.org/packages/cd/ca/b8218f32cb899f7415e7398dc629d077f242c12ca668c40603009de16999/kawin-0.2.0.tar.gz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [sorcerun]: Downloading https://files.pythonhosted.org/packages/9b/0d/d40f202601ff9ced531d5b08100542089510bdd9efade90dc711d0c0c297/sorcerun-0.4.0.tar.gz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [shakemap-modules]: Downloading https://files.pythonhosted.org/packages/7a/86/0bd74cdf6c15a6a0dcaa5e1abc2971c8c36f1be33ee30c11b3e30292a63e/shakemap-modules-1.0.8.tar.gz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [horde-engine]: Downloading https://files.pythonhosted.org/packages/d8/f5/663e3a278321b2d79f83cf7bf91963a8ecdb0006ec9465bfc4504c741652/horde_engine-2.9.2.tar.gz
+[2024-05-14 00:55:21] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-14 00:55:21] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240514/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-14 00:55:22] INFO root fetch - processPackages [sorcerun]: Downloading https://files.pythonhosted.org/packages/92/86/adff4207a449a626bfbb486bc707203cddf889b277eeedae922ae3c77fe5/sorcerun-0.4.1.tar.gz
+[2024-05-14 00:55:22] INFO root fetch - processPackages [kawin]: Downloading https://files.pythonhosted.org/packages/f8/0e/6dd6a8f1ab871a69f02e24339dca06242e7d030f41871c7577271028802d/kawin-0.3.0.tar.gz
+[2024-05-14 00:55:22] INFO root fetch - processPackages [sorcerun]: executing diffoscope
+[2024-05-14 00:55:22] INFO root fetch - processPackages [sorcerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorcerun-0.4.0.tar.gz tmp/sorcerun-0.4.1.tar.gz --markdown 20240514/s/sorcerun/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-14 00:55:22] INFO root fetch - processPackages [shakemap-modules]: Downloading https://files.pythonhosted.org/packages/ba/c2/96f54a2d014612a52000ed209b562d2f7bbe8ba6d887a69c358c4f5d5213/shakemap-modules-1.0.9.tar.gz
+[2024-05-14 00:55:22] INFO root fetch - processPackages [kawin]: executing diffoscope
+[2024-05-14 00:55:22] INFO root fetch - processPackages [kawin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kawin-0.2.0.tar.gz tmp/kawin-0.3.0.tar.gz --markdown 20240514/k/kawin/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-14 00:55:22] INFO root fetch - processPackages [horde-engine]: Downloading https://files.pythonhosted.org/packages/07/8e/3edadb065af8c6fc4881cde73f8e929c6b694b4d6c14a372308e421f1af5/horde_engine-2.9.3.tar.gz
+[2024-05-14 00:55:22] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-14 00:55:22] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-14 00:55:22] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-14 00:55:22] INFO root fetch - processPackages [shakemap-modules]: executing diffoscope
+[2024-05-14 00:55:22] INFO root fetch - processPackages [shakemap-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shakemap-modules-1.0.8.tar.gz tmp/shakemap-modules-1.0.9.tar.gz --markdown 20240514/s/shakemap-modules/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 00:55:22] INFO root fetch - processPackages [horde-engine]: executing diffoscope
+[2024-05-14 00:55:22] INFO root fetch - processPackages [horde-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/horde_engine-2.9.2.tar.gz tmp/horde_engine-2.9.3.tar.gz --markdown 20240514/h/horde-engine/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-05-14 00:55:22] INFO root fetch - processPackages [sorcerun]: Remove: archive file [/home/abi/fetcher/tmp/sorcerun-0.4.0.tar.gz]
+[2024-05-14 00:55:22] INFO root fetch - processPackages [sorcerun]: Remove: archive file [/home/abi/fetcher/tmp/sorcerun-0.4.1.tar.gz]
+[2024-05-14 00:55:22] INFO root fetch - main [MainThread]: End processing [sorcerun]: success
+[2024-05-14 00:55:23] INFO root fetch - processPackages [kawin]: Remove: archive file [/home/abi/fetcher/tmp/kawin-0.2.0.tar.gz]
+[2024-05-14 00:55:23] INFO root fetch - processPackages [kawin]: Remove: archive file [/home/abi/fetcher/tmp/kawin-0.3.0.tar.gz]
+[2024-05-14 00:55:23] INFO root fetch - main [MainThread]: End processing [kawin]: success
+[2024-05-14 00:55:23] INFO root fetch - processPackages [shakemap-modules]: Remove: archive file [/home/abi/fetcher/tmp/shakemap-modules-1.0.8.tar.gz]
+[2024-05-14 00:55:23] INFO root fetch - processPackages [shakemap-modules]: Remove: archive file [/home/abi/fetcher/tmp/shakemap-modules-1.0.9.tar.gz]
+[2024-05-14 00:55:23] INFO root fetch - main [MainThread]: End processing [shakemap-modules]: success
+[2024-05-14 00:55:26] INFO root fetch - processPackages [horde-engine]: Remove: archive file [/home/abi/fetcher/tmp/horde_engine-2.9.2.tar.gz]
+[2024-05-14 00:55:26] INFO root fetch - processPackages [horde-engine]: Remove: archive file [/home/abi/fetcher/tmp/horde_engine-2.9.3.tar.gz]
+[2024-05-14 00:55:26] INFO root fetch - main [MainThread]: End processing [horde-engine]: success
+[2024-05-14 00:55:26] INFO root fetch - main [MainThread]: Store serial: [23192240]
