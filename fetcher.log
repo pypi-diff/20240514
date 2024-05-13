@@ -552,3 +552,84 @@
 [2024-05-14 00:21:52] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.1.tar.gz]
 [2024-05-14 00:21:52] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-05-14 00:21:52] INFO root fetch - main [MainThread]: Store serial: [23192013]
+[2024-05-14 00:23:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192013]
+[2024-05-14 00:24:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lastmile-eval
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: counterpointz
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mle-ons-hidrological
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-web
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-google
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-aqt
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genocide
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-rigetti
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-ionq
+[2024-05-14 00:24:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-pasqal
+[2024-05-14 00:24:01] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 00:24:01] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-14 00:24:02] WARNING root fetch - processPackages [counterpointz]: Skipping, unable to determine old version
+[2024-05-14 00:24:02] INFO root fetch - main [MainThread]: End processing [counterpointz] error
+[2024-05-14 00:24:02] WARNING root fetch - processPackages [mle-ons-hidrological]: Skipping, unable to determine old version
+[2024-05-14 00:24:02] INFO root fetch - main [MainThread]: End processing [mle-ons-hidrological] error
+[2024-05-14 00:24:02] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:24:02] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/3b/c6/ec0f41406b1fdb6c744bd365bce7e4e9feec3d1d293b666c803c9c517165/cirq_ionq-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/0b/56/0e624d0312a06f9af3ae1200a0f4c8a568a76250f3afc2d5418e689f53bc/cirq_rigetti-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/e1/95/cd9f4b039e97a7d5f6de9aa6bd3cb261f14e57cc8005d3234d9ca9982521/cirq_web-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/db/79/806e6d2e6138603450cd1cde61edb39133813b01844add9439f62fad0273/cirq_google-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-14 00:24:02] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240514/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/af/28/d78dc75f049917fb7f67925c1e05b9f7f0875880e2ecafeea611fd6966cd/cirq_pasqal-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/c5/00/083dc78b51479faa963884e0fb32205a279770d8619101e9756ff04d3d67/cirq_aqt-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/ce/e5/b0dddf10793df54be910e626cf974249a401fa0651afd4671de76a242c02/cirq_ionq-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/0e/76/33935545494f2217a493097d1d840830bc666f59c7554b3b45c1e1ce5e86/cirq_rigetti-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/14/c4/2a194bc7307eb2b4a02e2ae0b1aad7f4995b2e560cd01c6c592fdf8aecaf/cirq_pasqal-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-ionq/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/86/0d/7bdf72d457dba99be0dd669b535b76e3a4b306f5141f0a93bc1c57f8d9d6/cirq_aqt-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/4e/20/634ecffeef465c1b3a0002adad55b1326afdf32e18a17634f27346c99b40/cirq_google-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/c1/43/8aa8e0f141265e6c12be7acb4dbade4800a2eb9e2246c95aead63cfed839/cirq_web-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-rigetti/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-05-14 00:24:02] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-aqt/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-pasqal/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-web/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:24:03] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2024-05-14 00:24:03] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20240514/g/genocide/90-91/README.md --exclude *.pyd
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-google/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:24:03] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-14 00:24:03] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-14 00:24:03] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:24:03] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-05-14 00:24:04] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:24:04] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:24:04] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-05-14 00:24:04] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2024-05-14 00:24:04] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2024-05-14 00:24:04] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2024-05-14 00:24:04] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:24:04] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:24:04] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-05-14 00:24:04] INFO root fetch - main [MainThread]: Store serial: [23192040]
