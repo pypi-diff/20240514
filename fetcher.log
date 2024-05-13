@@ -1913,3 +1913,54 @@
 [2024-05-14 01:45:13] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev6.tar.gz]
 [2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
 [2024-05-14 01:45:13] INFO root fetch - main [MainThread]: Store serial: [23192570]
+[2024-05-14 01:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192570]
+[2024-05-14 01:47:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 01:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: compas
+[2024-05-14 01:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distclassipy
+[2024-05-14 01:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contextooor
+[2024-05-14 01:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: refuel
+[2024-05-14 01:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamicdl
+[2024-05-14 01:47:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dansplotcore
+[2024-05-14 01:47:22] INFO root fetch - processPackages [contextooor]: New version: [0.9.9.7] Old Version: [0.9.9.6]
+[2024-05-14 01:47:22] INFO root fetch - processPackages [refuel]: New version: [0.9.0] Old Version: [0.4.0]
+[2024-05-14 01:47:22] INFO root fetch - processPackages [distclassipy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 01:47:22] INFO root fetch - processPackages [contextooor]: Downloading https://files.pythonhosted.org/packages/a1/af/442424cf41190fd199f81b567de5d765233395d438151a950dff5d1b3d70/contextooor-0.9.9.6.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [refuel]: Downloading https://files.pythonhosted.org/packages/c0/b1/4cb9b9ef4b08c28f836a612577cab145e83f53bb4bceb74cc0989789c388/refuel-0.4.0.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [dansplotcore]: New version: [6.3.0] Old Version: [6.2.2]
+[2024-05-14 01:47:22] INFO root fetch - processPackages [compas]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-14 01:47:22] WARNING root fetch - processPackages [dynamicdl]: Skipping, unable to determine old version
+[2024-05-14 01:47:22] INFO root fetch - main [MainThread]: End processing [dynamicdl] error
+[2024-05-14 01:47:22] INFO root fetch - processPackages [distclassipy]: Downloading https://files.pythonhosted.org/packages/f5/54/d0e013cf556dac27dd9b36c619eb7532192a3ad793e8bf55eebe21d0595c/distclassipy-0.1.3.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [refuel]: Downloading https://files.pythonhosted.org/packages/b0/8f/34072e6274adaebfc3c354e391641a041f9bf1f473cbe3390c624fbd6522/refuel-0.9.0.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/44/48/6fa9f5d8fb2fd73f5d9eb3406768e0ecfb6e77d6e41e7766094631442d68/dansplotcore-6.2.2.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [compas]: Downloading https://files.pythonhosted.org/packages/65/c0/65283cb7d85d0e8a0b4e51de611af47d50473dcaf44d67faef0cafff5185/COMPAS-2.1.0.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [contextooor]: Downloading https://files.pythonhosted.org/packages/e5/93/f4ad58dff0a80780f6567613cc46afc5fad215c5aea14f3d222727897c18/contextooor-0.9.9.7-py2.py3-none-any.whl
+[2024-05-14 01:47:22] INFO root fetch - processPackages [refuel]: executing diffoscope
+[2024-05-14 01:47:22] INFO root fetch - processPackages [refuel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refuel-0.4.0.tar.gz tmp/refuel-0.9.0.tar.gz --markdown 20240514/r/refuel/0.4.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 01:47:22] INFO root fetch - processPackages [contextooor]: executing diffoscope
+[2024-05-14 01:47:22] INFO root fetch - processPackages [contextooor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contextooor-0.9.9.6.tar.gz tmp/contextooor-0.9.9.7-py2.py3-none-any.whl.zip --markdown 20240514/c/contextooor/0.9.9.6-0.9.9.7/README.md --exclude *.pyd
+[2024-05-14 01:47:22] INFO root fetch - processPackages [distclassipy]: Downloading https://files.pythonhosted.org/packages/8e/2c/cfeb59422e3cc27b2ab4d380ff9f5af3d9f3e7061c9bd309f2c57b2a3ad0/distclassipy-0.1.4.tar.gz
+[2024-05-14 01:47:22] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/2d/5f/1d8f85b29ffcee96294dbf5d5ae8a0e2b5a75dad71487dbedd5b46f2f1e6/dansplotcore-6.3.0.tar.gz
+[2024-05-14 01:47:23] INFO root fetch - processPackages [distclassipy]: executing diffoscope
+[2024-05-14 01:47:23] INFO root fetch - processPackages [distclassipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distclassipy-0.1.3.tar.gz tmp/distclassipy-0.1.4.tar.gz --markdown 20240514/d/distclassipy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 01:47:23] INFO root fetch - processPackages [compas]: Downloading https://files.pythonhosted.org/packages/4c/ee/7d849eb4a19a230ff916b2ada0a044b9b03b42a81d0518f97494dfedc04a/compas-2.1.1.tar.gz
+[2024-05-14 01:47:23] INFO root fetch - processPackages [dansplotcore]: executing diffoscope
+[2024-05-14 01:47:23] INFO root fetch - processPackages [dansplotcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dansplotcore-6.2.2.tar.gz tmp/dansplotcore-6.3.0.tar.gz --markdown 20240514/d/dansplotcore/6.2.2-6.3.0/README.md --exclude *.pyd
+[2024-05-14 01:47:23] INFO root fetch - processPackages [compas]: executing diffoscope
+[2024-05-14 01:47:23] INFO root fetch - processPackages [compas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/COMPAS-2.1.0.tar.gz tmp/compas-2.1.1.tar.gz --markdown 20240514/c/compas/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-14 01:47:23] INFO root fetch - processPackages [contextooor]: Remove: archive file [/home/abi/fetcher/tmp/contextooor-0.9.9.6.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - processPackages [contextooor]: Remove: archive file [/home/abi/fetcher/tmp/contextooor-0.9.9.7-py2.py3-none-any.whl.zip]
+[2024-05-14 01:47:23] INFO root fetch - main [MainThread]: End processing [contextooor]: success
+[2024-05-14 01:47:23] INFO root fetch - processPackages [refuel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-0.4.0.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - processPackages [refuel]: Remove: archive file [/home/abi/fetcher/tmp/refuel-0.9.0.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - main [MainThread]: End processing [refuel]: success
+[2024-05-14 01:47:23] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.2.2.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.3.0.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - main [MainThread]: End processing [dansplotcore]: success
+[2024-05-14 01:47:23] INFO root fetch - processPackages [distclassipy]: Remove: archive file [/home/abi/fetcher/tmp/distclassipy-0.1.3.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - processPackages [distclassipy]: Remove: archive file [/home/abi/fetcher/tmp/distclassipy-0.1.4.tar.gz]
+[2024-05-14 01:47:23] INFO root fetch - main [MainThread]: End processing [distclassipy]: success
+[2024-05-14 01:47:28] INFO root fetch - processPackages [compas]: Remove: archive file [/home/abi/fetcher/tmp/COMPAS-2.1.0.tar.gz]
+[2024-05-14 01:47:28] INFO root fetch - processPackages [compas]: Remove: archive file [/home/abi/fetcher/tmp/compas-2.1.1.tar.gz]
+[2024-05-14 01:47:28] INFO root fetch - main [MainThread]: End processing [compas]: success
+[2024-05-14 01:47:28] INFO root fetch - main [MainThread]: Store serial: [23192591]
