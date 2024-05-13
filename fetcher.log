@@ -988,3 +988,63 @@
 [2024-05-14 00:48:52] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.9.tar.gz]
 [2024-05-14 00:48:52] INFO root fetch - main [MainThread]: End processing [ez]: success
 [2024-05-14 00:48:52] INFO root fetch - main [MainThread]: Store serial: [23192187]
+[2024-05-14 00:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192187]
+[2024-05-14 00:51:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: okn-py-updater
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kywy
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spliceai-toolkit
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sonatoki
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiwi-stackbuild-plugin
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elements
+[2024-05-14 00:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wherobots-python-dbapi
+[2024-05-14 00:51:01] INFO root fetch - processPackages [okn-py-updater]: New version: [2.0.0] Old Version: [1.0.7]
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kywy]: New version: [0.18.0b9] Old Version: [0.18.0b8]
+[2024-05-14 00:51:01] INFO root fetch - processPackages [wherobots-python-dbapi]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-14 00:51:01] INFO root fetch - processPackages [elements]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-14 00:51:01] INFO root fetch - processPackages [sonatoki]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-14 00:51:01] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/28/48/9c42fa51e4e2b16cc6f3bd4a0d44ecdc9fb4e64a98796a8112f896af87b5/okn_py_updater-1.0.7.tar.gz
+[2024-05-14 00:51:01] WARNING root fetch - processPackages [spliceai-toolkit]: Skipping, unable to determine old version
+[2024-05-14 00:51:01] INFO root fetch - main [MainThread]: End processing [spliceai-toolkit] error
+[2024-05-14 00:51:01] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/00/b5/162d306ada3c84d80cb87e46023c970ce284da9b121514c2d5c4cf1a6a30/elements-3.3.0.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [wherobots-python-dbapi]: Downloading https://files.pythonhosted.org/packages/b2/16/0fa16bb2e33ed0a28b2180f859ebc2e603d245def048725daf0fcf56e94b/wherobots_python_dbapi-0.4.0.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/5a/35/d09681ca4dba675cb340afcda2294f700aa776e80bb79d04f8b902d66c14/kywy-0.18.0b8-py3-none-any.whl
+[2024-05-14 00:51:01] INFO root fetch - processPackages [sonatoki]: Downloading https://files.pythonhosted.org/packages/23/07/7aa6a13c2b3645dbfad9d2da30edd6b4fbacb90a69cbdd9a9f9738ea4584/sonatoki-0.2.0.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: Downloading https://files.pythonhosted.org/packages/c6/5d/b2d50289811d1c3048ca226355e209494d9dcadddfa324e28de0d63afe22/kiwi_stackbuild_plugin-1.0.6.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/f6/14/d81be41d935c0b902eead8cc412d2382e55601db44cdec0650a4ab5146b3/elements-3.4.0.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [wherobots-python-dbapi]: Downloading https://files.pythonhosted.org/packages/21/c2/6d1bf13bbd6b57eed61bcc355000d8e0de5c28dc6d801564f1c60005ed96/wherobots_python_dbapi-0.5.0.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kywy]: Downloading https://files.pythonhosted.org/packages/9a/f8/24411333415c7d5a41eb0b9f0ad87d2cd2123835ebc09f94853b04aca91c/kywy-0.18.0b9-py3-none-any.whl
+[2024-05-14 00:51:01] INFO root fetch - processPackages [okn-py-updater]: Downloading https://files.pythonhosted.org/packages/0f/06/46d8e23e7a5499ec00d3eb83005f5fd10cbffa38a2d110514e634138505b/okn_py_updater-2.0.0.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [elements]: executing diffoscope
+[2024-05-14 00:51:01] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-3.3.0.tar.gz tmp/elements-3.4.0.tar.gz --markdown 20240514/e/elements/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-14 00:51:01] INFO root fetch - processPackages [wherobots-python-dbapi]: executing diffoscope
+[2024-05-14 00:51:01] INFO root fetch - processPackages [wherobots-python-dbapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wherobots_python_dbapi-0.4.0.tar.gz tmp/wherobots_python_dbapi-0.5.0.tar.gz --markdown 20240514/w/wherobots-python-dbapi/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kywy]: executing diffoscope
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kywy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kywy-0.18.0b8-py3-none-any.whl.zip tmp/kywy-0.18.0b9-py3-none-any.whl.zip --markdown 20240514/k/kywy/0.18.0b8-0.18.0b9/README.md --exclude *.pyd
+[2024-05-14 00:51:01] INFO root fetch - processPackages [sonatoki]: Downloading https://files.pythonhosted.org/packages/fa/66/06d62f457b5fb6abec4974d9e013061e1e40a0362ae371b35416b3eede52/sonatoki-0.2.1.tar.gz
+[2024-05-14 00:51:01] INFO root fetch - processPackages [okn-py-updater]: executing diffoscope
+[2024-05-14 00:51:01] INFO root fetch - processPackages [okn-py-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/okn_py_updater-1.0.7.tar.gz tmp/okn_py_updater-2.0.0.tar.gz --markdown 20240514/o/okn-py-updater/1.0.7-2.0.0/README.md --exclude *.pyd
+[2024-05-14 00:51:01] INFO root fetch - processPackages [sonatoki]: executing diffoscope
+[2024-05-14 00:51:01] INFO root fetch - processPackages [sonatoki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonatoki-0.2.0.tar.gz tmp/sonatoki-0.2.1.tar.gz --markdown 20240514/s/sonatoki/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 00:51:01] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: Downloading https://files.pythonhosted.org/packages/49/38/807606c0ae023fc206a8a4a6cc0feb039e3788b03c2fa57fe51bccc19cf1/kiwi_stackbuild_plugin-1.0.7.tar.gz
+[2024-05-14 00:51:02] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: executing diffoscope
+[2024-05-14 00:51:02] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwi_stackbuild_plugin-1.0.6.tar.gz tmp/kiwi_stackbuild_plugin-1.0.7.tar.gz --markdown 20240514/k/kiwi-stackbuild-plugin/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-14 00:51:02] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.4.0.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - processPackages [wherobots-python-dbapi]: Remove: archive file [/home/abi/fetcher/tmp/wherobots_python_dbapi-0.5.0.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [wherobots-python-dbapi]: success
+[2024-05-14 00:51:02] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-1.0.7.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - processPackages [okn-py-updater]: Remove: archive file [/home/abi/fetcher/tmp/okn_py_updater-2.0.0.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [okn-py-updater]: success
+[2024-05-14 00:51:02] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b8-py3-none-any.whl.zip]
+[2024-05-14 00:51:02] INFO root fetch - processPackages [kywy]: Remove: archive file [/home/abi/fetcher/tmp/kywy-0.18.0b9-py3-none-any.whl.zip]
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [kywy]: success
+[2024-05-14 00:51:02] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.3.0.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.4.0.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2024-05-14 00:51:02] INFO root fetch - processPackages [sonatoki]: Remove: archive file [/home/abi/fetcher/tmp/sonatoki-0.2.0.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - processPackages [sonatoki]: Remove: archive file [/home/abi/fetcher/tmp/sonatoki-0.2.1.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [sonatoki]: success
+[2024-05-14 00:51:02] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_stackbuild_plugin-1.0.6.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_stackbuild_plugin-1.0.7.tar.gz]
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [kiwi-stackbuild-plugin]: success
+[2024-05-14 00:51:02] INFO root fetch - main [MainThread]: Store serial: [23192208]
