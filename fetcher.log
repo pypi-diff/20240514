@@ -2119,3 +2119,51 @@
 [2024-05-14 01:56:12] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.13.tar.gz]
 [2024-05-14 01:56:12] INFO root fetch - main [MainThread]: End processing [validate-pyproject-schema-store]: success
 [2024-05-14 01:56:12] INFO root fetch - main [MainThread]: Store serial: [23192647]
+[2024-05-14 01:58:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192647]
+[2024-05-14 01:58:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lytils
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astromorphlib
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ELSholdings
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dynamicdl-headless
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fairchem-data-oc
+[2024-05-14 01:58:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglet
+[2024-05-14 01:58:21] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:58:21] INFO root fetch - processPackages [lytils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 01:58:21] WARNING root fetch - processPackages [ELSholdings]: Skipping, unable to determine old version
+[2024-05-14 01:58:21] INFO root fetch - main [MainThread]: End processing [ELSholdings] error
+[2024-05-14 01:58:21] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:58:21] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/e5/63/947a765769a040af108780166ef416734281e055d3577ce6f8ecd6dcff7b/lytils-0.1.8.tar.gz
+[2024-05-14 01:58:21] WARNING root fetch - processPackages [fairchem-data-oc]: Skipping, unable to determine old version
+[2024-05-14 01:58:21] INFO root fetch - main [MainThread]: End processing [fairchem-data-oc] error
+[2024-05-14 01:58:21] WARNING root fetch - processPackages [dynamicdl-headless]: Skipping, unable to determine old version
+[2024-05-14 01:58:21] INFO root fetch - main [MainThread]: End processing [dynamicdl-headless] error
+[2024-05-14 01:58:21] INFO root fetch - processPackages [astromorphlib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 01:58:21] INFO root fetch - processPackages [pyglet]: New version: [2.1.dev2] Old Version: [2.1.dev1]
+[2024-05-14 01:58:21] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/47/f2/15accaaf8b3ff3e0f0f877cb445d79db9dcd4614b25c36859a4bfd9c5c75/lytils-0.1.9.tar.gz
+[2024-05-14 01:58:21] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:58:21] INFO root fetch - processPackages [astromorphlib]: Downloading https://files.pythonhosted.org/packages/11/f3/7986751893fa223b3ef4a527461041ebd26bf69723566c075ce36957810b/astromorphlib-1.0.0.tar.gz
+[2024-05-14 01:58:21] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-14 01:58:21] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.8.tar.gz tmp/lytils-0.1.9.tar.gz --markdown 20240514/l/lytils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 01:58:21] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:58:21] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:58:21] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/7e/21/a514b8358e5f3c49e54edd055637ecb8e6f52af2d9c25bd0d9435c9fa6e0/pyglet-2.1.dev1.tar.gz
+[2024-05-14 01:58:22] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/49/c8/02cc0eb8407c7b7c0181ebf2ab72bc46acd2db41c8a50efb67fb145ca5c8/pyglet-2.1.dev2.tar.gz
+[2024-05-14 01:58:22] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 01:58:22] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 01:58:22] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:58:22] INFO root fetch - processPackages [astromorphlib]: Downloading https://files.pythonhosted.org/packages/50/b9/46d8f901d57a44df2027139c7131a80370028487ff74fd617951f56dbe28/astromorphlib-1.0.1.tar.gz
+[2024-05-14 01:58:22] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.8.tar.gz]
+[2024-05-14 01:58:22] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.9.tar.gz]
+[2024-05-14 01:58:22] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-14 01:58:22] INFO root fetch - processPackages [pyglet]: executing diffoscope
+[2024-05-14 01:58:22] INFO root fetch - processPackages [pyglet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglet-2.1.dev1.tar.gz tmp/pyglet-2.1.dev2.tar.gz --markdown 20240514/p/pyglet/2.1.dev1-2.1.dev2/README.md --exclude *.pyd
+[2024-05-14 01:58:22] INFO root fetch - processPackages [astromorphlib]: executing diffoscope
+[2024-05-14 01:58:22] INFO root fetch - processPackages [astromorphlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromorphlib-1.0.0.tar.gz tmp/astromorphlib-1.0.1.tar.gz --markdown 20240514/a/astromorphlib/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 01:58:24] INFO root fetch - processPackages [astromorphlib]: Remove: archive file [/home/abi/fetcher/tmp/astromorphlib-1.0.0.tar.gz]
+[2024-05-14 01:58:24] INFO root fetch - processPackages [astromorphlib]: Remove: archive file [/home/abi/fetcher/tmp/astromorphlib-1.0.1.tar.gz]
+[2024-05-14 01:58:24] INFO root fetch - main [MainThread]: End processing [astromorphlib]: success
+[2024-05-14 01:58:24] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.1.dev1.tar.gz]
+[2024-05-14 01:58:24] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.1.dev2.tar.gz]
+[2024-05-14 01:58:24] INFO root fetch - main [MainThread]: End processing [pyglet]: success
+[2024-05-14 01:58:24] INFO root fetch - main [MainThread]: Store serial: [23192673]
