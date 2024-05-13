@@ -787,3 +787,18 @@
 [2024-05-14 00:31:27] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-05-14 00:31:27] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-05-14 00:31:27] INFO root fetch - main [MainThread]: Store serial: [23192099]
+[2024-05-14 00:33:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192099]
+[2024-05-14 00:33:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 00:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastgoingz
+[2024-05-14 00:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinecone-client
+[2024-05-14 00:33:36] WARNING root fetch - processPackages [fastgoingz]: Skipping, unable to determine old version
+[2024-05-14 00:33:36] INFO root fetch - main [MainThread]: End processing [fastgoingz] error
+[2024-05-14 00:33:36] INFO root fetch - processPackages [pinecone-client]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-05-14 00:33:36] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/39/95/83c8109a8c02ef5a11614e22a10eb3873b99cb58b479a9dc24c48917f44e/pinecone_client-4.0.0.tar.gz
+[2024-05-14 00:33:37] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/0c/b4/72dfdf2372cc8993e043ed58f9c0b60cc4bd5539deb513c3257672a8c5c8/pinecone_client-4.1.0.tar.gz
+[2024-05-14 00:33:37] INFO root fetch - processPackages [pinecone-client]: executing diffoscope
+[2024-05-14 00:33:37] INFO root fetch - processPackages [pinecone-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_client-4.0.0.tar.gz tmp/pinecone_client-4.1.0.tar.gz --markdown 20240514/p/pinecone-client/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-05-14 00:33:38] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_client-4.0.0.tar.gz]
+[2024-05-14 00:33:38] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_client-4.1.0.tar.gz]
+[2024-05-14 00:33:38] INFO root fetch - main [MainThread]: End processing [pinecone-client]: success
+[2024-05-14 00:33:38] INFO root fetch - main [MainThread]: Store serial: [23192107]
