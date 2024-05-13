@@ -1964,3 +1964,24 @@
 [2024-05-14 01:47:28] INFO root fetch - processPackages [compas]: Remove: archive file [/home/abi/fetcher/tmp/compas-2.1.1.tar.gz]
 [2024-05-14 01:47:28] INFO root fetch - main [MainThread]: End processing [compas]: success
 [2024-05-14 01:47:28] INFO root fetch - main [MainThread]: Store serial: [23192591]
+[2024-05-14 01:49:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192591]
+[2024-05-14 01:49:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 01:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-all-star
+[2024-05-14 01:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lytils
+[2024-05-14 01:49:37] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-14 01:49:37] INFO root fetch - processPackages [lytils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 01:49:37] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/e5/63/947a765769a040af108780166ef416734281e055d3577ce6f8ecd6dcff7b/lytils-0.1.8.tar.gz
+[2024-05-14 01:49:37] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-05-14 01:49:37] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/47/f2/15accaaf8b3ff3e0f0f877cb445d79db9dcd4614b25c36859a4bfd9c5c75/lytils-0.1.9.tar.gz
+[2024-05-14 01:49:37] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-05-14 01:49:37] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-14 01:49:37] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.8.tar.gz tmp/lytils-0.1.9.tar.gz --markdown 20240514/l/lytils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 01:49:37] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-05-14 01:49:37] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240514/g/gpt-all-star/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:49:38] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.8.tar.gz]
+[2024-05-14 01:49:38] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.9.tar.gz]
+[2024-05-14 01:49:38] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-14 01:49:38] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-05-14 01:49:38] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-05-14 01:49:38] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-05-14 01:49:38] INFO root fetch - main [MainThread]: Store serial: [23192596]
