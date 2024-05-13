@@ -913,3 +913,15 @@
 [2024-05-14 00:40:11] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.4.0.tar.gz]
 [2024-05-14 00:40:11] INFO root fetch - main [MainThread]: End processing [elements]: success
 [2024-05-14 00:40:11] INFO root fetch - main [MainThread]: Store serial: [23192154]
+[2024-05-14 00:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192154]
+[2024-05-14 00:42:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 00:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mtbp3
+[2024-05-14 00:42:19] INFO root fetch - processPackages [mtbp3]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-14 00:42:19] INFO root fetch - processPackages [mtbp3]: Downloading https://files.pythonhosted.org/packages/27/75/f49189f0d4e93fcb4515043060aed10f3ebc4fba5a0d97acc84962d5014a/mtbp3-0.2.4-py3-none-any.whl
+[2024-05-14 00:42:20] INFO root fetch - processPackages [mtbp3]: Downloading https://files.pythonhosted.org/packages/89/1c/eaa9a1ab9e6fcce431e4d9fa5244c76bf58d28f48ee2770e9db5d1e50d35/mtbp3-0.2.5-py3-none-any.whl
+[2024-05-14 00:42:20] INFO root fetch - processPackages [mtbp3]: executing diffoscope
+[2024-05-14 00:42:20] INFO root fetch - processPackages [mtbp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbp3-0.2.4-py3-none-any.whl.zip tmp/mtbp3-0.2.5-py3-none-any.whl.zip --markdown 20240514/m/mtbp3/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-14 00:42:20] INFO root fetch - processPackages [mtbp3]: Remove: archive file [/home/abi/fetcher/tmp/mtbp3-0.2.4-py3-none-any.whl.zip]
+[2024-05-14 00:42:20] INFO root fetch - processPackages [mtbp3]: Remove: archive file [/home/abi/fetcher/tmp/mtbp3-0.2.5-py3-none-any.whl.zip]
+[2024-05-14 00:42:20] INFO root fetch - main [MainThread]: End processing [mtbp3]: success
+[2024-05-14 00:42:20] INFO root fetch - main [MainThread]: Store serial: [23192159]
