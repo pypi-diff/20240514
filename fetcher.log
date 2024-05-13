@@ -633,3 +633,67 @@
 [2024-05-14 00:24:04] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240513222249-py3-none-any.whl.zip]
 [2024-05-14 00:24:04] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
 [2024-05-14 00:24:04] INFO root fetch - main [MainThread]: Store serial: [23192040]
+[2024-05-14 00:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192040]
+[2024-05-14 00:26:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-metadata-mapper
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-core
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netron
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apache-airflow-providers-anomalo
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vision-agent
+[2024-05-14 00:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elia-chat
+[2024-05-14 00:26:13] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [aind-metadata-mapper]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [elia-chat]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [aind-metadata-mapper]: Downloading https://files.pythonhosted.org/packages/40/6d/d579a8507987448678502c94732430140df9269fbc88cdad038417fea53e/aind_metadata_mapper-0.7.2.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/29/01/c0c14b710cbe5a2985e6e5ec2181aa509b74aea574d996fcdd5a119b3233/elia_chat-1.2.0.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [netron]: New version: [7.6.6] Old Version: [7.6.5]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240513222249] Old Version: [1.4.0.dev20240510223321]
+[2024-05-14 00:26:13] INFO root fetch - processPackages [aind-metadata-mapper]: Downloading https://files.pythonhosted.org/packages/71/d2/d44fab5634b01d4130d757a1ca653ba26e575d6cf51d746ab66acce462b8/aind_metadata_mapper-0.7.3.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: Downloading https://files.pythonhosted.org/packages/0d/04/36478b7b2edaf88a53757a8cd74cc4d2d1f295e43641d10e2eae3c8984d2/apache_airflow_providers_anomalo-0.2.0.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/c8/ce/f63b52045ce3df1ddf14ff9952d128f32f20f3d13b5dce300b650344ae42/cirq_core-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:26:13] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/c2/92/e0cfe67a0d2069cf57511a9d7e407aea35749ac1494d525880fd8be46d09/elia_chat-1.3.0.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-14 00:26:13] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/a2/e3/816bbd57a6dd5a861dc8a20e081c1cb177719137964adf216f3ba95cd54c/cirq-1.4.0.dev20240510223321-py3-none-any.whl
+[2024-05-14 00:26:13] INFO root fetch - processPackages [aind-metadata-mapper]: executing diffoscope
+[2024-05-14 00:26:13] INFO root fetch - processPackages [aind-metadata-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_metadata_mapper-0.7.2.tar.gz tmp/aind_metadata_mapper-0.7.3.tar.gz --markdown 20240514/a/aind-metadata-mapper/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-14 00:26:13] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-14 00:26:13] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-1.2.0.tar.gz tmp/elia_chat-1.3.0.tar.gz --markdown 20240514/e/elia-chat/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-14 00:26:13] INFO root fetch - processPackages [netron]: Downloading https://files.pythonhosted.org/packages/92/bc/848c676b07959f565c8f45ae88cf2994dbbbc156fa0060ff8b153d885b61/netron-7.6.6-py3-none-any.whl
+[2024-05-14 00:26:13] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-14 00:26:13] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240514/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 00:26:13] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: Downloading https://files.pythonhosted.org/packages/63/e0/26c0af3227f631d508fdf448ff212406802e4bf9504de2408aed1946cca0/apache_airflow_providers_anomalo-0.2.1.tar.gz
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/b0/9e/db153e26a65ea53697dbefc61ac4868794aa61ab631790a6b12d4a6ce103/cirq-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:26:14] INFO root fetch - processPackages [netron]: executing diffoscope
+[2024-05-14 00:26:14] INFO root fetch - processPackages [netron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netron-7.6.5-py3-none-any.whl.zip tmp/netron-7.6.6-py3-none-any.whl.zip --markdown 20240514/n/netron/7.6.5-7.6.6/README.md --exclude *.pyd
+[2024-05-14 00:26:14] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: executing diffoscope
+[2024-05-14 00:26:14] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache_airflow_providers_anomalo-0.2.0.tar.gz tmp/apache_airflow_providers_anomalo-0.2.1.tar.gz --markdown 20240514/a/apache-airflow-providers-anomalo/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/30/58/b60fe08f2ae805e4b2ee2b7a045299f5c61de6b9dd5f7bd4c626a4ada365/cirq_core-1.4.0.dev20240513222249-py3-none-any.whl
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240510223321-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240513222249-py3-none-any.whl.zip --markdown 20240514/c/cirq-core/1.4.0.dev20240510223321-1.4.0.dev20240513222249/README.md --exclude *.pyd
+[2024-05-14 00:26:14] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.2.0.tar.gz]
+[2024-05-14 00:26:14] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.3.0.tar.gz]
+[2024-05-14 00:26:14] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-14 00:26:14] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_anomalo-0.2.0.tar.gz]
+[2024-05-14 00:26:14] INFO root fetch - processPackages [apache-airflow-providers-anomalo]: Remove: archive file [/home/abi/fetcher/tmp/apache_airflow_providers_anomalo-0.2.1.tar.gz]
+[2024-05-14 00:26:14] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-anomalo]: success
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:26:14] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:26:14] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-05-14 00:26:14] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-14 00:26:14] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-14 00:26:14] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-14 00:26:15] INFO root fetch - processPackages [aind-metadata-mapper]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_mapper-0.7.2.tar.gz]
+[2024-05-14 00:26:15] INFO root fetch - processPackages [aind-metadata-mapper]: Remove: archive file [/home/abi/fetcher/tmp/aind_metadata_mapper-0.7.3.tar.gz]
+[2024-05-14 00:26:15] INFO root fetch - main [MainThread]: End processing [aind-metadata-mapper]: success
+[2024-05-14 00:26:17] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240510223321-py3-none-any.whl.zip]
+[2024-05-14 00:26:17] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240513222249-py3-none-any.whl.zip]
+[2024-05-14 00:26:17] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-05-14 00:29:14] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
+[2024-05-14 00:29:14] INFO root fetch - main [MainThread]: End processing [netron] error
+[2024-05-14 00:29:14] INFO root fetch - main [MainThread]: Store serial: [23192058]
