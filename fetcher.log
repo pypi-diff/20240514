@@ -697,3 +697,93 @@
 [2024-05-14 00:29:14] ERROR root fetch - processPackages [netron]: Timeout during execution of pkgdiff
 [2024-05-14 00:29:14] INFO root fetch - main [MainThread]: End processing [netron] error
 [2024-05-14 00:29:14] INFO root fetch - main [MainThread]: Store serial: [23192058]
+[2024-05-14 00:31:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192058]
+[2024-05-14 00:31:22] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bismuthsdk
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accessitz
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimllearning
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kewoo
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cuopt-thin-client
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai-edge-model-explorer
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indexify
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PQAnalysis
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: owega
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quantconnect-stubs
+[2024-05-14 00:31:22] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 00:31:22] INFO root fetch - processPackages [PQAnalysis]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-14 00:31:22] INFO root fetch - processPackages [ai-edge-model-explorer]: New version: [0.dev202405060029] Old Version: [0.0.99]
+[2024-05-14 00:31:22] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-14 00:31:22] WARNING root fetch - processPackages [kewoo]: Skipping, unable to determine old version
+[2024-05-14 00:31:22] INFO root fetch - processPackages [kewoo]: Start processing: indexify-extractor-sdk
+[2024-05-14 00:31:22] INFO root fetch - main [MainThread]: End processing [kewoo] error
+[2024-05-14 00:31:22] INFO root fetch - processPackages [bismuthsdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 00:31:22] WARNING root fetch - processPackages [accessitz]: Skipping, unable to determine old version
+[2024-05-14 00:31:22] INFO root fetch - main [MainThread]: End processing [accessitz] error
+[2024-05-14 00:31:22] INFO root fetch - processPackages [cuopt-thin-client]: New version: [24.3.6] Old Version: [24.3.5]
+[2024-05-14 00:31:22] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/4c/af/b95ab44de8529add5dd8a6e8a3a80c37dbadccac47492e0e32f919eef14c/pqanalysis-1.0.tar.gz
+[2024-05-14 00:31:22] INFO root fetch - processPackages [indexify]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 00:31:22] INFO root fetch - processPackages [owega]: New version: [5.7.2] Old Version: [5.7.1]
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify-extractor-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 00:31:23] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/71/89/a5ee5aa9c487f08a43ae42bec90c2989493a2837a3ed8314ca11deaf5cf9/ai_edge_model_explorer-0.0.99.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [cuopt-thin-client]: Downloading https://files.pythonhosted.org/packages/82/14/61310be4af874c448f9e19ce0682e2474b8fde49981f242aa222c04f17d0/cuopt_thin_client-24.3.5.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [bismuthsdk]: Downloading https://files.pythonhosted.org/packages/a0/70/af965433c991b650f3a1f65e75675f8ef0364ca300a1609bd855febc0869/bismuthsdk-0.1.8.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/f8/a3/de0a3191fc02ea1f246e36e2907d80b8e522872eacb5fbfcd5bf72733b5c/indexify-0.0.8.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/56/4d/ff046395d9af0036c08c2f93ec576a0cc36d3ea23572ca9dbbd52d396f9c/owega-5.7.1.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/25/fb/8dcfb1ddf593ada77ca7aebff3d9add072c6922c5b3efddeb31e991f5968/indexify-extractor-sdk-0.0.8.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [ai-edge-model-explorer]: Downloading https://files.pythonhosted.org/packages/48/77/6d6cffc04ea18750fc81b4affe078ef994f60eb0577d37b85cc841cba348/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl
+[2024-05-14 00:31:23] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/7d/96/a7b09bbe07ca5a4606fb70e117ab44043c1b7f861f4abbc4372b1fdb9a1b/pqanalysis-1.0.1.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [cuopt-thin-client]: Downloading https://files.pythonhosted.org/packages/75/af/498aaef68ff3d77bb4722fe7558eff9b4bec7b983cad768dd90b04638cf4/cuopt_thin_client-24.3.6.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240514/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [ai-edge-model-explorer]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [ai-edge-model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_model_explorer-0.0.99.tar.gz tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip --markdown 20240514/a/ai-edge-model-explorer/0.0.99-0.dev202405060029/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify]: Downloading https://files.pythonhosted.org/packages/4e/e0/a60b294a8d7968ee0e712e54f1e8c22a898a1db1870c852c6523d9f6c569/indexify-0.0.9.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/16/9e/7a376d11e29b0cee6781cb9c3aca423f8c6fcb4707bf764737bafdfad707/owega-5.7.2.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [bismuthsdk]: Downloading https://files.pythonhosted.org/packages/a5/63/e13e9ec2aed923740dc88b67e680cc7e75a2aecd7118ddd657ca8382eda2/bismuthsdk-0.1.9.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [cuopt-thin-client]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [cuopt-thin-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuopt_thin_client-24.3.5.tar.gz tmp/cuopt_thin_client-24.3.6.tar.gz --markdown 20240514/c/cuopt-thin-client/24.3.5-24.3.6/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-0.0.8.tar.gz tmp/indexify-0.0.9.tar.gz --markdown 20240514/i/indexify/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.7.1.tar.gz tmp/owega-5.7.2.tar.gz --markdown 20240514/o/owega/5.7.1-5.7.2/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify-extractor-sdk]: Downloading https://files.pythonhosted.org/packages/6b/69/1a816cb64f283ffbd7a285fc0aacdf84a8f4bc7214eaab78ac42be5e93ba/indexify-extractor-sdk-0.0.9.tar.gz
+[2024-05-14 00:31:23] INFO root fetch - processPackages [bismuthsdk]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [bismuthsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bismuthsdk-0.1.8.tar.gz tmp/bismuthsdk-0.1.9.tar.gz --markdown 20240514/b/bismuthsdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [PQAnalysis]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [PQAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqanalysis-1.0.tar.gz tmp/pqanalysis-1.0.1.tar.gz --markdown 20240514/P/PQAnalysis/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify-extractor-sdk]: executing diffoscope
+[2024-05-14 00:31:23] INFO root fetch - processPackages [indexify-extractor-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexify-extractor-sdk-0.0.8.tar.gz tmp/indexify-extractor-sdk-0.0.9.tar.gz --markdown 20240514/i/indexify-extractor-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 00:31:23] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-05-14 00:31:24] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-05-14 00:31:24] INFO root fetch - processPackages [cuopt-thin-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt_thin_client-24.3.5.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [cuopt-thin-client]: Remove: archive file [/home/abi/fetcher/tmp/cuopt_thin_client-24.3.6.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [cuopt-thin-client]: success
+[2024-05-14 00:31:24] INFO root fetch - processPackages [bismuthsdk]: Remove: archive file [/home/abi/fetcher/tmp/bismuthsdk-0.1.8.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [bismuthsdk]: Remove: archive file [/home/abi/fetcher/tmp/bismuthsdk-0.1.9.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [bismuthsdk]: success
+[2024-05-14 00:31:24] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-14 00:31:24] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.8.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [indexify]: Remove: archive file [/home/abi/fetcher/tmp/indexify-0.0.9.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [indexify]: success
+[2024-05-14 00:31:24] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.1.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.2.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-14 00:31:24] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-05-14 00:31:24] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240514/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-05-14 00:31:24] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.0.99.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [ai-edge-model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_model_explorer-0.dev202405060029-py3-none-any.whl.zip]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [ai-edge-model-explorer]: success
+[2024-05-14 00:31:24] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.8.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - processPackages [indexify-extractor-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexify-extractor-sdk-0.0.9.tar.gz]
+[2024-05-14 00:31:24] INFO root fetch - main [MainThread]: End processing [indexify-extractor-sdk]: success
+[2024-05-14 00:31:25] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.tar.gz]
+[2024-05-14 00:31:25] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.1.tar.gz]
+[2024-05-14 00:31:25] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
+[2024-05-14 00:31:27] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-05-14 00:31:27] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-05-14 00:31:27] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-05-14 00:31:27] INFO root fetch - main [MainThread]: Store serial: [23192099]
