@@ -1855,3 +1855,61 @@
 [2024-05-14 01:43:02] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.5.0b4.tar.gz]
 [2024-05-14 01:43:02] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-05-14 01:43:02] INFO root fetch - main [MainThread]: Store serial: [23192542]
+[2024-05-14 01:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192542]
+[2024-05-14 01:45:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: create-mountaineer-app
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: workforce
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opsonophoricz
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poetry-aws-lambda-plugin
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-14 01:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt
+[2024-05-14 01:45:12] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:45:12] INFO root fetch - processPackages [workforce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:45:12] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: Downloading https://files.pythonhosted.org/packages/0b/4e/7c0e868b7a0c2b1e6e4f1e4e2465c3b78c50e69cf23863b02a203427a65f/poetry_aws_lambda_plugin-0.1.1.tar.gz
+[2024-05-14 01:45:12] WARNING root fetch - processPackages [opsonophoricz]: Skipping, unable to determine old version
+[2024-05-14 01:45:12] INFO root fetch - main [MainThread]: End processing [opsonophoricz] error
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.5.0.dev6] Old Version: [0.5.0.dev5]
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [dbt]: New version: [1.0.0rc1] Old Version: [1.0.0.37.9]
+[2024-05-14 01:45:12] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/0e/e5/6e2f45f9857b252374f2062e5fe76f726ca4493d052d3c04a9eaf28c24c8/create_mountaineer_app-0.5.0.dev5.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: Downloading https://files.pythonhosted.org/packages/42/8c/4aa74072f756f1d9bed2925fcd15626a8bdce4fb7c7de8d6c8005bb90e4c/poetry_aws_lambda_plugin-0.1.2.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/2d/19/86805c3946865872d10ea1e4ee5d133e7a8a82b698617f1b47e9b91cb517/workforce-1.0.9.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/9a/ee37c9c7ad5d9d9f1f9c8af7be75d5118de1b95cabb1f73bd760f825c1cd/dbt-1.0.0.37.9.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2024-05-14 01:45:12] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.8.tar.gz tmp/workforce-1.0.9.tar.gz --markdown 20240514/w/workforce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:45:12] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: executing diffoscope
+[2024-05-14 01:45:12] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_aws_lambda_plugin-0.1.1.tar.gz tmp/poetry_aws_lambda_plugin-0.1.2.tar.gz --markdown 20240514/p/poetry-aws-lambda-plugin/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:45:12] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:45:12] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/ef/72/f58501a5d90e7bf5a8079745dde63d25ee6029468136e36475d26fd4efa0/create_mountaineer_app-0.5.0.dev6.tar.gz
+[2024-05-14 01:45:12] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-05-14 01:45:12] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.5.0.dev5.tar.gz tmp/create_mountaineer_app-0.5.0.dev6.tar.gz --markdown 20240514/c/create-mountaineer-app/0.5.0.dev5-0.5.0.dev6/README.md --exclude *.pyd
+[2024-05-14 01:45:13] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/99/05944c00ffe021ceeae59e411a5b5f4521e582e35af5de3f57a6fec4eb05/dbt-1.0.0rc1.tar.gz
+[2024-05-14 01:45:13] INFO root fetch - processPackages [dbt]: executing diffoscope
+[2024-05-14 01:45:13] INFO root fetch - processPackages [dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-1.0.0.37.9.tar.gz tmp/dbt-1.0.0rc1.tar.gz --markdown 20240514/d/dbt/1.0.0.37.9-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-14 01:45:13] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:45:13] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_aws_lambda_plugin-0.1.1.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - processPackages [poetry-aws-lambda-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_aws_lambda_plugin-0.1.2.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [poetry-aws-lambda-plugin]: success
+[2024-05-14 01:45:13] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.9.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:45:13] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0.37.9.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [dbt]: success
+[2024-05-14 01:45:13] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev5.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.5.0.dev6.tar.gz]
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-05-14 01:45:13] INFO root fetch - main [MainThread]: Store serial: [23192570]
