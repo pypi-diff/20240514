@@ -102,3 +102,63 @@
 [2024-05-14 00:01:46] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.tar.gz]
 [2024-05-14 00:01:46] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
 [2024-05-14 00:01:46] INFO root fetch - main [MainThread]: Store serial: [23191835]
+[2024-05-14 00:03:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191835]
+[2024-05-14 00:03:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TDSR-UWB
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-postprocessor-colbert-rerank
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haulagewayz
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iSwitch
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragdaemon
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-index-postprocessor-flag-embedding-reranker
+[2024-05-14 00:03:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index-postprocessor-jinaai-rerank
+[2024-05-14 00:03:54] INFO root fetch - processPackages [TDSR-UWB]: New version: [1.537] Old Version: [1.536]
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 00:03:55] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/7e/78/abe73f2845acd0677399abf680ef56e11194871199f944be51c9d22aafce/TDSR-UWB-1.536.tar.gz
+[2024-05-14 00:03:55] WARNING root fetch - processPackages [haulagewayz]: Skipping, unable to determine old version
+[2024-05-14 00:03:55] INFO root fetch - main [MainThread]: End processing [haulagewayz] error
+[2024-05-14 00:03:55] INFO root fetch - processPackages [ragdaemon]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 00:03:55] INFO root fetch - processPackages [iSwitch]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-14 00:03:55] INFO root fetch - processPackages [iSwitch]: Downloading https://files.pythonhosted.org/packages/c1/ec/d52f1db907f606316837abcf350161123cf8ffabbe6643bb3ef044ed6cad/iSwitch-1.0.3.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: Downloading https://files.pythonhosted.org/packages/2a/59/484df6c6fc31c3d1ce3e33c22791a77ce0417d7733c61df8700a7cd1d833/llama_index_postprocessor_colbert_rerank-0.1.1.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: Downloading https://files.pythonhosted.org/packages/bb/cc/7c241416cc8a13e9654f867b1ca6377147369f60f4cc15f12d8911bd1766/llama_index_postprocessor_jinaai_rerank-0.1.2.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/6d/96/06a7ffb5bbab1dd0f168d3940c2be3240a4842e3d40af28ff13b9387f987/ragdaemon-0.4.6.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: Downloading https://files.pythonhosted.org/packages/ff/a1/787bf92fc888d83d5f98365f1a94b58327025e8937e9bb393eb36ff7ccb5/llama_index_postprocessor_flag_embedding_reranker-0.1.2.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [TDSR-UWB]: Downloading https://files.pythonhosted.org/packages/d7/84/1e10b14c68e233ff45f9af7ea2bcd5788d868116e43e1804c62d30fe9196/TDSR-UWB-1.537.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [iSwitch]: Downloading https://files.pythonhosted.org/packages/7b/ad/b1f8cbcc17eb04381ebe0885426d36301f23c26a7613130d54f0c463c36a/iSwitch-1.0.5.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [TDSR-UWB]: executing diffoscope
+[2024-05-14 00:03:55] INFO root fetch - processPackages [TDSR-UWB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDSR-UWB-1.536.tar.gz tmp/TDSR-UWB-1.537.tar.gz --markdown 20240514/T/TDSR-UWB/1.536-1.537/README.md --exclude *.pyd
+[2024-05-14 00:03:55] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/ca/bb/b3fe0dda4ace3733c9aecab3a5a04198ca7ade88fe9f5c5949afe02e8ee5/ragdaemon-0.4.7.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: Downloading https://files.pythonhosted.org/packages/2a/09/4b944bab3c2e3f316d6eff1c9058777b4e9706f4b6b850791fa89ed97248/llama_index_postprocessor_flag_embedding_reranker-0.1.3.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [iSwitch]: executing diffoscope
+[2024-05-14 00:03:55] INFO root fetch - processPackages [iSwitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iSwitch-1.0.3.tar.gz tmp/iSwitch-1.0.5.tar.gz --markdown 20240514/i/iSwitch/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: Downloading https://files.pythonhosted.org/packages/4e/e3/3c20fa0bd4cd91ac6af3d34cbfa5b49197b2777bdbdb1c1dd0525342e3e6/llama_index_postprocessor_colbert_rerank-0.1.2.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: Downloading https://files.pythonhosted.org/packages/22/04/bb894ac533ae3a6112690788473e759caa850307c93ca4d99696b7ac0519/llama_index_postprocessor_jinaai_rerank-0.1.3.tar.gz
+[2024-05-14 00:03:55] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-14 00:03:55] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.4.6.tar.gz tmp/ragdaemon-0.4.7.tar.gz --markdown 20240514/r/ragdaemon/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: executing diffoscope
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_postprocessor_flag_embedding_reranker-0.1.2.tar.gz tmp/llama_index_postprocessor_flag_embedding_reranker-0.1.3.tar.gz --markdown 20240514/l/llama-index-postprocessor-flag-embedding-reranker/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: executing diffoscope
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_postprocessor_colbert_rerank-0.1.1.tar.gz tmp/llama_index_postprocessor_colbert_rerank-0.1.2.tar.gz --markdown 20240514/l/llama-index-postprocessor-colbert-rerank/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: executing diffoscope
+[2024-05-14 00:03:55] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_postprocessor_jinaai_rerank-0.1.2.tar.gz tmp/llama_index_postprocessor_jinaai_rerank-0.1.3.tar.gz --markdown 20240514/l/llama-index-postprocessor-jinaai-rerank/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 00:03:56] INFO root fetch - processPackages [iSwitch]: Remove: archive file [/home/abi/fetcher/tmp/iSwitch-1.0.3.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - processPackages [iSwitch]: Remove: archive file [/home/abi/fetcher/tmp/iSwitch-1.0.5.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [iSwitch]: success
+[2024-05-14 00:03:56] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_colbert_rerank-0.1.1.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - processPackages [llama-index-postprocessor-colbert-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_colbert_rerank-0.1.2.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-colbert-rerank]: success
+[2024-05-14 00:03:56] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.536.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - processPackages [TDSR-UWB]: Remove: archive file [/home/abi/fetcher/tmp/TDSR-UWB-1.537.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [TDSR-UWB]: success
+[2024-05-14 00:03:56] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_flag_embedding_reranker-0.1.2.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - processPackages [llama-index-postprocessor-flag-embedding-reranker]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_flag_embedding_reranker-0.1.3.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-flag-embedding-reranker]: success
+[2024-05-14 00:03:56] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_jinaai_rerank-0.1.2.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - processPackages [llama-index-postprocessor-jinaai-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_jinaai_rerank-0.1.3.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-jinaai-rerank]: success
+[2024-05-14 00:03:56] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.6.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.7.tar.gz]
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-14 00:03:56] INFO root fetch - main [MainThread]: Store serial: [23191857]
