@@ -1048,3 +1048,30 @@
 [2024-05-14 00:51:02] INFO root fetch - processPackages [kiwi-stackbuild-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kiwi_stackbuild_plugin-1.0.7.tar.gz]
 [2024-05-14 00:51:02] INFO root fetch - main [MainThread]: End processing [kiwi-stackbuild-plugin]: success
 [2024-05-14 00:51:02] INFO root fetch - main [MainThread]: Store serial: [23192208]
+[2024-05-14 00:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192208]
+[2024-05-14 00:53:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: its-magic
+[2024-05-14 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lptlib
+[2024-05-14 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ensembletr
+[2024-05-14 00:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtbp3
+[2024-05-14 00:53:11] INFO root fetch - processPackages [lptlib]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2024-05-14 00:53:11] WARNING root fetch - processPackages [ensembletr]: Skipping, unable to determine old version
+[2024-05-14 00:53:11] INFO root fetch - main [MainThread]: End processing [ensembletr] error
+[2024-05-14 00:53:11] INFO root fetch - processPackages [mtbp3]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-14 00:53:11] WARNING root fetch - processPackages [its-magic]: Skipping, unable to determine old version
+[2024-05-14 00:53:11] INFO root fetch - main [MainThread]: End processing [its-magic] error
+[2024-05-14 00:53:11] INFO root fetch - processPackages [lptlib]: Downloading https://files.pythonhosted.org/packages/a5/08/ad4bb6c57d81ad7110f75c2ee0f00b65d64051cbc15a16771bf998e7fe3e/lptlib-0.0.1a5.tar.gz
+[2024-05-14 00:53:11] INFO root fetch - processPackages [mtbp3]: Downloading https://files.pythonhosted.org/packages/89/1c/eaa9a1ab9e6fcce431e4d9fa5244c76bf58d28f48ee2770e9db5d1e50d35/mtbp3-0.2.5-py3-none-any.whl
+[2024-05-14 00:53:11] INFO root fetch - processPackages [lptlib]: Downloading https://files.pythonhosted.org/packages/3f/52/faefd77d8efcd2fc26ec96005b82aa4432575e89547cc7e57607355355f5/lptlib-0.0.1a6.tar.gz
+[2024-05-14 00:53:11] INFO root fetch - processPackages [mtbp3]: Downloading https://files.pythonhosted.org/packages/7a/a2/b92a5e64fbd16d7be8deea3f54daecb78c31b7a3220dbd5b5d1b929d9940/mtbp3-0.2.6-py3-none-any.whl
+[2024-05-14 00:53:12] INFO root fetch - processPackages [lptlib]: executing diffoscope
+[2024-05-14 00:53:12] INFO root fetch - processPackages [lptlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lptlib-0.0.1a5.tar.gz tmp/lptlib-0.0.1a6.tar.gz --markdown 20240514/l/lptlib/0.0.1a5-0.0.1a6/README.md --exclude *.pyd
+[2024-05-14 00:53:12] INFO root fetch - processPackages [mtbp3]: executing diffoscope
+[2024-05-14 00:53:12] INFO root fetch - processPackages [mtbp3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtbp3-0.2.5-py3-none-any.whl.zip tmp/mtbp3-0.2.6-py3-none-any.whl.zip --markdown 20240514/m/mtbp3/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-14 00:53:12] INFO root fetch - processPackages [lptlib]: Remove: archive file [/home/abi/fetcher/tmp/lptlib-0.0.1a5.tar.gz]
+[2024-05-14 00:53:12] INFO root fetch - processPackages [lptlib]: Remove: archive file [/home/abi/fetcher/tmp/lptlib-0.0.1a6.tar.gz]
+[2024-05-14 00:53:12] INFO root fetch - main [MainThread]: End processing [lptlib]: success
+[2024-05-14 00:53:12] INFO root fetch - processPackages [mtbp3]: Remove: archive file [/home/abi/fetcher/tmp/mtbp3-0.2.5-py3-none-any.whl.zip]
+[2024-05-14 00:53:12] INFO root fetch - processPackages [mtbp3]: Remove: archive file [/home/abi/fetcher/tmp/mtbp3-0.2.6-py3-none-any.whl.zip]
+[2024-05-14 00:53:12] INFO root fetch - main [MainThread]: End processing [mtbp3]: success
+[2024-05-14 00:53:12] INFO root fetch - main [MainThread]: Store serial: [23192221]
