@@ -1545,3 +1545,40 @@
 [2024-05-14 01:24:34] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-05-14 01:24:34] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-05-14 01:24:34] INFO root fetch - main [MainThread]: Store serial: [23192389]
+[2024-05-14 01:26:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192389]
+[2024-05-14 01:26:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 01:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stanechatz
+[2024-05-14 01:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sc-file
+[2024-05-14 01:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: its-magic
+[2024-05-14 01:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: md-incl
+[2024-05-14 01:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SelfCalibratingConformal
+[2024-05-14 01:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: md-incl
+[2024-05-14 01:26:44] INFO root fetch - processPackages [md-incl]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-14 01:26:44] INFO root fetch - processPackages [md-incl]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-14 01:26:44] WARNING root fetch - processPackages [its-magic]: Skipping, unable to determine old version
+[2024-05-14 01:26:44] INFO root fetch - main [MainThread]: End processing [its-magic] error
+[2024-05-14 01:26:44] WARNING root fetch - processPackages [SelfCalibratingConformal]: Skipping, unable to determine old version
+[2024-05-14 01:26:44] INFO root fetch - main [MainThread]: End processing [SelfCalibratingConformal] error
+[2024-05-14 01:26:44] WARNING root fetch - processPackages [stanechatz]: Skipping, unable to determine old version
+[2024-05-14 01:26:44] INFO root fetch - main [MainThread]: End processing [stanechatz] error
+[2024-05-14 01:26:44] INFO root fetch - processPackages [sc-file]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-05-14 01:26:44] INFO root fetch - processPackages [md-incl]: Downloading https://files.pythonhosted.org/packages/f0/c4/daf49a5cde7e8da5a073bcab466792a73cd12944d92edf52424e2de4f8e4/md_incl-0.0.0.tar.gz
+[2024-05-14 01:26:44] INFO root fetch - processPackages [md-incl]: Downloading https://files.pythonhosted.org/packages/f0/c4/daf49a5cde7e8da5a073bcab466792a73cd12944d92edf52424e2de4f8e4/md_incl-0.0.0.tar.gz
+[2024-05-14 01:26:45] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/55/8c/5c004b74cc12701b153c07e68b46b0164545efae45d4436ee11766a21e4d/sc_file-3.2.0.tar.gz
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: Downloading https://files.pythonhosted.org/packages/59/3d/b981d853e73c7840ee0908b950aa847b9131e14b617e2a45361dc7583cea/md_incl-0.0.1.tar.gz
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: Downloading https://files.pythonhosted.org/packages/59/3d/b981d853e73c7840ee0908b950aa847b9131e14b617e2a45361dc7583cea/md_incl-0.0.1.tar.gz
+[2024-05-14 01:26:45] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/73/af/1d2f56e379ff4fe2c9507df0f8944e17ff2889d6d5a9e264d936a040dcdf/sc_file-3.3.0.tar.gz
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: executing diffoscope
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md_incl-0.0.0.tar.gz tmp/md_incl-0.0.1.tar.gz --markdown 20240514/m/md-incl/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: executing diffoscope
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md_incl-0.0.0.tar.gz tmp/md_incl-0.0.1.tar.gz --markdown 20240514/m/md-incl/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-14 01:26:45] INFO root fetch - processPackages [sc-file]: executing diffoscope
+[2024-05-14 01:26:45] INFO root fetch - processPackages [sc-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_file-3.2.0.tar.gz tmp/sc_file-3.3.0.tar.gz --markdown 20240514/s/sc-file/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: Remove: archive file [/home/abi/fetcher/tmp/md_incl-0.0.0.tar.gz]
+[2024-05-14 01:26:45] INFO root fetch - processPackages [md-incl]: Remove: archive file [/home/abi/fetcher/tmp/md_incl-0.0.1.tar.gz]
+[2024-05-14 01:26:45] INFO root fetch - main [MainThread]: End processing [md-incl]: success
+[2024-05-14 01:26:46] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.2.0.tar.gz]
+[2024-05-14 01:26:46] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.3.0.tar.gz]
+[2024-05-14 01:26:46] INFO root fetch - main [MainThread]: End processing [sc-file]: success
+[2024-05-14 01:26:46] INFO root fetch - main [MainThread]: End processing [md-incl]: success
+[2024-05-14 01:26:46] INFO root fetch - main [MainThread]: Store serial: [23192410]
