@@ -1238,3 +1238,53 @@
 [2024-05-14 01:04:14] INFO root fetch - processPackages [astromodels]: Remove: archive file [/home/abi/fetcher/tmp/astromodels-2.4.2.dev1.tar.gz]
 [2024-05-14 01:04:14] INFO root fetch - main [MainThread]: End processing [astromodels]: success
 [2024-05-14 01:04:14] INFO root fetch - main [MainThread]: Store serial: [23192272]
+[2024-05-14 01:06:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192272]
+[2024-05-14 01:06:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-kepler-component
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: epigos
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rp
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbsc
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flwr-nightly
+[2024-05-14 01:06:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clean_ioc
+[2024-05-14 01:06:23] INFO root fetch - processPackages [epigos]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-14 01:06:23] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240512] Old Version: [0.7.52b20240511]
+[2024-05-14 01:06:23] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240512] Old Version: [1.9.0.dev20240511]
+[2024-05-14 01:06:23] WARNING root fetch - processPackages [streamlit-kepler-component]: Skipping, unable to determine old version
+[2024-05-14 01:06:23] INFO root fetch - main [MainThread]: End processing [streamlit-kepler-component] error
+[2024-05-14 01:06:23] WARNING root fetch - processPackages [pbsc]: Skipping, unable to determine old version
+[2024-05-14 01:06:23] INFO root fetch - main [MainThread]: End processing [pbsc] error
+[2024-05-14 01:06:23] INFO root fetch - processPackages [clean_ioc]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-14 01:06:23] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/c2/8b/bf097654012407b716c14d14bd7f9426947a5e4fece416149a193aa042c6/tmnt-0.7.52b20240511.tar.gz
+[2024-05-14 01:06:23] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/d8/0d/93ed6ef81cb36b97003e910c24207479799f48d6d4e2f553b2b693394c31/flwr_nightly-1.9.0.dev20240511.tar.gz
+[2024-05-14 01:06:23] INFO root fetch - processPackages [rp]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-05-14 01:06:23] INFO root fetch - processPackages [epigos]: Downloading https://files.pythonhosted.org/packages/86/31/35ef2a80f7206f45245597c7830cdf4f6584791f58d016bc24c8483da8dc/epigos-2.0.1.tar.gz
+[2024-05-14 01:06:23] INFO root fetch - processPackages [clean_ioc]: Downloading https://files.pythonhosted.org/packages/4f/c3/a337d99b23ae05f1155d26ea71cefb18ac27c3acafadb515bf27b8ddbf18/clean_ioc-1.1.0.tar.gz
+[2024-05-14 01:06:24] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/97/b0/bbb87ca94637473610e58828e8e7e0307bbbbd99a7ad7b0ce8abf94b5e15/rp-0.1.998.tar.gz
+[2024-05-14 01:06:24] WARNING root fetch - processPackages [rp]: Skipping package: exceeds size limit 16581479>=10485760
+[2024-05-14 01:06:24] INFO root fetch - main [MainThread]: End processing [rp] error
+[2024-05-14 01:06:24] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/0c/41/ef5bfdae88b40e8f5d7eaff86a88e5f909f11974a16c7b0a15611fbe830d/tmnt-0.7.52b20240512.tar.gz
+[2024-05-14 01:06:24] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/f8/da/b8d123e055c5805e77704317ce96690a47786b4e44e854d11ee0c026acb8/flwr_nightly-1.9.0.dev20240512.tar.gz
+[2024-05-14 01:06:24] INFO root fetch - processPackages [epigos]: Downloading https://files.pythonhosted.org/packages/14/55/d00c90cfaec2bd4a6e0a847b3cfc4cda3443fc3bb25d103c70f239d5694a/epigos-2.0.2.tar.gz
+[2024-05-14 01:06:24] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-14 01:06:24] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240511.tar.gz tmp/tmnt-0.7.52b20240512.tar.gz --markdown 20240514/t/tmnt/0.7.52b20240511-0.7.52b20240512/README.md --exclude *.pyd
+[2024-05-14 01:06:24] INFO root fetch - processPackages [clean_ioc]: Downloading https://files.pythonhosted.org/packages/28/b9/a9c52a5675b40f1ea8a3f47cf902fa6052896a8a8a349bfe4f599627990f/clean_ioc-1.2.0.tar.gz
+[2024-05-14 01:06:24] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-14 01:06:24] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240511.tar.gz tmp/flwr_nightly-1.9.0.dev20240512.tar.gz --markdown 20240514/f/flwr-nightly/1.9.0.dev20240511-1.9.0.dev20240512/README.md --exclude *.pyd
+[2024-05-14 01:06:24] INFO root fetch - processPackages [epigos]: executing diffoscope
+[2024-05-14 01:06:24] INFO root fetch - processPackages [epigos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epigos-2.0.1.tar.gz tmp/epigos-2.0.2.tar.gz --markdown 20240514/e/epigos/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-14 01:06:24] INFO root fetch - processPackages [clean_ioc]: executing diffoscope
+[2024-05-14 01:06:24] INFO root fetch - processPackages [clean_ioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_ioc-1.1.0.tar.gz tmp/clean_ioc-1.2.0.tar.gz --markdown 20240514/c/clean_ioc/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-14 01:06:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240511.tar.gz]
+[2024-05-14 01:06:24] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240512.tar.gz]
+[2024-05-14 01:06:24] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-14 01:06:24] INFO root fetch - processPackages [epigos]: Remove: archive file [/home/abi/fetcher/tmp/epigos-2.0.1.tar.gz]
+[2024-05-14 01:06:24] INFO root fetch - processPackages [epigos]: Remove: archive file [/home/abi/fetcher/tmp/epigos-2.0.2.tar.gz]
+[2024-05-14 01:06:24] INFO root fetch - main [MainThread]: End processing [epigos]: success
+[2024-05-14 01:06:25] INFO root fetch - processPackages [clean_ioc]: Remove: archive file [/home/abi/fetcher/tmp/clean_ioc-1.1.0.tar.gz]
+[2024-05-14 01:06:25] INFO root fetch - processPackages [clean_ioc]: Remove: archive file [/home/abi/fetcher/tmp/clean_ioc-1.2.0.tar.gz]
+[2024-05-14 01:06:25] INFO root fetch - main [MainThread]: End processing [clean_ioc]: success
+[2024-05-14 01:06:25] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240511.tar.gz]
+[2024-05-14 01:06:25] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240512.tar.gz]
+[2024-05-14 01:06:25] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-14 01:06:25] INFO root fetch - main [MainThread]: Store serial: [23192296]
