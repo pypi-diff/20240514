@@ -1642,3 +1642,36 @@
 [2024-05-14 01:31:05] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
 [2024-05-14 01:31:05] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
 [2024-05-14 01:31:05] INFO root fetch - main [MainThread]: Store serial: [23192441]
+[2024-05-14 01:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192441]
+[2024-05-14 01:33:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 01:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-meraki
+[2024-05-14 01:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-kepler-component
+[2024-05-14 01:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: juntagrico-assignment-request
+[2024-05-14 01:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kaggle-environments
+[2024-05-14 01:33:13] INFO root fetch - processPackages [pulumi-meraki]: New version: [0.1.0a1715629329] Old Version: [0.1.0a1715622834]
+[2024-05-14 01:33:13] INFO root fetch - processPackages [juntagrico-assignment-request]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-14 01:33:14] WARNING root fetch - processPackages [streamlit-kepler-component]: Skipping, unable to determine old version
+[2024-05-14 01:33:14] INFO root fetch - main [MainThread]: End processing [streamlit-kepler-component] error
+[2024-05-14 01:33:14] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/95/49/3339efc1d9758bdd28ca79968295cb2fc9f419f7420eff6b4de672a9b96c/pulumi_meraki-0.1.0a1715622834.tar.gz
+[2024-05-14 01:33:14] INFO root fetch - processPackages [kaggle-environments]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-14 01:33:14] INFO root fetch - processPackages [juntagrico-assignment-request]: Downloading https://files.pythonhosted.org/packages/66/f1/fc8e074bd6e998effeab600412af22ca2367efe22c6ca720ab6a912f7100/juntagrico_assignment_request-1.5.0.tar.gz
+[2024-05-14 01:33:14] INFO root fetch - processPackages [kaggle-environments]: Downloading https://files.pythonhosted.org/packages/fa/7b/f613651fb7eaab9c54d06593fc467caec0be07a1db22de1b9094629dfcfa/kaggle-environments-1.9.8.tar.gz
+[2024-05-14 01:33:14] INFO root fetch - processPackages [juntagrico-assignment-request]: Downloading https://files.pythonhosted.org/packages/55/9e/efebe4a6deecca6d9ecf1d029633979bcf12fa03314633c9320abc49e9db/juntagrico-assignment-request-1.6.0.tar.gz
+[2024-05-14 01:33:14] INFO root fetch - processPackages [pulumi-meraki]: Downloading https://files.pythonhosted.org/packages/2f/f7/e5697bf9a132721a25ca9720cf18fef8112728de6c17ad95bf0750f9dbe0/pulumi_meraki-0.1.0a1715629329.tar.gz
+[2024-05-14 01:33:14] INFO root fetch - processPackages [juntagrico-assignment-request]: executing diffoscope
+[2024-05-14 01:33:14] INFO root fetch - processPackages [juntagrico-assignment-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juntagrico_assignment_request-1.5.0.tar.gz tmp/juntagrico-assignment-request-1.6.0.tar.gz --markdown 20240514/j/juntagrico-assignment-request/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-14 01:33:14] INFO root fetch - processPackages [pulumi-meraki]: executing diffoscope
+[2024-05-14 01:33:14] INFO root fetch - processPackages [pulumi-meraki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_meraki-0.1.0a1715622834.tar.gz tmp/pulumi_meraki-0.1.0a1715629329.tar.gz --markdown 20240514/p/pulumi-meraki/0.1.0a1715622834-0.1.0a1715629329/README.md --exclude *.pyd
+[2024-05-14 01:33:15] INFO root fetch - processPackages [kaggle-environments]: Downloading https://files.pythonhosted.org/packages/b7/d8/f202378172046cc1ace880ae148ceda8d0b09fc642fd6399392337df6c6c/kaggle-environments-1.9.9.tar.gz
+[2024-05-14 01:33:15] INFO root fetch - processPackages [juntagrico-assignment-request]: Remove: archive file [/home/abi/fetcher/tmp/juntagrico_assignment_request-1.5.0.tar.gz]
+[2024-05-14 01:33:15] INFO root fetch - processPackages [juntagrico-assignment-request]: Remove: archive file [/home/abi/fetcher/tmp/juntagrico-assignment-request-1.6.0.tar.gz]
+[2024-05-14 01:33:15] INFO root fetch - main [MainThread]: End processing [juntagrico-assignment-request]: success
+[2024-05-14 01:33:15] INFO root fetch - processPackages [kaggle-environments]: executing diffoscope
+[2024-05-14 01:33:15] INFO root fetch - processPackages [kaggle-environments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaggle-environments-1.9.8.tar.gz tmp/kaggle-environments-1.9.9.tar.gz --markdown 20240514/k/kaggle-environments/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-14 01:33:17] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.1.0a1715622834.tar.gz]
+[2024-05-14 01:33:17] INFO root fetch - processPackages [pulumi-meraki]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_meraki-0.1.0a1715629329.tar.gz]
+[2024-05-14 01:33:17] INFO root fetch - main [MainThread]: End processing [pulumi-meraki]: success
+[2024-05-14 01:33:21] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.8.tar.gz]
+[2024-05-14 01:33:21] INFO root fetch - processPackages [kaggle-environments]: Remove: archive file [/home/abi/fetcher/tmp/kaggle-environments-1.9.9.tar.gz]
+[2024-05-14 01:33:21] INFO root fetch - main [MainThread]: End processing [kaggle-environments]: success
+[2024-05-14 01:33:21] INFO root fetch - main [MainThread]: Store serial: [23192455]
