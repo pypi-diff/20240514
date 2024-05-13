@@ -886,3 +886,30 @@
 [2024-05-14 00:38:00] INFO root fetch - processPackages [gradientai]: Remove: archive file [/home/abi/fetcher/tmp/gradientai-1.9.1.tar.gz]
 [2024-05-14 00:38:00] INFO root fetch - main [MainThread]: End processing [gradientai]: success
 [2024-05-14 00:38:00] INFO root fetch - main [MainThread]: Store serial: [23192140]
+[2024-05-14 00:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192140]
+[2024-05-14 00:40:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 00:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peristomez
+[2024-05-14 00:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-clite
+[2024-05-14 00:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prlearn
+[2024-05-14 00:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elements
+[2024-05-14 00:40:09] INFO root fetch - processPackages [django-clite]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-14 00:40:09] WARNING root fetch - processPackages [peristomez]: Skipping, unable to determine old version
+[2024-05-14 00:40:09] INFO root fetch - main [MainThread]: End processing [peristomez] error
+[2024-05-14 00:40:09] WARNING root fetch - processPackages [prlearn]: Skipping, unable to determine old version
+[2024-05-14 00:40:09] INFO root fetch - main [MainThread]: End processing [prlearn] error
+[2024-05-14 00:40:09] INFO root fetch - processPackages [elements]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-05-14 00:40:09] INFO root fetch - processPackages [django-clite]: Downloading https://files.pythonhosted.org/packages/52/2d/4954385f0268108f060622aa2b9a063c5ba4af9d4204622a8d629fef5e36/django-clite-0.2.9.tar.gz
+[2024-05-14 00:40:09] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/00/b5/162d306ada3c84d80cb87e46023c970ce284da9b121514c2d5c4cf1a6a30/elements-3.3.0.tar.gz
+[2024-05-14 00:40:10] INFO root fetch - processPackages [django-clite]: Downloading https://files.pythonhosted.org/packages/78/f3/813ea339f26f09444fa12f8e1f1093120494b457df22018a6b1bbc449591/django-clite-0.3.0.tar.gz
+[2024-05-14 00:40:10] INFO root fetch - processPackages [django-clite]: executing diffoscope
+[2024-05-14 00:40:10] INFO root fetch - processPackages [django-clite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-clite-0.2.9.tar.gz tmp/django-clite-0.3.0.tar.gz --markdown 20240514/d/django-clite/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-14 00:40:10] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/f6/14/d81be41d935c0b902eead8cc412d2382e55601db44cdec0650a4ab5146b3/elements-3.4.0.tar.gz
+[2024-05-14 00:40:10] INFO root fetch - processPackages [elements]: executing diffoscope
+[2024-05-14 00:40:10] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-3.3.0.tar.gz tmp/elements-3.4.0.tar.gz --markdown 20240514/e/elements/3.3.0-3.4.0/README.md --exclude *.pyd
+[2024-05-14 00:40:10] INFO root fetch - processPackages [django-clite]: Remove: archive file [/home/abi/fetcher/tmp/django-clite-0.2.9.tar.gz]
+[2024-05-14 00:40:10] INFO root fetch - processPackages [django-clite]: Remove: archive file [/home/abi/fetcher/tmp/django-clite-0.3.0.tar.gz]
+[2024-05-14 00:40:10] INFO root fetch - main [MainThread]: End processing [django-clite]: success
+[2024-05-14 00:40:11] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.3.0.tar.gz]
+[2024-05-14 00:40:11] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.4.0.tar.gz]
+[2024-05-14 00:40:11] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2024-05-14 00:40:11] INFO root fetch - main [MainThread]: Store serial: [23192154]
