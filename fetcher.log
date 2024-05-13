@@ -407,3 +407,27 @@
 [2024-05-14 00:12:44] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.8.tar.gz]
 [2024-05-14 00:12:44] INFO root fetch - main [MainThread]: End processing [mercoa]: success
 [2024-05-14 00:12:44] INFO root fetch - main [MainThread]: Store serial: [23191951]
+[2024-05-14 00:14:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191951]
+[2024-05-14 00:14:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 00:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: great-expectations-experimental
+[2024-05-14 00:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoviewer
+[2024-05-14 00:14:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mtkruto
+[2024-05-14 00:14:53] WARNING root fetch - processPackages [mtkruto]: Skipping, unable to determine old version
+[2024-05-14 00:14:53] INFO root fetch - main [MainThread]: End processing [mtkruto] error
+[2024-05-14 00:14:53] INFO root fetch - processPackages [ecoviewer]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 00:14:53] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20240513031] Old Version: [0.1.20240502061]
+[2024-05-14 00:14:54] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/c4/0c/f816e44f902f49f76874346f67bd47e86997930ef305492e9ac15e6bf08e/ecoviewer-0.1.0.tar.gz
+[2024-05-14 00:14:54] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/2b/16/34c505d1b7992a9f7fc44fc7bb0304144704899160cfc463aa50d909be8d/great_expectations_experimental-0.1.20240502061.tar.gz
+[2024-05-14 00:14:54] INFO root fetch - processPackages [ecoviewer]: Downloading https://files.pythonhosted.org/packages/4c/b6/ab9baeb11bfb46a85748003c64ee1c2ce82d0bdcbcb2efd956ee8a8f604a/ecoviewer-0.1.1.tar.gz
+[2024-05-14 00:14:54] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/a7/f2/fd9c5e95bc236c6bddaeabb2000a45ca0dccabb8dfc540bf16660b76e53d/great_expectations_experimental-0.1.20240513031.tar.gz
+[2024-05-14 00:14:54] INFO root fetch - processPackages [ecoviewer]: executing diffoscope
+[2024-05-14 00:14:54] INFO root fetch - processPackages [ecoviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoviewer-0.1.0.tar.gz tmp/ecoviewer-0.1.1.tar.gz --markdown 20240514/e/ecoviewer/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 00:14:54] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2024-05-14 00:14:54] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20240502061.tar.gz tmp/great_expectations_experimental-0.1.20240513031.tar.gz --markdown 20240514/g/great-expectations-experimental/0.1.20240502061-0.1.20240513031/README.md --exclude *.pyd
+[2024-05-14 00:14:55] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.1.0.tar.gz]
+[2024-05-14 00:14:55] INFO root fetch - processPackages [ecoviewer]: Remove: archive file [/home/abi/fetcher/tmp/ecoviewer-0.1.1.tar.gz]
+[2024-05-14 00:14:55] INFO root fetch - main [MainThread]: End processing [ecoviewer]: success
+[2024-05-14 00:14:55] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20240502061.tar.gz]
+[2024-05-14 00:14:55] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20240513031.tar.gz]
+[2024-05-14 00:14:55] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2024-05-14 00:14:55] INFO root fetch - main [MainThread]: Store serial: [23191960]
