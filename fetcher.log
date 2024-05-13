@@ -162,3 +162,51 @@
 [2024-05-14 00:03:56] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.4.7.tar.gz]
 [2024-05-14 00:03:56] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
 [2024-05-14 00:03:56] INFO root fetch - main [MainThread]: Store serial: [23191857]
+[2024-05-14 00:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191857]
+[2024-05-14 00:06:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wbddh
+[2024-05-14 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-postprocessor-nvidia-rerank
+[2024-05-14 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avar
+[2024-05-14 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t0
+[2024-05-14 00:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strava-gear
+[2024-05-14 00:06:05] INFO root fetch - processPackages [avar]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 00:06:05] INFO root fetch - processPackages [wbddh]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 00:06:05] INFO root fetch - processPackages [t0]: New version: [4.0.9rc0] Old Version: [4.0.8rc0]
+[2024-05-14 00:06:05] INFO root fetch - processPackages [avar]: Downloading https://files.pythonhosted.org/packages/e2/d5/b534b8eec8856a6cf38d54a3bd669822b1e16682dba61deac32b5d980c57/avar-0.0.5.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [wbddh]: Downloading https://files.pythonhosted.org/packages/81/d2/62055dde58a43c262eb4087afc7fd98e001c3e4885af63b7d5cdd7c58d28/wbddh-0.1.8-py3-none-any.whl
+[2024-05-14 00:06:05] INFO root fetch - processPackages [t0]: Downloading https://files.pythonhosted.org/packages/89/80/882d322cecfc5ff17cfd8b7d2b86114d37ff8dbe23bc54f58ce1e20c60fa/t0-4.0.8rc0.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 00:06:05] INFO root fetch - processPackages [strava-gear]: New version: [1.2.0b1] Old Version: [1.1.0a3]
+[2024-05-14 00:06:05] INFO root fetch - processPackages [wbddh]: Downloading https://files.pythonhosted.org/packages/2d/62/60913caa22f047a12273e34602b0e73c960dcb76ae3961e78ebbdcd6ff3a/wbddh-0.1.9-py3-none-any.whl
+[2024-05-14 00:06:05] INFO root fetch - processPackages [avar]: Downloading https://files.pythonhosted.org/packages/30/ff/ceef69d4b9da730c2a130a2a6b41ebc48615b810fc7c368be45f2aceb856/avar-0.0.6.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: Downloading https://files.pythonhosted.org/packages/de/74/b1451bd9767b467ae48c1f1c79f8fef7e2779901a42330ac5e6e1a5e6e4d/llama_index_postprocessor_nvidia_rerank-0.1.0.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [strava-gear]: Downloading https://files.pythonhosted.org/packages/ee/b1/a2a8040691039308c756db7647d413712e9514c3546b21aa0576ab94453d/strava-gear-1.1.0a3.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [t0]: Downloading https://files.pythonhosted.org/packages/3e/71/0fa6162e1adc28811bc8a802a62d2cf4c262ac5f3b8e9f501451a0e1de20/t0-4.0.9rc0.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [wbddh]: executing diffoscope
+[2024-05-14 00:06:05] INFO root fetch - processPackages [wbddh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wbddh-0.1.8-py3-none-any.whl.zip tmp/wbddh-0.1.9-py3-none-any.whl.zip --markdown 20240514/w/wbddh/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 00:06:05] INFO root fetch - processPackages [avar]: executing diffoscope
+[2024-05-14 00:06:05] INFO root fetch - processPackages [avar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avar-0.0.5.tar.gz tmp/avar-0.0.6.tar.gz --markdown 20240514/a/avar/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 00:06:05] INFO root fetch - processPackages [t0]: executing diffoscope
+[2024-05-14 00:06:05] INFO root fetch - processPackages [t0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t0-4.0.8rc0.tar.gz tmp/t0-4.0.9rc0.tar.gz --markdown 20240514/t/t0/4.0.8rc0-4.0.9rc0/README.md --exclude *.pyd
+[2024-05-14 00:06:05] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: Downloading https://files.pythonhosted.org/packages/4c/3c/2257018bb51860acd75bce9e97718839db23558733db424e725f6e39504e/llama_index_postprocessor_nvidia_rerank-0.1.1.tar.gz
+[2024-05-14 00:06:05] INFO root fetch - processPackages [strava-gear]: Downloading https://files.pythonhosted.org/packages/c8/96/d190d47bf163998a4938372225249b19e753b0d4d5de48a7489a5fb3f096/strava_gear-1.2.0b1.tar.gz
+[2024-05-14 00:06:06] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: executing diffoscope
+[2024-05-14 00:06:06] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_postprocessor_nvidia_rerank-0.1.0.tar.gz tmp/llama_index_postprocessor_nvidia_rerank-0.1.1.tar.gz --markdown 20240514/l/llama-index-postprocessor-nvidia-rerank/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 00:06:06] INFO root fetch - processPackages [strava-gear]: executing diffoscope
+[2024-05-14 00:06:06] INFO root fetch - processPackages [strava-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strava-gear-1.1.0a3.tar.gz tmp/strava_gear-1.2.0b1.tar.gz --markdown 20240514/s/strava-gear/1.1.0a3-1.2.0b1/README.md --exclude *.pyd
+[2024-05-14 00:06:06] INFO root fetch - processPackages [avar]: Remove: archive file [/home/abi/fetcher/tmp/avar-0.0.5.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - processPackages [avar]: Remove: archive file [/home/abi/fetcher/tmp/avar-0.0.6.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - main [MainThread]: End processing [avar]: success
+[2024-05-14 00:06:06] INFO root fetch - processPackages [wbddh]: Remove: archive file [/home/abi/fetcher/tmp/wbddh-0.1.8-py3-none-any.whl.zip]
+[2024-05-14 00:06:06] INFO root fetch - processPackages [wbddh]: Remove: archive file [/home/abi/fetcher/tmp/wbddh-0.1.9-py3-none-any.whl.zip]
+[2024-05-14 00:06:06] INFO root fetch - main [MainThread]: End processing [wbddh]: success
+[2024-05-14 00:06:06] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_nvidia_rerank-0.1.0.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - processPackages [llama-index-postprocessor-nvidia-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_nvidia_rerank-0.1.1.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-nvidia-rerank]: success
+[2024-05-14 00:06:06] INFO root fetch - processPackages [t0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.8rc0.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - processPackages [t0]: Remove: archive file [/home/abi/fetcher/tmp/t0-4.0.9rc0.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - main [MainThread]: End processing [t0]: success
+[2024-05-14 00:06:06] INFO root fetch - processPackages [strava-gear]: Remove: archive file [/home/abi/fetcher/tmp/strava-gear-1.1.0a3.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - processPackages [strava-gear]: Remove: archive file [/home/abi/fetcher/tmp/strava_gear-1.2.0b1.tar.gz]
+[2024-05-14 00:06:06] INFO root fetch - main [MainThread]: End processing [strava-gear]: success
+[2024-05-14 00:06:06] INFO root fetch - main [MainThread]: Store serial: [23191873]
