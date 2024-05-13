@@ -1359,3 +1359,33 @@
 [2024-05-14 01:10:48] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
 [2024-05-14 01:10:48] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2024-05-14 01:10:48] INFO root fetch - main [MainThread]: Store serial: [23192328]
+[2024-05-14 01:12:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192328]
+[2024-05-14 01:12:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 01:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourmash-plugin-directsketch
+[2024-05-14 01:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dekdjtools
+[2024-05-14 01:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbn
+[2024-05-14 01:12:56] INFO root fetch - processPackages [sbn]: New version: [97] Old Version: [96]
+[2024-05-14 01:12:56] INFO root fetch - processPackages [dekdjtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 01:12:56] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/95/a8/a7fe9414462f87baedbd2ea17a2e97230c7ec9058d243d59ea16fa001f82/sbn-96.tar.gz
+[2024-05-14 01:12:56] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/e4/df/58d5e7aaa205acddbf1ba3c7e480bde075d90f3cf2f9a4ef8b1023fb4c14/dekdjtools-0.1.8.tar.gz
+[2024-05-14 01:12:56] INFO root fetch - processPackages [sourmash-plugin-directsketch]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-14 01:12:57] INFO root fetch - processPackages [dekdjtools]: Downloading https://files.pythonhosted.org/packages/38/d3/1ea767a7367db4793980cd61bc83abf62a6c7e853f2c1d75e2e4e7070d71/dekdjtools-0.1.9.tar.gz
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/b7/6b/578db1a8bae1878d9a18599708fd9d2c11a855b191813438f0cdf3d2474e/sourmash_plugin_directsketch-0.2.3.tar.gz
+[2024-05-14 01:12:57] INFO root fetch - processPackages [dekdjtools]: executing diffoscope
+[2024-05-14 01:12:57] INFO root fetch - processPackages [dekdjtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dekdjtools-0.1.8.tar.gz tmp/dekdjtools-0.1.9.tar.gz --markdown 20240514/d/dekdjtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sbn]: Downloading https://files.pythonhosted.org/packages/70/d3/c85d382ff2095a7e05d68921feea2c8610d982758dbf0ad61659c37cde4b/sbn-97.tar.gz
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sbn]: executing diffoscope
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbn-96.tar.gz tmp/sbn-97.tar.gz --markdown 20240514/s/sbn/96-97/README.md --exclude *.pyd
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Downloading https://files.pythonhosted.org/packages/ed/cf/14b263ebb972475110495db579ccab89a94c947ea68d0784e55e522144cb/sourmash_plugin_directsketch-0.3.0.tar.gz
+[2024-05-14 01:12:57] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.8.tar.gz]
+[2024-05-14 01:12:57] INFO root fetch - processPackages [dekdjtools]: Remove: archive file [/home/abi/fetcher/tmp/dekdjtools-0.1.9.tar.gz]
+[2024-05-14 01:12:57] INFO root fetch - main [MainThread]: End processing [dekdjtools]: success
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sourmash-plugin-directsketch]: executing diffoscope
+[2024-05-14 01:12:57] INFO root fetch - processPackages [sourmash-plugin-directsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_plugin_directsketch-0.2.3.tar.gz tmp/sourmash_plugin_directsketch-0.3.0.tar.gz --markdown 20240514/s/sourmash-plugin-directsketch/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-14 01:12:58] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-96.tar.gz]
+[2024-05-14 01:12:58] INFO root fetch - processPackages [sbn]: Remove: archive file [/home/abi/fetcher/tmp/sbn-97.tar.gz]
+[2024-05-14 01:12:58] INFO root fetch - main [MainThread]: End processing [sbn]: success
+[2024-05-14 01:12:58] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.2.3.tar.gz]
+[2024-05-14 01:12:58] INFO root fetch - processPackages [sourmash-plugin-directsketch]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_plugin_directsketch-0.3.0.tar.gz]
+[2024-05-14 01:12:58] INFO root fetch - main [MainThread]: End processing [sourmash-plugin-directsketch]: success
+[2024-05-14 01:12:58] INFO root fetch - main [MainThread]: Store serial: [23192335]
