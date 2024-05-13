@@ -365,3 +365,45 @@
 [2024-05-14 00:10:32] INFO root fetch - processPackages [llama-index-postprocessor-voyageai-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_voyageai_rerank-0.1.2.tar.gz]
 [2024-05-14 00:10:32] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-voyageai-rerank]: success
 [2024-05-14 00:10:32] INFO root fetch - main [MainThread]: Store serial: [23191934]
+[2024-05-14 00:12:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191934]
+[2024-05-14 00:12:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 00:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appsurifyci
+[2024-05-14 00:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: touchpy
+[2024-05-14 00:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsms-sdk
+[2024-05-14 00:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brassworkerz
+[2024-05-14 00:12:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercoa
+[2024-05-14 00:12:42] INFO root fetch - processPackages [dsms-sdk]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2024-05-14 00:12:42] INFO root fetch - processPackages [touchpy]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 00:12:42] WARNING root fetch - processPackages [brassworkerz]: Skipping, unable to determine old version
+[2024-05-14 00:12:42] INFO root fetch - main [MainThread]: End processing [brassworkerz] error
+[2024-05-14 00:12:42] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/99/f2/574cc897b36eaa90d9d659e0e3ca096c1c734ad8e9381a87579cff03e716/dsms_sdk-1.4.0rc8.tar.gz
+[2024-05-14 00:12:42] INFO root fetch - processPackages [touchpy]: Downloading https://files.pythonhosted.org/packages/44/e1/6a8f42c40e83612c9d484f2daed899e65de16d242eda5ab3401b9bf70c4e/touchpy-0.0.6-cp39-cp39-win_amd64.whl
+[2024-05-14 00:12:42] INFO root fetch - processPackages [mercoa]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-14 00:12:42] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 00:12:43] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/ae/30/68f7ba4a130a1373087581bb9a9d87371c28db2348c270a6479cc30cc6bb/mercoa-0.3.7.tar.gz
+[2024-05-14 00:12:43] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/d6/80/4a34169d48bf3fd90ed612c6344540560cc43ee54e6e17e4cb161b988cdf/dsms_sdk-1.4.0rc9.tar.gz
+[2024-05-14 00:12:43] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2024-05-14 00:12:43] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-05-14 00:12:43] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.4.0rc8.tar.gz tmp/dsms_sdk-1.4.0rc9.tar.gz --markdown 20240514/d/dsms-sdk/1.4.0rc8-1.4.0rc9/README.md --exclude *.pyd
+[2024-05-14 00:12:43] INFO root fetch - processPackages [touchpy]: Downloading https://files.pythonhosted.org/packages/e9/f7/028cdf129f23e3848dffb1c52c58a6fc4e03af660dde3202d303882a3310/touchpy-0.0.7-cp39-cp39-win_amd64.whl
+[2024-05-14 00:12:43] INFO root fetch - processPackages [touchpy]: executing diffoscope
+[2024-05-14 00:12:43] INFO root fetch - processPackages [touchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/touchpy-0.0.6-cp39-cp39-win_amd64.whl.zip tmp/touchpy-0.0.7-cp39-cp39-win_amd64.whl.zip --markdown 20240514/t/touchpy/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 00:12:43] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2024-05-14 00:12:43] INFO root fetch - processPackages [mercoa]: Downloading https://files.pythonhosted.org/packages/e1/d6/5e808a9446b56e867fbcbc2a15ede9094baadc6308b0e5a814e653dba2ce/mercoa-0.3.8.tar.gz
+[2024-05-14 00:12:43] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2024-05-14 00:12:43] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20240514/a/appsurifyci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 00:12:43] INFO root fetch - processPackages [mercoa]: executing diffoscope
+[2024-05-14 00:12:43] INFO root fetch - processPackages [mercoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercoa-0.3.7.tar.gz tmp/mercoa-0.3.8.tar.gz --markdown 20240514/m/mercoa/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-14 00:12:44] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc8.tar.gz]
+[2024-05-14 00:12:44] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.4.0rc9.tar.gz]
+[2024-05-14 00:12:44] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-05-14 00:12:44] INFO root fetch - processPackages [touchpy]: Remove: archive file [/home/abi/fetcher/tmp/touchpy-0.0.6-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 00:12:44] INFO root fetch - processPackages [touchpy]: Remove: archive file [/home/abi/fetcher/tmp/touchpy-0.0.7-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 00:12:44] INFO root fetch - main [MainThread]: End processing [touchpy]: success
+[2024-05-14 00:12:44] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2024-05-14 00:12:44] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2024-05-14 00:12:44] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2024-05-14 00:12:44] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.7.tar.gz]
+[2024-05-14 00:12:44] INFO root fetch - processPackages [mercoa]: Remove: archive file [/home/abi/fetcher/tmp/mercoa-0.3.8.tar.gz]
+[2024-05-14 00:12:44] INFO root fetch - main [MainThread]: End processing [mercoa]: success
+[2024-05-14 00:12:44] INFO root fetch - main [MainThread]: Store serial: [23191951]
