@@ -973,3 +973,18 @@
 [2024-05-14 00:46:42] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
 [2024-05-14 00:46:42] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
 [2024-05-14 00:46:42] INFO root fetch - main [MainThread]: Store serial: [23192179]
+[2024-05-14 00:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192179]
+[2024-05-14 00:48:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 00:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez
+[2024-05-14 00:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: souplessz
+[2024-05-14 00:48:50] WARNING root fetch - processPackages [souplessz]: Skipping, unable to determine old version
+[2024-05-14 00:48:50] INFO root fetch - main [MainThread]: End processing [souplessz] error
+[2024-05-14 00:48:50] INFO root fetch - processPackages [ez]: New version: [9.9.9] Old Version: [9.9.8]
+[2024-05-14 00:48:51] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/65/94/8dfdf6fbb7911824c63768183b5ad04a7a20f0337059a3fdfe43760872cd/ez-9.9.8.tar.gz
+[2024-05-14 00:48:51] INFO root fetch - processPackages [ez]: Downloading https://files.pythonhosted.org/packages/90/c1/ca054042c9827c052772e8ed4ad49a29de99e78a3f110a585c9266ed2987/ez-9.9.9.tar.gz
+[2024-05-14 00:48:51] INFO root fetch - processPackages [ez]: executing diffoscope
+[2024-05-14 00:48:51] INFO root fetch - processPackages [ez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-9.9.8.tar.gz tmp/ez-9.9.9.tar.gz --markdown 20240514/e/ez/9.9.8-9.9.9/README.md --exclude *.pyd
+[2024-05-14 00:48:52] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.8.tar.gz]
+[2024-05-14 00:48:52] INFO root fetch - processPackages [ez]: Remove: archive file [/home/abi/fetcher/tmp/ez-9.9.9.tar.gz]
+[2024-05-14 00:48:52] INFO root fetch - main [MainThread]: End processing [ez]: success
+[2024-05-14 00:48:52] INFO root fetch - main [MainThread]: Store serial: [23192187]
