@@ -1726,3 +1726,38 @@
 [2024-05-14 01:36:09] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-05-14 01:36:09] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-05-14 01:36:09] INFO root fetch - main [MainThread]: Store serial: [23192475]
+[2024-05-14 01:38:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192475]
+[2024-05-14 01:38:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 01:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: repo-find-orphans
+[2024-05-14 01:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-editorjs
+[2024-05-14 01:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pmagpy
+[2024-05-14 01:38:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipen-board
+[2024-05-14 01:38:17] INFO root fetch - processPackages [repo-find-orphans]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 01:38:17] INFO root fetch - processPackages [wagtail-editorjs]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-14 01:38:17] INFO root fetch - processPackages [repo-find-orphans]: Downloading https://files.pythonhosted.org/packages/9c/c5/fe9b6ecd4f32f688ba07b236cc9cad46d23a19dc7d5d581a5d6e772773b0/repo_find_orphans-0.0.4.tar.gz
+[2024-05-14 01:38:17] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/c8/a2/1a8be904ede6d83677c1bbb547df1cba6149579586654ee29f7977496b1f/wagtail_editorjs-1.6.3.tar.gz
+[2024-05-14 01:38:17] INFO root fetch - processPackages [pipen-board]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-14 01:38:17] INFO root fetch - processPackages [pmagpy]: New version: [4.2.98] Old Version: [4.2.95]
+[2024-05-14 01:38:18] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/22/bf/9e7d519d1298bfe76af2e46fee8634a0b3737dc4d471129339af301ca52c/pipen_board-0.9.2.tar.gz
+[2024-05-14 01:38:18] INFO root fetch - processPackages [pmagpy]: Downloading https://files.pythonhosted.org/packages/06/11/0c06e511791e42a1fe7097104c726e58ed6dcb384eb80dcd04e84cfe8a92/pmagpy-4.2.95.tar.gz
+[2024-05-14 01:38:18] INFO root fetch - processPackages [repo-find-orphans]: Downloading https://files.pythonhosted.org/packages/c8/fb/b9024dcb3442fbb53105dd3a9dfec45a8323cceee8f3fce34c2fe833535e/repo_find_orphans-0.0.5.tar.gz
+[2024-05-14 01:38:18] WARNING root fetch - processPackages [pmagpy]: Skipping package: exceeds size limit 48266043>=10485760
+[2024-05-14 01:38:18] INFO root fetch - main [MainThread]: End processing [pmagpy] error
+[2024-05-14 01:38:18] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/a9/62/5594b9d4ba0691ecf71d5d74e181ba29b812400ed79e26b34e77a6061d82/wagtail_editorjs-1.6.4.tar.gz
+[2024-05-14 01:38:18] INFO root fetch - processPackages [repo-find-orphans]: executing diffoscope
+[2024-05-14 01:38:18] INFO root fetch - processPackages [repo-find-orphans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo_find_orphans-0.0.4.tar.gz tmp/repo_find_orphans-0.0.5.tar.gz --markdown 20240514/r/repo-find-orphans/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 01:38:18] INFO root fetch - processPackages [wagtail-editorjs]: executing diffoscope
+[2024-05-14 01:38:18] INFO root fetch - processPackages [wagtail-editorjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_editorjs-1.6.3.tar.gz tmp/wagtail_editorjs-1.6.4.tar.gz --markdown 20240514/w/wagtail-editorjs/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-05-14 01:38:18] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/74/27/a2dcd559f6b40e73d98aad97235de0d65cc7cb1891a18f502bfc3ae05fe6/pipen_board-0.9.3.tar.gz
+[2024-05-14 01:38:18] INFO root fetch - processPackages [repo-find-orphans]: Remove: archive file [/home/abi/fetcher/tmp/repo_find_orphans-0.0.4.tar.gz]
+[2024-05-14 01:38:18] INFO root fetch - processPackages [repo-find-orphans]: Remove: archive file [/home/abi/fetcher/tmp/repo_find_orphans-0.0.5.tar.gz]
+[2024-05-14 01:38:18] INFO root fetch - main [MainThread]: End processing [repo-find-orphans]: success
+[2024-05-14 01:38:18] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2024-05-14 01:38:18] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.9.2.tar.gz tmp/pipen_board-0.9.3.tar.gz --markdown 20240514/p/pipen-board/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-14 01:38:19] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.3.tar.gz]
+[2024-05-14 01:38:19] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.4.tar.gz]
+[2024-05-14 01:38:19] INFO root fetch - main [MainThread]: End processing [wagtail-editorjs]: success
+[2024-05-14 01:38:29] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.2.tar.gz]
+[2024-05-14 01:38:29] INFO root fetch - processPackages [pipen-board]: Remove: archive file [/home/abi/fetcher/tmp/pipen_board-0.9.3.tar.gz]
+[2024-05-14 01:38:29] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2024-05-14 01:38:29] INFO root fetch - main [MainThread]: Store serial: [23192494]
