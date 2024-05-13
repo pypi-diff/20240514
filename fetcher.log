@@ -1506,3 +1506,42 @@
 [2024-05-14 01:21:47] INFO root fetch - processPackages [tfx]: Remove: archive file [/home/abi/fetcher/tmp/tfx-1.9.1-py3-none-any.whl.zip]
 [2024-05-14 01:21:47] INFO root fetch - main [MainThread]: End processing [tfx]: success
 [2024-05-14 01:21:47] INFO root fetch - main [MainThread]: Store serial: [23192378]
+[2024-05-14 01:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192378]
+[2024-05-14 01:23:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 01:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: brdocs-validation
+[2024-05-14 01:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wrapica
+[2024-05-14 01:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dalgorithms
+[2024-05-14 01:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: burr
+[2024-05-14 01:23:56] INFO root fetch - processPackages [wrapica]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-14 01:23:56] INFO root fetch - processPackages [dalgorithms]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 01:23:56] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-14 01:23:56] INFO root fetch - processPackages [brdocs-validation]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-14 01:23:56] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/6c/bb/92e186526ed0e76173b07d2576a2db2997a3f1045ad178f5ec007fa81c60/dalgorithms-0.1.0.tar.gz
+[2024-05-14 01:23:56] INFO root fetch - processPackages [wrapica]: Downloading https://files.pythonhosted.org/packages/c6/ab/1964034f27c1d218b043f912edc27b2dbe6897e26700f366156da9a9af28/wrapica-1.0.6.tar.gz
+[2024-05-14 01:23:56] INFO root fetch - processPackages [brdocs-validation]: Downloading https://files.pythonhosted.org/packages/b0/24/3e4879550011abcf1d1b6466f4122d3b3e66a9b875f33532b859b01297d7/brdocs-validation-0.3.0.tar.gz
+[2024-05-14 01:23:56] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-05-14 01:23:57] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/9e/99/c7a6c439c8d20c6ef8f670dc2853f0b8bfbe2e82c0e02a311906bc729f8f/dalgorithms-0.1.1.tar.gz
+[2024-05-14 01:23:57] INFO root fetch - processPackages [brdocs-validation]: Downloading https://files.pythonhosted.org/packages/c5/ff/da7d280b588939591d0f48d052c5efb57c2016b75b6cae0a1db0a9b6408f/brdocs_validation-0.4.0.tar.gz
+[2024-05-14 01:23:57] INFO root fetch - processPackages [wrapica]: Downloading https://files.pythonhosted.org/packages/e7/16/e4bdecac0a44c88fd5573027e6ddabc8ad0c10bef3d4c792b580e4802dfb/wrapica-1.0.7.tar.gz
+[2024-05-14 01:23:57] INFO root fetch - processPackages [brdocs-validation]: executing diffoscope
+[2024-05-14 01:23:57] INFO root fetch - processPackages [brdocs-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brdocs-validation-0.3.0.tar.gz tmp/brdocs_validation-0.4.0.tar.gz --markdown 20240514/b/brdocs-validation/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-14 01:23:57] INFO root fetch - processPackages [dalgorithms]: executing diffoscope
+[2024-05-14 01:23:57] INFO root fetch - processPackages [dalgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalgorithms-0.1.0.tar.gz tmp/dalgorithms-0.1.1.tar.gz --markdown 20240514/d/dalgorithms/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 01:23:57] INFO root fetch - processPackages [wrapica]: executing diffoscope
+[2024-05-14 01:23:57] INFO root fetch - processPackages [wrapica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapica-1.0.6.tar.gz tmp/wrapica-1.0.7.tar.gz --markdown 20240514/w/wrapica/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-14 01:23:57] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-05-14 01:23:57] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.0.tar.gz]
+[2024-05-14 01:23:57] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.1.tar.gz]
+[2024-05-14 01:23:57] INFO root fetch - main [MainThread]: End processing [dalgorithms]: success
+[2024-05-14 01:23:57] INFO root fetch - processPackages [brdocs-validation]: Remove: archive file [/home/abi/fetcher/tmp/brdocs-validation-0.3.0.tar.gz]
+[2024-05-14 01:23:57] INFO root fetch - processPackages [brdocs-validation]: Remove: archive file [/home/abi/fetcher/tmp/brdocs_validation-0.4.0.tar.gz]
+[2024-05-14 01:23:57] INFO root fetch - main [MainThread]: End processing [brdocs-validation]: success
+[2024-05-14 01:23:58] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-05-14 01:23:58] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240514/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-14 01:23:58] INFO root fetch - processPackages [wrapica]: Remove: archive file [/home/abi/fetcher/tmp/wrapica-1.0.6.tar.gz]
+[2024-05-14 01:23:58] INFO root fetch - processPackages [wrapica]: Remove: archive file [/home/abi/fetcher/tmp/wrapica-1.0.7.tar.gz]
+[2024-05-14 01:23:58] INFO root fetch - main [MainThread]: End processing [wrapica]: success
+[2024-05-14 01:24:34] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-05-14 01:24:34] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-05-14 01:24:34] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-05-14 01:24:34] INFO root fetch - main [MainThread]: Store serial: [23192389]
