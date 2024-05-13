@@ -452,3 +452,43 @@
 [2024-05-14 00:17:05] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.9.tar.gz]
 [2024-05-14 00:17:05] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
 [2024-05-14 00:17:05] INFO root fetch - main [MainThread]: Store serial: [23191966]
+[2024-05-14 00:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191966]
+[2024-05-14 00:19:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: medor
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fennel-ai
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: throedz
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: env-verify
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickseries
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: statsnet-python-sdk
+[2024-05-14 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: my-decimal
+[2024-05-14 00:19:13] INFO root fetch - processPackages [fennel-ai]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-14 00:19:13] INFO root fetch - processPackages [medor]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 00:19:13] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/00/d9/0ed300f62d2edb1a483f53ad0e5859720486e3d447e838ce327f08e2295f/fennel_ai-1.3.7.tar.gz
+[2024-05-14 00:19:13] WARNING root fetch - processPackages [quickseries]: Skipping, unable to determine old version
+[2024-05-14 00:19:13] INFO root fetch - main [MainThread]: End processing [quickseries] error
+[2024-05-14 00:19:13] INFO root fetch - processPackages [statsnet-python-sdk]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-14 00:19:13] WARNING root fetch - processPackages [env-verify]: Skipping, unable to determine old version
+[2024-05-14 00:19:13] INFO root fetch - main [MainThread]: End processing [env-verify] error
+[2024-05-14 00:19:13] WARNING root fetch - processPackages [throedz]: Skipping, unable to determine old version
+[2024-05-14 00:19:13] INFO root fetch - main [MainThread]: End processing [throedz] error
+[2024-05-14 00:19:13] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40207109>=10485760
+[2024-05-14 00:19:13] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-05-14 00:19:13] INFO root fetch - processPackages [my-decimal]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-14 00:19:13] INFO root fetch - processPackages [medor]: Downloading https://files.pythonhosted.org/packages/12/48/0182b3d2355a62ca734133925a8c8e9ba3d0eafba25f99f0d9441e23f14e/medor-0.1.0.tar.gz
+[2024-05-14 00:19:13] INFO root fetch - processPackages [statsnet-python-sdk]: Downloading https://files.pythonhosted.org/packages/1c/54/e8877ca02bca704ae31b75712f6889e043d27f35183afdf48fabaebeb0e2/statsnet_python_sdk-1.1.2.tar.gz
+[2024-05-14 00:19:13] WARNING root fetch - processPackages [medor]: Skipping package: exceeds size limit 16784584>=10485760
+[2024-05-14 00:19:13] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-05-14 00:19:13] INFO root fetch - processPackages [my-decimal]: Downloading https://files.pythonhosted.org/packages/3e/09/c6b35b981249ce2d87c76d698b864cd7214a7763398e64da0e7caf00fa0b/my_decimal-1.1.2.tar.gz
+[2024-05-14 00:19:14] INFO root fetch - processPackages [statsnet-python-sdk]: Downloading https://files.pythonhosted.org/packages/e0/bb/2e8ea67056f53dfbdd721109968052f667ed4619b762ad693d16399f0b0e/statsnet_python_sdk-1.1.3.tar.gz
+[2024-05-14 00:19:14] INFO root fetch - processPackages [my-decimal]: Downloading https://files.pythonhosted.org/packages/e2/3e/a3d08b3cea0a1e7838a74d1b672b0cad1b368e4638f376421d452a4aaf7b/my_decimal-1.1.3.tar.gz
+[2024-05-14 00:19:14] INFO root fetch - processPackages [statsnet-python-sdk]: executing diffoscope
+[2024-05-14 00:19:14] INFO root fetch - processPackages [statsnet-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statsnet_python_sdk-1.1.2.tar.gz tmp/statsnet_python_sdk-1.1.3.tar.gz --markdown 20240514/s/statsnet-python-sdk/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-14 00:19:14] INFO root fetch - processPackages [my-decimal]: executing diffoscope
+[2024-05-14 00:19:14] INFO root fetch - processPackages [my-decimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_decimal-1.1.2.tar.gz tmp/my_decimal-1.1.3.tar.gz --markdown 20240514/m/my-decimal/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-14 00:19:14] INFO root fetch - processPackages [statsnet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/statsnet_python_sdk-1.1.2.tar.gz]
+[2024-05-14 00:19:14] INFO root fetch - processPackages [statsnet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/statsnet_python_sdk-1.1.3.tar.gz]
+[2024-05-14 00:19:14] INFO root fetch - main [MainThread]: End processing [statsnet-python-sdk]: success
+[2024-05-14 00:19:14] INFO root fetch - processPackages [my-decimal]: Remove: archive file [/home/abi/fetcher/tmp/my_decimal-1.1.2.tar.gz]
+[2024-05-14 00:19:14] INFO root fetch - processPackages [my-decimal]: Remove: archive file [/home/abi/fetcher/tmp/my_decimal-1.1.3.tar.gz]
+[2024-05-14 00:19:14] INFO root fetch - main [MainThread]: End processing [my-decimal]: success
+[2024-05-14 00:19:14] INFO root fetch - main [MainThread]: Store serial: [23191990]
