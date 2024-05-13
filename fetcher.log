@@ -492,3 +492,63 @@
 [2024-05-14 00:19:14] INFO root fetch - processPackages [my-decimal]: Remove: archive file [/home/abi/fetcher/tmp/my_decimal-1.1.3.tar.gz]
 [2024-05-14 00:19:14] INFO root fetch - main [MainThread]: End processing [my-decimal]: success
 [2024-05-14 00:19:14] INFO root fetch - main [MainThread]: Store serial: [23191990]
+[2024-05-14 00:21:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191990]
+[2024-05-14 00:21:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlalchemy-declarative-extensions
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyClassJVM
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ASUllmAPI
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-gitlab
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mimllearning
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autocortext-py
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: InvokeAI
+[2024-05-14 00:21:23] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 00:21:23] INFO root fetch - processPackages [python-gitlab]: New version: [4.5.0] Old Version: [4.4.0]
+[2024-05-14 00:21:23] WARNING root fetch - processPackages [PyClassJVM]: Skipping, unable to determine old version
+[2024-05-14 00:21:23] INFO root fetch - main [MainThread]: End processing [PyClassJVM] error
+[2024-05-14 00:21:23] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ASUllmAPI]: New version: [1.1.3] Old Version: [1.1.1]
+[2024-05-14 00:21:23] INFO root fetch - processPackages [autocortext-py]: New version: [0.4.0] Old Version: [0.3.8]
+[2024-05-14 00:21:23] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [InvokeAI]: New version: [4.2.1] Old Version: [4.2.0b2]
+[2024-05-14 00:21:23] INFO root fetch - processPackages [python-gitlab]: Downloading https://files.pythonhosted.org/packages/8d/6d/934b832b55ca42740b078fe18aa83680ac7d196802feee39f9b87195a156/python-gitlab-4.4.0.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Downloading https://files.pythonhosted.org/packages/75/64/fc630d8689e996dd2c92bbdc17992e4004db43c2ffa0845d99a337957f74/sqlalchemy-declarative-extensions-0.8.2.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [ASUllmAPI]: Downloading https://files.pythonhosted.org/packages/db/3b/b0ef4ab532570a85e50fa2977ce46e6ede9011dff4ce229fd9b64fa31df5/asullmapi-1.1.1.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/ce/64/fcc8fa7f21e35dbc71ace5f7b72923adb95a1557d515461c7ae0f1dd00a2/autocortext_py-0.3.8.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/46/9c/aacea531db5f3a7840f6e6c98f3edf6e268d6f0b49ebffe088b9651f7cab/InvokeAI-4.2.0b2.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [python-gitlab]: Downloading https://files.pythonhosted.org/packages/ce/70/1f85d69b0c0869419baab10b2283dab178b209c57952e414812acee59452/python_gitlab-4.5.0.tar.gz
+[2024-05-14 00:21:23] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-14 00:21:24] INFO root fetch - processPackages [ASUllmAPI]: Downloading https://files.pythonhosted.org/packages/e6/00/8a490eb2cec14222618aba63af6f4e9783e2ea7b185e0a84ea89d656daf9/asullmapi-1.1.3.tar.gz
+[2024-05-14 00:21:24] INFO root fetch - processPackages [autocortext-py]: Downloading https://files.pythonhosted.org/packages/47/e5/b2baea0da712cc350393e8b40bf65310873db35f682175abd42d4c16739b/autocortext_py-0.4.0.tar.gz
+[2024-05-14 00:21:24] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Downloading https://files.pythonhosted.org/packages/f3/5f/dfc4813df03490440613ff8ed4a2fff3b70af95d873f1ac6edbb5a073f29/sqlalchemy-declarative-extensions-0.8.3.tar.gz
+[2024-05-14 00:21:24] INFO root fetch - processPackages [python-gitlab]: executing diffoscope
+[2024-05-14 00:21:24] INFO root fetch - processPackages [python-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gitlab-4.4.0.tar.gz tmp/python_gitlab-4.5.0.tar.gz --markdown 20240514/p/python-gitlab/4.4.0-4.5.0/README.md --exclude *.pyd
+[2024-05-14 00:21:24] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-14 00:21:24] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240514/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 00:21:24] INFO root fetch - processPackages [ASUllmAPI]: executing diffoscope
+[2024-05-14 00:21:24] INFO root fetch - processPackages [ASUllmAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asullmapi-1.1.1.tar.gz tmp/asullmapi-1.1.3.tar.gz --markdown 20240514/A/ASUllmAPI/1.1.1-1.1.3/README.md --exclude *.pyd
+[2024-05-14 00:21:24] INFO root fetch - processPackages [autocortext-py]: executing diffoscope
+[2024-05-14 00:21:24] INFO root fetch - processPackages [autocortext-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocortext_py-0.3.8.tar.gz tmp/autocortext_py-0.4.0.tar.gz --markdown 20240514/a/autocortext-py/0.3.8-0.4.0/README.md --exclude *.pyd
+[2024-05-14 00:21:24] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: executing diffoscope
+[2024-05-14 00:21:24] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-declarative-extensions-0.8.2.tar.gz tmp/sqlalchemy-declarative-extensions-0.8.3.tar.gz --markdown 20240514/s/sqlalchemy-declarative-extensions/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-14 00:21:24] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/50/7c/ffc6f9adde71e10cb1a24dbf4a32328155ef57746f1c190551a0fb4571df/InvokeAI-4.2.1.tar.gz
+[2024-05-14 00:21:24] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.3.8.tar.gz]
+[2024-05-14 00:21:24] INFO root fetch - processPackages [autocortext-py]: Remove: archive file [/home/abi/fetcher/tmp/autocortext_py-0.4.0.tar.gz]
+[2024-05-14 00:21:24] INFO root fetch - main [MainThread]: End processing [autocortext-py]: success
+[2024-05-14 00:21:24] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-05-14 00:21:24] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.2.0b2.tar.gz tmp/InvokeAI-4.2.1.tar.gz --markdown 20240514/I/InvokeAI/4.2.0b2-4.2.1/README.md --exclude *.pyd
+[2024-05-14 00:21:24] INFO root fetch - processPackages [ASUllmAPI]: Remove: archive file [/home/abi/fetcher/tmp/asullmapi-1.1.1.tar.gz]
+[2024-05-14 00:21:24] INFO root fetch - processPackages [ASUllmAPI]: Remove: archive file [/home/abi/fetcher/tmp/asullmapi-1.1.3.tar.gz]
+[2024-05-14 00:21:24] INFO root fetch - main [MainThread]: End processing [ASUllmAPI]: success
+[2024-05-14 00:21:25] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-declarative-extensions-0.8.2.tar.gz]
+[2024-05-14 00:21:25] INFO root fetch - processPackages [sqlalchemy-declarative-extensions]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy-declarative-extensions-0.8.3.tar.gz]
+[2024-05-14 00:21:25] INFO root fetch - main [MainThread]: End processing [sqlalchemy-declarative-extensions]: success
+[2024-05-14 00:21:25] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-14 00:21:25] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-14 00:21:25] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-14 00:21:26] INFO root fetch - processPackages [python-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/python-gitlab-4.4.0.tar.gz]
+[2024-05-14 00:21:26] INFO root fetch - processPackages [python-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/python_gitlab-4.5.0.tar.gz]
+[2024-05-14 00:21:26] INFO root fetch - main [MainThread]: End processing [python-gitlab]: success
+[2024-05-14 00:21:52] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.0b2.tar.gz]
+[2024-05-14 00:21:52] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.2.1.tar.gz]
+[2024-05-14 00:21:52] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-05-14 00:21:52] INFO root fetch - main [MainThread]: Store serial: [23192013]
