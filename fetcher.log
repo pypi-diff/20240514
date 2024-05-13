@@ -1288,3 +1288,38 @@
 [2024-05-14 01:06:25] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240512.tar.gz]
 [2024-05-14 01:06:25] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-05-14 01:06:25] INFO root fetch - main [MainThread]: Store serial: [23192296]
+[2024-05-14 01:08:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192296]
+[2024-05-14 01:08:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 01:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex
+[2024-05-14 01:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2024-05-14 01:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: great-expectations-cloud
+[2024-05-14 01:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xendpalmagic
+[2024-05-14 01:08:34] INFO root fetch - processPackages [xendpalmagic]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 01:08:34] INFO root fetch - processPackages [reflex]: New version: [0.5.0a3] Old Version: [0.5.0a2]
+[2024-05-14 01:08:34] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240513] Old Version: [2.17.0.dev20240511]
+[2024-05-14 01:08:34] INFO root fetch - processPackages [great-expectations-cloud]: New version: [20240513.0.dev0] Old Version: [20240507.0]
+[2024-05-14 01:08:34] INFO root fetch - processPackages [xendpalmagic]: Downloading https://files.pythonhosted.org/packages/fc/8c/9f9dd4f7f51bae04e7db9ab5979b6e71727febae6154cfc99926b09a128a/xendpalmagic-0.0.2.tar.gz
+[2024-05-14 01:08:34] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/59/2f/a58fcf75384af48ccbe33d351e7d02e5e5ba6cc8f5482bd43291c1a141ae/great_expectations_cloud-20240507.0.tar.gz
+[2024-05-14 01:08:34] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/f2/42/0820a8e0b3fd42e0061251fc8213d2e7eca1c4b4d20bea68ebc78505762f/tf_nightly_intel-2.17.0.dev20240511-cp39-cp39-win_amd64.whl
+[2024-05-14 01:08:34] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 215096195>=10485760
+[2024-05-14 01:08:34] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-05-14 01:08:34] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/d6/58/1a4dbd1e26aa9ee9d8979c06fe18be37c0b8f4d7cbac61de3ae60fc61cb4/reflex-0.5.0a2.tar.gz
+[2024-05-14 01:08:35] INFO root fetch - processPackages [xendpalmagic]: Downloading https://files.pythonhosted.org/packages/b0/5f/4d19ae783a92a0540dc5f394805d93a4d8f5fc127016dd89e13f2ca1cd1e/xendpalmagic-0.0.3.tar.gz
+[2024-05-14 01:08:35] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/ea/34/2fb3f5594294ccd3a49d6c653700a4c6d6c37578a9db12e486af7cfaea94/great_expectations_cloud-20240513.0.dev0.tar.gz
+[2024-05-14 01:08:35] INFO root fetch - processPackages [great-expectations-cloud]: executing diffoscope
+[2024-05-14 01:08:35] INFO root fetch - processPackages [great-expectations-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_cloud-20240507.0.tar.gz tmp/great_expectations_cloud-20240513.0.dev0.tar.gz --markdown 20240514/g/great-expectations-cloud/20240507.0-20240513.0.dev0/README.md --exclude *.pyd
+[2024-05-14 01:08:35] INFO root fetch - processPackages [xendpalmagic]: executing diffoscope
+[2024-05-14 01:08:35] INFO root fetch - processPackages [xendpalmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xendpalmagic-0.0.2.tar.gz tmp/xendpalmagic-0.0.3.tar.gz --markdown 20240514/x/xendpalmagic/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 01:08:35] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/ea/3b/b0bd2bdb14e7be17eefc10af092f6da78849697d3197e87c48667bcdff6d/reflex-0.5.0a3.tar.gz
+[2024-05-14 01:08:35] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-05-14 01:08:35] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.5.0a2.tar.gz tmp/reflex-0.5.0a3.tar.gz --markdown 20240514/r/reflex/0.5.0a2-0.5.0a3/README.md --exclude *.pyd
+[2024-05-14 01:08:35] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240507.0.tar.gz]
+[2024-05-14 01:08:35] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240513.0.dev0.tar.gz]
+[2024-05-14 01:08:35] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
+[2024-05-14 01:08:35] INFO root fetch - processPackages [xendpalmagic]: Remove: archive file [/home/abi/fetcher/tmp/xendpalmagic-0.0.2.tar.gz]
+[2024-05-14 01:08:35] INFO root fetch - processPackages [xendpalmagic]: Remove: archive file [/home/abi/fetcher/tmp/xendpalmagic-0.0.3.tar.gz]
+[2024-05-14 01:08:35] INFO root fetch - main [MainThread]: End processing [xendpalmagic]: success
+[2024-05-14 01:08:37] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.5.0a2.tar.gz]
+[2024-05-14 01:08:37] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.5.0a3.tar.gz]
+[2024-05-14 01:08:37] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-05-14 01:08:37] INFO root fetch - main [MainThread]: Store serial: [23192310]
