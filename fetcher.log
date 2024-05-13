@@ -1582,3 +1582,42 @@
 [2024-05-14 01:26:46] INFO root fetch - main [MainThread]: End processing [sc-file]: success
 [2024-05-14 01:26:46] INFO root fetch - main [MainThread]: End processing [md-incl]: success
 [2024-05-14 01:26:46] INFO root fetch - main [MainThread]: Store serial: [23192410]
+[2024-05-14 01:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192410]
+[2024-05-14 01:28:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 01:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: journeylib
+[2024-05-14 01:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: altscore-workflow-builder
+[2024-05-14 01:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: md-incl
+[2024-05-14 01:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xendpalmagic
+[2024-05-14 01:28:54] INFO root fetch - processPackages [journeylib]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-14 01:28:54] INFO root fetch - processPackages [md-incl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 01:28:54] INFO root fetch - processPackages [xendpalmagic]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 01:28:54] INFO root fetch - processPackages [altscore-workflow-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 01:28:54] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/13/5e/fc606e6078fc016cf3c7e3bec3e012541ba2a6642f9d3f98946f178df3fd/journeylib-2.0.2.tar.gz
+[2024-05-14 01:28:54] INFO root fetch - processPackages [xendpalmagic]: Downloading https://files.pythonhosted.org/packages/fc/8c/9f9dd4f7f51bae04e7db9ab5979b6e71727febae6154cfc99926b09a128a/xendpalmagic-0.0.2.tar.gz
+[2024-05-14 01:28:54] INFO root fetch - processPackages [altscore-workflow-builder]: Downloading https://files.pythonhosted.org/packages/f0/fa/89cca82209a4c117e11fbf9e81a7731baafe7d98942d787c62e02ca375da/altscore_workflow_builder-0.0.8.tar.gz
+[2024-05-14 01:28:54] INFO root fetch - processPackages [md-incl]: Downloading https://files.pythonhosted.org/packages/bd/2e/b80fb999f1df07332f211686c6859936cff1eae16831eb420759610279a6/md_incl-0.0.2.tar.gz
+[2024-05-14 01:28:54] INFO root fetch - processPackages [xendpalmagic]: Downloading https://files.pythonhosted.org/packages/b0/5f/4d19ae783a92a0540dc5f394805d93a4d8f5fc127016dd89e13f2ca1cd1e/xendpalmagic-0.0.3.tar.gz
+[2024-05-14 01:28:54] INFO root fetch - processPackages [altscore-workflow-builder]: Downloading https://files.pythonhosted.org/packages/68/8d/c9a42a6d012c1a9fb9ef55b57e3251bfa8d248169a64513b839c30038528/altscore_workflow_builder-0.0.9.tar.gz
+[2024-05-14 01:28:55] INFO root fetch - processPackages [journeylib]: Downloading https://files.pythonhosted.org/packages/a9/27/3d1940ddfb29da9ab86c743c791127a9ecaf0d97845507da37ca068a9e5c/journeylib-2.0.3.tar.gz
+[2024-05-14 01:28:55] INFO root fetch - processPackages [xendpalmagic]: executing diffoscope
+[2024-05-14 01:28:55] INFO root fetch - processPackages [xendpalmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xendpalmagic-0.0.2.tar.gz tmp/xendpalmagic-0.0.3.tar.gz --markdown 20240514/x/xendpalmagic/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 01:28:55] INFO root fetch - processPackages [altscore-workflow-builder]: executing diffoscope
+[2024-05-14 01:28:55] INFO root fetch - processPackages [altscore-workflow-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore_workflow_builder-0.0.8.tar.gz tmp/altscore_workflow_builder-0.0.9.tar.gz --markdown 20240514/a/altscore-workflow-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:28:55] INFO root fetch - processPackages [journeylib]: executing diffoscope
+[2024-05-14 01:28:55] INFO root fetch - processPackages [journeylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/journeylib-2.0.2.tar.gz tmp/journeylib-2.0.3.tar.gz --markdown 20240514/j/journeylib/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-14 01:28:55] INFO root fetch - processPackages [md-incl]: Downloading https://files.pythonhosted.org/packages/2b/d5/cbea120186abf43618aa32d14874516e2c4301c5805e2f2b4e267c35ce0b/md_incl-0.0.3.tar.gz
+[2024-05-14 01:28:55] INFO root fetch - processPackages [md-incl]: executing diffoscope
+[2024-05-14 01:28:55] INFO root fetch - processPackages [md-incl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/md_incl-0.0.2.tar.gz tmp/md_incl-0.0.3.tar.gz --markdown 20240514/m/md-incl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 01:28:55] INFO root fetch - processPackages [xendpalmagic]: Remove: archive file [/home/abi/fetcher/tmp/xendpalmagic-0.0.2.tar.gz]
+[2024-05-14 01:28:55] INFO root fetch - processPackages [xendpalmagic]: Remove: archive file [/home/abi/fetcher/tmp/xendpalmagic-0.0.3.tar.gz]
+[2024-05-14 01:28:55] INFO root fetch - main [MainThread]: End processing [xendpalmagic]: success
+[2024-05-14 01:28:55] INFO root fetch - processPackages [altscore-workflow-builder]: Remove: archive file [/home/abi/fetcher/tmp/altscore_workflow_builder-0.0.8.tar.gz]
+[2024-05-14 01:28:55] INFO root fetch - processPackages [altscore-workflow-builder]: Remove: archive file [/home/abi/fetcher/tmp/altscore_workflow_builder-0.0.9.tar.gz]
+[2024-05-14 01:28:55] INFO root fetch - main [MainThread]: End processing [altscore-workflow-builder]: success
+[2024-05-14 01:28:55] INFO root fetch - processPackages [md-incl]: Remove: archive file [/home/abi/fetcher/tmp/md_incl-0.0.2.tar.gz]
+[2024-05-14 01:28:55] INFO root fetch - processPackages [md-incl]: Remove: archive file [/home/abi/fetcher/tmp/md_incl-0.0.3.tar.gz]
+[2024-05-14 01:28:55] INFO root fetch - main [MainThread]: End processing [md-incl]: success
+[2024-05-14 01:28:56] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-2.0.2.tar.gz]
+[2024-05-14 01:28:56] INFO root fetch - processPackages [journeylib]: Remove: archive file [/home/abi/fetcher/tmp/journeylib-2.0.3.tar.gz]
+[2024-05-14 01:28:56] INFO root fetch - main [MainThread]: End processing [journeylib]: success
+[2024-05-14 01:28:56] INFO root fetch - main [MainThread]: Store serial: [23192423]
