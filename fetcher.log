@@ -1,0 +1,104 @@
+[2024-05-14 00:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23191796]
+[2024-05-14 00:01:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tom-tns
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-postprocessor-cohere-rerank
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PQAnalysis
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llama-cpp-agent
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: research-framework
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ioxplugin
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: juntagrico-webdav
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: image-dataset-converter-all
+[2024-05-14 00:01:43] INFO root fetch - processPackages [PQAnalysis]: New version: [1.0] Old Version: [0.5.2]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [tom-tns]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ioxplugin]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [modal]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [modal-client]: New version: [0.62.99] Old Version: [0.62.98]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 00:01:43] WARNING root fetch - processPackages [image-dataset-converter-all]: Skipping, unable to determine old version
+[2024-05-14 00:01:43] INFO root fetch - processPackages [image-dataset-converter-all]: Start processing: structstore
+[2024-05-14 00:01:43] INFO root fetch - main [MainThread]: End processing [image-dataset-converter-all] error
+[2024-05-14 00:01:43] INFO root fetch - processPackages [juntagrico-webdav]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/e1/43/8909e36efe8c88188326519159ac1faa149227f01c6a0d968acc30efedde/modal_client-0.62.98-py3-none-any.whl
+[2024-05-14 00:01:43] INFO root fetch - processPackages [tom-tns]: Downloading https://files.pythonhosted.org/packages/88/80/6c29b7cafc49d6a70695f18b394203fcff5396ed0bea673ad03cc517413e/tom_tns-0.1.4.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/f9/72/3b73ff6151315af81c153953526d6713ae1645544027f74660b02e8de133/ioxplugin-1.0.6.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [research-framework]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/64/cf/de1f218e9e80a8fde4acb33b90104d1657c72661b91bbc9bfed4557cd414/llama_cpp_agent-0.2.2.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/b5/38/bb0788928bcf76bff83916023bd1f84d88b1eb03c43f34ae832eff523ed0/modal-0.62.98-py3-none-any.whl
+[2024-05-14 00:01:43] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/4c/78/58484169da26d1cc3d3b96f8525e0ac47ce82c3e8c428c7d64b78254636b/pqanalysis-0.5.2.tar.gz
+[2024-05-14 00:01:43] WARNING root fetch - processPackages [structstore]: Skipping, unable to determine old version
+[2024-05-14 00:01:43] INFO root fetch - processPackages [structstore]: Start processing: spider-client
+[2024-05-14 00:01:43] INFO root fetch - main [MainThread]: End processing [structstore] error
+[2024-05-14 00:01:43] INFO root fetch - processPackages [spider-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 00:01:43] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Downloading https://files.pythonhosted.org/packages/b2/cd/933dc35d86499c20a6b342eaf69e476c711946ff2cebb4956442e53d1578/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b4/3a/7e3a60540b0de2b4f28de13c20c04bab97a40c022bd147b48a204b987fc1/modal_client-0.62.99-py3-none-any.whl
+[2024-05-14 00:01:43] INFO root fetch - processPackages [research-framework]: Downloading https://files.pythonhosted.org/packages/65/10/f199a37a0480654909da93c8346fc2d406b0fb012818ceef7e93a127e4af/research_framework-0.2.7.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [tom-tns]: Downloading https://files.pythonhosted.org/packages/34/d1/84cf5ebce814d10acc6d9d1ae8d1d6564a9e1b5747fcc24a5fd0d7f7b994/tom_tns-0.2.0.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [juntagrico-webdav]: Downloading https://files.pythonhosted.org/packages/3f/ab/ca3ae3cd32e40e132faaa7ed44b15b50866fa12353ca50009f25a3cc77b6/juntagrico-webdav-1.5.0.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/9d/d9/7be1798423f860276976f7d3161861f71b80e69eb3fad19ffea70bae289c/spider-client-0.0.8.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [ioxplugin]: Downloading https://files.pythonhosted.org/packages/cb/6a/f2c2d57ddd160d98488b7388687cc80c06f595c2e27327e6a40bb44c8e05/ioxplugin-1.0.7.tar.gz
+[2024-05-14 00:01:43] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c7/ec/8086cd0c36b12ca7d4d2ac1f4bf86cbe082ba12dae2dd7c3cccb68a4746e/modal-0.62.99-py3-none-any.whl
+[2024-05-14 00:01:43] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/62/54/573f702bf9700705e895725e8cae34858f26b4a51ce33b34bb6564f404c9/llama_cpp_agent-0.2.3.tar.gz
+[2024-05-14 00:01:44] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.98-py3-none-any.whl.zip tmp/modal_client-0.62.99-py3-none-any.whl.zip --markdown 20240514/m/modal-client/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [tom-tns]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [tom-tns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tom_tns-0.1.4.tar.gz tmp/tom_tns-0.2.0.tar.gz --markdown 20240514/t/tom-tns/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [ioxplugin]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [ioxplugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioxplugin-1.0.6.tar.gz tmp/ioxplugin-1.0.7.tar.gz --markdown 20240514/i/ioxplugin/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Downloading https://files.pythonhosted.org/packages/76/ea/775b5ca778356817e048561feb64d2d542de7cf2792e0c9db9f0693f0096/llama_index_postprocessor_cohere_rerank-0.1.6.tar.gz
+[2024-05-14 00:01:44] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [PQAnalysis]: Downloading https://files.pythonhosted.org/packages/4c/af/b95ab44de8529add5dd8a6e8a3a80c37dbadccac47492e0e32f919eef14c/pqanalysis-1.0.tar.gz
+[2024-05-14 00:01:44] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.2.tar.gz tmp/llama_cpp_agent-0.2.3.tar.gz --markdown 20240514/l/llama-cpp-agent/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [spider-client]: Downloading https://files.pythonhosted.org/packages/ed/fc/ddefa7a1f8ab8c676aead4ef730b7e074b0c7b5610348be25a28da023d40/spider-client-0.0.9.tar.gz
+[2024-05-14 00:01:44] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.98-py3-none-any.whl.zip tmp/modal-0.62.99-py3-none-any.whl.zip --markdown 20240514/m/modal/0.62.98-0.62.99/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [juntagrico-webdav]: Downloading https://files.pythonhosted.org/packages/73/1b/904b40e4e41268e99dbbc879ed0db4b92c1f23ca584591f9ff33c0405b68/juntagrico_webdav-1.6.0.tar.gz
+[2024-05-14 00:01:44] INFO root fetch - processPackages [research-framework]: Downloading https://files.pythonhosted.org/packages/ab/02/c8c4c975bc3934cd61b5f33035a29ae751469da18acf1d0250bef5351621/research_framework-0.2.8.tar.gz
+[2024-05-14 00:01:44] INFO root fetch - processPackages [spider-client]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [spider-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-client-0.0.8.tar.gz tmp/spider-client-0.0.9.tar.gz --markdown 20240514/s/spider-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz tmp/llama_index_postprocessor_cohere_rerank-0.1.6.tar.gz --markdown 20240514/l/llama-index-postprocessor-cohere-rerank/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [juntagrico-webdav]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [juntagrico-webdav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juntagrico-webdav-1.5.0.tar.gz tmp/juntagrico_webdav-1.6.0.tar.gz --markdown 20240514/j/juntagrico-webdav/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [research-framework]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [research-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/research_framework-0.2.7.tar.gz tmp/research_framework-0.2.8.tar.gz --markdown 20240514/r/research-framework/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-14 00:01:44] INFO root fetch - processPackages [PQAnalysis]: executing diffoscope
+[2024-05-14 00:01:44] INFO root fetch - processPackages [PQAnalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqanalysis-0.5.2.tar.gz tmp/pqanalysis-1.0.tar.gz --markdown 20240514/P/PQAnalysis/0.5.2-1.0/README.md --exclude *.pyd
+[2024-05-14 00:01:45] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.98-py3-none-any.whl.zip]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.99-py3-none-any.whl.zip]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [modal-client]: Start processing: aesim.simba
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.6.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [ioxplugin]: Remove: archive file [/home/abi/fetcher/tmp/ioxplugin-1.0.7.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [ioxplugin]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.8.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [spider-client]: Remove: archive file [/home/abi/fetcher/tmp/spider-client-0.0.9.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [spider-client]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [tom-tns]: Remove: archive file [/home/abi/fetcher/tmp/tom_tns-0.1.4.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [tom-tns]: Remove: archive file [/home/abi/fetcher/tmp/tom_tns-0.2.0.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [tom-tns]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [aesim.simba]: New version: [2024.5.9a1] Old Version: [2024.5.6a1]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_cohere_rerank-0.1.5.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [llama-index-postprocessor-cohere-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_cohere_rerank-0.1.6.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-cohere-rerank]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.2.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.3.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [juntagrico-webdav]: Remove: archive file [/home/abi/fetcher/tmp/juntagrico-webdav-1.5.0.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [juntagrico-webdav]: Remove: archive file [/home/abi/fetcher/tmp/juntagrico_webdav-1.6.0.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [juntagrico-webdav]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [research-framework]: Remove: archive file [/home/abi/fetcher/tmp/research_framework-0.2.7.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - processPackages [research-framework]: Remove: archive file [/home/abi/fetcher/tmp/research_framework-0.2.8.tar.gz]
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [research-framework]: success
+[2024-05-14 00:01:45] INFO root fetch - processPackages [aesim.simba]: Downloading https://files.pythonhosted.org/packages/72/ac/b14b191c0c6c14602939f406e0f09f856e7176ca26444537afd53ffde690/aesim.simba-2024.5.6a1-py3-none-win_amd64.whl
+[2024-05-14 00:01:45] WARNING root fetch - processPackages [aesim.simba]: Skipping package: exceeds size limit 76443085>=10485760
+[2024-05-14 00:01:45] INFO root fetch - main [MainThread]: End processing [aesim.simba] error
+[2024-05-14 00:01:46] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.98-py3-none-any.whl.zip]
+[2024-05-14 00:01:46] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.99-py3-none-any.whl.zip]
+[2024-05-14 00:01:46] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-05-14 00:01:46] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-0.5.2.tar.gz]
+[2024-05-14 00:01:46] INFO root fetch - processPackages [PQAnalysis]: Remove: archive file [/home/abi/fetcher/tmp/pqanalysis-1.0.tar.gz]
+[2024-05-14 00:01:46] INFO root fetch - main [MainThread]: End processing [PQAnalysis]: success
+[2024-05-14 00:01:46] INFO root fetch - main [MainThread]: Store serial: [23191835]
