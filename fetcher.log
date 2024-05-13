@@ -2065,3 +2065,57 @@
 [2024-05-14 01:54:00] INFO root fetch - processPackages [carbon-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/carbon_python_sdk-0.1.9.tar.gz]
 [2024-05-14 01:54:00] INFO root fetch - main [MainThread]: End processing [carbon-python-sdk]: success
 [2024-05-14 01:54:00] INFO root fetch - main [MainThread]: Store serial: [23192626]
+[2024-05-14 01:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192626]
+[2024-05-14 01:56:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imbrium
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hairydogm
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colombiaz
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: validate-pyproject-schema-store
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lytils
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fairchem-applications-cattsunami
+[2024-05-14 01:56:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-shapes
+[2024-05-14 01:56:09] INFO root fetch - processPackages [lytils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 01:56:09] INFO root fetch - processPackages [hairydogm]: New version: [0.3.0] Old Version: [0.2.7]
+[2024-05-14 01:56:09] INFO root fetch - processPackages [validate-pyproject-schema-store]: New version: [2024.5.13] Old Version: [2024.4.8]
+[2024-05-14 01:56:09] WARNING root fetch - processPackages [colombiaz]: Skipping, unable to determine old version
+[2024-05-14 01:56:09] INFO root fetch - main [MainThread]: End processing [colombiaz] error
+[2024-05-14 01:56:09] INFO root fetch - processPackages [imbrium]: New version: [3.0.0] Old Version: [2.1.0]
+[2024-05-14 01:56:09] WARNING root fetch - processPackages [fairchem-applications-cattsunami]: Skipping, unable to determine old version
+[2024-05-14 01:56:09] INFO root fetch - main [MainThread]: End processing [fairchem-applications-cattsunami] error
+[2024-05-14 01:56:09] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 01:56:09] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/e5/63/947a765769a040af108780166ef416734281e055d3577ce6f8ecd6dcff7b/lytils-0.1.8.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [imbrium]: Downloading https://files.pythonhosted.org/packages/08/73/c4f6c18db3cfe9d442b600c68d93807f7c963fda9522be36361e67e1eaa4/imbrium-2.1.0.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [hairydogm]: Downloading https://files.pythonhosted.org/packages/c6/04/20a6a23d02547a3cc8a22c0e9b094647eefd6d3f2a052122cdb04e112d87/hairydogm-0.2.7.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/1d/3d/56a8fcf4e8160e5558eef2973036c81a32d2d1cd64e1a1f8bbedd7181884/validate_pyproject_schema_store-2024.4.8.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [lytils]: Downloading https://files.pythonhosted.org/packages/47/f2/15accaaf8b3ff3e0f0f877cb445d79db9dcd4614b25c36859a4bfd9c5c75/lytils-0.1.9.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [lytils]: executing diffoscope
+[2024-05-14 01:56:10] INFO root fetch - processPackages [lytils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lytils-0.1.8.tar.gz tmp/lytils-0.1.9.tar.gz --markdown 20240514/l/lytils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 01:56:10] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 01:56:10] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 01:56:10] INFO root fetch - processPackages [hairydogm]: Downloading https://files.pythonhosted.org/packages/46/81/b129df6105fb322b51faba00356ee3fef393f173a92ee9ccdcf62df325bf/hairydogm-0.3.0.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [imbrium]: Downloading https://files.pythonhosted.org/packages/4e/f9/a9c41183da44b89e7690e9c1b1f524661b6f907279345143cc17d0985c19/imbrium-3.0.0.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [validate-pyproject-schema-store]: Downloading https://files.pythonhosted.org/packages/3c/3f/d7480bfca54e6e0d30f75e57b1c554f3aaf6f9587734ef6e8ea231aa4317/validate_pyproject_schema_store-2024.5.13.tar.gz
+[2024-05-14 01:56:10] INFO root fetch - processPackages [hairydogm]: executing diffoscope
+[2024-05-14 01:56:10] INFO root fetch - processPackages [hairydogm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hairydogm-0.2.7.tar.gz tmp/hairydogm-0.3.0.tar.gz --markdown 20240514/h/hairydogm/0.2.7-0.3.0/README.md --exclude *.pyd
+[2024-05-14 01:56:10] INFO root fetch - processPackages [imbrium]: executing diffoscope
+[2024-05-14 01:56:10] INFO root fetch - processPackages [imbrium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imbrium-2.1.0.tar.gz tmp/imbrium-3.0.0.tar.gz --markdown 20240514/i/imbrium/2.1.0-3.0.0/README.md --exclude *.pyd
+[2024-05-14 01:56:10] INFO root fetch - processPackages [validate-pyproject-schema-store]: executing diffoscope
+[2024-05-14 01:56:10] INFO root fetch - processPackages [validate-pyproject-schema-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validate_pyproject_schema_store-2024.4.8.tar.gz tmp/validate_pyproject_schema_store-2024.5.13.tar.gz --markdown 20240514/v/validate-pyproject-schema-store/2024.4.8-2024.5.13/README.md --exclude *.pyd
+[2024-05-14 01:56:10] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.8.tar.gz]
+[2024-05-14 01:56:10] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.9.tar.gz]
+[2024-05-14 01:56:10] INFO root fetch - main [MainThread]: End processing [lytils]: success
+[2024-05-14 01:56:11] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 01:56:11] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 01:56:11] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 01:56:11] INFO root fetch - processPackages [hairydogm]: Remove: archive file [/home/abi/fetcher/tmp/hairydogm-0.2.7.tar.gz]
+[2024-05-14 01:56:11] INFO root fetch - processPackages [hairydogm]: Remove: archive file [/home/abi/fetcher/tmp/hairydogm-0.3.0.tar.gz]
+[2024-05-14 01:56:11] INFO root fetch - main [MainThread]: End processing [hairydogm]: success
+[2024-05-14 01:56:11] INFO root fetch - processPackages [imbrium]: Remove: archive file [/home/abi/fetcher/tmp/imbrium-2.1.0.tar.gz]
+[2024-05-14 01:56:11] INFO root fetch - processPackages [imbrium]: Remove: archive file [/home/abi/fetcher/tmp/imbrium-3.0.0.tar.gz]
+[2024-05-14 01:56:11] INFO root fetch - main [MainThread]: End processing [imbrium]: success
+[2024-05-14 01:56:12] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.4.8.tar.gz]
+[2024-05-14 01:56:12] INFO root fetch - processPackages [validate-pyproject-schema-store]: Remove: archive file [/home/abi/fetcher/tmp/validate_pyproject_schema_store-2024.5.13.tar.gz]
+[2024-05-14 01:56:12] INFO root fetch - main [MainThread]: End processing [validate-pyproject-schema-store]: success
+[2024-05-14 01:56:12] INFO root fetch - main [MainThread]: Store serial: [23192647]
