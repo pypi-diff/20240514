@@ -15583,3 +15583,63 @@
 [2024-05-14 10:39:27] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.5.1.tar.gz]
 [2024-05-14 10:39:27] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
 [2024-05-14 10:39:27] INFO root fetch - main [MainThread]: Store serial: [23198148]
+[2024-05-14 10:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198148]
+[2024-05-14 10:41:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resc-backend
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: webscout
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-edi-webservice-oca
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lucy01
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dwave-sona-core
+[2024-05-14 10:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aka-data-prep
+[2024-05-14 10:41:42] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-14 10:41:42] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2024-05-14 10:41:42] INFO root fetch - processPackages [resc-backend]: New version: [4.0.0] Old Version: [3.1.2]
+[2024-05-14 10:41:42] INFO root fetch - processPackages [aka-data-prep]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 10:41:42] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc5] Old Version: [0.9.9rc4]
+[2024-05-14 10:41:42] INFO root fetch - processPackages [webscout]: New version: [2.4] Old Version: [2.3b0]
+[2024-05-14 10:41:42] ERROR root fetch - processPackages [lucy01]: Unable to get metadata: No such project 'lucy01'
+[2024-05-14 10:41:42] INFO root fetch - main [MainThread]: End processing [lucy01] error
+[2024-05-14 10:41:42] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-14 10:41:42] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: Downloading https://files.pythonhosted.org/packages/2f/52/5e18d1d2b84587d72e7b5c87451eee86b316d9a035f58de5031f0b858b6c/odoo_addon_edi_webservice_oca-16.0.1.0.1-py3-none-any.whl
+[2024-05-14 10:41:42] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/f6/f5/b731cd46977bdece908881cfa22e7743bac70e61bf0b65dc88f839b6a43a/resc_backend-3.1.2.tar.gz
+[2024-05-14 10:41:42] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/a3/a1/e57f5b0e1bab49056ae41ad6392f6a42a9ff14a042689034096b5dff6d0c/aka-data-prep-0.0.7.tar.gz
+[2024-05-14 10:41:42] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/aa/2c/31f1da69e1345babcd3664b300482894becc3bde9893ea4bd24b7b9a581f/tsugu-0.9.9rc4.tar.gz
+[2024-05-14 10:41:42] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/f8/41/2537df6f52b3718c60a9e0a7c235c6aa8d44002a067eda202f60d1160d5f/webscout-2.3b0.tar.gz
+[2024-05-14 10:41:43] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-14 10:41:43] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: Downloading https://files.pythonhosted.org/packages/71/a0/70483642942e1d4e18eb1db7051a87d852edbea807910fdbd39cb5e2fa69/odoo_addon_edi_webservice_oca-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-14 10:41:43] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/04/35c1a1c99ef4b9f9b30aa9235d91bafa8e903df5f36f27a00eadaae22394/tsugu-0.9.9rc5.tar.gz
+[2024-05-14 10:41:43] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/cc/57/802cafee7c515d95ad13c8b03ed1f0d9295d88e3f63c6cd9a42a2ef6ac67/aka-data-prep-0.0.8.tar.gz
+[2024-05-14 10:41:43] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-14 10:41:43] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240514/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-14 10:41:43] INFO root fetch - processPackages [resc-backend]: Downloading https://files.pythonhosted.org/packages/14/1e/6e1264e90a1095c8de72b810c6a6e519b36ac221b65789a7b664ba638e08/resc_backend-4.0.0.tar.gz
+[2024-05-14 10:41:43] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/1f/11/50d4a7b86a7d7935f7cb4885d99e2c3441b6076afc05bea60ad243d8d9c9/webscout-2.4.tar.gz
+[2024-05-14 10:41:43] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: executing diffoscope
+[2024-05-14 10:41:43] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_edi_webservice_oca-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_edi_webservice_oca-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-edi-webservice-oca/16.0.1.0.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-14 10:41:43] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-14 10:41:43] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka-data-prep-0.0.7.tar.gz tmp/aka-data-prep-0.0.8.tar.gz --markdown 20240514/a/aka-data-prep/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 10:41:43] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 10:41:43] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc4.tar.gz tmp/tsugu-0.9.9rc5.tar.gz --markdown 20240514/t/tsugu/0.9.9rc4-0.9.9rc5/README.md --exclude *.pyd
+[2024-05-14 10:41:43] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-14 10:41:43] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-2.3b0.tar.gz tmp/webscout-2.4.tar.gz --markdown 20240514/w/webscout/2.3b0-2.4/README.md --exclude *.pyd
+[2024-05-14 10:41:43] INFO root fetch - processPackages [resc-backend]: executing diffoscope
+[2024-05-14 10:41:43] INFO root fetch - processPackages [resc-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_backend-3.1.2.tar.gz tmp/resc_backend-4.0.0.tar.gz --markdown 20240514/r/resc-backend/3.1.2-4.0.0/README.md --exclude *.pyd
+[2024-05-14 10:41:44] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.7.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.8.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-14 10:41:44] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_webservice_oca-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-14 10:41:44] INFO root fetch - processPackages [odoo-addon-edi-webservice-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_edi_webservice_oca-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-edi-webservice-oca]: success
+[2024-05-14 10:41:44] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-14 10:41:44] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc4.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc5.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 10:41:44] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.3b0.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.4.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-14 10:41:44] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-3.1.2.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-4.0.0.tar.gz]
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
+[2024-05-14 10:41:44] INFO root fetch - main [MainThread]: Store serial: [23198170]
