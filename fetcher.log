@@ -14427,3 +14427,69 @@
 [2024-05-14 10:04:08] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.8.tar.gz]
 [2024-05-14 10:04:08] INFO root fetch - main [MainThread]: End processing [SEVtras]: success
 [2024-05-14 10:04:08] INFO root fetch - main [MainThread]: Store serial: [23197605]
+[2024-05-14 10:06:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197605]
+[2024-05-14 10:06:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solar-registry
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atksh-utils
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccs-digitalmarketplace-content-loader
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vulavula
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omegi-python-instrumentation
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matid
+[2024-05-14 10:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: udata-front
+[2024-05-14 10:06:21] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [solar-registry]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/f9/43/a09eb5e6d2e0518d98bbb03b6314f640ede567c97dc8937448d59b7ff8e6/omegi-python-instrumentation-0.0.9.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev19669] Old Version: [4.0.3.dev19461]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/5f/b8/bbcbffafb688a9eb36ca7780130a7602f402cb78e1148b66f1136fa0f2c0/solar_registry-0.2.3.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [vulavula]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [atksh-utils]: New version: [0.8.8] Old Version: [0.8.7]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [matid]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2024-05-14 10:06:21] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/84/8d/9fed599fe3a0606b5df05b6af1e395d3670e6f67d16cba227de262405d1f/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [vulavula]: Downloading https://files.pythonhosted.org/packages/9f/ae/df186d16f87fa59c4c5343f8746e7ccf80ea09c6613bd7b5b1da83e7aa2a/vulavula-0.1.1.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/9a/a2/3781ae837fdac5290433952fdbc7643d7970e60a4a9d70942a6ec33672a9/atksh_utils-0.8.7.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ac/b0/38b7ff928460bf9e68d39a2db1f433e6f43f03af4cfdc3c52062c5d369de/udata_front-4.0.3.dev19461-py2.py3-none-any.whl
+[2024-05-14 10:06:21] INFO root fetch - processPackages [matid]: Downloading https://files.pythonhosted.org/packages/10/f8/9010a08743cc7366dbcefbc4d6d8e2a190e75b8d8e04422d87036c968e43/matid-2.0.0.dev1.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/aa/02/c48fbc8fe9802929d6257a30bccc495ce7d01319eaf7560f8db0212283b6/omegi-python-instrumentation-0.1.0.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/f9/29/2485dfff4758a4d2e76bacaeff09856939cd29b97c61561fcef790b34c0f/solar_registry-0.2.4.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-14 10:06:21] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi-python-instrumentation-0.0.9.tar.gz tmp/omegi-python-instrumentation-0.1.0.tar.gz --markdown 20240514/o/omegi-python-instrumentation/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-14 10:06:21] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-14 10:06:21] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.3.tar.gz tmp/solar_registry-0.2.4.tar.gz --markdown 20240514/s/solar-registry/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-14 10:06:21] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Downloading https://files.pythonhosted.org/packages/f6/58/9dcf721bc4e4a65d106025b423e30e6082e93c943edeaa0eff78b77f988b/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [vulavula]: Downloading https://files.pythonhosted.org/packages/8e/1c/086692402886abb4a4ee3fc395e21aaff1a2dedebaba5522fd6e89d2ea7d/vulavula-0.2.0.tar.gz
+[2024-05-14 10:06:21] INFO root fetch - processPackages [atksh-utils]: Downloading https://files.pythonhosted.org/packages/af/97/f2cdb5793be874dfa1532c8e2c7de36d478b58e392b8b28834cd3d1d9fc5/atksh_utils-0.8.8.tar.gz
+[2024-05-14 10:06:22] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: executing diffoscope
+[2024-05-14 10:06:22] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz --markdown 20240514/c/ccs-digitalmarketplace-content-loader/9.4.0-9.5.0/README.md --exclude *.pyd
+[2024-05-14 10:06:22] INFO root fetch - processPackages [vulavula]: executing diffoscope
+[2024-05-14 10:06:22] INFO root fetch - processPackages [vulavula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vulavula-0.1.1.tar.gz tmp/vulavula-0.2.0.tar.gz --markdown 20240514/v/vulavula/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-14 10:06:22] INFO root fetch - processPackages [matid]: Downloading https://files.pythonhosted.org/packages/ee/9a/311dea58e46a3edeebdfa2c5d6c1416bb4a612a26016b9c12a525dcbc421/matid-2.0.0.dev2.tar.gz
+[2024-05-14 10:06:22] INFO root fetch - processPackages [atksh-utils]: executing diffoscope
+[2024-05-14 10:06:22] INFO root fetch - processPackages [atksh-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atksh_utils-0.8.7.tar.gz tmp/atksh_utils-0.8.8.tar.gz --markdown 20240514/a/atksh-utils/0.8.7-0.8.8/README.md --exclude *.pyd
+[2024-05-14 10:06:22] INFO root fetch - processPackages [matid]: executing diffoscope
+[2024-05-14 10:06:22] INFO root fetch - processPackages [matid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matid-2.0.0.dev1.tar.gz tmp/matid-2.0.0.dev2.tar.gz --markdown 20240514/m/matid/2.0.0.dev1-2.0.0.dev2/README.md --exclude *.pyd
+[2024-05-14 10:06:22] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.0.9.tar.gz]
+[2024-05-14 10:06:22] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.0.tar.gz]
+[2024-05-14 10:06:22] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-14 10:06:22] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.4.0.tar.gz]
+[2024-05-14 10:06:22] INFO root fetch - processPackages [ccs-digitalmarketplace-content-loader]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-content-loader-9.5.0.tar.gz]
+[2024-05-14 10:06:22] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-content-loader]: success
+[2024-05-14 10:06:23] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.3.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.4.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-14 10:06:23] INFO root fetch - processPackages [vulavula]: Remove: archive file [/home/abi/fetcher/tmp/vulavula-0.1.1.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - processPackages [vulavula]: Remove: archive file [/home/abi/fetcher/tmp/vulavula-0.2.0.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - main [MainThread]: End processing [vulavula]: success
+[2024-05-14 10:06:23] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh_utils-0.8.7.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - processPackages [atksh-utils]: Remove: archive file [/home/abi/fetcher/tmp/atksh_utils-0.8.8.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - main [MainThread]: End processing [atksh-utils]: success
+[2024-05-14 10:06:23] INFO root fetch - processPackages [matid]: Remove: archive file [/home/abi/fetcher/tmp/matid-2.0.0.dev1.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - processPackages [matid]: Remove: archive file [/home/abi/fetcher/tmp/matid-2.0.0.dev2.tar.gz]
+[2024-05-14 10:06:23] INFO root fetch - main [MainThread]: End processing [matid]: success
+[2024-05-14 10:06:25] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/70/7f/df8ef26866a8c56a9ea9b9c12ebfc93ceaa403a2232b0b7574ab4c500e11/udata_front-4.0.3.dev19669-py2.py3-none-any.whl
+[2024-05-14 10:06:31] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-05-14 10:06:31] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip tmp/udata_front-4.0.3.dev19669-py2.py3-none-any.whl.zip --markdown 20240514/u/udata-front/4.0.3.dev19461-4.0.3.dev19669/README.md --exclude *.pyd
+[2024-05-14 10:08:05] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip]
+[2024-05-14 10:08:05] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19669-py2.py3-none-any.whl.zip]
+[2024-05-14 10:08:05] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-05-14 10:08:05] INFO root fetch - main [MainThread]: Store serial: [23197643]
