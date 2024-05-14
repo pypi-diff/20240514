@@ -20327,3 +20327,77 @@
 [2024-05-14 13:16:02] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-05-14 13:16:02] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-05-14 13:16:02] INFO root fetch - main [MainThread]: Store serial: [23200159]
+[2024-05-14 13:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200159]
+[2024-05-14 13:18:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: structstore
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-cpp
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c4m-pdk-ihpsg13g2
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dogwalker-testing
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: niwatoko
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-05-14 13:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2024-05-14 13:18:11] INFO root fetch - processPackages [structstore]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [niwatoko]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: New version: [0.0.3] Old Version: [0.0.2.post1]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240514] Old Version: [2.5.0b20240513]
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/34/55/51217f3a224c9ce1328d21a48ad2284970e07008243734698eacdf8f7e4d/nucliadb-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:18:11] WARNING root fetch - processPackages [dogwalker-testing]: Skipping, unable to determine old version
+[2024-05-14 13:18:11] INFO root fetch - main [MainThread]: End processing [dogwalker-testing] error
+[2024-05-14 13:18:11] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/be/5f/91df6118439fb099df13f49ab79949a2ec47b1ffa33f6a36fec013ff1bca/niwatoko-1.1.6.tar.gz
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/ff/a1/6a1df366325267090c8a2e94a2abd92a495edc96b22a3b0ff9c9c36904f1/nucliadb_protos-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e2/11/cfadf30efd08e9b5ce03bfab47ad895811138672ba49497df47959539438/nucliadb_dataset-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:18:11] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/6d/78/9655fe0d1c6f6c42d2a0e14af1bf661379093f6a5205b610cb49ea964295/structstore-0.1.1.tar.gz
+[2024-05-14 13:18:11] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/2e/48/7aae36935ae350931839465f66ec438fdfbc3da7413df44572daff3adf64/nucliadb_models-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:18:11] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Downloading https://files.pythonhosted.org/packages/1a/6e/6c7c643f0c94ed110ea6f21a3a1cbc21c4be427967bd43c84e574483e51b/c4m_pdk_ihpsg13g2-0.0.2.post1.tar.gz
+[2024-05-14 13:18:11] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/14/04/bfda17c5ce15e7f2238ade627331a7601e0cfb8b89d6c1ea3e69a777b1b9/bigdl_core_cpp-2.5.0b20240513-py3-none-win_amd64.whl
+[2024-05-14 13:18:12] INFO root fetch - processPackages [niwatoko]: Downloading https://files.pythonhosted.org/packages/8f/bf/381b2ce6b474b68fea54069bfe8f6a6b3464032996e6fc7ef56759d96346/niwatoko-1.1.7.tar.gz
+[2024-05-14 13:18:12] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 33300230>=10485760
+[2024-05-14 13:18:12] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/40/4f/08209b508d23d3fc12e3e0a57194925d5eba4c9158fc31fc1c281ed6e5ce/nucliadb_models-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b7/53/31797928e18671d5eb9adc99cdccf248e93a21af0860946485ddd2390ee8/nucliadb_protos-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:18:12] INFO root fetch - processPackages [niwatoko]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [niwatoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niwatoko-1.1.6.tar.gz tmp/niwatoko-1.1.7.tar.gz --markdown 20240514/n/niwatoko/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-14 13:18:12] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/95/e7/797822261b6f8fea8183edc6ac694f0b60d3c6366f037ffb1df8c7910ecc/structstore-0.1.2.tar.gz
+[2024-05-14 13:18:12] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Downloading https://files.pythonhosted.org/packages/92/ab/50e1024ad3bf1e09c52f89479bfa74300a007f37f76d3f47b7acf7a305ea/c4m_pdk_ihpsg13g2-0.0.3.tar.gz
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/f7/cc/38cbf4e6c6a3b1812b64da5aba1e9a0348a6c3c648cdb28debdb8c0cb0ae/nucliadb-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/2f/62/4ddce81bce9babedf96f66d2015fb05374aef63cf941c47d0f6a8cefdaa6/nucliadb_dataset-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-models/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-protos/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:18:12] INFO root fetch - processPackages [structstore]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [structstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structstore-0.1.1.tar.gz tmp/structstore-0.1.2.tar.gz --markdown 20240514/s/structstore/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 13:18:12] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_ihpsg13g2-0.0.2.post1.tar.gz tmp/c4m_pdk_ihpsg13g2-0.0.3.tar.gz --markdown 20240514/c/c4m-pdk-ihpsg13g2/0.0.2.post1-0.0.3/README.md --exclude *.pyd
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-dataset/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-14 13:18:12] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:18:13] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.1.6.tar.gz]
+[2024-05-14 13:18:13] INFO root fetch - processPackages [niwatoko]: Remove: archive file [/home/abi/fetcher/tmp/niwatoko-1.1.7.tar.gz]
+[2024-05-14 13:18:13] INFO root fetch - main [MainThread]: End processing [niwatoko]: success
+[2024-05-14 13:18:13] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:18:13] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:18:13] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-14 13:18:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:18:13] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:18:13] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-14 13:18:13] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:18:13] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:18:13] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-14 13:18:13] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_ihpsg13g2-0.0.2.post1.tar.gz]
+[2024-05-14 13:18:13] INFO root fetch - processPackages [c4m-pdk-ihpsg13g2]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_ihpsg13g2-0.0.3.tar.gz]
+[2024-05-14 13:18:13] INFO root fetch - main [MainThread]: End processing [c4m-pdk-ihpsg13g2]: success
+[2024-05-14 13:18:13] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.1.tar.gz]
+[2024-05-14 13:18:13] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.2.tar.gz]
+[2024-05-14 13:18:13] INFO root fetch - main [MainThread]: End processing [structstore]: success
+[2024-05-14 13:18:14] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:18:14] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:18:14] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-14 13:18:14] INFO root fetch - main [MainThread]: Store serial: [23200186]
