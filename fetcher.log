@@ -17980,3 +17980,132 @@
 [2024-05-14 11:53:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240514095037.tar.gz]
 [2024-05-14 11:53:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-14 11:53:06] INFO root fetch - main [MainThread]: Store serial: [23199103]
+[2024-05-14 11:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199103]
+[2024-05-14 11:55:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: agptools
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finml-utils
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ooui
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-workflow-sdk
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kong-ran
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-shopify
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hilcat
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: simple-build-dgcode
+[2024-05-14 11:55:31] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [kong-ran]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ooui]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [finml-utils]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [swarmtube]: New version: [0.1.39] Old Version: [0.1.38]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-14 11:55:31] INFO root fetch - processPackages [hilcat]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.1.0.dev202405090807] Old Version: [2.1.0]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [simple-build-dgcode]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-14 11:55:31] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/9d/d3/8058bab33ffa0864f74f54c2c5652661b1786ea352a6ec0ad15390a42e35/ooui-0.7.0.tar.gz
+[2024-05-14 11:55:31] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/31/77/28421c2e3b4da7be67ff1f2639d1853e9c5d3df5ec460d3d96a9c605a0eb/finml_utils-2.2.1.tar.gz
+[2024-05-14 11:55:31] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-14 11:55:31] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/89/be/1958adf4937f8cb5f4d3e827df0e8bde02be87d58323c4f2804236e99840/swarmtube-0.1.38-py2.py3-none-any.whl
+[2024-05-14 11:55:31] INFO root fetch - processPackages [kong-ran]: Downloading https://files.pythonhosted.org/packages/37/6a/e47af29fe98610065137fcc03fe9ac30e12e8ce7df6f23f76c67a167bad3/kong_ran-1.0.0.tar.gz
+[2024-05-14 11:55:31] INFO root fetch - processPackages [hilcat]: Downloading https://files.pythonhosted.org/packages/27/ab/2680ebeda36ecf68b1df5cb7a997cc005f5c54f54c4272b55c9183ee1882/hilcat-1.2.2.tar.gz
+[2024-05-14 11:55:31] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/7c/51/82b45bf70eb814c1cee292ae41943f26c1920c4d740facff57ca3947c64c/airbyte_source_shopify-2.1.0.tar.gz
+[2024-05-14 11:55:31] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-14 11:55:31] INFO root fetch - processPackages [simple-build-dgcode]: Downloading https://files.pythonhosted.org/packages/e7/d3/d4e655998bd6e7a4ec2122e10a340da8a66fd473ca31ab48bcf3f9767961/simple_build_dgcode-1.1.6.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-14 11:55:32] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c3/f6/8abb508da1939381908ad2cbcb2190ecd9dc1b6b810bfe0b2c96c96f2caf/swarmtube-0.1.39-py2.py3-none-any.whl
+[2024-05-14 11:55:32] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/a9/a9/e1f300396320330b91fe086ee83a8e81f76c5554da2f59ed3e2e8d804b0d/ooui-0.7.1.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/9b/b4/7668f994aeca95c263495680be71fa9a0fad966f79b65f44c0e10765cb32/finml_utils-2.2.2.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-14 11:55:32] INFO root fetch - processPackages [kong-ran]: Downloading https://files.pythonhosted.org/packages/e5/2d/9df1f11f45c2469ce9cf3a8137d0839c0c86ecb9ebae9e206f71cbc24503/kong_ran-1.0.1.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240514/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.38-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.39-py2.py3-none-any.whl.zip --markdown 20240514/s/swarmtube/0.1.38-0.1.39/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.7.0.tar.gz tmp/ooui-0.7.1.tar.gz --markdown 20240514/o/ooui/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [finml-utils]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [finml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finml_utils-2.2.1.tar.gz tmp/finml_utils-2.2.2.tar.gz --markdown 20240514/f/finml-utils/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [hilcat]: Downloading https://files.pythonhosted.org/packages/d0/e2/70e63361e26bc613ae9c49931c5389b110f91feca3f6f25eae6bd7e8f4cf/hilcat-1.2.3.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240514/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [kong-ran]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [kong-ran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kong_ran-1.0.0.tar.gz tmp/kong_ran-1.0.1.tar.gz --markdown 20240514/k/kong-ran/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [hilcat]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [hilcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hilcat-1.2.2.tar.gz tmp/hilcat-1.2.3.tar.gz --markdown 20240514/h/hilcat/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/8a/9f/7d46bf666d365a811ac97eae52ebcee92e7359467868094b56dbb7882e78/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz
+[2024-05-14 11:55:32] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240514/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-05-14 11:55:32] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.1.0.tar.gz tmp/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz --markdown 20240514/a/airbyte-source-shopify/2.1.0-2.1.0.dev202405090807/README.md --exclude *.pyd
+[2024-05-14 11:55:32] INFO root fetch - processPackages [simple-build-dgcode]: Downloading https://files.pythonhosted.org/packages/1c/65/82bee23c12a84fa107cb80b38e77c808ed8186c6eaa54e62efcaf12527af/simple_build_dgcode-1.1.7.tar.gz
+[2024-05-14 11:55:33] INFO root fetch - processPackages [simple-build-dgcode]: executing diffoscope
+[2024-05-14 11:55:33] INFO root fetch - processPackages [simple-build-dgcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_build_dgcode-1.1.6.tar.gz tmp/simple_build_dgcode-1.1.7.tar.gz --markdown 20240514/s/simple-build-dgcode/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-14 11:55:33] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.7.0.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.7.1.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [ooui]: Start processing: django-protoni
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [django-protoni]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.2.1.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.2.2.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [finml-utils]: Start processing: ecosystem-notebooks
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [finml-utils]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [syncmodels]: Start processing: odoo-addon-webservice
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [agptools]: Start processing: hagworm
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [odoo-addon-webservice]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.38-py2.py3-none-any.whl.zip]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.39-py2.py3-none-any.whl.zip]
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [ecosystem-notebooks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [kong-ran]: Remove: archive file [/home/abi/fetcher/tmp/kong_ran-1.0.0.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [kong-ran]: Remove: archive file [/home/abi/fetcher/tmp/kong_ran-1.0.1.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [kong-ran]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/9d/87/eb7d2a6bd1a996d5c5a7d487f8cee40d31dd19fa625ef14a5470d4654a4f/odoo_addon_webservice-16.0.1.2.0-py3-none-any.whl
+[2024-05-14 11:55:33] INFO root fetch - processPackages [django-protoni]: Downloading https://files.pythonhosted.org/packages/21/57/f5bc020d7799353453e0f802dd5be630b08499d0aa5155be0a6d136311d5/django_protoni-0.4.6.tar.gz
+[2024-05-14 11:55:33] INFO root fetch - processPackages [hagworm]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.0.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.1.0.dev202405090807.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [hilcat]: Remove: archive file [/home/abi/fetcher/tmp/hilcat-1.2.2.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [hilcat]: Remove: archive file [/home/abi/fetcher/tmp/hilcat-1.2.3.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [hilcat]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/dc/f4/15d40f4fab809fb02ae42b41428bef990398469edbd0eb4e113ff9d32c3d/ecosystem-notebooks-0.1.8.tar.gz
+[2024-05-14 11:55:33] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-14 11:55:33] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-14 11:55:33] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/8b/27/6fba0cafbd9b7aee2bae3c0b670a972683664bceb6ef285b7c8b7bf26737/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-14 11:55:33] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e0/1c/5dac91f7c38d49ccecfdc58d536db8299a6047d9ff58930a0d6013757ea4/hagworm-5.9.8.tar.gz
+[2024-05-14 11:55:33] INFO root fetch - processPackages [django-protoni]: Downloading https://files.pythonhosted.org/packages/6d/3a/f27bf3bb2eba87c7061a6ff4ee625c190230dbbd0685c12e1ca849fe8691/django_protoni-0.4.7.tar.gz
+[2024-05-14 11:55:34] INFO root fetch - processPackages [odoo-addon-webservice]: executing diffoscope
+[2024-05-14 11:55:34] INFO root fetch - processPackages [odoo-addon-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_webservice-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-webservice/16.0.1.2.0-16.0.1.2.0.1/README.md --exclude *.pyd
+[2024-05-14 11:55:34] INFO root fetch - processPackages [django-protoni]: executing diffoscope
+[2024-05-14 11:55:34] INFO root fetch - processPackages [django-protoni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_protoni-0.4.6.tar.gz tmp/django_protoni-0.4.7.tar.gz --markdown 20240514/d/django-protoni/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-14 11:55:34] INFO root fetch - processPackages [ecosystem-notebooks]: Downloading https://files.pythonhosted.org/packages/65/4e/cea87ee654a715c444b56f178f9c2f0b4d037ff06d0c84c8ab056ef2c4d0/ecosystem-notebooks-0.1.9.tar.gz
+[2024-05-14 11:55:34] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/2f/0d/16fd32d0754a2e5208aede68d6b772bc36ed5dcefe41035760e37a84fbbc/hagworm-5.9.9.tar.gz
+[2024-05-14 11:55:34] INFO root fetch - processPackages [ecosystem-notebooks]: executing diffoscope
+[2024-05-14 11:55:34] INFO root fetch - processPackages [ecosystem-notebooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecosystem-notebooks-0.1.8.tar.gz tmp/ecosystem-notebooks-0.1.9.tar.gz --markdown 20240514/e/ecosystem-notebooks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:55:34] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2024-05-14 11:55:34] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.9.8.tar.gz tmp/hagworm-5.9.9.tar.gz --markdown 20240514/h/hagworm/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-14 11:55:34] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-14 11:55:34] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-14 11:55:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-webservice]: success
+[2024-05-14 11:55:34] INFO root fetch - processPackages [django-protoni]: Remove: archive file [/home/abi/fetcher/tmp/django_protoni-0.4.6.tar.gz]
+[2024-05-14 11:55:34] INFO root fetch - processPackages [django-protoni]: Remove: archive file [/home/abi/fetcher/tmp/django_protoni-0.4.7.tar.gz]
+[2024-05-14 11:55:34] INFO root fetch - main [MainThread]: End processing [django-protoni]: success
+[2024-05-14 11:55:35] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.8.tar.gz]
+[2024-05-14 11:55:35] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.9.9.tar.gz]
+[2024-05-14 11:55:35] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2024-05-14 11:55:35] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.8.tar.gz]
+[2024-05-14 11:55:35] INFO root fetch - processPackages [ecosystem-notebooks]: Remove: archive file [/home/abi/fetcher/tmp/ecosystem-notebooks-0.1.9.tar.gz]
+[2024-05-14 11:55:35] INFO root fetch - main [MainThread]: End processing [ecosystem-notebooks]: success
+[2024-05-14 11:55:36] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.6.tar.gz]
+[2024-05-14 11:55:36] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.7.tar.gz]
+[2024-05-14 11:55:36] INFO root fetch - main [MainThread]: End processing [simple-build-dgcode]: success
+[2024-05-14 11:55:36] INFO root fetch - main [MainThread]: Store serial: [23199139]
