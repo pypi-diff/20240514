@@ -13640,3 +13640,63 @@
 [2024-05-14 09:38:56] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-05-14 09:38:56] INFO root fetch - main [MainThread]: End processing [pyqint]: success
 [2024-05-14 09:38:56] INFO root fetch - main [MainThread]: Store serial: [23197234]
+[2024-05-14 09:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197234]
+[2024-05-14 09:41:06] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-readers-dashscope-custom
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CheeseAPI
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xtrack
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drf-material
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: natf
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: peak-performance
+[2024-05-14 09:41:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vdt.version
+[2024-05-14 09:41:07] INFO root fetch - processPackages [drf-material]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 09:41:07] WARNING root fetch - processPackages [llama-index-readers-dashscope-custom]: Skipping, unable to determine old version
+[2024-05-14 09:41:07] INFO root fetch - main [MainThread]: End processing [llama-index-readers-dashscope-custom] error
+[2024-05-14 09:41:07] INFO root fetch - processPackages [peak-performance]: New version: [0.7.0] Old Version: [0.6.4]
+[2024-05-14 09:41:07] INFO root fetch - processPackages [vdt.version]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 09:41:07] INFO root fetch - processPackages [natf]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-14 09:41:07] INFO root fetch - processPackages [xtrack]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-05-14 09:41:07] INFO root fetch - processPackages [CheeseAPI]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-14 09:41:07] INFO root fetch - processPackages [drf-material]: Downloading https://files.pythonhosted.org/packages/bf/22/923c48653d523532efcc0044429b4d791093969e2da2c183133454f87811/drf_material-0.2.8-py3-none-any.whl
+[2024-05-14 09:41:07] INFO root fetch - processPackages [natf]: Downloading https://files.pythonhosted.org/packages/86/39/ad56b08f4f7b26ee1853eef8bbc2246e8f28e239fbf10271effdfab961b9/natf-2.5.3-py3-none-any.whl
+[2024-05-14 09:41:07] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/8a/c3/e19b3d04ca1e27256466963f0323b5925c96b787f5066e5229a7c6b8db3a/xtrack-0.9.4.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/ea/60/96365c5ea342f7db8f95c61ae7c044f25028c7944b2fba0ff7263bf0d340/cheeseapi-1.2.0.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [peak-performance]: Downloading https://files.pythonhosted.org/packages/74/6f/617db78d12173fbb48cee47617861d1abec693639478834b9bcd29e93c8f/peak_performance-0.6.4-py3-none-any.whl
+[2024-05-14 09:41:07] INFO root fetch - processPackages [vdt.version]: Downloading https://files.pythonhosted.org/packages/08/f6/9c7f3899951fb138a939a565244a8aee5b25506b0deb08b5662054ba1e11/vdt.version-0.1.6.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [drf-material]: Downloading https://files.pythonhosted.org/packages/28/c0/821b302278ec5c4fec22f74227e934c15b956e839713658b1efa3e24c8ab/drf_material-0.2.9.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [drf-material]: executing diffoscope
+[2024-05-14 09:41:07] INFO root fetch - processPackages [drf-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_material-0.2.8-py3-none-any.whl.zip tmp/drf_material-0.2.9.tar.gz --markdown 20240514/d/drf-material/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 09:41:07] INFO root fetch - processPackages [natf]: Downloading https://files.pythonhosted.org/packages/c8/43/4d0552f160ca5b76a022fc35bc29651adcf15578a7e5432cc46ef4759ae7/natf-2.5.4-py3-none-any.whl
+[2024-05-14 09:41:07] INFO root fetch - processPackages [CheeseAPI]: Downloading https://files.pythonhosted.org/packages/97/c2/7f6fcab20e0519c8b8fb649f323b66c3abdb54f76449e0d03d2b0137a646/cheeseapi-1.2.1.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [xtrack]: Downloading https://files.pythonhosted.org/packages/46/38/dad135658362d6eec72747f7f0ae41cf43b0d0fb26e948ac142a49dfcec8/xtrack-0.9.5.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [vdt.version]: Downloading https://files.pythonhosted.org/packages/32/b0/c5a45e636262f926d6eb2eefd700dc68ea5dc6eab2d8498547921f62e159/vdt.version-0.1.7.tar.gz
+[2024-05-14 09:41:07] INFO root fetch - processPackages [peak-performance]: Downloading https://files.pythonhosted.org/packages/5a/d2/5e283401720e1fa5c52f52ea0c7e8c8f782e86ce07ce9380e3569666fa9d/peak_performance-0.7.0-py3-none-any.whl
+[2024-05-14 09:41:08] INFO root fetch - processPackages [CheeseAPI]: executing diffoscope
+[2024-05-14 09:41:08] INFO root fetch - processPackages [CheeseAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cheeseapi-1.2.0.tar.gz tmp/cheeseapi-1.2.1.tar.gz --markdown 20240514/C/CheeseAPI/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-14 09:41:08] INFO root fetch - processPackages [natf]: executing diffoscope
+[2024-05-14 09:41:08] INFO root fetch - processPackages [natf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/natf-2.5.3-py3-none-any.whl.zip tmp/natf-2.5.4-py3-none-any.whl.zip --markdown 20240514/n/natf/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-14 09:41:08] INFO root fetch - processPackages [vdt.version]: executing diffoscope
+[2024-05-14 09:41:08] INFO root fetch - processPackages [vdt.version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdt.version-0.1.6.tar.gz tmp/vdt.version-0.1.7.tar.gz --markdown 20240514/v/vdt.version/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 09:41:08] INFO root fetch - processPackages [peak-performance]: executing diffoscope
+[2024-05-14 09:41:08] INFO root fetch - processPackages [peak-performance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peak_performance-0.6.4-py3-none-any.whl.zip tmp/peak_performance-0.7.0-py3-none-any.whl.zip --markdown 20240514/p/peak-performance/0.6.4-0.7.0/README.md --exclude *.pyd
+[2024-05-14 09:41:08] INFO root fetch - processPackages [xtrack]: executing diffoscope
+[2024-05-14 09:41:08] INFO root fetch - processPackages [xtrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtrack-0.9.4.tar.gz tmp/xtrack-0.9.5.tar.gz --markdown 20240514/x/xtrack/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-05-14 09:41:08] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.2.8-py3-none-any.whl.zip]
+[2024-05-14 09:41:08] INFO root fetch - processPackages [drf-material]: Remove: archive file [/home/abi/fetcher/tmp/drf_material-0.2.9.tar.gz]
+[2024-05-14 09:41:08] INFO root fetch - main [MainThread]: End processing [drf-material]: success
+[2024-05-14 09:41:08] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.2.0.tar.gz]
+[2024-05-14 09:41:08] INFO root fetch - processPackages [CheeseAPI]: Remove: archive file [/home/abi/fetcher/tmp/cheeseapi-1.2.1.tar.gz]
+[2024-05-14 09:41:08] INFO root fetch - main [MainThread]: End processing [CheeseAPI]: success
+[2024-05-14 09:41:09] INFO root fetch - processPackages [vdt.version]: Remove: archive file [/home/abi/fetcher/tmp/vdt.version-0.1.6.tar.gz]
+[2024-05-14 09:41:09] INFO root fetch - processPackages [vdt.version]: Remove: archive file [/home/abi/fetcher/tmp/vdt.version-0.1.7.tar.gz]
+[2024-05-14 09:41:09] INFO root fetch - main [MainThread]: End processing [vdt.version]: success
+[2024-05-14 09:41:09] INFO root fetch - processPackages [peak-performance]: Remove: archive file [/home/abi/fetcher/tmp/peak_performance-0.6.4-py3-none-any.whl.zip]
+[2024-05-14 09:41:09] INFO root fetch - processPackages [peak-performance]: Remove: archive file [/home/abi/fetcher/tmp/peak_performance-0.7.0-py3-none-any.whl.zip]
+[2024-05-14 09:41:09] INFO root fetch - main [MainThread]: End processing [peak-performance]: success
+[2024-05-14 09:41:09] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.4.tar.gz]
+[2024-05-14 09:41:09] INFO root fetch - processPackages [xtrack]: Remove: archive file [/home/abi/fetcher/tmp/xtrack-0.9.5.tar.gz]
+[2024-05-14 09:41:09] INFO root fetch - main [MainThread]: End processing [xtrack]: success
+[2024-05-14 09:41:09] INFO root fetch - processPackages [natf]: Remove: archive file [/home/abi/fetcher/tmp/natf-2.5.3-py3-none-any.whl.zip]
+[2024-05-14 09:41:09] INFO root fetch - processPackages [natf]: Remove: archive file [/home/abi/fetcher/tmp/natf-2.5.4-py3-none-any.whl.zip]
+[2024-05-14 09:41:09] INFO root fetch - main [MainThread]: End processing [natf]: success
+[2024-05-14 09:41:09] INFO root fetch - main [MainThread]: Store serial: [23197256]
