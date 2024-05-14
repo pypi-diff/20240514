@@ -16065,3 +16065,69 @@
 [2024-05-14 10:55:00] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
 [2024-05-14 10:55:00] INFO root fetch - main [MainThread]: End processing [hcube]: success
 [2024-05-14 10:55:00] INFO root fetch - main [MainThread]: Store serial: [23198342]
+[2024-05-14 10:57:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198342]
+[2024-05-14 10:57:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: booktest
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conetwork-test
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: database-mysql-local
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aka-data-prep
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stonfi
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-analyzer
+[2024-05-14 10:57:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AWSXenos
+[2024-05-14 10:57:15] INFO root fetch - processPackages [booktest]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.300] Old Version: [0.0.299]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/95/21/43e7639c258b9b198722ad6e91b1a332a48b938dfab0810ab6d1d8d71547/booktest-0.3.7.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [AWSXenos]: New version: [0.3.0] Old Version: [0.0.2]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [stonfi]: New version: [0.9] Old Version: [0.8]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/b7/44/e355cc60902fb499df9e332d5a35665536d58117fca681567b7087e9df7d/conetwork_test-0.1.3.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [aka-data-prep]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [dao-analyzer]: New version: [1.2.8.dev7] Old Version: [1.2.8.dev3]
+[2024-05-14 10:57:15] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/78/31/e5f92a257c6d7dae6d2a185e147564d9290cba6ddc442f6f535a954cb6d0/database_mysql_local-0.0.299.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/4a/83/738499b855fbb03da3aaec19438e848b5ffcd41e96c179d32605ea1f40e4/dao_analyzer-1.2.8.dev3.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [booktest]: Downloading https://files.pythonhosted.org/packages/93/c7/91e0ef317cf0a48df8669619ee6f557d57a311d7e80732010b94ca8b6b41/booktest-0.3.8.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/cc/57/802cafee7c515d95ad13c8b03ed1f0d9295d88e3f63c6cd9a42a2ef6ac67/aka-data-prep-0.0.8.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [AWSXenos]: Downloading https://files.pythonhosted.org/packages/88/12/18c848c63ab1ce805c2c0bc94237282005927fac16b103247bd6bbb6c192/AWSXenos-0.0.2.tar.gz
+[2024-05-14 10:57:15] INFO root fetch - processPackages [stonfi]: Downloading https://files.pythonhosted.org/packages/98/7c/c123a73b9edd5a0710a3bdfa456918e7218cb339083767631dd823553363/stonfi-0.8.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/88/da/2f23f5c2006407f1621e4a1794e7fc9d7e53dd34dcc5bffc8b6463c8f7f3/conetwork_test-0.1.4.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/76/31/76e9c1615c1070e9eb81229060414cd5e424de29854bd21a62ebd90e62b2/database_mysql_local-0.0.300.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [booktest]: executing diffoscope
+[2024-05-14 10:57:16] INFO root fetch - processPackages [booktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/booktest-0.3.7.tar.gz tmp/booktest-0.3.8.tar.gz --markdown 20240514/b/booktest/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-14 10:57:16] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 10:57:16] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.3.tar.gz tmp/conetwork_test-0.1.4.tar.gz --markdown 20240514/c/conetwork-test/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 10:57:16] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-14 10:57:16] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.299.tar.gz tmp/database_mysql_local-0.0.300.tar.gz --markdown 20240514/d/database-mysql-local/0.0.299-0.0.300/README.md --exclude *.pyd
+[2024-05-14 10:57:16] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/74/b2/64938a1a9746964c79b6b79f5b287f45573139bf59bfc2d72803a34c5ca1/aka-data-prep-0.0.9.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [AWSXenos]: Downloading https://files.pythonhosted.org/packages/6b/86/8270898b799374b9a7d295f80b9a40fa916c08dadc9c9de0a293ce8bb78d/awsxenos-0.3.0.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [stonfi]: Downloading https://files.pythonhosted.org/packages/87/35/cdff413303cea3d9a71a95ecfb2f9421becd65774f1f7f283e11ba24c0ff/stonfi-0.9.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-14 10:57:16] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka-data-prep-0.0.8.tar.gz tmp/aka-data-prep-0.0.9.tar.gz --markdown 20240514/a/aka-data-prep/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:57:16] INFO root fetch - processPackages [stonfi]: executing diffoscope
+[2024-05-14 10:57:16] INFO root fetch - processPackages [stonfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stonfi-0.8.tar.gz tmp/stonfi-0.9.tar.gz --markdown 20240514/s/stonfi/0.8-0.9/README.md --exclude *.pyd
+[2024-05-14 10:57:16] INFO root fetch - processPackages [AWSXenos]: executing diffoscope
+[2024-05-14 10:57:16] INFO root fetch - processPackages [AWSXenos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AWSXenos-0.0.2.tar.gz tmp/awsxenos-0.3.0.tar.gz --markdown 20240514/A/AWSXenos/0.0.2-0.3.0/README.md --exclude *.pyd
+[2024-05-14 10:57:16] INFO root fetch - processPackages [dao-analyzer]: Downloading https://files.pythonhosted.org/packages/b9/4a/afd6128cfdc57c1d1a008f1d45db199c91d38029d20a5f0046e509ad640a/dao-analyzer-1.2.8.dev7.tar.gz
+[2024-05-14 10:57:16] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.7.tar.gz]
+[2024-05-14 10:57:16] INFO root fetch - processPackages [booktest]: Remove: archive file [/home/abi/fetcher/tmp/booktest-0.3.8.tar.gz]
+[2024-05-14 10:57:16] INFO root fetch - main [MainThread]: End processing [booktest]: success
+[2024-05-14 10:57:17] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.3.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.4.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 10:57:17] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.299.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.300.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-14 10:57:17] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.8.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.9.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-14 10:57:17] INFO root fetch - processPackages [stonfi]: Remove: archive file [/home/abi/fetcher/tmp/stonfi-0.8.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - processPackages [stonfi]: Remove: archive file [/home/abi/fetcher/tmp/stonfi-0.9.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - main [MainThread]: End processing [stonfi]: success
+[2024-05-14 10:57:17] INFO root fetch - processPackages [AWSXenos]: Remove: archive file [/home/abi/fetcher/tmp/AWSXenos-0.0.2.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - processPackages [AWSXenos]: Remove: archive file [/home/abi/fetcher/tmp/awsxenos-0.3.0.tar.gz]
+[2024-05-14 10:57:17] INFO root fetch - main [MainThread]: End processing [AWSXenos]: success
+[2024-05-14 10:57:18] INFO root fetch - processPackages [dao-analyzer]: executing diffoscope
+[2024-05-14 10:57:18] INFO root fetch - processPackages [dao-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao_analyzer-1.2.8.dev3.tar.gz tmp/dao-analyzer-1.2.8.dev7.tar.gz --markdown 20240514/d/dao-analyzer/1.2.8.dev3-1.2.8.dev7/README.md --exclude *.pyd
+[2024-05-14 10:57:19] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao_analyzer-1.2.8.dev3.tar.gz]
+[2024-05-14 10:57:19] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao-analyzer-1.2.8.dev7.tar.gz]
+[2024-05-14 10:57:19] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
+[2024-05-14 10:57:19] INFO root fetch - main [MainThread]: Store serial: [23198362]
