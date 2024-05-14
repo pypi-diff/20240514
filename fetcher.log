@@ -9802,3 +9802,33 @@
 [2024-05-14 06:14:36] INFO root fetch - processPackages [curl-cffi]: Remove: archive file [/home/abi/fetcher/tmp/curl_cffi-0.7.0b4.tar.gz]
 [2024-05-14 06:14:36] INFO root fetch - main [MainThread]: End processing [curl-cffi]: success
 [2024-05-14 06:14:36] INFO root fetch - main [MainThread]: Store serial: [23195561]
+[2024-05-14 06:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195561]
+[2024-05-14 06:16:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 06:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mwa-hyperbeam
+[2024-05-14 06:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xchtools
+[2024-05-14 06:16:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scholarsync
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: Downloading https://files.pythonhosted.org/packages/c7/f7/0e3e699372996b0555f04ae3bdd9042d57998abb0fc5b581e18e57f811c2/xchtools-0.1.8-py3-none-any.whl
+[2024-05-14 06:16:46] INFO root fetch - processPackages [mwa-hyperbeam]: New version: [0.7.2] Old Version: [0.7.0]
+[2024-05-14 06:16:46] INFO root fetch - processPackages [scholarsync]: New version: [0.0.1a1] Old Version: [0.0.1.2]
+[2024-05-14 06:16:46] INFO root fetch - processPackages [mwa-hyperbeam]: Downloading https://files.pythonhosted.org/packages/9b/bd/d5bd5e50fe20a52a57ce6c8010f9e4482f2c6a78c0628d6ece8306162137/mwa_hyperbeam-0.7.0-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: Downloading https://files.pythonhosted.org/packages/7e/8c/49a42e45355d4fd4dd99e071963fbf682b1346a1dacd339e409657d906ab/xchtools-0.1.9-py3-none-any.whl
+[2024-05-14 06:16:46] INFO root fetch - processPackages [scholarsync]: Downloading https://files.pythonhosted.org/packages/6e/50/2d6628a6f895f4adcd556264e59b598f63c37133278b9c04c777e923b2ca/scholarsync-0.0.1.2.tar.gz
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: executing diffoscope
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchtools-0.1.8-py3-none-any.whl.zip tmp/xchtools-0.1.9-py3-none-any.whl.zip --markdown 20240514/x/xchtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: Remove: archive file [/home/abi/fetcher/tmp/xchtools-0.1.8-py3-none-any.whl.zip]
+[2024-05-14 06:16:46] INFO root fetch - processPackages [xchtools]: Remove: archive file [/home/abi/fetcher/tmp/xchtools-0.1.9-py3-none-any.whl.zip]
+[2024-05-14 06:16:46] INFO root fetch - main [MainThread]: End processing [xchtools]: success
+[2024-05-14 06:16:46] INFO root fetch - processPackages [mwa-hyperbeam]: Downloading https://files.pythonhosted.org/packages/57/f6/b749c9c82a3d84c09d02be513fa30613273256cd7aedc8f9c57014c98a36/mwa_hyperbeam-0.7.2-cp39-cp39-manylinux_2_35_x86_64.whl
+[2024-05-14 06:16:47] INFO root fetch - processPackages [mwa-hyperbeam]: executing diffoscope
+[2024-05-14 06:16:47] INFO root fetch - processPackages [mwa-hyperbeam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwa_hyperbeam-0.7.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/mwa_hyperbeam-0.7.2-cp39-cp39-manylinux_2_35_x86_64.whl.zip --markdown 20240514/m/mwa-hyperbeam/0.7.0-0.7.2/README.md --exclude *.pyd
+[2024-05-14 06:16:49] INFO root fetch - processPackages [scholarsync]: Downloading https://files.pythonhosted.org/packages/f6/30/9e457da0a840adf7c1a3b702dcac125c53583a31dab833fa165479345667/scholarsync-0.0.1a1.tar.gz
+[2024-05-14 06:16:49] INFO root fetch - processPackages [scholarsync]: executing diffoscope
+[2024-05-14 06:16:49] INFO root fetch - processPackages [scholarsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scholarsync-0.0.1.2.tar.gz tmp/scholarsync-0.0.1a1.tar.gz --markdown 20240514/s/scholarsync/0.0.1.2-0.0.1a1/README.md --exclude *.pyd
+[2024-05-14 06:16:50] INFO root fetch - processPackages [scholarsync]: Remove: archive file [/home/abi/fetcher/tmp/scholarsync-0.0.1.2.tar.gz]
+[2024-05-14 06:16:50] INFO root fetch - processPackages [scholarsync]: Remove: archive file [/home/abi/fetcher/tmp/scholarsync-0.0.1a1.tar.gz]
+[2024-05-14 06:16:50] INFO root fetch - main [MainThread]: End processing [scholarsync]: success
+[2024-05-14 06:17:07] INFO root fetch - processPackages [mwa-hyperbeam]: Remove: archive file [/home/abi/fetcher/tmp/mwa_hyperbeam-0.7.0-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-05-14 06:17:07] INFO root fetch - processPackages [mwa-hyperbeam]: Remove: archive file [/home/abi/fetcher/tmp/mwa_hyperbeam-0.7.2-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
+[2024-05-14 06:17:07] INFO root fetch - main [MainThread]: End processing [mwa-hyperbeam]: success
+[2024-05-14 06:17:07] INFO root fetch - main [MainThread]: Store serial: [23195589]
