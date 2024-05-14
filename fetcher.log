@@ -19462,3 +19462,96 @@
 [2024-05-14 12:45:12] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.93.tar.gz]
 [2024-05-14 12:45:12] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-05-14 12:45:12] INFO root fetch - main [MainThread]: Store serial: [23199759]
+[2024-05-14 12:47:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199759]
+[2024-05-14 12:47:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WGSE-NG
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-ldap
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: few-shot-priming
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncpow
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xai-sdk
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: probe-design
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conetwork-test
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amazon-ads-api-connector
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MMLToolbox
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ckanext-twitter
+[2024-05-14 12:47:21] INFO root fetch - processPackages [WGSE-NG]: New version: [0.0.4a6] Old Version: [0.0.4a5]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [MMLToolbox]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [amazon-ads-api-connector]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ckanext-twitter]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [amazon-ads-api-connector]: Downloading https://files.pythonhosted.org/packages/92/e1/09ad5a46c557d9512fea89f6173edf25c94c899a966ade27d16b847fed0c/amazon-ads-api-connector-0.1.4.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/07/28/a3cc2341f73828d90303891acfdee6666bff2dccd862a57083ddaa9d9667/wgse_ng-0.0.4a5.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [asyncpow]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [xai-sdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ckanext-ldap]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-14 12:47:21] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [MMLToolbox]: Downloading https://files.pythonhosted.org/packages/a5/ad/899ddf342628fcd919814fdbd67d1314b77ba18864fbcdb4123fa9e4b166/MMLToolbox-1.2.0-py3-none-any.whl
+[2024-05-14 12:47:21] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-14 12:47:21] INFO root fetch - processPackages [xai-sdk]: Downloading https://files.pythonhosted.org/packages/ad/f3/385a04a04084da90c3ff5bbe21c372e2c091decdd135d9d5bdfe34e47083/xai_sdk-0.0.4.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [asyncpow]: Downloading https://files.pythonhosted.org/packages/e8/b7/46f15bd7ca671bd5de7b0d0dcb5dc51cd2d5c92cb6842615481f7cb64a7f/asyncpow-0.4.2.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ckanext-twitter]: Downloading https://files.pythonhosted.org/packages/53/08/7ed28ca8eded148d557d8a040a0de458886267d51013602a238ae5e85cbc/ckanext-twitter-2.2.8.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [ckanext-ldap]: Downloading https://files.pythonhosted.org/packages/cc/66/cb66ff9ad261fca878d1172d5463def253e94902fce6379cd4f2b4811321/ckanext-ldap-3.3.0.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [amazon-ads-api-connector]: Downloading https://files.pythonhosted.org/packages/d0/2b/1ce67a7980c057109945e50e0aa9a807ee861534a07f30b33b921381ba8b/amazon_ads_api_connector-0.1.5.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/db/2b/a11a604abc22e3fb2eabf8cdeebfe06661ffa2c2965c1ac02a55f2e43008/wgse_ng-0.0.4a6.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/1e/9e/5c70bb34abb70f3ef9fdb99921004355586cd3873850b11f11068704999a/conetwork_test-0.1.9.tar.gz
+[2024-05-14 12:47:21] INFO root fetch - processPackages [MMLToolbox]: Downloading https://files.pythonhosted.org/packages/c5/48/5a229a8c949eb10810a1c838aba152aa4ea365a90b91c4a84688837dd33a/MMLToolbox-1.2.1-py3-none-any.whl
+[2024-05-14 12:47:22] INFO root fetch - processPackages [amazon-ads-api-connector]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [amazon-ads-api-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-ads-api-connector-0.1.4.tar.gz tmp/amazon_ads_api_connector-0.1.5.tar.gz --markdown 20240514/a/amazon-ads-api-connector/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240514/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [MMLToolbox]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [MMLToolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMLToolbox-1.2.0-py3-none-any.whl.zip tmp/MMLToolbox-1.2.1-py3-none-any.whl.zip --markdown 20240514/M/MMLToolbox/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.8.tar.gz tmp/conetwork_test-0.1.9.tar.gz --markdown 20240514/c/conetwork-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [asyncpow]: Downloading https://files.pythonhosted.org/packages/1d/75/c42b9090c275ec1a660f50cd701abbf2faecd2829cce462f17b4920b2e8b/asyncpow-0.5.0.tar.gz
+[2024-05-14 12:47:22] INFO root fetch - processPackages [xai-sdk]: Downloading https://files.pythonhosted.org/packages/5a/b1/15399c05656359f37970dcbe017a1eb4ac932a6e30ed3820272703f69628/xai_sdk-0.0.5.tar.gz
+[2024-05-14 12:47:22] INFO root fetch - processPackages [ckanext-twitter]: Downloading https://files.pythonhosted.org/packages/25/9c/5e19f22e172ab3791f8bca8cc07affda90abea9a586695cabcd872442224/ckanext_twitter-2.2.9.tar.gz
+[2024-05-14 12:47:22] INFO root fetch - processPackages [ckanext-ldap]: Downloading https://files.pythonhosted.org/packages/fe/49/1e2a99ded0356ad2110b80d730619883e1fd6623ca304fef6b67626abed3/ckanext_ldap-3.3.1.tar.gz
+[2024-05-14 12:47:22] INFO root fetch - processPackages [asyncpow]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [asyncpow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncpow-0.4.2.tar.gz tmp/asyncpow-0.5.0.tar.gz --markdown 20240514/a/asyncpow/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [WGSE-NG]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [WGSE-NG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgse_ng-0.0.4a5.tar.gz tmp/wgse_ng-0.0.4a6.tar.gz --markdown 20240514/W/WGSE-NG/0.0.4a5-0.0.4a6/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-14 12:47:22] INFO root fetch - processPackages [xai-sdk]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [xai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xai_sdk-0.0.4.tar.gz tmp/xai_sdk-0.0.5.tar.gz --markdown 20240514/x/xai-sdk/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [ckanext-ldap]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [ckanext-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ldap-3.3.0.tar.gz tmp/ckanext_ldap-3.3.1.tar.gz --markdown 20240514/c/ckanext-ldap/3.3.0-3.3.1/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [ckanext-twitter]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [ckanext-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-twitter-2.2.8.tar.gz tmp/ckanext_twitter-2.2.9.tar.gz --markdown 20240514/c/ckanext-twitter/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-14 12:47:22] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240514/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-14 12:47:22] INFO root fetch - processPackages [amazon-ads-api-connector]: Remove: archive file [/home/abi/fetcher/tmp/amazon-ads-api-connector-0.1.4.tar.gz]
+[2024-05-14 12:47:22] INFO root fetch - processPackages [amazon-ads-api-connector]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ads_api_connector-0.1.5.tar.gz]
+[2024-05-14 12:47:22] INFO root fetch - main [MainThread]: End processing [amazon-ads-api-connector]: success
+[2024-05-14 12:47:22] INFO root fetch - processPackages [MMLToolbox]: Remove: archive file [/home/abi/fetcher/tmp/MMLToolbox-1.2.0-py3-none-any.whl.zip]
+[2024-05-14 12:47:22] INFO root fetch - processPackages [MMLToolbox]: Remove: archive file [/home/abi/fetcher/tmp/MMLToolbox-1.2.1-py3-none-any.whl.zip]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [MMLToolbox]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.9.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [ckanext-twitter]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-twitter-2.2.8.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [ckanext-twitter]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_twitter-2.2.9.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [ckanext-twitter]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [ckanext-ldap]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ldap-3.3.0.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [ckanext-ldap]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_ldap-3.3.1.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [ckanext-ldap]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [asyncpow]: Remove: archive file [/home/abi/fetcher/tmp/asyncpow-0.4.2.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [asyncpow]: Remove: archive file [/home/abi/fetcher/tmp/asyncpow-0.5.0.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [asyncpow]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [xai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xai_sdk-0.0.4.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [xai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xai_sdk-0.0.5.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [xai-sdk]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a5.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a6.tar.gz]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
+[2024-05-14 12:47:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-14 12:47:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-14 12:47:23] INFO root fetch - main [MainThread]: Store serial: [23199791]
