@@ -2463,3 +2463,69 @@
 [2024-05-14 02:11:30] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405130009.tar.gz]
 [2024-05-14 02:11:30] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-05-14 02:11:30] INFO root fetch - main [MainThread]: Store serial: [23192797]
+[2024-05-14 02:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192797]
+[2024-05-14 02:13:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alamos
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ousint
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synnax-freighter
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abstract-shapes
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synnax
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: speakeasy-client-sdk-python
+[2024-05-14 02:13:39] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [ousint]: New version: [0.2] Old Version: [0.1.0]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-05-14 02:13:39] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.8.1] Old Version: [5.8.0]
+[2024-05-14 02:13:39] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:13:39] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-14 02:13:39] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-14 02:13:39] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [ousint]: Downloading https://files.pythonhosted.org/packages/91/7f/7df7962d5896334eadd813771e9563e26a091137a7fd9241928ce74fc743/ousint-0.1.0.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/28/ad/50d9f69e7502672b1df7b5a29330459a070caa82c1c5bb5129d7f0ce2635/speakeasy-client-sdk-python-5.8.0.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240514/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-14 02:13:40] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:13:40] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240514/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 02:13:40] INFO root fetch - processPackages [ousint]: Downloading https://files.pythonhosted.org/packages/bf/18/562173e0e17cebc517f1729ae8a2a94874cc689532255d9de3d2b641be63/ousint-0.2.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240514/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 02:13:40] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240514/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-14 02:13:40] INFO root fetch - processPackages [ousint]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [ousint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ousint-0.1.0.tar.gz tmp/ousint-0.2.tar.gz --markdown 20240514/o/ousint/0.1.0-0.2/README.md --exclude *.pyd
+[2024-05-14 02:13:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/89/b9/637cc79ad16c259bd80cc7db3bfc9fd9c33a93d6d6706744f8361391a202/speakeasy-client-sdk-python-5.8.1.tar.gz
+[2024-05-14 02:13:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-05-14 02:13:40] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.8.0.tar.gz tmp/speakeasy-client-sdk-python-5.8.1.tar.gz --markdown 20240514/s/speakeasy-client-sdk-python/5.8.0-5.8.1/README.md --exclude *.pyd
+[2024-05-14 02:13:41] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:13:41] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-14 02:13:41] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-14 02:13:41] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-14 02:13:41] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-14 02:13:41] INFO root fetch - processPackages [ousint]: Remove: archive file [/home/abi/fetcher/tmp/ousint-0.1.0.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [ousint]: Remove: archive file [/home/abi/fetcher/tmp/ousint-0.2.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [ousint]: success
+[2024-05-14 02:13:41] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.8.0.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.8.1.tar.gz]
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-05-14 02:13:41] INFO root fetch - main [MainThread]: Store serial: [23192817]
