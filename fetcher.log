@@ -21555,3 +21555,24 @@
 [2024-05-14 14:05:20] INFO root fetch - processPackages [ledgerify]: Remove: archive file [/home/abi/fetcher/tmp/ledgerify-0.2.0.tar.gz]
 [2024-05-14 14:05:20] INFO root fetch - main [MainThread]: End processing [ledgerify]: success
 [2024-05-14 14:05:20] INFO root fetch - main [MainThread]: Store serial: [23200711]
+[2024-05-14 14:07:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200711]
+[2024-05-14 14:07:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 14:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgartools
+[2024-05-14 14:07:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sigmund
+[2024-05-14 14:07:29] INFO root fetch - processPackages [edgartools]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-14 14:07:29] INFO root fetch - processPackages [sigmund]: New version: [0.19.0] Old Version: [0.18.0]
+[2024-05-14 14:07:29] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/d8/c6/400200c18dfea8996fed257a419285ffb6839fac1a467836c0d47f525bfa/edgartools-2.8.3.tar.gz
+[2024-05-14 14:07:29] INFO root fetch - processPackages [sigmund]: Downloading https://files.pythonhosted.org/packages/60/ae/d94c395bbb9706212b2f293792c36fc61e1075eb5a181abe6d91f36f4366/sigmund-0.18.0.tar.gz
+[2024-05-14 14:07:29] INFO root fetch - processPackages [edgartools]: Downloading https://files.pythonhosted.org/packages/c6/e4/10d80214acd99a350add686b19eb2625613291c9bff643051d50b5aca766/edgartools-2.9.0.tar.gz
+[2024-05-14 14:07:30] INFO root fetch - processPackages [edgartools]: executing diffoscope
+[2024-05-14 14:07:30] INFO root fetch - processPackages [edgartools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgartools-2.8.3.tar.gz tmp/edgartools-2.9.0.tar.gz --markdown 20240514/e/edgartools/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-14 14:07:30] INFO root fetch - processPackages [sigmund]: Downloading https://files.pythonhosted.org/packages/75/8c/8e85e2038bc241db6802794c3b958c2ff90a3febfa4267daa9ba54fbdf11/sigmund-0.19.0.tar.gz
+[2024-05-14 14:07:30] INFO root fetch - processPackages [sigmund]: executing diffoscope
+[2024-05-14 14:07:30] INFO root fetch - processPackages [sigmund]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sigmund-0.18.0.tar.gz tmp/sigmund-0.19.0.tar.gz --markdown 20240514/s/sigmund/0.18.0-0.19.0/README.md --exclude *.pyd
+[2024-05-14 14:07:31] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.8.3.tar.gz]
+[2024-05-14 14:07:31] INFO root fetch - processPackages [edgartools]: Remove: archive file [/home/abi/fetcher/tmp/edgartools-2.9.0.tar.gz]
+[2024-05-14 14:07:31] INFO root fetch - main [MainThread]: End processing [edgartools]: success
+[2024-05-14 14:07:31] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.18.0.tar.gz]
+[2024-05-14 14:07:31] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.19.0.tar.gz]
+[2024-05-14 14:07:31] INFO root fetch - main [MainThread]: End processing [sigmund]: success
+[2024-05-14 14:07:31] INFO root fetch - main [MainThread]: Store serial: [23200722]
