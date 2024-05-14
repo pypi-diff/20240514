@@ -23099,3 +23099,66 @@
 [2024-05-14 15:04:03] INFO root fetch - processPackages [grand-cypher]: Remove: archive file [/home/abi/fetcher/tmp/grand-cypher-0.8.0.tar.gz]
 [2024-05-14 15:04:03] INFO root fetch - main [MainThread]: End processing [grand-cypher]: success
 [2024-05-14 15:04:03] INFO root fetch - main [MainThread]: Store serial: [23201326]
+[2024-05-14 15:06:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201326]
+[2024-05-14 15:06:12] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: runregistry
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cityseer
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dify-knowledge-pipline
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eazyAI
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: httpdiff
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easyreflectometry
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PdmContext
+[2024-05-14 15:06:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pySNOM
+[2024-05-14 15:06:12] INFO root fetch - processPackages [cityseer]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-14 15:06:12] INFO root fetch - processPackages [easyreflectometry]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-14 15:06:12] INFO root fetch - processPackages [eazyAI]: New version: [1.1.1] Old Version: [1.1]
+[2024-05-14 15:06:12] WARNING root fetch - processPackages [dify-knowledge-pipline]: Skipping, unable to determine old version
+[2024-05-14 15:06:12] INFO root fetch - main [MainThread]: End processing [dify-knowledge-pipline] error
+[2024-05-14 15:06:12] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/0c/fe/6cd0237a6988486e2fe3ef2043976edcfc1952a2f66a704892d2176229b2/cityseer-4.8.1.tar.gz
+[2024-05-14 15:06:12] INFO root fetch - processPackages [httpdiff]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 15:06:12] INFO root fetch - processPackages [PdmContext]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 15:06:12] INFO root fetch - processPackages [easyreflectometry]: Downloading https://files.pythonhosted.org/packages/d2/b6/3a23e66178f01fa4a1d46ea4996747a0cc5ee9cae318367f88bdc666f8ff/easyreflectometry-0.0.1-py3-none-any.whl
+[2024-05-14 15:06:12] INFO root fetch - processPackages [eazyAI]: Downloading https://files.pythonhosted.org/packages/46/7d/a0d58bb3fc6d09048b94af550d38c23965f5e2c50e5639bf09b1a57b5339/eazyAI-1.1.tar.gz
+[2024-05-14 15:06:12] WARNING root fetch - processPackages [pySNOM]: Skipping, unable to determine old version
+[2024-05-14 15:06:12] INFO root fetch - main [MainThread]: End processing [pySNOM] error
+[2024-05-14 15:06:12] INFO root fetch - processPackages [runregistry]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-14 15:06:13] INFO root fetch - processPackages [httpdiff]: Downloading https://files.pythonhosted.org/packages/8e/34/2c92f7cac2f02af1ebd02af7ff036d6c5cc43a59add2379d1f0b09664853/httpdiff-0.0.3.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [PdmContext]: Downloading https://files.pythonhosted.org/packages/e8/f1/60f8d3ac861bc42614919efd4a4bc76cfbae5609c36d1f23e773f01f78c4/pdmcontext-0.1.2.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [easyreflectometry]: Downloading https://files.pythonhosted.org/packages/72/22/c7a59cecd9d9c8a49f219fc1df32e186feebb2386582e38cac62bb21ca87/easyreflectometry-1.0.0.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [runregistry]: Downloading https://files.pythonhosted.org/packages/e8/31/c11a0b19c2c2be5ce26a50b9617fae0a92721315f05e14c9c7cf8757c02b/runregistry-1.0.0.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [eazyAI]: Downloading https://files.pythonhosted.org/packages/d0/19/8180d744d7406883b88c3b807d7a0a1238a500f48a516f219b93a1178a5c/eazyAI-1.1.1.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/ab/e1/bacf1bf58fe1a62b4563c927a3d3a5556542170d22d08863da6c88a412c6/cityseer-4.9.0.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [easyreflectometry]: executing diffoscope
+[2024-05-14 15:06:13] INFO root fetch - processPackages [easyreflectometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyreflectometry-0.0.1-py3-none-any.whl.zip tmp/easyreflectometry-1.0.0.tar.gz --markdown 20240514/e/easyreflectometry/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-14 15:06:13] INFO root fetch - processPackages [eazyAI]: executing diffoscope
+[2024-05-14 15:06:13] INFO root fetch - processPackages [eazyAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eazyAI-1.1.tar.gz tmp/eazyAI-1.1.1.tar.gz --markdown 20240514/e/eazyAI/1.1-1.1.1/README.md --exclude *.pyd
+[2024-05-14 15:06:13] INFO root fetch - processPackages [httpdiff]: Downloading https://files.pythonhosted.org/packages/f6/b6/0dbfe2c7f836a5c751288732c5e883abe00f8b7041de9012e1ea28ed074c/httpdiff-0.0.4.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [runregistry]: Downloading https://files.pythonhosted.org/packages/71/b5/3199b9ed9ef75468e1332797d31661f956430f6cd7422ce1c2c0e3351337/runregistry-1.1.0.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [runregistry]: executing diffoscope
+[2024-05-14 15:06:13] INFO root fetch - processPackages [runregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runregistry-1.0.0.tar.gz tmp/runregistry-1.1.0.tar.gz --markdown 20240514/r/runregistry/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-14 15:06:13] INFO root fetch - processPackages [PdmContext]: Downloading https://files.pythonhosted.org/packages/e2/00/b9a509027fd79bb41b1e796f62071f57a80558c3c6f9367b7c9f9f4950dd/pdmcontext-0.1.3.tar.gz
+[2024-05-14 15:06:13] INFO root fetch - processPackages [httpdiff]: executing diffoscope
+[2024-05-14 15:06:13] INFO root fetch - processPackages [httpdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpdiff-0.0.3.tar.gz tmp/httpdiff-0.0.4.tar.gz --markdown 20240514/h/httpdiff/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 15:06:13] INFO root fetch - processPackages [cityseer]: executing diffoscope
+[2024-05-14 15:06:13] INFO root fetch - processPackages [cityseer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cityseer-4.8.1.tar.gz tmp/cityseer-4.9.0.tar.gz --markdown 20240514/c/cityseer/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-14 15:06:13] INFO root fetch - processPackages [PdmContext]: executing diffoscope
+[2024-05-14 15:06:13] INFO root fetch - processPackages [PdmContext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdmcontext-0.1.2.tar.gz tmp/pdmcontext-0.1.3.tar.gz --markdown 20240514/P/PdmContext/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 15:06:13] INFO root fetch - processPackages [easyreflectometry]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometry-0.0.1-py3-none-any.whl.zip]
+[2024-05-14 15:06:13] INFO root fetch - processPackages [easyreflectometry]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometry-1.0.0.tar.gz]
+[2024-05-14 15:06:13] INFO root fetch - main [MainThread]: End processing [easyreflectometry]: success
+[2024-05-14 15:06:14] INFO root fetch - processPackages [eazyAI]: Remove: archive file [/home/abi/fetcher/tmp/eazyAI-1.1.tar.gz]
+[2024-05-14 15:06:14] INFO root fetch - processPackages [eazyAI]: Remove: archive file [/home/abi/fetcher/tmp/eazyAI-1.1.1.tar.gz]
+[2024-05-14 15:06:14] INFO root fetch - main [MainThread]: End processing [eazyAI]: success
+[2024-05-14 15:06:14] INFO root fetch - processPackages [httpdiff]: Remove: archive file [/home/abi/fetcher/tmp/httpdiff-0.0.3.tar.gz]
+[2024-05-14 15:06:14] INFO root fetch - processPackages [httpdiff]: Remove: archive file [/home/abi/fetcher/tmp/httpdiff-0.0.4.tar.gz]
+[2024-05-14 15:06:14] INFO root fetch - main [MainThread]: End processing [httpdiff]: success
+[2024-05-14 15:06:14] INFO root fetch - processPackages [runregistry]: Remove: archive file [/home/abi/fetcher/tmp/runregistry-1.0.0.tar.gz]
+[2024-05-14 15:06:14] INFO root fetch - processPackages [runregistry]: Remove: archive file [/home/abi/fetcher/tmp/runregistry-1.1.0.tar.gz]
+[2024-05-14 15:06:14] INFO root fetch - main [MainThread]: End processing [runregistry]: success
+[2024-05-14 15:06:15] INFO root fetch - processPackages [PdmContext]: Remove: archive file [/home/abi/fetcher/tmp/pdmcontext-0.1.2.tar.gz]
+[2024-05-14 15:06:15] INFO root fetch - processPackages [PdmContext]: Remove: archive file [/home/abi/fetcher/tmp/pdmcontext-0.1.3.tar.gz]
+[2024-05-14 15:06:15] INFO root fetch - main [MainThread]: End processing [PdmContext]: success
+[2024-05-14 15:06:15] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.8.1.tar.gz]
+[2024-05-14 15:06:15] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.9.0.tar.gz]
+[2024-05-14 15:06:15] INFO root fetch - main [MainThread]: End processing [cityseer]: success
+[2024-05-14 15:06:15] INFO root fetch - main [MainThread]: Store serial: [23201389]
