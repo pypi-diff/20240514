@@ -22241,3 +22241,70 @@
 [2024-05-14 14:31:59] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
 [2024-05-14 14:31:59] INFO root fetch - main [MainThread]: End processing [zrb]: success
 [2024-05-14 14:31:59] INFO root fetch - main [MainThread]: Store serial: [23200939]
+[2024-05-14 14:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200939]
+[2024-05-14 14:34:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packaged
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrattle
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: binary-file-parser
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3-radar
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrattle
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-rma
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pldag
+[2024-05-14 14:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: indexnetwork-sdk
+[2024-05-14 14:34:08] INFO root fetch - processPackages [pyrattle]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 14:34:08] INFO root fetch - processPackages [pyrattle]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 14:34:08] INFO root fetch - processPackages [indexnetwork-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 14:34:08] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.9.dev9] Old Version: [14.0.3.2.9.dev8]
+[2024-05-14 14:34:08] WARNING root fetch - processPackages [s3-radar]: Skipping, unable to determine old version
+[2024-05-14 14:34:08] INFO root fetch - main [MainThread]: End processing [s3-radar] error
+[2024-05-14 14:34:08] INFO root fetch - processPackages [packaged]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-14 14:34:08] INFO root fetch - processPackages [pyrattle]: Downloading https://files.pythonhosted.org/packages/ae/7a/eaf091e17cfbfb15fe62ba3b4fbd3cb2f349c84562a895e0f34fba7210ca/pyrattle-0.1.1.tar.gz
+[2024-05-14 14:34:08] INFO root fetch - processPackages [binary-file-parser]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 14:34:08] INFO root fetch - processPackages [pyrattle]: Downloading https://files.pythonhosted.org/packages/ae/7a/eaf091e17cfbfb15fe62ba3b4fbd3cb2f349c84562a895e0f34fba7210ca/pyrattle-0.1.1.tar.gz
+[2024-05-14 14:34:08] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/7a/d9/ae82f15188d6b01e5c0503eb584a51c00fd0caf2b0aec53a9a01079db267/indexnetwork_sdk-0.0.3.tar.gz
+[2024-05-14 14:34:08] INFO root fetch - processPackages [pldag]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-14 14:34:08] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/81/15/cf1813b23f40b94f0288fffed7d1a4c572d90e647789cd08e05f477482ee/packaged-0.3.0.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/2f/c8/392fd2ed35248ee87d018839fa607f8e4c230f18b6ccf767ccd665e3b610/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl
+[2024-05-14 14:34:09] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/4e/ef/a722d9e36c378ba01c0bfcc90811ee9a0b1027537181f0648e18d0bae55b/binary-file-parser-0.1.3.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/36/db/e933e8016238573552c6809833a7f2a95e5831722cd0871d2569b5228e0d/pldag-0.8.1.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/82/a4/9f81284db4219081c7ea8d55270d90bd058ae77dc33a16449ad1e2294db4/indexnetwork_sdk-0.0.4.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/3c/2c/03acd4de02a6a731c588569483cac99fcd9202105621e1798b8dc1559a47/packaged-0.3.1.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pyrattle]: Downloading https://files.pythonhosted.org/packages/a4/e8/3a416d3772795896ec8b804478a6135679cccf797b359b4f62b53aadf28b/pyrattle-0.1.2.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pyrattle]: Downloading https://files.pythonhosted.org/packages/a4/e8/3a416d3772795896ec8b804478a6135679cccf797b359b4f62b53aadf28b/pyrattle-0.1.2.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [indexnetwork-sdk]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [indexnetwork-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnetwork_sdk-0.0.3.tar.gz tmp/indexnetwork_sdk-0.0.4.tar.gz --markdown 20240514/i/indexnetwork-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 14:34:09] INFO root fetch - processPackages [packaged]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [packaged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaged-0.3.0.tar.gz tmp/packaged-0.3.1.tar.gz --markdown 20240514/p/packaged/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-14 14:34:09] INFO root fetch - processPackages [binary-file-parser]: Downloading https://files.pythonhosted.org/packages/87/3a/fd9859bcbb1ee062e744fa58257c8318ec2b525bf553e743bc8177b0bf6f/binary_file_parser-0.1.4.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pyrattle]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pyrattle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrattle-0.1.1.tar.gz tmp/pyrattle-0.1.2.tar.gz --markdown 20240514/p/pyrattle/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pyrattle]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pyrattle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrattle-0.1.1.tar.gz tmp/pyrattle-0.1.2.tar.gz --markdown 20240514/p/pyrattle/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/86/20/ac9af66edb40a070efa184aae3d1832cf4610b4a953871ed8c6e9bdfc1a4/pldag-0.8.2.tar.gz
+[2024-05-14 14:34:09] INFO root fetch - processPackages [binary-file-parser]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [binary-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary-file-parser-0.1.3.tar.gz tmp/binary_file_parser-0.1.4.tar.gz --markdown 20240514/b/binary-file-parser/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 14:34:09] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/e5/57/2b30e5c139e3844528efee839373dc72e6351d32a0f0ba7cd23c1e240d83/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.8.1.tar.gz tmp/pldag-0.8.2.tar.gz --markdown 20240514/p/pldag/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-14 14:34:09] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2024-05-14 14:34:09] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl.zip --markdown 20240514/o/odoo14-addon-rma/14.0.3.2.9.dev8-14.0.3.2.9.dev9/README.md --exclude *.pyd
+[2024-05-14 14:34:10] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.3.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.4.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [indexnetwork-sdk]: success
+[2024-05-14 14:34:10] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.3.0.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.3.1.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [packaged]: success
+[2024-05-14 14:34:10] INFO root fetch - processPackages [pyrattle]: Remove: archive file [/home/abi/fetcher/tmp/pyrattle-0.1.1.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - processPackages [pyrattle]: Remove: archive file [/home/abi/fetcher/tmp/pyrattle-0.1.2.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [pyrattle]: success
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [pyrattle]: success
+[2024-05-14 14:34:10] INFO root fetch - processPackages [binary-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/binary-file-parser-0.1.3.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - processPackages [binary-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/binary_file_parser-0.1.4.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [binary-file-parser]: success
+[2024-05-14 14:34:10] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.1.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.8.2.tar.gz]
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-05-14 14:34:10] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl.zip]
+[2024-05-14 14:34:10] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev9-py3-none-any.whl.zip]
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2024-05-14 14:34:10] INFO root fetch - main [MainThread]: Store serial: [23200967]
