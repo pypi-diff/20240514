@@ -3059,3 +3059,52 @@
 [2024-05-14 02:36:46] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
 [2024-05-14 02:36:46] INFO root fetch - main [MainThread]: End processing [bauplan]: success
 [2024-05-14 02:36:46] INFO root fetch - main [MainThread]: Store serial: [23193067]
+[2024-05-14 02:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193067]
+[2024-05-14 02:39:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-logging
+[2024-05-14 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trainml
+[2024-05-14 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proximl
+[2024-05-14 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitops
+[2024-05-14 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-passkey-auth
+[2024-05-14 02:39:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes-logging
+[2024-05-14 02:39:04] WARNING root fetch - processPackages [django-passkey-auth]: Skipping, unable to determine old version
+[2024-05-14 02:39:04] INFO root fetch - main [MainThread]: End processing [django-passkey-auth] error
+[2024-05-14 02:39:04] INFO root fetch - processPackages [proximl]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 02:39:04] INFO root fetch - processPackages [trainml]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 02:39:04] INFO root fetch - processPackages [gitops]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/d8/e8/1805db1a23ca2eb79bfe1fe00761cb24eb09533c8b91cfe27d6f7336e8d5/pypomes_logging-0.0.7.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/d8/e8/1805db1a23ca2eb79bfe1fe00761cb24eb09533c8b91cfe27d6f7336e8d5/pypomes_logging-0.0.7.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/d2/91/53176b34d80b8d96600bb53e983a0711dbaa2b21bb3ecb58f77e0cc85f61/trainml-0.5.8.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [proximl]: Downloading https://files.pythonhosted.org/packages/f3/14/279131f62f7c3ae952cba88ddc60ef4da84595535ca0a1cbef78802487b7/proximl-0.5.8.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/d7/7d/32d8e2cd57d1b9f160168c79642b03cce3c879758c84179733a2bcb095d5/gitops-0.9.7.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/4a/3a/3123008b6622de2c2aae04760214e981eb807100a6bf147e01357e19601f/pypomes_logging-0.0.8.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: Downloading https://files.pythonhosted.org/packages/4a/3a/3123008b6622de2c2aae04760214e981eb807100a6bf147e01357e19601f/pypomes_logging-0.0.8.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/24/1c/362f358cb7e8a9514ae00a6956f08a4b12fef9563b2e2186a3d2aeee37f9/trainml-0.5.9.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [proximl]: Downloading https://files.pythonhosted.org/packages/f0/be/29855241bbc24353010ef6a7417087f3a8ba69fc49cb29cadc80e00d1ee3/proximl-0.5.9.tar.gz
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: executing diffoscope
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_logging-0.0.7.tar.gz tmp/pypomes_logging-0.0.8.tar.gz --markdown 20240514/p/pypomes-logging/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: executing diffoscope
+[2024-05-14 02:39:04] INFO root fetch - processPackages [pypomes-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_logging-0.0.7.tar.gz tmp/pypomes_logging-0.0.8.tar.gz --markdown 20240514/p/pypomes-logging/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 02:39:05] INFO root fetch - processPackages [gitops]: Downloading https://files.pythonhosted.org/packages/35/a2/a6b8ecb5528074acc324a799084d617910b5f9457284406808a542b0c1c1/gitops-0.9.8.tar.gz
+[2024-05-14 02:39:05] INFO root fetch - processPackages [trainml]: executing diffoscope
+[2024-05-14 02:39:05] INFO root fetch - processPackages [trainml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainml-0.5.8.tar.gz tmp/trainml-0.5.9.tar.gz --markdown 20240514/t/trainml/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 02:39:05] INFO root fetch - processPackages [proximl]: executing diffoscope
+[2024-05-14 02:39:05] INFO root fetch - processPackages [proximl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proximl-0.5.8.tar.gz tmp/proximl-0.5.9.tar.gz --markdown 20240514/p/proximl/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 02:39:05] INFO root fetch - processPackages [gitops]: executing diffoscope
+[2024-05-14 02:39:05] INFO root fetch - processPackages [gitops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitops-0.9.7.tar.gz tmp/gitops-0.9.8.tar.gz --markdown 20240514/g/gitops/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-14 02:39:05] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.7.tar.gz]
+[2024-05-14 02:39:05] INFO root fetch - processPackages [pypomes-logging]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_logging-0.0.8.tar.gz]
+[2024-05-14 02:39:05] INFO root fetch - main [MainThread]: End processing [pypomes-logging]: success
+[2024-05-14 02:39:05] INFO root fetch - main [MainThread]: End processing [pypomes-logging]: success
+[2024-05-14 02:39:05] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.7.tar.gz]
+[2024-05-14 02:39:05] INFO root fetch - processPackages [gitops]: Remove: archive file [/home/abi/fetcher/tmp/gitops-0.9.8.tar.gz]
+[2024-05-14 02:39:05] INFO root fetch - main [MainThread]: End processing [gitops]: success
+[2024-05-14 02:39:05] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.8.tar.gz]
+[2024-05-14 02:39:05] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.9.tar.gz]
+[2024-05-14 02:39:05] INFO root fetch - main [MainThread]: End processing [trainml]: success
+[2024-05-14 02:39:06] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.8.tar.gz]
+[2024-05-14 02:39:06] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.9.tar.gz]
+[2024-05-14 02:39:06] INFO root fetch - main [MainThread]: End processing [proximl]: success
+[2024-05-14 02:39:06] INFO root fetch - main [MainThread]: Store serial: [23193086]
