@@ -10284,3 +10284,18 @@
 [2024-05-14 06:50:49] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.52.1.tar.gz]
 [2024-05-14 06:50:49] INFO root fetch - main [MainThread]: End processing [fzf-bin]: success
 [2024-05-14 06:50:49] INFO root fetch - main [MainThread]: Store serial: [23195768]
+[2024-05-14 06:52:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195768]
+[2024-05-14 06:52:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrefactoring
+[2024-05-14 06:52:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clipplay
+[2024-05-14 06:52:58] INFO root fetch - processPackages [pyrefactoring]: New version: [0.0.1.1.post2] Old Version: [0.0.1.1.post1]
+[2024-05-14 06:52:58] WARNING root fetch - processPackages [clipplay]: Skipping, unable to determine old version
+[2024-05-14 06:52:58] INFO root fetch - main [MainThread]: End processing [clipplay] error
+[2024-05-14 06:52:58] INFO root fetch - processPackages [pyrefactoring]: Downloading https://files.pythonhosted.org/packages/0d/07/3688e8a14ee18b1931f398615cf686ee9d21fba2463300cf7f00d73b6cd5/pyrefactoring-0.0.1.1.post1.tar.gz
+[2024-05-14 06:52:58] INFO root fetch - processPackages [pyrefactoring]: Downloading https://files.pythonhosted.org/packages/4e/20/9c04a8d6e951635f06f302ed74f9437cc00248f2229554123833c4a4ffe4/pyrefactoring-0.0.1.1.post2.tar.gz
+[2024-05-14 06:52:59] INFO root fetch - processPackages [pyrefactoring]: executing diffoscope
+[2024-05-14 06:52:59] INFO root fetch - processPackages [pyrefactoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefactoring-0.0.1.1.post1.tar.gz tmp/pyrefactoring-0.0.1.1.post2.tar.gz --markdown 20240514/p/pyrefactoring/0.0.1.1.post1-0.0.1.1.post2/README.md --exclude *.pyd
+[2024-05-14 06:52:59] INFO root fetch - processPackages [pyrefactoring]: Remove: archive file [/home/abi/fetcher/tmp/pyrefactoring-0.0.1.1.post1.tar.gz]
+[2024-05-14 06:52:59] INFO root fetch - processPackages [pyrefactoring]: Remove: archive file [/home/abi/fetcher/tmp/pyrefactoring-0.0.1.1.post2.tar.gz]
+[2024-05-14 06:52:59] INFO root fetch - main [MainThread]: End processing [pyrefactoring]: success
+[2024-05-14 06:52:59] INFO root fetch - main [MainThread]: Store serial: [23195776]
