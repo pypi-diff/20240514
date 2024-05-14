@@ -8933,3 +8933,42 @@
 [2024-05-14 05:30:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
 [2024-05-14 05:30:46] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-05-14 05:30:46] INFO root fetch - main [MainThread]: Store serial: [23195233]
+[2024-05-14 05:32:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195233]
+[2024-05-14 05:32:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-fr-cooperator
+[2024-05-14 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wrongbutusefulsbi
+[2024-05-14 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatshow-phy-mod-otfs
+[2024-05-14 05:32:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tgqSim
+[2024-05-14 05:32:55] INFO root fetch - processPackages [wrongbutusefulsbi]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 05:32:55] INFO root fetch - processPackages [tgqSim]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 05:32:55] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-14 05:32:55] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/65/09/f72450d6440adcb2f80813753e0fd4736c8f0e8dbffc00ebe480974594ef/wrongbutusefulsbi-0.0.4.tar.gz
+[2024-05-14 05:32:55] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-14 05:32:55] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/17/42/e7b00af759a4b4d5950757fecca2dff37bb25a4f943ae2bcd2aa25eeb3b6/tgqSim-0.1.5.tar.gz
+[2024-05-14 05:32:55] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/73/1c/c1539e91ed085c7b0f97c32166997ce0558214bc7e7b986c8399a2ae74de/whatshow_phy_mod_otfs-2.1.8.tar.gz
+[2024-05-14 05:32:55] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: Downloading https://files.pythonhosted.org/packages/0d/2a/977fffa44b773c20de314e239253d74921670a2b63c74d66e6dcb5a8fa79/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-14 05:32:55] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/c8/14/cec0cbce11fe985cc9cf3c2bedfdacbdd9ab71faf59909f83e5bb6ac22f6/whatshow_phy_mod_otfs-2.1.9.tar.gz
+[2024-05-14 05:32:55] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/98/02/4a3a32be7549a39988ee4a0a186b186074ae7a7280a1af7793fe7156cf8f/wrongbutusefulsbi-0.0.5.tar.gz
+[2024-05-14 05:32:55] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/cf/f5/c78c6d3d1284018a6dad9785837997ee3e87e59d732eb42c13f5000ca96a/tgqSim-0.1.6.tar.gz
+[2024-05-14 05:32:55] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: executing diffoscope
+[2024-05-14 05:32:55] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatshow_phy_mod_otfs-2.1.8.tar.gz tmp/whatshow_phy_mod_otfs-2.1.9.tar.gz --markdown 20240514/w/whatshow-phy-mod-otfs/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-14 05:32:56] INFO root fetch - processPackages [wrongbutusefulsbi]: executing diffoscope
+[2024-05-14 05:32:56] INFO root fetch - processPackages [wrongbutusefulsbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrongbutusefulsbi-0.0.4.tar.gz tmp/wrongbutusefulsbi-0.0.5.tar.gz --markdown 20240514/w/wrongbutusefulsbi/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 05:32:56] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-14 05:32:56] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.5.tar.gz tmp/tgqSim-0.1.6.tar.gz --markdown 20240514/t/tgqSim/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 05:32:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: Downloading https://files.pythonhosted.org/packages/34/29/0296a0c21427765077a66e0a47d48c4a51d0c942b42cb550a43aea6acebb/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-14 05:32:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: executing diffoscope
+[2024-05-14 05:32:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-l10n-fr-cooperator/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-14 05:32:56] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.8.tar.gz]
+[2024-05-14 05:32:56] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.9.tar.gz]
+[2024-05-14 05:32:56] INFO root fetch - main [MainThread]: End processing [whatshow-phy-mod-otfs]: success
+[2024-05-14 05:32:56] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.4.tar.gz]
+[2024-05-14 05:32:56] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.5.tar.gz]
+[2024-05-14 05:32:56] INFO root fetch - main [MainThread]: End processing [wrongbutusefulsbi]: success
+[2024-05-14 05:32:56] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.5.tar.gz]
+[2024-05-14 05:32:56] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.6.tar.gz]
+[2024-05-14 05:32:56] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-14 05:32:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-14 05:32:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-14 05:32:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-cooperator]: success
+[2024-05-14 05:32:56] INFO root fetch - main [MainThread]: Store serial: [23195244]
