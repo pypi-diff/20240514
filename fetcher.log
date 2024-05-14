@@ -8030,3 +8030,43 @@
 [2024-05-14 04:24:18] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240513.tar.gz]
 [2024-05-14 04:24:18] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-14 04:24:18] INFO root fetch - main [MainThread]: Store serial: [23194907]
+[2024-05-14 04:26:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194907]
+[2024-05-14 04:26:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 04:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karellen-llvm-clang
+[2024-05-14 04:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: karellen-llvm-core
+[2024-05-14 04:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-14 04:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clovers-groupmate-waifu
+[2024-05-14 04:26:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goodest
+[2024-05-14 04:26:28] INFO root fetch - processPackages [clovers-groupmate-waifu]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 04:26:28] INFO root fetch - processPackages [clovers-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/98/22/caf2c0a007273d1de0547af71d5a5c133808f1d7547ab6eb258ab8f3b62e/clovers_groupmate_waifu-0.1.3.tar.gz
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.5.0.post21] Old Version: [18.1.5.0.post20]
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.5.0.post21] Old Version: [18.1.5.0.post20]
+[2024-05-14 04:26:28] INFO root fetch - processPackages [goodest]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.5.0.post21] Old Version: [18.1.5.0.post20]
+[2024-05-14 04:26:28] INFO root fetch - processPackages [clovers-groupmate-waifu]: Downloading https://files.pythonhosted.org/packages/12/df/36e28f82ff0c6a0b07ea963b79656c5d964eea9d95d25ff071a19dafc52e/clovers_groupmate_waifu-0.1.4.tar.gz
+[2024-05-14 04:26:28] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/7f/7c/73a3d0bdef1efe8d0d9539edf06929168c526920b4ec2307671a1fd057ff/goodest-1.2.1.tar.gz
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/15/16/cd18204416f1348c5c3f3287aabe133041a3364a783693bc9c533c6f4c7c/karellen_llvm_toolchain_tools-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/fc/39/10ba2197af75236728708227d89d041b0e8fa5280b3ded5d60ca43d4dada/karellen_llvm_clang-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/45/35/af29ccd09659c4c9afb515bb8a5dcd21bd855f0de3b2c723c5e43798a62a/karellen_llvm_core-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 04:26:28] INFO root fetch - processPackages [clovers-groupmate-waifu]: executing diffoscope
+[2024-05-14 04:26:28] INFO root fetch - processPackages [clovers-groupmate-waifu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers_groupmate_waifu-0.1.3.tar.gz tmp/clovers_groupmate_waifu-0.1.4.tar.gz --markdown 20240514/c/clovers-groupmate-waifu/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 04:26:28] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28601238>=10485760
+[2024-05-14 04:26:28] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-14 04:26:28] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78660850>=10485760
+[2024-05-14 04:26:28] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-14 04:26:28] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/6d/1f/b5ec46ee22ac5f5ed9f474dbc70c1f5a65586c2397adfa1f7e4e350fa7d0/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 04:26:29] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/fd/ee/a0bc2a34d5907e4f3a0f432af381fe780596697ae819ab5db2570366d101/goodest-1.2.2.tar.gz
+[2024-05-14 04:26:29] INFO root fetch - processPackages [clovers-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/clovers_groupmate_waifu-0.1.3.tar.gz]
+[2024-05-14 04:26:29] INFO root fetch - processPackages [clovers-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/clovers_groupmate_waifu-0.1.4.tar.gz]
+[2024-05-14 04:26:29] INFO root fetch - main [MainThread]: End processing [clovers-groupmate-waifu]: success
+[2024-05-14 04:26:29] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-14 04:26:29] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240514/k/karellen-llvm-toolchain-tools/18.1.5.0.post20-18.1.5.0.post21/README.md --exclude *.pyd
+[2024-05-14 04:26:35] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-14 04:26:35] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.2.1.tar.gz tmp/goodest-1.2.2.tar.gz --markdown 20240514/g/goodest/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-14 04:26:40] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.2.1.tar.gz]
+[2024-05-14 04:26:40] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.2.2.tar.gz]
+[2024-05-14 04:26:40] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-14 04:26:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-14 04:26:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-14 04:26:57] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-14 04:26:57] INFO root fetch - main [MainThread]: Store serial: [23194919]
