@@ -17706,3 +17706,115 @@
 [2024-05-14 11:45:37] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.7.0.tar.gz]
 [2024-05-14 11:45:37] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
 [2024-05-14 11:45:37] INFO root fetch - main [MainThread]: Store serial: [23198969]
+[2024-05-14 11:47:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198969]
+[2024-05-14 11:48:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-create
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pg-sync-roles
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytonapi
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: faasmctl
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AdsbAnomalyDetector
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: airsmodel
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-connect
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fixcompliance
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-master
+[2024-05-14 11:48:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cms-pri-chmod
+[2024-05-14 11:48:03] INFO root fetch - processPackages [cms-pri-chmod]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [fixcompliance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pytonapi]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [faasmctl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [airsmodel]: New version: [0.3.2] Old Version: [0.3.0]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240513.20.27.679727] Old Version: [20240513.14.38.719727]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [AdsbAnomalyDetector]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [ansar-create]: New version: [0.1.84] Old Version: [0.1.83]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [fixcompliance]: Downloading https://files.pythonhosted.org/packages/e6/4f/8899206983f90166966050c01550e385aac14ddec4de61d458a985035010/fixcompliance-0.4.8.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.242] Old Version: [0.1.241]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [cms-pri-chmod]: Downloading https://files.pythonhosted.org/packages/9b/9a/05f40d1a21b61bd33370d0ee9fc50bbf9f4812e79822dee11cee45842af4/cms_pri_chmod-0.0.2.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [airsmodel]: Downloading https://files.pythonhosted.org/packages/34/7c/97a1e7ca2524747fe3c531a271b7d4ccf7f4ba9a9081d4f08d0cdbcc82e1/airsmodel-0.3.0.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [AdsbAnomalyDetector]: Downloading https://files.pythonhosted.org/packages/17/28/219693a502467290d194e6cb4cf91862b1ce253ec53363cf8026e3367343/AdsbAnomalyDetector-0.3.0.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/06/f0/dfec49d3128a26ded3d6a00c384f5d70aae36fa48b48bf4a013dacd01052/pytonapi-0.2.9.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/38/e4/dff09873a8761498bf090bc86a2364dfcd7753dd9bc74448aa6c71a828eb/faasmctl-0.9.0.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/06/07/6985f6521075224aca8c4ff6e3617c04b802090d091fcb545c08e12f2698/certora-cli-alpha-master-20240513.14.38.719727.tar.gz
+[2024-05-14 11:48:03] WARNING root fetch - processPackages [AdsbAnomalyDetector]: Skipping package: exceeds size limit 88205315>=10485760
+[2024-05-14 11:48:03] INFO root fetch - processPackages [AdsbAnomalyDetector]: Start processing: soarv1
+[2024-05-14 11:48:03] INFO root fetch - main [MainThread]: End processing [AdsbAnomalyDetector] error
+[2024-05-14 11:48:03] INFO root fetch - processPackages [soarv1]: New version: [0.4] Old Version: [0.3]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/7e/e9/2f6a4c5d0b1172f214276c90f7a84e17510b264253d42b92116fc0e3b939/ansar_create-0.1.83.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/66/4c/1a5afb7ab37bca59f05d62fd9f96ad358d072788e9911136d576d83d0a87/ansar_connect-0.1.241.tar.gz
+[2024-05-14 11:48:03] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14511988>=10485760
+[2024-05-14 11:48:03] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: arikaim
+[2024-05-14 11:48:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-14 11:48:03] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/33/a5/b9948a10129f63f7bf64e03a59df28b0bde43465168863d85f82a9235dfb/soarv1-0.3.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [fixcompliance]: Downloading https://files.pythonhosted.org/packages/33/62/f94698a09a30da8eed9a022b2851a5a4ef94f90c36ba0c7617d0389e4b4f/fixcompliance-0.4.9.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [arikaim]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/a8/0e/393f4180294f5db1aa68198a7225ae62b0fad8a12db45b815e9db9b533ed/pytonapi-0.3.0.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [cms-pri-chmod]: Downloading https://files.pythonhosted.org/packages/3d/43/b63f45c0b4d4d4da396f3ae452d14073349c02c46c79ec220db09b449c27/cms_pri_chmod-0.0.3.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [airsmodel]: Downloading https://files.pythonhosted.org/packages/fe/27/c8840a8ce827a6da9132a53e55b700735115ed3e5eb958f47ed6342697ba/airsmodel-0.3.2.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/12/94/9638f501b93a4d5196fdc4cc2fabae586b16cd83dfce921eca78c2dec55f/faasmctl-0.9.1.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [fixcompliance]: executing diffoscope
+[2024-05-14 11:48:03] INFO root fetch - processPackages [fixcompliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixcompliance-0.4.8.tar.gz tmp/fixcompliance-0.4.9.tar.gz --markdown 20240514/f/fixcompliance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pytonapi]: executing diffoscope
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pytonapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonapi-0.2.9.tar.gz tmp/pytonapi-0.3.0.tar.gz --markdown 20240514/p/pytonapi/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-14 11:48:03] INFO root fetch - processPackages [cms-pri-chmod]: executing diffoscope
+[2024-05-14 11:48:03] INFO root fetch - processPackages [cms-pri-chmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cms_pri_chmod-0.0.2.tar.gz tmp/cms_pri_chmod-0.0.3.tar.gz --markdown 20240514/c/cms-pri-chmod/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-14 11:48:03] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240514/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:48:03] INFO root fetch - processPackages [ansar-create]: Downloading https://files.pythonhosted.org/packages/48/cd/093b54e1540a8268bfa68b465d9af56a157e5bfe90323d05ac5ac699c628/ansar_create-0.1.84.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/f6/94/6f79884dbe750c91c1618be6d69c02c3cbe693ebbb390885f29f3ca720ee/ansar_connect-0.1.242.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [airsmodel]: executing diffoscope
+[2024-05-14 11:48:03] INFO root fetch - processPackages [airsmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airsmodel-0.3.0.tar.gz tmp/airsmodel-0.3.2.tar.gz --markdown 20240514/a/airsmodel/0.3.0-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:48:03] INFO root fetch - processPackages [arikaim]: Downloading https://files.pythonhosted.org/packages/2d/d9/3714c20e5bb2123390720359fcb7d67e0e1404a1a9a0a7db2fb6140afe2c/arikaim-0.5.8.tar.gz
+[2024-05-14 11:48:03] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2024-05-14 11:48:03] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.9.0.tar.gz tmp/faasmctl-0.9.1.tar.gz --markdown 20240514/f/faasmctl/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 11:48:04] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/de/02/66fe5482cf5e48868bb925d5d27539c8cfb5cef3f6e24f460af8e4b8ece5/soarv1-0.4.tar.gz
+[2024-05-14 11:48:04] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-05-14 11:48:04] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.241.tar.gz tmp/ansar_connect-0.1.242.tar.gz --markdown 20240514/a/ansar-connect/0.1.241-0.1.242/README.md --exclude *.pyd
+[2024-05-14 11:48:04] INFO root fetch - processPackages [ansar-create]: executing diffoscope
+[2024-05-14 11:48:04] INFO root fetch - processPackages [ansar-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_create-0.1.83.tar.gz tmp/ansar_create-0.1.84.tar.gz --markdown 20240514/a/ansar-create/0.1.83-0.1.84/README.md --exclude *.pyd
+[2024-05-14 11:48:04] INFO root fetch - processPackages [soarv1]: executing diffoscope
+[2024-05-14 11:48:04] INFO root fetch - processPackages [soarv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soarv1-0.3.tar.gz tmp/soarv1-0.4.tar.gz --markdown 20240514/s/soarv1/0.3-0.4/README.md --exclude *.pyd
+[2024-05-14 11:48:04] INFO root fetch - processPackages [arikaim]: Downloading https://files.pythonhosted.org/packages/a8/ba/a768fd65c5203c8c8ae73dd32e468a4229d5a3b0ebe8b4b14a8d187a533c/arikaim-0.5.9.tar.gz
+[2024-05-14 11:48:04] INFO root fetch - processPackages [arikaim]: executing diffoscope
+[2024-05-14 11:48:04] INFO root fetch - processPackages [arikaim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arikaim-0.5.8.tar.gz tmp/arikaim-0.5.9.tar.gz --markdown 20240514/a/arikaim/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 11:48:05] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [pg-sync-roles]: Start processing: cytimes
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [cms-pri-chmod]: Remove: archive file [/home/abi/fetcher/tmp/cms_pri_chmod-0.0.2.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [cms-pri-chmod]: Remove: archive file [/home/abi/fetcher/tmp/cms_pri_chmod-0.0.3.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [cms-pri-chmod]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.0.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.241.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.242.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [cytimes]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [airsmodel]: Remove: archive file [/home/abi/fetcher/tmp/airsmodel-0.3.0.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [airsmodel]: Remove: archive file [/home/abi/fetcher/tmp/airsmodel-0.3.2.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [airsmodel]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [fixcompliance]: Remove: archive file [/home/abi/fetcher/tmp/fixcompliance-0.4.8.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [fixcompliance]: Remove: archive file [/home/abi/fetcher/tmp/fixcompliance-0.4.9.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [fixcompliance]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.9.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.3.0.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [pytonapi]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.83.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [ansar-create]: Remove: archive file [/home/abi/fetcher/tmp/ansar_create-0.1.84.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [ansar-create]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.3.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.4.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [soarv1]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [arikaim]: Remove: archive file [/home/abi/fetcher/tmp/arikaim-0.5.8.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - processPackages [arikaim]: Remove: archive file [/home/abi/fetcher/tmp/arikaim-0.5.9.tar.gz]
+[2024-05-14 11:48:05] INFO root fetch - main [MainThread]: End processing [arikaim]: success
+[2024-05-14 11:48:05] INFO root fetch - processPackages [cytimes]: Downloading https://files.pythonhosted.org/packages/93/72/962d7c7ee21cfb7b4b2989e516f41831b2c8920786f67f17a05e0309ac42/cytimes-1.0.1.tar.gz
+[2024-05-14 11:48:06] INFO root fetch - processPackages [cytimes]: Downloading https://files.pythonhosted.org/packages/40/c6/9f32c7df5228a0937d481e4456eb493742f302633d2dd745f01012342f1c/cytimes-1.0.2-cp311-cp311-win32.whl
+[2024-05-14 11:48:07] INFO root fetch - processPackages [cytimes]: executing diffoscope
+[2024-05-14 11:48:07] INFO root fetch - processPackages [cytimes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cytimes-1.0.1.tar.gz tmp/cytimes-1.0.2-cp311-cp311-win32.whl.zip --markdown 20240514/c/cytimes/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 11:48:08] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-1.0.1.tar.gz]
+[2024-05-14 11:48:08] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-1.0.2-cp311-cp311-win32.whl.zip]
+[2024-05-14 11:48:08] INFO root fetch - main [MainThread]: End processing [cytimes]: success
+[2024-05-14 11:48:08] INFO root fetch - main [MainThread]: Store serial: [23199014]
