@@ -3277,3 +3277,69 @@
 [2024-05-14 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
 [2024-05-14 02:50:06] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
 [2024-05-14 02:50:06] INFO root fetch - main [MainThread]: Store serial: [23193172]
+[2024-05-14 02:52:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193172]
+[2024-05-14 02:52:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dalgorithms
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tgqSim
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flyflowclient
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-editorjs
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastdev
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bioversions
+[2024-05-14 02:52:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yoto-api
+[2024-05-14 02:52:15] INFO root fetch - processPackages [dalgorithms]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [tgqSim]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [flyflowclient]: New version: [1.14.6] Old Version: [1.14.4]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [wagtail-editorjs]: New version: [1.6.5rc1] Old Version: [1.6.4]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/aa/dc/bd1d8d67a5e4618a0e3bfa79c6e5b670870a0b059a9bef2553db3f61f1ef/tgqSim-0.1.4.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [fastdev]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 02:52:15] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/02/c4/b9685d1908805a64a611ee193a3979901e0bd43ed96d4ab2f565703acceb/dalgorithms-0.1.3.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/a9/62/5594b9d4ba0691ecf71d5d74e181ba29b812400ed79e26b34e77a6061d82/wagtail_editorjs-1.6.4.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/9e/56/9c76088fe9390b0c12b963bbf1271e139d8a9b3c080130e011213abb05cd/flyflowclient-1.14.4.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [fastdev]: Downloading https://files.pythonhosted.org/packages/88/fb/6ab3c3efd97263655733f6d7bba62dd96e5f65291538d1ac8df9e6c30c9f/fastdev-0.0.1-py3-none-any.whl
+[2024-05-14 02:52:15] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/17/42/e7b00af759a4b4d5950757fecca2dff37bb25a4f943ae2bcd2aa25eeb3b6/tgqSim-0.1.5.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/ff/43/df30d0cd66cbed2b2bb4b7a768b0b2618a411067eb50db765aa6fc7371a0/dalgorithms-0.1.4.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [flyflowclient]: Downloading https://files.pythonhosted.org/packages/59/d1/71b32684c8602c30083e6723512e31730f22f4729a5234bb34dc3ee3c072/flyflowclient-1.14.6.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-14 02:52:15] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.4.tar.gz tmp/tgqSim-0.1.5.tar.gz --markdown 20240514/t/tgqSim/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 02:52:15] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-14 02:52:15] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240514/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-14 02:52:15] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/92/fe/b83ac63df85e7c4b061b1984ffa4840b41d26087b2a561bf7fd1b491a852/wagtail_editorjs-1.6.5rc1.tar.gz
+[2024-05-14 02:52:15] INFO root fetch - processPackages [dalgorithms]: executing diffoscope
+[2024-05-14 02:52:15] INFO root fetch - processPackages [dalgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalgorithms-0.1.3.tar.gz tmp/dalgorithms-0.1.4.tar.gz --markdown 20240514/d/dalgorithms/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 02:52:16] INFO root fetch - processPackages [flyflowclient]: executing diffoscope
+[2024-05-14 02:52:16] INFO root fetch - processPackages [flyflowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyflowclient-1.14.4.tar.gz tmp/flyflowclient-1.14.6.tar.gz --markdown 20240514/f/flyflowclient/1.14.4-1.14.6/README.md --exclude *.pyd
+[2024-05-14 02:52:16] INFO root fetch - processPackages [fastdev]: Downloading https://files.pythonhosted.org/packages/25/cd/5a25adf29ad8724574e20d1bf9bf6f5edc9bb4d28f54e076fdcaf1e7bf80/fastdev-0.0.2.tar.gz
+[2024-05-14 02:52:16] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-14 02:52:16] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240514/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-14 02:52:16] INFO root fetch - processPackages [wagtail-editorjs]: executing diffoscope
+[2024-05-14 02:52:16] INFO root fetch - processPackages [wagtail-editorjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_editorjs-1.6.4.tar.gz tmp/wagtail_editorjs-1.6.5rc1.tar.gz --markdown 20240514/w/wagtail-editorjs/1.6.4-1.6.5rc1/README.md --exclude *.pyd
+[2024-05-14 02:52:16] INFO root fetch - processPackages [fastdev]: executing diffoscope
+[2024-05-14 02:52:16] INFO root fetch - processPackages [fastdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdev-0.0.1-py3-none-any.whl.zip tmp/fastdev-0.0.2.tar.gz --markdown 20240514/f/fastdev/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 02:52:16] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.4.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.5.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-14 02:52:16] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.3.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.4.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-14 02:52:16] INFO root fetch - main [MainThread]: End processing [dalgorithms]: success
+[2024-05-14 02:52:16] INFO root fetch - processPackages [fastdev]: Remove: archive file [/home/abi/fetcher/tmp/fastdev-0.0.1-py3-none-any.whl.zip]
+[2024-05-14 02:52:16] INFO root fetch - processPackages [fastdev]: Remove: archive file [/home/abi/fetcher/tmp/fastdev-0.0.2.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - main [MainThread]: End processing [fastdev]: success
+[2024-05-14 02:52:16] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.4.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - processPackages [flyflowclient]: Remove: archive file [/home/abi/fetcher/tmp/flyflowclient-1.14.6.tar.gz]
+[2024-05-14 02:52:16] INFO root fetch - main [MainThread]: End processing [flyflowclient]: success
+[2024-05-14 02:52:17] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.4.tar.gz]
+[2024-05-14 02:52:17] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.5rc1.tar.gz]
+[2024-05-14 02:52:17] INFO root fetch - main [MainThread]: End processing [wagtail-editorjs]: success
+[2024-05-14 02:52:35] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-14 02:52:35] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-14 02:52:35] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-14 02:52:35] INFO root fetch - main [MainThread]: Store serial: [23193194]
