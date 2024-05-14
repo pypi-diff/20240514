@@ -7632,3 +7632,21 @@
 [2024-05-14 03:45:21] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.8.tar.gz]
 [2024-05-14 03:45:21] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
 [2024-05-14 03:45:21] INFO root fetch - main [MainThread]: Store serial: [23194706]
+[2024-05-14 03:47:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194706]
+[2024-05-14 03:47:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 03:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parallel-sparse-tools
+[2024-05-14 03:47:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aka-data-prep
+[2024-05-14 03:47:30] INFO root fetch - processPackages [parallel-sparse-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 03:47:30] INFO root fetch - processPackages [aka-data-prep]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 03:47:30] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/d2/e6/eedb8012dff3ae1925310f4bbd23a13401f63cdf6a70b884df2bebf4790c/aka_data_prep-0.0.3.tar.gz
+[2024-05-14 03:47:30] INFO root fetch - processPackages [parallel-sparse-tools]: Downloading https://files.pythonhosted.org/packages/d9/36/87d14cd55d6f432b9dbce500b7e6b5c0bb8649db3ee49fd18edcb1adb1b0/parallel-sparse-tools-0.1.0.tar.gz
+[2024-05-14 03:47:30] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/94/dc/7e34b497c81b705dbdd3823db90b78a4d6564766f8481610eab8bd40416b/aka-data-prep-0.0.4.tar.gz
+[2024-05-14 03:47:30] INFO root fetch - processPackages [parallel-sparse-tools]: Downloading https://files.pythonhosted.org/packages/32/61/7d11a1fd64bea0bbceb57fb7138182a71c28e3433187fcbee0ebfc35de70/parallel_sparse_tools-0.1.1-cp311-cp311-musllinux_1_1_x86_64.whl
+[2024-05-14 03:47:30] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-14 03:47:30] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka_data_prep-0.0.3.tar.gz tmp/aka-data-prep-0.0.4.tar.gz --markdown 20240514/a/aka-data-prep/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 03:47:31] WARNING root fetch - processPackages [parallel-sparse-tools]: Skipping package: exceeds size limit 11926498>=10485760
+[2024-05-14 03:47:31] INFO root fetch - main [MainThread]: End processing [parallel-sparse-tools] error
+[2024-05-14 03:47:31] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka_data_prep-0.0.3.tar.gz]
+[2024-05-14 03:47:31] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.4.tar.gz]
+[2024-05-14 03:47:31] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-14 03:47:31] INFO root fetch - main [MainThread]: Store serial: [23194712]
