@@ -3343,3 +3343,27 @@
 [2024-05-14 02:52:35] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-14 02:52:35] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-14 02:52:35] INFO root fetch - main [MainThread]: Store serial: [23193194]
+[2024-05-14 02:54:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193194]
+[2024-05-14 02:54:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 02:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-lemlist
+[2024-05-14 02:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-coinmarketcap
+[2024-05-14 02:54:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compress-algorithms
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-lemlist]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-14 02:54:44] WARNING root fetch - processPackages [compress-algorithms]: Skipping, unable to determine old version
+[2024-05-14 02:54:44] INFO root fetch - main [MainThread]: End processing [compress-algorithms] error
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-lemlist]: Downloading https://files.pythonhosted.org/packages/dc/20/5a94722be98a6c6c5adf273fec27eb84eaa5526fbbf6889b58a3393ac355/airbyte_source_lemlist-0.2.1.tar.gz
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: Downloading https://files.pythonhosted.org/packages/74/e7/b200b7c0858f78faa7cd964f90d76a8ef8492835158899f108685e3ce70c/airbyte-source-coinmarketcap-0.1.1.tar.gz
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-lemlist]: Downloading https://files.pythonhosted.org/packages/21/cd/6805c1b16cc488c619f6422a20a5db3701a20786eb0ea8833118d7383d0c/airbyte_source_lemlist-0.2.2.tar.gz
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: Downloading https://files.pythonhosted.org/packages/03/67/d8831a3448e536e791e4722f4772be735baad2af3ea8de3ff2b543d1ca32/airbyte_source_coinmarketcap-0.1.2.tar.gz
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-lemlist]: executing diffoscope
+[2024-05-14 02:54:44] INFO root fetch - processPackages [airbyte-source-lemlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_lemlist-0.2.1.tar.gz tmp/airbyte_source_lemlist-0.2.2.tar.gz --markdown 20240514/a/airbyte-source-lemlist/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: executing diffoscope
+[2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-source-coinmarketcap-0.1.1.tar.gz tmp/airbyte_source_coinmarketcap-0.1.2.tar.gz --markdown 20240514/a/airbyte-source-coinmarketcap/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-lemlist]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_lemlist-0.2.1.tar.gz]
+[2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-lemlist]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_lemlist-0.2.2.tar.gz]
+[2024-05-14 02:54:45] INFO root fetch - main [MainThread]: End processing [airbyte-source-lemlist]: success
+[2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-source-coinmarketcap-0.1.1.tar.gz]
+[2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_coinmarketcap-0.1.2.tar.gz]
+[2024-05-14 02:54:45] INFO root fetch - main [MainThread]: End processing [airbyte-source-coinmarketcap]: success
+[2024-05-14 02:54:45] INFO root fetch - main [MainThread]: Store serial: [23193211]
