@@ -10642,3 +10642,42 @@
 [2024-05-14 07:19:07] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
 [2024-05-14 07:19:07] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
 [2024-05-14 07:19:07] INFO root fetch - main [MainThread]: Store serial: [23195902]
+[2024-05-14 07:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195902]
+[2024-05-14 07:21:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sopel-ai
+[2024-05-14 07:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-intersphinx
+[2024-05-14 07:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tarsier
+[2024-05-14 07:21:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-automation
+[2024-05-14 07:21:15] INFO root fetch - processPackages [liveramp-automation]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-14 07:21:16] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/c5/4a/699428b01a00259bdf3dae5d7283a03414043db4f9e588736a144ab62d9f/liveramp_automation-1.3.8.tar.gz
+[2024-05-14 07:21:16] INFO root fetch - processPackages [sopel-ai]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-14 07:21:16] INFO root fetch - processPackages [auto-intersphinx]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-14 07:21:16] INFO root fetch - processPackages [tarsier]: New version: [0.5.941] Old Version: [0.5.94]
+[2024-05-14 07:21:16] INFO root fetch - processPackages [auto-intersphinx]: Downloading https://files.pythonhosted.org/packages/22/55/a1a671ad25c6102333fbea33b758f13867865f93e844d8f7adbe8ecda2be/auto-intersphinx-1.0.3.tar.gz
+[2024-05-14 07:21:16] INFO root fetch - processPackages [tarsier]: Downloading https://files.pythonhosted.org/packages/3c/bb/59ff46b441e8152b53a27a59d39bcb8649c403eb772c1ea4dc60affb6c35/tarsier-0.5.94.tar.gz
+[2024-05-14 07:21:16] INFO root fetch - processPackages [sopel-ai]: Downloading https://files.pythonhosted.org/packages/7a/f6/dcb4cf2dacef952a000dceb55ac5b16dcdef177474768db3ed8ef1b019b8/sopel_ai-1.2.1-py3-none-any.whl
+[2024-05-14 07:21:16] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/b0/f4/aa4666d57b153e24aed74e920b6a784fa009748970df61a229fc097a9b19/liveramp_automation-1.3.9.tar.gz
+[2024-05-14 07:21:16] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-05-14 07:21:16] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.3.8.tar.gz tmp/liveramp_automation-1.3.9.tar.gz --markdown 20240514/l/liveramp-automation/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-14 07:21:16] INFO root fetch - processPackages [auto-intersphinx]: Downloading https://files.pythonhosted.org/packages/a3/e9/e767d7ff68f8a7db3d080941a97e251b06fa4b626fcf1e2ba64ab2aebaa6/auto_intersphinx-1.1.0.tar.gz
+[2024-05-14 07:21:16] INFO root fetch - processPackages [sopel-ai]: Downloading https://files.pythonhosted.org/packages/21/fe/90d6b7a070387a7be3d21842c34517a4004a6ae07f6360fe926ec9bde54a/sopel_ai-1.3.0-py3-none-any.whl
+[2024-05-14 07:21:16] INFO root fetch - processPackages [tarsier]: Downloading https://files.pythonhosted.org/packages/fb/09/9f25307dc4637df7a9668e0d915a6010d06c75d91aaedbc38d3023b8053b/tarsier-0.5.941.tar.gz
+[2024-05-14 07:21:16] INFO root fetch - processPackages [sopel-ai]: executing diffoscope
+[2024-05-14 07:21:16] INFO root fetch - processPackages [sopel-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel_ai-1.2.1-py3-none-any.whl.zip tmp/sopel_ai-1.3.0-py3-none-any.whl.zip --markdown 20240514/s/sopel-ai/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-14 07:21:16] INFO root fetch - processPackages [auto-intersphinx]: executing diffoscope
+[2024-05-14 07:21:16] INFO root fetch - processPackages [auto-intersphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-intersphinx-1.0.3.tar.gz tmp/auto_intersphinx-1.1.0.tar.gz --markdown 20240514/a/auto-intersphinx/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-14 07:21:16] INFO root fetch - processPackages [tarsier]: executing diffoscope
+[2024-05-14 07:21:16] INFO root fetch - processPackages [tarsier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarsier-0.5.94.tar.gz tmp/tarsier-0.5.941.tar.gz --markdown 20240514/t/tarsier/0.5.94-0.5.941/README.md --exclude *.pyd
+[2024-05-14 07:21:17] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.8.tar.gz]
+[2024-05-14 07:21:17] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.9.tar.gz]
+[2024-05-14 07:21:17] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-05-14 07:21:17] INFO root fetch - processPackages [sopel-ai]: Remove: archive file [/home/abi/fetcher/tmp/sopel_ai-1.2.1-py3-none-any.whl.zip]
+[2024-05-14 07:21:17] INFO root fetch - processPackages [sopel-ai]: Remove: archive file [/home/abi/fetcher/tmp/sopel_ai-1.3.0-py3-none-any.whl.zip]
+[2024-05-14 07:21:17] INFO root fetch - main [MainThread]: End processing [sopel-ai]: success
+[2024-05-14 07:21:17] INFO root fetch - processPackages [auto-intersphinx]: Remove: archive file [/home/abi/fetcher/tmp/auto-intersphinx-1.0.3.tar.gz]
+[2024-05-14 07:21:17] INFO root fetch - processPackages [auto-intersphinx]: Remove: archive file [/home/abi/fetcher/tmp/auto_intersphinx-1.1.0.tar.gz]
+[2024-05-14 07:21:17] INFO root fetch - main [MainThread]: End processing [auto-intersphinx]: success
+[2024-05-14 07:21:17] INFO root fetch - processPackages [tarsier]: Remove: archive file [/home/abi/fetcher/tmp/tarsier-0.5.94.tar.gz]
+[2024-05-14 07:21:17] INFO root fetch - processPackages [tarsier]: Remove: archive file [/home/abi/fetcher/tmp/tarsier-0.5.941.tar.gz]
+[2024-05-14 07:21:17] INFO root fetch - main [MainThread]: End processing [tarsier]: success
+[2024-05-14 07:21:17] INFO root fetch - main [MainThread]: Store serial: [23195913]
