@@ -12364,3 +12364,95 @@
 [2024-05-14 08:51:20] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.2.tar.gz]
 [2024-05-14 08:51:20] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
 [2024-05-14 08:51:20] INFO root fetch - main [MainThread]: Store serial: [23196737]
+[2024-05-14 08:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196737]
+[2024-05-14 08:53:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wrapworks
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klingon-file-manager
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: REVHubInterface
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-osubot
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docmesh-agent
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dcw-finder
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stac-fastapi.opensearch
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rtisdevremotepy
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: synctl
+[2024-05-14 08:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fixcompliance
+[2024-05-14 08:53:30] INFO root fetch - processPackages [klingon-file-manager]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [REVHubInterface]: New version: [1.3.3.dev4] Old Version: [1.3.3.dev3]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.4] Old Version: [6.0.3]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [wrapworks]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [klingon-file-manager]: Downloading https://files.pythonhosted.org/packages/62/7b/a1f6c8bab13537124018c1d7e370c7b61d53b184f22da2613ee749403fe7/klingon_file_manager-0.0.4.tar.gz
+[2024-05-14 08:53:30] INFO root fetch - processPackages [rtisdevremotepy]: New version: [2.14.0] Old Version: [2.13.0]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [synctl]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [fixcompliance]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [stac-fastapi.opensearch]: New version: [3.0.0a1] Old Version: [3.0.0a0]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [docmesh-agent]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 08:53:30] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/ba/9a/d691012417cf8628018fc80456282ae066deef07cc65d1f7dbd3f66d1f97/nonebot-plugin-osubot-6.0.3.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/96/8d/390a74a3fc8913cdf79698b00cc16d12ea74d010919a51ca02b38d874869/revhubinterface-1.3.3.dev3.tar.gz
+[2024-05-14 08:53:31] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29385827>=10485760
+[2024-05-14 08:53:31] INFO root fetch - processPackages [nonebot-plugin-osubot]: Start processing: docmesh-server
+[2024-05-14 08:53:31] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-14 08:53:31] INFO root fetch - processPackages [wrapworks]: Downloading https://files.pythonhosted.org/packages/00/68/27ccdb547070a52b7e501744757e061874dd76a70a523aa2f5f991ff1d3d/wrapworks-1.0.0.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [rtisdevremotepy]: Downloading https://files.pythonhosted.org/packages/54/0a/d00653b76a849f873e5400de2f04f6f6dc6a7cf89d99743c9d0fd37853f0/rtisdevremotepy-2.13.0.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [fixcompliance]: Downloading https://files.pythonhosted.org/packages/e6/4f/8899206983f90166966050c01550e385aac14ddec4de61d458a985035010/fixcompliance-0.4.8.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [stac-fastapi.opensearch]: Downloading https://files.pythonhosted.org/packages/ec/7b/eadf8c4d9da994dc6162ee44d95c94a9a63db280b08fcf4c17e0546a6e86/stac_fastapi_opensearch-3.0.0a0.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/c6/2e/4663ec4803dd454fa179acb3cb9a5cf1abe739f86e9ca10e50b7b07b5a83/synctl-1.1.8.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/f1/c5/bee3c33015d11d67f3f901d1f3881d70760a9791585e00e2e0e3b72e1f48/docmesh_agent-0.0.2.tar.gz
+[2024-05-14 08:53:31] WARNING root fetch - processPackages [docmesh-server]: Skipping, unable to determine old version
+[2024-05-14 08:53:31] INFO root fetch - main [MainThread]: End processing [docmesh-server] error
+[2024-05-14 08:53:31] INFO root fetch - processPackages [klingon-file-manager]: Downloading https://files.pythonhosted.org/packages/7f/9e/bd983df5cba7f100113cf6b3e65c56837fbf7ca5bb8e71bfff43348dc55c/klingon_file_manager-0.0.5.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [klingon-file-manager]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [klingon-file-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klingon_file_manager-0.0.4.tar.gz tmp/klingon_file_manager-0.0.5.tar.gz --markdown 20240514/k/klingon-file-manager/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [REVHubInterface]: Downloading https://files.pythonhosted.org/packages/66/75/3a5ac1a4c174d4e31735d61d604a71c4961eecf819d10e01bbd1ed66f5a9/revhubinterface-1.3.3.dev4.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [wrapworks]: Downloading https://files.pythonhosted.org/packages/d1/95/3afed68cd5b745aa12982b01eecb51c1ce52b413bfd29e2386a293738055/wrapworks-1.0.1.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [fixcompliance]: Downloading https://files.pythonhosted.org/packages/33/62/f94698a09a30da8eed9a022b2851a5a4ef94f90c36ba0c7617d0389e4b4f/fixcompliance-0.4.9.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [REVHubInterface]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [REVHubInterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revhubinterface-1.3.3.dev3.tar.gz tmp/revhubinterface-1.3.3.dev4.tar.gz --markdown 20240514/R/REVHubInterface/1.3.3.dev3-1.3.3.dev4/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [docmesh-agent]: Downloading https://files.pythonhosted.org/packages/c3/c6/d8ffd43a58523154baa3646af6669ccc4174706289446c0ab44f2d3b245c/docmesh_agent-0.0.3.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [stac-fastapi.opensearch]: Downloading https://files.pythonhosted.org/packages/8d/9c/f6ba6377913ef1d427d9af367f8e48ec680e4f2173465aa8cf52c088cf3d/stac_fastapi_opensearch-3.0.0a1.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/8c/36/17050c4cc2ab487068590663b29429375f087b200d4e4efb95c862c9d6de/synctl-1.1.9.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [rtisdevremotepy]: Downloading https://files.pythonhosted.org/packages/b9/48/71c65fdebe7dfd606b27d93765ae126502758d3bba40d3f92b8e538133f2/rtisdevremotepy-2.14.0.tar.gz
+[2024-05-14 08:53:31] INFO root fetch - processPackages [wrapworks]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [wrapworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapworks-1.0.0.tar.gz tmp/wrapworks-1.0.1.tar.gz --markdown 20240514/w/wrapworks/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [stac-fastapi.opensearch]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [stac-fastapi.opensearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_opensearch-3.0.0a0.tar.gz tmp/stac_fastapi_opensearch-3.0.0a1.tar.gz --markdown 20240514/s/stac-fastapi.opensearch/3.0.0a0-3.0.0a1/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [rtisdevremotepy]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [rtisdevremotepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtisdevremotepy-2.13.0.tar.gz tmp/rtisdevremotepy-2.14.0.tar.gz --markdown 20240514/r/rtisdevremotepy/2.13.0-2.14.0/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [fixcompliance]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [fixcompliance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixcompliance-0.4.8.tar.gz tmp/fixcompliance-0.4.9.tar.gz --markdown 20240514/f/fixcompliance/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [docmesh-agent]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [docmesh-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_agent-0.0.2.tar.gz tmp/docmesh_agent-0.0.3.tar.gz --markdown 20240514/d/docmesh-agent/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 08:53:31] INFO root fetch - processPackages [synctl]: executing diffoscope
+[2024-05-14 08:53:31] INFO root fetch - processPackages [synctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synctl-1.1.8.tar.gz tmp/synctl-1.1.9.tar.gz --markdown 20240514/s/synctl/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-14 08:53:32] INFO root fetch - processPackages [klingon-file-manager]: Remove: archive file [/home/abi/fetcher/tmp/klingon_file_manager-0.0.4.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [klingon-file-manager]: Remove: archive file [/home/abi/fetcher/tmp/klingon_file_manager-0.0.5.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [klingon-file-manager]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [wrapworks]: Remove: archive file [/home/abi/fetcher/tmp/wrapworks-1.0.0.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [wrapworks]: Remove: archive file [/home/abi/fetcher/tmp/wrapworks-1.0.1.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [wrapworks]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev3.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [REVHubInterface]: Remove: archive file [/home/abi/fetcher/tmp/revhubinterface-1.3.3.dev4.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [REVHubInterface]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [stac-fastapi.opensearch]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_opensearch-3.0.0a0.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [stac-fastapi.opensearch]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_opensearch-3.0.0a1.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [stac-fastapi.opensearch]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [rtisdevremotepy]: Remove: archive file [/home/abi/fetcher/tmp/rtisdevremotepy-2.13.0.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [rtisdevremotepy]: Remove: archive file [/home/abi/fetcher/tmp/rtisdevremotepy-2.14.0.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [rtisdevremotepy]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.2.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [docmesh-agent]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_agent-0.0.3.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [docmesh-agent]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [fixcompliance]: Remove: archive file [/home/abi/fetcher/tmp/fixcompliance-0.4.8.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [fixcompliance]: Remove: archive file [/home/abi/fetcher/tmp/fixcompliance-0.4.9.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [fixcompliance]: success
+[2024-05-14 08:53:32] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.8.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.9.tar.gz]
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: End processing [synctl]: success
+[2024-05-14 08:53:32] INFO root fetch - main [MainThread]: Store serial: [23196772]
