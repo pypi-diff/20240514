@@ -10203,3 +10203,24 @@
 [2024-05-14 06:46:26] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
 [2024-05-14 06:46:26] INFO root fetch - main [MainThread]: End processing [pandera]: success
 [2024-05-14 06:46:26] INFO root fetch - main [MainThread]: Store serial: [23195735]
+[2024-05-14 06:48:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195735]
+[2024-05-14 06:48:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-tea-openapi
+[2024-05-14 06:48:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jellyfin-mpv-shim
+[2024-05-14 06:48:35] INFO root fetch - processPackages [alibabacloud-tea-openapi]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 06:48:35] INFO root fetch - processPackages [jellyfin-mpv-shim]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-14 06:48:35] INFO root fetch - processPackages [alibabacloud-tea-openapi]: Downloading https://files.pythonhosted.org/packages/29/0a/e7f069fe33e1aa5eb085ada1022e7c0ab52593626763648221eae672a17f/alibabacloud_tea_openapi-0.3.8.tar.gz
+[2024-05-14 06:48:35] INFO root fetch - processPackages [jellyfin-mpv-shim]: Downloading https://files.pythonhosted.org/packages/e7/bf/e59af46495947728548cf82aafcc283c7e9f7df4e47f1bdbb8cb890abfde/jellyfin-mpv-shim-2.6.0.tar.gz
+[2024-05-14 06:48:35] INFO root fetch - processPackages [alibabacloud-tea-openapi]: Downloading https://files.pythonhosted.org/packages/74/bd/9e85e7db0b2e7fc9d499ceabdac63da35bfd0b74891255ebf88d07b97b46/alibabacloud_tea_openapi-0.3.9.tar.gz
+[2024-05-14 06:48:35] INFO root fetch - processPackages [alibabacloud-tea-openapi]: executing diffoscope
+[2024-05-14 06:48:35] INFO root fetch - processPackages [alibabacloud-tea-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_tea_openapi-0.3.8.tar.gz tmp/alibabacloud_tea_openapi-0.3.9.tar.gz --markdown 20240514/a/alibabacloud-tea-openapi/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 06:48:36] INFO root fetch - processPackages [jellyfin-mpv-shim]: Downloading https://files.pythonhosted.org/packages/69/a8/26ddf57064a8cb6e2295355e1efb6676272a02ab5c3c4f9cb90a49b8e037/jellyfin-mpv-shim-2.7.0.tar.gz
+[2024-05-14 06:48:36] INFO root fetch - processPackages [jellyfin-mpv-shim]: executing diffoscope
+[2024-05-14 06:48:36] INFO root fetch - processPackages [jellyfin-mpv-shim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jellyfin-mpv-shim-2.6.0.tar.gz tmp/jellyfin-mpv-shim-2.7.0.tar.gz --markdown 20240514/j/jellyfin-mpv-shim/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-05-14 06:48:36] INFO root fetch - processPackages [alibabacloud-tea-openapi]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_openapi-0.3.8.tar.gz]
+[2024-05-14 06:48:36] INFO root fetch - processPackages [alibabacloud-tea-openapi]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_tea_openapi-0.3.9.tar.gz]
+[2024-05-14 06:48:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-tea-openapi]: success
+[2024-05-14 06:48:38] INFO root fetch - processPackages [jellyfin-mpv-shim]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin-mpv-shim-2.6.0.tar.gz]
+[2024-05-14 06:48:38] INFO root fetch - processPackages [jellyfin-mpv-shim]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin-mpv-shim-2.7.0.tar.gz]
+[2024-05-14 06:48:38] INFO root fetch - main [MainThread]: End processing [jellyfin-mpv-shim]: success
+[2024-05-14 06:48:38] INFO root fetch - main [MainThread]: Store serial: [23195740]
