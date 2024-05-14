@@ -10460,3 +10460,50 @@
 [2024-05-14 07:06:02] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.1.tar.gz]
 [2024-05-14 07:06:02] INFO root fetch - main [MainThread]: End processing [zoho-crm-connector]: success
 [2024-05-14 07:06:02] INFO root fetch - main [MainThread]: Store serial: [23195841]
+[2024-05-14 07:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195841]
+[2024-05-14 07:08:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 07:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unisender-go-api
+[2024-05-14 07:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NEMO-CE
+[2024-05-14 07:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pynrc
+[2024-05-14 07:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Print-Tricks-And-More-Alpha
+[2024-05-14 07:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nadl
+[2024-05-14 07:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seg_tgce
+[2024-05-14 07:08:11] INFO root fetch - processPackages [nadl]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-14 07:08:11] INFO root fetch - processPackages [seg_tgce]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-14 07:08:11] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/0f/9b/87a921279059efeccc0e977501576e964cdd04bbf18a87a608f56387e421/nadl-1.0.2.tar.gz
+[2024-05-14 07:08:11] WARNING root fetch - processPackages [unisender-go-api]: Skipping, unable to determine old version
+[2024-05-14 07:08:11] INFO root fetch - main [MainThread]: End processing [unisender-go-api] error
+[2024-05-14 07:08:11] INFO root fetch - processPackages [NEMO-CE]: New version: [2.5.4] Old Version: [2.5.3]
+[2024-05-14 07:08:11] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: New version: [0.3.93] Old Version: [0.3.86rc0]
+[2024-05-14 07:08:11] INFO root fetch - processPackages [pynrc]: New version: [1.2.0] Old Version: [1.0.4]
+[2024-05-14 07:08:11] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/fa/78/340681b26f8b591c402d7e36fa4a4a389bbbabf0c21532535b626162578f/seg_tgce-0.0.1.tar.gz
+[2024-05-14 07:08:11] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/d4/2b/1d7f9540448a7f8fdf854792bf34e74b4dbb4b12510f76b4764da75590b9/nadl-1.1.0.tar.gz
+[2024-05-14 07:08:11] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/42/b6/65a45bffcbcf984fdc86c472ca8f7b2961655d496e21fdfe1bd1025b13cc/NEMO_CE-2.5.3-py3-none-any.whl
+[2024-05-14 07:08:11] INFO root fetch - processPackages [pynrc]: Downloading https://files.pythonhosted.org/packages/37/90/37dd4db4e593ab4790bfddb25a49823d393ec4f32aeb82a87c3531834bcd/pynrc-1.0.4.tar.gz
+[2024-05-14 07:08:11] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/8f/f9/da11bf3bad3b52c3a366e5fae56ac6dfb588a06b8ef2132c99128ce17ec6/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl
+[2024-05-14 07:08:11] WARNING root fetch - processPackages [pynrc]: Skipping package: exceeds size limit 11267643>=10485760
+[2024-05-14 07:08:11] INFO root fetch - main [MainThread]: End processing [pynrc] error
+[2024-05-14 07:08:11] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-14 07:08:11] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.0.2.tar.gz tmp/nadl-1.1.0.tar.gz --markdown 20240514/n/nadl/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-14 07:08:11] INFO root fetch - processPackages [seg_tgce]: Downloading https://files.pythonhosted.org/packages/33/9e/20790a7eea76347f629954f2dc9108676af4745ae8236c213b9b03caf91e/seg_tgce-0.1.0.tar.gz
+[2024-05-14 07:08:12] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Downloading https://files.pythonhosted.org/packages/77/f7/273d823a68ff6af798ba296987acee8ca3bf9a159bac3abf6675a93da6f7/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl
+[2024-05-14 07:08:12] INFO root fetch - processPackages [seg_tgce]: executing diffoscope
+[2024-05-14 07:08:12] INFO root fetch - processPackages [seg_tgce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seg_tgce-0.0.1.tar.gz tmp/seg_tgce-0.1.0.tar.gz --markdown 20240514/s/seg_tgce/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-14 07:08:12] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: executing diffoscope
+[2024-05-14 07:08:12] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip --markdown 20240514/P/Print-Tricks-And-More-Alpha/0.3.86rc0-0.3.93/README.md --exclude *.pyd
+[2024-05-14 07:08:12] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/d0/d2/c3d2a013884b1f48d4b56ce306d27e413c192cc578e6e56441d2344fdb98/NEMO_CE-2.5.4-py3-none-any.whl
+[2024-05-14 07:08:12] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.0.2.tar.gz]
+[2024-05-14 07:08:12] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.1.0.tar.gz]
+[2024-05-14 07:08:12] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-14 07:08:12] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2024-05-14 07:08:12] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-2.5.3-py3-none-any.whl.zip tmp/NEMO_CE-2.5.4-py3-none-any.whl.zip --markdown 20240514/N/NEMO-CE/2.5.3-2.5.4/README.md --exclude *.pyd
+[2024-05-14 07:08:12] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.0.1.tar.gz]
+[2024-05-14 07:08:12] INFO root fetch - processPackages [seg_tgce]: Remove: archive file [/home/abi/fetcher/tmp/seg_tgce-0.1.0.tar.gz]
+[2024-05-14 07:08:12] INFO root fetch - main [MainThread]: End processing [seg_tgce]: success
+[2024-05-14 07:08:12] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.86rc0-py3-none-any.whl.zip]
+[2024-05-14 07:08:12] INFO root fetch - processPackages [Print-Tricks-And-More-Alpha]: Remove: archive file [/home/abi/fetcher/tmp/Print_Tricks_And_More_Alpha-0.3.93-py3-none-any.whl.zip]
+[2024-05-14 07:08:12] INFO root fetch - main [MainThread]: End processing [Print-Tricks-And-More-Alpha]: success
+[2024-05-14 07:08:15] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.3-py3-none-any.whl.zip]
+[2024-05-14 07:08:15] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.4-py3-none-any.whl.zip]
+[2024-05-14 07:08:15] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2024-05-14 07:08:15] INFO root fetch - main [MainThread]: Store serial: [23195859]
