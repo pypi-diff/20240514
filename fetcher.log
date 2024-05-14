@@ -2903,3 +2903,84 @@
 [2024-05-14 02:29:17] INFO root fetch - processPackages [trame-quasar]: Remove: archive file [/home/abi/fetcher/tmp/trame-quasar-0.2.1.tar.gz]
 [2024-05-14 02:29:17] INFO root fetch - main [MainThread]: End processing [trame-quasar]: success
 [2024-05-14 02:29:17] INFO root fetch - main [MainThread]: Store serial: [23192958]
+[2024-05-14 02:31:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192958]
+[2024-05-14 02:31:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowee
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pms-encoder
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepeline
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cutlasesz
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aeppl-nightly
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sglang
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lmt-cli
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: crewai-tools
+[2024-05-14 02:31:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: srcignore
+[2024-05-14 02:31:26] INFO root fetch - processPackages [flowee]: New version: [1.2] Old Version: [1.1]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240513] Old Version: [0.1.5.dev20240512]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/64/25/acbe9c39bcb1abafce169cb116556fc4465ca3bd66e6b5d2d9d058e83319/flowee-1.1.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:31:26] WARNING root fetch - processPackages [cutlasesz]: Skipping, unable to determine old version
+[2024-05-14 02:31:26] INFO root fetch - main [MainThread]: End processing [cutlasesz] error
+[2024-05-14 02:31:26] INFO root fetch - processPackages [sglang]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-05-14 02:31:26] WARNING root fetch - processPackages [srcignore]: Skipping, unable to determine old version
+[2024-05-14 02:31:26] INFO root fetch - main [MainThread]: End processing [srcignore] error
+[2024-05-14 02:31:26] INFO root fetch - processPackages [crewai-tools]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [lmt-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pepeline]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-14 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/92/4d/1c0dd3477d83d1ac3cd3e6a4d9675ceec8a0ea167966438676aa1e46a7ce/aeppl_nightly-0.1.5.dev20240512.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [sglang]: Downloading https://files.pythonhosted.org/packages/1e/ef/18d21637138f3cfadd8aa963e76114b17eaa2fd2efa40ed47e16c869134d/sglang-0.1.7.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/92/e3/1ca4d81a4cbbbfe50e0e1154bd973a7db95e8f0ab9af26c7d0196f3bb784/crewai_tools-0.2.5.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/dd/4b/fce444450557e5bdd993ccfff10c4812d085e35d0129ba817d63a119e9ec/lmt-cli-0.0.8.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/36/80/41d22615afa9332b3a8bf4e0f652aadec76f312f6db9d6e79d22d1e28cef/pepeline-0.3.4.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/86/f4/907af52013c1464ca388873b69af646ec2b4b581585b867a80850421e1bf/flowee-1.2.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/db/93/b2fcaa603a696d276e16e41f749f7dbacec2fe1554cf71aa0bad2b1c34c9/aeppl_nightly-0.1.5.dev20240513.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 02:31:26] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:31:26] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:31:26] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-14 02:31:26] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240512.tar.gz tmp/aeppl_nightly-0.1.5.dev20240513.tar.gz --markdown 20240514/a/aeppl-nightly/0.1.5.dev20240512-0.1.5.dev20240513/README.md --exclude *.pyd
+[2024-05-14 02:31:26] INFO root fetch - processPackages [flowee]: executing diffoscope
+[2024-05-14 02:31:26] INFO root fetch - processPackages [flowee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowee-1.1.tar.gz tmp/flowee-1.2.tar.gz --markdown 20240514/f/flowee/1.1-1.2/README.md --exclude *.pyd
+[2024-05-14 02:31:26] INFO root fetch - processPackages [crewai-tools]: Downloading https://files.pythonhosted.org/packages/77/d1/a323ec8a59a1757cebaef206b44b9ce93f26c081664ce16b59a2419d07d7/crewai_tools-0.2.6.tar.gz
+[2024-05-14 02:31:26] INFO root fetch - processPackages [sglang]: Downloading https://files.pythonhosted.org/packages/c4/2a/c38651dd14340e5f8f0831889dd6b01cc066e66653dcdb918930fb811a57/sglang-0.1.9.tar.gz
+[2024-05-14 02:31:27] INFO root fetch - processPackages [lmt-cli]: Downloading https://files.pythonhosted.org/packages/be/60/52cf0d164af470f6eec27abddf7be5275d262c8f8984172c6ef7598f0959/lmt-cli-0.0.9.tar.gz
+[2024-05-14 02:31:27] INFO root fetch - processPackages [pepeline]: Downloading https://files.pythonhosted.org/packages/0b/98/def081a893ee2acf42b2e2592303752db8d3c45cd217592d02498a2d5e18/pepeline-0.3.5-cp38-cp38-manylinux_2_17_armv7l.manylinux2014_armv7l.whl
+[2024-05-14 02:31:27] INFO root fetch - processPackages [sglang]: executing diffoscope
+[2024-05-14 02:31:27] INFO root fetch - processPackages [sglang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sglang-0.1.7.tar.gz tmp/sglang-0.1.9.tar.gz --markdown 20240514/s/sglang/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-05-14 02:31:27] INFO root fetch - processPackages [crewai-tools]: executing diffoscope
+[2024-05-14 02:31:27] INFO root fetch - processPackages [crewai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai_tools-0.2.5.tar.gz tmp/crewai_tools-0.2.6.tar.gz --markdown 20240514/c/crewai-tools/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-14 02:31:27] INFO root fetch - processPackages [lmt-cli]: executing diffoscope
+[2024-05-14 02:31:27] INFO root fetch - processPackages [lmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmt-cli-0.0.8.tar.gz tmp/lmt-cli-0.0.9.tar.gz --markdown 20240514/l/lmt-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:31:27] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 02:31:27] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:31:27] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240512.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240513.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-14 02:31:27] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.1.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.2.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - main [MainThread]: End processing [flowee]: success
+[2024-05-14 02:31:27] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.5.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - processPackages [crewai-tools]: Remove: archive file [/home/abi/fetcher/tmp/crewai_tools-0.2.6.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - main [MainThread]: End processing [crewai-tools]: success
+[2024-05-14 02:31:27] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.8.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - processPackages [lmt-cli]: Remove: archive file [/home/abi/fetcher/tmp/lmt-cli-0.0.9.tar.gz]
+[2024-05-14 02:31:27] INFO root fetch - main [MainThread]: End processing [lmt-cli]: success
+[2024-05-14 02:31:28] INFO root fetch - processPackages [sglang]: Remove: archive file [/home/abi/fetcher/tmp/sglang-0.1.7.tar.gz]
+[2024-05-14 02:31:28] INFO root fetch - processPackages [sglang]: Remove: archive file [/home/abi/fetcher/tmp/sglang-0.1.9.tar.gz]
+[2024-05-14 02:31:28] INFO root fetch - main [MainThread]: End processing [sglang]: success
+[2024-05-14 02:31:29] INFO root fetch - processPackages [pepeline]: executing diffoscope
+[2024-05-14 02:31:29] INFO root fetch - processPackages [pepeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepeline-0.3.4.tar.gz tmp/pepeline-0.3.5-cp38-cp38-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip --markdown 20240514/p/pepeline/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-14 02:31:30] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.3.4.tar.gz]
+[2024-05-14 02:31:30] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.3.5-cp38-cp38-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
+[2024-05-14 02:31:30] INFO root fetch - main [MainThread]: End processing [pepeline]: success
+[2024-05-14 02:31:30] INFO root fetch - main [MainThread]: Store serial: [23193019]
