@@ -11148,3 +11148,42 @@
 [2024-05-14 07:45:32] INFO root fetch - processPackages [scim2-filter-parser]: Remove: archive file [/home/abi/fetcher/tmp/scim2_filter_parser-0.5.1.tar.gz]
 [2024-05-14 07:45:32] INFO root fetch - main [MainThread]: End processing [scim2-filter-parser]: success
 [2024-05-14 07:45:32] INFO root fetch - main [MainThread]: Store serial: [23196084]
+[2024-05-14 07:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196084]
+[2024-05-14 07:47:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars-qt
+[2024-05-14 07:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gardener-cicd-base
+[2024-05-14 07:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-cli
+[2024-05-14 07:47:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-dso
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2394.0] Old Version: [1.2393.0]
+[2024-05-14 07:47:41] INFO root fetch - processPackages [polars-qt]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/00/9c/d742bee5157889db5c962fde9ab497a00641f4c82ed42f8dc37532e633bb/gardener_cicd_base-1.2393.0.tar.gz
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2395.0] Old Version: [1.2394.0]
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/50/de/382efa4486a69d99c9bc42b4bd3e227bea1a08dc3c42becc188db873a72d/gardener_cicd_cli-1.2394.0.tar.gz
+[2024-05-14 07:47:41] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/33/43/450220390ea6f8586f9c178bc66f7372999013a60708134cfe6acf5db821/polars_qt-0.1.7.tar.gz
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/c0/74/7840decab0d1b21e88918922feecf6aa16f4067cd1acf21003bc0d23d0fd/gardener_cicd_base-1.2394.0.tar.gz
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2395.0] Old Version: [1.2394.0]
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2393.0.tar.gz tmp/gardener_cicd_base-1.2394.0.tar.gz --markdown 20240514/g/gardener-cicd-base/1.2393.0-1.2394.0/README.md --exclude *.pyd
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/c5/13/87488056def3276cba12912a377e96e3199382cddf592168a8243d6f2994/gardener_cicd_dso-1.2394.0.tar.gz
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/5b/9a/11b7e1eefb0166e7467498f0108b298fcc1ff0cd182de790bfe91aaf5ff4/gardener_cicd_cli-1.2395.0-py3-none-any.whl
+[2024-05-14 07:47:41] INFO root fetch - processPackages [polars-qt]: Downloading https://files.pythonhosted.org/packages/ee/bc/4973f1e5557e28230eab9637758c3c632dc8c3510d8715540c6e927b7f81/polars_qt-0.1.8.tar.gz
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2394.0.tar.gz tmp/gardener_cicd_cli-1.2395.0-py3-none-any.whl.zip --markdown 20240514/g/gardener-cicd-cli/1.2394.0-1.2395.0/README.md --exclude *.pyd
+[2024-05-14 07:47:41] INFO root fetch - processPackages [polars-qt]: executing diffoscope
+[2024-05-14 07:47:41] INFO root fetch - processPackages [polars-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_qt-0.1.7.tar.gz tmp/polars_qt-0.1.8.tar.gz --markdown 20240514/p/polars-qt/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/31/49/807aa018f9049b8b92922764af307efdd1d902a239add2e65a12ad4741f3/gardener_cicd_dso-1.2395.0-py3-none-any.whl
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-14 07:47:41] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2394.0.tar.gz tmp/gardener_cicd_dso-1.2395.0-py3-none-any.whl.zip --markdown 20240514/g/gardener-cicd-dso/1.2394.0-1.2395.0/README.md --exclude *.pyd
+[2024-05-14 07:47:42] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2393.0.tar.gz]
+[2024-05-14 07:47:42] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2394.0.tar.gz]
+[2024-05-14 07:47:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-14 07:47:42] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2394.0.tar.gz]
+[2024-05-14 07:47:42] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2395.0-py3-none-any.whl.zip]
+[2024-05-14 07:47:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-14 07:47:42] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.7.tar.gz]
+[2024-05-14 07:47:42] INFO root fetch - processPackages [polars-qt]: Remove: archive file [/home/abi/fetcher/tmp/polars_qt-0.1.8.tar.gz]
+[2024-05-14 07:47:42] INFO root fetch - main [MainThread]: End processing [polars-qt]: success
+[2024-05-14 07:47:42] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2394.0.tar.gz]
+[2024-05-14 07:47:42] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2395.0-py3-none-any.whl.zip]
+[2024-05-14 07:47:42] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-14 07:47:42] INFO root fetch - main [MainThread]: Store serial: [23196097]
