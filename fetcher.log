@@ -15139,3 +15139,60 @@
 [2024-05-14 10:25:21] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-14 10:25:21] INFO root fetch - main [MainThread]: Store serial: [23197964]
+[2024-05-14 10:27:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197964]
+[2024-05-14 10:27:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-attachment-synchronize
+[2024-05-14 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: etiq
+[2024-05-14 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onyxpm
+[2024-05-14 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spider-admin-pro
+[2024-05-14 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: g3visu
+[2024-05-14 10:27:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: REFPROP-connector
+[2024-05-14 10:27:37] INFO root fetch - processPackages [etiq]: New version: [1.6.2a2] Old Version: [1.6.2a1]
+[2024-05-14 10:27:37] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.8]
+[2024-05-14 10:27:37] INFO root fetch - processPackages [g3visu]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-14 10:27:37] INFO root fetch - processPackages [onyxpm]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 10:27:37] INFO root fetch - processPackages [REFPROP-connector]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 10:27:37] INFO root fetch - processPackages [spider-admin-pro]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-14 10:27:37] INFO root fetch - processPackages [etiq]: Downloading https://files.pythonhosted.org/packages/a0/b8/1de5eb487eb17a838b997ae7101a6a207136bcf41c7f3a036979a5049b4c/etiq-1.6.2a1-cp39-cp39-win_amd64.whl
+[2024-05-14 10:27:37] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Downloading https://files.pythonhosted.org/packages/37/fa/adedd125ac6f3b2de9ca38d53fd5e2f8a496e51f3b8e0f64a28761d2b90e/odoo_addon_attachment_synchronize-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-14 10:27:38] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/70/39/3e627e72ce3a1539f2605d0e819e74e2578954b530e2381a7a707d2d0a94/onyxpm-0.0.3.tar.gz
+[2024-05-14 10:27:38] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/47/91/78740cafff8f64ae5cbbba40fc8323c002bb5f6c2ff5888554ca05a5f5e6/g3visu-0.1.7.tar.gz
+[2024-05-14 10:27:38] INFO root fetch - processPackages [spider-admin-pro]: Downloading https://files.pythonhosted.org/packages/2c/cb/bd97c637c8d40ccdac9ddc8c611bf9741537bfe0eb1de7c2cb1b59f6edde/spider-admin-pro-2.0.8.tar.gz
+[2024-05-14 10:27:38] INFO root fetch - processPackages [REFPROP-connector]: Downloading https://files.pythonhosted.org/packages/79/6f/0ef8459fceae8bd882c848e94d9a7f0db29ec5efefe7249ca29f82556cec/REFPROP_connector-0.3.8.tar.gz
+[2024-05-14 10:27:38] INFO root fetch - processPackages [g3visu]: Downloading https://files.pythonhosted.org/packages/e1/b8/fd58626b4a241eee212707c4813157186e79c5df51a1709875a02f43f632/g3visu-0.1.8.tar.gz
+[2024-05-14 10:27:38] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Downloading https://files.pythonhosted.org/packages/97/9f/4bf1a7ceb4889b6234071fdc855630ab968e4b81bda3938b682d23fd29dc/odoo_addon_attachment_synchronize-16.0.1.0.1-py3-none-any.whl
+[2024-05-14 10:27:38] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/2c/48/22f4dc7e5cdc0c968747ee1e4d50d1a0e75462043166adf0056848db335d/onyxpm-0.0.4.tar.gz
+[2024-05-14 10:27:38] INFO root fetch - processPackages [etiq]: Downloading https://files.pythonhosted.org/packages/cc/44/7cedf90e25da086acfc19722b39914c00a991d35170e59f38802679a4cef/etiq-1.6.2a2-cp39-cp39-win_amd64.whl
+[2024-05-14 10:27:38] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: executing diffoscope
+[2024-05-14 10:27:38] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_attachment_synchronize-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_attachment_synchronize-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-attachment-synchronize/16.0.1.0.0.8-16.0.1.0.1/README.md --exclude *.pyd
+[2024-05-14 10:27:38] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-14 10:27:38] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.3.tar.gz tmp/onyxpm-0.0.4.tar.gz --markdown 20240514/o/onyxpm/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 10:27:38] INFO root fetch - processPackages [g3visu]: executing diffoscope
+[2024-05-14 10:27:38] INFO root fetch - processPackages [g3visu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3visu-0.1.7.tar.gz tmp/g3visu-0.1.8.tar.gz --markdown 20240514/g/g3visu/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-14 10:27:39] INFO root fetch - processPackages [spider-admin-pro]: Downloading https://files.pythonhosted.org/packages/69/ca/296231b298078d639cf5c72336f84f6467b63185045faeafb193334f1429/spider-admin-pro-2.0.9.tar.gz
+[2024-05-14 10:27:39] INFO root fetch - processPackages [spider-admin-pro]: executing diffoscope
+[2024-05-14 10:27:39] INFO root fetch - processPackages [spider-admin-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spider-admin-pro-2.0.8.tar.gz tmp/spider-admin-pro-2.0.9.tar.gz --markdown 20240514/s/spider-admin-pro/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-14 10:27:39] INFO root fetch - processPackages [REFPROP-connector]: Downloading https://files.pythonhosted.org/packages/9a/f4/f63ed29e1c47e1088c6baa04954851066bb16c046d9322313d30d635767c/REFPROP_connector-0.3.9.tar.gz
+[2024-05-14 10:27:39] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_synchronize-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-14 10:27:39] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.7.tar.gz]
+[2024-05-14 10:27:39] INFO root fetch - processPackages [odoo-addon-attachment-synchronize]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_synchronize-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-14 10:27:39] INFO root fetch - processPackages [g3visu]: Remove: archive file [/home/abi/fetcher/tmp/g3visu-0.1.8.tar.gz]
+[2024-05-14 10:27:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-synchronize]: success
+[2024-05-14 10:27:39] INFO root fetch - main [MainThread]: End processing [g3visu]: success
+[2024-05-14 10:27:39] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.3.tar.gz]
+[2024-05-14 10:27:39] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.4.tar.gz]
+[2024-05-14 10:27:39] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-14 10:27:39] INFO root fetch - processPackages [REFPROP-connector]: executing diffoscope
+[2024-05-14 10:27:39] INFO root fetch - processPackages [REFPROP-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/REFPROP_connector-0.3.8.tar.gz tmp/REFPROP_connector-0.3.9.tar.gz --markdown 20240514/R/REFPROP-connector/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 10:27:40] INFO root fetch - processPackages [spider-admin-pro]: Remove: archive file [/home/abi/fetcher/tmp/spider-admin-pro-2.0.8.tar.gz]
+[2024-05-14 10:27:40] INFO root fetch - processPackages [spider-admin-pro]: Remove: archive file [/home/abi/fetcher/tmp/spider-admin-pro-2.0.9.tar.gz]
+[2024-05-14 10:27:40] INFO root fetch - main [MainThread]: End processing [spider-admin-pro]: success
+[2024-05-14 10:27:41] INFO root fetch - processPackages [REFPROP-connector]: Remove: archive file [/home/abi/fetcher/tmp/REFPROP_connector-0.3.8.tar.gz]
+[2024-05-14 10:27:41] INFO root fetch - processPackages [REFPROP-connector]: Remove: archive file [/home/abi/fetcher/tmp/REFPROP_connector-0.3.9.tar.gz]
+[2024-05-14 10:27:41] INFO root fetch - main [MainThread]: End processing [REFPROP-connector]: success
+[2024-05-14 10:27:41] INFO root fetch - processPackages [etiq]: executing diffoscope
+[2024-05-14 10:27:41] INFO root fetch - processPackages [etiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiq-1.6.2a1-cp39-cp39-win_amd64.whl.zip tmp/etiq-1.6.2a2-cp39-cp39-win_amd64.whl.zip --markdown 20240514/e/etiq/1.6.2a1-1.6.2a2/README.md --exclude *.pyd
+[2024-05-14 10:27:42] INFO root fetch - processPackages [etiq]: Remove: archive file [/home/abi/fetcher/tmp/etiq-1.6.2a1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 10:27:42] INFO root fetch - processPackages [etiq]: Remove: archive file [/home/abi/fetcher/tmp/etiq-1.6.2a2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 10:27:42] INFO root fetch - main [MainThread]: End processing [etiq]: success
+[2024-05-14 10:27:42] INFO root fetch - main [MainThread]: Store serial: [23197996]
