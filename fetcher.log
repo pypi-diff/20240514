@@ -13248,3 +13248,27 @@
 [2024-05-14 09:23:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-14 09:23:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-14 09:23:03] INFO root fetch - main [MainThread]: Store serial: [23197030]
+[2024-05-14 09:25:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197030]
+[2024-05-14 09:25:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 09:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autowx-sdk
+[2024-05-14 09:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu
+[2024-05-14 09:25:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaarf-exporter
+[2024-05-14 09:25:14] INFO root fetch - processPackages [gaarf-exporter]: New version: [0.7.1] Old Version: [0.7.0rc1]
+[2024-05-14 09:25:14] INFO root fetch - processPackages [gaarf-exporter]: Downloading https://files.pythonhosted.org/packages/c6/af/1ba27e2e799955f43d3dc04d50110a6a740d4532e9add294d981bb72cf13/gaarf-exporter-0.7.0rc1.tar.gz
+[2024-05-14 09:25:14] WARNING root fetch - processPackages [autowx-sdk]: Skipping, unable to determine old version
+[2024-05-14 09:25:14] INFO root fetch - main [MainThread]: End processing [autowx-sdk] error
+[2024-05-14 09:25:14] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc3] Old Version: [0.6.1]
+[2024-05-14 09:25:14] INFO root fetch - processPackages [gaarf-exporter]: Downloading https://files.pythonhosted.org/packages/e4/20/8be3dfbfc2748e9dcf901319fed757706e66ded783e9e3398d79e207312c/gaarf-exporter-0.7.1.tar.gz
+[2024-05-14 09:25:14] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/16/43/99ee284e1f64a42b52b7922ebb454c91279be1c44c6d7d01dbd91d5f457b/tsugu-0.6.1.tar.gz
+[2024-05-14 09:25:14] INFO root fetch - processPackages [gaarf-exporter]: executing diffoscope
+[2024-05-14 09:25:14] INFO root fetch - processPackages [gaarf-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaarf-exporter-0.7.0rc1.tar.gz tmp/gaarf-exporter-0.7.1.tar.gz --markdown 20240514/g/gaarf-exporter/0.7.0rc1-0.7.1/README.md --exclude *.pyd
+[2024-05-14 09:25:14] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/a3/6e/09c4b521a336a203fc5d75bb2ab0b47e2e55d959009e6ea1c4f4e34dcda3/tsugu-0.9.9rc3.tar.gz
+[2024-05-14 09:25:15] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 09:25:15] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.6.1.tar.gz tmp/tsugu-0.9.9rc3.tar.gz --markdown 20240514/t/tsugu/0.6.1-0.9.9rc3/README.md --exclude *.pyd
+[2024-05-14 09:25:15] INFO root fetch - processPackages [gaarf-exporter]: Remove: archive file [/home/abi/fetcher/tmp/gaarf-exporter-0.7.0rc1.tar.gz]
+[2024-05-14 09:25:15] INFO root fetch - processPackages [gaarf-exporter]: Remove: archive file [/home/abi/fetcher/tmp/gaarf-exporter-0.7.1.tar.gz]
+[2024-05-14 09:25:15] INFO root fetch - main [MainThread]: End processing [gaarf-exporter]: success
+[2024-05-14 09:25:15] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.6.1.tar.gz]
+[2024-05-14 09:25:15] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc3.tar.gz]
+[2024-05-14 09:25:15] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 09:25:15] INFO root fetch - main [MainThread]: Store serial: [23197041]
