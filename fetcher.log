@@ -16771,3 +16771,97 @@
 [2024-05-14 11:17:33] INFO root fetch - processPackages [turbodbc]: Remove: archive file [/home/abi/fetcher/tmp/turbodbc-4.9.0.tar.gz]
 [2024-05-14 11:17:33] INFO root fetch - main [MainThread]: End processing [turbodbc]: success
 [2024-05-14 11:17:33] INFO root fetch - main [MainThread]: Store serial: [23198633]
+[2024-05-14 11:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198633]
+[2024-05-14 11:19:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comun-va
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zou
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conetwork-test
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: home-assistant-chip-core
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gwml
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testpkg3322
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: devinci-pyutils
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bitmovin-api-sdk
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MaixPy
+[2024-05-14 11:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uptrain
+[2024-05-14 11:19:59] INFO root fetch - processPackages [testpkg3322]: New version: [2.35.9] Old Version: [2.35.8]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [MaixPy]: New version: [4.1.2] Old Version: [4.1.0]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [comun-va]: New version: [3.5] Old Version: [3.4]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [uptrain]: New version: [0.7.0] Old Version: [0.6.9]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [gwml]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [home-assistant-chip-core]: New version: [2024.5.0] Old Version: [2024.4.1]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [devinci-pyutils]: New version: [1.0.0] Old Version: [0.1]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/b9/c9/e486ba09062c28172d0bc9a928073148958a49a2848f1dc98e76b0e3ca5a/testpkg3322-2.35.8.tar.gz
+[2024-05-14 11:19:59] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 11:19:59] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-05-14 11:19:59] INFO root fetch - processPackages [MaixPy]: Downloading https://files.pythonhosted.org/packages/cb/17/64acda6e7ae551f18ca73554ec73bede9c936226178454aab58f1936c28c/MaixPy-4.1.0-py3-none-any.whl
+[2024-05-14 11:19:59] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/3e/db/468b255f9792d6a04cdd1f0dc967fd37f49081ec475085415b204a61430b/comun_va-3.4.tar.gz
+[2024-05-14 11:19:59] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-14 11:19:59] WARNING root fetch - processPackages [MaixPy]: Skipping package: exceeds size limit 10825250>=10485760
+[2024-05-14 11:19:59] INFO root fetch - processPackages [MaixPy]: Start processing: humanloop
+[2024-05-14 11:19:59] INFO root fetch - main [MainThread]: End processing [MaixPy] error
+[2024-05-14 11:19:59] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/0d/90/e64aafec70d60200463855788cccf83e86d2924cbb89f836a341ba6312c2/uptrain-0.6.9.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/8d/bf/87b7380189a12ebdbdbbb5a735e02a8d63c3217f8fdbe0a3bf958ca3fb16/gwml-0.0.6-py3-none-any.whl
+[2024-05-14 11:20:00] INFO root fetch - processPackages [devinci-pyutils]: Downloading https://files.pythonhosted.org/packages/b8/bb/d7acdefb9da222dc0e05bf730b773005aaeedf18c9a71033be37c317aa43/devinci_pyutils-0.1.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [home-assistant-chip-core]: Downloading https://files.pythonhosted.org/packages/dc/6d/a1a7d0202a7b02bf3207c8aaad2ce7a03bcad4b698b0e22435609a098ebc/home_assistant_chip_core-2024.4.1-cp37-abi3-manylinux_2_31_x86_64.whl
+[2024-05-14 11:20:00] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-14 11:20:00] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-05-14 11:20:00] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/d6/11/333284ab2e508038695e9308bdb436693df60040d7ce7a2e0aacac7f5bdb/testpkg3322-2.35.9.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/c1/75/330ff7a3544b3acbeb658cd7ca7884307c5732c2b6729b04048e4c229872/comun_va-3.5-py3-none-any.whl
+[2024-05-14 11:20:00] WARNING root fetch - processPackages [home-assistant-chip-core]: Skipping package: exceeds size limit 48802750>=10485760
+[2024-05-14 11:20:00] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-core] error
+[2024-05-14 11:20:00] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/1e/9e/5c70bb34abb70f3ef9fdb99921004355586cd3873850b11f11068704999a/conetwork_test-0.1.9.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [testpkg3322]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [testpkg3322]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpkg3322-2.35.8.tar.gz tmp/testpkg3322-2.35.9.tar.gz --markdown 20240514/t/testpkg3322/2.35.8-2.35.9/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.4.tar.gz tmp/comun_va-3.5-py3-none-any.whl.zip --markdown 20240514/c/comun-va/3.4-3.5/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.8.tar.gz tmp/conetwork_test-0.1.9.tar.gz --markdown 20240514/c/conetwork-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [devinci-pyutils]: Downloading https://files.pythonhosted.org/packages/16/2a/2b6857d89263e2999cc0485f74d8a15e721f5dcb53a6dae70a525387e14f/devinci_pyutils-1.0.0.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/d3/4b/86786409cc3b328e98c00d235c1324dae94024904968e206b9a09e7eb2e2/gwml-0.0.7-py3-none-any.whl
+[2024-05-14 11:20:00] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [uptrain]: Downloading https://files.pythonhosted.org/packages/e1/3e/44ea48609877c6f90cab885770dd0e40fac589b28004a001fa1b669e5942/uptrain-0.7.0.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [devinci-pyutils]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [devinci-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devinci_pyutils-0.1.tar.gz tmp/devinci_pyutils-1.0.0.tar.gz --markdown 20240514/d/devinci-pyutils/0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.0.6-py3-none-any.whl.zip tmp/gwml-0.0.7-py3-none-any.whl.zip --markdown 20240514/g/gwml/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2024-05-14 11:20:00] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-05-14 11:20:00] INFO root fetch - processPackages [uptrain]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [uptrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptrain-0.6.9.tar.gz tmp/uptrain-0.7.0.tar.gz --markdown 20240514/u/uptrain/0.6.9-0.7.0/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240514/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2024-05-14 11:20:00] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20240514/b/bitmovin-api-sdk/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-05-14 11:20:00] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-05-14 11:20:01] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-05-14 11:20:01] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240514/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-14 11:20:01] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.4.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.5-py3-none-any.whl.zip]
+[2024-05-14 11:20:01] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-14 11:20:01] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.8.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.9.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - main [MainThread]: End processing [testpkg3322]: success
+[2024-05-14 11:20:01] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.6-py3-none-any.whl.zip]
+[2024-05-14 11:20:01] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.7-py3-none-any.whl.zip]
+[2024-05-14 11:20:01] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-14 11:20:01] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.9.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:20:01] INFO root fetch - processPackages [devinci-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/devinci_pyutils-0.1.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - processPackages [devinci-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/devinci_pyutils-1.0.0.tar.gz]
+[2024-05-14 11:20:01] INFO root fetch - main [MainThread]: End processing [devinci-pyutils]: success
+[2024-05-14 11:20:02] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.6.9.tar.gz]
+[2024-05-14 11:20:02] INFO root fetch - processPackages [uptrain]: Remove: archive file [/home/abi/fetcher/tmp/uptrain-0.7.0.tar.gz]
+[2024-05-14 11:20:02] INFO root fetch - main [MainThread]: End processing [uptrain]: success
+[2024-05-14 11:20:02] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-05-14 11:20:02] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-05-14 11:20:02] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-05-14 11:20:06] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-05-14 11:20:06] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-05-14 11:20:06] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-05-14 11:20:08] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.98.0.tar.gz]
+[2024-05-14 11:20:08] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
+[2024-05-14 11:20:08] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2024-05-14 11:20:08] INFO root fetch - main [MainThread]: Store serial: [23198667]
