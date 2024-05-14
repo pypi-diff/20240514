@@ -8543,3 +8543,42 @@
 [2024-05-14 05:02:24] INFO root fetch - processPackages [ebay-rest]: Remove: archive file [/home/abi/fetcher/tmp/ebay_rest-0.0.9.tar.gz]
 [2024-05-14 05:02:24] INFO root fetch - main [MainThread]: End processing [ebay-rest]: success
 [2024-05-14 05:02:24] INFO root fetch - main [MainThread]: Store serial: [23195101]
+[2024-05-14 05:04:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195101]
+[2024-05-14 05:04:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 05:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-reconcile-oca
+[2024-05-14 05:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardex
+[2024-05-14 05:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wrongbutusefulsbi
+[2024-05-14 05:04:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Akinator-python
+[2024-05-14 05:04:32] INFO root fetch - processPackages [wrongbutusefulsbi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 05:04:32] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-05-14 05:04:32] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-14 05:04:33] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/dd/4f/1454a908032453234b8df2187b6a86acdf0200a4673b2f76843a3664123a/wrongbutusefulsbi-0.0.2.tar.gz
+[2024-05-14 05:04:33] INFO root fetch - processPackages [Akinator-python]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-14 05:04:33] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-14 05:04:33] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/22/63/013e0fe2e6d3b20e771dc9b1d4387cde117d7359733e7f4ed88ef2f4afea/odoo_addon_account_reconcile_oca-17.0.1.0.1-py3-none-any.whl
+[2024-05-14 05:04:33] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/d2/ba/aca9cfa468a9728d0712e6fc2b4aab8d305f4d77d9629536ec824be79c0b/Akinator-python-1.0.0.tar.gz
+[2024-05-14 05:04:33] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/04/09/3ea1105c9a62053bc9589723ef1e536095218803961763fdb624ea9ac5ca/wrongbutusefulsbi-0.0.3.tar.gz
+[2024-05-14 05:04:33] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-14 05:04:33] INFO root fetch - processPackages [wrongbutusefulsbi]: executing diffoscope
+[2024-05-14 05:04:33] INFO root fetch - processPackages [wrongbutusefulsbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrongbutusefulsbi-0.0.2.tar.gz tmp/wrongbutusefulsbi-0.0.3.tar.gz --markdown 20240514/w/wrongbutusefulsbi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 05:04:33] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-14 05:04:33] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240514/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-14 05:04:33] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Downloading https://files.pythonhosted.org/packages/ec/a7/75561acb27a5ebc8d7a450fc0740ad19188001a2549c0ca8fa76246f9c81/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl
+[2024-05-14 05:04:33] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: executing diffoscope
+[2024-05-14 05:04:33] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-account-reconcile-oca/17.0.1.0.1-17.0.1.0.1.1/README.md --exclude *.pyd
+[2024-05-14 05:04:33] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/c1/30/a02b937830419441c439eb528e214789b501d58f01c33a66d7c5b2c23826/Akinator-python-1.1.0.tar.gz
+[2024-05-14 05:04:33] INFO root fetch - processPackages [Akinator-python]: executing diffoscope
+[2024-05-14 05:04:33] INFO root fetch - processPackages [Akinator-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akinator-python-1.0.0.tar.gz tmp/Akinator-python-1.1.0.tar.gz --markdown 20240514/A/Akinator-python/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-14 05:04:34] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-14 05:04:34] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-14 05:04:34] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-14 05:04:34] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.2.tar.gz]
+[2024-05-14 05:04:34] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.3.tar.gz]
+[2024-05-14 05:04:34] INFO root fetch - main [MainThread]: End processing [wrongbutusefulsbi]: success
+[2024-05-14 05:04:34] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.0.0.tar.gz]
+[2024-05-14 05:04:34] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.1.0.tar.gz]
+[2024-05-14 05:04:34] INFO root fetch - main [MainThread]: End processing [Akinator-python]: success
+[2024-05-14 05:04:34] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-14 05:04:34] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-14 05:04:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
+[2024-05-14 05:04:34] INFO root fetch - main [MainThread]: Store serial: [23195114]
