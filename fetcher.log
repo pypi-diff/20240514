@@ -10107,3 +10107,24 @@
 [2024-05-14 06:35:13] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.6.1.tar.gz]
 [2024-05-14 06:35:13] INFO root fetch - main [MainThread]: End processing [geoglows]: success
 [2024-05-14 06:35:13] INFO root fetch - main [MainThread]: Store serial: [23195709]
+[2024-05-14 06:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195709]
+[2024-05-14 06:37:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-05-14 06:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: messages-local
+[2024-05-14 06:37:28] INFO root fetch - processPackages [messages-local]: New version: [0.0.53] Old Version: [0.0.52]
+[2024-05-14 06:37:28] INFO root fetch - processPackages [volstreet]: New version: [8.2.2] Old Version: [8.2.1]
+[2024-05-14 06:37:28] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/f5/15/69db637785aebadad4b0038b0edb1093cbb399e97965cb34032c34c82215/messages_local-0.0.52.tar.gz
+[2024-05-14 06:37:28] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/94/63/849ce411f22510bfe64f14078bfd90356b7786f8b686d448d3b0e7561f0a/volstreet-8.2.1.tar.gz
+[2024-05-14 06:37:28] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/30/29/52460eb30f2defa8a6789c6dcabc35a2123264d3118e890309e2c2728701/volstreet-8.2.2.tar.gz
+[2024-05-14 06:37:28] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-05-14 06:37:28] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.2.1.tar.gz tmp/volstreet-8.2.2.tar.gz --markdown 20240514/v/volstreet/8.2.1-8.2.2/README.md --exclude *.pyd
+[2024-05-14 06:37:28] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/68/35/e7ab1dee7e2b0f229f2649ccca7bd0a39d2f9c13a0c028b77fd61f791b1b/messages_local-0.0.53.tar.gz
+[2024-05-14 06:37:28] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-14 06:37:28] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.52.tar.gz tmp/messages_local-0.0.53.tar.gz --markdown 20240514/m/messages-local/0.0.52-0.0.53/README.md --exclude *.pyd
+[2024-05-14 06:37:29] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.52.tar.gz]
+[2024-05-14 06:37:29] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.53.tar.gz]
+[2024-05-14 06:37:29] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-14 06:37:29] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.2.1.tar.gz]
+[2024-05-14 06:37:29] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.2.2.tar.gz]
+[2024-05-14 06:37:29] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-05-14 06:37:29] INFO root fetch - main [MainThread]: Store serial: [23195715]
