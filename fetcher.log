@@ -10224,3 +10224,63 @@
 [2024-05-14 06:48:38] INFO root fetch - processPackages [jellyfin-mpv-shim]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin-mpv-shim-2.7.0.tar.gz]
 [2024-05-14 06:48:38] INFO root fetch - main [MainThread]: End processing [jellyfin-mpv-shim]: success
 [2024-05-14 06:48:38] INFO root fetch - main [MainThread]: Store serial: [23195740]
+[2024-05-14 06:50:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195740]
+[2024-05-14 06:50:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fzf-bin
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sem-desc
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: daiexperiments
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubernator
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quickstart-vdk
+[2024-05-14 06:50:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blastpipe
+[2024-05-14 06:50:47] WARNING root fetch - processPackages [daiexperiments]: Skipping, unable to determine old version
+[2024-05-14 06:50:47] INFO root fetch - main [MainThread]: End processing [daiexperiments] error
+[2024-05-14 06:50:47] INFO root fetch - processPackages [blastpipe]: New version: [2024.7.0] Old Version: [2024.6.4]
+[2024-05-14 06:50:47] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-14 06:50:47] INFO root fetch - processPackages [kubernator]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 06:50:47] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/a4/36/ee092df455553e5f984c6d4cf746881342d1f98e646e0caeb60b79370714/blastpipe-2024.6.4.tar.gz
+[2024-05-14 06:50:47] INFO root fetch - processPackages [fzf-bin]: New version: [0.52.1] Old Version: [0.52.0]
+[2024-05-14 06:50:47] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-14 06:50:47] INFO root fetch - processPackages [sem-desc]: New version: [6.9.0] Old Version: [6.8.0]
+[2024-05-14 06:50:47] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-14 06:50:47] INFO root fetch - processPackages [fzf-bin]: Downloading https://files.pythonhosted.org/packages/e3/ab/8c54887c6761e28be5ded5def71653659faa6529f3abbdaf2b94193528d2/fzf_bin-0.52.0.tar.gz
+[2024-05-14 06:50:47] INFO root fetch - processPackages [kubernator]: Downloading https://files.pythonhosted.org/packages/2c/46/9af0e05ad02b9449b49e892c43d69397745d0fab42e776b482f7c5b0d4fb/kubernator-1.0.8.tar.gz
+[2024-05-14 06:50:47] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-14 06:50:47] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/bc/c6/e36bc62f82fa408248442cb9387b3ff326a3950debc6f5c834a6d40217a7/sem_desc-6.8.0.tar.gz
+[2024-05-14 06:50:47] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/31/ad/2bb85637d70a0b98f212a00dcca5365207512d42462dedeec301ac4075bd/blastpipe-2024.7.0.tar.gz
+[2024-05-14 06:50:48] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-14 06:50:48] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-14 06:50:48] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.6.4.tar.gz tmp/blastpipe-2024.7.0.tar.gz --markdown 20240514/b/blastpipe/2024.6.4-2024.7.0/README.md --exclude *.pyd
+[2024-05-14 06:50:48] INFO root fetch - processPackages [fzf-bin]: Downloading https://files.pythonhosted.org/packages/79/8a/1b330667a8578ab6cf198fdb79121e48ff4174db7d61e7ae52cda68b2803/fzf_bin-0.52.1.tar.gz
+[2024-05-14 06:50:48] INFO root fetch - processPackages [sem-desc]: Downloading https://files.pythonhosted.org/packages/1e/ed/28419685770a49c14514639fbca1f1076f30c551e471cc44705539ad42af/sem_desc-6.9.0.tar.gz
+[2024-05-14 06:50:48] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-14 06:50:48] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-14 06:50:48] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240514/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-14 06:50:48] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-14 06:50:48] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240514/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-14 06:50:48] INFO root fetch - processPackages [sem-desc]: executing diffoscope
+[2024-05-14 06:50:48] INFO root fetch - processPackages [sem-desc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sem_desc-6.8.0.tar.gz tmp/sem_desc-6.9.0.tar.gz --markdown 20240514/s/sem-desc/6.8.0-6.9.0/README.md --exclude *.pyd
+[2024-05-14 06:50:48] INFO root fetch - processPackages [fzf-bin]: executing diffoscope
+[2024-05-14 06:50:48] INFO root fetch - processPackages [fzf-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fzf_bin-0.52.0.tar.gz tmp/fzf_bin-0.52.1.tar.gz --markdown 20240514/f/fzf-bin/0.52.0-0.52.1/README.md --exclude *.pyd
+[2024-05-14 06:50:48] INFO root fetch - processPackages [kubernator]: Downloading https://files.pythonhosted.org/packages/3d/3a/f4fc92df915f81b62593a43db2e8d608735d2df1672fc2c1ffceecb45870/kubernator-1.0.9.tar.gz
+[2024-05-14 06:50:48] INFO root fetch - processPackages [kubernator]: executing diffoscope
+[2024-05-14 06:50:48] INFO root fetch - processPackages [kubernator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubernator-1.0.8.tar.gz tmp/kubernator-1.0.9.tar.gz --markdown 20240514/k/kubernator/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 06:50:48] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-14 06:50:48] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-14 06:50:48] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-14 06:50:49] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-14 06:50:49] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-6.8.0.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - processPackages [sem-desc]: Remove: archive file [/home/abi/fetcher/tmp/sem_desc-6.9.0.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - main [MainThread]: End processing [sem-desc]: success
+[2024-05-14 06:50:49] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.6.4.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.0.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-14 06:50:49] INFO root fetch - processPackages [kubernator]: Remove: archive file [/home/abi/fetcher/tmp/kubernator-1.0.8.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - processPackages [kubernator]: Remove: archive file [/home/abi/fetcher/tmp/kubernator-1.0.9.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - main [MainThread]: End processing [kubernator]: success
+[2024-05-14 06:50:49] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.52.0.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - processPackages [fzf-bin]: Remove: archive file [/home/abi/fetcher/tmp/fzf_bin-0.52.1.tar.gz]
+[2024-05-14 06:50:49] INFO root fetch - main [MainThread]: End processing [fzf-bin]: success
+[2024-05-14 06:50:49] INFO root fetch - main [MainThread]: Store serial: [23195768]
