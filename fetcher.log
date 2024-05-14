@@ -10537,3 +10537,42 @@
 [2024-05-14 07:10:26] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.17-py3-none-any.whl.zip]
 [2024-05-14 07:10:26] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
 [2024-05-14 07:10:26] INFO root fetch - main [MainThread]: Store serial: [23195866]
+[2024-05-14 07:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195866]
+[2024-05-14 07:12:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xurpas-data-quality
+[2024-05-14 07:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ETLT-MySQL
+[2024-05-14 07:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cxalio-studio-tools
+[2024-05-14 07:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypromice
+[2024-05-14 07:12:34] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 07:12:34] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.3a4] Old Version: [0.0.3a2]
+[2024-05-14 07:12:34] INFO root fetch - processPackages [pypromice]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-05-14 07:12:34] INFO root fetch - processPackages [ETLT-MySQL]: New version: [1.0.0] Old Version: [0.10.1]
+[2024-05-14 07:12:34] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/f2/f6/a706872e1c4c7da8a23ee0fbbe2d71a55eebe8198309f178611a7ccc9c37/xurpas_data_quality-0.0.3a2-py3-none-any.whl
+[2024-05-14 07:12:34] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/66/b5/40e237aaad7799ed298d175b5e7a69e7eaca0e934dd1e19551c531d43e9e/cxalio_studio_tools-0.1.8.tar.gz
+[2024-05-14 07:12:34] INFO root fetch - processPackages [pypromice]: Downloading https://files.pythonhosted.org/packages/61/4c/941e05f00a3a1b24e1af83e1ca74671e7fe9dde77992bdcf21dc38dffc5d/pypromice-1.3.5.tar.gz
+[2024-05-14 07:12:34] INFO root fetch - processPackages [ETLT-MySQL]: Downloading https://files.pythonhosted.org/packages/83/dc/65ea88447956489542c06f01badfc2b2c6542cad677031acd0bdbb1ced20/ETLT-MySQL-0.10.1.tar.gz
+[2024-05-14 07:12:34] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/0b/86/1217c4b6afd11ba08d9ddcb52c12d4528ae1c83a5fdd15d198cb5c355b94/xurpas_data_quality-0.0.3a4.tar.gz
+[2024-05-14 07:12:34] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/da/40/10d87fad2228e4d2cbfe295a19ddd36bf281c0e7375be7a1603222bd9e23/cxalio_studio_tools-0.1.9.tar.gz
+[2024-05-14 07:12:35] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-14 07:12:35] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.3a2-py3-none-any.whl.zip tmp/xurpas_data_quality-0.0.3a4.tar.gz --markdown 20240514/x/xurpas-data-quality/0.0.3a2-0.0.3a4/README.md --exclude *.pyd
+[2024-05-14 07:12:35] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-14 07:12:35] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.8.tar.gz tmp/cxalio_studio_tools-0.1.9.tar.gz --markdown 20240514/c/cxalio-studio-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 07:12:35] INFO root fetch - processPackages [ETLT-MySQL]: Downloading https://files.pythonhosted.org/packages/b8/65/815ec1a0cd8af1da65b8b9dfe6bc200c8cd36dd6723f2465097a30ffeaf3/etlt_mysql-1.0.0.tar.gz
+[2024-05-14 07:12:35] INFO root fetch - processPackages [ETLT-MySQL]: executing diffoscope
+[2024-05-14 07:12:35] INFO root fetch - processPackages [ETLT-MySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ETLT-MySQL-0.10.1.tar.gz tmp/etlt_mysql-1.0.0.tar.gz --markdown 20240514/E/ETLT-MySQL/0.10.1-1.0.0/README.md --exclude *.pyd
+[2024-05-14 07:12:35] INFO root fetch - processPackages [pypromice]: Downloading https://files.pythonhosted.org/packages/bd/0f/9381d41526a7846a4df643e24f1d2e0ea3bb2d653406320cdcc53490109c/pypromice-1.3.6.tar.gz
+[2024-05-14 07:12:35] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a2-py3-none-any.whl.zip]
+[2024-05-14 07:12:35] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a4.tar.gz]
+[2024-05-14 07:12:35] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-14 07:12:35] INFO root fetch - processPackages [pypromice]: executing diffoscope
+[2024-05-14 07:12:35] INFO root fetch - processPackages [pypromice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypromice-1.3.5.tar.gz tmp/pypromice-1.3.6.tar.gz --markdown 20240514/p/pypromice/1.3.5-1.3.6/README.md --exclude *.pyd
+[2024-05-14 07:12:35] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.8.tar.gz]
+[2024-05-14 07:12:35] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.9.tar.gz]
+[2024-05-14 07:12:35] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-14 07:12:35] INFO root fetch - processPackages [ETLT-MySQL]: Remove: archive file [/home/abi/fetcher/tmp/ETLT-MySQL-0.10.1.tar.gz]
+[2024-05-14 07:12:35] INFO root fetch - processPackages [ETLT-MySQL]: Remove: archive file [/home/abi/fetcher/tmp/etlt_mysql-1.0.0.tar.gz]
+[2024-05-14 07:12:35] INFO root fetch - main [MainThread]: End processing [ETLT-MySQL]: success
+[2024-05-14 07:12:36] INFO root fetch - processPackages [pypromice]: Remove: archive file [/home/abi/fetcher/tmp/pypromice-1.3.5.tar.gz]
+[2024-05-14 07:12:36] INFO root fetch - processPackages [pypromice]: Remove: archive file [/home/abi/fetcher/tmp/pypromice-1.3.6.tar.gz]
+[2024-05-14 07:12:36] INFO root fetch - main [MainThread]: End processing [pypromice]: success
+[2024-05-14 07:12:36] INFO root fetch - main [MainThread]: Store serial: [23195879]
