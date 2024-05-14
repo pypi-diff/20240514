@@ -3367,3 +3367,30 @@
 [2024-05-14 02:54:45] INFO root fetch - processPackages [airbyte-source-coinmarketcap]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_coinmarketcap-0.1.2.tar.gz]
 [2024-05-14 02:54:45] INFO root fetch - main [MainThread]: End processing [airbyte-source-coinmarketcap]: success
 [2024-05-14 02:54:45] INFO root fetch - main [MainThread]: Store serial: [23193211]
+[2024-05-14 02:56:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193211]
+[2024-05-14 02:56:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-lambda-layer-curl
+[2024-05-14 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-14 02:56:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2024-05-14 02:56:53] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:56:53] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:56:54] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev983] Old Version: [0.3.1.dev981]
+[2024-05-14 02:56:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-14 02:56:54] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:56:54] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/c0/4b/7a3ae89a85f6160bbea5883402dedde16c563f9b8be57d764ca6b0ed3314/pycde-0.3.1.dev981-cp39-cp39-win_amd64.whl
+[2024-05-14 02:56:54] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-14 02:56:54] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:56:54] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:56:54] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:56:54] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:56:54] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:56:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-14 02:56:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-14 02:56:55] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240514/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-14 02:56:55] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/7a/04/a9d0883c032cf47efe4eaa668bb63273e51cb8230ecb7b61b2f92da382cd/pycde-0.3.1.dev983-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 02:56:55] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 21614709>=10485760
+[2024-05-14 02:56:55] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-05-14 02:56:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-14 02:56:56] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-14 02:56:56] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-14 02:56:56] INFO root fetch - main [MainThread]: Store serial: [23193223]
