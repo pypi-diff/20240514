@@ -19603,3 +19603,45 @@
 [2024-05-14 12:49:37] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-14 12:49:37] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-14 12:49:37] INFO root fetch - main [MainThread]: Store serial: [23199811]
+[2024-05-14 12:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199811]
+[2024-05-14 12:51:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 12:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tucan
+[2024-05-14 12:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soarv1
+[2024-05-14 12:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueshed-gust
+[2024-05-14 12:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audbackend
+[2024-05-14 12:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eazyAI
+[2024-05-14 12:51:46] INFO root fetch - processPackages [soarv1]: New version: [0.5] Old Version: [0.4]
+[2024-05-14 12:51:46] WARNING root fetch - processPackages [eazyAI]: Skipping, unable to determine old version
+[2024-05-14 12:51:46] INFO root fetch - main [MainThread]: End processing [eazyAI] error
+[2024-05-14 12:51:46] INFO root fetch - processPackages [blueshed-gust]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:51:46] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/de/02/66fe5482cf5e48868bb925d5d27539c8cfb5cef3f6e24f460af8e4b8ece5/soarv1-0.4.tar.gz
+[2024-05-14 12:51:46] INFO root fetch - processPackages [audbackend]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-14 12:51:46] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/eb/37/bcf532a46cff56d9f025b5be989824ac0a11fa2b0e101faf1b4f987d7ed7/blueshed_gust-0.0.8.tar.gz
+[2024-05-14 12:51:46] INFO root fetch - processPackages [tucan]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-14 12:51:46] INFO root fetch - processPackages [audbackend]: Downloading https://files.pythonhosted.org/packages/ec/19/480abacdc63724528a4fb06a11d6e1d68d1dfdcfb7062e1cd517d0427b0c/audbackend-2.0.0.tar.gz
+[2024-05-14 12:51:46] INFO root fetch - processPackages [tucan]: Downloading https://files.pythonhosted.org/packages/9d/4b/d9e48958684c1efefc43a22326b09500208fdcf0e04836bb1ad874789d5d/tucan-0.1.0.tar.gz
+[2024-05-14 12:51:46] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/bb/c8/5d4c62dd10b82fd6451062263767b4a0796cdb7eb5547c17515cfaa18eff/blueshed_gust-0.0.9.tar.gz
+[2024-05-14 12:51:47] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/23/d1/c1fab5a41686fe3b589ebc00b0e84ef94b1cbd12657374ebe32df728e052/soarv1-0.5.tar.gz
+[2024-05-14 12:51:47] INFO root fetch - processPackages [blueshed-gust]: executing diffoscope
+[2024-05-14 12:51:47] INFO root fetch - processPackages [blueshed-gust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueshed_gust-0.0.8.tar.gz tmp/blueshed_gust-0.0.9.tar.gz --markdown 20240514/b/blueshed-gust/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:51:47] INFO root fetch - processPackages [soarv1]: executing diffoscope
+[2024-05-14 12:51:47] INFO root fetch - processPackages [soarv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soarv1-0.4.tar.gz tmp/soarv1-0.5.tar.gz --markdown 20240514/s/soarv1/0.4-0.5/README.md --exclude *.pyd
+[2024-05-14 12:51:47] INFO root fetch - processPackages [audbackend]: Downloading https://files.pythonhosted.org/packages/14/5e/ee56ed6cce2a537453144ab0ac1d44c437dc5f3b621124cfc9816f46cbe2/audbackend-2.0.1.tar.gz
+[2024-05-14 12:51:47] INFO root fetch - processPackages [tucan]: Downloading https://files.pythonhosted.org/packages/01/5a/93aeed078fff618958b745958edfa95928abf1ac89b88b55d31f93f28e2c/tucan-0.2.0.tar.gz
+[2024-05-14 12:51:47] INFO root fetch - processPackages [audbackend]: executing diffoscope
+[2024-05-14 12:51:47] INFO root fetch - processPackages [audbackend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audbackend-2.0.0.tar.gz tmp/audbackend-2.0.1.tar.gz --markdown 20240514/a/audbackend/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-14 12:51:47] INFO root fetch - processPackages [tucan]: executing diffoscope
+[2024-05-14 12:51:47] INFO root fetch - processPackages [tucan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tucan-0.1.0.tar.gz tmp/tucan-0.2.0.tar.gz --markdown 20240514/t/tucan/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-14 12:51:47] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.8.tar.gz]
+[2024-05-14 12:51:47] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.9.tar.gz]
+[2024-05-14 12:51:47] INFO root fetch - main [MainThread]: End processing [blueshed-gust]: success
+[2024-05-14 12:51:47] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.4.tar.gz]
+[2024-05-14 12:51:47] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.5.tar.gz]
+[2024-05-14 12:51:47] INFO root fetch - main [MainThread]: End processing [soarv1]: success
+[2024-05-14 12:51:48] INFO root fetch - processPackages [audbackend]: Remove: archive file [/home/abi/fetcher/tmp/audbackend-2.0.0.tar.gz]
+[2024-05-14 12:51:48] INFO root fetch - processPackages [audbackend]: Remove: archive file [/home/abi/fetcher/tmp/audbackend-2.0.1.tar.gz]
+[2024-05-14 12:51:48] INFO root fetch - main [MainThread]: End processing [audbackend]: success
+[2024-05-14 12:51:48] INFO root fetch - processPackages [tucan]: Remove: archive file [/home/abi/fetcher/tmp/tucan-0.1.0.tar.gz]
+[2024-05-14 12:51:48] INFO root fetch - processPackages [tucan]: Remove: archive file [/home/abi/fetcher/tmp/tucan-0.2.0.tar.gz]
+[2024-05-14 12:51:48] INFO root fetch - main [MainThread]: End processing [tucan]: success
+[2024-05-14 12:51:48] INFO root fetch - main [MainThread]: Store serial: [23199826]
