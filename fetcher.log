@@ -12809,3 +12809,66 @@
 [2024-05-14 09:04:33] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.4-py3-none-any.whl.zip]
 [2024-05-14 09:04:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile-base]: success
 [2024-05-14 09:04:33] INFO root fetch - main [MainThread]: Store serial: [23196885]
+[2024-05-14 09:06:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196885]
+[2024-05-14 09:06:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-shopfloor-workstation
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-shopfloor-rest-log
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-shopfloor-workstation-mobile
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-shopfloor
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-picking-batch-creation
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-wms
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seqthetic
+[2024-05-14 09:06:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cvprocessor
+[2024-05-14 09:06:42] WARNING root fetch - processPackages [odoo-addon-shopfloor-rest-log]: Skipping, unable to determine old version
+[2024-05-14 09:06:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-rest-log] error
+[2024-05-14 09:06:42] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addons-oca-wms]: New version: [16.0.20240513.3] Old Version: [16.0.20240503.1]
+[2024-05-14 09:06:42] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/df/5b/71c5aa44e64ebfa00db1a93807410895a6181db7335583093b0602c8615e/cvprocessor-0.5.2.tar.gz
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-shopfloor]: New version: [16.0.1.0.0.25] Old Version: [16.0.1.0.0.24]
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: New version: [16.0.1.0.0.14] Old Version: [16.0.1.0.0.13]
+[2024-05-14 09:06:42] WARNING root fetch - processPackages [seqthetic]: Skipping, unable to determine old version
+[2024-05-14 09:06:42] INFO root fetch - main [MainThread]: End processing [seqthetic] error
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/a6/4c/021c3c2e9cb42ce6394acbb7ba81c4cb609b91deb12da1825da40ccc32a0/odoo_addons_oca_wms-16.0.20240503.1-py3-none-any.whl
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: Downloading https://files.pythonhosted.org/packages/48/11/b33adad5eb62de7d8aef84ff5774d31645d7619f30c400a8bb8c327185c3/odoo_addon_shopfloor_workstation-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: Downloading https://files.pythonhosted.org/packages/1d/e9/3fb74e4f18d47aeb3b2e87f2fe38955d269bea123c36253fdbbc90edd70e/odoo_addon_shopfloor_workstation_mobile-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: Downloading https://files.pythonhosted.org/packages/22/54/2a5d59abad985e57e5c9cb1f1b79b4c16b11ff7e6b75f41d797f99bca6e1/odoo_addon_stock_picking_batch_creation-16.0.1.0.0.13-py3-none-any.whl
+[2024-05-14 09:06:42] INFO root fetch - processPackages [odoo-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/bc/2a/b028df726868568e5a08f6f84725bbc664bc691727aaf4abefc4fd604f9c/odoo_addon_shopfloor-16.0.1.0.0.24-py3-none-any.whl
+[2024-05-14 09:06:42] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/27/bc/923796adbe8afd3df4735f3d28cd0e3e83aacc7e6e3cea6e80df330efa49/cvprocessor-0.5.3.tar.gz
+[2024-05-14 09:06:43] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 09:06:43] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.2.tar.gz tmp/cvprocessor-0.5.3.tar.gz --markdown 20240514/c/cvprocessor/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addons-oca-wms]: Downloading https://files.pythonhosted.org/packages/3b/47/6b7e24becb0d5b20f56fb318885338f1d1107925bff8541468d84c8310ac/odoo_addons_oca_wms-16.0.20240513.3-py3-none-any.whl
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: Downloading https://files.pythonhosted.org/packages/a3/e8/6748b33bdb114b550070f7be3e5cb0fe63a43c90732bbdcdf4ed1951eee4/odoo_addon_shopfloor_workstation_mobile-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: Downloading https://files.pythonhosted.org/packages/c6/98/8042cc2df1b78c52fc6e81250a3d3c8e6f218280e5d3edede84847eef595/odoo_addon_shopfloor_workstation-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: Downloading https://files.pythonhosted.org/packages/8b/9f/b86c2fefadd0b036fd470f18fe1476b6f9c637107414e216003d2b344102/odoo_addon_stock_picking_batch_creation-16.0.1.0.0.14-py3-none-any.whl
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/a3/07/45db1311da1e71b3a70fde0926a41e32489e2432e0bcf5944e782d03d75b/odoo_addon_shopfloor-16.0.1.0.0.25-py3-none-any.whl
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addons-oca-wms]: executing diffoscope
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addons-oca-wms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_wms-16.0.20240503.1-py3-none-any.whl.zip tmp/odoo_addons_oca_wms-16.0.20240513.3-py3-none-any.whl.zip --markdown 20240514/o/odoo-addons-oca-wms/16.0.20240503.1-16.0.20240513.3/README.md --exclude *.pyd
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: executing diffoscope
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopfloor_workstation_mobile-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_shopfloor_workstation_mobile-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-shopfloor-workstation-mobile/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: executing diffoscope
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopfloor_workstation-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_shopfloor_workstation-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-shopfloor-workstation/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: executing diffoscope
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_batch_creation-16.0.1.0.0.13-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_batch_creation-16.0.1.0.0.14-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-stock-picking-batch-creation/16.0.1.0.0.13-16.0.1.0.0.14/README.md --exclude *.pyd
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor]: executing diffoscope
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopfloor-16.0.1.0.0.24-py3-none-any.whl.zip tmp/odoo_addon_shopfloor-16.0.1.0.0.25-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-shopfloor/16.0.1.0.0.24-16.0.1.0.0.25/README.md --exclude *.pyd
+[2024-05-14 09:06:43] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.2.tar.gz]
+[2024-05-14 09:06:43] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.3.tar.gz]
+[2024-05-14 09:06:43] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240503.1-py3-none-any.whl.zip]
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addons-oca-wms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_wms-16.0.20240513.3-py3-none-any.whl.zip]
+[2024-05-14 09:06:43] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-wms]: success
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_workstation-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-14 09:06:43] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_workstation-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-14 09:06:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-workstation]: success
+[2024-05-14 09:06:44] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_workstation_mobile-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-14 09:06:44] INFO root fetch - processPackages [odoo-addon-shopfloor-workstation-mobile]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_workstation_mobile-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-14 09:06:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-workstation-mobile]: success
+[2024-05-14 09:06:44] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_creation-16.0.1.0.0.13-py3-none-any.whl.zip]
+[2024-05-14 09:06:44] INFO root fetch - processPackages [odoo-addon-stock-picking-batch-creation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_batch_creation-16.0.1.0.0.14-py3-none-any.whl.zip]
+[2024-05-14 09:06:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-batch-creation]: success
+[2024-05-14 09:06:44] INFO root fetch - processPackages [odoo-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor-16.0.1.0.0.24-py3-none-any.whl.zip]
+[2024-05-14 09:06:44] INFO root fetch - processPackages [odoo-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor-16.0.1.0.0.25-py3-none-any.whl.zip]
+[2024-05-14 09:06:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor]: success
+[2024-05-14 09:06:44] INFO root fetch - main [MainThread]: Store serial: [23196906]
