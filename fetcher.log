@@ -8501,3 +8501,45 @@
 [2024-05-14 05:00:10] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.9.tar.gz]
 [2024-05-14 05:00:10] INFO root fetch - main [MainThread]: End processing [muutils]: success
 [2024-05-14 05:00:10] INFO root fetch - main [MainThread]: Store serial: [23195085]
+[2024-05-14 05:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195085]
+[2024-05-14 05:02:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-payment-widget-amount
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ebay-rest
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurocaps
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: still-manim
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nomad-media-pip
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ebay-rest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 05:02:18] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-14 05:02:18] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.98] Old Version: [0.0.97]
+[2024-05-14 05:02:18] INFO root fetch - processPackages [neurocaps]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-14 05:02:18] WARNING root fetch - processPackages [still-manim]: Skipping, unable to determine old version
+[2024-05-14 05:02:18] INFO root fetch - main [MainThread]: End processing [still-manim] error
+[2024-05-14 05:02:18] INFO root fetch - processPackages [ebay-rest]: Downloading https://files.pythonhosted.org/packages/3e/80/5cabba6f491f7a24f207d05050d42786a394eef5ba19239a70504ec0c203/ebay_rest-0.0.8.tar.gz
+[2024-05-14 05:02:18] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/66/10/cd7007ccf94dba18dfff68ef99b8d7e340d6354d365787c2e0ca5baa9650/odoo_addon_account_payment_widget_amount-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-14 05:02:18] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/58/05/73ab1ede930c3fe73a82a0e0383584a91384b93416ab21f8ff0251651aee/neurocaps-0.8.9.tar.gz
+[2024-05-14 05:02:18] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/f1/03/3654d0c2b30df018843136886335aa5d58cba4a56b799a789bf682c7f109/nomad_media_pip-0.0.97.tar.gz
+[2024-05-14 05:02:19] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Downloading https://files.pythonhosted.org/packages/52/e7/7799d430a9fd4c68dd72fadb0dda81bf15c7d3c0ad3229a601ebd4b96c19/odoo_addon_account_payment_widget_amount-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-14 05:02:19] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/e3/67/44f0f6e02690ad2f3641ee4d70a70aecb3128dda0d1d416533938a63600f/neurocaps-0.9.0.tar.gz
+[2024-05-14 05:02:19] INFO root fetch - processPackages [ebay-rest]: Downloading https://files.pythonhosted.org/packages/a4/da/f5a23e7296a321ccbd4e7e13bb35e02463696d58c9fe1082cbca0854ff85/ebay_rest-0.0.9.tar.gz
+[2024-05-14 05:02:19] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: executing diffoscope
+[2024-05-14 05:02:19] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_widget_amount-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_widget_amount-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-account-payment-widget-amount/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-14 05:02:19] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-05-14 05:02:19] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.8.9.tar.gz tmp/neurocaps-0.9.0.tar.gz --markdown 20240514/n/neurocaps/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-14 05:02:19] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-14 05:02:19] INFO root fetch - processPackages [ebay-rest]: executing diffoscope
+[2024-05-14 05:02:19] INFO root fetch - processPackages [ebay-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebay_rest-0.0.8.tar.gz tmp/ebay_rest-0.0.9.tar.gz --markdown 20240514/e/ebay-rest/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 05:02:19] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-14 05:02:19] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.97.tar.gz tmp/nomad_media_pip-0.0.98.tar.gz --markdown 20240514/n/nomad-media-pip/0.0.97-0.0.98/README.md --exclude *.pyd
+[2024-05-14 05:02:19] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_widget_amount-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-14 05:02:19] INFO root fetch - processPackages [odoo-addon-account-payment-widget-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_widget_amount-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-14 05:02:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-widget-amount]: success
+[2024-05-14 05:02:20] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.8.9.tar.gz]
+[2024-05-14 05:02:20] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.0.tar.gz]
+[2024-05-14 05:02:20] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-05-14 05:02:22] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.97.tar.gz]
+[2024-05-14 05:02:22] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-14 05:02:22] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-14 05:02:24] INFO root fetch - processPackages [ebay-rest]: Remove: archive file [/home/abi/fetcher/tmp/ebay_rest-0.0.8.tar.gz]
+[2024-05-14 05:02:24] INFO root fetch - processPackages [ebay-rest]: Remove: archive file [/home/abi/fetcher/tmp/ebay_rest-0.0.9.tar.gz]
+[2024-05-14 05:02:24] INFO root fetch - main [MainThread]: End processing [ebay-rest]: success
+[2024-05-14 05:02:24] INFO root fetch - main [MainThread]: Store serial: [23195101]
