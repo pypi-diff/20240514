@@ -9008,3 +9008,48 @@
 [2024-05-14 05:35:07] INFO root fetch - processPackages [app-store-server-library]: Remove: archive file [/home/abi/fetcher/tmp/app_store_server_library-1.2.1.tar.gz]
 [2024-05-14 05:35:07] INFO root fetch - main [MainThread]: End processing [app-store-server-library]: success
 [2024-05-14 05:35:07] INFO root fetch - main [MainThread]: Store serial: [23195261]
+[2024-05-14 05:37:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195261]
+[2024-05-14 05:37:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 05:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2024-05-14 05:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netpath-resolver
+[2024-05-14 05:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ralium
+[2024-05-14 05:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-core
+[2024-05-14 05:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volstreet
+[2024-05-14 05:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymeteobridgesql
+[2024-05-14 05:37:16] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-14 05:37:16] INFO root fetch - processPackages [pymeteobridgesql]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-14 05:37:16] WARNING root fetch - processPackages [ralium]: Skipping, unable to determine old version
+[2024-05-14 05:37:16] INFO root fetch - main [MainThread]: End processing [ralium] error
+[2024-05-14 05:37:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-14 05:37:16] INFO root fetch - processPackages [pymeteobridgesql]: Downloading https://files.pythonhosted.org/packages/a0/7f/fcc05cea60202d9048f55c433a6ddc8615e3dd54b6c4fa56d657f70f9df7/pymeteobridgesql-1.2.3.tar.gz
+[2024-05-14 05:37:16] WARNING root fetch - processPackages [netpath-resolver]: Skipping, unable to determine old version
+[2024-05-14 05:37:16] INFO root fetch - main [MainThread]: End processing [netpath-resolver] error
+[2024-05-14 05:37:16] INFO root fetch - processPackages [langchain-core]: New version: [0.2.0rc1] Old Version: [0.1.9]
+[2024-05-14 05:37:16] INFO root fetch - processPackages [volstreet]: New version: [8.2.2] Old Version: [8.2.1]
+[2024-05-14 05:37:16] INFO root fetch - processPackages [pymeteobridgesql]: Downloading https://files.pythonhosted.org/packages/43/40/40a91900628e0a01a5ff63b613cca783bfdbe199d499223b898360efbe96/pymeteobridgesql-1.2.4.tar.gz
+[2024-05-14 05:37:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/94/63/849ce411f22510bfe64f14078bfd90356b7786f8b686d448d3b0e7561f0a/volstreet-8.2.1.tar.gz
+[2024-05-14 05:37:16] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/1b/97/8c742f024d6a7e8793382452545b4432130e5ac741883e6ebcd92f46fc53/langchain_core-0.1.9.tar.gz
+[2024-05-14 05:37:16] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-14 05:37:16] INFO root fetch - processPackages [pymeteobridgesql]: executing diffoscope
+[2024-05-14 05:37:16] INFO root fetch - processPackages [pymeteobridgesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeteobridgesql-1.2.3.tar.gz tmp/pymeteobridgesql-1.2.4.tar.gz --markdown 20240514/p/pymeteobridgesql/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-14 05:37:16] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-14 05:37:16] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240514/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-14 05:37:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/30/29/52460eb30f2defa8a6789c6dcabc35a2123264d3118e890309e2c2728701/volstreet-8.2.2.tar.gz
+[2024-05-14 05:37:16] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/84/ea/6ce4be272f2170b50a3742bc38de952de1fb50b39a2c3ff6c78a3db18d45/langchain_core-0.2.0rc1.tar.gz
+[2024-05-14 05:37:17] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-05-14 05:37:17] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-8.2.1.tar.gz tmp/volstreet-8.2.2.tar.gz --markdown 20240514/v/volstreet/8.2.1-8.2.2/README.md --exclude *.pyd
+[2024-05-14 05:37:17] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-05-14 05:37:17] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.1.9.tar.gz tmp/langchain_core-0.2.0rc1.tar.gz --markdown 20240514/l/langchain-core/0.1.9-0.2.0rc1/README.md --exclude *.pyd
+[2024-05-14 05:37:17] INFO root fetch - processPackages [pymeteobridgesql]: Remove: archive file [/home/abi/fetcher/tmp/pymeteobridgesql-1.2.3.tar.gz]
+[2024-05-14 05:37:17] INFO root fetch - processPackages [pymeteobridgesql]: Remove: archive file [/home/abi/fetcher/tmp/pymeteobridgesql-1.2.4.tar.gz]
+[2024-05-14 05:37:17] INFO root fetch - main [MainThread]: End processing [pymeteobridgesql]: success
+[2024-05-14 05:37:17] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-14 05:37:17] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-14 05:37:17] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-14 05:37:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.2.1.tar.gz]
+[2024-05-14 05:37:17] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.2.2.tar.gz]
+[2024-05-14 05:37:17] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-05-14 05:37:18] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.9.tar.gz]
+[2024-05-14 05:37:18] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.2.0rc1.tar.gz]
+[2024-05-14 05:37:18] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-05-14 05:37:18] INFO root fetch - main [MainThread]: Store serial: [23195282]
