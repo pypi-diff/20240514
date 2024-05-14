@@ -20211,3 +20211,74 @@
 [2024-05-14 13:11:38] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a7.tar.gz]
 [2024-05-14 13:11:38] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
 [2024-05-14 13:11:38] INFO root fetch - main [MainThread]: Store serial: [23200085]
+[2024-05-14 13:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200085]
+[2024-05-14 13:13:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msaexp
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataidea
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conetwork-test
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rHDPE-Data-Analysis
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pbx-cloud-utils
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistapi
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blueshed-gust
+[2024-05-14 13:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelmerge
+[2024-05-14 13:13:47] INFO root fetch - processPackages [rHDPE-Data-Analysis]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [blueshed-gust]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/64/2f/e4ca007e5b9053d0c58a5668b4f6e8aca77929093696eeda71392758bac8/rHDPE_Data_Analysis-1.0.8.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [dataidea]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [modelmerge]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [msaexp]: New version: [0.8.1] Old Version: [0.8]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [pbx-cloud-utils]: New version: [1.2.1a0] Old Version: [1.2.0a8]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [mistapi]: New version: [0.47.5] Old Version: [0.47.4]
+[2024-05-14 13:13:47] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/eb/37/bcf532a46cff56d9f025b5be989824ac0a11fa2b0e101faf1b4f987d7ed7/blueshed_gust-0.0.8.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/95/97/f3c19391ad369cec29f725553aa410a3ce7fd29ec27b3daaeed5943e8ded/dataidea-0.1.4.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [msaexp]: Downloading https://files.pythonhosted.org/packages/f4/ec/e277fe01ff9ce5e354fcdf50a9c082dcfd20e4856089296da9fe8a6a2b3d/msaexp-0.8.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/c9/74/9196e6069fba63d8779401bdbffb0a40d7f596f837cf7912faa4f520a093/pbx_cloud_utils-1.2.0a8-py3-none-any.whl
+[2024-05-14 13:13:47] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/a6/e9/fcd18345de90ee3b4e984e626c098d4f2b5cef35767aa83fb3766f336893/mistapi-0.47.4.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/d1/83/796c0a3a9d9c7e27130044d01fddcb3a14e9fa1d5acf42bd0eb33beadae8/modelmerge-0.3.8.tar.gz
+[2024-05-14 13:13:47] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/bb/c8/5d4c62dd10b82fd6451062263767b4a0796cdb7eb5547c17515cfaa18eff/blueshed_gust-0.0.9.tar.gz
+[2024-05-14 13:13:48] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/1e/9e/5c70bb34abb70f3ef9fdb99921004355586cd3873850b11f11068704999a/conetwork_test-0.1.9.tar.gz
+[2024-05-14 13:13:48] WARNING root fetch - processPackages [msaexp]: Skipping package: exceeds size limit 18144250>=10485760
+[2024-05-14 13:13:48] INFO root fetch - main [MainThread]: End processing [msaexp] error
+[2024-05-14 13:13:48] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Downloading https://files.pythonhosted.org/packages/6b/55/8ca49f99f4d5d68cb92bdb8f75216a49db6840e9e848dbbd20ab2e86edfd/rHDPE_Data_Analysis-1.0.9.tar.gz
+[2024-05-14 13:13:48] INFO root fetch - processPackages [blueshed-gust]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [blueshed-gust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueshed_gust-0.0.8.tar.gz tmp/blueshed_gust-0.0.9.tar.gz --markdown 20240514/b/blueshed-gust/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 13:13:48] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.8.tar.gz tmp/conetwork_test-0.1.9.tar.gz --markdown 20240514/c/conetwork-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 13:13:48] INFO root fetch - processPackages [rHDPE-Data-Analysis]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [rHDPE-Data-Analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rHDPE_Data_Analysis-1.0.8.tar.gz tmp/rHDPE_Data_Analysis-1.0.9.tar.gz --markdown 20240514/r/rHDPE-Data-Analysis/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 13:13:48] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/c3/ee/3f505b28eba1c37ddc4ce10f0cfbf71e8e5b7d63245aff24c214df446ad5/modelmerge-0.3.9.tar.gz
+[2024-05-14 13:13:48] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/5f/12/56aaa9c26a6f860003488bf8c5d930955bd2a3cd00e95926cebcde972ce5/pbx_cloud_utils-1.2.1a0-py3-none-any.whl
+[2024-05-14 13:13:48] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.8.tar.gz tmp/modelmerge-0.3.9.tar.gz --markdown 20240514/m/modelmerge/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 13:13:48] INFO root fetch - processPackages [pbx-cloud-utils]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [pbx-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_cloud_utils-1.2.0a8-py3-none-any.whl.zip tmp/pbx_cloud_utils-1.2.1a0-py3-none-any.whl.zip --markdown 20240514/p/pbx-cloud-utils/1.2.0a8-1.2.1a0/README.md --exclude *.pyd
+[2024-05-14 13:13:48] INFO root fetch - processPackages [mistapi]: Downloading https://files.pythonhosted.org/packages/f3/24/8f00b267ede303852ed26a0dec09851d820716e2bf1db35d0761230036bc/mistapi-0.47.5.tar.gz
+[2024-05-14 13:13:48] INFO root fetch - processPackages [dataidea]: Downloading https://files.pythonhosted.org/packages/1d/cc/e79ee057e903e010437d8291487603bae137b9cd748690d49605a8e96311/dataidea-0.1.5.tar.gz
+[2024-05-14 13:13:48] INFO root fetch - processPackages [mistapi]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [mistapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistapi-0.47.4.tar.gz tmp/mistapi-0.47.5.tar.gz --markdown 20240514/m/mistapi/0.47.4-0.47.5/README.md --exclude *.pyd
+[2024-05-14 13:13:48] INFO root fetch - processPackages [dataidea]: executing diffoscope
+[2024-05-14 13:13:48] INFO root fetch - processPackages [dataidea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataidea-0.1.4.tar.gz tmp/dataidea-0.1.5.tar.gz --markdown 20240514/d/dataidea/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 13:13:49] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.8.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - processPackages [rHDPE-Data-Analysis]: Remove: archive file [/home/abi/fetcher/tmp/rHDPE_Data_Analysis-1.0.9.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - main [MainThread]: End processing [rHDPE-Data-Analysis]: success
+[2024-05-14 13:13:49] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.8.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.9.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - main [MainThread]: End processing [blueshed-gust]: success
+[2024-05-14 13:13:49] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.9.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 13:13:49] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.8.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.9.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-14 13:13:49] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.0a8-py3-none-any.whl.zip]
+[2024-05-14 13:13:49] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.1a0-py3-none-any.whl.zip]
+[2024-05-14 13:13:49] INFO root fetch - main [MainThread]: End processing [pbx-cloud-utils]: success
+[2024-05-14 13:13:49] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.1.4.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - processPackages [dataidea]: Remove: archive file [/home/abi/fetcher/tmp/dataidea-0.1.5.tar.gz]
+[2024-05-14 13:13:49] INFO root fetch - main [MainThread]: End processing [dataidea]: success
+[2024-05-14 13:13:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.47.4.tar.gz]
+[2024-05-14 13:13:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.47.5.tar.gz]
+[2024-05-14 13:13:50] INFO root fetch - main [MainThread]: End processing [mistapi]: success
+[2024-05-14 13:13:50] INFO root fetch - main [MainThread]: Store serial: [23200116]
