@@ -11563,3 +11563,75 @@
 [2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl.zip]
 [2024-05-14 08:09:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
 [2024-05-14 08:09:32] INFO root fetch - main [MainThread]: Store serial: [23196321]
+[2024-05-14 08:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196321]
+[2024-05-14 08:11:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-force-invoiced
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpd-now-playable
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-discount-display-amount
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oci-cli
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowetl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flowclient
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flowmachine
+[2024-05-14 08:11:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowkit-jwt-generator
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [mpd-now-playable]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.1.0.4] Old Version: [17.0.1.1.0.3]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0.1]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [mpd-now-playable]: Downloading https://files.pythonhosted.org/packages/2b/d3/89b48e9498ddde1debc25ad8a36790ddc45bb7b90d834d056ae36c30e46f/mpd_now_playable-1.1.1.tar.gz
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-14 08:11:42] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/31/55/e9dc6ac194ed65f0eefe8485f3ea057dc9359500aac32f137c57ca83bbc0/odoo_addon_sale_force_invoiced-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/a1/1c/b8e416a683a15b080f7fee786eb747a5856ebcce81b037d079990df5cf2a/odoo_addon_sale_discount_display_amount-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/31/4c/d8c9cdfc8008f70734e45fbf0fbc56b0a5fd43d68502ceb09cc93a379aae/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [mpd-now-playable]: Downloading https://files.pythonhosted.org/packages/b6/fd/e91eb4e2054023c75d6bdf20c87dcb6a70e860f958456464609368606de6/mpd_now_playable-1.1.2.tar.gz
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240514/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-14 08:11:42] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2024-05-14 08:11:42] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20240514/o/oci-cli/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-14 08:11:42] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-sale-force-invoiced/17.0.1.1.0.3-17.0.1.1.0.4/README.md --exclude *.pyd
+[2024-05-14 08:11:43] INFO root fetch - processPackages [mpd-now-playable]: executing diffoscope
+[2024-05-14 08:11:43] INFO root fetch - processPackages [mpd-now-playable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpd_now_playable-1.1.1.tar.gz tmp/mpd_now_playable-1.1.2.tar.gz --markdown 20240514/m/mpd-now-playable/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240514/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Downloading https://files.pythonhosted.org/packages/2c/4f/c289ea7bf4b5f572dc6d8502f6b409fe6cf6c2fddfc851770147371ad626/odoo_addon_sale_discount_display_amount-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240514/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: executing diffoscope
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_discount_display_amount-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_discount_display_amount-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-sale-discount-display-amount/16.0.1.1.0.1-16.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-14 08:11:43] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-14 08:11:43] INFO root fetch - processPackages [mpd-now-playable]: Remove: archive file [/home/abi/fetcher/tmp/mpd_now_playable-1.1.1.tar.gz]
+[2024-05-14 08:11:43] INFO root fetch - processPackages [mpd-now-playable]: Remove: archive file [/home/abi/fetcher/tmp/mpd_now_playable-1.1.2.tar.gz]
+[2024-05-14 08:11:43] INFO root fetch - main [MainThread]: End processing [mpd-now-playable]: success
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-14 08:11:43] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-14 08:11:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-14 08:11:43] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-14 08:11:43] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-14 08:11:44] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_discount_display_amount-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-14 08:11:44] INFO root fetch - processPackages [odoo-addon-sale-discount-display-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_discount_display_amount-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-14 08:11:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-discount-display-amount]: success
+[2024-05-14 08:11:44] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-14 08:11:44] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-14 08:11:44] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-14 08:11:44] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2024-05-14 08:11:44] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240514/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-14 08:11:44] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-14 08:11:44] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-14 08:11:44] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2024-05-14 08:14:43] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2024-05-14 08:14:43] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2024-05-14 08:14:43] INFO root fetch - main [MainThread]: Store serial: [23196385]
