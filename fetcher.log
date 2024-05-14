@@ -8624,3 +8624,33 @@
 [2024-05-14 05:06:44] INFO root fetch - processPackages [cli-FSD]: Remove: archive file [/home/abi/fetcher/tmp/cli-FSD-1.0.7.tar.gz]
 [2024-05-14 05:06:44] INFO root fetch - main [MainThread]: End processing [cli-FSD]: success
 [2024-05-14 05:06:44] INFO root fetch - main [MainThread]: Store serial: [23195129]
+[2024-05-14 05:08:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195129]
+[2024-05-14 05:08:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodest
+[2024-05-14 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-banking-mandate-sale
+[2024-05-14 05:08:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GazooResearchUtils
+[2024-05-14 05:08:53] INFO root fetch - processPackages [goodest]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-14 05:08:53] INFO root fetch - processPackages [GazooResearchUtils]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-14 05:08:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.3]
+[2024-05-14 05:08:53] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/7f/7c/73a3d0bdef1efe8d0d9539edf06929168c526920b4ec2307671a1fd057ff/goodest-1.2.1.tar.gz
+[2024-05-14 05:08:53] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/1c/2d/488b111fe2794a07f5f276c7ca2dcdb73e729a8bf99a73474e90542ab851/GazooResearchUtils-1.4.6.tar.gz
+[2024-05-14 05:08:53] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/c3/7e/1ba17a610f7b91c6b46e80a0b54b770f33c2047d783bbdbbfddaa7e7f19b/GazooResearchUtils-1.4.7.tar.gz
+[2024-05-14 05:08:53] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Downloading https://files.pythonhosted.org/packages/29/b2/ba5e2428b5035ee9c5642d3b2d3c5a377df8ce918f8d39b4c439042b0a66/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-14 05:08:53] INFO root fetch - processPackages [GazooResearchUtils]: executing diffoscope
+[2024-05-14 05:08:53] INFO root fetch - processPackages [GazooResearchUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GazooResearchUtils-1.4.6.tar.gz tmp/GazooResearchUtils-1.4.7.tar.gz --markdown 20240514/G/GazooResearchUtils/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-14 05:08:53] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/fd/ee/a0bc2a34d5907e4f3a0f432af381fe780596697ae819ab5db2570366d101/goodest-1.2.2.tar.gz
+[2024-05-14 05:08:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Downloading https://files.pythonhosted.org/packages/47/f2/48abdfc7df151c4a129c7feea2f5f908552a89ce2b7015961554f8a328c7/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-14 05:08:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: executing diffoscope
+[2024-05-14 05:08:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-account-banking-mandate-sale/17.0.1.0.0.3-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-14 05:08:54] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-14 05:08:54] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.2.1.tar.gz tmp/goodest-1.2.2.tar.gz --markdown 20240514/g/goodest/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-14 05:08:54] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.4.6.tar.gz]
+[2024-05-14 05:08:54] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.4.7.tar.gz]
+[2024-05-14 05:08:54] INFO root fetch - main [MainThread]: End processing [GazooResearchUtils]: success
+[2024-05-14 05:08:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-14 05:08:54] INFO root fetch - processPackages [odoo-addon-account-banking-mandate-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_mandate_sale-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-14 05:08:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-mandate-sale]: success
+[2024-05-14 05:08:59] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.2.1.tar.gz]
+[2024-05-14 05:08:59] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.2.2.tar.gz]
+[2024-05-14 05:08:59] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-14 05:08:59] INFO root fetch - main [MainThread]: Store serial: [23195135]
