@@ -19345,3 +19345,63 @@
 [2024-05-14 12:40:47] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
 [2024-05-14 12:40:47] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
 [2024-05-14 12:40:47] INFO root fetch - main [MainThread]: Store serial: [23199700]
+[2024-05-14 12:42:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199700]
+[2024-05-14 12:42:57] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fds.sdk.IssueTracker
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fds.sdk.StreetAccountNews
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: probe-design
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WGSE-NG
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-ads-api-connector
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transstellar-antd
+[2024-05-14 12:42:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: megaxdl
+[2024-05-14 12:42:58] INFO root fetch - processPackages [transstellar-antd]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-14 12:42:58] WARNING root fetch - processPackages [megaxdl]: Skipping, unable to determine old version
+[2024-05-14 12:42:58] INFO root fetch - main [MainThread]: End processing [megaxdl] error
+[2024-05-14 12:42:58] INFO root fetch - processPackages [WGSE-NG]: New version: [0.0.4a5] Old Version: [0.0.4a4]
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.IssueTracker]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-14 12:42:58] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/9d/5c/bfe4187e39a0fa0b0bce0f5507f000f0f4ddad44285490961373d0b72e09/transstellar_antd-0.2.0.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [probe-design]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 12:42:58] INFO root fetch - processPackages [amazon-ads-api-connector]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: New version: [0.40.2] Old Version: [0.40.1]
+[2024-05-14 12:42:58] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/3d/8a/3107212f8dce7129f210825670557c5798bc55c5b48ba0fc004c74f2b478/wgse_ng-0.0.4a4.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.IssueTracker]: Downloading https://files.pythonhosted.org/packages/62/62/ff6bb36b9bd53a33085114c19f26e39a3d56d72d5adb226bab8f90717961/fds.sdk.IssueTracker-0.2.2-py3-none-any.whl
+[2024-05-14 12:42:58] INFO root fetch - processPackages [amazon-ads-api-connector]: Downloading https://files.pythonhosted.org/packages/92/e1/09ad5a46c557d9512fea89f6173edf25c94c899a966ade27d16b847fed0c/amazon-ads-api-connector-0.1.4.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/e4/de/217073b59e430d72d25a28f92c27d4dcfed602224c5db64977da9995539e/probe_design-0.2.8.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/4a/ef/af05f0d439a81303c38e1a771dbb4a030187d5082967c36aefe528ef8d7f/transstellar_antd-0.3.0.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Downloading https://files.pythonhosted.org/packages/e3/47/1198f33b1e24ddb9fa648a0a9c46c0a8d43e9061c11570e8db36ac1d9023/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl
+[2024-05-14 12:42:58] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/07/28/a3cc2341f73828d90303891acfdee6666bff2dccd862a57083ddaa9d9667/wgse_ng-0.0.4a5.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-14 12:42:58] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.2.0.tar.gz tmp/transstellar_antd-0.3.0.tar.gz --markdown 20240514/t/transstellar-antd/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-14 12:42:58] INFO root fetch - processPackages [WGSE-NG]: executing diffoscope
+[2024-05-14 12:42:58] INFO root fetch - processPackages [WGSE-NG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgse_ng-0.0.4a4.tar.gz tmp/wgse_ng-0.0.4a5.tar.gz --markdown 20240514/W/WGSE-NG/0.0.4a4-0.0.4a5/README.md --exclude *.pyd
+[2024-05-14 12:42:58] INFO root fetch - processPackages [amazon-ads-api-connector]: Downloading https://files.pythonhosted.org/packages/d0/2b/1ce67a7980c057109945e50e0aa9a807ee861534a07f30b33b921381ba8b/amazon_ads_api_connector-0.1.5.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.IssueTracker]: Downloading https://files.pythonhosted.org/packages/a1/84/0a911d320b00fade5687ed990dd9cc645f0e5fc390b23caac4fba2afc1a7/fds.sdk.IssueTracker-0.3.0-py3-none-any.whl
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Downloading https://files.pythonhosted.org/packages/7b/9f/accd6577af7ab17aa05696d64d3ca57cab852c878f24405b503efd9ca9a2/fds.sdk.StreetAccountNews-0.40.2-py3-none-any.whl
+[2024-05-14 12:42:58] INFO root fetch - processPackages [amazon-ads-api-connector]: executing diffoscope
+[2024-05-14 12:42:58] INFO root fetch - processPackages [amazon-ads-api-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-ads-api-connector-0.1.4.tar.gz tmp/amazon_ads_api_connector-0.1.5.tar.gz --markdown 20240514/a/amazon-ads-api-connector/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 12:42:58] INFO root fetch - processPackages [probe-design]: Downloading https://files.pythonhosted.org/packages/56/10/4d2bc3f41506a6a5373b6d321509f939ebc56944086733654075c23adbba/probe_design-0.2.9.tar.gz
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.IssueTracker]: executing diffoscope
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.IssueTracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.IssueTracker-0.2.2-py3-none-any.whl.zip tmp/fds.sdk.IssueTracker-0.3.0-py3-none-any.whl.zip --markdown 20240514/f/fds.sdk.IssueTracker/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: executing diffoscope
+[2024-05-14 12:42:58] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl.zip tmp/fds.sdk.StreetAccountNews-0.40.2-py3-none-any.whl.zip --markdown 20240514/f/fds.sdk.StreetAccountNews/0.40.1-0.40.2/README.md --exclude *.pyd
+[2024-05-14 12:42:58] INFO root fetch - processPackages [probe-design]: executing diffoscope
+[2024-05-14 12:42:58] INFO root fetch - processPackages [probe-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probe_design-0.2.8.tar.gz tmp/probe_design-0.2.9.tar.gz --markdown 20240514/p/probe-design/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 12:42:59] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a4.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a5.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
+[2024-05-14 12:42:59] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.2.0.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.3.0.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-14 12:42:59] INFO root fetch - processPackages [amazon-ads-api-connector]: Remove: archive file [/home/abi/fetcher/tmp/amazon-ads-api-connector-0.1.4.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - processPackages [amazon-ads-api-connector]: Remove: archive file [/home/abi/fetcher/tmp/amazon_ads_api_connector-0.1.5.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [amazon-ads-api-connector]: success
+[2024-05-14 12:42:59] INFO root fetch - processPackages [fds.sdk.IssueTracker]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.IssueTracker-0.2.2-py3-none-any.whl.zip]
+[2024-05-14 12:42:59] INFO root fetch - processPackages [fds.sdk.IssueTracker]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.IssueTracker-0.3.0-py3-none-any.whl.zip]
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [fds.sdk.IssueTracker]: success
+[2024-05-14 12:42:59] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StreetAccountNews-0.40.1-py3-none-any.whl.zip]
+[2024-05-14 12:42:59] INFO root fetch - processPackages [fds.sdk.StreetAccountNews]: Remove: archive file [/home/abi/fetcher/tmp/fds.sdk.StreetAccountNews-0.40.2-py3-none-any.whl.zip]
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [fds.sdk.StreetAccountNews]: success
+[2024-05-14 12:42:59] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.8.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [probe-design]: success
+[2024-05-14 12:42:59] INFO root fetch - main [MainThread]: Store serial: [23199730]
