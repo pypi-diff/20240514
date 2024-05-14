@@ -8097,3 +8097,32 @@
 [2024-05-14 04:29:08] INFO root fetch - processPackages [ugot]: Remove: archive file [/home/abi/fetcher/tmp/ugot-0.2.9.tar.gz]
 [2024-05-14 04:29:08] INFO root fetch - main [MainThread]: End processing [ugot]: success
 [2024-05-14 04:29:08] INFO root fetch - main [MainThread]: Store serial: [23194932]
+[2024-05-14 04:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194932]
+[2024-05-14 04:31:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 04:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-edge-torch-nightly
+[2024-05-14 04:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: janim
+[2024-05-14 04:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-valve-server-query
+[2024-05-14 04:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygwalker
+[2024-05-14 04:31:16] WARNING root fetch - processPackages [ai-edge-torch-nightly]: Skipping, unable to determine old version
+[2024-05-14 04:31:16] INFO root fetch - main [MainThread]: End processing [ai-edge-torch-nightly] error
+[2024-05-14 04:31:16] INFO root fetch - processPackages [pygwalker]: New version: [0.4.9a3] Old Version: [0.4.9a2]
+[2024-05-14 04:31:17] INFO root fetch - processPackages [janim]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 04:31:17] INFO root fetch - processPackages [nonebot-plugin-valve-server-query]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-14 04:31:17] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/f1/5c/1c1bff93a85cd14d6c945d6f43e3dbf143576c2792a1bb6ebc9f41fd356a/janim-1.0.1.tar.gz
+[2024-05-14 04:31:17] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/82/e5/9c0d43db55f894717c52d914ccee9febfccf54befce7a4e566ee756f9c8e/pygwalker-0.4.9a2.tar.gz
+[2024-05-14 04:31:17] INFO root fetch - processPackages [nonebot-plugin-valve-server-query]: Downloading https://files.pythonhosted.org/packages/f6/c3/0b489aa82042a4f966128e07e6f3f1d1fff9ee3c571e4910bbaf801ca76a/nonebot-plugin-valve-server-query-0.5.3.tar.gz
+[2024-05-14 04:31:17] WARNING root fetch - processPackages [nonebot-plugin-valve-server-query]: Skipping package: exceeds size limit 34162925>=10485760
+[2024-05-14 04:31:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-valve-server-query] error
+[2024-05-14 04:31:17] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/13/a5/a54fdc4d75e77be935187bb602afa27e5bc070b69a7696b4a0fe7e5522db/janim-1.0.2.tar.gz
+[2024-05-14 04:31:17] INFO root fetch - processPackages [janim]: executing diffoscope
+[2024-05-14 04:31:17] INFO root fetch - processPackages [janim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janim-1.0.1.tar.gz tmp/janim-1.0.2.tar.gz --markdown 20240514/j/janim/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 04:31:17] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/f4/83/e04a8a041152e4eb155910dbf4cb2ce4f19db2fa28b18c71600e1146bd79/pygwalker-0.4.9a3.tar.gz
+[2024-05-14 04:31:18] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2024-05-14 04:31:18] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.4.9a2.tar.gz tmp/pygwalker-0.4.9a3.tar.gz --markdown 20240514/p/pygwalker/0.4.9a2-0.4.9a3/README.md --exclude *.pyd
+[2024-05-14 04:31:18] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.1.tar.gz]
+[2024-05-14 04:31:18] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.2.tar.gz]
+[2024-05-14 04:31:18] INFO root fetch - main [MainThread]: End processing [janim]: success
+[2024-05-14 04:31:49] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a2.tar.gz]
+[2024-05-14 04:31:49] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
+[2024-05-14 04:31:49] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2024-05-14 04:31:49] INFO root fetch - main [MainThread]: Store serial: [23194948]
