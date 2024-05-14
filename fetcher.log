@@ -13179,3 +13179,72 @@
 [2024-05-14 09:20:50] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.5.0b9.tar.gz]
 [2024-05-14 09:20:50] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
 [2024-05-14 09:20:50] INFO root fetch - main [MainThread]: Store serial: [23197010]
+[2024-05-14 09:22:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197010]
+[2024-05-14 09:23:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dblcsgen
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: praisonAI
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-notion-api
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-delivery-cttexpress
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyawsopstoolkit.exceptions
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anemone-daisy-maker
+[2024-05-14 09:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shopcloud-organize
+[2024-05-14 09:23:00] WARNING root fetch - processPackages [pyawsopstoolkit.exceptions]: Skipping, unable to determine old version
+[2024-05-14 09:23:00] INFO root fetch - main [MainThread]: End processing [pyawsopstoolkit.exceptions] error
+[2024-05-14 09:23:00] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-14 09:23:00] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.56.1] Old Version: [1.56]
+[2024-05-14 09:23:01] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-14 09:23:01] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/71/36/6ea21287fa4199a11f89a8fc33ccb20ba942387630ee49f28048a0456a7e/dblcsgen-0.2.7.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/00/96/fa9b027aff838c500b6fcf3391dabc7476366ff5dcb7de01f2f77b98f718/anemone_daisy_maker-1.56.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [easy-notion-api]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 09:23:01] INFO root fetch - processPackages [praisonAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:23:01] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev4]
+[2024-05-14 09:23:01] INFO root fetch - processPackages [shopcloud-organize]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-05-14 09:23:01] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-14 09:23:01] INFO root fetch - processPackages [easy-notion-api]: Downloading https://files.pythonhosted.org/packages/bd/31/f833babcf48a6f10ea882e3569198949320047afda7d257579c7b60543d7/easy_notion_api-0.1.4-py3-none-any.whl
+[2024-05-14 09:23:01] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/9d/ec/38d92f113710b0ddeddadbb9b6182f6476b5dcd97bf55583034371dbe535/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev4-py3-none-any.whl
+[2024-05-14 09:23:01] INFO root fetch - processPackages [praisonAI]: Downloading https://files.pythonhosted.org/packages/4a/fb/058fc12e29483448272d9940d30499b97a17a6242de0ac970dd58acf105a/praisonai-0.0.8.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [shopcloud-organize]: Downloading https://files.pythonhosted.org/packages/79/85/c19e72d21bc0cd097b131cd799331ce8c9bd12f969cb472aac9f0bef9f57/shopcloud_organize-1.6.0.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/0a/fd/f0003bc7a9d66e1ab0497a183b48d14424a280c9c0b96e24105e62d91d89/dblcsgen-0.2.8.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-14 09:23:01] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/b4/b9/9bcfc59eba9e3b5dded426f536211cb2bd9aeccd70dad2b8beca3c9cf17b/anemone_daisy_maker-1.56.1.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-05-14 09:23:01] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.7.tar.gz tmp/dblcsgen-0.2.8.tar.gz --markdown 20240514/d/dblcsgen/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-14 09:23:01] INFO root fetch - processPackages [easy-notion-api]: Downloading https://files.pythonhosted.org/packages/73/ec/13ef44048eea6a1e70bbe80ab4bf695642dfa6e31cdf783c781386e4a74e/easy_notion_api-0.1.5-py3-none-any.whl
+[2024-05-14 09:23:01] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-14 09:23:01] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.56.tar.gz tmp/anemone_daisy_maker-1.56.1.tar.gz --markdown 20240514/a/anemone-daisy-maker/1.56-1.56.1/README.md --exclude *.pyd
+[2024-05-14 09:23:01] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-14 09:23:01] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240514/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-14 09:23:01] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Downloading https://files.pythonhosted.org/packages/58/17/1b94a4ba1384003c83749767db1143b72b0bbbadbc8a2d4c32e03041e0d5/odoo13_addon_delivery_cttexpress-13.0.1.1.0-py3-none-any.whl
+[2024-05-14 09:23:01] INFO root fetch - processPackages [praisonAI]: Downloading https://files.pythonhosted.org/packages/c1/ff/1216187b9c3ca8bf85cfb1da01ce373803da39a7a92617344964436e42d3/praisonai-0.0.9.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [easy-notion-api]: executing diffoscope
+[2024-05-14 09:23:01] INFO root fetch - processPackages [easy-notion-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_notion_api-0.1.4-py3-none-any.whl.zip tmp/easy_notion_api-0.1.5-py3-none-any.whl.zip --markdown 20240514/e/easy-notion-api/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 09:23:01] INFO root fetch - processPackages [shopcloud-organize]: Downloading https://files.pythonhosted.org/packages/e0/93/1dafb72a5b49cb3c2bd97e3bcebd8af1a007e85083998769478110fc8b31/shopcloud_organize-1.7.0.tar.gz
+[2024-05-14 09:23:01] INFO root fetch - processPackages [praisonAI]: executing diffoscope
+[2024-05-14 09:23:01] INFO root fetch - processPackages [praisonAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/praisonai-0.0.8.tar.gz tmp/praisonai-0.0.9.tar.gz --markdown 20240514/p/praisonAI/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:23:01] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: executing diffoscope
+[2024-05-14 09:23:01] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_delivery_cttexpress-13.0.1.1.0-py3-none-any.whl.zip --markdown 20240514/o/odoo13-addon-delivery-cttexpress/13.0.1.0.1.dev4-13.0.1.1.0/README.md --exclude *.pyd
+[2024-05-14 09:23:02] INFO root fetch - processPackages [shopcloud-organize]: executing diffoscope
+[2024-05-14 09:23:02] INFO root fetch - processPackages [shopcloud-organize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopcloud_organize-1.6.0.tar.gz tmp/shopcloud_organize-1.7.0.tar.gz --markdown 20240514/s/shopcloud-organize/1.6.0-1.7.0/README.md --exclude *.pyd
+[2024-05-14 09:23:02] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.56.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.56.1.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-14 09:23:02] INFO root fetch - processPackages [easy-notion-api]: Remove: archive file [/home/abi/fetcher/tmp/easy_notion_api-0.1.4-py3-none-any.whl.zip]
+[2024-05-14 09:23:02] INFO root fetch - processPackages [easy-notion-api]: Remove: archive file [/home/abi/fetcher/tmp/easy_notion_api-0.1.5-py3-none-any.whl.zip]
+[2024-05-14 09:23:02] INFO root fetch - main [MainThread]: End processing [easy-notion-api]: success
+[2024-05-14 09:23:02] INFO root fetch - processPackages [praisonAI]: Remove: archive file [/home/abi/fetcher/tmp/praisonai-0.0.8.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - processPackages [praisonAI]: Remove: archive file [/home/abi/fetcher/tmp/praisonai-0.0.9.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - main [MainThread]: End processing [praisonAI]: success
+[2024-05-14 09:23:02] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.7.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.8.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-05-14 09:23:02] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_delivery_cttexpress-13.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2024-05-14 09:23:02] INFO root fetch - processPackages [odoo13-addon-delivery-cttexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_delivery_cttexpress-13.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-14 09:23:02] INFO root fetch - main [MainThread]: End processing [odoo13-addon-delivery-cttexpress]: success
+[2024-05-14 09:23:02] INFO root fetch - processPackages [shopcloud-organize]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud_organize-1.6.0.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - processPackages [shopcloud-organize]: Remove: archive file [/home/abi/fetcher/tmp/shopcloud_organize-1.7.0.tar.gz]
+[2024-05-14 09:23:02] INFO root fetch - main [MainThread]: End processing [shopcloud-organize]: success
+[2024-05-14 09:23:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-14 09:23:03] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-14 09:23:03] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-14 09:23:03] INFO root fetch - main [MainThread]: Store serial: [23197030]
