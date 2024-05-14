@@ -12160,3 +12160,27 @@
 [2024-05-14 08:38:15] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.4.tar.gz]
 [2024-05-14 08:38:15] INFO root fetch - main [MainThread]: End processing [pm4pyminimal]: success
 [2024-05-14 08:38:15] INFO root fetch - main [MainThread]: Store serial: [23196648]
+[2024-05-14 08:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196648]
+[2024-05-14 08:40:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 08:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jellyfin-mpv-shim
+[2024-05-14 08:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linktest
+[2024-05-14 08:40:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangowiz
+[2024-05-14 08:40:24] WARNING root fetch - processPackages [djangowiz]: Skipping, unable to determine old version
+[2024-05-14 08:40:24] INFO root fetch - main [MainThread]: End processing [djangowiz] error
+[2024-05-14 08:40:24] INFO root fetch - processPackages [linktest]: New version: [2.8.0] Old Version: [2.7.9]
+[2024-05-14 08:40:24] INFO root fetch - processPackages [jellyfin-mpv-shim]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-14 08:40:24] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/6e/a8/eb837156d4a17d1b04eaddcb02b7a3ac7b35dcbb52aab3145c56828a5af0/linktest-2.7.9.tar.gz
+[2024-05-14 08:40:24] INFO root fetch - processPackages [jellyfin-mpv-shim]: Downloading https://files.pythonhosted.org/packages/e7/bf/e59af46495947728548cf82aafcc283c7e9f7df4e47f1bdbb8cb890abfde/jellyfin-mpv-shim-2.6.0.tar.gz
+[2024-05-14 08:40:25] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/73/7b/bed9de4c8b4fa7ed023bfdbf9db327c4958d3a6a3e1b45fc299e85c36e68/linktest-2.8.0.tar.gz
+[2024-05-14 08:40:25] INFO root fetch - processPackages [jellyfin-mpv-shim]: Downloading https://files.pythonhosted.org/packages/69/a8/26ddf57064a8cb6e2295355e1efb6676272a02ab5c3c4f9cb90a49b8e037/jellyfin-mpv-shim-2.7.0.tar.gz
+[2024-05-14 08:40:25] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-14 08:40:25] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.7.9.tar.gz tmp/linktest-2.8.0.tar.gz --markdown 20240514/l/linktest/2.7.9-2.8.0/README.md --exclude *.pyd
+[2024-05-14 08:40:25] INFO root fetch - processPackages [jellyfin-mpv-shim]: executing diffoscope
+[2024-05-14 08:40:25] INFO root fetch - processPackages [jellyfin-mpv-shim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jellyfin-mpv-shim-2.6.0.tar.gz tmp/jellyfin-mpv-shim-2.7.0.tar.gz --markdown 20240514/j/jellyfin-mpv-shim/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-05-14 08:40:25] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.7.9.tar.gz]
+[2024-05-14 08:40:25] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.8.0.tar.gz]
+[2024-05-14 08:40:25] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-14 08:40:27] INFO root fetch - processPackages [jellyfin-mpv-shim]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin-mpv-shim-2.6.0.tar.gz]
+[2024-05-14 08:40:27] INFO root fetch - processPackages [jellyfin-mpv-shim]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin-mpv-shim-2.7.0.tar.gz]
+[2024-05-14 08:40:27] INFO root fetch - main [MainThread]: End processing [jellyfin-mpv-shim]: success
+[2024-05-14 08:40:27] INFO root fetch - main [MainThread]: Store serial: [23196656]
