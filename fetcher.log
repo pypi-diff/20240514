@@ -17283,3 +17283,70 @@
 [2024-05-14 11:33:13] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.8.2.tar.gz]
 [2024-05-14 11:33:13] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2024-05-14 11:33:13] INFO root fetch - main [MainThread]: Store serial: [23198819]
+[2024-05-14 11:35:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198819]
+[2024-05-14 11:35:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fish-util
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepnccl
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genai-apis
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saes6-jerry
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysortlib
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: orbit-database-shell
+[2024-05-14 11:35:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: saes6-jerry
+[2024-05-14 11:35:38] INFO root fetch - processPackages [genai-apis]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 11:35:38] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 11:35:38] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 11:35:38] INFO root fetch - processPackages [digitalhub]: New version: [0.4.0b8] Old Version: [0.4.0b4]
+[2024-05-14 11:35:38] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/bb/a5/fc26b5a696f5de2242c5468bda06013a199f3a4c613b2b245ee05755f93c/genai_apis-0.0.6-py3-none-any.whl
+[2024-05-14 11:35:38] INFO root fetch - processPackages [orbit-database-shell]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 11:35:38] INFO root fetch - processPackages [pysortlib]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-14 11:35:38] INFO root fetch - processPackages [deepnccl]: New version: [2.1.0rc3] Old Version: [2.1.0rc2]
+[2024-05-14 11:35:38] WARNING root fetch - processPackages [fish-util]: Skipping, unable to determine old version
+[2024-05-14 11:35:38] INFO root fetch - main [MainThread]: End processing [fish-util] error
+[2024-05-14 11:35:38] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/d1/5a/7f96078058366d27cd546e5530cab02897600d2a3dafb5e72b492b50e3bb/saes6-jerry-0.0.7.tar.gz
+[2024-05-14 11:35:38] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/d1/5a/7f96078058366d27cd546e5530cab02897600d2a3dafb5e72b492b50e3bb/saes6-jerry-0.0.7.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/6b/eb/684106039b1e7599e02715f8a35e3cbbfc059d79add51dadc0246c2f406f/digitalhub-0.4.0b4.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [pysortlib]: Downloading https://files.pythonhosted.org/packages/0f/5d/48c40fda8ff720c26e5994d7ab41a6b5951adcdfabceef0245ebe18fc95d/pysortlib-0.5.0.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [deepnccl]: Downloading https://files.pythonhosted.org/packages/be/42/eafb1fb65e387807621b3365fd8f0201be24c4d3cb3a9528017d8cde8533/deepnccl-2.1.0rc2.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [orbit-database-shell]: Downloading https://files.pythonhosted.org/packages/76/45/5ab6c9df3822efddeba922876ce2ec3e7c12d7bada0edbc6665bf7db06e4/orbit_database_shell-1.0.8.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/98/32/cd382be4186b243553195538f0baf4e312a539a4769f0e74f128ae119307/saes6-jerry-0.0.8.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/98/32/cd382be4186b243553195538f0baf4e312a539a4769f0e74f128ae119307/saes6-jerry-0.0.8.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/f7/cb/104317143dae8f7b1c52e99fcc79f47c2fc78a3d5b225fbd2bc0f2762203/genai_apis-0.0.7-py3-none-any.whl
+[2024-05-14 11:35:39] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.7.tar.gz tmp/saes6-jerry-0.0.8.tar.gz --markdown 20240514/s/saes6-jerry/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 11:35:39] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.7.tar.gz tmp/saes6-jerry-0.0.8.tar.gz --markdown 20240514/s/saes6-jerry/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 11:35:39] INFO root fetch - processPackages [genai-apis]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [genai-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_apis-0.0.6-py3-none-any.whl.zip tmp/genai_apis-0.0.7-py3-none-any.whl.zip --markdown 20240514/g/genai-apis/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 11:35:39] INFO root fetch - processPackages [deepnccl]: Downloading https://files.pythonhosted.org/packages/60/6f/8270acbcccd34305c11880b97feb1962a41076a3278589e5a323702536dd/deepnccl-2.1.0rc3.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [digitalhub]: Downloading https://files.pythonhosted.org/packages/69/1f/c2df487e4fbbf9590b3ddee994b1156e04de5d189470b5699c9059070bcb/digitalhub-0.4.0b8.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [pysortlib]: Downloading https://files.pythonhosted.org/packages/a4/a1/edf7ff339c40d14f32b02054705406ae82eaabecd59e2903f00253905f6b/pysortlib-0.5.1.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [orbit-database-shell]: Downloading https://files.pythonhosted.org/packages/32/ff/4131ba39a74dfae731f6ec1ebdf4218bc5de916a8e458763f968ad07633e/orbit_database_shell-1.0.9.tar.gz
+[2024-05-14 11:35:39] INFO root fetch - processPackages [deepnccl]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [deepnccl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepnccl-2.1.0rc2.tar.gz tmp/deepnccl-2.1.0rc3.tar.gz --markdown 20240514/d/deepnccl/2.1.0rc2-2.1.0rc3/README.md --exclude *.pyd
+[2024-05-14 11:35:39] INFO root fetch - processPackages [digitalhub]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [digitalhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub-0.4.0b4.tar.gz tmp/digitalhub-0.4.0b8.tar.gz --markdown 20240514/d/digitalhub/0.4.0b4-0.4.0b8/README.md --exclude *.pyd
+[2024-05-14 11:35:39] INFO root fetch - processPackages [pysortlib]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [pysortlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysortlib-0.5.0.tar.gz tmp/pysortlib-0.5.1.tar.gz --markdown 20240514/p/pysortlib/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-14 11:35:39] INFO root fetch - processPackages [orbit-database-shell]: executing diffoscope
+[2024-05-14 11:35:39] INFO root fetch - processPackages [orbit-database-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_database_shell-1.0.8.tar.gz tmp/orbit_database_shell-1.0.9.tar.gz --markdown 20240514/o/orbit-database-shell/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 11:35:40] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.7.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.8.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-14 11:35:40] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.6-py3-none-any.whl.zip]
+[2024-05-14 11:35:40] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.7-py3-none-any.whl.zip]
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [genai-apis]: success
+[2024-05-14 11:35:40] INFO root fetch - processPackages [deepnccl]: Remove: archive file [/home/abi/fetcher/tmp/deepnccl-2.1.0rc2.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - processPackages [deepnccl]: Remove: archive file [/home/abi/fetcher/tmp/deepnccl-2.1.0rc3.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [deepnccl]: success
+[2024-05-14 11:35:40] INFO root fetch - processPackages [pysortlib]: Remove: archive file [/home/abi/fetcher/tmp/pysortlib-0.5.0.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - processPackages [pysortlib]: Remove: archive file [/home/abi/fetcher/tmp/pysortlib-0.5.1.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [pysortlib]: success
+[2024-05-14 11:35:40] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b4.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - processPackages [digitalhub]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub-0.4.0b8.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [digitalhub]: success
+[2024-05-14 11:35:40] INFO root fetch - processPackages [orbit-database-shell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database_shell-1.0.8.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - processPackages [orbit-database-shell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database_shell-1.0.9.tar.gz]
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [orbit-database-shell]: success
+[2024-05-14 11:35:40] INFO root fetch - main [MainThread]: Store serial: [23198841]
