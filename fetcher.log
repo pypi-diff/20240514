@@ -22663,3 +22663,101 @@
 [2024-05-14 14:45:40] INFO root fetch - processPackages [videomass]: Remove: archive file [/home/abi/fetcher/tmp/videomass-5.0.6.tar.gz]
 [2024-05-14 14:45:40] INFO root fetch - main [MainThread]: End processing [videomass]: success
 [2024-05-14 14:45:40] INFO root fetch - main [MainThread]: Store serial: [23201127]
+[2024-05-14 14:47:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201127]
+[2024-05-14 14:47:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecoindex_scraper
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbon-registry-indexer
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinjamator
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gen-wrappers
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jolt-docker
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdo-sdk-python
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jolt
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dendro
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gimera
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: danila-lib
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ecoindex_scraper]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [gen-wrappers]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [danila-lib]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.95] Old Version: [0.9.93]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [dendro]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-14 14:47:50] INFO root fetch - processPackages [jinjamator]: New version: [0.9.99] Old Version: [0.9.98.1]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [gimera]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2024-05-14 14:47:50] INFO root fetch - processPackages [jolt]: New version: [0.9.97] Old Version: [0.9.95]
+[2024-05-14 14:47:50] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/1c/bc/b7a5fa251fae5eaa332bffed0060cb1a8f6642e4e9c606ef5eac45a1bc00/gen_wrappers-0.3.1.tar.gz
+[2024-05-14 14:47:50] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/57/96/6a5923b4da90168d5b058a57d75b52b06ed6a43b9357bfe32b577b0cb56b/danila-lib-1.4.3.tar.gz
+[2024-05-14 14:47:50] INFO root fetch - processPackages [dendro]: Downloading https://files.pythonhosted.org/packages/14/d9/3c2b93f326234add8b213ac8135474b688869050e8aaa705952edd78b9ec/dendro-0.2.8.tar.gz
+[2024-05-14 14:47:50] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-14 14:47:50] INFO root fetch - processPackages [ecoindex_scraper]: Downloading https://files.pythonhosted.org/packages/bb/9b/d17369963c4b1163cf1a2a630fdc3a76c5e9e28ba5f625c74c1343c6a8a7/ecoindex_scraper-3.8.0.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jinjamator]: Downloading https://files.pythonhosted.org/packages/9a/bc/ddc0330ae074b016205f78854cbbeb0732de43c0cc09be04bc09a6165708/jinjamator-0.9.98.1-py3-none-any.whl
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/18/39/073ecb0a9c17c9b36216fa00f733a95be6171d7d71cbade0058f937ce53b/jolt-0.9.95.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/2e/3e/38d88141bd3707f8ae8e6b3e159b24edc9461c0f4a93e883a527e9762ea2/gimera-0.7.8.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/65/3b/fcaa54d80d4d38a7f457352705a6b33e69dcd69a3514df6f2b49d9fce7bd/jolt_docker-0.9.95.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [dendro]: Downloading https://files.pythonhosted.org/packages/9d/1b/0217876714be347a46dfc9ff81a1a2142587ef7dd5df2ca19cbbca30c395/dendro-0.2.9.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gen-wrappers]: Downloading https://files.pythonhosted.org/packages/f6/c0/38bc0e494ed4a144df3d710dac5b4dca1d5d7a37053f9cf5a740eb492841/gen_wrappers-0.3.2.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.93.tar.gz tmp/jolt_docker-0.9.95.tar.gz --markdown 20240514/j/jolt-docker/0.9.93-0.9.95/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [ecoindex_scraper]: Downloading https://files.pythonhosted.org/packages/14/30/1eeabd776006824eb3fda619901a267d04d5ae1c880f4c88198f6e70e040/ecoindex_scraper-3.9.0.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/3d/9e/66f581068d651f0fbb17916c92bbe853bb05ecdb7346988b4818bc5f4b63/danila-lib-1.4.4.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240514/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240514/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gen-wrappers]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gen-wrappers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_wrappers-0.3.1.tar.gz tmp/gen_wrappers-0.3.2.tar.gz --markdown 20240514/g/gen-wrappers/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [dendro]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [dendro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dendro-0.2.8.tar.gz tmp/dendro-0.2.9.tar.gz --markdown 20240514/d/dendro/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/cf/1e/068e7b8bff7d0eadf039a015bb6286f250cc8a3cf5edf54927424bb4fe1e/jolt-0.9.97.tar.gz
+[2024-05-14 14:47:51] INFO root fetch - processPackages [ecoindex_scraper]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [ecoindex_scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoindex_scraper-3.8.0.tar.gz tmp/ecoindex_scraper-3.9.0.tar.gz --markdown 20240514/e/ecoindex_scraper/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.3.tar.gz tmp/danila-lib-1.4.4.tar.gz --markdown 20240514/d/danila-lib/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.95.tar.gz tmp/jolt-0.9.97.tar.gz --markdown 20240514/j/jolt/0.9.95-0.9.97/README.md --exclude *.pyd
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/b1/dc/c80f85a8b614af02ff8abe5853e4f4f5d0076d026ec6a58b86c4694563bd/gimera-0.7.9.tar.gz
+[2024-05-14 14:47:51] WARNING root fetch - processPackages [jinjamator]: Skipping package: exceeds size limit 10813923>=10485760
+[2024-05-14 14:47:51] INFO root fetch - processPackages [jinjamator]: Start processing: py-portfolio-index
+[2024-05-14 14:47:51] INFO root fetch - main [MainThread]: End processing [jinjamator] error
+[2024-05-14 14:47:51] INFO root fetch - processPackages [py-portfolio-index]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2024-05-14 14:47:51] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.7.8.tar.gz tmp/gimera-0.7.9.tar.gz --markdown 20240514/g/gimera/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-14 14:47:52] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/56/47/1136551b0e963bbc2d3d3fce66043142f2f536a88a5e5918b3bae66b9480/py-portfolio-index-0.0.8.tar.gz
+[2024-05-14 14:47:52] INFO root fetch - processPackages [py-portfolio-index]: Downloading https://files.pythonhosted.org/packages/35/d9/e930790cd08eb7aba472719eb95421a6b5ed634f852f1eb262a0430147f6/py-portfolio-index-0.0.9.tar.gz
+[2024-05-14 14:47:52] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.93.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - processPackages [jolt-docker]: Remove: archive file [/home/abi/fetcher/tmp/jolt_docker-0.9.95.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2024-05-14 14:47:52] INFO root fetch - processPackages [py-portfolio-index]: executing diffoscope
+[2024-05-14 14:47:52] INFO root fetch - processPackages [py-portfolio-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-portfolio-index-0.0.8.tar.gz tmp/py-portfolio-index-0.0.9.tar.gz --markdown 20240514/p/py-portfolio-index/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 14:47:52] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.3.1.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - processPackages [gen-wrappers]: Remove: archive file [/home/abi/fetcher/tmp/gen_wrappers-0.3.2.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - main [MainThread]: End processing [gen-wrappers]: success
+[2024-05-14 14:47:52] INFO root fetch - processPackages [ecoindex_scraper]: Remove: archive file [/home/abi/fetcher/tmp/ecoindex_scraper-3.8.0.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - processPackages [ecoindex_scraper]: Remove: archive file [/home/abi/fetcher/tmp/ecoindex_scraper-3.9.0.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - main [MainThread]: End processing [ecoindex_scraper]: success
+[2024-05-14 14:47:52] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-14 14:47:52] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.3.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.4.tar.gz]
+[2024-05-14 14:47:52] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-14 14:47:53] INFO root fetch - processPackages [dendro]: Remove: archive file [/home/abi/fetcher/tmp/dendro-0.2.8.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - processPackages [dendro]: Remove: archive file [/home/abi/fetcher/tmp/dendro-0.2.9.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - main [MainThread]: End processing [dendro]: success
+[2024-05-14 14:47:53] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.8.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - processPackages [gimera]: Remove: archive file [/home/abi/fetcher/tmp/gimera-0.7.9.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2024-05-14 14:47:53] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.95.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - processPackages [jolt]: Remove: archive file [/home/abi/fetcher/tmp/jolt-0.9.97.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2024-05-14 14:47:53] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-14 14:47:53] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.8.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
+[2024-05-14 14:47:53] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
+[2024-05-14 14:47:53] INFO root fetch - main [MainThread]: Store serial: [23201157]
