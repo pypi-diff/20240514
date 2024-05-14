@@ -13566,3 +13566,77 @@
 [2024-05-14 09:36:23] INFO root fetch - processPackages [lovely-numpy]: Remove: archive file [/home/abi/fetcher/tmp/lovely-numpy-0.2.9.dev1.tar.gz]
 [2024-05-14 09:36:23] INFO root fetch - main [MainThread]: End processing [lovely-numpy]: success
 [2024-05-14 09:36:23] INFO root fetch - main [MainThread]: Store serial: [23197167]
+[2024-05-14 09:38:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197167]
+[2024-05-14 09:38:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywayne
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biomedisa
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nchuchain
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lalsuite
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensortrax
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyqint
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ert
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conetwork-test
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvprocessor
+[2024-05-14 09:38:34] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-14 09:38:34] INFO root fetch - processPackages [biomedisa]: New version: [2024.5.18] Old Version: [2024.5.17]
+[2024-05-14 09:38:34] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-05-14 09:38:34] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.7.1] Old Version: [1.0.0.7.0]
+[2024-05-14 09:38:34] INFO root fetch - processPackages [ert]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-14 09:38:34] INFO root fetch - processPackages [pyqint]: New version: [0.9.7.2] Old Version: [0.9.7.1]
+[2024-05-14 09:38:34] INFO root fetch - processPackages [nchuchain]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-14 09:38:34] WARNING root fetch - processPackages [conetwork-test]: Skipping, unable to determine old version
+[2024-05-14 09:38:34] INFO root fetch - main [MainThread]: End processing [conetwork-test] error
+[2024-05-14 09:38:34] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/27/bc/923796adbe8afd3df4735f3d28cd0e3e83aacc7e6e3cea6e80df330efa49/cvprocessor-0.5.3.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/66/b4/71b59580311dd68c349a06493204421417969b9abd9cef6706c47bdabc79/biomedisa-2024.5.17.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/98/a6/99d44ffeb5592c3e88259d6f307370e763540b971d53e1187be50f6ef974/pywayne-1.0.0.7.0.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 09:38:35] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/84/77/371113b1c4788071816a784c0ad48522e14a73690f5dbd7bc3cc4c445205/nchuchain-1.0.7.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/e1/6f/f0baaa4fc34d51a75654547ad912cdf525f93b34ef1a95f1294cd34dadbc/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 09:38:35] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/f5/83/3373f5252db472ded7d2e6a12296bc8864276d8f05674145d207dfa4bfe0/pywayne-1.0.0.7.1.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/08/f0/1ff191243d7f43f41b178749fef9f03b24222f3003169145f1c97a744c58/cvprocessor-0.5.4.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8d/4f/a098d5c93dec8fbf941d7d4f60fb3b86707ea5c9f599479549a3d84e246b/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 09:38:35] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-14 09:38:35] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/bf/88/501d4e89d3ca7686499ebbfadce95741a916cd78b466778333633e097272/biomedisa-2024.5.18.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2024-05-14 09:38:35] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20240514/t/tensortrax/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-14 09:38:35] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-05-14 09:38:35] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.7.0.tar.gz tmp/pywayne-1.0.0.7.1.tar.gz --markdown 20240514/p/pywayne/1.0.0.7.0-1.0.0.7.1/README.md --exclude *.pyd
+[2024-05-14 09:38:35] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 09:38:35] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.3.tar.gz tmp/cvprocessor-0.5.4.tar.gz --markdown 20240514/c/cvprocessor/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-05-14 09:38:35] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/7b/b9/f01fbeaa27b6e9a8bbcab5800394e47d9e0652b2f629ae7cac356498ec53/nchuchain-1.0.9.tar.gz
+[2024-05-14 09:38:35] INFO root fetch - processPackages [biomedisa]: executing diffoscope
+[2024-05-14 09:38:35] INFO root fetch - processPackages [biomedisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedisa-2024.5.17.tar.gz tmp/biomedisa-2024.5.18.tar.gz --markdown 20240514/b/biomedisa/2024.5.17-2024.5.18/README.md --exclude *.pyd
+[2024-05-14 09:38:35] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-05-14 09:38:35] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240514/e/ert/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-14 09:38:35] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 09:38:35] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-14 09:38:35] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.7.tar.gz tmp/nchuchain-1.0.9.tar.gz --markdown 20240514/n/nchuchain/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-14 09:38:35] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-14 09:38:35] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-14 09:38:35] INFO root fetch - processPackages [pyqint]: Downloading https://files.pythonhosted.org/packages/c6/91/7907d7a29f5c26c031da3175916525427e9150b5a9ab871b7734076bbf41/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 09:38:36] INFO root fetch - processPackages [pyqint]: executing diffoscope
+[2024-05-14 09:38:36] INFO root fetch - processPackages [pyqint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240514/p/pyqint/0.9.7.1-0.9.7.2/README.md --exclude *.pyd
+[2024-05-14 09:38:36] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.8.5.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.9.0.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2024-05-14 09:38:36] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.3.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.4.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 09:38:36] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.7.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.9.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-14 09:38:36] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.0.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.1.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-05-14 09:38:36] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.17.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.18.tar.gz]
+[2024-05-14 09:38:36] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
+[2024-05-14 09:38:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-14 09:38:40] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-14 09:38:40] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-05-14 09:38:56] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-14 09:38:56] INFO root fetch - processPackages [pyqint]: Remove: archive file [/home/abi/fetcher/tmp/pyqint-0.9.7.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-14 09:38:56] INFO root fetch - main [MainThread]: End processing [pyqint]: success
+[2024-05-14 09:38:56] INFO root fetch - main [MainThread]: Store serial: [23197234]
