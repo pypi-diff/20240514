@@ -12247,3 +12247,84 @@
 [2024-05-14 08:44:49] INFO root fetch - processPackages [filum-utils]: Remove: archive file [/home/abi/fetcher/tmp/filum-utils-0.1.9.tar.gz]
 [2024-05-14 08:44:49] INFO root fetch - main [MainThread]: End processing [filum-utils]: success
 [2024-05-14 08:44:49] INFO root fetch - main [MainThread]: Store serial: [23196683]
+[2024-05-14 08:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196683]
+[2024-05-14 08:46:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: UtilityLib
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blastpipe
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pisahkan-ktp
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenomApis
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvprocessor
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openllm
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openllm-client
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-cookietools
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openllm-core
+[2024-05-14 08:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Rkongcore
+[2024-05-14 08:46:57] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-14 08:46:57] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.2.9] Old Version: [0.1.8]
+[2024-05-14 08:46:57] INFO root fetch - processPackages [blastpipe]: New version: [2024.7.2] Old Version: [2024.7.1]
+[2024-05-14 08:46:58] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-14 08:46:58] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/2b/3a/387ea282eb5bded48977904c2b3f0bb394ab1427593a5420c8ce02405ed7/pisahkan_ktp-0.1.8.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [UtilityLib]: New version: [2.9.20240323] Old Version: [2.8.20231123]
+[2024-05-14 08:46:58] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/f4/17/b235db7b02ca5bf790c48850f6374fe88c34a65fe6d96601f4149b5e0fcd/cvprocessor-0.5.0.tar.gz
+[2024-05-14 08:46:58] WARNING root fetch - processPackages [python-cookietools]: Skipping, unable to determine old version
+[2024-05-14 08:46:58] INFO root fetch - main [MainThread]: End processing [python-cookietools] error
+[2024-05-14 08:46:58] WARNING root fetch - processPackages [Rkongcore]: Skipping, unable to determine old version
+[2024-05-14 08:46:58] INFO root fetch - main [MainThread]: End processing [Rkongcore] error
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm]: New version: [0.5.0a9] Old Version: [0.5.0a8]
+[2024-05-14 08:46:58] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/e0/ed/6d89ee1a97a2473978d141023269a6ba6f419fcdb76fcf971c3f0dd25758/blastpipe-2024.7.1.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [UtilityLib]: Downloading https://files.pythonhosted.org/packages/42/d9/161ae46bf9010da67a1fc6894b14dbceab615a7613c570541dc54132d691/UtilityLib-2.8.20231123.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/25/5e/a6b702d91e584020599e12b4e578356a53a057e41006cb4d052f87b5f529/openllm-0.5.0a8.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/69/7c/7536c0cc93ab685434ba70b02f22ef3717743326fca776e49a2d85658495/pisahkan_ktp-0.2.9.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/4d/a1/77e25ef6ae940d011349f3e76ae6a6504bb30758fb04c48f8996e1000da1/openllm_client-0.5.0a8.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/76/67/05ea81f766677b9200494e8b14dfee33b358cd583a24b18cfccf4b5dceb4/openllm_core-0.5.0a8.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/05/d0/c6eb6478be765df651e17760661de306c30966683fba8d645fb6a2ea07ad/cvprocessor-0.5.1.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.1.8.tar.gz tmp/pisahkan_ktp-0.2.9.tar.gz --markdown 20240514/p/pisahkan-ktp/0.1.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 08:46:58] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/44/15/7f0e092476481d1b2070e8795ee822359784b4597d91533134106e564425/blastpipe-2024.7.2.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [UtilityLib]: Downloading https://files.pythonhosted.org/packages/fa/04/fb3274226ffbeae1a949003b6074bcbd21ca97ef6e15248ebaeaf81533d7/UtilityLib-2.9.20240323.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.0.tar.gz tmp/cvprocessor-0.5.1.tar.gz --markdown 20240514/c/cvprocessor/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-14 08:46:58] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.7.1.tar.gz tmp/blastpipe-2024.7.2.tar.gz --markdown 20240514/b/blastpipe/2024.7.1-2024.7.2/README.md --exclude *.pyd
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/d5/72/afd31477b3fe760b27b8778b8b2fee8e654798f516eb8e5a907791ed597a/openllm-0.5.0a9.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [UtilityLib]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [UtilityLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UtilityLib-2.8.20231123.tar.gz tmp/UtilityLib-2.9.20240323.tar.gz --markdown 20240514/U/UtilityLib/2.8.20231123-2.9.20240323/README.md --exclude *.pyd
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/2d/40/495eb20184d9497a8efae2f6f2386e79914d06cdca3487408619f0767652/openllm_client-0.5.0a9.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240514/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a8.tar.gz tmp/openllm-0.5.0a9.tar.gz --markdown 20240514/o/openllm/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/5f/c2/f5c0438894dd21e79a2fafd6b9133bada1deb717adbae6f8ea2187dff0f0/openllm_core-0.5.0a9.tar.gz
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-05-14 08:46:58] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a8.tar.gz tmp/openllm_client-0.5.0a9.tar.gz --markdown 20240514/o/openllm-client/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a8.tar.gz tmp/openllm_core-0.5.0a9.tar.gz --markdown 20240514/o/openllm-core/0.5.0a8-0.5.0a9/README.md --exclude *.pyd
+[2024-05-14 08:46:59] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.1.8.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.2.9.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-14 08:46:59] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.0.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.1.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 08:46:59] INFO root fetch - processPackages [UtilityLib]: Remove: archive file [/home/abi/fetcher/tmp/UtilityLib-2.8.20231123.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [UtilityLib]: Remove: archive file [/home/abi/fetcher/tmp/UtilityLib-2.9.20240323.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [UtilityLib]: success
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a8.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a9.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a8.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a9.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a8.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a9.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-05-14 08:46:59] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.1.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.2.tar.gz]
+[2024-05-14 08:46:59] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-14 08:47:00] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-14 08:47:00] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-14 08:47:00] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-14 08:47:00] INFO root fetch - main [MainThread]: Store serial: [23196721]
