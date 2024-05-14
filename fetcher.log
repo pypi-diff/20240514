@@ -20467,3 +20467,48 @@
 [2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post500-py3-none-any.whl.zip]
 [2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
 [2024-05-14 13:20:25] INFO root fetch - main [MainThread]: Store serial: [23200205]
+[2024-05-14 13:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200205]
+[2024-05-14 13:22:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 13:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: satsure-core-test
+[2024-05-14 13:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FJFormer
+[2024-05-14 13:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onyxpm
+[2024-05-14 13:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbpy
+[2024-05-14 13:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dogwalker23-testing
+[2024-05-14 13:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkmavrykchain
+[2024-05-14 13:22:34] INFO root fetch - processPackages [onyxpm]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 13:22:35] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.9] Old Version: [6.25.8]
+[2024-05-14 13:22:35] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 13:22:35] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/70/39/3e627e72ce3a1539f2605d0e819e74e2578954b530e2381a7a707d2d0a94/onyxpm-0.0.3.tar.gz
+[2024-05-14 13:22:35] WARNING root fetch - processPackages [vbpy]: Skipping, unable to determine old version
+[2024-05-14 13:22:35] INFO root fetch - main [MainThread]: End processing [vbpy] error
+[2024-05-14 13:22:35] INFO root fetch - processPackages [satsure-core-test]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 13:22:35] WARNING root fetch - processPackages [dogwalker23-testing]: Skipping, unable to determine old version
+[2024-05-14 13:22:35] INFO root fetch - main [MainThread]: End processing [dogwalker23-testing] error
+[2024-05-14 13:22:35] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-05-14 13:22:35] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/4f/e9/6e535121a07acdeb06fceb1240da088046994124deadd1080957718f847b/mkmavrykchain-6.25.8-py3-none-any.whl
+[2024-05-14 13:22:35] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/72/d3/ede5a119d3fa8df62e66f8fdaeb53f094aa3dca658371e70b6ff77ffceaa/satsure_core_test-0.1.1.tar.gz
+[2024-05-14 13:22:35] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/2c/48/22f4dc7e5cdc0c968747ee1e4d50d1a0e75462043166adf0056848db335d/onyxpm-0.0.4.tar.gz
+[2024-05-14 13:22:35] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-05-14 13:22:35] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/a3/84/0f1c74e0273e0e35a030e34242c803b740f9c21c97de8071b93ad5209999/mkmavrykchain-6.25.9-py3-none-any.whl
+[2024-05-14 13:22:35] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-14 13:22:35] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.3.tar.gz tmp/onyxpm-0.0.4.tar.gz --markdown 20240514/o/onyxpm/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 13:22:35] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-05-14 13:22:35] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240514/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 13:22:35] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-05-14 13:22:35] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.8-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.9-py3-none-any.whl.zip --markdown 20240514/m/mkmavrykchain/6.25.8-6.25.9/README.md --exclude *.pyd
+[2024-05-14 13:22:35] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/0a/f8/aedc58f9ea2a9cd9495d53f4a753d1806660421475f2ac07e3cd53d9824b/satsure_core_test-0.1.2.tar.gz
+[2024-05-14 13:22:35] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-14 13:22:35] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure_core_test-0.1.1.tar.gz tmp/satsure_core_test-0.1.2.tar.gz --markdown 20240514/s/satsure-core-test/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 13:22:36] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.8-py3-none-any.whl.zip]
+[2024-05-14 13:22:36] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.9-py3-none-any.whl.zip]
+[2024-05-14 13:22:36] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-05-14 13:22:36] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-05-14 13:22:36] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-05-14 13:22:36] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-05-14 13:22:36] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.3.tar.gz]
+[2024-05-14 13:22:36] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.4.tar.gz]
+[2024-05-14 13:22:36] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-14 13:22:36] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.1.tar.gz]
+[2024-05-14 13:22:36] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure_core_test-0.1.2.tar.gz]
+[2024-05-14 13:22:36] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-14 13:22:36] INFO root fetch - main [MainThread]: Store serial: [23200223]
