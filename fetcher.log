@@ -7859,3 +7859,24 @@
 [2024-05-14 04:07:01] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.3.1.tar.gz]
 [2024-05-14 04:07:01] INFO root fetch - main [MainThread]: End processing [libbs]: success
 [2024-05-14 04:07:01] INFO root fetch - main [MainThread]: Store serial: [23194849]
+[2024-05-14 04:09:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194849]
+[2024-05-14 04:09:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 04:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: binsync
+[2024-05-14 04:09:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shroudstone
+[2024-05-14 04:09:10] INFO root fetch - processPackages [binsync]: New version: [4.1.7] Old Version: [4.1.6]
+[2024-05-14 04:09:10] INFO root fetch - processPackages [shroudstone]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-05-14 04:09:10] INFO root fetch - processPackages [shroudstone]: Downloading https://files.pythonhosted.org/packages/36/25/8ce50d6e1f3692abbe35103455f0aa85dcec3e7219e5001639964ce05d1b/shroudstone-0.1.2.tar.gz
+[2024-05-14 04:09:10] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/04/65/3dc75b2fca55fe344451aedac5896ca6e5081ad578f137fa7b8e301fdab1/binsync-4.1.6.tar.gz
+[2024-05-14 04:09:10] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/cb/39/639097c55bec1bade2a215eb71a6d9e2cb076fe7ed18870c7d7b2e33b294/binsync-4.1.7.tar.gz
+[2024-05-14 04:09:10] INFO root fetch - processPackages [shroudstone]: Downloading https://files.pythonhosted.org/packages/79/f9/4da5cfcde43bc3750d800256801040e21ab0949183b4b6199e5867a4dc71/shroudstone-0.1.4.tar.gz
+[2024-05-14 04:09:11] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-05-14 04:09:11] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.1.6.tar.gz tmp/binsync-4.1.7.tar.gz --markdown 20240514/b/binsync/4.1.6-4.1.7/README.md --exclude *.pyd
+[2024-05-14 04:09:11] INFO root fetch - processPackages [shroudstone]: executing diffoscope
+[2024-05-14 04:09:11] INFO root fetch - processPackages [shroudstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shroudstone-0.1.2.tar.gz tmp/shroudstone-0.1.4.tar.gz --markdown 20240514/s/shroudstone/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-05-14 04:09:11] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.6.tar.gz]
+[2024-05-14 04:09:11] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.7.tar.gz]
+[2024-05-14 04:09:11] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-05-14 04:09:11] INFO root fetch - processPackages [shroudstone]: Remove: archive file [/home/abi/fetcher/tmp/shroudstone-0.1.2.tar.gz]
+[2024-05-14 04:09:11] INFO root fetch - processPackages [shroudstone]: Remove: archive file [/home/abi/fetcher/tmp/shroudstone-0.1.4.tar.gz]
+[2024-05-14 04:09:11] INFO root fetch - main [MainThread]: End processing [shroudstone]: success
+[2024-05-14 04:09:11] INFO root fetch - main [MainThread]: Store serial: [23194855]
