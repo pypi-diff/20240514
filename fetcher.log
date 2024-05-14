@@ -2984,3 +2984,33 @@
 [2024-05-14 02:31:30] INFO root fetch - processPackages [pepeline]: Remove: archive file [/home/abi/fetcher/tmp/pepeline-0.3.5-cp38-cp38-manylinux_2_17_armv7l.manylinux2014_armv7l.whl.zip]
 [2024-05-14 02:31:30] INFO root fetch - main [MainThread]: End processing [pepeline]: success
 [2024-05-14 02:31:30] INFO root fetch - main [MainThread]: Store serial: [23193019]
+[2024-05-14 02:33:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193019]
+[2024-05-14 02:33:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 02:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-dot-plot
+[2024-05-14 02:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cssutils
+[2024-05-14 02:33:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwtm-api
+[2024-05-14 02:33:39] INFO root fetch - processPackages [custom-dot-plot]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 02:33:39] INFO root fetch - processPackages [cssutils]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-14 02:33:39] INFO root fetch - processPackages [gwtm-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 02:33:39] INFO root fetch - processPackages [custom-dot-plot]: Downloading https://files.pythonhosted.org/packages/27/8c/3c7cab4b6c0dae7e0bcae2f062a8cf4c3f74ddde95c6ddf5e56f5fb272ac/custom-dot-plot-0.0.6.tar.gz
+[2024-05-14 02:33:39] INFO root fetch - processPackages [cssutils]: Downloading https://files.pythonhosted.org/packages/d2/6c/4d8c275265f6d2634f34733722d2ad0df8227c229638eeb165414339f464/cssutils-2.8.0.tar.gz
+[2024-05-14 02:33:39] INFO root fetch - processPackages [gwtm-api]: Downloading https://files.pythonhosted.org/packages/42/ba/5647c072c7155cf43da5a83226233f36332db634c86b655b4b080766f391/gwtm_api-0.1.1.tar.gz
+[2024-05-14 02:33:39] INFO root fetch - processPackages [custom-dot-plot]: Downloading https://files.pythonhosted.org/packages/49/a1/2b9a77f28288ca921e5722f086cda817c54559007cd6c59ac081831458f9/custom-dot-plot-0.0.7.tar.gz
+[2024-05-14 02:33:39] INFO root fetch - processPackages [cssutils]: Downloading https://files.pythonhosted.org/packages/b4/65/a054545c81eb87af898d664043578b8444ea3ded656db3da8f9d9fa21334/cssutils-2.9.0.tar.gz
+[2024-05-14 02:33:39] INFO root fetch - processPackages [gwtm-api]: Downloading https://files.pythonhosted.org/packages/9f/df/59273c8ea844e197894ee1d8b66223e9c78014abcbb17a69f9c28a6a51b9/gwtm_api-0.1.2.tar.gz
+[2024-05-14 02:33:39] INFO root fetch - processPackages [custom-dot-plot]: executing diffoscope
+[2024-05-14 02:33:39] INFO root fetch - processPackages [custom-dot-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-dot-plot-0.0.6.tar.gz tmp/custom-dot-plot-0.0.7.tar.gz --markdown 20240514/c/custom-dot-plot/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 02:33:39] INFO root fetch - processPackages [cssutils]: executing diffoscope
+[2024-05-14 02:33:39] INFO root fetch - processPackages [cssutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cssutils-2.8.0.tar.gz tmp/cssutils-2.9.0.tar.gz --markdown 20240514/c/cssutils/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-14 02:33:40] INFO root fetch - processPackages [gwtm-api]: executing diffoscope
+[2024-05-14 02:33:40] INFO root fetch - processPackages [gwtm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwtm_api-0.1.1.tar.gz tmp/gwtm_api-0.1.2.tar.gz --markdown 20240514/g/gwtm-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 02:33:40] INFO root fetch - processPackages [custom-dot-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-dot-plot-0.0.6.tar.gz]
+[2024-05-14 02:33:40] INFO root fetch - processPackages [custom-dot-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-dot-plot-0.0.7.tar.gz]
+[2024-05-14 02:33:40] INFO root fetch - main [MainThread]: End processing [custom-dot-plot]: success
+[2024-05-14 02:33:41] INFO root fetch - processPackages [gwtm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwtm_api-0.1.1.tar.gz]
+[2024-05-14 02:33:41] INFO root fetch - processPackages [gwtm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwtm_api-0.1.2.tar.gz]
+[2024-05-14 02:33:41] INFO root fetch - main [MainThread]: End processing [gwtm-api]: success
+[2024-05-14 02:33:41] INFO root fetch - processPackages [cssutils]: Remove: archive file [/home/abi/fetcher/tmp/cssutils-2.8.0.tar.gz]
+[2024-05-14 02:33:41] INFO root fetch - processPackages [cssutils]: Remove: archive file [/home/abi/fetcher/tmp/cssutils-2.9.0.tar.gz]
+[2024-05-14 02:33:41] INFO root fetch - main [MainThread]: End processing [cssutils]: success
+[2024-05-14 02:33:41] INFO root fetch - main [MainThread]: Store serial: [23193044]
