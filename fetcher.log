@@ -7650,3 +7650,15 @@
 [2024-05-14 03:47:31] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.4.tar.gz]
 [2024-05-14 03:47:31] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
 [2024-05-14 03:47:31] INFO root fetch - main [MainThread]: Store serial: [23194712]
+[2024-05-14 03:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194712]
+[2024-05-14 03:49:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 03:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: risb
+[2024-05-14 03:49:40] INFO root fetch - processPackages [risb]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 03:49:40] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/9d/ce/e0c963a2a82ae4c9de65e963c327645357cbabbda8a7a3362de314f4390f/risb-0.0.5.tar.gz
+[2024-05-14 03:49:40] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/49/0c/8dfc2f40daf992d4636c795344ceb4eb26e628d6368fd3480bdb3ac86aee/risb-0.0.6.tar.gz
+[2024-05-14 03:49:40] INFO root fetch - processPackages [risb]: executing diffoscope
+[2024-05-14 03:49:40] INFO root fetch - processPackages [risb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risb-0.0.5.tar.gz tmp/risb-0.0.6.tar.gz --markdown 20240514/r/risb/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 03:49:41] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.0.5.tar.gz]
+[2024-05-14 03:49:41] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.0.6.tar.gz]
+[2024-05-14 03:49:41] INFO root fetch - main [MainThread]: End processing [risb]: success
+[2024-05-14 03:49:41] INFO root fetch - main [MainThread]: Store serial: [23194716]
