@@ -9643,3 +9643,24 @@
 [2024-05-14 06:01:25] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.77.tar.gz]
 [2024-05-14 06:01:25] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
 [2024-05-14 06:01:25] INFO root fetch - main [MainThread]: Store serial: [23195493]
+[2024-05-14 06:03:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195493]
+[2024-05-14 06:03:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: borneo-client-python
+[2024-05-14 06:03:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: refract-mlflow-plugin
+[2024-05-14 06:03:34] INFO root fetch - processPackages [borneo-client-python]: New version: [3.10.3] Old Version: [3.10.2]
+[2024-05-14 06:03:34] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/fe/37/b373f66813d1c260107d11827af02e8ce439d143627a51b585aecb639b9b/borneo_client_python-3.10.2.tar.gz
+[2024-05-14 06:03:34] INFO root fetch - processPackages [refract-mlflow-plugin]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 06:03:34] INFO root fetch - processPackages [refract-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/96/6c/4f99f8f5ebc4adf328c73aa818028a76c0e8d4510cabd62f2b0bac19ef12/refract-mlflow-plugin-1.0.2.tar.gz
+[2024-05-14 06:03:34] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/53/f4/ccab99650f99cd554f45d70b926610f14601748834bcc2692143f33f120a/borneo_client_python-3.10.3.tar.gz
+[2024-05-14 06:03:35] INFO root fetch - processPackages [borneo-client-python]: executing diffoscope
+[2024-05-14 06:03:35] INFO root fetch - processPackages [borneo-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_client_python-3.10.2.tar.gz tmp/borneo_client_python-3.10.3.tar.gz --markdown 20240514/b/borneo-client-python/3.10.2-3.10.3/README.md --exclude *.pyd
+[2024-05-14 06:03:35] INFO root fetch - processPackages [refract-mlflow-plugin]: Downloading https://files.pythonhosted.org/packages/fc/fd/eb85af876a06274d11ee4433161b9cc6fd43a11894612b1362dde44035c3/refract-mlflow-plugin-1.0.3.tar.gz
+[2024-05-14 06:03:35] INFO root fetch - processPackages [refract-mlflow-plugin]: executing diffoscope
+[2024-05-14 06:03:35] INFO root fetch - processPackages [refract-mlflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refract-mlflow-plugin-1.0.2.tar.gz tmp/refract-mlflow-plugin-1.0.3.tar.gz --markdown 20240514/r/refract-mlflow-plugin/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 06:03:35] INFO root fetch - processPackages [refract-mlflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/refract-mlflow-plugin-1.0.2.tar.gz]
+[2024-05-14 06:03:35] INFO root fetch - processPackages [refract-mlflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/refract-mlflow-plugin-1.0.3.tar.gz]
+[2024-05-14 06:03:35] INFO root fetch - main [MainThread]: End processing [refract-mlflow-plugin]: success
+[2024-05-14 06:03:35] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.2.tar.gz]
+[2024-05-14 06:03:35] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.3.tar.gz]
+[2024-05-14 06:03:35] INFO root fetch - main [MainThread]: End processing [borneo-client-python]: success
+[2024-05-14 06:03:35] INFO root fetch - main [MainThread]: Store serial: [23195500]
