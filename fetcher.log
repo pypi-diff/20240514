@@ -8243,3 +8243,33 @@
 [2024-05-14 04:40:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.4a8.tar.gz]
 [2024-05-14 04:40:40] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
 [2024-05-14 04:40:40] INFO root fetch - main [MainThread]: Store serial: [23194998]
+[2024-05-14 04:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194998]
+[2024-05-14 04:42:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wrongbutusefulsbi
+[2024-05-14 04:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-hologres
+[2024-05-14 04:42:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: InterProcessPyObjects
+[2024-05-14 04:42:49] INFO root fetch - processPackages [dbt-hologres]: New version: [1.7.8b0] Old Version: [1.7.8a0]
+[2024-05-14 04:42:49] INFO root fetch - processPackages [InterProcessPyObjects]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-14 04:42:49] INFO root fetch - processPackages [InterProcessPyObjects]: Downloading https://files.pythonhosted.org/packages/65/da/2b0a398543cd115494725e4cadfae2f79a4469211df01397dda4c245ecbd/interprocesspyobjects-1.0.5.tar.gz
+[2024-05-14 04:42:49] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/96/d6/7afe8c52159016d3aa99bacccfc51660bdde06e85e250098505e50d5d76e/dbt_hologres-1.7.8a0.tar.gz
+[2024-05-14 04:42:49] INFO root fetch - processPackages [wrongbutusefulsbi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 04:42:49] INFO root fetch - processPackages [dbt-hologres]: Downloading https://files.pythonhosted.org/packages/a3/75/644ae80e3ed0ca8ba7912d166cb29283c329ea161fc7dc88831a66f46f0e/dbt_hologres-1.7.8b0.tar.gz
+[2024-05-14 04:42:49] INFO root fetch - processPackages [InterProcessPyObjects]: Downloading https://files.pythonhosted.org/packages/b6/12/2ae4df4486f93102b1bb815d37f377bbe87656a382284aafb01ec1ded4cc/interprocesspyobjects-1.0.6.tar.gz
+[2024-05-14 04:42:49] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/dd/4f/1454a908032453234b8df2187b6a86acdf0200a4673b2f76843a3664123a/wrongbutusefulsbi-0.0.2.tar.gz
+[2024-05-14 04:42:49] INFO root fetch - processPackages [dbt-hologres]: executing diffoscope
+[2024-05-14 04:42:49] INFO root fetch - processPackages [dbt-hologres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_hologres-1.7.8a0.tar.gz tmp/dbt_hologres-1.7.8b0.tar.gz --markdown 20240514/d/dbt-hologres/1.7.8a0-1.7.8b0/README.md --exclude *.pyd
+[2024-05-14 04:42:49] INFO root fetch - processPackages [InterProcessPyObjects]: executing diffoscope
+[2024-05-14 04:42:49] INFO root fetch - processPackages [InterProcessPyObjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interprocesspyobjects-1.0.5.tar.gz tmp/interprocesspyobjects-1.0.6.tar.gz --markdown 20240514/I/InterProcessPyObjects/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-14 04:42:49] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/04/09/3ea1105c9a62053bc9589723ef1e536095218803961763fdb624ea9ac5ca/wrongbutusefulsbi-0.0.3.tar.gz
+[2024-05-14 04:42:50] INFO root fetch - processPackages [wrongbutusefulsbi]: executing diffoscope
+[2024-05-14 04:42:50] INFO root fetch - processPackages [wrongbutusefulsbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrongbutusefulsbi-0.0.2.tar.gz tmp/wrongbutusefulsbi-0.0.3.tar.gz --markdown 20240514/w/wrongbutusefulsbi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 04:42:50] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.8a0.tar.gz]
+[2024-05-14 04:42:50] INFO root fetch - processPackages [dbt-hologres]: Remove: archive file [/home/abi/fetcher/tmp/dbt_hologres-1.7.8b0.tar.gz]
+[2024-05-14 04:42:50] INFO root fetch - main [MainThread]: End processing [dbt-hologres]: success
+[2024-05-14 04:42:50] INFO root fetch - processPackages [InterProcessPyObjects]: Remove: archive file [/home/abi/fetcher/tmp/interprocesspyobjects-1.0.5.tar.gz]
+[2024-05-14 04:42:50] INFO root fetch - processPackages [InterProcessPyObjects]: Remove: archive file [/home/abi/fetcher/tmp/interprocesspyobjects-1.0.6.tar.gz]
+[2024-05-14 04:42:50] INFO root fetch - main [MainThread]: End processing [InterProcessPyObjects]: success
+[2024-05-14 04:42:50] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.2.tar.gz]
+[2024-05-14 04:42:50] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.3.tar.gz]
+[2024-05-14 04:42:50] INFO root fetch - main [MainThread]: End processing [wrongbutusefulsbi]: success
+[2024-05-14 04:42:50] INFO root fetch - main [MainThread]: Store serial: [23195009]
