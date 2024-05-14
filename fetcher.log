@@ -2167,3 +2167,39 @@
 [2024-05-14 01:58:24] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.1.dev2.tar.gz]
 [2024-05-14 01:58:24] INFO root fetch - main [MainThread]: End processing [pyglet]: success
 [2024-05-14 01:58:24] INFO root fetch - main [MainThread]: Store serial: [23192673]
+[2024-05-14 02:00:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192673]
+[2024-05-14 02:00:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 02:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-14 02:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basic-webserver
+[2024-05-14 02:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: galliardsz
+[2024-05-14 02:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: l2m2
+[2024-05-14 02:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rcsb.utils.dictionary
+[2024-05-14 02:00:32] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240513.369] Old Version: [0.44.20240513.368]
+[2024-05-14 02:00:32] WARNING root fetch - processPackages [basic-webserver]: Skipping, unable to determine old version
+[2024-05-14 02:00:32] INFO root fetch - main [MainThread]: End processing [basic-webserver] error
+[2024-05-14 02:00:32] WARNING root fetch - processPackages [galliardsz]: Skipping, unable to determine old version
+[2024-05-14 02:00:32] INFO root fetch - main [MainThread]: End processing [galliardsz] error
+[2024-05-14 02:00:32] INFO root fetch - processPackages [l2m2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 02:00:33] INFO root fetch - processPackages [rcsb.utils.dictionary]: New version: [1.9] Old Version: [1.8]
+[2024-05-14 02:00:33] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/b5/7e/90c08dc397086ccb2f47ee3e37f19932c84d80c52195ee57b65abef4f5e6/pkscreener-0.44.20240513.368.tar.gz
+[2024-05-14 02:00:33] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/7f/d9/56c6f685d611068059bd5a3578bbb0aad1b305b1842dc2c8904cc123b945/l2m2-0.0.8.tar.gz
+[2024-05-14 02:00:33] INFO root fetch - processPackages [rcsb.utils.dictionary]: Downloading https://files.pythonhosted.org/packages/80/6e/da065fd9bb8147d75faaab650f30eb70957d6e1a27942bfc1d0beaff5286/rcsb.utils.dictionary-1.8.tar.gz
+[2024-05-14 02:00:33] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/e7/21/5ecc343857fd211810c43938dba53b3a1f9c10ddbc98f6478d6825576547/pkscreener-0.44.20240513.369.tar.gz
+[2024-05-14 02:00:33] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-14 02:00:33] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240513.368.tar.gz tmp/pkscreener-0.44.20240513.369.tar.gz --markdown 20240514/p/pkscreener/0.44.20240513.368-0.44.20240513.369/README.md --exclude *.pyd
+[2024-05-14 02:00:33] INFO root fetch - processPackages [l2m2]: Downloading https://files.pythonhosted.org/packages/cc/a2/dbe134061914f7906a58b526cdf405e02c2a78096e5d90fc4eb5b326176c/l2m2-0.0.9.tar.gz
+[2024-05-14 02:00:33] INFO root fetch - processPackages [rcsb.utils.dictionary]: Downloading https://files.pythonhosted.org/packages/9f/84/db5439b56027d948fadd2db1fbdfe4a6df26af27445322f32019d4e03eb5/rcsb.utils.dictionary-1.9.tar.gz
+[2024-05-14 02:00:33] INFO root fetch - processPackages [l2m2]: executing diffoscope
+[2024-05-14 02:00:33] INFO root fetch - processPackages [l2m2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l2m2-0.0.8.tar.gz tmp/l2m2-0.0.9.tar.gz --markdown 20240514/l/l2m2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:00:33] INFO root fetch - processPackages [rcsb.utils.dictionary]: executing diffoscope
+[2024-05-14 02:00:33] INFO root fetch - processPackages [rcsb.utils.dictionary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.utils.dictionary-1.8.tar.gz tmp/rcsb.utils.dictionary-1.9.tar.gz --markdown 20240514/r/rcsb.utils.dictionary/1.8-1.9/README.md --exclude *.pyd
+[2024-05-14 02:00:34] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.8.tar.gz]
+[2024-05-14 02:00:34] INFO root fetch - processPackages [l2m2]: Remove: archive file [/home/abi/fetcher/tmp/l2m2-0.0.9.tar.gz]
+[2024-05-14 02:00:34] INFO root fetch - main [MainThread]: End processing [l2m2]: success
+[2024-05-14 02:00:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240513.368.tar.gz]
+[2024-05-14 02:00:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240513.369.tar.gz]
+[2024-05-14 02:00:34] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-14 02:00:34] INFO root fetch - processPackages [rcsb.utils.dictionary]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.dictionary-1.8.tar.gz]
+[2024-05-14 02:00:34] INFO root fetch - processPackages [rcsb.utils.dictionary]: Remove: archive file [/home/abi/fetcher/tmp/rcsb.utils.dictionary-1.9.tar.gz]
+[2024-05-14 02:00:34] INFO root fetch - main [MainThread]: End processing [rcsb.utils.dictionary]: success
+[2024-05-14 02:00:34] INFO root fetch - main [MainThread]: Store serial: [23192690]
