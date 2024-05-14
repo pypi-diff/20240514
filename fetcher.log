@@ -14595,3 +14595,133 @@
 [2024-05-14 10:10:21] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.3b0.tar.gz]
 [2024-05-14 10:10:21] INFO root fetch - main [MainThread]: End processing [webscout]: success
 [2024-05-14 10:10:21] INFO root fetch - main [MainThread]: Store serial: [23197711]
+[2024-05-14 10:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197711]
+[2024-05-14 10:12:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karellen-llvm-clang
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pms-encoder
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prett6
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karellen-llvm-core
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mteb
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karellen-llvm-toolchain-tools
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genai-apis
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hatch-conda
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-dms-auto-classification
+[2024-05-14 10:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lesscode-charts
+[2024-05-14 10:12:34] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: New version: [18.1.5.0.post21] Old Version: [18.1.5.0.post20]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [genai-apis]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [mteb]: New version: [1.9.0] Old Version: [1.8.9]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [karellen-llvm-clang]: New version: [18.1.5.0.post21] Old Version: [18.1.5.0.post20]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [karellen-llvm-core]: New version: [18.1.5.0.post21] Old Version: [18.1.5.0.post20]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [prett6]: New version: [1.1] Old Version: [1.0]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.5]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/7c/4c/768e2351bcd33c891b6737542607a87b9353b27711a5d7a49fe061498d94/genai_apis-0.0.5-py3-none-any.whl
+[2024-05-14 10:12:34] INFO root fetch - processPackages [lesscode-charts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [hatch-conda]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-14 10:12:34] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/15/16/cd18204416f1348c5c3f3287aabe133041a3364a783693bc9c533c6f4c7c/karellen_llvm_toolchain_tools-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 10:12:34] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/36/94/67407adefa444b8ceed1f61e2d6c7d0033fcaa2851b13d3fc1762c34ad81/mteb-1.8.9.tar.gz
+[2024-05-14 10:12:34] INFO root fetch - processPackages [karellen-llvm-clang]: Downloading https://files.pythonhosted.org/packages/fc/39/10ba2197af75236728708227d89d041b0e8fa5280b3ded5d60ca43d4dada/karellen_llvm_clang-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 10:12:34] INFO root fetch - processPackages [karellen-llvm-core]: Downloading https://files.pythonhosted.org/packages/45/35/af29ccd09659c4c9afb515bb8a5dcd21bd855f0de3b2c723c5e43798a62a/karellen_llvm_core-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 10:12:34] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 10:12:34] INFO root fetch - processPackages [prett6]: Downloading https://files.pythonhosted.org/packages/8f/65/738aa6db15137bd5bdf180470a069a80ff3ff5eb54ca7760bd1baacd6876/prett6-1.0.tar.gz
+[2024-05-14 10:12:35] WARNING root fetch - processPackages [karellen-llvm-clang]: Skipping package: exceeds size limit 78660850>=10485760
+[2024-05-14 10:12:35] INFO root fetch - processPackages [karellen-llvm-clang]: Start processing: smartboiler
+[2024-05-14 10:12:35] INFO root fetch - main [MainThread]: End processing [karellen-llvm-clang] error
+[2024-05-14 10:12:35] WARNING root fetch - processPackages [karellen-llvm-core]: Skipping package: exceeds size limit 28601238>=10485760
+[2024-05-14 10:12:35] INFO root fetch - processPackages [karellen-llvm-core]: Start processing: quantplay
+[2024-05-14 10:12:35] INFO root fetch - main [MainThread]: End processing [karellen-llvm-core] error
+[2024-05-14 10:12:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/ff/33/41aa2ba53260f6c7f75ef94700fbf8baacba9cd8d6b9cfb4aa2bb1ea8921/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-14 10:12:35] INFO root fetch - processPackages [smartboiler]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 10:12:35] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/0d/fc/69648b9790c6554e684d024a799b16231e4eb4aa70bdc980a6838d5d44b7/lesscode_charts-0.0.8.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [hatch-conda]: Downloading https://files.pythonhosted.org/packages/dc/1e/950ae3c71a55d83dbdcff996299a52df7c763c96be78c90854c3fba4b0ae/hatch_conda-0.5.1.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/2d/c2/dc89e91f7ffd8e8e6180b2f3389f5b6dacdebaaf0e9e48738354ac0e1590/smartboiler-0.1.8.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-14 10:12:35] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/bb/a5/fc26b5a696f5de2242c5468bda06013a199f3a4c613b2b245ee05755f93c/genai_apis-0.0.6-py3-none-any.whl
+[2024-05-14 10:12:35] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Downloading https://files.pythonhosted.org/packages/6d/1f/b5ec46ee22ac5f5ed9f474dbc70c1f5a65586c2397adfa1f7e4e350fa7d0/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 10:12:35] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/94/0a/01597b38b03403c107eb7a64345ee0568358bcd2a027e44b1a7b1fcb9ef7/mteb-1.9.0.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [prett6]: Downloading https://files.pythonhosted.org/packages/cd/03/22cd748c070a74f1bae3f73f9b491f580aaf3dfaa9c0d4cbdfaf7a81ab14/prett6-1.1.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [genai-apis]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [genai-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_apis-0.0.5-py3-none-any.whl.zip tmp/genai_apis-0.0.6-py3-none-any.whl.zip --markdown 20240514/g/genai-apis/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/2e/0b/6cb3b567f89569a60b52c772445e1721c0040d733bbfc99b6e8e5ec19613/smartboiler-0.1.9.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/77/3a/cbadc6a843ee08375039e1d2225e644ee150803cb2e67739e45a9efd4c79/odoo_addon_dms_auto_classification-16.0.1.1.0-py3-none-any.whl
+[2024-05-14 10:12:35] INFO root fetch - processPackages [lesscode-charts]: Downloading https://files.pythonhosted.org/packages/3c/ff/b8a73ae58bfe99faa84533f9c7e3cfb41c4c60bb9992eedfdfd8fcb76ba5/lesscode_charts-0.0.9.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [prett6]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [prett6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prett6-1.0.tar.gz tmp/prett6-1.1.tar.gz --markdown 20240514/p/prett6/1.0-1.1/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [hatch-conda]: Downloading https://files.pythonhosted.org/packages/21/29/1e6e38e82683ad970cc9e2b071a66c4d6b464e2a9b2dcfde036f0f6bb551/hatch_conda-0.5.2.tar.gz
+[2024-05-14 10:12:35] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.8.9.tar.gz tmp/mteb-1.9.0.tar.gz --markdown 20240514/m/mteb/1.8.9-1.9.0/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.1.0-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-dms-auto-classification/16.0.1.0.0.5-16.0.1.1.0/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karellen_llvm_toolchain_tools-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl.zip tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip --markdown 20240514/k/karellen-llvm-toolchain-tools/18.1.5.0.post20-18.1.5.0.post21/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.1.8.tar.gz tmp/smartboiler-0.1.9.tar.gz --markdown 20240514/s/smartboiler/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [lesscode-charts]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [lesscode-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_charts-0.0.8.tar.gz tmp/lesscode_charts-0.0.9.tar.gz --markdown 20240514/l/lesscode-charts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [hatch-conda]: executing diffoscope
+[2024-05-14 10:12:35] INFO root fetch - processPackages [hatch-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda-0.5.1.tar.gz tmp/hatch_conda-0.5.2.tar.gz --markdown 20240514/h/hatch-conda/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-14 10:12:35] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-14 10:12:36] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-14 10:12:36] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240514/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-14 10:12:36] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.5-py3-none-any.whl.zip]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.6-py3-none-any.whl.zip]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [genai-apis]: Start processing: acetone-nnet
+[2024-05-14 10:12:36] INFO root fetch - main [MainThread]: End processing [genai-apis]: success
+[2024-05-14 10:12:36] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [pms-encoder]: Start processing: ccs-digitalmarketplace-frontend-jinja
+[2024-05-14 10:12:36] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 10:12:36] INFO root fetch - processPackages [prett6]: Remove: archive file [/home/abi/fetcher/tmp/prett6-1.0.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [prett6]: Remove: archive file [/home/abi/fetcher/tmp/prett6-1.1.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [prett6]: Start processing: cvprocessor
+[2024-05-14 10:12:36] INFO root fetch - main [MainThread]: End processing [prett6]: success
+[2024-05-14 10:12:36] INFO root fetch - processPackages [acetone-nnet]: New version: [0.2.3] Old Version: [0.2.2.post2]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: New version: [2.4.0rc4] Old Version: [2.4.0rc3]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.8.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.9.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-14 10:12:36] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/df/60/9114d67ac54e1d81253cf6b1182b200ee2d4ac698a3d472e222f1b717ccf/cvprocessor-0.5.7.tar.gz
+[2024-05-14 10:12:36] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/d7/12/f1f67cc6f52b2e1c799bb5af1334b179ab79f10f4768edabfcdfff1767e3/acetone_nnet-0.2.2.post2.tar.gz
+[2024-05-14 10:12:36] INFO root fetch - processPackages [hatch-conda]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda-0.5.1.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [hatch-conda]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda-0.5.2.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - main [MainThread]: End processing [hatch-conda]: success
+[2024-05-14 10:12:36] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/06/75/c15665a9a3afc73b1c3bf6c50c25d7fba7e095a3fbb348426d0556dbc3f3/ccs-digitalmarketplace-frontend-jinja-2.4.0rc3.tar.gz
+[2024-05-14 10:12:36] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.8.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - processPackages [lesscode-charts]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_charts-0.0.9.tar.gz]
+[2024-05-14 10:12:36] INFO root fetch - main [MainThread]: End processing [lesscode-charts]: success
+[2024-05-14 10:12:37] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-14 10:12:37] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-14 10:12:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-05-14 10:12:37] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/16/cf/f8d27adf6e74fc838c45890685f13551c312e517e2be2fc8b2e13d144846/acetone_nnet-0.2.3.tar.gz
+[2024-05-14 10:12:37] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-14 10:12:37] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Downloading https://files.pythonhosted.org/packages/6d/51/a7aa4fc06fcbf0c0dae5ecadc707c0039b776bc24bdaf6b6a73770bcb7d4/ccs-digitalmarketplace-frontend-jinja-2.4.0rc4.tar.gz
+[2024-05-14 10:12:37] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-14 10:12:37] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-14 10:12:37] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-14 10:12:37] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-14 10:12:37] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.2.2.post2.tar.gz tmp/acetone_nnet-0.2.3.tar.gz --markdown 20240514/a/acetone-nnet/0.2.2.post2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 10:12:37] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 10:12:37] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.7.tar.gz tmp/cvprocessor-0.5.8.tar.gz --markdown 20240514/c/cvprocessor/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-05-14 10:12:37] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: executing diffoscope
+[2024-05-14 10:12:37] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc3.tar.gz tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc4.tar.gz --markdown 20240514/c/ccs-digitalmarketplace-frontend-jinja/2.4.0rc3-2.4.0rc4/README.md --exclude *.pyd
+[2024-05-14 10:12:38] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.7.tar.gz]
+[2024-05-14 10:12:38] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-14 10:12:38] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 10:12:38] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc3.tar.gz]
+[2024-05-14 10:12:38] INFO root fetch - processPackages [ccs-digitalmarketplace-frontend-jinja]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-frontend-jinja-2.4.0rc4.tar.gz]
+[2024-05-14 10:12:38] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-frontend-jinja]: success
+[2024-05-14 10:12:38] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.2.post2.tar.gz]
+[2024-05-14 10:12:38] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.3.tar.gz]
+[2024-05-14 10:12:38] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-14 10:12:39] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.8.9.tar.gz]
+[2024-05-14 10:12:39] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.0.tar.gz]
+[2024-05-14 10:12:39] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-14 10:13:04] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post20-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-14 10:13:04] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
+[2024-05-14 10:13:04] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
+[2024-05-14 10:13:04] INFO root fetch - main [MainThread]: Store serial: [23197753]
