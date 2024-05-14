@@ -7901,3 +7901,29 @@
 [2024-05-14 04:11:21] INFO root fetch - processPackages [clovers-groupmate-waifu]: Remove: archive file [/home/abi/fetcher/tmp/clovers_groupmate_waifu-0.1.4.tar.gz]
 [2024-05-14 04:11:21] INFO root fetch - main [MainThread]: End processing [clovers-groupmate-waifu]: success
 [2024-05-14 04:11:21] INFO root fetch - main [MainThread]: Store serial: [23194861]
+[2024-05-14 04:13:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194861]
+[2024-05-14 04:13:30] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-14 04:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194861]
+[2024-05-14 04:15:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlcalc
+[2024-05-14 04:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-sql-parsing
+[2024-05-14 04:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyampp
+[2024-05-14 04:15:35] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.581.24094] Old Version: [9.499.24023]
+[2024-05-14 04:15:36] INFO root fetch - processPackages [dlcalc]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 04:15:36] WARNING root fetch - processPackages [pyampp]: Skipping, unable to determine old version
+[2024-05-14 04:15:36] INFO root fetch - main [MainThread]: End processing [pyampp] error
+[2024-05-14 04:15:36] INFO root fetch - processPackages [dlcalc]: Downloading https://files.pythonhosted.org/packages/e4/9f/306f90b544b363f847e4b88854d23ca2b61d8630eef405da48695b893723/dlcalc-0.1.2.tar.gz
+[2024-05-14 04:15:36] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/99/fa/7f02cfe11454bb459df063edf47f37a575907ee3cb615b4b43519369e4b1/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl
+[2024-05-14 04:15:36] INFO root fetch - processPackages [dlcalc]: Downloading https://files.pythonhosted.org/packages/01/d0/631a7043cede38a2f884a737e70add60ea64cf735c78e088e0f54cd320a2/dlcalc-0.1.3.tar.gz
+[2024-05-14 04:15:36] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/80/51/a0777be40340953e399babce6a42fbf82dc2aeaa5e02d3759814191913ba/mo-sql-parsing-9.581.24094.tar.gz
+[2024-05-14 04:15:36] INFO root fetch - processPackages [dlcalc]: executing diffoscope
+[2024-05-14 04:15:36] INFO root fetch - processPackages [dlcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlcalc-0.1.2.tar.gz tmp/dlcalc-0.1.3.tar.gz --markdown 20240514/d/dlcalc/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 04:15:36] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-14 04:15:36] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip tmp/mo-sql-parsing-9.581.24094.tar.gz --markdown 20240514/m/mo-sql-parsing/9.499.24023-9.581.24094/README.md --exclude *.pyd
+[2024-05-14 04:15:37] INFO root fetch - processPackages [dlcalc]: Remove: archive file [/home/abi/fetcher/tmp/dlcalc-0.1.2.tar.gz]
+[2024-05-14 04:15:37] INFO root fetch - processPackages [dlcalc]: Remove: archive file [/home/abi/fetcher/tmp/dlcalc-0.1.3.tar.gz]
+[2024-05-14 04:15:37] INFO root fetch - main [MainThread]: End processing [dlcalc]: success
+[2024-05-14 04:15:37] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip]
+[2024-05-14 04:15:37] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-parsing-9.581.24094.tar.gz]
+[2024-05-14 04:15:37] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-14 04:15:37] INFO root fetch - main [MainThread]: Store serial: [23194871]
