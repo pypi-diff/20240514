@@ -19921,3 +19921,147 @@
 [2024-05-14 13:02:50] INFO root fetch - processPackages [dodata]: Remove: archive file [/home/abi/fetcher/tmp/dodata-0.5.0.tar.gz]
 [2024-05-14 13:02:50] INFO root fetch - main [MainThread]: End processing [dodata]: success
 [2024-05-14 13:02:50] INFO root fetch - main [MainThread]: Store serial: [23199930]
+[2024-05-14 13:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199930]
+[2024-05-14 13:04:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub-ml
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tala
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mentabotix
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-core
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-autogen
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-claude
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composio-crewai
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maraudersmap
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: todoclist
+[2024-05-14 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-griptape
+[2024-05-14 13:04:59] INFO root fetch - processPackages [tala]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [mentabotix]: New version: [0.1.3a4] Old Version: [0.1.3a3]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.4.0b8] Old Version: [0.4.0b4]
+[2024-05-14 13:04:59] WARNING root fetch - processPackages [todoclist]: Skipping, unable to determine old version
+[2024-05-14 13:04:59] INFO root fetch - processPackages [todoclist]: Start processing: composio-julep
+[2024-05-14 13:04:59] INFO root fetch - main [MainThread]: End processing [todoclist] error
+[2024-05-14 13:04:59] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/7e/f9/4b94d1b356b377e8e1011db136793b76e02d6511cab1d4f7e16d63b5f308/tala-8.0.0-py3-none-any.whl
+[2024-05-14 13:04:59] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/41/cc/23342201fbfb57cf04aec08b9512419dd8f78bad13b7935cec5d17d7e537/mentabotix-0.1.3a3.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-claude]: New version: [0.2.60] Old Version: [0.2.59]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/94/17/9950f26b58cfdb5f65eaff0f667a627c17d9b3e18a2700da6b3a203292bf/digitalhub_ml-0.4.0b4.tar.gz
+[2024-05-14 13:04:59] WARNING root fetch - processPackages [maraudersmap]: Skipping, unable to determine old version
+[2024-05-14 13:04:59] INFO root fetch - processPackages [maraudersmap]: Start processing: composio-langchain
+[2024-05-14 13:04:59] INFO root fetch - main [MainThread]: End processing [maraudersmap] error
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-griptape]: New version: [0.2.60] Old Version: [0.2.59]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-julep]: New version: [0.2.60] Old Version: [0.2.59]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/87/f9/3afeb46ff7e6d246f98e14514fdd18656d012acbd0abaee61d3168910d07/composio_claude-0.2.59.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/64/41/53947c24070de483c00fabfa972c26d876e10518e24e66ef6c3c66ed9a81/composio_griptape-0.2.59.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/3b/3b/e3ba3dea72e6535b9f0a218fca9b8fed7ba9164a4fca302ed84c769e975b/mentabotix-0.1.3a4.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fb/23/2e4ee5e8659e2c09f33c94a956bea488d2ff01a8dd24ac08a9afd154a693/composio_autogen-0.2.8.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/e1/61/65a4ab92fc35b0f7d7ac34d9749b9ea8dbba3561ac6b93873c1d96dd225c/composio_core-0.2.8.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/cd/32/0809aacb0d06e249bb7c90f7a0bd2d51f60acb5284030ed74935f0f621d1/digitalhub_ml-0.4.0b8.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/9e/72/cd51cda0b37aa52b4e5b78de5e0f4f16e3285f7ed841c65bc6319c865de6/composio_julep-0.2.59.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [tala]: Downloading https://files.pythonhosted.org/packages/8e/72/986c5075d29f6cff970b43955b8d4d42316a124d22c2e01c2877aab4480c/tala-9.0.0-py3-none-any.whl
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/88/9f/34a831a3e85ce61a77e7c13def18aa7650b80acd1b81f83211cb4f1aa6df/composio_crewai-0.2.8.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/d9/aa/a337096fd78499738e0aa7ec352af9337f71606fed7bd03770fbcb2bab20/composio_langchain-0.2.8.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-14 13:04:59] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.3a3.tar.gz tmp/mentabotix-0.1.3a4.tar.gz --markdown 20240514/m/mentabotix/0.1.3a3-0.1.3a4/README.md --exclude *.pyd
+[2024-05-14 13:04:59] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-14 13:04:59] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b4.tar.gz tmp/digitalhub_ml-0.4.0b8.tar.gz --markdown 20240514/d/digitalhub-ml/0.4.0b4-0.4.0b8/README.md --exclude *.pyd
+[2024-05-14 13:04:59] INFO root fetch - processPackages [tala]: executing diffoscope
+[2024-05-14 13:04:59] INFO root fetch - processPackages [tala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tala-8.0.0-py3-none-any.whl.zip tmp/tala-9.0.0-py3-none-any.whl.zip --markdown 20240514/t/tala/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-claude]: Downloading https://files.pythonhosted.org/packages/9c/e9/c453a279a20a1a3c9bd89cde97d996961867ad44ec2186664c54a79be94a/composio_claude-0.2.60.tar.gz
+[2024-05-14 13:04:59] INFO root fetch - processPackages [composio-griptape]: Downloading https://files.pythonhosted.org/packages/54/76/1c80aef91b29a6475e939aaeeb3d75e3d196a54ea43babb47ce4525dedb3/composio_griptape-0.2.60.tar.gz
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-julep]: Downloading https://files.pythonhosted.org/packages/84/07/68e7d7884256f0a3b8923b22a3fd7a726f5d96f41e12c27d2ac7ef615953/composio_julep-0.2.60.tar.gz
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/ea/aa/9d4fb67c2f917ce757a4c5faade1aec312b379274fb73517beed1f721f97/composio_autogen-0.2.9.tar.gz
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/bb/10/944d3b8a7818ed202c24d2156abff8a7c41752baf6ecafb53b6437b6f09f/composio_core-0.2.9.tar.gz
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-claude]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-claude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_claude-0.2.59.tar.gz tmp/composio_claude-0.2.60.tar.gz --markdown 20240514/c/composio-claude/0.2.59-0.2.60/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/97/a6/2c53777d13baa01b09f04ac5d33fc096b73fc91135f58b366e81e7435738/composio_crewai-0.2.9.tar.gz
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/7d/d9/ea6d9de983484f5151914b9e2dbd7009903c7af4e9ad1cab3b6d9607fed1/composio_langchain-0.2.9.tar.gz
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-griptape]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_griptape-0.2.59.tar.gz tmp/composio_griptape-0.2.60.tar.gz --markdown 20240514/c/composio-griptape/0.2.59-0.2.60/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-julep]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-julep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_julep-0.2.59.tar.gz tmp/composio_julep-0.2.60.tar.gz --markdown 20240514/c/composio-julep/0.2.59-0.2.60/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.2.8.tar.gz tmp/composio_autogen-0.2.9.tar.gz --markdown 20240514/c/composio-autogen/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.2.8.tar.gz tmp/composio_core-0.2.9.tar.gz --markdown 20240514/c/composio-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.2.8.tar.gz tmp/composio_crewai-0.2.9.tar.gz --markdown 20240514/c/composio-crewai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.2.8.tar.gz tmp/composio_langchain-0.2.9.tar.gz --markdown 20240514/c/composio-langchain/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 13:05:00] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b4.tar.gz]
+[2024-05-14 13:05:00] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b8.tar.gz]
+[2024-05-14 13:05:00] INFO root fetch - processPackages [digitalhub-ml]: Start processing: composio-openai
+[2024-05-14 13:05:00] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-14 13:05:00] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.3a3.tar.gz]
+[2024-05-14 13:05:00] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.3a4.tar.gz]
+[2024-05-14 13:05:00] INFO root fetch - processPackages [mentabotix]: Start processing: lazyqml
+[2024-05-14 13:05:00] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-14 13:05:00] INFO root fetch - processPackages [composio-openai]: New version: [0.2.60] Old Version: [0.2.59]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [lazyqml]: New version: [1.0.0] Old Version: [0.4.0]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/42/c1/5944b9d88a3cd845b9831c1382c2e984632b9e3c95f575458b9970836a6c/composio_openai-0.2.59.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.59.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-griptape]: Remove: archive file [/home/abi/fetcher/tmp/composio_griptape-0.2.60.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-griptape]: Start processing: autotrain-advanced
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-griptape]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/4c/c8/e7ff2ebdf2165867192545d0a266bf9e04a881da59b4d1c8f99ccb60deec/lazyqml-0.4.0.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.93] Old Version: [0.7.92]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.8.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.9.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-autogen]: Start processing: goblin_lite
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.8.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.9.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-crewai]: Start processing: python_dev_utils
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.59.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-claude]: Remove: archive file [/home/abi/fetcher/tmp/composio_claude-0.2.60.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-claude]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/6e/7f/27a0ba6b4c15c0e784e411b2fe68fdc2f9b0bbbf80fc56a062e72eacd1ec/autotrain-advanced-0.7.92.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.8.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.9.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.59.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-julep]: Remove: archive file [/home/abi/fetcher/tmp/composio_julep-0.2.60.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-julep]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-openai]: Downloading https://files.pythonhosted.org/packages/fb/a0/18a2abf7019f264666e7f92a0f7e824a1aa47d1693f509975c8017a1531b/composio_openai-0.2.60.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [goblin_lite]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.8.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.9.tar.gz]
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-05-14 13:05:01] INFO root fetch - processPackages [python_dev_utils]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-openai]: executing diffoscope
+[2024-05-14 13:05:01] INFO root fetch - processPackages [composio-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_openai-0.2.59.tar.gz tmp/composio_openai-0.2.60.tar.gz --markdown 20240514/c/composio-openai/0.2.59-0.2.60/README.md --exclude *.pyd
+[2024-05-14 13:05:01] INFO root fetch - processPackages [lazyqml]: Downloading https://files.pythonhosted.org/packages/8b/a4/36f151a140ca5a0998fae1ef7179cd006d3c0554be036ec3ba17c0451c85/lazyqml-1.0.0.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/1d/a4/ef163278bc8148bd5be1a6221b1c4e3d25f92c8956483efde07482b59160/autotrain-advanced-0.7.93.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [lazyqml]: executing diffoscope
+[2024-05-14 13:05:01] INFO root fetch - processPackages [lazyqml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyqml-0.4.0.tar.gz tmp/lazyqml-1.0.0.tar.gz --markdown 20240514/l/lazyqml/0.4.0-1.0.0/README.md --exclude *.pyd
+[2024-05-14 13:05:01] INFO root fetch - processPackages [goblin_lite]: Downloading https://files.pythonhosted.org/packages/24/92/99baa467a47e648057cf96463f61f41655e56c26e93f3e6e7c7a8c0b83bb/goblin_lite-0.3.4.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/bf/9c/97be3aea3abbbb1b368a41fbe4b12dbfa48a20e7764179f5b5279b4a94f5/python_dev_utils-1.8.4.tar.gz
+[2024-05-14 13:05:01] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-14 13:05:01] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.92.tar.gz tmp/autotrain-advanced-0.7.93.tar.gz --markdown 20240514/a/autotrain-advanced/0.7.92-0.7.93/README.md --exclude *.pyd
+[2024-05-14 13:05:01] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-8.0.0-py3-none-any.whl.zip]
+[2024-05-14 13:05:01] INFO root fetch - processPackages [tala]: Remove: archive file [/home/abi/fetcher/tmp/tala-9.0.0-py3-none-any.whl.zip]
+[2024-05-14 13:05:01] INFO root fetch - main [MainThread]: End processing [tala]: success
+[2024-05-14 13:05:02] INFO root fetch - processPackages [goblin_lite]: Downloading https://files.pythonhosted.org/packages/15/ff/b61dabb9a3f289662dfd8cf52738652f6719d7c49bf1d8af0ee35c8ed7a5/goblin_lite-0.3.5.tar.gz
+[2024-05-14 13:05:02] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/9d/81/fcce852d5f70ff0eed4fdf8d81caecf33b56475d957349cfb344c4de2663/python_dev_utils-1.9.0.tar.gz
+[2024-05-14 13:05:02] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.59.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - processPackages [composio-openai]: Remove: archive file [/home/abi/fetcher/tmp/composio_openai-0.2.60.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - main [MainThread]: End processing [composio-openai]: success
+[2024-05-14 13:05:02] INFO root fetch - processPackages [goblin_lite]: executing diffoscope
+[2024-05-14 13:05:02] INFO root fetch - processPackages [goblin_lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goblin_lite-0.3.4.tar.gz tmp/goblin_lite-0.3.5.tar.gz --markdown 20240514/g/goblin_lite/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-14 13:05:02] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-05-14 13:05:02] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-1.8.4.tar.gz tmp/python_dev_utils-1.9.0.tar.gz --markdown 20240514/p/python_dev_utils/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-14 13:05:02] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-0.4.0.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - processPackages [lazyqml]: Remove: archive file [/home/abi/fetcher/tmp/lazyqml-1.0.0.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - main [MainThread]: End processing [lazyqml]: success
+[2024-05-14 13:05:02] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.92.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.93.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-14 13:05:02] INFO root fetch - processPackages [goblin_lite]: Remove: archive file [/home/abi/fetcher/tmp/goblin_lite-0.3.4.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - processPackages [goblin_lite]: Remove: archive file [/home/abi/fetcher/tmp/goblin_lite-0.3.5.tar.gz]
+[2024-05-14 13:05:02] INFO root fetch - main [MainThread]: End processing [goblin_lite]: success
+[2024-05-14 13:05:03] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.8.4.tar.gz]
+[2024-05-14 13:05:03] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.9.0.tar.gz]
+[2024-05-14 13:05:03] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-05-14 13:05:03] INFO root fetch - main [MainThread]: Store serial: [23200019]
