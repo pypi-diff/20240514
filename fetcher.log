@@ -11070,3 +11070,45 @@
 [2024-05-14 07:41:11] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural_amp_modeler-0.8.2.tar.gz]
 [2024-05-14 07:41:11] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
 [2024-05-14 07:41:11] INFO root fetch - main [MainThread]: Store serial: [23196042]
+[2024-05-14 07:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196042]
+[2024-05-14 07:43:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 07:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superb-ai-apps
+[2024-05-14 07:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tgqSim
+[2024-05-14 07:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tidyxbrl
+[2024-05-14 07:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cos-ruleengine
+[2024-05-14 07:43:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postmark-template-translate
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tidyxbrl]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tgqSim]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/6f/2e/7584e8dabfb53cdba80bc740290dc2f99f06eaed9036f0dc703b70cd47c7/tidyxbrl-1.0.3.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/cf/f5/c78c6d3d1284018a6dad9785837997ee3e87e59d732eb42c13f5000ca96a/tgqSim-0.1.6.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [superb-ai-apps]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 07:43:20] INFO root fetch - processPackages [cos-ruleengine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 07:43:20] WARNING root fetch - processPackages [postmark-template-translate]: Skipping, unable to determine old version
+[2024-05-14 07:43:20] INFO root fetch - main [MainThread]: End processing [postmark-template-translate] error
+[2024-05-14 07:43:20] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/28/29/bb2e8548bd47c7781e3f0ac0bc56527f4cb135d015fcbd5a658607fde20c/superb-ai-apps-0.0.8.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/ee/f2/b83d102b212a31fc585b31e819ece8bc847c843398a0385f458e38a56f07/cos-ruleengine-0.1.8.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/22/ff/881b71bf7c77623c87dc82543662bc23822c37fefa87b61926627ebf353c/tidyxbrl-1.0.5.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tgqSim]: Downloading https://files.pythonhosted.org/packages/b4/94/807c69034c477b99bc8137a170d657eb8ed4403b5d5a85adbcab871ce383/tgqSim-0.1.7.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tidyxbrl]: executing diffoscope
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tidyxbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyxbrl-1.0.3.tar.gz tmp/tidyxbrl-1.0.5.tar.gz --markdown 20240514/t/tidyxbrl/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tgqSim]: executing diffoscope
+[2024-05-14 07:43:20] INFO root fetch - processPackages [tgqSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgqSim-0.1.6.tar.gz tmp/tgqSim-0.1.7.tar.gz --markdown 20240514/t/tgqSim/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 07:43:20] INFO root fetch - processPackages [superb-ai-apps]: Downloading https://files.pythonhosted.org/packages/62/40/b3cf26c240442b01921cb747d74a493ae4fbae92a1c6f2c0b9ee43a50d56/superb-ai-apps-0.0.9.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [superb-ai-apps]: executing diffoscope
+[2024-05-14 07:43:20] INFO root fetch - processPackages [superb-ai-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-apps-0.0.8.tar.gz tmp/superb-ai-apps-0.0.9.tar.gz --markdown 20240514/s/superb-ai-apps/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 07:43:20] INFO root fetch - processPackages [cos-ruleengine]: Downloading https://files.pythonhosted.org/packages/99/23/f847856821d81c172f7d394b6a8e074ce726036e665452ebd4c08d66f92c/cos-ruleengine-0.1.9.tar.gz
+[2024-05-14 07:43:20] INFO root fetch - processPackages [cos-ruleengine]: executing diffoscope
+[2024-05-14 07:43:20] INFO root fetch - processPackages [cos-ruleengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cos-ruleengine-0.1.8.tar.gz tmp/cos-ruleengine-0.1.9.tar.gz --markdown 20240514/c/cos-ruleengine/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 07:43:21] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.3.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.5.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
+[2024-05-14 07:43:21] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.8.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - processPackages [superb-ai-apps]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-apps-0.0.9.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - main [MainThread]: End processing [superb-ai-apps]: success
+[2024-05-14 07:43:21] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.8.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - processPackages [cos-ruleengine]: Remove: archive file [/home/abi/fetcher/tmp/cos-ruleengine-0.1.9.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - main [MainThread]: End processing [cos-ruleengine]: success
+[2024-05-14 07:43:21] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.6.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.7.tar.gz]
+[2024-05-14 07:43:21] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
+[2024-05-14 07:43:21] INFO root fetch - main [MainThread]: Store serial: [23196058]
