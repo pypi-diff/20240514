@@ -9598,3 +9598,48 @@
 [2024-05-14 05:59:14] INFO root fetch - processPackages [pytest-retry]: Remove: archive file [/home/abi/fetcher/tmp/pytest_retry-1.6.3.tar.gz]
 [2024-05-14 05:59:14] INFO root fetch - main [MainThread]: End processing [pytest-retry]: success
 [2024-05-14 05:59:14] INFO root fetch - main [MainThread]: Store serial: [23195471]
+[2024-05-14 06:01:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195471]
+[2024-05-14 06:01:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecuapassdocs
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-eduembed20240101
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelmerge
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bambooai
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tiktok-captcha-solver
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quite6
+[2024-05-14 06:01:23] INFO root fetch - processPackages [modelmerge]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-14 06:01:23] INFO root fetch - processPackages [bambooai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 06:01:23] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/dc/8f/1933e6b9b8c6ba0c7f3ce096fd63ed47629d987f0d055de23170f471c413/modelmerge-0.3.4.tar.gz
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ecuapassdocs]: New version: [0.77] Old Version: [0.76]
+[2024-05-14 06:01:23] WARNING root fetch - processPackages [alibabacloud-eduembed20240101]: Skipping, unable to determine old version
+[2024-05-14 06:01:23] INFO root fetch - main [MainThread]: End processing [alibabacloud-eduembed20240101] error
+[2024-05-14 06:01:23] INFO root fetch - processPackages [tiktok-captcha-solver]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 06:01:23] WARNING root fetch - processPackages [quite6]: Skipping, unable to determine old version
+[2024-05-14 06:01:23] INFO root fetch - main [MainThread]: End processing [quite6] error
+[2024-05-14 06:01:23] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/e9/19/0f796d2e6151c7b00d9ec9afd4bb8d0e27bef54048ea4cd4cb8eb421525c/ecuapassdocs-0.76.tar.gz
+[2024-05-14 06:01:23] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/32/81/667ba343ba60a295254f89b642987cfea30c5f5389f53750ed5c6b6865c2/bambooai-0.3.8.tar.gz
+[2024-05-14 06:01:23] INFO root fetch - processPackages [tiktok-captcha-solver]: Downloading https://files.pythonhosted.org/packages/6d/07/ecab8d71fa7199a6d2cb6251a9e2c8fcf44c050316134ac9cdfd3b2a3517/tiktok_captcha_solver-0.0.3.tar.gz
+[2024-05-14 06:01:23] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/b0/f1/b84cecd8a57e7c401b63be45c9745cf63982c6f8ef88f0be1b88a0c33e65/modelmerge-0.3.5.tar.gz
+[2024-05-14 06:01:24] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-14 06:01:24] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.4.tar.gz tmp/modelmerge-0.3.5.tar.gz --markdown 20240514/m/modelmerge/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-14 06:01:24] INFO root fetch - processPackages [tiktok-captcha-solver]: Downloading https://files.pythonhosted.org/packages/38/31/49f409c033efc0f46373cd2852af82c427c0b092969f428e21a09f0bdd00/tiktok_captcha_solver-0.0.4.tar.gz
+[2024-05-14 06:01:24] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/ea/a0/d05c4cc2cbb7dcb2bdaea0ccdee9f888f37edeb6b0a643084744079f4939/bambooai-0.3.9.tar.gz
+[2024-05-14 06:01:24] INFO root fetch - processPackages [ecuapassdocs]: Downloading https://files.pythonhosted.org/packages/26/1f/33a978dc8579f762a82bc2e691251a91c72e266affbacee417efc04754c0/ecuapassdocs-0.77.tar.gz
+[2024-05-14 06:01:24] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2024-05-14 06:01:24] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.3.8.tar.gz tmp/bambooai-0.3.9.tar.gz --markdown 20240514/b/bambooai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 06:01:24] INFO root fetch - processPackages [tiktok-captcha-solver]: executing diffoscope
+[2024-05-14 06:01:24] INFO root fetch - processPackages [tiktok-captcha-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktok_captcha_solver-0.0.3.tar.gz tmp/tiktok_captcha_solver-0.0.4.tar.gz --markdown 20240514/t/tiktok-captcha-solver/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 06:01:24] INFO root fetch - processPackages [ecuapassdocs]: executing diffoscope
+[2024-05-14 06:01:24] INFO root fetch - processPackages [ecuapassdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecuapassdocs-0.76.tar.gz tmp/ecuapassdocs-0.77.tar.gz --markdown 20240514/e/ecuapassdocs/0.76-0.77/README.md --exclude *.pyd
+[2024-05-14 06:01:24] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.4.tar.gz]
+[2024-05-14 06:01:24] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.5.tar.gz]
+[2024-05-14 06:01:24] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-14 06:01:24] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.8.tar.gz]
+[2024-05-14 06:01:24] INFO root fetch - processPackages [bambooai]: Remove: archive file [/home/abi/fetcher/tmp/bambooai-0.3.9.tar.gz]
+[2024-05-14 06:01:24] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2024-05-14 06:01:24] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.3.tar.gz]
+[2024-05-14 06:01:24] INFO root fetch - processPackages [tiktok-captcha-solver]: Remove: archive file [/home/abi/fetcher/tmp/tiktok_captcha_solver-0.0.4.tar.gz]
+[2024-05-14 06:01:24] INFO root fetch - main [MainThread]: End processing [tiktok-captcha-solver]: success
+[2024-05-14 06:01:25] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.76.tar.gz]
+[2024-05-14 06:01:25] INFO root fetch - processPackages [ecuapassdocs]: Remove: archive file [/home/abi/fetcher/tmp/ecuapassdocs-0.77.tar.gz]
+[2024-05-14 06:01:25] INFO root fetch - main [MainThread]: End processing [ecuapassdocs]: success
+[2024-05-14 06:01:25] INFO root fetch - main [MainThread]: Store serial: [23195493]
