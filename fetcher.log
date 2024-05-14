@@ -7384,3 +7384,51 @@
 [2024-05-14 03:29:37] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405140127.tar.gz]
 [2024-05-14 03:29:37] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-05-14 03:29:37] INFO root fetch - main [MainThread]: Store serial: [23194326]
+[2024-05-14 03:31:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194326]
+[2024-05-14 03:31:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 03:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goodest
+[2024-05-14 03:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bstk-notitia
+[2024-05-14 03:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-openapi3-scalar
+[2024-05-14 03:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btledstrip
+[2024-05-14 03:31:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-editorjs
+[2024-05-14 03:31:45] INFO root fetch - processPackages [btledstrip]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-14 03:31:45] INFO root fetch - processPackages [goodest]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-14 03:31:45] INFO root fetch - processPackages [wagtail-editorjs]: New version: [1.6.5rc2] Old Version: [1.6.5rc1]
+[2024-05-14 03:31:45] INFO root fetch - processPackages [flask-openapi3-scalar]: New version: [1.22.32] Old Version: [1.20.29]
+[2024-05-14 03:31:46] INFO root fetch - processPackages [bstk-notitia]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-14 03:31:46] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/93/b2/302d6a94d0c7ad5cab9748e82ccf17f07c6f5999f78b12eed905c8a1ab37/goodest-1.1.0.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/92/fe/b83ac63df85e7c4b061b1984ffa4840b41d26087b2a561bf7fd1b491a852/wagtail_editorjs-1.6.5rc1.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/94/68/71af35a262f3787519e383f603d87ec5c6023c3e201948bff95ca5dff774/flask_openapi3_scalar-1.20.29.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [btledstrip]: Downloading https://files.pythonhosted.org/packages/e0/f8/fa9f13b56e89414396f64b3880863bb568c0556822daab7b95ce66d39684/btledstrip-0.1.1.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [bstk-notitia]: Downloading https://files.pythonhosted.org/packages/42/ea/622d26b92316a0b7b6f3e1d0b5d23a2e389cbd7bf569ddfce71e2a725df6/bstk_notitia-0.2.1.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/d8/b3/e5680667ca8214e258845682ad227538dd73fc708fed94e396e24d04f89c/flask_openapi3_scalar-1.22.32.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [btledstrip]: Downloading https://files.pythonhosted.org/packages/1a/ec/065a74558bbbd0f86fe59fe5fad5292c780a6f12e462227d43cacc0a2e7b/btledstrip-0.2.0.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [wagtail-editorjs]: Downloading https://files.pythonhosted.org/packages/e3/bd/d06b7b9dc21a3c21c2abd638db6fcc27e770d569a2f702fa0a570a5e0fb2/wagtail_editorjs-1.6.5rc2.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [goodest]: Downloading https://files.pythonhosted.org/packages/f3/d5/a4ec173b3c087e380cbe3e90646de8edf06ec9a051803037891ead001cd4/goodest-1.2.0.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [flask-openapi3-scalar]: executing diffoscope
+[2024-05-14 03:31:46] INFO root fetch - processPackages [flask-openapi3-scalar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_scalar-1.20.29.tar.gz tmp/flask_openapi3_scalar-1.22.32.tar.gz --markdown 20240514/f/flask-openapi3-scalar/1.20.29-1.22.32/README.md --exclude *.pyd
+[2024-05-14 03:31:46] INFO root fetch - processPackages [btledstrip]: executing diffoscope
+[2024-05-14 03:31:46] INFO root fetch - processPackages [btledstrip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btledstrip-0.1.1.tar.gz tmp/btledstrip-0.2.0.tar.gz --markdown 20240514/b/btledstrip/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-14 03:31:46] INFO root fetch - processPackages [bstk-notitia]: Downloading https://files.pythonhosted.org/packages/f3/86/e219dc455e84aa80c02482077e52504ff22d22aa27b310d5da3a72c26196/bstk_notitia-0.3.0.tar.gz
+[2024-05-14 03:31:46] INFO root fetch - processPackages [wagtail-editorjs]: executing diffoscope
+[2024-05-14 03:31:46] INFO root fetch - processPackages [wagtail-editorjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_editorjs-1.6.5rc1.tar.gz tmp/wagtail_editorjs-1.6.5rc2.tar.gz --markdown 20240514/w/wagtail-editorjs/1.6.5rc1-1.6.5rc2/README.md --exclude *.pyd
+[2024-05-14 03:31:46] INFO root fetch - processPackages [bstk-notitia]: executing diffoscope
+[2024-05-14 03:31:46] INFO root fetch - processPackages [bstk-notitia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bstk_notitia-0.2.1.tar.gz tmp/bstk_notitia-0.3.0.tar.gz --markdown 20240514/b/bstk-notitia/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-14 03:31:46] INFO root fetch - processPackages [goodest]: executing diffoscope
+[2024-05-14 03:31:46] INFO root fetch - processPackages [goodest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goodest-1.1.0.tar.gz tmp/goodest-1.2.0.tar.gz --markdown 20240514/g/goodest/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-14 03:31:47] INFO root fetch - processPackages [btledstrip]: Remove: archive file [/home/abi/fetcher/tmp/btledstrip-0.1.1.tar.gz]
+[2024-05-14 03:31:47] INFO root fetch - processPackages [btledstrip]: Remove: archive file [/home/abi/fetcher/tmp/btledstrip-0.2.0.tar.gz]
+[2024-05-14 03:31:47] INFO root fetch - main [MainThread]: End processing [btledstrip]: success
+[2024-05-14 03:31:47] INFO root fetch - processPackages [bstk-notitia]: Remove: archive file [/home/abi/fetcher/tmp/bstk_notitia-0.2.1.tar.gz]
+[2024-05-14 03:31:47] INFO root fetch - processPackages [bstk-notitia]: Remove: archive file [/home/abi/fetcher/tmp/bstk_notitia-0.3.0.tar.gz]
+[2024-05-14 03:31:47] INFO root fetch - main [MainThread]: End processing [bstk-notitia]: success
+[2024-05-14 03:31:47] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.5rc1.tar.gz]
+[2024-05-14 03:31:47] INFO root fetch - processPackages [wagtail-editorjs]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_editorjs-1.6.5rc2.tar.gz]
+[2024-05-14 03:31:47] INFO root fetch - main [MainThread]: End processing [wagtail-editorjs]: success
+[2024-05-14 03:32:01] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.20.29.tar.gz]
+[2024-05-14 03:32:01] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.32.tar.gz]
+[2024-05-14 03:32:01] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
+[2024-05-14 03:32:15] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.1.0.tar.gz]
+[2024-05-14 03:32:15] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.2.0.tar.gz]
+[2024-05-14 03:32:15] INFO root fetch - main [MainThread]: End processing [goodest]: success
+[2024-05-14 03:32:15] INFO root fetch - main [MainThread]: Store serial: [23194392]
