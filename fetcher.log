@@ -3014,3 +3014,48 @@
 [2024-05-14 02:33:41] INFO root fetch - processPackages [cssutils]: Remove: archive file [/home/abi/fetcher/tmp/cssutils-2.9.0.tar.gz]
 [2024-05-14 02:33:41] INFO root fetch - main [MainThread]: End processing [cssutils]: success
 [2024-05-14 02:33:41] INFO root fetch - main [MainThread]: Store serial: [23193044]
+[2024-05-14 02:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193044]
+[2024-05-14 02:35:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 02:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gwtm-api
+[2024-05-14 02:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poe-market-book
+[2024-05-14 02:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LLM-Toolbox
+[2024-05-14 02:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bauplan
+[2024-05-14 02:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: calra-cdk
+[2024-05-14 02:35:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ostiumz
+[2024-05-14 02:35:49] INFO root fetch - processPackages [gwtm-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 02:35:50] INFO root fetch - processPackages [gwtm-api]: Downloading https://files.pythonhosted.org/packages/42/ba/5647c072c7155cf43da5a83226233f36332db634c86b655b4b080766f391/gwtm_api-0.1.1.tar.gz
+[2024-05-14 02:35:50] INFO root fetch - processPackages [LLM-Toolbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 02:35:50] WARNING root fetch - processPackages [ostiumz]: Skipping, unable to determine old version
+[2024-05-14 02:35:50] INFO root fetch - main [MainThread]: End processing [ostiumz] error
+[2024-05-14 02:35:50] INFO root fetch - processPackages [calra-cdk]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-14 02:35:50] WARNING root fetch - processPackages [poe-market-book]: Skipping, unable to determine old version
+[2024-05-14 02:35:50] INFO root fetch - main [MainThread]: End processing [poe-market-book] error
+[2024-05-14 02:35:50] INFO root fetch - processPackages [bauplan]: New version: [0.0.3a99] Old Version: [0.0.3a98]
+[2024-05-14 02:35:50] INFO root fetch - processPackages [gwtm-api]: Downloading https://files.pythonhosted.org/packages/9f/df/59273c8ea844e197894ee1d8b66223e9c78014abcbb17a69f9c28a6a51b9/gwtm_api-0.1.2.tar.gz
+[2024-05-14 02:35:50] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/31/d3/b4543953079da290fe639f07c370f9d917f7f568a4a58e935a7d853580cb/LLM-Toolbox-0.1.8.tar.gz
+[2024-05-14 02:35:50] INFO root fetch - processPackages [calra-cdk]: Downloading https://files.pythonhosted.org/packages/c0/aa/2411691ad1566cb850055f61a43a358c0ac755f89202b24ada771f813bbb/calra_cdk-0.1.0-py3-none-any.whl
+[2024-05-14 02:35:50] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/85/15/20d89c1bcd5e00733e248397ee4046f32827c24be330deed927e9fc323ad/bauplan-0.0.3a98-py3-none-win_amd64.whl
+[2024-05-14 02:35:50] INFO root fetch - processPackages [gwtm-api]: executing diffoscope
+[2024-05-14 02:35:50] INFO root fetch - processPackages [gwtm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwtm_api-0.1.1.tar.gz tmp/gwtm_api-0.1.2.tar.gz --markdown 20240514/g/gwtm-api/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 02:35:50] INFO root fetch - processPackages [calra-cdk]: Downloading https://files.pythonhosted.org/packages/7f/92/88e6da2e3d67bf0123a960286cb9dfea8ee36758b517485ea7d1e2d888b2/calra_cdk-0.2.0-py3-none-any.whl
+[2024-05-14 02:35:50] INFO root fetch - processPackages [LLM-Toolbox]: Downloading https://files.pythonhosted.org/packages/4c/b3/d4c091e55aeefa7084789fdeb4decbb417bafdd6bf03521ddb95ad93da87/LLM-Toolbox-0.1.9.tar.gz
+[2024-05-14 02:35:50] INFO root fetch - processPackages [calra-cdk]: executing diffoscope
+[2024-05-14 02:35:50] INFO root fetch - processPackages [calra-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calra_cdk-0.1.0-py3-none-any.whl.zip tmp/calra_cdk-0.2.0-py3-none-any.whl.zip --markdown 20240514/c/calra-cdk/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-14 02:35:50] INFO root fetch - processPackages [LLM-Toolbox]: executing diffoscope
+[2024-05-14 02:35:50] INFO root fetch - processPackages [LLM-Toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LLM-Toolbox-0.1.8.tar.gz tmp/LLM-Toolbox-0.1.9.tar.gz --markdown 20240514/L/LLM-Toolbox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 02:35:50] INFO root fetch - processPackages [gwtm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwtm_api-0.1.1.tar.gz]
+[2024-05-14 02:35:50] INFO root fetch - processPackages [gwtm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwtm_api-0.1.2.tar.gz]
+[2024-05-14 02:35:50] INFO root fetch - main [MainThread]: End processing [gwtm-api]: success
+[2024-05-14 02:35:51] INFO root fetch - processPackages [bauplan]: Downloading https://files.pythonhosted.org/packages/23/8b/70ca9196e9ab95cc954089482ad31add486cddb9566cd3de6f70ff677781/bauplan-0.0.3a99-py3-none-win_amd64.whl
+[2024-05-14 02:35:51] INFO root fetch - processPackages [calra-cdk]: Remove: archive file [/home/abi/fetcher/tmp/calra_cdk-0.1.0-py3-none-any.whl.zip]
+[2024-05-14 02:35:51] INFO root fetch - processPackages [calra-cdk]: Remove: archive file [/home/abi/fetcher/tmp/calra_cdk-0.2.0-py3-none-any.whl.zip]
+[2024-05-14 02:35:51] INFO root fetch - main [MainThread]: End processing [calra-cdk]: success
+[2024-05-14 02:35:51] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.8.tar.gz]
+[2024-05-14 02:35:51] INFO root fetch - processPackages [LLM-Toolbox]: Remove: archive file [/home/abi/fetcher/tmp/LLM-Toolbox-0.1.9.tar.gz]
+[2024-05-14 02:35:51] INFO root fetch - main [MainThread]: End processing [LLM-Toolbox]: success
+[2024-05-14 02:35:54] INFO root fetch - processPackages [bauplan]: executing diffoscope
+[2024-05-14 02:35:54] INFO root fetch - processPackages [bauplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip --markdown 20240514/b/bauplan/0.0.3a98-0.0.3a99/README.md --exclude *.pyd
+[2024-05-14 02:36:46] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a98-py3-none-win_amd64.whl.zip]
+[2024-05-14 02:36:46] INFO root fetch - processPackages [bauplan]: Remove: archive file [/home/abi/fetcher/tmp/bauplan-0.0.3a99-py3-none-win_amd64.whl.zip]
+[2024-05-14 02:36:46] INFO root fetch - main [MainThread]: End processing [bauplan]: success
+[2024-05-14 02:36:46] INFO root fetch - main [MainThread]: Store serial: [23193067]
