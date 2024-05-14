@@ -15955,3 +15955,69 @@
 [2024-05-14 10:50:25] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-14 10:50:25] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-14 10:50:25] INFO root fetch - main [MainThread]: Store serial: [23198308]
+[2024-05-14 10:52:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198308]
+[2024-05-14 10:52:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: precommend
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: messages-local
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: transstellar
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytest-fluent
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spiakid-simulation
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-ddmrp
+[2024-05-14 10:52:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-kookit
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-kookit]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [messages-local]: New version: [0.0.56] Old Version: [0.0.55]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.8.0] Old Version: [16.0.1.7.4]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [spiakid-simulation]: New version: [1.21] Old Version: [1.20]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [transstellar]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [precommend]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-fluent]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-14 10:52:41] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/01/8f/143bac4eb140429277c3555f56a07dd24578f82d0c19c78610a3c6abcd19/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/f1/56/6a92e5558d6ae10774ab13f87e9010cbd50e1b2c8550492a4a76f7d551d3/pytest_kookit-0.0.2.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/75/1c/7cbbf90368d57e16da07f959840894304e8c9902602d4f7e5cda76233189/messages_local-0.0.55.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/54/da/21ffc7f9e230f0ccda43135ee8a96184e523396e7c2e439212b03f565d22/transstellar-2.0.0.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-fluent]: Downloading https://files.pythonhosted.org/packages/1c/a9/5e749d7036a4fa23c17a6d05df46ab9195e12dca359a8ee2b6ac8b9116e0/pytest-fluent-0.2.0.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/c8/e2/bd2a28d20fc88d276a15faed5bb99d00a1614bf6df235e6f0cf10a798286/spiakid-simulation-1.20.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/d5/09/53958a48fe24f7db23df55542f3a71ce9746749c8db239c270734143545d/precommend-0.3.1.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/73/40/3fd9b299cc8700945aa4ea39da67f3eecd8d8c960349c808b7026de710c2/pytest_kookit-0.1.0.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/e5/89/d16c7bb3ed1755e6b4624d77a5e7f06f586bae62d4e593b8b6ede8966426/messages_local-0.0.56.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-kookit]: executing diffoscope
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-kookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_kookit-0.0.2.tar.gz tmp/pytest_kookit-0.1.0.tar.gz --markdown 20240514/p/pytest-kookit/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-14 10:52:41] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/73/ae/82c325e14a5493a603200498b5750a6471c79fb983e390fec9193c0ab1a1/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl
+[2024-05-14 10:52:41] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-14 10:52:41] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.55.tar.gz tmp/messages_local-0.0.56.tar.gz --markdown 20240514/m/messages-local/0.0.55-0.0.56/README.md --exclude *.pyd
+[2024-05-14 10:52:41] INFO root fetch - processPackages [transstellar]: Downloading https://files.pythonhosted.org/packages/52/9b/c30d0dd2e90915f20984c3b882d715563bbb2b44108eb3cef6cb68b107c5/transstellar-2.0.1.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-fluent]: Downloading https://files.pythonhosted.org/packages/53/d9/ae0280c2775e6ac2f4495055096887fe8607d629d4f83e865cb6802b9668/pytest_fluent-0.3.0.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [precommend]: Downloading https://files.pythonhosted.org/packages/35/98/fcedd02959f09fc8384aa9f7fc2654376e834303b9aa2b8f01a2d2d4f9bd/precommend-0.3.2.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-14 10:52:41] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-ddmrp/16.0.1.7.4-16.0.1.8.0/README.md --exclude *.pyd
+[2024-05-14 10:52:41] INFO root fetch - processPackages [spiakid-simulation]: Downloading https://files.pythonhosted.org/packages/e4/db/0571dd3a3a8718b2e71753798597909b183ceeb54040b76c83d615736944/spiakid_simulation-1.21.tar.gz
+[2024-05-14 10:52:41] INFO root fetch - processPackages [precommend]: executing diffoscope
+[2024-05-14 10:52:41] INFO root fetch - processPackages [precommend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/precommend-0.3.1.tar.gz tmp/precommend-0.3.2.tar.gz --markdown 20240514/p/precommend/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 10:52:41] INFO root fetch - processPackages [transstellar]: executing diffoscope
+[2024-05-14 10:52:41] INFO root fetch - processPackages [transstellar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar-2.0.0.tar.gz tmp/transstellar-2.0.1.tar.gz --markdown 20240514/t/transstellar/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-fluent]: executing diffoscope
+[2024-05-14 10:52:41] INFO root fetch - processPackages [pytest-fluent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-fluent-0.2.0.tar.gz tmp/pytest_fluent-0.3.0.tar.gz --markdown 20240514/p/pytest-fluent/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-14 10:52:42] INFO root fetch - processPackages [spiakid-simulation]: executing diffoscope
+[2024-05-14 10:52:42] INFO root fetch - processPackages [spiakid-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiakid-simulation-1.20.tar.gz tmp/spiakid_simulation-1.21.tar.gz --markdown 20240514/s/spiakid-simulation/1.20-1.21/README.md --exclude *.pyd
+[2024-05-14 10:52:42] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.55.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.56.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-14 10:52:42] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.0.2.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.0.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - main [MainThread]: End processing [pytest-kookit]: success
+[2024-05-14 10:52:42] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.3.1.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - processPackages [precommend]: Remove: archive file [/home/abi/fetcher/tmp/precommend-0.3.2.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - main [MainThread]: End processing [precommend]: success
+[2024-05-14 10:52:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.0.0.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - processPackages [transstellar]: Remove: archive file [/home/abi/fetcher/tmp/transstellar-2.0.1.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - main [MainThread]: End processing [transstellar]: success
+[2024-05-14 10:52:42] INFO root fetch - processPackages [pytest-fluent]: Remove: archive file [/home/abi/fetcher/tmp/pytest-fluent-0.2.0.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - processPackages [pytest-fluent]: Remove: archive file [/home/abi/fetcher/tmp/pytest_fluent-0.3.0.tar.gz]
+[2024-05-14 10:52:42] INFO root fetch - main [MainThread]: End processing [pytest-fluent]: success
+[2024-05-14 10:52:43] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip]
+[2024-05-14 10:52:43] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.8.0-py3-none-any.whl.zip]
+[2024-05-14 10:52:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-14 10:52:43] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid-simulation-1.20.tar.gz]
+[2024-05-14 10:52:43] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.21.tar.gz]
+[2024-05-14 10:52:43] INFO root fetch - main [MainThread]: End processing [spiakid-simulation]: success
+[2024-05-14 10:52:43] INFO root fetch - main [MainThread]: Store serial: [23198326]
