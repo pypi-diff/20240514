@@ -10128,3 +10128,15 @@
 [2024-05-14 06:37:29] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-8.2.2.tar.gz]
 [2024-05-14 06:37:29] INFO root fetch - main [MainThread]: End processing [volstreet]: success
 [2024-05-14 06:37:29] INFO root fetch - main [MainThread]: Store serial: [23195715]
+[2024-05-14 06:39:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195715]
+[2024-05-14 06:39:43] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 06:39:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indexnetwork-sdk
+[2024-05-14 06:39:43] INFO root fetch - processPackages [indexnetwork-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 06:39:43] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/7a/d9/ae82f15188d6b01e5c0503eb584a51c00fd0caf2b0aec53a9a01079db267/indexnetwork_sdk-0.0.3.tar.gz
+[2024-05-14 06:39:43] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/82/a4/9f81284db4219081c7ea8d55270d90bd058ae77dc33a16449ad1e2294db4/indexnetwork_sdk-0.0.4.tar.gz
+[2024-05-14 06:39:44] INFO root fetch - processPackages [indexnetwork-sdk]: executing diffoscope
+[2024-05-14 06:39:44] INFO root fetch - processPackages [indexnetwork-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnetwork_sdk-0.0.3.tar.gz tmp/indexnetwork_sdk-0.0.4.tar.gz --markdown 20240514/i/indexnetwork-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 06:39:44] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.3.tar.gz]
+[2024-05-14 06:39:44] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.4.tar.gz]
+[2024-05-14 06:39:44] INFO root fetch - main [MainThread]: End processing [indexnetwork-sdk]: success
+[2024-05-14 06:39:44] INFO root fetch - main [MainThread]: Store serial: [23195718]
