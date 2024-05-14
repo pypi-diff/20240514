@@ -11997,3 +11997,51 @@
 [2024-05-14 08:28:05] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-1.0.0b1.tar.gz]
 [2024-05-14 08:28:05] INFO root fetch - main [MainThread]: End processing [scorecard-ai]: success
 [2024-05-14 08:28:05] INFO root fetch - main [MainThread]: Store serial: [23196554]
+[2024-05-14 08:30:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196554]
+[2024-05-14 08:30:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cancer-simulation
+[2024-05-14 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbgear
+[2024-05-14 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartboiler
+[2024-05-14 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fresh-bakery
+[2024-05-14 08:30:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: donware
+[2024-05-14 08:30:13] INFO root fetch - processPackages [cancer-simulation]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-14 08:30:13] INFO root fetch - processPackages [donware]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 08:30:13] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/61/18/d7cc8f28919af4aa4a395af41bda28b512e74bc3fac1c6e9c69778402a44/cancer_simulation-0.7.3.tar.gz
+[2024-05-14 08:30:13] INFO root fetch - processPackages [fresh-bakery]: New version: [0.3.5] Old Version: [0.3.3]
+[2024-05-14 08:30:13] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/ad/39/3cdff644cb31b04ce2c20abf33a2e1a19edbefbec627c21f872f949a46d5/donware-0.1.4.tar.gz
+[2024-05-14 08:30:13] INFO root fetch - processPackages [smartboiler]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 08:30:13] INFO root fetch - processPackages [dbgear]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 08:30:14] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/2d/c2/dc89e91f7ffd8e8e6180b2f3389f5b6dacdebaaf0e9e48738354ac0e1590/smartboiler-0.1.8.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [fresh-bakery]: Downloading https://files.pythonhosted.org/packages/35/5a/34480584e526f45a0a59097d3a8c5e96db1530dd6c956048df6e56abcea7/fresh_bakery-0.3.3.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/9f/10/570273f9f34a4ec34a2041efebabd687595f5462e3382f83da3d028f89bc/dbgear-0.8.0.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/a6/0a/a8e4cde181b0bfbfcf57e0dcac9fcee6994ec03f749e5125d3e59f5f28c5/cancer_simulation-0.7.4.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/2e/0b/6cb3b567f89569a60b52c772445e1721c0040d733bbfc99b6e8e5ec19613/smartboiler-0.1.9.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/69/f7/e85fdfeb54f5f4eeb02d051301244edc2817718f5aced677fa32a4bb892d/donware-0.1.5.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [cancer-simulation]: executing diffoscope
+[2024-05-14 08:30:14] INFO root fetch - processPackages [cancer-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancer_simulation-0.7.3.tar.gz tmp/cancer_simulation-0.7.4.tar.gz --markdown 20240514/c/cancer-simulation/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-14 08:30:14] INFO root fetch - processPackages [donware]: executing diffoscope
+[2024-05-14 08:30:14] INFO root fetch - processPackages [donware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donware-0.1.4.tar.gz tmp/donware-0.1.5.tar.gz --markdown 20240514/d/donware/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 08:30:14] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-14 08:30:14] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.1.8.tar.gz tmp/smartboiler-0.1.9.tar.gz --markdown 20240514/s/smartboiler/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 08:30:14] INFO root fetch - processPackages [fresh-bakery]: Downloading https://files.pythonhosted.org/packages/97/ce/ddb726c84d1fe65f5c9f4b0967e49c6f99f882303a2950bad93b752bf0bc/fresh_bakery-0.3.5.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [dbgear]: Downloading https://files.pythonhosted.org/packages/5d/24/4e0120970a3c9e25945265b4b81efe98b9176ff9b6ee67596d8a53c7d4b7/dbgear-0.9.0.tar.gz
+[2024-05-14 08:30:14] INFO root fetch - processPackages [fresh-bakery]: executing diffoscope
+[2024-05-14 08:30:14] INFO root fetch - processPackages [fresh-bakery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fresh_bakery-0.3.3.tar.gz tmp/fresh_bakery-0.3.5.tar.gz --markdown 20240514/f/fresh-bakery/0.3.3-0.3.5/README.md --exclude *.pyd
+[2024-05-14 08:30:14] INFO root fetch - processPackages [dbgear]: executing diffoscope
+[2024-05-14 08:30:14] INFO root fetch - processPackages [dbgear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbgear-0.8.0.tar.gz tmp/dbgear-0.9.0.tar.gz --markdown 20240514/d/dbgear/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 08:30:15] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.4.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.5.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - main [MainThread]: End processing [donware]: success
+[2024-05-14 08:30:15] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.3.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.4.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - main [MainThread]: End processing [cancer-simulation]: success
+[2024-05-14 08:30:15] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.8.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.9.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-14 08:30:15] INFO root fetch - processPackages [fresh-bakery]: Remove: archive file [/home/abi/fetcher/tmp/fresh_bakery-0.3.3.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - processPackages [fresh-bakery]: Remove: archive file [/home/abi/fetcher/tmp/fresh_bakery-0.3.5.tar.gz]
+[2024-05-14 08:30:15] INFO root fetch - main [MainThread]: End processing [fresh-bakery]: success
+[2024-05-14 08:31:36] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.8.0.tar.gz]
+[2024-05-14 08:31:36] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
+[2024-05-14 08:31:36] INFO root fetch - main [MainThread]: End processing [dbgear]: success
+[2024-05-14 08:31:36] INFO root fetch - main [MainThread]: Store serial: [23196569]
