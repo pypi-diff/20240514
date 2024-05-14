@@ -7491,3 +7491,33 @@
 [2024-05-14 03:36:39] INFO root fetch - processPackages [spakky-core]: Remove: archive file [/home/abi/fetcher/tmp/spakky_core-0.7.9.tar.gz]
 [2024-05-14 03:36:39] INFO root fetch - main [MainThread]: End processing [spakky-core]: success
 [2024-05-14 03:36:39] INFO root fetch - main [MainThread]: Store serial: [23194546]
+[2024-05-14 03:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194546]
+[2024-05-14 03:38:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 03:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: otpcr
+[2024-05-14 03:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idemlib
+[2024-05-14 03:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: resend
+[2024-05-14 03:38:48] INFO root fetch - processPackages [otpcr]: New version: [9] Old Version: [8]
+[2024-05-14 03:38:48] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/37/0b/8bd06d4112258b1b2c7a9453b3a01eae742c0312cd1f9fdac10d84e634b6/otpcr-8.tar.gz
+[2024-05-14 03:38:48] INFO root fetch - processPackages [resend]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 03:38:48] INFO root fetch - processPackages [idemlib]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 03:38:49] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/a5/d4/aa260befd492b5a18f2e0144e26ffaff9975439166b1ce6b89404c69a984/resend-1.0.1.tar.gz
+[2024-05-14 03:38:49] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/54/7e/af8cf1cb765a2f3cb2416931b8e932571cea62c675981c5a5ae52fc76702/otpcr-9.tar.gz
+[2024-05-14 03:38:49] INFO root fetch - processPackages [idemlib]: Downloading https://files.pythonhosted.org/packages/0e/39/44724e548112ac6eaac8fd0e418048fa888c5f7893bfdbbfcd646587c6c1/idemlib-0.1.5.tar.gz
+[2024-05-14 03:38:49] INFO root fetch - processPackages [resend]: Downloading https://files.pythonhosted.org/packages/d9/5d/6ea912d2d6e02802751e4341913ff07d47ba57ffd9938d70b1c097776a12/resend-1.0.2.tar.gz
+[2024-05-14 03:38:49] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-05-14 03:38:49] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-8.tar.gz tmp/otpcr-9.tar.gz --markdown 20240514/o/otpcr/8-9/README.md --exclude *.pyd
+[2024-05-14 03:38:49] INFO root fetch - processPackages [idemlib]: Downloading https://files.pythonhosted.org/packages/c5/47/19759601f04e2c4184410db638ff6ca498851f4a269d1d15113bb60c2524/idemlib-0.1.6.tar.gz
+[2024-05-14 03:38:49] INFO root fetch - processPackages [resend]: executing diffoscope
+[2024-05-14 03:38:49] INFO root fetch - processPackages [resend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resend-1.0.1.tar.gz tmp/resend-1.0.2.tar.gz --markdown 20240514/r/resend/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 03:38:49] INFO root fetch - processPackages [idemlib]: executing diffoscope
+[2024-05-14 03:38:49] INFO root fetch - processPackages [idemlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idemlib-0.1.5.tar.gz tmp/idemlib-0.1.6.tar.gz --markdown 20240514/i/idemlib/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 03:38:50] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-8.tar.gz]
+[2024-05-14 03:38:50] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-9.tar.gz]
+[2024-05-14 03:38:50] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-05-14 03:38:50] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-1.0.1.tar.gz]
+[2024-05-14 03:38:50] INFO root fetch - processPackages [resend]: Remove: archive file [/home/abi/fetcher/tmp/resend-1.0.2.tar.gz]
+[2024-05-14 03:38:50] INFO root fetch - main [MainThread]: End processing [resend]: success
+[2024-05-14 03:38:50] INFO root fetch - processPackages [idemlib]: Remove: archive file [/home/abi/fetcher/tmp/idemlib-0.1.5.tar.gz]
+[2024-05-14 03:38:50] INFO root fetch - processPackages [idemlib]: Remove: archive file [/home/abi/fetcher/tmp/idemlib-0.1.6.tar.gz]
+[2024-05-14 03:38:50] INFO root fetch - main [MainThread]: End processing [idemlib]: success
+[2024-05-14 03:38:50] INFO root fetch - main [MainThread]: Store serial: [23194612]
