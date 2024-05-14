@@ -14860,3 +14860,84 @@
 [2024-05-14 10:18:22] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.1.tar.gz]
 [2024-05-14 10:18:22] INFO root fetch - main [MainThread]: End processing [nova]: success
 [2024-05-14 10:18:22] INFO root fetch - main [MainThread]: Store serial: [23197799]
+[2024-05-14 10:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197799]
+[2024-05-14 10:20:38] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: download-center
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graas-observability-utility
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xsuite
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bdup
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TreeSAK
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyTelegramBotAPI
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phenomApis
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcw-finder
+[2024-05-14 10:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gentoo-cache-manager
+[2024-05-14 10:20:38] INFO root fetch - processPackages [download-center]: New version: [5.3.3] Old Version: [5.3.2]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [pyTelegramBotAPI]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-14 10:20:38] INFO root fetch - processPackages [xsuite]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-14 10:20:38] ERROR root fetch - processPackages [gentoo-cache-manager]: Unable to get metadata: No such project 'gentoo-cache-manager'
+[2024-05-14 10:20:38] INFO root fetch - main [MainThread]: End processing [gentoo-cache-manager] error
+[2024-05-14 10:20:38] WARNING root fetch - processPackages [bdup]: Skipping, unable to determine old version
+[2024-05-14 10:20:38] INFO root fetch - main [MainThread]: End processing [bdup] error
+[2024-05-14 10:20:38] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 10:20:38] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-14 10:20:38] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/35/e7/672c8283ca92e4d7236866f44e76fcd344ade7c5a159aa244e69bce6bad1/graas-observability-utility-1.6.3.tar.gz
+[2024-05-14 10:20:38] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/78/45/90a99259a5b3b1b15d8d96ae0716918ab62826c939976588a67283187a4d/download-center-5.3.2.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/f0/df/5ebca898443ec7082cc18dc2d146ac831db32a0db9f3eb249f335f586544/xsuite-0.9.3.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [pyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/69/bb/82ca44b25038344d807eee1f0022df33c786bad73f31505618ee1dee5167/pyTelegramBotAPI-4.8.0.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/d7/86/368c26ba8b14993b9f16c4ff7fd20f2ed35a7cdecd7d65de7d299cc72385/graas-observability-utility-1.6.4.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [download-center]: Downloading https://files.pythonhosted.org/packages/8a/65/583e78ab26ee02f762ff9d1b2d47a8ff5fef3b138b60f1af81c72b4f6433/download-center-5.3.3.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240514/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:20:39] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.6.3.tar.gz tmp/graas-observability-utility-1.6.4.tar.gz --markdown 20240514/g/graas-observability-utility/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-05-14 10:20:39] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:20:39] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240514/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-14 10:20:39] INFO root fetch - processPackages [download-center]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [download-center]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/download-center-5.3.2.tar.gz tmp/download-center-5.3.3.tar.gz --markdown 20240514/d/download-center/5.3.2-5.3.3/README.md --exclude *.pyd
+[2024-05-14 10:20:39] INFO root fetch - processPackages [pyTelegramBotAPI]: Downloading https://files.pythonhosted.org/packages/2e/6b/b3eaedc0a004c7a04a4b9ca941d38d0f94be4e9847dd537830a47218f436/pyTelegramBotAPI-4.9.0.tar.gz
+[2024-05-14 10:20:39] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-14 10:20:39] INFO root fetch - processPackages [pyTelegramBotAPI]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [pyTelegramBotAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyTelegramBotAPI-4.8.0.tar.gz tmp/pyTelegramBotAPI-4.9.0.tar.gz --markdown 20240514/p/pyTelegramBotAPI/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-14 10:20:39] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-14 10:20:39] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240514/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-14 10:20:40] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 10:20:40] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.3.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.4.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-05-14 10:20:40] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-14 10:20:40] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.2.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - processPackages [download-center]: Remove: archive file [/home/abi/fetcher/tmp/download-center-5.3.3.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - main [MainThread]: End processing [download-center]: success
+[2024-05-14 10:20:40] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-14 10:20:40] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-14 10:20:41] INFO root fetch - processPackages [pyTelegramBotAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyTelegramBotAPI-4.8.0.tar.gz]
+[2024-05-14 10:20:41] INFO root fetch - processPackages [pyTelegramBotAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyTelegramBotAPI-4.9.0.tar.gz]
+[2024-05-14 10:20:41] INFO root fetch - main [MainThread]: End processing [pyTelegramBotAPI]: success
+[2024-05-14 10:20:41] INFO root fetch - processPackages [xsuite]: Downloading https://files.pythonhosted.org/packages/14/d6/77d70a5f579f2cb19579161cb29bfea0f48d009fcc0a6120dc14f1d09f91/xsuite-0.9.4.tar.gz
+[2024-05-14 10:20:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-14 10:20:41] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-14 10:20:41] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-14 10:20:41] INFO root fetch - processPackages [xsuite]: executing diffoscope
+[2024-05-14 10:20:41] INFO root fetch - processPackages [xsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xsuite-0.9.3.tar.gz tmp/xsuite-0.9.4.tar.gz --markdown 20240514/x/xsuite/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-14 10:20:43] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.3.tar.gz]
+[2024-05-14 10:20:43] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.4.tar.gz]
+[2024-05-14 10:20:43] INFO root fetch - main [MainThread]: End processing [xsuite]: success
+[2024-05-14 10:20:43] INFO root fetch - main [MainThread]: Store serial: [23197842]
