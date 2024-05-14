@@ -16523,3 +16523,87 @@
 [2024-05-14 11:10:01] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.4.0-py3-none-win_amd64.whl.zip]
 [2024-05-14 11:10:01] INFO root fetch - main [MainThread]: End processing [lwk]: success
 [2024-05-14 11:10:01] INFO root fetch - main [MainThread]: Store serial: [23198542]
+[2024-05-14 11:12:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198542]
+[2024-05-14 11:12:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conetwork-test
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonar-api-wrapper
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdmc
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpf-and-cnpj-generator
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: general-utils-juan-palma-borda
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taibun
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dcw-finder
+[2024-05-14 11:12:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: saes6-jerry
+[2024-05-14 11:12:34] INFO root fetch - processPackages [sonar-api-wrapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [general-utils-juan-palma-borda]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [cpf-and-cnpj-generator]: New version: [0.0.0.1] Old Version: [0.0.0]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [bdmc]: New version: [0.1.5.2] Old Version: [0.1.5.1]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 11:12:34] INFO root fetch - processPackages [taibun]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-14 11:12:34] INFO root fetch - processPackages [sonar-api-wrapper]: Downloading https://files.pythonhosted.org/packages/21/43/983f575d054f582b6dac2202fedf8cefca2a168294d640406f1d39a024c1/sonar_api_wrapper-1.1.0-py3-none-any.whl
+[2024-05-14 11:12:34] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/bb/f4/c70c495db87779f42f446b01cd86ab7cf0afba16feabbc9f316f5e1c31d7/conetwork_test-0.1.6.tar.gz
+[2024-05-14 11:12:34] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/b4/ce/3decc3acac5ca336959e072ed97c88c106f9571dfe0e67989513fe8e4728/general-utils-juan-palma-borda-0.2.0.tar.gz
+[2024-05-14 11:12:34] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/db/aa/2c25183fe927526fd6a795db1ca5ae69bac03c5d43729661e91aca65b256/bdmc-0.1.5.1.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Downloading https://files.pythonhosted.org/packages/51/e2/5ebf3aa68cd501e6f46da2fa5ff91e0a91df8fc727bef5a44c6cc47262c8/cpf_and_cnpj_generator-0.0.0.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/d4/d1/4c3c70afef2528484ac54a7b5a17ec7ebf1e59972e9031edf1a021cd1064/nonebot_plugin_tetris_stats-1.2.0.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/93/9e/e79d5355d7e3b121b21eea2eacf1d4a6378c3c4f6bcb26cb100f86b86048/saes6-jerry-0.0.1.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/27/3b/27e704d02c857ea6c531e6e6bc595736c6cec6ee6bfd898ea4fd7ecd11b0/taibun-1.1.1.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [sonar-api-wrapper]: Downloading https://files.pythonhosted.org/packages/e8/65/f10a06377d5752ace3776f3786fd2c7d5130b390413e2765d202c773530d/sonar_api_wrapper-1.1.1-py3-none-any.whl
+[2024-05-14 11:12:35] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/5f/f2/f795443747cf1ab3b94301ffa7542b112b823958f4775a0c6119050ed118/general_utils_juan_palma_borda-0.2.1.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/7a/cc/4d0be88d6555189e32c7b450114003f4cc2d2895a5cbee87258b3b1af0be/bdmc-0.1.5.2.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Downloading https://files.pythonhosted.org/packages/26/ba/2c1c483ad47d2d61a5f0459bff7276cd4f2b63dd3870734562a904392077/cpf_and_cnpj_generator-0.0.0.1.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/39/11/e2db1b404b33342c96b96471cb9597d68f097c73e2a02fdd08e6474df4b0/conetwork_test-0.1.7.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [sonar-api-wrapper]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [sonar-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_api_wrapper-1.1.0-py3-none-any.whl.zip tmp/sonar_api_wrapper-1.1.1-py3-none-any.whl.zip --markdown 20240514/s/sonar-api-wrapper/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [general-utils-juan-palma-borda]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [general-utils-juan-palma-borda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general-utils-juan-palma-borda-0.2.0.tar.gz tmp/general_utils_juan_palma_borda-0.2.1.tar.gz --markdown 20240514/g/general-utils-juan-palma-borda/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/e7/cd/b75a083577974ce8b9accb8f86fa6cc4f3ae243d6d7271e88ca7245ad537/nonebot_plugin_tetris_stats-1.2.1.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.5.1.tar.gz tmp/bdmc-0.1.5.2.tar.gz --markdown 20240514/b/bdmc/0.1.5.1-0.1.5.2/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpf_and_cnpj_generator-0.0.0.tar.gz tmp/cpf_and_cnpj_generator-0.0.0.1.tar.gz --markdown 20240514/c/cpf-and-cnpj-generator/0.0.0-0.0.0.1/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/aa/2c/bf36da6354e9bc1fac780b1fa9048f1939588715c918e3b3d92b6e325f43/saes6-jerry-0.0.2.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.6.tar.gz tmp/conetwork_test-0.1.7.tar.gz --markdown 20240514/c/conetwork-test/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.2.0.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.1.tar.gz --markdown 20240514/n/nonebot-plugin-tetris-stats/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [taibun]: Downloading https://files.pythonhosted.org/packages/f9/08/d8a7ba1be22b7f821789887fa05ae64621490f0bd68f8326f1ca7e904c9a/taibun-1.1.2.tar.gz
+[2024-05-14 11:12:35] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.1.tar.gz tmp/saes6-jerry-0.0.2.tar.gz --markdown 20240514/s/saes6-jerry/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 11:12:35] INFO root fetch - processPackages [taibun]: executing diffoscope
+[2024-05-14 11:12:35] INFO root fetch - processPackages [taibun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taibun-1.1.1.tar.gz tmp/taibun-1.1.2.tar.gz --markdown 20240514/t/taibun/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-14 11:12:36] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Remove: archive file [/home/abi/fetcher/tmp/general-utils-juan-palma-borda-0.2.0.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Remove: archive file [/home/abi/fetcher/tmp/cpf_and_cnpj_generator-0.0.0.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Remove: archive file [/home/abi/fetcher/tmp/cpf_and_cnpj_generator-0.0.0.1.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Remove: archive file [/home/abi/fetcher/tmp/general_utils_juan_palma_borda-0.2.1.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [cpf-and-cnpj-generator]: success
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [general-utils-juan-palma-borda]: success
+[2024-05-14 11:12:36] INFO root fetch - processPackages [sonar-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/sonar_api_wrapper-1.1.0-py3-none-any.whl.zip]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [sonar-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/sonar_api_wrapper-1.1.1-py3-none-any.whl.zip]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [sonar-api-wrapper]: success
+[2024-05-14 11:12:36] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 11:12:36] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.1.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.2.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-05-14 11:12:36] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.1.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.2.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-14 11:12:36] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.0.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.1.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-14 11:12:36] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.6.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.7.tar.gz]
+[2024-05-14 11:12:36] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:12:37] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-1.1.1.tar.gz]
+[2024-05-14 11:12:37] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-1.1.2.tar.gz]
+[2024-05-14 11:12:37] INFO root fetch - main [MainThread]: End processing [taibun]: success
+[2024-05-14 11:12:37] INFO root fetch - main [MainThread]: Store serial: [23198574]
