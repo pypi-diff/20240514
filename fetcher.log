@@ -13805,3 +13805,92 @@
 [2024-05-14 09:43:23] INFO root fetch - processPackages [stonefish-code-shield]: Remove: archive file [/home/abi/fetcher/tmp/stonefish_code_shield-0.3.47-py3-none-any.whl.zip]
 [2024-05-14 09:43:23] INFO root fetch - main [MainThread]: End processing [stonefish-code-shield]: success
 [2024-05-14 09:43:23] INFO root fetch - main [MainThread]: Store serial: [23197290]
+[2024-05-14 09:45:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197290]
+[2024-05-14 09:45:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blackfire
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conetwork-test
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uglychain
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: weaverbird
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipecat-ai
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccs-digitalmarketplace-utils
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-uc-tools
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: exposedfunctionality
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rush-py
+[2024-05-14 09:45:34] INFO root fetch - processPackages [rush-py]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [exposedfunctionality]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [pipecat-ai]: New version: [0.0.9] Old Version: [0.0.10]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [blackfire]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [python-uc-tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.4] Old Version: [16.0.1.7.3.1]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc4] Old Version: [66.0.0rc3]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [rush-py]: Downloading https://files.pythonhosted.org/packages/26/66/76313b36659e2cfb0d5f63fd6fb7e0eaf936534e23def9489c7514d72c95/rush_py-3.0.2.tar.gz
+[2024-05-14 09:45:34] INFO root fetch - processPackages [uglychain]: New version: [0.1.9.post5] Old Version: [0.1.9.post4]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [weaverbird]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-05-14 09:45:34] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/29/07/8864ee6b516f26b087bca4a904ba081bcd694986a04184608450f109b39d/conetwork_test-0.1.1.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [pipecat-ai]: Downloading https://files.pythonhosted.org/packages/1e/e6/b29ac2ccd2c98cf88623729ff53583dec36f89cffdb63741ae4575bc9fb9/pipecat_ai-0.0.10.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/64/65/c3cdb7e4097093b1a2bddd6fa2147b88c0d2018fe1cb7ffbbe75a79213c1/blackfire-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-14 09:45:35] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/44/e1/17ba8a023b98004a2546d608d41148ae8d7e4842aebdbab90ffe71c70db5/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl
+[2024-05-14 09:45:35] INFO root fetch - processPackages [python-uc-tools]: Downloading https://files.pythonhosted.org/packages/93/6a/f3a49c216fba734a06a214a8ce533312bd0abbed5644718a890a2840f204/python_uc_tools-0.1.0.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [uglychain]: Downloading https://files.pythonhosted.org/packages/13/39/14732c80d3f5d8c27138a47efc5300b27a9d3018ff04b8eafffde89f2162/uglychain-0.1.9.post4.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/76/e7/82f70a6edf35dc747854d12e3393b503eeed383fea4764f9b9967115e741/ccs-digitalmarketplace-utils-66.0.0rc3.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/13/d4/a67794d24aede09e2291acd8527a2687b1bb832998e72426432346f1c29b/weaverbird-0.8.9.tar.gz
+[2024-05-14 09:45:35] WARNING root fetch - processPackages [pipecat-ai]: Skipping package: exceeds size limit 63266887>=10485760
+[2024-05-14 09:45:35] INFO root fetch - main [MainThread]: End processing [pipecat-ai] error
+[2024-05-14 09:45:35] INFO root fetch - processPackages [exposedfunctionality]: Downloading https://files.pythonhosted.org/packages/d9/da/bd28584c88c6952b6adadd60819a3b4e22735ee072b2b63bcc0b10d2e76d/exposedfunctionality-0.3.5.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [rush-py]: Downloading https://files.pythonhosted.org/packages/1f/8d/f045f39de9a5c27b4eecd4f58ae11e164662758ae29f08e498219a6901d3/rush_py-3.0.3.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/b5/df/a867baac8bc5a1c356bedaa9e4dda6fdded40a0eb2c4cf9ac1f171c7a405/conetwork_test-0.1.2.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/f1/2f/c549ec10aabd1e91b0f61f993249914c2e2876bcbecbe0475d78319d32ab/blackfire-1.9.1-cp39-cp39-win_amd64.whl
+[2024-05-14 09:45:35] INFO root fetch - processPackages [rush-py]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [rush-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rush_py-3.0.2.tar.gz tmp/rush_py-3.0.3.tar.gz --markdown 20240514/r/rush-py/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/01/8f/143bac4eb140429277c3555f56a07dd24578f82d0c19c78610a3c6abcd19/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl
+[2024-05-14 09:45:35] INFO root fetch - processPackages [python-uc-tools]: Downloading https://files.pythonhosted.org/packages/90/af/58cf0f4e4c601c43d2f77fcdaa0fa30d05e5a79e72746e15589d55854115/python_uc_tools-0.2.0.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [blackfire]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [blackfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240514/b/blackfire/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [weaverbird]: Downloading https://files.pythonhosted.org/packages/7d/6c/1b304fa798ee7d82dbc5bc587a90653cc03647f25d1c498a0020b52a5f78/weaverbird-0.9.0.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [uglychain]: Downloading https://files.pythonhosted.org/packages/d1/f6/ff617d97ff7d3f602601d1076d41a96213917f7af05c69d091560156657c/uglychain-0.1.9.post5.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.1.tar.gz tmp/conetwork_test-0.1.2.tar.gz --markdown 20240514/c/conetwork-test/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/e8/12/f239a87492e55865361bd671d53679d2519abe0bf3c650ef61234b0621ec/ccs-digitalmarketplace-utils-66.0.0rc4.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [exposedfunctionality]: Downloading https://files.pythonhosted.org/packages/f3/f2/d47c32d9ccab54f74c3c3b626e93cc4f04953787f691f300839299f842c5/exposedfunctionality-0.3.6.tar.gz
+[2024-05-14 09:45:35] INFO root fetch - processPackages [python-uc-tools]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [python-uc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_uc_tools-0.1.0.tar.gz tmp/python_uc_tools-0.2.0.tar.gz --markdown 20240514/p/python-uc-tools/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-ddmrp/16.0.1.7.3.1-16.0.1.7.4/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [exposedfunctionality]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [exposedfunctionality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exposedfunctionality-0.3.5.tar.gz tmp/exposedfunctionality-0.3.6.tar.gz --markdown 20240514/e/exposedfunctionality/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-66.0.0rc3.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc4.tar.gz --markdown 20240514/c/ccs-digitalmarketplace-utils/66.0.0rc3-66.0.0rc4/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [weaverbird]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [weaverbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaverbird-0.8.9.tar.gz tmp/weaverbird-0.9.0.tar.gz --markdown 20240514/w/weaverbird/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-05-14 09:45:35] INFO root fetch - processPackages [uglychain]: executing diffoscope
+[2024-05-14 09:45:35] INFO root fetch - processPackages [uglychain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uglychain-0.1.9.post4.tar.gz tmp/uglychain-0.1.9.post5.tar.gz --markdown 20240514/u/uglychain/0.1.9.post4-0.1.9.post5/README.md --exclude *.pyd
+[2024-05-14 09:45:36] INFO root fetch - processPackages [python-uc-tools]: Remove: archive file [/home/abi/fetcher/tmp/python_uc_tools-0.1.0.tar.gz]
+[2024-05-14 09:45:36] INFO root fetch - processPackages [python-uc-tools]: Remove: archive file [/home/abi/fetcher/tmp/python_uc_tools-0.2.0.tar.gz]
+[2024-05-14 09:45:36] INFO root fetch - main [MainThread]: End processing [python-uc-tools]: success
+[2024-05-14 09:45:36] INFO root fetch - processPackages [rush-py]: Remove: archive file [/home/abi/fetcher/tmp/rush_py-3.0.2.tar.gz]
+[2024-05-14 09:45:36] INFO root fetch - processPackages [rush-py]: Remove: archive file [/home/abi/fetcher/tmp/rush_py-3.0.3.tar.gz]
+[2024-05-14 09:45:36] INFO root fetch - main [MainThread]: End processing [rush-py]: success
+[2024-05-14 09:45:36] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 09:45:36] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 09:45:36] INFO root fetch - main [MainThread]: End processing [blackfire]: success
+[2024-05-14 09:45:36] INFO root fetch - processPackages [exposedfunctionality]: Remove: archive file [/home/abi/fetcher/tmp/exposedfunctionality-0.3.5.tar.gz]
+[2024-05-14 09:45:36] INFO root fetch - processPackages [exposedfunctionality]: Remove: archive file [/home/abi/fetcher/tmp/exposedfunctionality-0.3.6.tar.gz]
+[2024-05-14 09:45:36] INFO root fetch - main [MainThread]: End processing [exposedfunctionality]: success
+[2024-05-14 09:45:37] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.1.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.2.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 09:45:37] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc3.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc4.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-05-14 09:45:37] INFO root fetch - processPackages [uglychain]: Remove: archive file [/home/abi/fetcher/tmp/uglychain-0.1.9.post4.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - processPackages [uglychain]: Remove: archive file [/home/abi/fetcher/tmp/uglychain-0.1.9.post5.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - main [MainThread]: End processing [uglychain]: success
+[2024-05-14 09:45:37] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip]
+[2024-05-14 09:45:37] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip]
+[2024-05-14 09:45:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-14 09:45:37] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.8.9.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
+[2024-05-14 09:45:37] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
+[2024-05-14 09:45:37] INFO root fetch - main [MainThread]: Store serial: [23197356]
