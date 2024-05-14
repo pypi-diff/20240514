@@ -7566,3 +7566,69 @@
 [2024-05-14 03:43:10] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.9.tar.gz]
 [2024-05-14 03:43:10] INFO root fetch - main [MainThread]: End processing [teo]: success
 [2024-05-14 03:43:10] INFO root fetch - main [MainThread]: Store serial: [23194688]
+[2024-05-14 03:45:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194688]
+[2024-05-14 03:45:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowee
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beets-webrouter
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sportswrangler
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-bot
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-sql-parsing
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: GPTPlugins4All
+[2024-05-14 03:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyxt
+[2024-05-14 03:45:18] INFO root fetch - processPackages [sportswrangler]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [sportswrangler]: Downloading https://files.pythonhosted.org/packages/1f/16/0e9a6bb032406e5fc4347dd28ded992ee798c1557dba111314aae7a3b25a/sportswrangler-0.1.0.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [antchain-bot]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [flowee]: New version: [1.6] Old Version: [1.5]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [beets-webrouter]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.581.24094] Old Version: [9.499.24023]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [GPTPlugins4All]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [pyxt]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-14 03:45:19] INFO root fetch - processPackages [beets-webrouter]: Downloading https://files.pythonhosted.org/packages/33/0d/4f8bdc1cea0cd758671e1e790e9ea2d106d9a7763ed8073465ed677ba074/beets_webrouter-0.3.0-py3-none-any.whl
+[2024-05-14 03:45:19] INFO root fetch - processPackages [sportswrangler]: Downloading https://files.pythonhosted.org/packages/bc/6f/d0527c78abdda0c24c8ae4cc6d2174652f830381c0a6f925875b85713900/sportswrangler-0.1.1.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/8d/c9/a6cef32966678b4f059bd69121f38cd1710eabbfca576485aea21cca1231/flowee-1.5.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [pyxt]: Downloading https://files.pythonhosted.org/packages/ca/6a/5deb9dd1bbb1e18a43f0c32af000c80950489483a9abc000203cb32cd9e9/pyxt-0.6.8.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/99/fa/7f02cfe11454bb459df063edf47f37a575907ee3cb615b4b43519369e4b1/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl
+[2024-05-14 03:45:19] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/0d/86/cbf1b955dbc338cc6302fd0ed42f2ae42c1245a00c6439e1fba6cae53d92/antchain_bot-1.9.7.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/5a/b5/97b0775cb4c951d2872d6c4e33db266a0dba4dc2207a3dbac7ed55f6b995/GPTPlugins4All-1.0.8.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [sportswrangler]: executing diffoscope
+[2024-05-14 03:45:19] INFO root fetch - processPackages [sportswrangler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sportswrangler-0.1.0.tar.gz tmp/sportswrangler-0.1.1.tar.gz --markdown 20240514/s/sportswrangler/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 03:45:19] INFO root fetch - processPackages [beets-webrouter]: Downloading https://files.pythonhosted.org/packages/8b/b6/798c4c5576e06da14376d4d90df434894bdbfebcb7cf71d631b2af716f59/beets_webrouter-0.4.0-py3-none-any.whl
+[2024-05-14 03:45:19] INFO root fetch - processPackages [pyxt]: Downloading https://files.pythonhosted.org/packages/79/2a/acf857dc80e11172a9db513617d6eb1bef4668b069211badabfd931cf66a/pyxt-0.6.9.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [GPTPlugins4All]: Downloading https://files.pythonhosted.org/packages/fb/16/af06befd4a411c5c48cd6f713bca08893d0e33bde8c93250203608d1ef03/GPTPlugins4All-1.0.9.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/80/51/a0777be40340953e399babce6a42fbf82dc2aeaa5e02d3759814191913ba/mo-sql-parsing-9.581.24094.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [antchain-bot]: Downloading https://files.pythonhosted.org/packages/fa/96/2ef07a099db771e78580bcb8a6f9269b6404019fd3aefd68b80738181db3/antchain_bot-1.9.8.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [beets-webrouter]: executing diffoscope
+[2024-05-14 03:45:19] INFO root fetch - processPackages [beets-webrouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_webrouter-0.3.0-py3-none-any.whl.zip tmp/beets_webrouter-0.4.0-py3-none-any.whl.zip --markdown 20240514/b/beets-webrouter/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-14 03:45:19] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/f5/fc/0e8616e5d631ac277dab5338bc90d79f2b6890e2ca93dd398b5b49cf9402/flowee-1.6.tar.gz
+[2024-05-14 03:45:19] INFO root fetch - processPackages [pyxt]: executing diffoscope
+[2024-05-14 03:45:19] INFO root fetch - processPackages [pyxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxt-0.6.8.tar.gz tmp/pyxt-0.6.9.tar.gz --markdown 20240514/p/pyxt/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-14 03:45:19] INFO root fetch - processPackages [GPTPlugins4All]: executing diffoscope
+[2024-05-14 03:45:19] INFO root fetch - processPackages [GPTPlugins4All]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GPTPlugins4All-1.0.8.tar.gz tmp/GPTPlugins4All-1.0.9.tar.gz --markdown 20240514/G/GPTPlugins4All/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 03:45:19] INFO root fetch - processPackages [antchain-bot]: executing diffoscope
+[2024-05-14 03:45:19] INFO root fetch - processPackages [antchain-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_bot-1.9.7.tar.gz tmp/antchain_bot-1.9.8.tar.gz --markdown 20240514/a/antchain-bot/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-05-14 03:45:20] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-14 03:45:20] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip tmp/mo-sql-parsing-9.581.24094.tar.gz --markdown 20240514/m/mo-sql-parsing/9.499.24023-9.581.24094/README.md --exclude *.pyd
+[2024-05-14 03:45:20] INFO root fetch - processPackages [flowee]: executing diffoscope
+[2024-05-14 03:45:20] INFO root fetch - processPackages [flowee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowee-1.5.tar.gz tmp/flowee-1.6.tar.gz --markdown 20240514/f/flowee/1.5-1.6/README.md --exclude *.pyd
+[2024-05-14 03:45:20] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.0.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - processPackages [sportswrangler]: Remove: archive file [/home/abi/fetcher/tmp/sportswrangler-0.1.1.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - main [MainThread]: End processing [sportswrangler]: success
+[2024-05-14 03:45:20] INFO root fetch - processPackages [pyxt]: Remove: archive file [/home/abi/fetcher/tmp/pyxt-0.6.8.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - processPackages [pyxt]: Remove: archive file [/home/abi/fetcher/tmp/pyxt-0.6.9.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - main [MainThread]: End processing [pyxt]: success
+[2024-05-14 03:45:20] INFO root fetch - processPackages [beets-webrouter]: Remove: archive file [/home/abi/fetcher/tmp/beets_webrouter-0.3.0-py3-none-any.whl.zip]
+[2024-05-14 03:45:20] INFO root fetch - processPackages [beets-webrouter]: Remove: archive file [/home/abi/fetcher/tmp/beets_webrouter-0.4.0-py3-none-any.whl.zip]
+[2024-05-14 03:45:20] INFO root fetch - main [MainThread]: End processing [beets-webrouter]: success
+[2024-05-14 03:45:20] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.8.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - processPackages [GPTPlugins4All]: Remove: archive file [/home/abi/fetcher/tmp/GPTPlugins4All-1.0.9.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - main [MainThread]: End processing [GPTPlugins4All]: success
+[2024-05-14 03:45:20] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.499.24023-py2.py3-none-any.whl.zip]
+[2024-05-14 03:45:20] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-parsing-9.581.24094.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-14 03:45:20] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.5.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.6.tar.gz]
+[2024-05-14 03:45:20] INFO root fetch - main [MainThread]: End processing [flowee]: success
+[2024-05-14 03:45:21] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.7.tar.gz]
+[2024-05-14 03:45:21] INFO root fetch - processPackages [antchain-bot]: Remove: archive file [/home/abi/fetcher/tmp/antchain_bot-1.9.8.tar.gz]
+[2024-05-14 03:45:21] INFO root fetch - main [MainThread]: End processing [antchain-bot]: success
+[2024-05-14 03:45:21] INFO root fetch - main [MainThread]: Store serial: [23194706]
