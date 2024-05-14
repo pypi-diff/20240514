@@ -14086,3 +14086,45 @@
 [2024-05-14 09:52:19] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.3.tar.gz]
 [2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
 [2024-05-14 09:52:19] INFO root fetch - main [MainThread]: Store serial: [23197432]
+[2024-05-14 09:54:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197432]
+[2024-05-14 09:54:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metainfoyaml2py
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simulaix
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xmask
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superb-ai-label
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ipyleaflet
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ipyleaflet]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-14 09:54:31] WARNING root fetch - processPackages [simulaix]: Skipping, unable to determine old version
+[2024-05-14 09:54:31] INFO root fetch - main [MainThread]: End processing [simulaix] error
+[2024-05-14 09:54:31] INFO root fetch - processPackages [metainfoyaml2py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:54:31] INFO root fetch - processPackages [superb-ai-label]: New version: [0.21.3] Old Version: [0.21.2]
+[2024-05-14 09:54:31] INFO root fetch - processPackages [xmask]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 09:54:31] INFO root fetch - processPackages [ipyleaflet]: Downloading https://files.pythonhosted.org/packages/a8/2e/78d8300fca69da5bc06a939758a1f19b08d16529d405b0f2d9392f4d60f8/ipyleaflet-0.9.1.tar.gz
+[2024-05-14 09:54:31] INFO root fetch - processPackages [metainfoyaml2py]: Downloading https://files.pythonhosted.org/packages/34/c4/eb2ccd73d5d0b58f50fb6f32ba956e9441ce991ac9eee3809cff7402fdbf/metainfoyaml2py-0.0.8.tar.gz
+[2024-05-14 09:54:31] INFO root fetch - processPackages [superb-ai-label]: Downloading https://files.pythonhosted.org/packages/a4/54/e9bb34c6b5ec295f35be7b8ca2c795af355bec307770d2e7838df95bfae4/superb-ai-label-0.21.2.tar.gz
+[2024-05-14 09:54:31] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/09/7b/8ebdc430a9ea62ed86bd7bbabf70f7eba23df7a120a12168845db0005401/xmask-0.3.8.tar.gz
+[2024-05-14 09:54:31] INFO root fetch - processPackages [metainfoyaml2py]: Downloading https://files.pythonhosted.org/packages/7d/76/9cb61a7644e23843774c5855db0af9f4dabe49955c59635eff50a5913f82/metainfoyaml2py-0.0.9.tar.gz
+[2024-05-14 09:54:31] INFO root fetch - processPackages [xmask]: Downloading https://files.pythonhosted.org/packages/53/5e/e7bedfcb366b8bb0d006ab2449086a30b331c46955fdc6427a339fb15c63/xmask-0.3.9.tar.gz
+[2024-05-14 09:54:31] INFO root fetch - processPackages [metainfoyaml2py]: executing diffoscope
+[2024-05-14 09:54:31] INFO root fetch - processPackages [metainfoyaml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metainfoyaml2py-0.0.8.tar.gz tmp/metainfoyaml2py-0.0.9.tar.gz --markdown 20240514/m/metainfoyaml2py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:54:32] INFO root fetch - processPackages [superb-ai-label]: Downloading https://files.pythonhosted.org/packages/0c/81/69d56f7dd528270ef4a836ea34b84676b6661e87b7fb8c1cffdf436bd0c9/superb-ai-label-0.21.3.tar.gz
+[2024-05-14 09:54:32] INFO root fetch - processPackages [xmask]: executing diffoscope
+[2024-05-14 09:54:32] INFO root fetch - processPackages [xmask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmask-0.3.8.tar.gz tmp/xmask-0.3.9.tar.gz --markdown 20240514/x/xmask/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 09:54:32] INFO root fetch - processPackages [ipyleaflet]: Downloading https://files.pythonhosted.org/packages/3c/08/af3f934a30fb0af294edf38176b6163d513d18a8d33d104a7b5699a0da06/ipyleaflet-0.9.2.tar.gz
+[2024-05-14 09:54:32] INFO root fetch - processPackages [superb-ai-label]: executing diffoscope
+[2024-05-14 09:54:32] INFO root fetch - processPackages [superb-ai-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superb-ai-label-0.21.2.tar.gz tmp/superb-ai-label-0.21.3.tar.gz --markdown 20240514/s/superb-ai-label/0.21.2-0.21.3/README.md --exclude *.pyd
+[2024-05-14 09:54:32] INFO root fetch - processPackages [ipyleaflet]: executing diffoscope
+[2024-05-14 09:54:32] INFO root fetch - processPackages [ipyleaflet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyleaflet-0.9.1.tar.gz tmp/ipyleaflet-0.9.2.tar.gz --markdown 20240514/i/ipyleaflet/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-14 09:54:32] INFO root fetch - processPackages [xmask]: Remove: archive file [/home/abi/fetcher/tmp/xmask-0.3.8.tar.gz]
+[2024-05-14 09:54:32] INFO root fetch - processPackages [xmask]: Remove: archive file [/home/abi/fetcher/tmp/xmask-0.3.9.tar.gz]
+[2024-05-14 09:54:32] INFO root fetch - main [MainThread]: End processing [xmask]: success
+[2024-05-14 09:54:32] INFO root fetch - processPackages [metainfoyaml2py]: Remove: archive file [/home/abi/fetcher/tmp/metainfoyaml2py-0.0.8.tar.gz]
+[2024-05-14 09:54:32] INFO root fetch - processPackages [metainfoyaml2py]: Remove: archive file [/home/abi/fetcher/tmp/metainfoyaml2py-0.0.9.tar.gz]
+[2024-05-14 09:54:32] INFO root fetch - main [MainThread]: End processing [metainfoyaml2py]: success
+[2024-05-14 09:54:32] INFO root fetch - processPackages [superb-ai-label]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-label-0.21.2.tar.gz]
+[2024-05-14 09:54:32] INFO root fetch - processPackages [superb-ai-label]: Remove: archive file [/home/abi/fetcher/tmp/superb-ai-label-0.21.3.tar.gz]
+[2024-05-14 09:54:32] INFO root fetch - main [MainThread]: End processing [superb-ai-label]: success
+[2024-05-14 09:54:36] INFO root fetch - processPackages [ipyleaflet]: Remove: archive file [/home/abi/fetcher/tmp/ipyleaflet-0.9.1.tar.gz]
+[2024-05-14 09:54:36] INFO root fetch - processPackages [ipyleaflet]: Remove: archive file [/home/abi/fetcher/tmp/ipyleaflet-0.9.2.tar.gz]
+[2024-05-14 09:54:36] INFO root fetch - main [MainThread]: End processing [ipyleaflet]: success
+[2024-05-14 09:54:36] INFO root fetch - main [MainThread]: Store serial: [23197449]
