@@ -18976,3 +18976,47 @@
 [2024-05-14 12:29:45] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
 [2024-05-14 12:29:45] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
 [2024-05-14 12:29:45] INFO root fetch - main [MainThread]: Store serial: [23199515]
+[2024-05-14 12:31:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199515]
+[2024-05-14 12:31:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 12:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: educommon
+[2024-05-14 12:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specmatic
+[2024-05-14 12:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compas-ifc
+[2024-05-14 12:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kong-ran
+[2024-05-14 12:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grassland_production
+[2024-05-14 12:31:54] INFO root fetch - processPackages [kong-ran]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 12:31:54] INFO root fetch - processPackages [educommon]: New version: [3.9.6] Old Version: [3.9.5]
+[2024-05-14 12:31:54] INFO root fetch - processPackages [compas-ifc]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-14 12:31:54] INFO root fetch - processPackages [kong-ran]: Downloading https://files.pythonhosted.org/packages/e5/2d/9df1f11f45c2469ce9cf3a8137d0839c0c86ecb9ebae9e206f71cbc24503/kong_ran-1.0.1.tar.gz
+[2024-05-14 12:31:54] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-14 12:31:54] INFO root fetch - processPackages [grassland_production]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-14 12:31:55] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/0c/15/6101356a71116b4375d348b9b2a33f7c7a19ae30e8f925f1a295b90e97a1/educommon-3.9.5.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [compas-ifc]: Downloading https://files.pythonhosted.org/packages/8a/05/26ebb9e933fc3c3bf415088e58ad06de51bc2fcf5c82a83d8f99c80ed6c4/compas_ifc-0.3.0.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [grassland_production]: Downloading https://files.pythonhosted.org/packages/8a/b7/f3da0901f84d6789e676f6dc57d4397a4d8db55bb5384f77ae5f2127c984/grassland_production-0.3.3.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [kong-ran]: Downloading https://files.pythonhosted.org/packages/cb/35/a9708f22262d7db0a9d5a34aa84871e46fd493df482f78e8d2089b563783/kong_ran-1.0.2.tar.gz
+[2024-05-14 12:31:55] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-05-14 12:31:55] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-05-14 12:31:55] INFO root fetch - processPackages [kong-ran]: executing diffoscope
+[2024-05-14 12:31:55] INFO root fetch - processPackages [kong-ran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kong_ran-1.0.1.tar.gz tmp/kong_ran-1.0.2.tar.gz --markdown 20240514/k/kong-ran/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 12:31:55] INFO root fetch - processPackages [compas-ifc]: Downloading https://files.pythonhosted.org/packages/30/d2/f24e067cd22f75aabce7f53f01f8883ccd4d0a9f04cea13eaa2f5ccc8b76/compas_ifc-0.4.0.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [educommon]: Downloading https://files.pythonhosted.org/packages/8a/af/2cb3806ce9f81f89523e18a35c42f4e51722b596788b1d120854ccac8320/educommon-3.9.6.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [grassland_production]: Downloading https://files.pythonhosted.org/packages/8e/d6/fe1cd3ff927e6b85f3a5cd9b400b4432e3acd82d3ae255d6a7da7bdc6b64/grassland_production-0.3.4.tar.gz
+[2024-05-14 12:31:55] INFO root fetch - processPackages [compas-ifc]: executing diffoscope
+[2024-05-14 12:31:55] INFO root fetch - processPackages [compas-ifc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compas_ifc-0.3.0.tar.gz tmp/compas_ifc-0.4.0.tar.gz --markdown 20240514/c/compas-ifc/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-14 12:31:55] INFO root fetch - processPackages [grassland_production]: executing diffoscope
+[2024-05-14 12:31:55] INFO root fetch - processPackages [grassland_production]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassland_production-0.3.3.tar.gz tmp/grassland_production-0.3.4.tar.gz --markdown 20240514/g/grassland_production/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-14 12:31:55] INFO root fetch - processPackages [educommon]: executing diffoscope
+[2024-05-14 12:31:55] INFO root fetch - processPackages [educommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educommon-3.9.5.tar.gz tmp/educommon-3.9.6.tar.gz --markdown 20240514/e/educommon/3.9.5-3.9.6/README.md --exclude *.pyd
+[2024-05-14 12:31:56] INFO root fetch - processPackages [kong-ran]: Remove: archive file [/home/abi/fetcher/tmp/kong_ran-1.0.1.tar.gz]
+[2024-05-14 12:31:56] INFO root fetch - processPackages [kong-ran]: Remove: archive file [/home/abi/fetcher/tmp/kong_ran-1.0.2.tar.gz]
+[2024-05-14 12:31:56] INFO root fetch - main [MainThread]: End processing [kong-ran]: success
+[2024-05-14 12:31:56] INFO root fetch - processPackages [grassland_production]: Remove: archive file [/home/abi/fetcher/tmp/grassland_production-0.3.3.tar.gz]
+[2024-05-14 12:31:56] INFO root fetch - processPackages [grassland_production]: Remove: archive file [/home/abi/fetcher/tmp/grassland_production-0.3.4.tar.gz]
+[2024-05-14 12:31:56] INFO root fetch - main [MainThread]: End processing [grassland_production]: success
+[2024-05-14 12:31:56] INFO root fetch - processPackages [compas-ifc]: Remove: archive file [/home/abi/fetcher/tmp/compas_ifc-0.3.0.tar.gz]
+[2024-05-14 12:31:56] INFO root fetch - processPackages [compas-ifc]: Remove: archive file [/home/abi/fetcher/tmp/compas_ifc-0.4.0.tar.gz]
+[2024-05-14 12:31:56] INFO root fetch - main [MainThread]: End processing [compas-ifc]: success
+[2024-05-14 12:31:57] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.9.5.tar.gz]
+[2024-05-14 12:31:57] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.9.6.tar.gz]
+[2024-05-14 12:31:57] INFO root fetch - main [MainThread]: End processing [educommon]: success
+[2024-05-14 12:31:57] INFO root fetch - main [MainThread]: Store serial: [23199530]
