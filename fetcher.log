@@ -11477,3 +11477,42 @@
 [2024-05-14 08:05:11] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.3.tar.gz]
 [2024-05-14 08:05:11] INFO root fetch - main [MainThread]: End processing [logprep]: success
 [2024-05-14 08:05:11] INFO root fetch - main [MainThread]: Store serial: [23196281]
+[2024-05-14 08:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196281]
+[2024-05-14 08:07:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dcw-finder
+[2024-05-14 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sharrow
+[2024-05-14 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodestream-plugin-gcp-asset-inventory
+[2024-05-14 08:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zjbbintest
+[2024-05-14 08:07:19] INFO root fetch - processPackages [sharrow]: New version: [2.9.0] Old Version: [2.8.3]
+[2024-05-14 08:07:19] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 08:07:19] INFO root fetch - processPackages [zjbbintest]: New version: [2.5] Old Version: [2.4]
+[2024-05-14 08:07:19] INFO root fetch - processPackages [sharrow]: Downloading https://files.pythonhosted.org/packages/2d/d0/0a4c1f84802fe1ee60079fb10201d722d861ac83e4d86814ef7b4796d9b5/sharrow-2.8.3.tar.gz
+[2024-05-14 08:07:19] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:07:19] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/36/34/c8e469f5b55881fa3a68b1e681891dccb24adb2ed7e612f2936a1c33ce2d/zjbbintest-2.4.tar.gz
+[2024-05-14 08:07:19] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Downloading https://files.pythonhosted.org/packages/de/ea/0eb9e9b1a30e35a57ccd4e9eff454a47371566ef586076c678eb0e538072/nodestream_plugin_gcp_asset_inventory-0.1.1.tar.gz
+[2024-05-14 08:07:20] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 08:07:20] INFO root fetch - processPackages [zjbbintest]: Downloading https://files.pythonhosted.org/packages/ca/f5/7643ebf1ec495ede13ce530d27c7d39f715050b40489f1c98671833cadf0/zjbbintest-2.5.tar.gz
+[2024-05-14 08:07:20] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Downloading https://files.pythonhosted.org/packages/57/b1/d594f10a76df8cb909af91e47cad17b6b1bc47040dfa13d9cfd3ee090261/nodestream_plugin_gcp_asset_inventory-0.1.2.tar.gz
+[2024-05-14 08:07:20] INFO root fetch - processPackages [zjbbintest]: executing diffoscope
+[2024-05-14 08:07:20] INFO root fetch - processPackages [zjbbintest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zjbbintest-2.4.tar.gz tmp/zjbbintest-2.5.tar.gz --markdown 20240514/z/zjbbintest/2.4-2.5/README.md --exclude *.pyd
+[2024-05-14 08:07:20] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: executing diffoscope
+[2024-05-14 08:07:20] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestream_plugin_gcp_asset_inventory-0.1.1.tar.gz tmp/nodestream_plugin_gcp_asset_inventory-0.1.2.tar.gz --markdown 20240514/n/nodestream-plugin-gcp-asset-inventory/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 08:07:20] INFO root fetch - processPackages [sharrow]: Downloading https://files.pythonhosted.org/packages/a9/49/5836e33b0c3ca92fde3b3b41f28cf2da280b65696ea02d749cdf9f27bc93/sharrow-2.9.0.tar.gz
+[2024-05-14 08:07:20] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 08:07:20] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 08:07:20] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:07:20] INFO root fetch - processPackages [sharrow]: executing diffoscope
+[2024-05-14 08:07:20] INFO root fetch - processPackages [sharrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharrow-2.8.3.tar.gz tmp/sharrow-2.9.0.tar.gz --markdown 20240514/s/sharrow/2.8.3-2.9.0/README.md --exclude *.pyd
+[2024-05-14 08:07:20] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Remove: archive file [/home/abi/fetcher/tmp/nodestream_plugin_gcp_asset_inventory-0.1.1.tar.gz]
+[2024-05-14 08:07:20] INFO root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Remove: archive file [/home/abi/fetcher/tmp/nodestream_plugin_gcp_asset_inventory-0.1.2.tar.gz]
+[2024-05-14 08:07:20] INFO root fetch - main [MainThread]: End processing [nodestream-plugin-gcp-asset-inventory]: success
+[2024-05-14 08:07:20] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.4.tar.gz]
+[2024-05-14 08:07:20] INFO root fetch - processPackages [zjbbintest]: Remove: archive file [/home/abi/fetcher/tmp/zjbbintest-2.5.tar.gz]
+[2024-05-14 08:07:20] INFO root fetch - main [MainThread]: End processing [zjbbintest]: success
+[2024-05-14 08:07:21] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 08:07:21] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 08:07:21] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 08:07:22] INFO root fetch - processPackages [sharrow]: Remove: archive file [/home/abi/fetcher/tmp/sharrow-2.8.3.tar.gz]
+[2024-05-14 08:07:22] INFO root fetch - processPackages [sharrow]: Remove: archive file [/home/abi/fetcher/tmp/sharrow-2.9.0.tar.gz]
+[2024-05-14 08:07:22] INFO root fetch - main [MainThread]: End processing [sharrow]: success
+[2024-05-14 08:07:22] INFO root fetch - main [MainThread]: Store serial: [23196294]
