@@ -15196,3 +15196,114 @@
 [2024-05-14 10:27:42] INFO root fetch - processPackages [etiq]: Remove: archive file [/home/abi/fetcher/tmp/etiq-1.6.2a2-cp39-cp39-win_amd64.whl.zip]
 [2024-05-14 10:27:42] INFO root fetch - main [MainThread]: End processing [etiq]: success
 [2024-05-14 10:27:42] INFO root fetch - main [MainThread]: Store serial: [23197996]
+[2024-05-14 10:29:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197996]
+[2024-05-14 10:29:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qtmodel
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-payments-payu
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrippleapi
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liveramp-automation
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fdk-rdf-parser
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IvmInstruments
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: group-local
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pms-encoder
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pramen-py
+[2024-05-14 10:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tsugu-api-python
+[2024-05-14 10:29:57] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [pyrippleapi]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [group-local]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [liveramp-automation]: New version: [1.3.9.1] Old Version: [1.3.9]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [django-payments-payu]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [tsugu-api-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [pramen-py]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [IvmInstruments]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [qtmodel]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-14 10:29:57] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 10:29:57] INFO root fetch - processPackages [fdk-rdf-parser]: New version: [2.7.1] Old Version: [2.7.0]
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/c7/66/811ce30caa258c995af6e8a47830fc8b96d79dfd458ff0459b7e96aded68/pyrippleapi-2024.5.1.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/f0/61/33e35598ba3670282e2ac9114c81038537fe7f77063fb73b32805dcb10dd/group_local-0.0.23.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/b0/f4/aa4666d57b153e24aed74e920b6a784fa009748970df61a229fc097a9b19/liveramp_automation-1.3.9.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [django-payments-payu]: Downloading https://files.pythonhosted.org/packages/ce/33/036302a4fb80ee793efbafab4987a2b826435d0aac0e301d9bcb43c2ee43/django-payments-payu-1.4.0.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/00/b8/257f10adb893c1b3cda5ccc022651e33283d2b5488f804c5aa5aec6b9e15/tsugu-api-python-1.0.1.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/c6/d4/a5a11f5471e510433ac52e2a2a80a1a020c4bda62b632c4c76eeb3f209a5/pramen_py-1.8.6.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/86/f9/97735b7dbf5f8b218126d3a1916c1b6009b85caf754a7c5691c64fb146f8/qtmodel-0.2.7.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/87/35/bccfe5796799d9f79d3ca7a2bdb0cde4cd6e800d14396246d0bb5b41ae2e/fdk_rdf_parser-2.7.0.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/cd/bb/599ef05a8f649119f4a06437712c1f96a95c94aa33949409a59a4d8067b5/ivminstruments-0.2.8.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/54/79/9aeef608f409fdb9d33434cc9e015c3ff7fe8397ebfbcaa4382ae94ecc10/pyrippleapi-2024.5.2.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/1d/9b/8c7b3decd6a3cf48ac4094458c49da94a6f994177b2cc19a0706df20f4dd/liveramp_automation-1.3.9.1.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/45/fc/a5879500f3ff7525b3f24f8fd823f5ed534288380b61f30e094f8ded2847/group_local-0.0.24.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [django-payments-payu]: Downloading https://files.pythonhosted.org/packages/99/df/050931476f7bfd21c321e69547c1ca7295d478061b6982ff5984a1d645e1/django-payments-payu-1.4.1.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [tsugu-api-python]: Downloading https://files.pythonhosted.org/packages/a3/8a/562e8b5ea1beca794c3592a06fbfe6e618592a1c21903a91322fb6a09caa/tsugu-api-python-1.0.2.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/9d/b1/c7ad249d2d82acc9280d90bfd6f3ae33d712a93f362451a5f80c945eeffd/pramen_py-1.8.7.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pyrippleapi]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pyrippleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrippleapi-2024.5.1.tar.gz tmp/pyrippleapi-2024.5.2.tar.gz --markdown 20240514/p/pyrippleapi/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [qtmodel]: Downloading https://files.pythonhosted.org/packages/2a/45/420d0765952d30a777eb67108e13b84a5ba91fd46e7d9ad312d07dfa8fbf/qtmodel-0.2.8.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.3.9.tar.gz tmp/liveramp_automation-1.3.9.1.tar.gz --markdown 20240514/l/liveramp-automation/1.3.9-1.3.9.1/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [group-local]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group_local-0.0.23.tar.gz tmp/group_local-0.0.24.tar.gz --markdown 20240514/g/group-local/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/8e/5d/e100bdf4e71bd90bf280e43c8676784cb745b8a5238e225fcc4489a7418b/fdk_rdf_parser-2.7.1.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [IvmInstruments]: Downloading https://files.pythonhosted.org/packages/83/58/9d5ac11119f6464e032f12739859d3724cfc928f9a2f7c26700835e8b333/ivminstruments-0.2.9.tar.gz
+[2024-05-14 10:29:58] INFO root fetch - processPackages [django-payments-payu]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [django-payments-payu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-payments-payu-1.4.0.tar.gz tmp/django-payments-payu-1.4.1.tar.gz --markdown 20240514/d/django-payments-payu/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [tsugu-api-python]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [tsugu-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-api-python-1.0.1.tar.gz tmp/tsugu-api-python-1.0.2.tar.gz --markdown 20240514/t/tsugu-api-python/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pramen-py]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [pramen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pramen_py-1.8.6.tar.gz tmp/pramen_py-1.8.7.tar.gz --markdown 20240514/p/pramen-py/1.8.6-1.8.7/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [qtmodel]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [qtmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtmodel-0.2.7.tar.gz tmp/qtmodel-0.2.8.tar.gz --markdown 20240514/q/qtmodel/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [IvmInstruments]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [IvmInstruments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivminstruments-0.2.8.tar.gz tmp/ivminstruments-0.2.9.tar.gz --markdown 20240514/I/IvmInstruments/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 10:29:58] INFO root fetch - processPackages [fdk-rdf-parser]: executing diffoscope
+[2024-05-14 10:29:58] INFO root fetch - processPackages [fdk-rdf-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk_rdf_parser-2.7.0.tar.gz tmp/fdk_rdf_parser-2.7.1.tar.gz --markdown 20240514/f/fdk-rdf-parser/2.7.0-2.7.1/README.md --exclude *.pyd
+[2024-05-14 10:29:59] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2024.5.1.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2024.5.2.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [pyrippleapi]: Start processing: messages-local
+[2024-05-14 10:29:59] INFO root fetch - main [MainThread]: End processing [pyrippleapi]: success
+[2024-05-14 10:29:59] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [pms-encoder]: Start processing: orch-api
+[2024-05-14 10:29:59] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 10:29:59] INFO root fetch - processPackages [messages-local]: New version: [0.0.54] Old Version: [0.0.53]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/68/35/e7ab1dee7e2b0f229f2649ccca7bd0a39d2f9c13a0c028b77fd61f791b1b/messages_local-0.0.53.tar.gz
+[2024-05-14 10:29:59] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.23.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.24.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - main [MainThread]: End processing [group-local]: success
+[2024-05-14 10:29:59] INFO root fetch - processPackages [django-payments-payu]: Remove: archive file [/home/abi/fetcher/tmp/django-payments-payu-1.4.0.tar.gz]
+[2024-05-14 10:29:59] INFO root fetch - processPackages [django-payments-payu]: Remove: archive file [/home/abi/fetcher/tmp/django-payments-payu-1.4.1.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [django-payments-payu]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.9.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.3.9.1.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.6.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.7.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [pramen-py]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.7.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [qtmodel]: Remove: archive file [/home/abi/fetcher/tmp/qtmodel-0.2.8.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [qtmodel]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [orch-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/ivminstruments-0.2.8.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [IvmInstruments]: Remove: archive file [/home/abi/fetcher/tmp/ivminstruments-0.2.9.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [IvmInstruments]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.7.0.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.7.1.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [fdk-rdf-parser]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.0.1.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [tsugu-api-python]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-api-python-1.0.2.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [tsugu-api-python]: success
+[2024-05-14 10:30:00] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/93/6d/f145434ae6b2018c600f4bf663d9bb5eb720f21836001194645bd2401c7f/messages_local-0.0.54.tar.gz
+[2024-05-14 10:30:00] INFO root fetch - processPackages [orch-api]: Downloading https://files.pythonhosted.org/packages/2a/6d/64d0f3eb907348c2ff057faf107b3aacde24416d41de88525af0fab1abb1/orch_api-0.0.1.tar.gz
+[2024-05-14 10:30:00] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-14 10:30:00] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.53.tar.gz tmp/messages_local-0.0.54.tar.gz --markdown 20240514/m/messages-local/0.0.53-0.0.54/README.md --exclude *.pyd
+[2024-05-14 10:30:00] INFO root fetch - processPackages [orch-api]: Downloading https://files.pythonhosted.org/packages/6d/63/54956489b56618837671e80eeb3561f3a53ced6114d3534cf4630e9c0a18/orch_api-0.0.2.tar.gz
+[2024-05-14 10:30:00] INFO root fetch - processPackages [orch-api]: executing diffoscope
+[2024-05-14 10:30:00] INFO root fetch - processPackages [orch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orch_api-0.0.1.tar.gz tmp/orch_api-0.0.2.tar.gz --markdown 20240514/o/orch-api/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 10:30:00] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.53.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.54.tar.gz]
+[2024-05-14 10:30:00] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-14 10:30:01] INFO root fetch - processPackages [orch-api]: Remove: archive file [/home/abi/fetcher/tmp/orch_api-0.0.1.tar.gz]
+[2024-05-14 10:30:01] INFO root fetch - processPackages [orch-api]: Remove: archive file [/home/abi/fetcher/tmp/orch_api-0.0.2.tar.gz]
+[2024-05-14 10:30:01] INFO root fetch - main [MainThread]: End processing [orch-api]: success
+[2024-05-14 10:30:01] INFO root fetch - main [MainThread]: Store serial: [23198037]
