@@ -12091,3 +12091,33 @@
 [2024-05-14 08:33:47] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.9.0.tar.gz]
 [2024-05-14 08:33:47] INFO root fetch - main [MainThread]: End processing [tenzir]: success
 [2024-05-14 08:33:47] INFO root fetch - main [MainThread]: Store serial: [23196584]
+[2024-05-14 08:35:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196584]
+[2024-05-14 08:35:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 08:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sealights-python-agent
+[2024-05-14 08:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pisahkan-ktp
+[2024-05-14 08:35:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scorecovid
+[2024-05-14 08:35:57] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.2.9] Old Version: [0.1.8]
+[2024-05-14 08:35:57] INFO root fetch - processPackages [scorecovid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:35:57] INFO root fetch - processPackages [sealights-python-agent]: New version: [2.2.1b1] Old Version: [2.2.1]
+[2024-05-14 08:35:57] INFO root fetch - processPackages [sealights-python-agent]: Downloading https://files.pythonhosted.org/packages/fc/fb/6771cbc664df4fba1ca17ddf04caddb62e5537717bccbb86db95fa37ae98/sealights-python-agent-2.2.1.tar.gz
+[2024-05-14 08:35:57] INFO root fetch - processPackages [scorecovid]: Downloading https://files.pythonhosted.org/packages/4f/6a/91411a89af8d76a8146d21ad57b19211cff4514bacf7955939c8d4566722/scorecovid-0.0.8.tar.gz
+[2024-05-14 08:35:57] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/2b/3a/387ea282eb5bded48977904c2b3f0bb394ab1427593a5420c8ce02405ed7/pisahkan_ktp-0.1.8.tar.gz
+[2024-05-14 08:35:57] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/69/7c/7536c0cc93ab685434ba70b02f22ef3717743326fca776e49a2d85658495/pisahkan_ktp-0.2.9.tar.gz
+[2024-05-14 08:35:57] INFO root fetch - processPackages [scorecovid]: Downloading https://files.pythonhosted.org/packages/fc/d9/e35d270849442d5d44a258c4654486515fedba7f7f17d0d14b79573569dd/scorecovid-0.0.9.tar.gz
+[2024-05-14 08:35:57] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-14 08:35:57] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.1.8.tar.gz tmp/pisahkan_ktp-0.2.9.tar.gz --markdown 20240514/p/pisahkan-ktp/0.1.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 08:35:57] INFO root fetch - processPackages [sealights-python-agent]: Downloading https://files.pythonhosted.org/packages/d5/56/ba10442e3d428b2878f751088f362d37be6128b86ebde2c8db00a16a6fb8/sealights-python-agent-2.2.1b1.tar.gz
+[2024-05-14 08:35:57] INFO root fetch - processPackages [scorecovid]: executing diffoscope
+[2024-05-14 08:35:57] INFO root fetch - processPackages [scorecovid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecovid-0.0.8.tar.gz tmp/scorecovid-0.0.9.tar.gz --markdown 20240514/s/scorecovid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:35:58] INFO root fetch - processPackages [sealights-python-agent]: executing diffoscope
+[2024-05-14 08:35:58] INFO root fetch - processPackages [sealights-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sealights-python-agent-2.2.1.tar.gz tmp/sealights-python-agent-2.2.1b1.tar.gz --markdown 20240514/s/sealights-python-agent/2.2.1-2.2.1b1/README.md --exclude *.pyd
+[2024-05-14 08:35:58] INFO root fetch - processPackages [scorecovid]: Remove: archive file [/home/abi/fetcher/tmp/scorecovid-0.0.8.tar.gz]
+[2024-05-14 08:35:58] INFO root fetch - processPackages [scorecovid]: Remove: archive file [/home/abi/fetcher/tmp/scorecovid-0.0.9.tar.gz]
+[2024-05-14 08:35:58] INFO root fetch - main [MainThread]: End processing [scorecovid]: success
+[2024-05-14 08:35:58] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.1.8.tar.gz]
+[2024-05-14 08:35:58] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.2.9.tar.gz]
+[2024-05-14 08:35:58] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-14 08:35:59] INFO root fetch - processPackages [sealights-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/sealights-python-agent-2.2.1.tar.gz]
+[2024-05-14 08:35:59] INFO root fetch - processPackages [sealights-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/sealights-python-agent-2.2.1b1.tar.gz]
+[2024-05-14 08:35:59] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
+[2024-05-14 08:35:59] INFO root fetch - main [MainThread]: Store serial: [23196596]
