@@ -19405,3 +19405,60 @@
 [2024-05-14 12:42:59] INFO root fetch - processPackages [probe-design]: Remove: archive file [/home/abi/fetcher/tmp/probe_design-0.2.9.tar.gz]
 [2024-05-14 12:42:59] INFO root fetch - main [MainThread]: End processing [probe-design]: success
 [2024-05-14 12:42:59] INFO root fetch - main [MainThread]: Store serial: [23199730]
+[2024-05-14 12:45:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199730]
+[2024-05-14 12:45:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qmuvi
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ca-vntl-helper
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logfire
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ca-vntl-helper
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mison
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-tempfile
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autotrain-advanced
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: echordopen-post
+[2024-05-14 12:45:10] WARNING root fetch - processPackages [mison]: Skipping, unable to determine old version
+[2024-05-14 12:45:10] INFO root fetch - main [MainThread]: End processing [mison] error
+[2024-05-14 12:45:10] INFO root fetch - processPackages [qmuvi]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ca-vntl-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 12:45:10] WARNING root fetch - processPackages [echordopen-post]: Skipping, unable to determine old version
+[2024-05-14 12:45:10] INFO root fetch - main [MainThread]: End processing [echordopen-post] error
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ca-vntl-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 12:45:10] INFO root fetch - processPackages [nonebot-plugin-tempfile]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-14 12:45:10] INFO root fetch - processPackages [logfire]: New version: [0.32.0] Old Version: [0.31.0]
+[2024-05-14 12:45:10] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.93] Old Version: [0.7.92]
+[2024-05-14 12:45:10] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/5a/6b/e115a5702ed31518316bff14d1ee14b54137f5ca12818494e80c868c165b/logfire-0.31.0.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [qmuvi]: Downloading https://files.pythonhosted.org/packages/e8/8a/aac4b032ffd93f2935a99ec03fb116678cc4e6bbc12e09838756e20d460a/qmuvi-0.1.2.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/53/67/4b4d3c4c681dcb601f4a223c19f90cffa90e11be6bb0418999bb50b3179f/ca_vntl_helper-0.0.1.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/53/67/4b4d3c4c681dcb601f4a223c19f90cffa90e11be6bb0418999bb50b3179f/ca_vntl_helper-0.0.1.tar.gz
+[2024-05-14 12:45:10] WARNING root fetch - processPackages [qmuvi]: Skipping package: exceeds size limit 31062910>=10485760
+[2024-05-14 12:45:10] INFO root fetch - main [MainThread]: End processing [qmuvi] error
+[2024-05-14 12:45:10] INFO root fetch - processPackages [nonebot-plugin-tempfile]: Downloading https://files.pythonhosted.org/packages/e0/af/be691e823d1b3d47f5839afba279e7f3fd99b881f121290eb8b93bb217bb/nonebot-plugin-tempfile-0.1.0.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/6e/7f/27a0ba6b4c15c0e784e411b2fe68fdc2f9b0bbbf80fc56a062e72eacd1ec/autotrain-advanced-0.7.92.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [logfire]: Downloading https://files.pythonhosted.org/packages/2a/ac/66976229666785f47e0480218253d414bfb122fef0dcafb7377c3213d469/logfire-0.32.0.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/41/b3/1c9da4c28e149aee130f633a6bf9eeb17b089a57eab1a9de123e9e600d31/ca_vntl_helper-0.0.2.tar.gz
+[2024-05-14 12:45:10] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/41/b3/1c9da4c28e149aee130f633a6bf9eeb17b089a57eab1a9de123e9e600d31/ca_vntl_helper-0.0.2.tar.gz
+[2024-05-14 12:45:11] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/1d/a4/ef163278bc8148bd5be1a6221b1c4e3d25f92c8956483efde07482b59160/autotrain-advanced-0.7.93.tar.gz
+[2024-05-14 12:45:11] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-14 12:45:11] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-0.0.1.tar.gz tmp/ca_vntl_helper-0.0.2.tar.gz --markdown 20240514/c/ca-vntl-helper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 12:45:11] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-14 12:45:11] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-0.0.1.tar.gz tmp/ca_vntl_helper-0.0.2.tar.gz --markdown 20240514/c/ca-vntl-helper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 12:45:11] INFO root fetch - processPackages [logfire]: executing diffoscope
+[2024-05-14 12:45:11] INFO root fetch - processPackages [logfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-0.31.0.tar.gz tmp/logfire-0.32.0.tar.gz --markdown 20240514/l/logfire/0.31.0-0.32.0/README.md --exclude *.pyd
+[2024-05-14 12:45:11] INFO root fetch - processPackages [nonebot-plugin-tempfile]: Downloading https://files.pythonhosted.org/packages/e3/61/842fcaa914242022dc85838b473a29354f5fe0474cf8507d748c6539ad39/nonebot_plugin_tempfile-0.2.0.tar.gz
+[2024-05-14 12:45:11] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-05-14 12:45:11] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.92.tar.gz tmp/autotrain-advanced-0.7.93.tar.gz --markdown 20240514/a/autotrain-advanced/0.7.92-0.7.93/README.md --exclude *.pyd
+[2024-05-14 12:45:11] INFO root fetch - processPackages [nonebot-plugin-tempfile]: executing diffoscope
+[2024-05-14 12:45:11] INFO root fetch - processPackages [nonebot-plugin-tempfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-tempfile-0.1.0.tar.gz tmp/nonebot_plugin_tempfile-0.2.0.tar.gz --markdown 20240514/n/nonebot-plugin-tempfile/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-14 12:45:11] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-0.0.1.tar.gz]
+[2024-05-14 12:45:11] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-0.0.2.tar.gz]
+[2024-05-14 12:45:11] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-14 12:45:11] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-14 12:45:11] INFO root fetch - processPackages [nonebot-plugin-tempfile]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-tempfile-0.1.0.tar.gz]
+[2024-05-14 12:45:11] INFO root fetch - processPackages [nonebot-plugin-tempfile]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tempfile-0.2.0.tar.gz]
+[2024-05-14 12:45:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tempfile]: success
+[2024-05-14 12:45:12] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.31.0.tar.gz]
+[2024-05-14 12:45:12] INFO root fetch - processPackages [logfire]: Remove: archive file [/home/abi/fetcher/tmp/logfire-0.32.0.tar.gz]
+[2024-05-14 12:45:12] INFO root fetch - main [MainThread]: End processing [logfire]: success
+[2024-05-14 12:45:12] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.92.tar.gz]
+[2024-05-14 12:45:12] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.93.tar.gz]
+[2024-05-14 12:45:12] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-05-14 12:45:12] INFO root fetch - main [MainThread]: Store serial: [23199759]
