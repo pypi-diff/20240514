@@ -11322,3 +11322,24 @@
 [2024-05-14 07:54:17] INFO root fetch - processPackages [odoo-addon-base-report-to-label-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_report_to_label_printer-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2024-05-14 07:54:17] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-report-to-label-printer]: success
 [2024-05-14 07:54:17] INFO root fetch - main [MainThread]: Store serial: [23196164]
+[2024-05-14 07:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196164]
+[2024-05-14 07:56:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ofdcomparer
+[2024-05-14 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpp-components
+[2024-05-14 07:56:26] INFO root fetch - processPackages [gpp-components]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 07:56:26] INFO root fetch - processPackages [ofdcomparer]: New version: [1.5.43] Old Version: [1.5.42]
+[2024-05-14 07:56:26] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/ce/ca/21c6dc6c3f119ee5c8dc9ca5f668898de57338e079af59d11fbae32bf2f5/gpp_components-0.1.5.tar.gz
+[2024-05-14 07:56:26] INFO root fetch - processPackages [ofdcomparer]: Downloading https://files.pythonhosted.org/packages/b5/dd/0de8780a961da9ee5c03875da9fae9ec0f0012e813035fedd8b9124d02ae/ofdcomparer-1.5.42.tar.gz
+[2024-05-14 07:56:26] INFO root fetch - processPackages [ofdcomparer]: Downloading https://files.pythonhosted.org/packages/74/d1/fe38cc0d7fcdea2e4b1f6c605fff723f65947b33a57c800d58f10f647696/ofdcomparer-1.5.43.tar.gz
+[2024-05-14 07:56:26] INFO root fetch - processPackages [gpp-components]: Downloading https://files.pythonhosted.org/packages/3f/72/1d0c000c7acc0e606194328a56faf85a20021bf389ff5db510c5e9518cbc/gpp_components-0.1.6.tar.gz
+[2024-05-14 07:56:27] INFO root fetch - processPackages [ofdcomparer]: executing diffoscope
+[2024-05-14 07:56:27] INFO root fetch - processPackages [ofdcomparer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofdcomparer-1.5.42.tar.gz tmp/ofdcomparer-1.5.43.tar.gz --markdown 20240514/o/ofdcomparer/1.5.42-1.5.43/README.md --exclude *.pyd
+[2024-05-14 07:56:27] INFO root fetch - processPackages [gpp-components]: executing diffoscope
+[2024-05-14 07:56:27] INFO root fetch - processPackages [gpp-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpp_components-0.1.5.tar.gz tmp/gpp_components-0.1.6.tar.gz --markdown 20240514/g/gpp-components/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 07:56:27] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.42.tar.gz]
+[2024-05-14 07:56:27] INFO root fetch - processPackages [ofdcomparer]: Remove: archive file [/home/abi/fetcher/tmp/ofdcomparer-1.5.43.tar.gz]
+[2024-05-14 07:56:27] INFO root fetch - main [MainThread]: End processing [ofdcomparer]: success
+[2024-05-14 07:56:27] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.5.tar.gz]
+[2024-05-14 07:56:27] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.6.tar.gz]
+[2024-05-14 07:56:27] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
+[2024-05-14 07:56:27] INFO root fetch - main [MainThread]: Store serial: [23196177]
