@@ -7354,3 +7354,33 @@
 [2024-05-14 03:27:27] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.0.6.tar.gz]
 [2024-05-14 03:27:27] INFO root fetch - main [MainThread]: End processing [risb]: success
 [2024-05-14 03:27:27] INFO root fetch - main [MainThread]: Store serial: [23194263]
+[2024-05-14 03:29:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194263]
+[2024-05-14 03:29:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 03:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-14 03:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-05-14 03:29:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Books-Lib
+[2024-05-14 03:29:35] INFO root fetch - processPackages [Books-Lib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 03:29:35] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202405130128] Old Version: [1.0.0.dev202405120129]
+[2024-05-14 03:29:35] INFO root fetch - processPackages [Books-Lib]: Downloading https://files.pythonhosted.org/packages/4d/6a/af72f2ad4a784fcaeb695ee411f763dc6ef9537eae8a8cdc5fdeda2ec54b/books_lib-1.0.8.tar.gz
+[2024-05-14 03:29:35] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/09/b6/c01c929315adc66bd072dd594605a4cd2105542d306bea1e36a7fcd84945/onediffx-1.0.0.dev202405120129.tar.gz
+[2024-05-14 03:29:35] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202405140127] Old Version: [1.0.0.dev202405130128]
+[2024-05-14 03:29:35] INFO root fetch - processPackages [Books-Lib]: Downloading https://files.pythonhosted.org/packages/fc/67/d2b09578c4fd64a0982552da85a6a24954570f2525c39975c8bb4112c146/books_lib-1.0.9.tar.gz
+[2024-05-14 03:29:35] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/af/2d/ba69f6c8a716c945fb88639a1791372fe97d2b9ae3f833d6cd8fb739a7e1/onediff-1.0.0.dev202405130128.tar.gz
+[2024-05-14 03:29:35] INFO root fetch - processPackages [Books-Lib]: executing diffoscope
+[2024-05-14 03:29:35] INFO root fetch - processPackages [Books-Lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/books_lib-1.0.8.tar.gz tmp/books_lib-1.0.9.tar.gz --markdown 20240514/B/Books-Lib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/1b/35/509b5582d8b7c57721e35912ba18d4dda724630af728960d4d7f907137f6/onediffx-1.0.0.dev202405130128.tar.gz
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202405120129.tar.gz tmp/onediffx-1.0.0.dev202405130128.tar.gz --markdown 20240514/o/onediffx/1.0.0.dev202405120129-1.0.0.dev202405130128/README.md --exclude *.pyd
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/1e/ef/371bba8484077672fff3b718f015c1bb2029508dfb7bf632905257687db1/onediff-1.0.0.dev202405140127.tar.gz
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202405130128.tar.gz tmp/onediff-1.0.0.dev202405140127.tar.gz --markdown 20240514/o/onediff/1.0.0.dev202405130128-1.0.0.dev202405140127/README.md --exclude *.pyd
+[2024-05-14 03:29:36] INFO root fetch - processPackages [Books-Lib]: Remove: archive file [/home/abi/fetcher/tmp/books_lib-1.0.8.tar.gz]
+[2024-05-14 03:29:36] INFO root fetch - processPackages [Books-Lib]: Remove: archive file [/home/abi/fetcher/tmp/books_lib-1.0.9.tar.gz]
+[2024-05-14 03:29:36] INFO root fetch - main [MainThread]: End processing [Books-Lib]: success
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405120129.tar.gz]
+[2024-05-14 03:29:36] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202405130128.tar.gz]
+[2024-05-14 03:29:36] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-14 03:29:37] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405130128.tar.gz]
+[2024-05-14 03:29:37] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202405140127.tar.gz]
+[2024-05-14 03:29:37] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-14 03:29:37] INFO root fetch - main [MainThread]: Store serial: [23194326]
