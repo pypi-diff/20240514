@@ -12531,3 +12531,60 @@
 [2024-05-14 08:55:46] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240512.tar.gz]
 [2024-05-14 08:55:46] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2024-05-14 08:55:46] INFO root fetch - main [MainThread]: Store serial: [23196796]
+[2024-05-14 08:57:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196796]
+[2024-05-14 08:57:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 08:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pywayne
+[2024-05-14 08:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-core-package
+[2024-05-14 08:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-waf-openapi
+[2024-05-14 08:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sddgen
+[2024-05-14 08:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anemone-daisy-maker
+[2024-05-14 08:57:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acdh-baserow-pyutils
+[2024-05-14 08:57:55] INFO root fetch - processPackages [anemone-daisy-maker]: New version: [1.55.9] Old Version: [1.55.8]
+[2024-05-14 08:57:55] INFO root fetch - processPackages [test-core-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:57:55] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/32/cd/9c0011b1204d907d1b2f558f887230b2741fcc60ea9ecfbf8018576508be/test_core_package-0.0.8.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/a1/f8/894aad5efccdd319ea904ec3f305a267ebb75eddfa790cbb83ab850d6ece/anemone_daisy_maker-1.55.8.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [acdh-baserow-pyutils]: New version: [0.9] Old Version: [0.8]
+[2024-05-14 08:57:55] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-14 08:57:55] INFO root fetch - processPackages [sddgen]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 08:57:55] INFO root fetch - processPackages [pywayne]: New version: [1.0.0.7.1] Old Version: [1.0.0.7.0]
+[2024-05-14 08:57:55] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: Downloading https://files.pythonhosted.org/packages/9a/82/a6e98021e7ea23e6a03e77470943cbce908ac61c5a53d3ca597b92ccd79c/aliyun-python-sdk-waf-openapi-1.1.8.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/98/a6/99d44ffeb5592c3e88259d6f307370e763540b971d53e1187be50f6ef974/pywayne-1.0.0.7.0.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [acdh-baserow-pyutils]: Downloading https://files.pythonhosted.org/packages/ae/08/4bd8addcdf3852bce46f65eb10d2327789b2ed4ff63bf4fc5ac505d9773c/acdh_baserow_pyutils-0.8.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [sddgen]: Downloading https://files.pythonhosted.org/packages/5e/71/f7fc8ed4883b1811ff07ac13f55293d5defd8bb7a0f355c44e4b61a60d49/sddgen-0.0.5.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/31/82/f0de1b165e3c23a5960f4e2ec7da10bc999821575a5dc1f9104db1cc1448/test_core_package-0.0.9.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [anemone-daisy-maker]: Downloading https://files.pythonhosted.org/packages/30/37/186cf9f2f6b2a4c452f0e5a9baf44089fc723a97980b483bf305b84f76a5/anemone_daisy_maker-1.55.9.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-14 08:57:55] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.0.8.tar.gz tmp/test_core_package-0.0.9.tar.gz --markdown 20240514/t/test-core-package/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:57:55] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: Downloading https://files.pythonhosted.org/packages/fe/20/9fa7674accc841d837b20aad1b1ca1bf0fca7ec155b903af6ec4bccbc77a/aliyun-python-sdk-waf-openapi-1.1.9.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [anemone-daisy-maker]: executing diffoscope
+[2024-05-14 08:57:55] INFO root fetch - processPackages [anemone-daisy-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anemone_daisy_maker-1.55.8.tar.gz tmp/anemone_daisy_maker-1.55.9.tar.gz --markdown 20240514/a/anemone-daisy-maker/1.55.8-1.55.9/README.md --exclude *.pyd
+[2024-05-14 08:57:55] INFO root fetch - processPackages [pywayne]: Downloading https://files.pythonhosted.org/packages/f5/83/3373f5252db472ded7d2e6a12296bc8864276d8f05674145d207dfa4bfe0/pywayne-1.0.0.7.1.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [acdh-baserow-pyutils]: Downloading https://files.pythonhosted.org/packages/1d/7a/b52470d3774097700b22676ffb410a2caf163e5b992f979e77db1aa71bee/acdh_baserow_pyutils-0.9.tar.gz
+[2024-05-14 08:57:55] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: executing diffoscope
+[2024-05-14 08:57:55] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-waf-openapi-1.1.8.tar.gz tmp/aliyun-python-sdk-waf-openapi-1.1.9.tar.gz --markdown 20240514/a/aliyun-python-sdk-waf-openapi/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-14 08:57:56] INFO root fetch - processPackages [pywayne]: executing diffoscope
+[2024-05-14 08:57:56] INFO root fetch - processPackages [pywayne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywayne-1.0.0.7.0.tar.gz tmp/pywayne-1.0.0.7.1.tar.gz --markdown 20240514/p/pywayne/1.0.0.7.0-1.0.0.7.1/README.md --exclude *.pyd
+[2024-05-14 08:57:56] INFO root fetch - processPackages [sddgen]: Downloading https://files.pythonhosted.org/packages/9a/24/3869b070deba436253af8c397a7423ef4f4597cbe263341c6bf6966aed08/sddgen-0.0.6.tar.gz
+[2024-05-14 08:57:56] INFO root fetch - processPackages [acdh-baserow-pyutils]: executing diffoscope
+[2024-05-14 08:57:56] INFO root fetch - processPackages [acdh-baserow-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdh_baserow_pyutils-0.8.tar.gz tmp/acdh_baserow_pyutils-0.9.tar.gz --markdown 20240514/a/acdh-baserow-pyutils/0.8-0.9/README.md --exclude *.pyd
+[2024-05-14 08:57:56] INFO root fetch - processPackages [sddgen]: executing diffoscope
+[2024-05-14 08:57:56] INFO root fetch - processPackages [sddgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddgen-0.0.5.tar.gz tmp/sddgen-0.0.6.tar.gz --markdown 20240514/s/sddgen/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 08:57:56] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.8.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.9.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-14 08:57:56] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.55.8.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - processPackages [anemone-daisy-maker]: Remove: archive file [/home/abi/fetcher/tmp/anemone_daisy_maker-1.55.9.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: End processing [anemone-daisy-maker]: success
+[2024-05-14 08:57:56] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-waf-openapi-1.1.8.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - processPackages [aliyun-python-sdk-waf-openapi]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-waf-openapi-1.1.9.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-waf-openapi]: success
+[2024-05-14 08:57:56] INFO root fetch - processPackages [sddgen]: Remove: archive file [/home/abi/fetcher/tmp/sddgen-0.0.5.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - processPackages [sddgen]: Remove: archive file [/home/abi/fetcher/tmp/sddgen-0.0.6.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: End processing [sddgen]: success
+[2024-05-14 08:57:56] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.0.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - processPackages [pywayne]: Remove: archive file [/home/abi/fetcher/tmp/pywayne-1.0.0.7.1.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: End processing [pywayne]: success
+[2024-05-14 08:57:56] INFO root fetch - processPackages [acdh-baserow-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/acdh_baserow_pyutils-0.8.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - processPackages [acdh-baserow-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/acdh_baserow_pyutils-0.9.tar.gz]
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: End processing [acdh-baserow-pyutils]: success
+[2024-05-14 08:57:56] INFO root fetch - main [MainThread]: Store serial: [23196813]
