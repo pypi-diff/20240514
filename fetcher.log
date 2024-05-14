@@ -8414,3 +8414,24 @@
 [2024-05-14 04:51:34] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev9.tar.gz]
 [2024-05-14 04:51:34] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
 [2024-05-14 04:51:34] INFO root fetch - main [MainThread]: Store serial: [23195055]
+[2024-05-14 04:53:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195055]
+[2024-05-14 04:53:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 04:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperstruct
+[2024-05-14 04:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hamu-tool
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hyperstruct]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hamu-tool]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hamu-tool]: Downloading https://files.pythonhosted.org/packages/51/5f/876643cf0b4f72f317b38f8321efbf2b70b04140059ce2e5f45e2fd8e1b2/hamu-tool-0.0.7.tar.gz
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hyperstruct]: Downloading https://files.pythonhosted.org/packages/44/6a/851f0dfced4ce4f7abb91a4682ab84f4d60de9756583e21484ae70ec947d/hyperstruct-0.0.2.tar.gz
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hyperstruct]: Downloading https://files.pythonhosted.org/packages/13/47/538738501dafabc6c7c74afe3cdda8f6360d749d29425b2e121c2ed269a1/hyperstruct-0.0.3.tar.gz
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hamu-tool]: Downloading https://files.pythonhosted.org/packages/13/12/265ea4d1a55c280205da266d4dfc28964139240aa8faac061cc913ab98c1/hamu-tool-0.0.8.tar.gz
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hyperstruct]: executing diffoscope
+[2024-05-14 04:53:43] INFO root fetch - processPackages [hyperstruct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperstruct-0.0.2.tar.gz tmp/hyperstruct-0.0.3.tar.gz --markdown 20240514/h/hyperstruct/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 04:53:44] INFO root fetch - processPackages [hamu-tool]: executing diffoscope
+[2024-05-14 04:53:44] INFO root fetch - processPackages [hamu-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hamu-tool-0.0.7.tar.gz tmp/hamu-tool-0.0.8.tar.gz --markdown 20240514/h/hamu-tool/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 04:53:44] INFO root fetch - processPackages [hyperstruct]: Remove: archive file [/home/abi/fetcher/tmp/hyperstruct-0.0.2.tar.gz]
+[2024-05-14 04:53:44] INFO root fetch - processPackages [hyperstruct]: Remove: archive file [/home/abi/fetcher/tmp/hyperstruct-0.0.3.tar.gz]
+[2024-05-14 04:53:44] INFO root fetch - main [MainThread]: End processing [hyperstruct]: success
+[2024-05-14 04:53:44] INFO root fetch - processPackages [hamu-tool]: Remove: archive file [/home/abi/fetcher/tmp/hamu-tool-0.0.7.tar.gz]
+[2024-05-14 04:53:44] INFO root fetch - processPackages [hamu-tool]: Remove: archive file [/home/abi/fetcher/tmp/hamu-tool-0.0.8.tar.gz]
+[2024-05-14 04:53:44] INFO root fetch - main [MainThread]: End processing [hamu-tool]: success
+[2024-05-14 04:53:44] INFO root fetch - main [MainThread]: Store serial: [23195061]
