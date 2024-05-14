@@ -17389,3 +17389,162 @@
 [2024-05-14 11:38:08] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.44.dev0.tar.gz]
 [2024-05-14 11:38:08] INFO root fetch - main [MainThread]: End processing [pyvista]: success
 [2024-05-14 11:38:08] INFO root fetch - main [MainThread]: Store serial: [23198853]
+[2024-05-14 11:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198853]
+[2024-05-14 11:40:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HawaData
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpkg3322
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conan
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Xdcheckin
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omu
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omuchat
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: omuchatprovider
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omuplugin-chat
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: omuplugin-emoji
+[2024-05-14 11:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omuplugin-nyanya
+[2024-05-14 11:40:33] INFO root fetch - processPackages [testpkg3322]: New version: [2.35.9] Old Version: [2.35.8]
+[2024-05-14 11:40:33] INFO root fetch - processPackages [conan]: New version: [2.3.0] Old Version: [2.2.3]
+[2024-05-14 11:40:33] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/b9/c9/e486ba09062c28172d0bc9a928073148958a49a2848f1dc98e76b0e3ca5a/testpkg3322-2.35.8.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchatprovider]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-emoji]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-nyanya]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [Xdcheckin]: New version: [2.1.1] Old Version: [2.0.9]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchat]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omu]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-chat]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:34] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/8a/53/87dcedec3db555a6b760c9acf4e28e204ed124dd583181ea45fe87cd775a/conan-2.2.3.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/d8/70/b94976d15749b90f3243044305f9c2572c96eef536e4477accf39533fc25/omuchatprovider-0.3.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/3a/38/5d89646c1fb5d5c17f5fe3b67ad887756136ba1bd38954961c6f1c4fd0a7/omuplugin_emoji-0.3.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [Xdcheckin]: Downloading https://files.pythonhosted.org/packages/a8/51/cec0a65d3db0c8e1e658bd143b3cf7aaf3124aeccbeb161947b9642c3237/xdcheckin-2.0.9.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/84/21/ffc97f47432fb18ecdf3d09ee6eaef6bc4551a04a2ae6da9b3b7e0732c31/omuplugin_nyanya-0.3.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/a2/23/9cf7f847b30ed48896055860316a6cabe921410df5ce6a7b8526fa74b79f/omu-0.3.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/7d/e0/ead684fe41e3e9c4cdd3ed01d67df591ca28a45282ffbe01d56c4cf94c40/omuchat-0.3.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/d6/11/333284ab2e508038695e9308bdb436693df60040d7ce7a2e0aacac7f5bdb/testpkg3322-2.35.9.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/9a/d9/20485dcca34b9e547f9237b09ad5f5715e2bc21711873951dc3a634fc955/omuplugin_chat-0.3.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [testpkg3322]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [testpkg3322]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpkg3322-2.35.8.tar.gz tmp/testpkg3322-2.35.9.tar.gz --markdown 20240514/t/testpkg3322/2.35.8-2.35.9/README.md --exclude *.pyd
+[2024-05-14 11:40:34] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [conan]: Downloading https://files.pythonhosted.org/packages/ab/48/d46bf77472bf6e7b0d93b50b1f6c9b19ee7b6ca966251c8d16eaa8f5dd47/conan-2.3.0.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-emoji]: Downloading https://files.pythonhosted.org/packages/31/4c/0787d0bc81de630d0b087a07a3c1860a9ea0fe2a421222bdb2326205ee12/omuplugin_emoji-0.3.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchatprovider]: Downloading https://files.pythonhosted.org/packages/c3/8c/17cf9d638e7e7bf270c6523c63264800da6b5ed5ae597c8efd2d53829134/omuchatprovider-0.3.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-nyanya]: Downloading https://files.pythonhosted.org/packages/64/6f/1efe96dfa649c4cec230c2909bed3db9fc068c0d789e7162b56503d66684/omuplugin_nyanya-0.3.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-chat]: Downloading https://files.pythonhosted.org/packages/e7/a8/18fc65691baca723bc2dec3e1e49be577a4845f6ef9312b10228008ad878/omuplugin_chat-0.3.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [Xdcheckin]: Downloading https://files.pythonhosted.org/packages/47/c8/549d41f45f31ceec94d13025cb967970b7822a0f081ba2511af295901552/xdcheckin-2.1.1.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omu]: Downloading https://files.pythonhosted.org/packages/90/b8/e80117a8fb2261bbc1a2ec866db7bad8bae01ef6f998c5565dbdff7c4973/omu-0.3.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchat]: Downloading https://files.pythonhosted.org/packages/0a/46/ac715212eb8292d29142774fe846e15a2baf33cc440b548ddd28b4a50643/omuchat-0.3.2.tar.gz
+[2024-05-14 11:40:34] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240514/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-emoji]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-emoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_emoji-0.3.1.tar.gz tmp/omuplugin_emoji-0.3.2.tar.gz --markdown 20240514/o/omuplugin-emoji/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchatprovider]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuchatprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchatprovider-0.3.1.tar.gz tmp/omuchatprovider-0.3.2.tar.gz --markdown 20240514/o/omuchatprovider/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:34] INFO root fetch - processPackages [conan]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [conan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conan-2.2.3.tar.gz tmp/conan-2.3.0.tar.gz --markdown 20240514/c/conan/2.2.3-2.3.0/README.md --exclude *.pyd
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-nyanya]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-nyanya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_nyanya-0.3.1.tar.gz tmp/omuplugin_nyanya-0.3.2.tar.gz --markdown 20240514/o/omuplugin-nyanya/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-chat]: executing diffoscope
+[2024-05-14 11:40:34] INFO root fetch - processPackages [omuplugin-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_chat-0.3.1.tar.gz tmp/omuplugin_chat-0.3.2.tar.gz --markdown 20240514/o/omuplugin-chat/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:35] INFO root fetch - processPackages [omu]: executing diffoscope
+[2024-05-14 11:40:35] INFO root fetch - processPackages [omu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omu-0.3.1.tar.gz tmp/omu-0.3.2.tar.gz --markdown 20240514/o/omu/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:35] INFO root fetch - processPackages [omuchat]: executing diffoscope
+[2024-05-14 11:40:35] INFO root fetch - processPackages [omuchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuchat-0.3.1.tar.gz tmp/omuchat-0.3.2.tar.gz --markdown 20240514/o/omuchat/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:35] INFO root fetch - processPackages [Xdcheckin]: executing diffoscope
+[2024-05-14 11:40:35] INFO root fetch - processPackages [Xdcheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdcheckin-2.0.9.tar.gz tmp/xdcheckin-2.1.1.tar.gz --markdown 20240514/X/Xdcheckin/2.0.9-2.1.1/README.md --exclude *.pyd
+[2024-05-14 11:40:35] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.8.tar.gz]
+[2024-05-14 11:40:35] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.9.tar.gz]
+[2024-05-14 11:40:35] INFO root fetch - processPackages [testpkg3322]: Start processing: omuplugin-obssync
+[2024-05-14 11:40:35] INFO root fetch - main [MainThread]: End processing [testpkg3322]: success
+[2024-05-14 11:40:35] INFO root fetch - processPackages [omuplugin-obssync]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:35] INFO root fetch - processPackages [omuplugin-obssync]: Downloading https://files.pythonhosted.org/packages/b9/fa/b086e64555fb4828b0d079482e70e255137eb1237ee2ea1adaadbe9d7ca5/omuplugin_obssync-0.3.1.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.3.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-chat]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_chat-0.3.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-chat]: Start processing: saes6-jerry
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [omuplugin-chat]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.3.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuchat]: Remove: archive file [/home/abi/fetcher/tmp/omuchat-0.3.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuchat]: Start processing: omuplugin-onecomme
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [omuchat]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-obssync]: Downloading https://files.pythonhosted.org/packages/f0/09/1378d009214957ca02cb5d5af44119ba77dbcde9be3138754ff73ba7d114/omuplugin_obssync-0.3.2.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.3.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-emoji]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_emoji-0.3.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-emoji]: Start processing: omuplugin-translator
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [omuplugin-emoji]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/98/32/cd382be4186b243553195538f0baf4e312a539a4769f0e74f128ae119307/saes6-jerry-0.0.8.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.3.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuchatprovider]: Remove: archive file [/home/abi/fetcher/tmp/omuchatprovider-0.3.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuchatprovider]: Start processing: omuserver
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [omuchatprovider]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.3.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omu]: Remove: archive file [/home/abi/fetcher/tmp/omu-0.3.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omu]: Start processing: cms-pri-chmod
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [omu]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-obssync]: executing diffoscope
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-obssync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_obssync-0.3.1.tar.gz tmp/omuplugin_obssync-0.3.2.tar.gz --markdown 20240514/o/omuplugin-obssync/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-onecomme]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.3.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-nyanya]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_nyanya-0.3.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-nyanya]: Start processing: babelwidget
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [omuplugin-nyanya]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [cms-pri-chmod]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [HawaData]: Start processing: testasddsa
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-translator]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [Xdcheckin]: Remove: archive file [/home/abi/fetcher/tmp/xdcheckin-2.0.9.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [Xdcheckin]: Remove: archive file [/home/abi/fetcher/tmp/xdcheckin-2.1.1.tar.gz]
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [Xdcheckin]: success
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuserver]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 11:40:36] INFO root fetch - processPackages [babelwidget]: New version: [2024.2] Old Version: [2024.1]
+[2024-05-14 11:40:36] WARNING root fetch - processPackages [testasddsa]: Skipping, unable to determine old version
+[2024-05-14 11:40:36] INFO root fetch - main [MainThread]: End processing [testasddsa] error
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/d0/fc/2bbf233bdd12fb29eafea258f07c8acf69b0c396dd4bf9f18e0bfcc06223/omuplugin_onecomme-0.3.1.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/a7/a2/23c55305fa3fa9b127b3e3dd5143941f7bdabe11a6c1fde28c03f702436b/omuplugin_translator-0.3.1.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/3d/fa/f060aeb0eb6de108545bf7746fa5bfc0c2916359802d8eea58819b21fd4d/saes6-jerry-0.0.9.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/46/50/51632b73c5100e1226829e109670b95233d6bdb339940293f42b4610127d/omuserver-0.3.1.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [cms-pri-chmod]: Downloading https://files.pythonhosted.org/packages/25/ad/e387428d9bda7a076f830ecc273e09904e260f817e618d5e61d9d1f1d838/cms_pri_chmod-0.0.1.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-14 11:40:36] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.8.tar.gz tmp/saes6-jerry-0.0.9.tar.gz --markdown 20240514/s/saes6-jerry/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:40:36] INFO root fetch - processPackages [babelwidget]: Downloading https://files.pythonhosted.org/packages/c8/c1/607b4fdf648f6a25387484c5b39d3e82c3835dfaa79e4d294407aa2d98a4/babelwidget-2024.1.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-onecomme]: Downloading https://files.pythonhosted.org/packages/69/e0/109a4d60276cd17cb479c249ce397b376c06e8b7db0468277f4ca096817f/omuplugin_onecomme-0.3.2.tar.gz
+[2024-05-14 11:40:36] INFO root fetch - processPackages [omuplugin-translator]: Downloading https://files.pythonhosted.org/packages/52/82/a232a54cb31a750c126299b087e40db6b966ab5c48bfd3b5dd6c9c1e32d3/omuplugin_translator-0.3.2.tar.gz
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuserver]: Downloading https://files.pythonhosted.org/packages/e2/c5/ed995477d2d6469ec0cf43e35469fd8e16227c2f6c690093ae3666ecf503/omuserver-0.3.2.tar.gz
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-onecomme]: executing diffoscope
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-onecomme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_onecomme-0.3.1.tar.gz tmp/omuplugin_onecomme-0.3.2.tar.gz --markdown 20240514/o/omuplugin-onecomme/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-obssync]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_obssync-0.3.1.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-obssync]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_obssync-0.3.2.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - main [MainThread]: End processing [omuplugin-obssync]: success
+[2024-05-14 11:40:37] INFO root fetch - processPackages [cms-pri-chmod]: Downloading https://files.pythonhosted.org/packages/9b/9a/05f40d1a21b61bd33370d0ee9fc50bbf9f4812e79822dee11cee45842af4/cms_pri_chmod-0.0.2.tar.gz
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-translator]: executing diffoscope
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuplugin_translator-0.3.1.tar.gz tmp/omuplugin_translator-0.3.2.tar.gz --markdown 20240514/o/omuplugin-translator/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:37] INFO root fetch - processPackages [babelwidget]: Downloading https://files.pythonhosted.org/packages/b3/86/8db1b51a3d230209922a3c9a31e5070cdd5e8211c641bb5a33d598aaa0de/babelwidget-2024.2.tar.gz
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuserver]: executing diffoscope
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omuserver-0.3.1.tar.gz tmp/omuserver-0.3.2.tar.gz --markdown 20240514/o/omuserver/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 11:40:37] INFO root fetch - processPackages [cms-pri-chmod]: executing diffoscope
+[2024-05-14 11:40:37] INFO root fetch - processPackages [cms-pri-chmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cms_pri_chmod-0.0.1.tar.gz tmp/cms_pri_chmod-0.0.2.tar.gz --markdown 20240514/c/cms-pri-chmod/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 11:40:37] INFO root fetch - processPackages [babelwidget]: executing diffoscope
+[2024-05-14 11:40:37] INFO root fetch - processPackages [babelwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelwidget-2024.1.tar.gz tmp/babelwidget-2024.2.tar.gz --markdown 20240514/b/babelwidget/2024.1-2024.2/README.md --exclude *.pyd
+[2024-05-14 11:40:37] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.8.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.9.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.3.1.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - processPackages [omuplugin-onecomme]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_onecomme-0.3.2.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - main [MainThread]: End processing [omuplugin-onecomme]: success
+[2024-05-14 11:40:37] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.2.3.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - processPackages [conan]: Remove: archive file [/home/abi/fetcher/tmp/conan-2.3.0.tar.gz]
+[2024-05-14 11:40:37] INFO root fetch - main [MainThread]: End processing [conan]: success
+[2024-05-14 11:40:38] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.3.1.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - processPackages [omuserver]: Remove: archive file [/home/abi/fetcher/tmp/omuserver-0.3.2.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - main [MainThread]: End processing [omuserver]: success
+[2024-05-14 11:40:38] INFO root fetch - processPackages [cms-pri-chmod]: Remove: archive file [/home/abi/fetcher/tmp/cms_pri_chmod-0.0.1.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - processPackages [cms-pri-chmod]: Remove: archive file [/home/abi/fetcher/tmp/cms_pri_chmod-0.0.2.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - main [MainThread]: End processing [cms-pri-chmod]: success
+[2024-05-14 11:40:38] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.3.1.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - processPackages [omuplugin-translator]: Remove: archive file [/home/abi/fetcher/tmp/omuplugin_translator-0.3.2.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - main [MainThread]: End processing [omuplugin-translator]: success
+[2024-05-14 11:40:38] INFO root fetch - processPackages [babelwidget]: Remove: archive file [/home/abi/fetcher/tmp/babelwidget-2024.1.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - processPackages [babelwidget]: Remove: archive file [/home/abi/fetcher/tmp/babelwidget-2024.2.tar.gz]
+[2024-05-14 11:40:38] INFO root fetch - main [MainThread]: End processing [babelwidget]: success
+[2024-05-14 11:40:38] INFO root fetch - main [MainThread]: Store serial: [23198906]
