@@ -18910,3 +18910,69 @@
 [2024-05-14 12:27:29] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.47-py3-none-any.whl.zip]
 [2024-05-14 12:27:29] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-05-14 12:27:29] INFO root fetch - main [MainThread]: Store serial: [23199493]
+[2024-05-14 12:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199493]
+[2024-05-14 12:29:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indipyclient
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edgeimpulse-api
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KudraCloudClient
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wxhelper
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bdmc
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maxray
+[2024-05-14 12:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blasttools
+[2024-05-14 12:29:41] INFO root fetch - processPackages [indipyclient]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [blasttools]: New version: [0.1.15] Old Version: [0.1.14]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [wxhelper]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [bdmc]: New version: [0.1.5.3] Old Version: [0.1.5.2]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [KudraCloudClient]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.9] Old Version: [1.49.8]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [maxray]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-14 12:29:41] INFO root fetch - processPackages [indipyclient]: Downloading https://files.pythonhosted.org/packages/e0/6d/ca88ec686eb62a8c6f471f71ab05a786f5fa51f7056f96bf9659db24030c/indipyclient-0.1.2.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [blasttools]: Downloading https://files.pythonhosted.org/packages/4c/2b/50095c57523d5ef9ce9c4cb180c0ab6890297fd5092e69d5483d70256a92/blasttools-0.1.14.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [KudraCloudClient]: Downloading https://files.pythonhosted.org/packages/56/1d/35dbf6f0098f997f5303e1fc2f56be132e4c72d56830f0618339da7b65d5/KudraCloudClient-0.0.8.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [wxhelper]: Downloading https://files.pythonhosted.org/packages/bb/23/426f1371d174b5d707c1bcdfb941d882a774ccda8f331a36371736df134c/wxhelper-0.0.3.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/7a/cc/4d0be88d6555189e32c7b450114003f4cc2d2895a5cbee87258b3b1af0be/bdmc-0.1.5.2.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/c3/18/33f68925bcf332efc7ba6f4038a59ad0039a971abe54a4138a716ef06ffb/edgeimpulse_api-1.49.8.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [maxray]: Downloading https://files.pythonhosted.org/packages/09/d0/16f94019cf8eccf3ce1030f3185c42351f3f868256dae22fec81a81ae63a/maxray-0.1.1.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [blasttools]: Downloading https://files.pythonhosted.org/packages/99/01/4239f9178b911d23e4bb7c50a633437eb3cd3a5bf188dc75a66f1123ffca/blasttools-0.1.15.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [KudraCloudClient]: Downloading https://files.pythonhosted.org/packages/43/03/d8679b18086b228f7542c140e1a90247ffdcdbb21148ba96f5553929d603/KudraCloudClient-0.0.9.tar.gz
+[2024-05-14 12:29:41] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/7f/2e/61db10bac2d979482398361a4532a56341b89eb7e3cd645df17c5ecdbfc5/edgeimpulse_api-1.49.9.tar.gz
+[2024-05-14 12:29:42] INFO root fetch - processPackages [blasttools]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [blasttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blasttools-0.1.14.tar.gz tmp/blasttools-0.1.15.tar.gz --markdown 20240514/b/blasttools/0.1.14-0.1.15/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [indipyclient]: Downloading https://files.pythonhosted.org/packages/3b/1d/bab0912c4231586a7e467ae092ca0e08de1945fd165b2a61264838a3b55d/indipyclient-0.1.3.tar.gz
+[2024-05-14 12:29:42] INFO root fetch - processPackages [wxhelper]: Downloading https://files.pythonhosted.org/packages/42/75/9835868cd72564df70dc3edbf66277c5c76ad5fd392e82431107a8dcc322/wxhelper-0.0.4.tar.gz
+[2024-05-14 12:29:42] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/96/7f/281ef15d30c419f155a6de7f03bcd0d368b5947f9e75c66c378203f44360/bdmc-0.1.5.3.tar.gz
+[2024-05-14 12:29:42] INFO root fetch - processPackages [KudraCloudClient]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [KudraCloudClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KudraCloudClient-0.0.8.tar.gz tmp/KudraCloudClient-0.0.9.tar.gz --markdown 20240514/K/KudraCloudClient/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.8.tar.gz tmp/edgeimpulse_api-1.49.9.tar.gz --markdown 20240514/e/edgeimpulse-api/1.49.8-1.49.9/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [indipyclient]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [indipyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indipyclient-0.1.2.tar.gz tmp/indipyclient-0.1.3.tar.gz --markdown 20240514/i/indipyclient/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.5.2.tar.gz tmp/bdmc-0.1.5.3.tar.gz --markdown 20240514/b/bdmc/0.1.5.2-0.1.5.3/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [maxray]: Downloading https://files.pythonhosted.org/packages/99/96/afd947e6bc6d0e496da54243d17c7ed450366150b52496ced95d5e6ba278/maxray-0.2.0.tar.gz
+[2024-05-14 12:29:42] INFO root fetch - processPackages [wxhelper]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [wxhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhelper-0.0.3.tar.gz tmp/wxhelper-0.0.4.tar.gz --markdown 20240514/w/wxhelper/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [maxray]: executing diffoscope
+[2024-05-14 12:29:42] INFO root fetch - processPackages [maxray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxray-0.1.1.tar.gz tmp/maxray-0.2.0.tar.gz --markdown 20240514/m/maxray/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-14 12:29:42] INFO root fetch - processPackages [KudraCloudClient]: Remove: archive file [/home/abi/fetcher/tmp/KudraCloudClient-0.0.8.tar.gz]
+[2024-05-14 12:29:42] INFO root fetch - processPackages [KudraCloudClient]: Remove: archive file [/home/abi/fetcher/tmp/KudraCloudClient-0.0.9.tar.gz]
+[2024-05-14 12:29:42] INFO root fetch - main [MainThread]: End processing [KudraCloudClient]: success
+[2024-05-14 12:29:42] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.14.tar.gz]
+[2024-05-14 12:29:42] INFO root fetch - processPackages [blasttools]: Remove: archive file [/home/abi/fetcher/tmp/blasttools-0.1.15.tar.gz]
+[2024-05-14 12:29:42] INFO root fetch - main [MainThread]: End processing [blasttools]: success
+[2024-05-14 12:29:43] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.2.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.3.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-05-14 12:29:43] INFO root fetch - processPackages [indipyclient]: Remove: archive file [/home/abi/fetcher/tmp/indipyclient-0.1.2.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - processPackages [indipyclient]: Remove: archive file [/home/abi/fetcher/tmp/indipyclient-0.1.3.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - main [MainThread]: End processing [indipyclient]: success
+[2024-05-14 12:29:43] INFO root fetch - processPackages [maxray]: Remove: archive file [/home/abi/fetcher/tmp/maxray-0.1.1.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - processPackages [maxray]: Remove: archive file [/home/abi/fetcher/tmp/maxray-0.2.0.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - main [MainThread]: End processing [maxray]: success
+[2024-05-14 12:29:43] INFO root fetch - processPackages [wxhelper]: Remove: archive file [/home/abi/fetcher/tmp/wxhelper-0.0.3.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - processPackages [wxhelper]: Remove: archive file [/home/abi/fetcher/tmp/wxhelper-0.0.4.tar.gz]
+[2024-05-14 12:29:43] INFO root fetch - main [MainThread]: End processing [wxhelper]: success
+[2024-05-14 12:29:45] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.8.tar.gz]
+[2024-05-14 12:29:45] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.9.tar.gz]
+[2024-05-14 12:29:45] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-05-14 12:29:45] INFO root fetch - main [MainThread]: Store serial: [23199515]
