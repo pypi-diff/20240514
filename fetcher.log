@@ -16347,3 +16347,96 @@
 [2024-05-14 11:04:29] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
 [2024-05-14 11:04:29] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
 [2024-05-14 11:04:29] INFO root fetch - main [MainThread]: Store serial: [23198478]
+[2024-05-14 11:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198478]
+[2024-05-14 11:06:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.features
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonar-api-wrapper
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qecore
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.tabular
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conetwork-test
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mosaik-emissions
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.multimodal
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.timeseries
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gungnir
+[2024-05-14 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon
+[2024-05-14 11:06:45] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [qecore]: New version: [3.9] Old Version: [3.8]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240513] Old Version: [1.1.1b20240512]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240513] Old Version: [1.1.1b20240512]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [sonar-api-wrapper]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/8f/f3/d83be9c621fd4df3ec8d9e1400c0d02f7bd52962a39bc35224fab3a7ccbc/conetwork_test-0.1.5.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240513] Old Version: [1.1.1b20240512]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [gungnir]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [mosaik-emissions]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240513] Old Version: [1.1.1b20240512]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [qecore]: Downloading https://files.pythonhosted.org/packages/73/cb/eb3ee86bdd3b0f41e2347c735467caf4096dac1b2b870f884b6bfadcc048/qecore-3.8.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240514] Old Version: [1.1.1b20240513]
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/f2/a5/4051fb379318aefed92be9d0b148ddeeb9056b71c4e73b07c5ba90b6197f/autogluon.features-1.1.1b20240512.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [sonar-api-wrapper]: Downloading https://files.pythonhosted.org/packages/21/43/983f575d054f582b6dac2202fedf8cefca2a168294d640406f1d39a024c1/sonar_api_wrapper-1.1.0-py3-none-any.whl
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ca/6f/4165908957ccdf521a9785440876c4654c0a2d96cfded972a566b2d68096/autogluon.multimodal-1.1.1b20240512.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [mosaik-emissions]: Downloading https://files.pythonhosted.org/packages/41/cd/eea9829e02b3b293b38e08cfe17808cb181fd5dfa19703507ac4a9a03f35/mosaik_emissions-0.1.0.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [gungnir]: Downloading https://files.pythonhosted.org/packages/21/bc/172d1569795b93a71b97f8e76dc9ffc4a76f4a4953c46694eac4b89fc726/gungnir-0.2.2.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/c5/5c/023af36f6710a51221427df9591c008e129071a0fb58a1d7f8ba1fb36fcb/autogluon.tabular-1.1.1b20240512.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/89/c4/f761c8186fa783595c565740a04070185e89b96b81dd268f69ec6308945d/autogluon-1.1.1b20240512.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [qecore]: Downloading https://files.pythonhosted.org/packages/25/94/63b394997fb3ae40746393b5c86ff967be6aa834973467ffef8f769c053a/qecore-3.9.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/6c/32/ef156bff91288ac25056953df5c7df78bd8d5445f44ef01afdaa7da22b21/autogluon.timeseries-1.1.1b20240513.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/bb/f4/c70c495db87779f42f446b01cd86ab7cf0afba16feabbc9f316f5e1c31d7/conetwork_test-0.1.6.tar.gz
+[2024-05-14 11:06:45] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/c9/5c/161bad97150d4b08cfb2e277b0883be5555373728f31e3271f17e09af353/autogluon.features-1.1.1b20240513.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [qecore]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [qecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qecore-3.8.tar.gz tmp/qecore-3.9.tar.gz --markdown 20240514/q/qecore/3.8-3.9/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [sonar-api-wrapper]: Downloading https://files.pythonhosted.org/packages/e8/65/f10a06377d5752ace3776f3786fd2c7d5130b390413e2765d202c773530d/sonar_api_wrapper-1.1.1-py3-none-any.whl
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240512.tar.gz tmp/autogluon.features-1.1.1b20240513.tar.gz --markdown 20240514/a/autogluon.features/1.1.1b20240512-1.1.1b20240513/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.5.tar.gz tmp/conetwork_test-0.1.6.tar.gz --markdown 20240514/c/conetwork-test/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/49/ec/9efc6567078a3c5fbd087d95676c5cd4f2312f4b7cd739dc6b0f81f10951/autogluon.multimodal-1.1.1b20240513.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [sonar-api-wrapper]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [sonar-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonar_api_wrapper-1.1.0-py3-none-any.whl.zip tmp/sonar_api_wrapper-1.1.1-py3-none-any.whl.zip --markdown 20240514/s/sonar-api-wrapper/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [gungnir]: Downloading https://files.pythonhosted.org/packages/87/04/4b3706616dd91bcd5563ffbaaed7cfe14687782917cf9b83ee4fe2a45259/gungnir-0.3.0.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/80/07/787ee6c1edcad16f0934f3e98041bc447b9d2142a1ecad6e83a6c424c380/autogluon-1.1.1b20240513.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/85/b6/c252849892e4e8217a3048ab4a8fcd95c718dd398e7da7c0f150822f128c/autogluon.timeseries-1.1.1b20240514.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/57/0c/b489c7b36625998a3d22cba9ba8e6cf61d08a908f342e8b155c2e5ff00dc/autogluon.tabular-1.1.1b20240513.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [mosaik-emissions]: Downloading https://files.pythonhosted.org/packages/66/7a/5a699f92e82d4fe2bc1b1bee1aac41b1d2ba2810feede1e7792db9e2e360/mosaik_emissions-0.1.1.tar.gz
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240512.tar.gz tmp/autogluon.multimodal-1.1.1b20240513.tar.gz --markdown 20240514/a/autogluon.multimodal/1.1.1b20240512-1.1.1b20240513/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240512.tar.gz tmp/autogluon-1.1.1b20240513.tar.gz --markdown 20240514/a/autogluon/1.1.1b20240512-1.1.1b20240513/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240513.tar.gz tmp/autogluon.timeseries-1.1.1b20240514.tar.gz --markdown 20240514/a/autogluon.timeseries/1.1.1b20240513-1.1.1b20240514/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [gungnir]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [gungnir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gungnir-0.2.2.tar.gz tmp/gungnir-0.3.0.tar.gz --markdown 20240514/g/gungnir/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240512.tar.gz tmp/autogluon.tabular-1.1.1b20240513.tar.gz --markdown 20240514/a/autogluon.tabular/1.1.1b20240512-1.1.1b20240513/README.md --exclude *.pyd
+[2024-05-14 11:06:46] INFO root fetch - processPackages [mosaik-emissions]: executing diffoscope
+[2024-05-14 11:06:46] INFO root fetch - processPackages [mosaik-emissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaik_emissions-0.1.0.tar.gz tmp/mosaik_emissions-0.1.1.tar.gz --markdown 20240514/m/mosaik-emissions/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 11:06:47] INFO root fetch - processPackages [sonar-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/sonar_api_wrapper-1.1.0-py3-none-any.whl.zip]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [sonar-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/sonar_api_wrapper-1.1.1-py3-none-any.whl.zip]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [sonar-api-wrapper]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.8.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.9.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [qecore]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.5.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.6.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240512.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240513.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [gungnir]: Remove: archive file [/home/abi/fetcher/tmp/gungnir-0.2.2.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [gungnir]: Remove: archive file [/home/abi/fetcher/tmp/gungnir-0.3.0.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [gungnir]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240513.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240514.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240512.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240513.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240512.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240513.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240512.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240513.tar.gz]
+[2024-05-14 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-14 11:06:49] INFO root fetch - processPackages [mosaik-emissions]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_emissions-0.1.0.tar.gz]
+[2024-05-14 11:06:49] INFO root fetch - processPackages [mosaik-emissions]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_emissions-0.1.1.tar.gz]
+[2024-05-14 11:06:49] INFO root fetch - main [MainThread]: End processing [mosaik-emissions]: success
+[2024-05-14 11:06:49] INFO root fetch - main [MainThread]: Store serial: [23198511]
