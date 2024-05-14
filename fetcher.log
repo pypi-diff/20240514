@@ -12328,3 +12328,27 @@
 [2024-05-14 08:47:00] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-14 08:47:00] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-14 08:47:00] INFO root fetch - main [MainThread]: Store serial: [23196721]
+[2024-05-14 08:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196721]
+[2024-05-14 08:49:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 08:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-allure-id2history
+[2024-05-14 08:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geovizir
+[2024-05-14 08:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: keta-python-sdk
+[2024-05-14 08:49:09] WARNING root fetch - processPackages [keta-python-sdk]: Skipping, unable to determine old version
+[2024-05-14 08:49:09] INFO root fetch - main [MainThread]: End processing [keta-python-sdk] error
+[2024-05-14 08:49:09] INFO root fetch - processPackages [pytest-allure-id2history]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 08:49:09] INFO root fetch - processPackages [geovizir]: New version: [1.8.0] Old Version: [1.7.3]
+[2024-05-14 08:49:09] INFO root fetch - processPackages [geovizir]: Downloading https://files.pythonhosted.org/packages/60/4c/8758a5477a955e2973206cccc8d8c6d8967c307f7a5eb79c177046e65039/geovizir-1.7.3.tar.gz
+[2024-05-14 08:49:09] INFO root fetch - processPackages [pytest-allure-id2history]: Downloading https://files.pythonhosted.org/packages/d6/b0/7dc765e3e7d424b33bb5de0eec6c46b639ffebd166fcf3c34336db270295/pytest_allure_id2history-0.1.1-py3-none-any.whl
+[2024-05-14 08:49:09] INFO root fetch - processPackages [geovizir]: Downloading https://files.pythonhosted.org/packages/e4/be/7305f25e429f0da3cee3530df4e74cb40143049a8650c6127c585691d900/geovizir-1.8.0.tar.gz
+[2024-05-14 08:49:09] INFO root fetch - processPackages [pytest-allure-id2history]: Downloading https://files.pythonhosted.org/packages/e9/dc/86cf7748148409358365ab931581352896a603d44e066650dc1b7a8b696d/pytest_allure_id2history-0.1.2-py3-none-any.whl
+[2024-05-14 08:49:09] INFO root fetch - processPackages [geovizir]: executing diffoscope
+[2024-05-14 08:49:09] INFO root fetch - processPackages [geovizir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geovizir-1.7.3.tar.gz tmp/geovizir-1.8.0.tar.gz --markdown 20240514/g/geovizir/1.7.3-1.8.0/README.md --exclude *.pyd
+[2024-05-14 08:49:09] INFO root fetch - processPackages [pytest-allure-id2history]: executing diffoscope
+[2024-05-14 08:49:09] INFO root fetch - processPackages [pytest-allure-id2history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_allure_id2history-0.1.1-py3-none-any.whl.zip tmp/pytest_allure_id2history-0.1.2-py3-none-any.whl.zip --markdown 20240514/p/pytest-allure-id2history/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 08:49:10] INFO root fetch - processPackages [geovizir]: Remove: archive file [/home/abi/fetcher/tmp/geovizir-1.7.3.tar.gz]
+[2024-05-14 08:49:10] INFO root fetch - processPackages [geovizir]: Remove: archive file [/home/abi/fetcher/tmp/geovizir-1.8.0.tar.gz]
+[2024-05-14 08:49:10] INFO root fetch - main [MainThread]: End processing [geovizir]: success
+[2024-05-14 08:49:10] INFO root fetch - processPackages [pytest-allure-id2history]: Remove: archive file [/home/abi/fetcher/tmp/pytest_allure_id2history-0.1.1-py3-none-any.whl.zip]
+[2024-05-14 08:49:10] INFO root fetch - processPackages [pytest-allure-id2history]: Remove: archive file [/home/abi/fetcher/tmp/pytest_allure_id2history-0.1.2-py3-none-any.whl.zip]
+[2024-05-14 08:49:10] INFO root fetch - main [MainThread]: End processing [pytest-allure-id2history]: success
+[2024-05-14 08:49:10] INFO root fetch - main [MainThread]: Store serial: [23196732]
