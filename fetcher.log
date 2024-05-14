@@ -7927,3 +7927,27 @@
 [2024-05-14 04:15:37] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-parsing-9.581.24094.tar.gz]
 [2024-05-14 04:15:37] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
 [2024-05-14 04:15:37] INFO root fetch - main [MainThread]: Store serial: [23194871]
+[2024-05-14 04:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194871]
+[2024-05-14 04:17:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mass-composition
+[2024-05-14 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-edge-torch
+[2024-05-14 04:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-moss
+[2024-05-14 04:17:46] WARNING root fetch - processPackages [python-moss]: Skipping, unable to determine old version
+[2024-05-14 04:17:46] INFO root fetch - main [MainThread]: End processing [python-moss] error
+[2024-05-14 04:17:46] INFO root fetch - processPackages [ai-edge-torch]: New version: [0.dev202405131354] Old Version: [0.1.1]
+[2024-05-14 04:17:46] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/a4/d1/b2cd1915f7ce7c4011fd60ed2c3d55c00dae877673c5496e03707472815b/ai_edge_torch-0.1.1-py3-none-any.whl
+[2024-05-14 04:17:46] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/c4/48/90191fd0f17d9b66f145bd0c52e7a3b51167853bcb78880f88853bbfc9db/ai_edge_torch-0.dev202405131354-py3-none-any.whl
+[2024-05-14 04:17:46] INFO root fetch - processPackages [mass-composition]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 04:17:46] INFO root fetch - processPackages [ai-edge-torch]: executing diffoscope
+[2024-05-14 04:17:46] INFO root fetch - processPackages [ai-edge-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_torch-0.1.1-py3-none-any.whl.zip tmp/ai_edge_torch-0.dev202405131354-py3-none-any.whl.zip --markdown 20240514/a/ai-edge-torch/0.1.1-0.dev202405131354/README.md --exclude *.pyd
+[2024-05-14 04:17:46] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/ac/d8/a7a7fc02d215c0b82f15700da97b7dff1935b484e48f6f90564e9253daef/mass_composition-0.4.8.tar.gz
+[2024-05-14 04:17:47] INFO root fetch - processPackages [mass-composition]: Downloading https://files.pythonhosted.org/packages/4b/cd/caf2aa726cf95d02b127329aa5f4ada331061389c9565c8746f5f4bb1212/mass_composition-0.4.9.tar.gz
+[2024-05-14 04:17:47] INFO root fetch - processPackages [mass-composition]: executing diffoscope
+[2024-05-14 04:17:47] INFO root fetch - processPackages [mass-composition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_composition-0.4.8.tar.gz tmp/mass_composition-0.4.9.tar.gz --markdown 20240514/m/mass-composition/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 04:17:47] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.1.1-py3-none-any.whl.zip]
+[2024-05-14 04:17:47] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.dev202405131354-py3-none-any.whl.zip]
+[2024-05-14 04:17:47] INFO root fetch - main [MainThread]: End processing [ai-edge-torch]: success
+[2024-05-14 04:17:47] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.8.tar.gz]
+[2024-05-14 04:17:47] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.9.tar.gz]
+[2024-05-14 04:17:47] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
+[2024-05-14 04:17:47] INFO root fetch - main [MainThread]: Store serial: [23194879]
