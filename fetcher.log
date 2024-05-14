@@ -8660,3 +8660,24 @@
 [2024-05-14 05:11:08] WARNING root fetch - processPackages [still-manim]: Skipping, unable to determine old version
 [2024-05-14 05:11:08] INFO root fetch - main [MainThread]: End processing [still-manim] error
 [2024-05-14 05:11:08] INFO root fetch - main [MainThread]: Store serial: [23195140]
+[2024-05-14 05:13:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195140]
+[2024-05-14 05:13:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 05:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aixblock-ml
+[2024-05-14 05:13:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elm-messenger
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/33/e5/383f5652c86ba1a81d1a5dcb4d0713a9ba4d8b25337904e0703aadf04887/aixblock_ml-0.1.6.tar.gz
+[2024-05-14 05:13:17] INFO root fetch - processPackages [elm-messenger]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/df/0e/133d8e3df82cc35e6d80349abf2ea1619b5cab9bd1d8d8c49a5bc1b80e74/aixblock_ml-0.1.7.tar.gz
+[2024-05-14 05:13:17] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/5b/c4/cb91f5760000d85615eabe37232cb06f040c3c9a0062b26cec44076b88f6/elm_messenger-0.3.0.tar.gz
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.1.6.tar.gz tmp/aixblock_ml-0.1.7.tar.gz --markdown 20240514/a/aixblock-ml/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 05:13:17] INFO root fetch - processPackages [elm-messenger]: Downloading https://files.pythonhosted.org/packages/c6/63/d17edb01ccf9d788e02be06a9355101aac2961c42df4ef83bd0d83b56e7e/elm_messenger-0.3.1.tar.gz
+[2024-05-14 05:13:17] INFO root fetch - processPackages [elm-messenger]: executing diffoscope
+[2024-05-14 05:13:17] INFO root fetch - processPackages [elm-messenger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elm_messenger-0.3.0.tar.gz tmp/elm_messenger-0.3.1.tar.gz --markdown 20240514/e/elm-messenger/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.1.6.tar.gz]
+[2024-05-14 05:13:17] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.1.7.tar.gz]
+[2024-05-14 05:13:17] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-05-14 05:13:18] INFO root fetch - processPackages [elm-messenger]: Remove: archive file [/home/abi/fetcher/tmp/elm_messenger-0.3.0.tar.gz]
+[2024-05-14 05:13:18] INFO root fetch - processPackages [elm-messenger]: Remove: archive file [/home/abi/fetcher/tmp/elm_messenger-0.3.1.tar.gz]
+[2024-05-14 05:13:18] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
+[2024-05-14 05:13:18] INFO root fetch - main [MainThread]: Store serial: [23195146]
