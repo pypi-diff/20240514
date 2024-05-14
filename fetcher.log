@@ -23043,3 +23043,38 @@
 [2024-05-14 14:59:41] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.9.tar.gz]
 [2024-05-14 14:59:41] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
 [2024-05-14 14:59:41] INFO root fetch - main [MainThread]: Store serial: [23201307]
+[2024-05-14 15:01:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201307]
+[2024-05-14 15:01:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 15:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-visualpython
+[2024-05-14 15:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proq
+[2024-05-14 15:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainlit
+[2024-05-14 15:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymilvus
+[2024-05-14 15:01:50] INFO root fetch - processPackages [chainlit]: New version: [1.1.0rc1] Old Version: [1.1.0rc0]
+[2024-05-14 15:01:50] INFO root fetch - processPackages [jupyterlab-visualpython]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-14 15:01:50] INFO root fetch - processPackages [proq]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 15:01:50] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/cd/2b/9dd0a73f89ed70fc5f50193526aec273dfd9bef4778c913340b70213c1de/chainlit-1.1.0rc0.tar.gz
+[2024-05-14 15:01:50] INFO root fetch - processPackages [pymilvus]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-05-14 15:01:50] INFO root fetch - processPackages [jupyterlab-visualpython]: Downloading https://files.pythonhosted.org/packages/38/c5/2dec874fe27471c6e0f54b05272ba0a567f5014c441a4309cb5fa629d00b/jupyterlab_visualpython-3.0.0.tar.gz
+[2024-05-14 15:01:50] INFO root fetch - processPackages [proq]: Downloading https://files.pythonhosted.org/packages/67/1a/6bed2049a5511c8290688a330353988d73e86965fa9167d4519d40e2f2d0/proq-0.0.3.tar.gz
+[2024-05-14 15:01:50] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/83/66/8458c60833930bd7c91d07eed9aa8ec6307e004d789f72895838a788fa25/pymilvus-2.4.1.tar.gz
+[2024-05-14 15:01:50] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/d6/9e/1936ec9292029d63689c958ad7a446e9aa3a0afe15d96456f00e7f1aaec2/chainlit-1.1.0rc1.tar.gz
+[2024-05-14 15:01:50] INFO root fetch - processPackages [proq]: Downloading https://files.pythonhosted.org/packages/20/e7/375f76dd90743836c6359ba916792624102e1a6e25bca103a02c3196213e/proq-0.0.4.tar.gz
+[2024-05-14 15:01:51] WARNING root fetch - processPackages [jupyterlab-visualpython]: Skipping package: exceeds size limit 19159256>=10485760
+[2024-05-14 15:01:51] INFO root fetch - main [MainThread]: End processing [jupyterlab-visualpython] error
+[2024-05-14 15:01:51] INFO root fetch - processPackages [proq]: executing diffoscope
+[2024-05-14 15:01:51] INFO root fetch - processPackages [proq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proq-0.0.3.tar.gz tmp/proq-0.0.4.tar.gz --markdown 20240514/p/proq/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 15:01:51] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/4b/0c/279a1a40e8134b5ba3b411b9cab2ac023077a76c32af831fac3e61a52b43/pymilvus-2.4.2.tar.gz
+[2024-05-14 15:01:51] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-14 15:01:51] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.1.0rc0.tar.gz tmp/chainlit-1.1.0rc1.tar.gz --markdown 20240514/c/chainlit/1.1.0rc0-1.1.0rc1/README.md --exclude *.pyd
+[2024-05-14 15:01:51] INFO root fetch - processPackages [pymilvus]: executing diffoscope
+[2024-05-14 15:01:51] INFO root fetch - processPackages [pymilvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus-2.4.1.tar.gz tmp/pymilvus-2.4.2.tar.gz --markdown 20240514/p/pymilvus/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-05-14 15:01:51] INFO root fetch - processPackages [proq]: Remove: archive file [/home/abi/fetcher/tmp/proq-0.0.3.tar.gz]
+[2024-05-14 15:01:51] INFO root fetch - processPackages [proq]: Remove: archive file [/home/abi/fetcher/tmp/proq-0.0.4.tar.gz]
+[2024-05-14 15:01:51] INFO root fetch - main [MainThread]: End processing [proq]: success
+[2024-05-14 15:01:53] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc0.tar.gz]
+[2024-05-14 15:01:53] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.0rc1.tar.gz]
+[2024-05-14 15:01:53] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-14 15:01:53] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.4.1.tar.gz]
+[2024-05-14 15:01:53] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.4.2.tar.gz]
+[2024-05-14 15:01:53] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
+[2024-05-14 15:01:53] INFO root fetch - main [MainThread]: Store serial: [23201320]
