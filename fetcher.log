@@ -23252,3 +23252,66 @@
 [2024-05-14 15:10:41] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
 [2024-05-14 15:10:41] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
 [2024-05-14 15:10:41] INFO root fetch - main [MainThread]: Store serial: [23201429]
+[2024-05-14 15:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201429]
+[2024-05-14 15:12:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thingsboard-gateway
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: riversand
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shopware-api-client
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: belief-state-superposition
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langvae
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tdfs4ds
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: postmark-template-translate
+[2024-05-14 15:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinjected-openai
+[2024-05-14 15:12:50] INFO root fetch - processPackages [postmark-template-translate]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-14 15:12:50] INFO root fetch - processPackages [riversand]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-14 15:12:50] ERROR root fetch - processPackages [belief-state-superposition]: Unable to get metadata: No such project 'belief-state-superposition'
+[2024-05-14 15:12:50] INFO root fetch - main [MainThread]: End processing [belief-state-superposition] error
+[2024-05-14 15:12:50] WARNING root fetch - processPackages [langvae]: Skipping, unable to determine old version
+[2024-05-14 15:12:50] INFO root fetch - main [MainThread]: End processing [langvae] error
+[2024-05-14 15:12:50] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/e6/45/ef452f13a8f9fe7687e72a01f0d0cb5680527c709e86b7e52d8ca278a12f/riversand-1.2.5.tar.gz
+[2024-05-14 15:12:50] INFO root fetch - processPackages [thingsboard-gateway]: New version: [3.5] Old Version: [3.4.6]
+[2024-05-14 15:12:50] INFO root fetch - processPackages [pinjected-openai]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-14 15:12:50] INFO root fetch - processPackages [tdfs4ds]: New version: [0.2.2.8] Old Version: [0.2.2.7]
+[2024-05-14 15:12:50] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 15:12:50] INFO root fetch - processPackages [postmark-template-translate]: Downloading https://files.pythonhosted.org/packages/59/a4/cfd472e394aa28d591adfe3d3f8f6faa25e174db98bfd9602a52f802956e/postmark_template_translate-0.4.0.tar.gz
+[2024-05-14 15:12:50] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-05-14 15:12:50] INFO root fetch - processPackages [pinjected-openai]: Downloading https://files.pythonhosted.org/packages/3a/de/aa2cc9ebc3c0445769708b3c468e5757235ab6c4f1e72e109d224658160a/pinjected_openai-0.4.6.tar.gz
+[2024-05-14 15:12:50] INFO root fetch - processPackages [thingsboard-gateway]: Downloading https://files.pythonhosted.org/packages/4e/3d/649e47c4c66c8fdeded22be9f4e47404bfba4014c19b5c6e52804f7e9b43/thingsboard-gateway-3.4.6.tar.gz
+[2024-05-14 15:12:50] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/3a/d9/eeebdab98aac7853f568ee19cb745d4a26ceb7ccfa3dcca0b0ec8afb0902/riversand-1.2.6.tar.gz
+[2024-05-14 15:12:50] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/fa/37/57478043d8a5f99023428379798c6bea0e6260352769563dce75e9f2ecf9/tdfs4ds-0.2.2.7-py3-none-any.whl
+[2024-05-14 15:12:51] INFO root fetch - processPackages [riversand]: executing diffoscope
+[2024-05-14 15:12:51] INFO root fetch - processPackages [riversand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riversand-1.2.5.tar.gz tmp/riversand-1.2.6.tar.gz --markdown 20240514/r/riversand/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-14 15:12:51] INFO root fetch - processPackages [postmark-template-translate]: Downloading https://files.pythonhosted.org/packages/99/45/f3083abcf772ea553ef94a1d31c48ed8af7914bf57d20cd7c4efeba78331/postmark_template_translate-0.5.0.tar.gz
+[2024-05-14 15:12:51] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-05-14 15:12:51] INFO root fetch - processPackages [thingsboard-gateway]: Downloading https://files.pythonhosted.org/packages/ac/e8/6e49de9ce4577aaefe37e4696e33388c251a3dab0e7a9e82b6537d07716c/thingsboard-gateway-3.5.tar.gz
+[2024-05-14 15:12:51] INFO root fetch - processPackages [postmark-template-translate]: executing diffoscope
+[2024-05-14 15:12:51] INFO root fetch - processPackages [postmark-template-translate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postmark_template_translate-0.4.0.tar.gz tmp/postmark_template_translate-0.5.0.tar.gz --markdown 20240514/p/postmark-template-translate/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-14 15:12:51] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-05-14 15:12:51] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240514/s/shopware-api-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 15:12:51] INFO root fetch - processPackages [pinjected-openai]: Downloading https://files.pythonhosted.org/packages/5d/28/5c8a77d96480fc49e4d0f5dfd86a5220108257ac22c9180f596331ffae9d/pinjected_openai-0.4.7.tar.gz
+[2024-05-14 15:12:51] INFO root fetch - processPackages [tdfs4ds]: Downloading https://files.pythonhosted.org/packages/08/04/766984098508bfd77b91632a5c66c19626ec5dfe5cc2e6f6bc295bc24fed/tdfs4ds-0.2.2.8-py3-none-any.whl
+[2024-05-14 15:12:51] INFO root fetch - processPackages [thingsboard-gateway]: executing diffoscope
+[2024-05-14 15:12:51] INFO root fetch - processPackages [thingsboard-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsboard-gateway-3.4.6.tar.gz tmp/thingsboard-gateway-3.5.tar.gz --markdown 20240514/t/thingsboard-gateway/3.4.6-3.5/README.md --exclude *.pyd
+[2024-05-14 15:12:51] INFO root fetch - processPackages [tdfs4ds]: executing diffoscope
+[2024-05-14 15:12:51] INFO root fetch - processPackages [tdfs4ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip --markdown 20240514/t/tdfs4ds/0.2.2.7-0.2.2.8/README.md --exclude *.pyd
+[2024-05-14 15:12:51] INFO root fetch - processPackages [pinjected-openai]: executing diffoscope
+[2024-05-14 15:12:51] INFO root fetch - processPackages [pinjected-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected_openai-0.4.6.tar.gz tmp/pinjected_openai-0.4.7.tar.gz --markdown 20240514/p/pinjected-openai/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-14 15:12:51] INFO root fetch - processPackages [postmark-template-translate]: Remove: archive file [/home/abi/fetcher/tmp/postmark_template_translate-0.4.0.tar.gz]
+[2024-05-14 15:12:51] INFO root fetch - processPackages [postmark-template-translate]: Remove: archive file [/home/abi/fetcher/tmp/postmark_template_translate-0.5.0.tar.gz]
+[2024-05-14 15:12:51] INFO root fetch - main [MainThread]: End processing [postmark-template-translate]: success
+[2024-05-14 15:12:52] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.5.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.6.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - main [MainThread]: End processing [riversand]: success
+[2024-05-14 15:12:52] INFO root fetch - processPackages [pinjected-openai]: Remove: archive file [/home/abi/fetcher/tmp/pinjected_openai-0.4.6.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - processPackages [pinjected-openai]: Remove: archive file [/home/abi/fetcher/tmp/pinjected_openai-0.4.7.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - main [MainThread]: End processing [pinjected-openai]: success
+[2024-05-14 15:12:52] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-05-14 15:12:52] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.7-py3-none-any.whl.zip]
+[2024-05-14 15:12:52] INFO root fetch - processPackages [tdfs4ds]: Remove: archive file [/home/abi/fetcher/tmp/tdfs4ds-0.2.2.8-py3-none-any.whl.zip]
+[2024-05-14 15:12:52] INFO root fetch - main [MainThread]: End processing [tdfs4ds]: success
+[2024-05-14 15:12:52] INFO root fetch - processPackages [thingsboard-gateway]: Remove: archive file [/home/abi/fetcher/tmp/thingsboard-gateway-3.4.6.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - processPackages [thingsboard-gateway]: Remove: archive file [/home/abi/fetcher/tmp/thingsboard-gateway-3.5.tar.gz]
+[2024-05-14 15:12:52] INFO root fetch - main [MainThread]: End processing [thingsboard-gateway]: success
+[2024-05-14 15:12:52] INFO root fetch - main [MainThread]: Store serial: [23201456]
