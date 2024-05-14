@@ -22333,3 +22333,72 @@
 [2024-05-14 14:36:21] INFO root fetch - main [MainThread]: End processing [pyrattle]: success
 [2024-05-14 14:36:21] INFO root fetch - main [MainThread]: End processing [pyrattle]: success
 [2024-05-14 14:36:21] INFO root fetch - main [MainThread]: Store serial: [23200991]
+[2024-05-14 14:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200991]
+[2024-05-14 14:38:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3-radar
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lucy01
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-code-editor
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cardex
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nicotool
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grabberlib
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: danila-lib
+[2024-05-14 14:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kurumii
+[2024-05-14 14:38:30] INFO root fetch - processPackages [lucy01]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-14 14:38:30] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev80]
+[2024-05-14 14:38:30] INFO root fetch - processPackages [grabberlib]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-14 14:38:30] WARNING root fetch - processPackages [s3-radar]: Skipping, unable to determine old version
+[2024-05-14 14:38:30] INFO root fetch - main [MainThread]: End processing [s3-radar] error
+[2024-05-14 14:38:30] INFO root fetch - processPackages [danila-lib]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-05-14 14:38:30] INFO root fetch - processPackages [lucy01]: Downloading https://files.pythonhosted.org/packages/92/69/5691fab36c21acce1b15b923eddb4b4f111e5ca1313ab14839c80c4ef3b6/lucy01-0.0.0.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [nicotool]: New version: [1.4.8.6] Old Version: [1.4.8.5]
+[2024-05-14 14:38:30] INFO root fetch - processPackages [streamlit-code-editor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 14:38:30] INFO root fetch - processPackages [kurumii]: New version: [1.4.8.6] Old Version: [1.4.8.4]
+[2024-05-14 14:38:30] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/79/f0/d5a2303fb1ec51595f130c75239b576dc2daddc542eea42e9ec9db8a7b08/danila-lib-1.4.2.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/43/6b/2938a23b6b1bb4d5aca9612062dd940c6309ef14c626f7d6f38f6df6d398/cardex-0.2.0.dev80.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/da/09/f2527b51b5bc8b045f67294ce6625999853fd1fbae1829b4341cabaa1498/grabberlib-0.1.5.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [nicotool]: Downloading https://files.pythonhosted.org/packages/03/8c/7f4921dea3ee10a837c816a6b318c34811e631d0ad50bcac2ca6eda20685/nicotool-1.4.8.5.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/01/38/275c3ed09e84e1c0885527d862abc6d3ae47ccd3eccb3a32d90604b6e707/streamlit-code-editor-0.1.8.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [kurumii]: Downloading https://files.pythonhosted.org/packages/b4/cf/80b28ef5bc3950de95fa50d8413394b359ae0be3f889de2d0114438b96d2/kurumii-1.4.8.4.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [lucy01]: Downloading https://files.pythonhosted.org/packages/9d/b8/8e5f824dcdddd2070531854ae4c16e145aae746f81f0d41dbbf18061949f/lucy01-0.0.1.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [grabberlib]: Downloading https://files.pythonhosted.org/packages/15/5c/36aab83a0c832cb124062bfbf1359fb72df06db6af524f826a016cb54dd0/grabberlib-0.1.7.tar.gz
+[2024-05-14 14:38:30] INFO root fetch - processPackages [lucy01]: executing diffoscope
+[2024-05-14 14:38:30] INFO root fetch - processPackages [lucy01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucy01-0.0.0.tar.gz tmp/lucy01-0.0.1.tar.gz --markdown 20240514/l/lucy01/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-14 14:38:30] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/57/96/6a5923b4da90168d5b058a57d75b52b06ed6a43b9357bfe32b577b0cb56b/danila-lib-1.4.3.tar.gz
+[2024-05-14 14:38:31] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-14 14:38:31] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev80.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240514/c/cardex/0.2.0.dev80-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-14 14:38:31] INFO root fetch - processPackages [nicotool]: Downloading https://files.pythonhosted.org/packages/9a/fb/1ac188b02fb02e87e22ee0c40f8c2c30c9ca9f2897b6c431c4e7c1d30aff/nicotool-1.4.8.6.tar.gz
+[2024-05-14 14:38:31] INFO root fetch - processPackages [grabberlib]: executing diffoscope
+[2024-05-14 14:38:31] INFO root fetch - processPackages [grabberlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grabberlib-0.1.5.tar.gz tmp/grabberlib-0.1.7.tar.gz --markdown 20240514/g/grabberlib/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-14 14:38:31] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-14 14:38:31] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.2.tar.gz tmp/danila-lib-1.4.3.tar.gz --markdown 20240514/d/danila-lib/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-05-14 14:38:31] INFO root fetch - processPackages [kurumii]: Downloading https://files.pythonhosted.org/packages/bf/ed/49883fc4adf6cc384a05fd6369a8c27b4bca668088fa18ae198b43ab8e5c/kurumii-1.4.8.6.tar.gz
+[2024-05-14 14:38:31] INFO root fetch - processPackages [nicotool]: executing diffoscope
+[2024-05-14 14:38:31] INFO root fetch - processPackages [nicotool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicotool-1.4.8.5.tar.gz tmp/nicotool-1.4.8.6.tar.gz --markdown 20240514/n/nicotool/1.4.8.5-1.4.8.6/README.md --exclude *.pyd
+[2024-05-14 14:38:31] INFO root fetch - processPackages [kurumii]: executing diffoscope
+[2024-05-14 14:38:31] INFO root fetch - processPackages [kurumii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kurumii-1.4.8.4.tar.gz tmp/kurumii-1.4.8.6.tar.gz --markdown 20240514/k/kurumii/1.4.8.4-1.4.8.6/README.md --exclude *.pyd
+[2024-05-14 14:38:31] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev80.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-14 14:38:31] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.5.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - processPackages [grabberlib]: Remove: archive file [/home/abi/fetcher/tmp/grabberlib-0.1.7.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - main [MainThread]: End processing [grabberlib]: success
+[2024-05-14 14:38:31] INFO root fetch - processPackages [lucy01]: Remove: archive file [/home/abi/fetcher/tmp/lucy01-0.0.0.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - processPackages [lucy01]: Remove: archive file [/home/abi/fetcher/tmp/lucy01-0.0.1.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - main [MainThread]: End processing [lucy01]: success
+[2024-05-14 14:38:31] INFO root fetch - processPackages [nicotool]: Remove: archive file [/home/abi/fetcher/tmp/nicotool-1.4.8.5.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - processPackages [nicotool]: Remove: archive file [/home/abi/fetcher/tmp/nicotool-1.4.8.6.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - main [MainThread]: End processing [nicotool]: success
+[2024-05-14 14:38:31] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/d0/86/4b81c91ae2c25a0577b69ef13b9776528daf58f7c4c65717de640900a2f8/streamlit-code-editor-0.1.9.tar.gz
+[2024-05-14 14:38:31] INFO root fetch - processPackages [kurumii]: Remove: archive file [/home/abi/fetcher/tmp/kurumii-1.4.8.4.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - processPackages [kurumii]: Remove: archive file [/home/abi/fetcher/tmp/kurumii-1.4.8.6.tar.gz]
+[2024-05-14 14:38:31] INFO root fetch - main [MainThread]: End processing [kurumii]: success
+[2024-05-14 14:38:32] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.2.tar.gz]
+[2024-05-14 14:38:32] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.3.tar.gz]
+[2024-05-14 14:38:32] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-14 14:38:33] INFO root fetch - processPackages [streamlit-code-editor]: executing diffoscope
+[2024-05-14 14:38:33] INFO root fetch - processPackages [streamlit-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-code-editor-0.1.8.tar.gz tmp/streamlit-code-editor-0.1.9.tar.gz --markdown 20240514/s/streamlit-code-editor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 14:38:35] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.8.tar.gz]
+[2024-05-14 14:38:35] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.9.tar.gz]
+[2024-05-14 14:38:35] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
+[2024-05-14 14:38:35] INFO root fetch - main [MainThread]: Store serial: [23201016]
