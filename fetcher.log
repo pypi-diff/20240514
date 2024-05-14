@@ -10768,3 +10768,41 @@
 [2024-05-14 07:27:49] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.3.tar.gz]
 [2024-05-14 07:27:49] INFO root fetch - main [MainThread]: End processing [soarv1]: success
 [2024-05-14 07:27:49] INFO root fetch - main [MainThread]: Store serial: [23195945]
+[2024-05-14 07:29:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195945]
+[2024-05-14 07:29:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 07:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidyxbrl
+[2024-05-14 07:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-osubot
+[2024-05-14 07:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-pms
+[2024-05-14 07:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mulankit
+[2024-05-14 07:29:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-05-14 07:29:57] INFO root fetch - processPackages [tidyxbrl]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 07:29:57] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 07:29:58] WARNING root fetch - processPackages [mulankit]: Skipping, unable to determine old version
+[2024-05-14 07:29:58] INFO root fetch - main [MainThread]: End processing [mulankit] error
+[2024-05-14 07:29:58] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/ba/40/4183167fa345ae6887750b97699606280747ff45af887b4362e8951d873d/tidyxbrl-1.0.1.tar.gz
+[2024-05-14 07:29:58] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-14 07:29:58] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2024-05-14 07:29:58] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.4] Old Version: [6.0.3]
+[2024-05-14 07:29:58] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-14 07:29:58] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/ba/9a/d691012417cf8628018fc80456282ae066deef07cc65d1f7dbd3f66d1f97/nonebot-plugin-osubot-6.0.3.tar.gz
+[2024-05-14 07:29:58] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2024-05-14 07:29:58] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29385827>=10485760
+[2024-05-14 07:29:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-14 07:29:58] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/f2/4e/fc8321fca3dfd907fd4c7d3b6570ae9ff4a0e43ce5c21a38143f1107770a/tidyxbrl-1.0.2.tar.gz
+[2024-05-14 07:29:58] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-14 07:29:58] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240514/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 07:29:58] INFO root fetch - processPackages [tidyxbrl]: executing diffoscope
+[2024-05-14 07:29:58] INFO root fetch - processPackages [tidyxbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyxbrl-1.0.1.tar.gz tmp/tidyxbrl-1.0.2.tar.gz --markdown 20240514/t/tidyxbrl/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 07:29:58] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2024-05-14 07:29:58] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-14 07:29:58] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-14 07:29:58] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-14 07:29:58] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2024-05-14 07:29:58] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20240514/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/README.md --exclude *.pyd
+[2024-05-14 07:29:59] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.1.tar.gz]
+[2024-05-14 07:29:59] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.2.tar.gz]
+[2024-05-14 07:29:59] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
+[2024-05-14 07:30:00] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2024-05-14 07:30:00] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2024-05-14 07:30:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2024-05-14 07:30:00] INFO root fetch - main [MainThread]: Store serial: [23195960]
