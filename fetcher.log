@@ -2616,3 +2616,42 @@
 [2024-05-14 02:15:52] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240513.tar.gz]
 [2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-05-14 02:15:52] INFO root fetch - main [MainThread]: Store serial: [23192852]
+[2024-05-14 02:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192852]
+[2024-05-14 02:18:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 02:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abstract-shapes
+[2024-05-14 02:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-14 02:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dalgorithms
+[2024-05-14 02:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foamlib
+[2024-05-14 02:18:01] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:18:01] INFO root fetch - processPackages [foamlib]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-14 02:18:01] INFO root fetch - processPackages [dalgorithms]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 02:18:01] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:18:01] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/79/94/615c2f059c9efecd5345d1df8ff07c04fea49c09dfc6795244a6b4ca7522/foamlib-0.3.7.tar.gz
+[2024-05-14 02:18:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-14 02:18:01] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:18:01] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/79/01/157a3168f729350779ee5ffcbc9ecd06b79fcbcfa0dac32344e3a69f0f2f/foamlib-0.3.8.tar.gz
+[2024-05-14 02:18:01] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/9e/99/c7a6c439c8d20c6ef8f670dc2853f0b8bfbe2e82c0e02a311906bc729f8f/dalgorithms-0.1.1.tar.gz
+[2024-05-14 02:18:01] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-14 02:18:01] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:18:01] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:18:01] INFO root fetch - processPackages [foamlib]: executing diffoscope
+[2024-05-14 02:18:01] INFO root fetch - processPackages [foamlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foamlib-0.3.7.tar.gz tmp/foamlib-0.3.8.tar.gz --markdown 20240514/f/foamlib/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-14 02:18:02] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/46/d9/beadb54dc8caf0ad23dee39b99119d808eb215b18224fcaa2cb9841e7f94/dalgorithms-0.1.2-py3-none-any.whl
+[2024-05-14 02:18:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-14 02:18:02] INFO root fetch - processPackages [dalgorithms]: executing diffoscope
+[2024-05-14 02:18:02] INFO root fetch - processPackages [dalgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalgorithms-0.1.1.tar.gz tmp/dalgorithms-0.1.2-py3-none-any.whl.zip --markdown 20240514/d/dalgorithms/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 02:18:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-14 02:18:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240514/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-14 02:18:02] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.7.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.3.8.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - main [MainThread]: End processing [foamlib]: success
+[2024-05-14 02:18:02] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:18:02] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.1.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.2-py3-none-any.whl.zip]
+[2024-05-14 02:18:02] INFO root fetch - main [MainThread]: End processing [dalgorithms]: success
+[2024-05-14 02:18:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-14 02:18:02] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-14 02:18:02] INFO root fetch - main [MainThread]: Store serial: [23192863]
