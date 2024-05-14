@@ -10140,3 +10140,24 @@
 [2024-05-14 06:39:44] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.4.tar.gz]
 [2024-05-14 06:39:44] INFO root fetch - main [MainThread]: End processing [indexnetwork-sdk]: success
 [2024-05-14 06:39:44] INFO root fetch - main [MainThread]: Store serial: [23195718]
+[2024-05-14 06:41:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195718]
+[2024-05-14 06:41:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: itrm
+[2024-05-14 06:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ETLT
+[2024-05-14 06:41:58] INFO root fetch - processPackages [itrm]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 06:41:58] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/c0/7d/5a4ace32de0074910d3c8a0d2c556778c45d7051157067a6af6bad517c03/itrm-0.2.0.tar.gz
+[2024-05-14 06:41:58] INFO root fetch - processPackages [ETLT]: New version: [1.0.0] Old Version: [0.9.6]
+[2024-05-14 06:41:58] INFO root fetch - processPackages [ETLT]: Downloading https://files.pythonhosted.org/packages/db/62/6eca81144f6e4a46b1e654d9a5a1fbac7fc40daed957b22bd3aa09df376f/ETLT-0.9.6.tar.gz
+[2024-05-14 06:41:59] INFO root fetch - processPackages [itrm]: Downloading https://files.pythonhosted.org/packages/36/3f/39be5d1c38006e9dd3702a761385cd161cca70b5ed976053a14f7958f55f/itrm-0.2.1.tar.gz
+[2024-05-14 06:41:59] INFO root fetch - processPackages [itrm]: executing diffoscope
+[2024-05-14 06:41:59] INFO root fetch - processPackages [itrm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itrm-0.2.0.tar.gz tmp/itrm-0.2.1.tar.gz --markdown 20240514/i/itrm/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 06:41:59] INFO root fetch - processPackages [ETLT]: Downloading https://files.pythonhosted.org/packages/c3/7c/bf59e56aaeb9258a36f7d54e16591b616a611b9ba8980f893f07129f149c/etlt-1.0.0.tar.gz
+[2024-05-14 06:41:59] INFO root fetch - processPackages [ETLT]: executing diffoscope
+[2024-05-14 06:41:59] INFO root fetch - processPackages [ETLT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ETLT-0.9.6.tar.gz tmp/etlt-1.0.0.tar.gz --markdown 20240514/E/ETLT/0.9.6-1.0.0/README.md --exclude *.pyd
+[2024-05-14 06:41:59] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.2.0.tar.gz]
+[2024-05-14 06:41:59] INFO root fetch - processPackages [itrm]: Remove: archive file [/home/abi/fetcher/tmp/itrm-0.2.1.tar.gz]
+[2024-05-14 06:41:59] INFO root fetch - main [MainThread]: End processing [itrm]: success
+[2024-05-14 06:41:59] INFO root fetch - processPackages [ETLT]: Remove: archive file [/home/abi/fetcher/tmp/ETLT-0.9.6.tar.gz]
+[2024-05-14 06:41:59] INFO root fetch - processPackages [ETLT]: Remove: archive file [/home/abi/fetcher/tmp/etlt-1.0.0.tar.gz]
+[2024-05-14 06:41:59] INFO root fetch - main [MainThread]: End processing [ETLT]: success
+[2024-05-14 06:41:59] INFO root fetch - main [MainThread]: Store serial: [23195724]
