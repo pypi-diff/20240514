@@ -14493,3 +14493,105 @@
 [2024-05-14 10:08:05] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19669-py2.py3-none-any.whl.zip]
 [2024-05-14 10:08:05] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-05-14 10:08:05] INFO root fetch - main [MainThread]: Store serial: [23197643]
+[2024-05-14 10:10:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197643]
+[2024-05-14 10:10:18] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zibuyu-LLM
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genai-apis
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edubot-matrix
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: local_tuya
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvprocessor
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyglove
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airtestProject
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oknrerun
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mentabotix
+[2024-05-14 10:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xchtools
+[2024-05-14 10:10:18] INFO root fetch - processPackages [genai-apis]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [xchtools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240513] Old Version: [0.4.5.dev20240512]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [edubot-matrix]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [airtestProject]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [local_tuya]: New version: [3.0.0] Old Version: [2.4.0]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [zibuyu-LLM]: New version: [0.1.9] Old Version: [0.1.16]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/98/3e/bb7ae9d48b6a08253f073412c37e3ae866206e3350a4c5ee6d211830f66f/cvprocessor-0.5.6.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [mentabotix]: New version: [0.1.3a4] Old Version: [0.1.3a3]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [xchtools]: Downloading https://files.pythonhosted.org/packages/c7/f7/0e3e699372996b0555f04ae3bdd9042d57998abb0fc5b581e18e57f811c2/xchtools-0.1.8-py3-none-any.whl
+[2024-05-14 10:10:18] INFO root fetch - processPackages [oknrerun]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-05-14 10:10:18] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/0e/73/d72a5c10fa938a385ca74b7b43d0e681a73a732fb9dc6f92dab52b82b88f/genai_apis-0.0.4-py3-none-any.whl
+[2024-05-14 10:10:18] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/61/88/b12136fcd86ead98b073696a3294c905f938ac0575da7610b795cdc952c9/pyglove-0.4.5.dev20240512.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [zibuyu-LLM]: Downloading https://files.pythonhosted.org/packages/a9/5b/7f8f52bc6cb63dc1efbbaa9aaa6bd21b8029d7875b8cf42a690543a83e07/zibuyu_LLM-0.1.16-py3-none-any.whl
+[2024-05-14 10:10:18] INFO root fetch - processPackages [airtestProject]: Downloading https://files.pythonhosted.org/packages/d1/21/0f241366ec7a5954a46d9406d17afa913ccd71d8a5357ac9bef72a40ac28/airtestproject-0.1.6.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [edubot-matrix]: Downloading https://files.pythonhosted.org/packages/6c/8f/574bd6761e98efc4fa7367da123504a2f27f09fc69c23b7476b22435abf2/edubot_matrix-0.1.0-py3-none-any.whl
+[2024-05-14 10:10:18] INFO root fetch - processPackages [local_tuya]: Downloading https://files.pythonhosted.org/packages/44/89/cb76d493c34cbc69c438c8a73d9b3285db8d046a088eafe585fe6066cf8e/local_tuya-2.4.0.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [oknrerun]: Downloading https://files.pythonhosted.org/packages/84/d3/a1357229ecade2ee618a04906ad2f5704047d01e7bbad6ee0426e39e4753/oknrerun-1.0.7.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/41/cc/23342201fbfb57cf04aec08b9512419dd8f78bad13b7935cec5d17d7e537/mentabotix-0.1.3a3.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [xchtools]: Downloading https://files.pythonhosted.org/packages/7e/8c/49a42e45355d4fd4dd99e071963fbf682b1346a1dacd339e409657d906ab/xchtools-0.1.9-py3-none-any.whl
+[2024-05-14 10:10:18] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/df/60/9114d67ac54e1d81253cf6b1182b200ee2d4ac698a3d472e222f1b717ccf/cvprocessor-0.5.7.tar.gz
+[2024-05-14 10:10:18] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/7c/4c/768e2351bcd33c891b6737542607a87b9353b27711a5d7a49fe061498d94/genai_apis-0.0.5-py3-none-any.whl
+[2024-05-14 10:10:18] INFO root fetch - processPackages [xchtools]: executing diffoscope
+[2024-05-14 10:10:18] INFO root fetch - processPackages [xchtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchtools-0.1.8-py3-none-any.whl.zip tmp/xchtools-0.1.9-py3-none-any.whl.zip --markdown 20240514/x/xchtools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 10:10:18] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 10:10:18] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.6.tar.gz tmp/cvprocessor-0.5.7.tar.gz --markdown 20240514/c/cvprocessor/0.5.6-0.5.7/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [genai-apis]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [genai-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_apis-0.0.4-py3-none-any.whl.zip tmp/genai_apis-0.0.5-py3-none-any.whl.zip --markdown 20240514/g/genai-apis/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/cd/72/bf4767e59b00605b32a233cbb32dbb7becf96ade5da606bdf321106f8615/pyglove-0.4.5.dev20240513.tar.gz
+[2024-05-14 10:10:19] INFO root fetch - processPackages [zibuyu-LLM]: Downloading https://files.pythonhosted.org/packages/8b/1d/73751ba8bfaf5b2eb71d0251541264c73d9b0da5c2d08f0111dbee0978db/zibuyu_LLM-0.1.9-py3-none-any.whl
+[2024-05-14 10:10:19] INFO root fetch - processPackages [edubot-matrix]: Downloading https://files.pythonhosted.org/packages/2b/af/fd7ff0ec235db995d6ef60144f6098cf956b21201fcee718e008041990f4/edubot_matrix-0.1.1.tar.gz
+[2024-05-14 10:10:19] INFO root fetch - processPackages [local_tuya]: Downloading https://files.pythonhosted.org/packages/e0/a2/04204b5acf5906df12ffafbd49d0f7434e5aa0b584d3b49bd3e8fbb3cce0/local_tuya-3.0.0.tar.gz
+[2024-05-14 10:10:19] INFO root fetch - processPackages [airtestProject]: Downloading https://files.pythonhosted.org/packages/60/f3/4330ab76fdb5777303ca1275421555621ca038e3dfbdd37c459abd3ea5ec/airtestproject-0.1.7.tar.gz
+[2024-05-14 10:10:19] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/3b/3b/e3ba3dea72e6535b9f0a218fca9b8fed7ba9164a4fca302ed84c769e975b/mentabotix-0.1.3a4.tar.gz
+[2024-05-14 10:10:19] INFO root fetch - processPackages [oknrerun]: Downloading https://files.pythonhosted.org/packages/6e/ec/b8823ba04884ec92b8680bb8bcc70ca758735a48ebfad43415708e76dede/oknrerun-1.1.0.tar.gz
+[2024-05-14 10:10:19] INFO root fetch - processPackages [edubot-matrix]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [edubot-matrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edubot_matrix-0.1.0-py3-none-any.whl.zip tmp/edubot_matrix-0.1.1.tar.gz --markdown 20240514/e/edubot-matrix/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [zibuyu-LLM]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [zibuyu-LLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibuyu_LLM-0.1.16-py3-none-any.whl.zip tmp/zibuyu_LLM-0.1.9-py3-none-any.whl.zip --markdown 20240514/z/zibuyu-LLM/0.1.16-0.1.9/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240512.tar.gz tmp/pyglove-0.4.5.dev20240513.tar.gz --markdown 20240514/p/pyglove/0.4.5.dev20240512-0.4.5.dev20240513/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [local_tuya]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [local_tuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_tuya-2.4.0.tar.gz tmp/local_tuya-3.0.0.tar.gz --markdown 20240514/l/local_tuya/2.4.0-3.0.0/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [airtestProject]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [airtestProject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtestproject-0.1.6.tar.gz tmp/airtestproject-0.1.7.tar.gz --markdown 20240514/a/airtestProject/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [oknrerun]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [oknrerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oknrerun-1.0.7.tar.gz tmp/oknrerun-1.1.0.tar.gz --markdown 20240514/o/oknrerun/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-05-14 10:10:19] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-14 10:10:19] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.3a3.tar.gz tmp/mentabotix-0.1.3a4.tar.gz --markdown 20240514/m/mentabotix/0.1.3a3-0.1.3a4/README.md --exclude *.pyd
+[2024-05-14 10:10:20] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.4-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.5-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [genai-apis]: Start processing: webscout
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [genai-apis]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [webscout]: New version: [2.3b0] Old Version: [2.3]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.6.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.7.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [xchtools]: Remove: archive file [/home/abi/fetcher/tmp/xchtools-0.1.8-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [xchtools]: Remove: archive file [/home/abi/fetcher/tmp/xchtools-0.1.9-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [xchtools]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [edubot-matrix]: Remove: archive file [/home/abi/fetcher/tmp/edubot_matrix-0.1.0-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [edubot-matrix]: Remove: archive file [/home/abi/fetcher/tmp/edubot_matrix-0.1.1.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [edubot-matrix]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/05/3e/0067ad8eb765bde63d876248c6908d32b3b6bd94f7af42f8fc34509ee730/webscout-2.3.tar.gz
+[2024-05-14 10:10:20] INFO root fetch - processPackages [zibuyu-LLM]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_LLM-0.1.16-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [zibuyu-LLM]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_LLM-0.1.9-py3-none-any.whl.zip]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [zibuyu-LLM]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [local_tuya]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya-2.4.0.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [local_tuya]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya-3.0.0.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [local_tuya]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/f8/41/2537df6f52b3718c60a9e0a7c235c6aa8d44002a067eda202f60d1160d5f/webscout-2.3b0.tar.gz
+[2024-05-14 10:10:20] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.3a3.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.3a4.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [airtestProject]: Remove: archive file [/home/abi/fetcher/tmp/airtestproject-0.1.6.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [airtestProject]: Remove: archive file [/home/abi/fetcher/tmp/airtestproject-0.1.7.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [airtestProject]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [oknrerun]: Remove: archive file [/home/abi/fetcher/tmp/oknrerun-1.0.7.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - processPackages [oknrerun]: Remove: archive file [/home/abi/fetcher/tmp/oknrerun-1.1.0.tar.gz]
+[2024-05-14 10:10:20] INFO root fetch - main [MainThread]: End processing [oknrerun]: success
+[2024-05-14 10:10:20] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-05-14 10:10:20] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-2.3.tar.gz tmp/webscout-2.3b0.tar.gz --markdown 20240514/w/webscout/2.3-2.3b0/README.md --exclude *.pyd
+[2024-05-14 10:10:21] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240512.tar.gz]
+[2024-05-14 10:10:21] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240513.tar.gz]
+[2024-05-14 10:10:21] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-05-14 10:10:21] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.3.tar.gz]
+[2024-05-14 10:10:21] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-2.3b0.tar.gz]
+[2024-05-14 10:10:21] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-05-14 10:10:21] INFO root fetch - main [MainThread]: Store serial: [23197711]
