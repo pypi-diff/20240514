@@ -8327,3 +8327,42 @@
 [2024-05-14 04:47:11] INFO root fetch - processPackages [support-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/support-toolbox-0.9.1.tar.gz]
 [2024-05-14 04:47:11] INFO root fetch - main [MainThread]: End processing [support-toolbox]: success
 [2024-05-14 04:47:11] INFO root fetch - main [MainThread]: Store serial: [23195031]
+[2024-05-14 04:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195031]
+[2024-05-14 04:49:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 04:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aixblock-ml
+[2024-05-14 04:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aviary-genome
+[2024-05-14 04:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightspark
+[2024-05-14 04:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: senfenico
+[2024-05-14 04:49:19] INFO root fetch - processPackages [lightspark]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-14 04:49:19] INFO root fetch - processPackages [aviary-genome]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 04:49:19] INFO root fetch - processPackages [aixblock-ml]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 04:49:19] INFO root fetch - processPackages [senfenico]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 04:49:20] INFO root fetch - processPackages [lightspark]: Downloading https://files.pythonhosted.org/packages/ab/ca/01fc3dd509c83621d3eb921de6f78968d929b6d0bc7670e9995afed3de90/lightspark-2.6.0.zip
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aviary-genome]: Downloading https://files.pythonhosted.org/packages/22/df/d5d1a91e0d22d2904942ab63f1d5c26b31f406748c221342e7f55ae8e9f3/aviary-genome-0.9.0.tar.gz
+[2024-05-14 04:49:20] INFO root fetch - processPackages [senfenico]: Downloading https://files.pythonhosted.org/packages/dc/18/f61527887d1c0fb70ea7f49211842caccc5bbea6c5e48e6395484e61d8b7/senfenico-0.2.0.tar.gz
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/33/e5/383f5652c86ba1a81d1a5dcb4d0713a9ba4d8b25337904e0703aadf04887/aixblock_ml-0.1.6.tar.gz
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aviary-genome]: Downloading https://files.pythonhosted.org/packages/35/cc/410c2e59976c3587dde41c747311ca917fa2683003ced67a6e87da019fd3/aviary-genome-0.9.1.tar.gz
+[2024-05-14 04:49:20] INFO root fetch - processPackages [lightspark]: Downloading https://files.pythonhosted.org/packages/06/c7/693a1653a3e223c3b4719c81b59072283aeea37d19905b63a91ed3528e1f/lightspark-2.7.0.zip
+[2024-05-14 04:49:20] INFO root fetch - processPackages [senfenico]: Downloading https://files.pythonhosted.org/packages/04/2f/e563f7c1fc13f235be10e64e4fac4a27da78a0636f2c93cd7930542a3777/senfenico-0.2.1.tar.gz
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/df/0e/133d8e3df82cc35e6d80349abf2ea1619b5cab9bd1d8d8c49a5bc1b80e74/aixblock_ml-0.1.7.tar.gz
+[2024-05-14 04:49:20] INFO root fetch - processPackages [senfenico]: executing diffoscope
+[2024-05-14 04:49:20] INFO root fetch - processPackages [senfenico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/senfenico-0.2.0.tar.gz tmp/senfenico-0.2.1.tar.gz --markdown 20240514/s/senfenico/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 04:49:20] INFO root fetch - processPackages [lightspark]: executing diffoscope
+[2024-05-14 04:49:20] INFO root fetch - processPackages [lightspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightspark-2.6.0.zip tmp/lightspark-2.7.0.zip --markdown 20240514/l/lightspark/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aviary-genome]: executing diffoscope
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aviary-genome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aviary-genome-0.9.0.tar.gz tmp/aviary-genome-0.9.1.tar.gz --markdown 20240514/a/aviary-genome/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-05-14 04:49:20] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.1.6.tar.gz tmp/aixblock_ml-0.1.7.tar.gz --markdown 20240514/a/aixblock-ml/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 04:49:21] INFO root fetch - processPackages [senfenico]: Remove: archive file [/home/abi/fetcher/tmp/senfenico-0.2.0.tar.gz]
+[2024-05-14 04:49:21] INFO root fetch - processPackages [senfenico]: Remove: archive file [/home/abi/fetcher/tmp/senfenico-0.2.1.tar.gz]
+[2024-05-14 04:49:21] INFO root fetch - main [MainThread]: End processing [senfenico]: success
+[2024-05-14 04:49:21] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.1.6.tar.gz]
+[2024-05-14 04:49:21] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.1.7.tar.gz]
+[2024-05-14 04:49:21] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-05-14 04:49:21] INFO root fetch - processPackages [aviary-genome]: Remove: archive file [/home/abi/fetcher/tmp/aviary-genome-0.9.0.tar.gz]
+[2024-05-14 04:49:21] INFO root fetch - processPackages [aviary-genome]: Remove: archive file [/home/abi/fetcher/tmp/aviary-genome-0.9.1.tar.gz]
+[2024-05-14 04:49:21] INFO root fetch - main [MainThread]: End processing [aviary-genome]: success
+[2024-05-14 04:49:22] INFO root fetch - processPackages [lightspark]: Remove: archive file [/home/abi/fetcher/tmp/lightspark-2.6.0.zip]
+[2024-05-14 04:49:22] INFO root fetch - processPackages [lightspark]: Remove: archive file [/home/abi/fetcher/tmp/lightspark-2.7.0.zip]
+[2024-05-14 04:49:22] INFO root fetch - main [MainThread]: End processing [lightspark]: success
+[2024-05-14 04:49:22] INFO root fetch - main [MainThread]: Store serial: [23195041]
