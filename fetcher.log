@@ -21166,3 +21166,41 @@
 [2024-05-14 13:47:14] INFO root fetch - processPackages [riscemu]: Remove: archive file [/home/abi/fetcher/tmp/riscemu-2.2.6.tar.gz]
 [2024-05-14 13:47:14] INFO root fetch - main [MainThread]: End processing [riscemu]: success
 [2024-05-14 13:47:14] INFO root fetch - main [MainThread]: Store serial: [23200516]
+[2024-05-14 13:49:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200516]
+[2024-05-14 13:49:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 13:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbc2deltalake
+[2024-05-14 13:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lavue
+[2024-05-14 13:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fish-util
+[2024-05-14 13:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mountain-chicken
+[2024-05-14 13:49:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: motion2telegram
+[2024-05-14 13:49:24] INFO root fetch - processPackages [fish-util]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 13:49:24] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 13:49:24] INFO root fetch - processPackages [mountain-chicken]: New version: [0.1.2] Old Version: [0.1]
+[2024-05-14 13:49:24] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-14 13:49:24] INFO root fetch - processPackages [lavue]: New version: [2.85.1] Old Version: [2.85.0]
+[2024-05-14 13:49:24] WARNING root fetch - processPackages [motion2telegram]: Skipping, unable to determine old version
+[2024-05-14 13:49:24] INFO root fetch - main [MainThread]: End processing [motion2telegram] error
+[2024-05-14 13:49:24] INFO root fetch - processPackages [fish-util]: Downloading https://files.pythonhosted.org/packages/c1/f3/88478adb5f8abd245e85c70a516f1998d3ea942e6475f1315437b8b348de/fish_util-0.0.4.tar.gz
+[2024-05-14 13:49:24] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/1f/03/bf820bf87d016bc3952953a48048ac8b4c4c60447f5f9609e90fa2c81da0/mountain_chicken-0.1.tar.gz
+[2024-05-14 13:49:24] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-14 13:49:24] INFO root fetch - processPackages [lavue]: Downloading https://files.pythonhosted.org/packages/fa/97/bd7b730999cf1bf385dfcbca1bd931b28b5b5456e822a5d9b53c0b20ae9f/lavue-2.85.0.tar.gz
+[2024-05-14 13:49:24] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-14 13:49:24] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240514/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 13:49:24] INFO root fetch - processPackages [fish-util]: Downloading https://files.pythonhosted.org/packages/a5/de/e1c5c6012a65cfaa624abb3728533f54a626460c2a6d087b37043ec203a5/fish_util-0.0.5.tar.gz
+[2024-05-14 13:49:24] WARNING root fetch - processPackages [lavue]: Skipping package: exceeds size limit 32502251>=10485760
+[2024-05-14 13:49:24] INFO root fetch - main [MainThread]: End processing [lavue] error
+[2024-05-14 13:49:24] INFO root fetch - processPackages [fish-util]: executing diffoscope
+[2024-05-14 13:49:24] INFO root fetch - processPackages [fish-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_util-0.0.4.tar.gz tmp/fish_util-0.0.5.tar.gz --markdown 20240514/f/fish-util/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 13:49:24] INFO root fetch - processPackages [mountain-chicken]: Downloading https://files.pythonhosted.org/packages/90/54/1fc481ad9173098240bf871820414855fc9eeddf31b1a47e036601113048/mountain_chicken-0.1.2.tar.gz
+[2024-05-14 13:49:24] INFO root fetch - processPackages [mountain-chicken]: executing diffoscope
+[2024-05-14 13:49:24] INFO root fetch - processPackages [mountain-chicken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mountain_chicken-0.1.tar.gz tmp/mountain_chicken-0.1.2.tar.gz --markdown 20240514/m/mountain-chicken/0.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 13:49:25] INFO root fetch - processPackages [fish-util]: Remove: archive file [/home/abi/fetcher/tmp/fish_util-0.0.4.tar.gz]
+[2024-05-14 13:49:25] INFO root fetch - processPackages [fish-util]: Remove: archive file [/home/abi/fetcher/tmp/fish_util-0.0.5.tar.gz]
+[2024-05-14 13:49:25] INFO root fetch - main [MainThread]: End processing [fish-util]: success
+[2024-05-14 13:49:25] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-14 13:49:25] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-14 13:49:25] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-14 13:49:25] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.tar.gz]
+[2024-05-14 13:49:25] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.2.tar.gz]
+[2024-05-14 13:49:25] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
+[2024-05-14 13:49:25] INFO root fetch - main [MainThread]: Store serial: [23200538]
