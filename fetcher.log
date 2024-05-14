@@ -10681,3 +10681,27 @@
 [2024-05-14 07:21:17] INFO root fetch - processPackages [tarsier]: Remove: archive file [/home/abi/fetcher/tmp/tarsier-0.5.941.tar.gz]
 [2024-05-14 07:21:17] INFO root fetch - main [MainThread]: End processing [tarsier]: success
 [2024-05-14 07:21:17] INFO root fetch - main [MainThread]: Store serial: [23195913]
+[2024-05-14 07:23:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195913]
+[2024-05-14 07:23:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 07:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asone
+[2024-05-14 07:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch
+[2024-05-14 07:23:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jccrypto
+[2024-05-14 07:23:26] WARNING root fetch - processPackages [jccrypto]: Skipping, unable to determine old version
+[2024-05-14 07:23:26] INFO root fetch - main [MainThread]: End processing [jccrypto] error
+[2024-05-14 07:23:26] INFO root fetch - processPackages [hatch]: New version: [1rc6] Old Version: [1rc5]
+[2024-05-14 07:23:26] INFO root fetch - processPackages [asone]: New version: [2.0.0] Old Version: [0.3.3]
+[2024-05-14 07:23:26] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/be/00/252b94bed712af1dad7719e30adeb6ef0edeb0d09bc4bbb7091ea890b265/asone-0.3.3-py3-none-any.whl
+[2024-05-14 07:23:26] INFO root fetch - processPackages [hatch]: Downloading https://files.pythonhosted.org/packages/d3/16/5ffea665c4fb7585bdaa3ccb13ab625fc24a3389557bfb5836f9b6ed3bef/hatch-1rc5.tar.gz
+[2024-05-14 07:23:26] INFO root fetch - processPackages [asone]: Downloading https://files.pythonhosted.org/packages/14/92/d47d45108bef6b8c0c515fd2cbc534638f093ca31c0915fb9c1f17525a59/asone-2.0.0-py3-none-any.whl
+[2024-05-14 07:23:26] INFO root fetch - processPackages [hatch]: Downloading https://files.pythonhosted.org/packages/bb/4f/0675ad9166256fdc3bf37af73068c11aed9af7855fbde4f6399ec1a687f9/hatch-1rc6.tar.gz
+[2024-05-14 07:23:26] INFO root fetch - processPackages [asone]: executing diffoscope
+[2024-05-14 07:23:26] INFO root fetch - processPackages [asone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asone-0.3.3-py3-none-any.whl.zip tmp/asone-2.0.0-py3-none-any.whl.zip --markdown 20240514/a/asone/0.3.3-2.0.0/README.md --exclude *.pyd
+[2024-05-14 07:23:27] INFO root fetch - processPackages [hatch]: executing diffoscope
+[2024-05-14 07:23:27] INFO root fetch - processPackages [hatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch-1rc5.tar.gz tmp/hatch-1rc6.tar.gz --markdown 20240514/h/hatch/1rc5-1rc6/README.md --exclude *.pyd
+[2024-05-14 07:23:28] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc5.tar.gz]
+[2024-05-14 07:23:28] INFO root fetch - processPackages [hatch]: Remove: archive file [/home/abi/fetcher/tmp/hatch-1rc6.tar.gz]
+[2024-05-14 07:23:28] INFO root fetch - main [MainThread]: End processing [hatch]: success
+[2024-05-14 07:23:28] INFO root fetch - processPackages [asone]: Remove: archive file [/home/abi/fetcher/tmp/asone-0.3.3-py3-none-any.whl.zip]
+[2024-05-14 07:23:28] INFO root fetch - processPackages [asone]: Remove: archive file [/home/abi/fetcher/tmp/asone-2.0.0-py3-none-any.whl.zip]
+[2024-05-14 07:23:28] INFO root fetch - main [MainThread]: End processing [asone]: success
+[2024-05-14 07:23:28] INFO root fetch - main [MainThread]: Store serial: [23195922]
