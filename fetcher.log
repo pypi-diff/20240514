@@ -19149,3 +19149,27 @@
 [2024-05-14 12:34:11] INFO root fetch - processPackages [neurohab]: Remove: archive file [/home/abi/fetcher/tmp/neurohab-0.0.2.tar.gz]
 [2024-05-14 12:34:11] INFO root fetch - main [MainThread]: End processing [neurohab]: success
 [2024-05-14 12:34:11] INFO root fetch - main [MainThread]: Store serial: [23199563]
+[2024-05-14 12:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199563]
+[2024-05-14 12:36:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 12:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tokun
+[2024-05-14 12:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: livestock_generation
+[2024-05-14 12:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: digitalhub-core
+[2024-05-14 12:36:21] WARNING root fetch - processPackages [tokun]: Skipping, unable to determine old version
+[2024-05-14 12:36:21] INFO root fetch - main [MainThread]: End processing [tokun] error
+[2024-05-14 12:36:21] INFO root fetch - processPackages [livestock_generation]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-14 12:36:21] INFO root fetch - processPackages [digitalhub-core]: New version: [0.4.0b8] Old Version: [0.4.0b4]
+[2024-05-14 12:36:21] INFO root fetch - processPackages [livestock_generation]: Downloading https://files.pythonhosted.org/packages/74/f2/87cd05d5f0da6e3235ed2ba5d0ebe59e560cc0b774da841622810133e272/livestock_generation-0.2.1.tar.gz
+[2024-05-14 12:36:21] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/9a/1e/ab49b9adf56cf3cc93838158824be7b0f7416b5776de3d6002ec0c0fc517/digitalhub_core-0.4.0b4.tar.gz
+[2024-05-14 12:36:21] INFO root fetch - processPackages [livestock_generation]: Downloading https://files.pythonhosted.org/packages/74/da/db0e5d12baf809e60be4314085a936bfe50e3dd4c4d54ccdf9a4b103ff6b/livestock_generation-0.2.2.tar.gz
+[2024-05-14 12:36:21] INFO root fetch - processPackages [livestock_generation]: executing diffoscope
+[2024-05-14 12:36:21] INFO root fetch - processPackages [livestock_generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livestock_generation-0.2.1.tar.gz tmp/livestock_generation-0.2.2.tar.gz --markdown 20240514/l/livestock_generation/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-14 12:36:21] INFO root fetch - processPackages [digitalhub-core]: Downloading https://files.pythonhosted.org/packages/c3/10/8a234fd240e21ded73e7424164e57e5ff354a7d702e53ff0cc96d50e19bb/digitalhub_core-0.4.0b8.tar.gz
+[2024-05-14 12:36:22] INFO root fetch - processPackages [digitalhub-core]: executing diffoscope
+[2024-05-14 12:36:22] INFO root fetch - processPackages [digitalhub-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_core-0.4.0b4.tar.gz tmp/digitalhub_core-0.4.0b8.tar.gz --markdown 20240514/d/digitalhub-core/0.4.0b4-0.4.0b8/README.md --exclude *.pyd
+[2024-05-14 12:36:22] INFO root fetch - processPackages [livestock_generation]: Remove: archive file [/home/abi/fetcher/tmp/livestock_generation-0.2.1.tar.gz]
+[2024-05-14 12:36:22] INFO root fetch - processPackages [livestock_generation]: Remove: archive file [/home/abi/fetcher/tmp/livestock_generation-0.2.2.tar.gz]
+[2024-05-14 12:36:22] INFO root fetch - main [MainThread]: End processing [livestock_generation]: success
+[2024-05-14 12:36:22] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b4.tar.gz]
+[2024-05-14 12:36:22] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b8.tar.gz]
+[2024-05-14 12:36:22] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
+[2024-05-14 12:36:22] INFO root fetch - main [MainThread]: Store serial: [23199575]
