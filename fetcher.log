@@ -7951,3 +7951,28 @@
 [2024-05-14 04:17:47] INFO root fetch - processPackages [mass-composition]: Remove: archive file [/home/abi/fetcher/tmp/mass_composition-0.4.9.tar.gz]
 [2024-05-14 04:17:47] INFO root fetch - main [MainThread]: End processing [mass-composition]: success
 [2024-05-14 04:17:47] INFO root fetch - main [MainThread]: Store serial: [23194879]
+[2024-05-14 04:19:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194879]
+[2024-05-14 04:19:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arctix
+[2024-05-14 04:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-edge-torch
+[2024-05-14 04:19:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentry-stack-dingding
+[2024-05-14 04:19:56] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 04:19:56] INFO root fetch - processPackages [ai-edge-torch]: New version: [0.dev202405131354] Old Version: [0.2.dev202405131914]
+[2024-05-14 04:19:56] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-14 04:19:56] INFO root fetch - processPackages [arctix]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 04:19:56] ERROR root fetch - processPackages [ai-edge-torch]: Unable to fetch info: No such project/version 'ai-edge-torch' 0.2.dev202405131914
+[2024-05-14 04:19:56] INFO root fetch - main [MainThread]: End processing [ai-edge-torch] error
+[2024-05-14 04:19:56] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/d9/05/3ce5c97242ca1ba0738901630c0bb3eee0392959e8f3987e6f2471d1578b/arctix-0.0.4.tar.gz
+[2024-05-14 04:19:56] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-14 04:19:57] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-14 04:19:57] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240514/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 04:19:57] INFO root fetch - processPackages [arctix]: Downloading https://files.pythonhosted.org/packages/69/9b/07396bffe832abd616f7f3c15fd60074f69587fc3d381950ffa0e70b2268/arctix-0.0.5.tar.gz
+[2024-05-14 04:19:57] INFO root fetch - processPackages [arctix]: executing diffoscope
+[2024-05-14 04:19:57] INFO root fetch - processPackages [arctix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arctix-0.0.4.tar.gz tmp/arctix-0.0.5.tar.gz --markdown 20240514/a/arctix/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 04:19:57] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-14 04:19:57] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-14 04:19:57] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-14 04:19:57] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.4.tar.gz]
+[2024-05-14 04:19:57] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.5.tar.gz]
+[2024-05-14 04:19:57] INFO root fetch - main [MainThread]: End processing [arctix]: success
+[2024-05-14 04:19:57] INFO root fetch - main [MainThread]: Store serial: [23194888]
