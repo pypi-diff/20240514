@@ -8476,3 +8476,28 @@
 [2024-05-14 04:57:59] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.3.5.tar.gz]
 [2024-05-14 04:57:59] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
 [2024-05-14 04:57:59] INFO root fetch - main [MainThread]: Store serial: [23195073]
+[2024-05-14 05:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195073]
+[2024-05-14 05:00:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MaixPy
+[2024-05-14 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2024-05-14 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muutils
+[2024-05-14 05:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ambr-py
+[2024-05-14 05:00:08] WARNING root fetch - processPackages [ambr-py]: Skipping, unable to determine old version
+[2024-05-14 05:00:08] INFO root fetch - main [MainThread]: End processing [ambr-py] error
+[2024-05-14 05:00:08] INFO root fetch - processPackages [muutils]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 05:00:08] INFO root fetch - processPackages [MaixPy]: New version: [4.1.2] Old Version: [4.1.0]
+[2024-05-14 05:00:08] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 05:00:08] INFO root fetch - processPackages [MaixPy]: Downloading https://files.pythonhosted.org/packages/cb/17/64acda6e7ae551f18ca73554ec73bede9c936226178454aab58f1936c28c/MaixPy-4.1.0-py3-none-any.whl
+[2024-05-14 05:00:08] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-14 05:00:09] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/97/de/465ef1162b14cae718a2cc0844cd985a85e19c61e4ca5b71b6c89593ce15/muutils-0.5.8.tar.gz
+[2024-05-14 05:00:09] WARNING root fetch - processPackages [MaixPy]: Skipping package: exceeds size limit 10825250>=10485760
+[2024-05-14 05:00:09] INFO root fetch - main [MainThread]: End processing [MaixPy] error
+[2024-05-14 05:00:09] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-14 05:00:09] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-14 05:00:09] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/1d/9b/0847fd2cc8a5d41a71fd25f1309bb929ea9bcb5720660bee655335b25dd8/muutils-0.5.9.tar.gz
+[2024-05-14 05:00:09] INFO root fetch - processPackages [muutils]: executing diffoscope
+[2024-05-14 05:00:09] INFO root fetch - processPackages [muutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muutils-0.5.8.tar.gz tmp/muutils-0.5.9.tar.gz --markdown 20240514/m/muutils/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 05:00:10] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.8.tar.gz]
+[2024-05-14 05:00:10] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.9.tar.gz]
+[2024-05-14 05:00:10] INFO root fetch - main [MainThread]: End processing [muutils]: success
+[2024-05-14 05:00:10] INFO root fetch - main [MainThread]: Store serial: [23195085]
