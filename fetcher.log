@@ -10427,3 +10427,36 @@
 [2024-05-14 07:03:52] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-14 07:03:52] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-14 07:03:52] INFO root fetch - main [MainThread]: Store serial: [23195828]
+[2024-05-14 07:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195828]
+[2024-05-14 07:06:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zoho-crm-connector
+[2024-05-14 07:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reportXlsx
+[2024-05-14 07:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-05-14 07:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 07:06:01] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.2.dev20240513] Old Version: [0.1.2.dev20240512]
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-14 07:06:01] WARNING root fetch - processPackages [reportXlsx]: Skipping, unable to determine old version
+[2024-05-14 07:06:01] INFO root fetch - main [MainThread]: End processing [reportXlsx] error
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zoho-crm-connector]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zoho-crm-connector]: Downloading https://files.pythonhosted.org/packages/3b/71/14af781bd0ce8e917fe6e61efa717e1f90a1de038f764ed478c9ca790d95/zoho_crm_connector-1.0.0.tar.gz
+[2024-05-14 07:06:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/71/45/e41ae6ce80da6cdc1e577e30bc142fd8d4d76ed9e5fe8b4addd1183582c4/rapid_pe-0.1.2.dev20240512.tar.gz
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240514/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 07:06:01] INFO root fetch - processPackages [zoho-crm-connector]: Downloading https://files.pythonhosted.org/packages/39/17/f267066188aca10584d6c1bcf38332bc1c825038980afd761a80ee669e59/zoho_crm_connector-1.0.1.tar.gz
+[2024-05-14 07:06:01] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/39/02/a27762af9d13f2a91a4643c53d72658cdf6ea624d06cc1040cf7e22c2908/rapid_pe-0.1.2.dev20240513.tar.gz
+[2024-05-14 07:06:02] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2024-05-14 07:06:02] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.2.dev20240512.tar.gz tmp/rapid_pe-0.1.2.dev20240513.tar.gz --markdown 20240514/r/rapid-pe/0.1.2.dev20240512-0.1.2.dev20240513/README.md --exclude *.pyd
+[2024-05-14 07:06:02] INFO root fetch - processPackages [zoho-crm-connector]: executing diffoscope
+[2024-05-14 07:06:02] INFO root fetch - processPackages [zoho-crm-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho_crm_connector-1.0.0.tar.gz tmp/zoho_crm_connector-1.0.1.tar.gz --markdown 20240514/z/zoho-crm-connector/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 07:06:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-14 07:06:02] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-14 07:06:02] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-14 07:06:02] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240512.tar.gz]
+[2024-05-14 07:06:02] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.2.dev20240513.tar.gz]
+[2024-05-14 07:06:02] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2024-05-14 07:06:02] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.0.tar.gz]
+[2024-05-14 07:06:02] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.1.tar.gz]
+[2024-05-14 07:06:02] INFO root fetch - main [MainThread]: End processing [zoho-crm-connector]: success
+[2024-05-14 07:06:02] INFO root fetch - main [MainThread]: Store serial: [23195841]
