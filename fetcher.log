@@ -20401,3 +20401,69 @@
 [2024-05-14 13:18:14] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post499-py3-none-any.whl.zip]
 [2024-05-14 13:18:14] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-05-14 13:18:14] INFO root fetch - main [MainThread]: Store serial: [23200186]
+[2024-05-14 13:20:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200186]
+[2024-05-14 13:20:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-sdk
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-telemetry
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-utils
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soarv1
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bdmc
+[2024-05-14 13:20:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-adapter-tailchat
+[2024-05-14 13:20:23] INFO root fetch - processPackages [bdmc]: New version: [0.1.5.5] Old Version: [0.1.5.4]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [soarv1]: New version: [0.7] Old Version: [0.6]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post500] Old Version: [3.1.0.post499]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nonebot-adapter-tailchat]: New version: [0.1.0b8] Old Version: [0.1.0b7]
+[2024-05-14 13:20:23] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/92/d6/2b51377de594f99cb87af678ff117e7f5946fa11f74e4fd3e493cdef2182/bdmc-0.1.5.4.tar.gz
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b7/53/31797928e18671d5eb9adc99cdccf248e93a21af0860946485ddd2390ee8/nucliadb_protos-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/30/33/1460c2612d5ecc39df81349b2d89005c880d6c2ecc15cc0cd2fec8afafae/nucliadb_sdk-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:20:23] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/96/e6/bd3989076b942399481d5fadfacb2945b5e07bfe28299ced4e0d805248df/soarv1-0.6.tar.gz
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/af/a5/3126cba4c2353e8a588523e9773c5b726ed7ca3677cdfc45301e238b9e61/nucliadb_utils-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/42/94/99b5275709fac95aec1efe0a57d30e57a2f5d051a0bbc4cb32b78f0921e3/nucliadb_telemetry-3.1.0.post498-py3-none-any.whl
+[2024-05-14 13:20:23] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Downloading https://files.pythonhosted.org/packages/e0/49/0937c97a51cce4ed88bdf7cccc90dac75aab06c9b9a1c940db9060ebac40/nonebot_adapter_tailchat-0.1.0b7.tar.gz
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/34/77/e71958f6de5cc5f3f7c63bd501ef9d1c70a5177f31f82b1bb6014715ff4c/nucliadb_sdk-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/6a/47/9eceb4a881d3b9bcd68e8bfd8bddc767dc865f44f96af68effe5482922f8/nucliadb_protos-3.1.0.post500-py3-none-any.whl
+[2024-05-14 13:20:24] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/4f/3a/f3f7fd065b9e48041c53ccb88f23f88865bc3599c6b25767f032b1dd89c3/bdmc-0.1.5.5.tar.gz
+[2024-05-14 13:20:24] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/71/55/9f372092e56d94e5977f520c32d42ee4e1dacd49f4898c08d286d976f732/soarv1-0.7.tar.gz
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-sdk/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post499-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post500-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-protos/3.1.0.post499-3.1.0.post500/README.md --exclude *.pyd
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/58/5e/3d49b95c03aed65ccfebdf75f98f817ea8ad9f9deb634843a5350ef1d6fc/nucliadb_utils-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/31/cf/b7f6e85dc73811d459c45d5ae59ec60b24f5fe69d9ea6164ce366069df21/nucliadb_telemetry-3.1.0.post499-py3-none-any.whl
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Downloading https://files.pythonhosted.org/packages/83/e8/e2bd0c40d08f792b94a5bb887f5f3607c17b4d01d95e0ae53618951cef52/nonebot_adapter_tailchat-0.1.0b8.tar.gz
+[2024-05-14 13:20:24] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.5.4.tar.gz tmp/bdmc-0.1.5.5.tar.gz --markdown 20240514/b/bdmc/0.1.5.4-0.1.5.5/README.md --exclude *.pyd
+[2024-05-14 13:20:24] INFO root fetch - processPackages [soarv1]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [soarv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soarv1-0.6.tar.gz tmp/soarv1-0.7.tar.gz --markdown 20240514/s/soarv1/0.6-0.7/README.md --exclude *.pyd
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-telemetry/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-utils/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nonebot-adapter-tailchat]: executing diffoscope
+[2024-05-14 13:20:24] INFO root fetch - processPackages [nonebot-adapter-tailchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_adapter_tailchat-0.1.0b7.tar.gz tmp/nonebot_adapter_tailchat-0.1.0b8.tar.gz --markdown 20240514/n/nonebot-adapter-tailchat/0.1.0b7-0.1.0b8/README.md --exclude *.pyd
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-14 13:20:25] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.6.tar.gz]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.7.tar.gz]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [soarv1]: success
+[2024-05-14 13:20:25] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.4.tar.gz]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.5.tar.gz]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_tailchat-0.1.0b7.tar.gz]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nonebot-adapter-tailchat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_adapter_tailchat-0.1.0b8.tar.gz]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [nonebot-adapter-tailchat]: success
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post500-py3-none-any.whl.zip]
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-14 13:20:25] INFO root fetch - main [MainThread]: Store serial: [23200205]
