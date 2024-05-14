@@ -21920,3 +21920,33 @@
 [2024-05-14 14:18:37] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.8.tar.gz]
 [2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [eis1600]: success
 [2024-05-14 14:18:37] INFO root fetch - main [MainThread]: Store serial: [23200832]
+[2024-05-14 14:20:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200832]
+[2024-05-14 14:20:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 14:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psychopy-phidgets
+[2024-05-14 14:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elody
+[2024-05-14 14:20:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Nuitka
+[2024-05-14 14:20:47] INFO root fetch - processPackages [Nuitka]: New version: [2.2.1] Old Version: [2.2]
+[2024-05-14 14:20:47] INFO root fetch - processPackages [psychopy-phidgets]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-14 14:20:47] INFO root fetch - processPackages [elody]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 14:20:47] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/64/0d/9e6d0c1959bebd9ec0c956cc664905dd6a3ba441563b75f81e790674ba94/Nuitka-2.2.tar.gz
+[2024-05-14 14:20:47] INFO root fetch - processPackages [psychopy-phidgets]: Downloading https://files.pythonhosted.org/packages/da/ef/66c8b8c865e326ef382c959fabd095af886208a9614a64afadca2fd5317d/psychopy-phidgets-0.2.3.tar.gz
+[2024-05-14 14:20:47] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/14/85/dcf8ab018bbc225f911ce5f407f5d2b730dcf1cbe3c337d8c462c8444d4e/elody-0.0.8.tar.gz
+[2024-05-14 14:20:47] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/99/6f/f71f54ed05b6deb367f13a4a8fb4bbcc9f25633144ffc11127b732f02e92/elody-0.0.9.tar.gz
+[2024-05-14 14:20:47] INFO root fetch - processPackages [elody]: executing diffoscope
+[2024-05-14 14:20:47] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.8.tar.gz tmp/elody-0.0.9.tar.gz --markdown 20240514/e/elody/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 14:20:48] INFO root fetch - processPackages [psychopy-phidgets]: Downloading https://files.pythonhosted.org/packages/dd/45/97a3f3d0e1c36aaa5686e0e935204b976c89337595b8ebea030b19670ea0/psychopy-phidgets-0.2.4.tar.gz
+[2024-05-14 14:20:48] INFO root fetch - processPackages [psychopy-phidgets]: executing diffoscope
+[2024-05-14 14:20:48] INFO root fetch - processPackages [psychopy-phidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy-phidgets-0.2.3.tar.gz tmp/psychopy-phidgets-0.2.4.tar.gz --markdown 20240514/p/psychopy-phidgets/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-14 14:20:48] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/84/07/a634ae237f274bdf164028edd871d172d79435a3de2b271f1ee6e9326cce/Nuitka-2.2.1.tar.gz
+[2024-05-14 14:20:48] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2024-05-14 14:20:48] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-2.2.tar.gz tmp/Nuitka-2.2.1.tar.gz --markdown 20240514/N/Nuitka/2.2-2.2.1/README.md --exclude *.pyd
+[2024-05-14 14:20:48] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.8.tar.gz]
+[2024-05-14 14:20:48] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.9.tar.gz]
+[2024-05-14 14:20:48] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2024-05-14 14:20:48] INFO root fetch - processPackages [psychopy-phidgets]: Remove: archive file [/home/abi/fetcher/tmp/psychopy-phidgets-0.2.3.tar.gz]
+[2024-05-14 14:20:48] INFO root fetch - processPackages [psychopy-phidgets]: Remove: archive file [/home/abi/fetcher/tmp/psychopy-phidgets-0.2.4.tar.gz]
+[2024-05-14 14:20:48] INFO root fetch - main [MainThread]: End processing [psychopy-phidgets]: success
+[2024-05-14 14:20:57] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.2.tar.gz]
+[2024-05-14 14:20:57] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-2.2.1.tar.gz]
+[2024-05-14 14:20:57] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2024-05-14 14:20:57] INFO root fetch - main [MainThread]: Store serial: [23200840]
