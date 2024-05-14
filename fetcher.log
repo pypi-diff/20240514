@@ -8702,3 +8702,45 @@
 [2024-05-14 05:15:28] INFO root fetch - processPackages [pyefergy]: Remove: archive file [/home/abi/fetcher/tmp/pyefergy-22.1.1.tar.gz]
 [2024-05-14 05:15:28] INFO root fetch - main [MainThread]: End processing [pyefergy]: success
 [2024-05-14 05:15:28] INFO root fetch - main [MainThread]: Store serial: [23195153]
+[2024-05-14 05:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195153]
+[2024-05-14 05:17:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 05:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-cv-nightly
+[2024-05-14 05:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bball-sim-v2
+[2024-05-14 05:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tidyxbrl
+[2024-05-14 05:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weba
+[2024-05-14 05:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-commission-formula
+[2024-05-14 05:17:37] INFO root fetch - processPackages [weba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 05:17:37] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/ae/24/e1aa2777a04f5f4f0dd14e494fd6eef05934d7c4f4da63844760afa3afb4/weba-0.0.8.tar.gz
+[2024-05-14 05:17:37] INFO root fetch - processPackages [tidyxbrl]: New version: [0.1.0] Old Version: [0.0.50]
+[2024-05-14 05:17:37] INFO root fetch - processPackages [odoo-addon-commission-formula]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-14 05:17:37] WARNING root fetch - processPackages [bball-sim-v2]: Skipping, unable to determine old version
+[2024-05-14 05:17:37] INFO root fetch - main [MainThread]: End processing [bball-sim-v2] error
+[2024-05-14 05:17:37] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-14 05:17:37] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-14 05:17:37] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/9f/af/f8fe49931768efca3d75d93e6f7d67e6e044d8f138c8379a4914e9d50494/odoo_addon_commission_formula-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-14 05:17:37] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/ad/11/6253f8a89bd02cbbfdc3d42cd3df55519422291bb7ee4a47f75a594ca422/tidyxbrl-0.0.50.tar.gz
+[2024-05-14 05:17:37] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-14 05:17:37] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/1d/f8/07d2de1cb43b86bc39abfea5527c766888ce0adb2b79600ff4a1a84b1720/weba-0.0.9.tar.gz
+[2024-05-14 05:17:37] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-14 05:17:37] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240514/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-14 05:17:37] INFO root fetch - processPackages [odoo-addon-commission-formula]: Downloading https://files.pythonhosted.org/packages/3b/b9/cf48fb64819fb208368751870b243e564f4ad104f34203ffd53fa09ecdf6/odoo_addon_commission_formula-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-14 05:17:37] INFO root fetch - processPackages [weba]: executing diffoscope
+[2024-05-14 05:17:37] INFO root fetch - processPackages [weba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weba-0.0.8.tar.gz tmp/weba-0.0.9.tar.gz --markdown 20240514/w/weba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 05:17:37] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/11/c5/9b2b2b7cc954735cbaf45cb91fa48b421a4bfa6df84b019faef6e7e072bc/tidyxbrl-0.1.0.tar.gz
+[2024-05-14 05:17:37] INFO root fetch - processPackages [tidyxbrl]: executing diffoscope
+[2024-05-14 05:17:37] INFO root fetch - processPackages [tidyxbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyxbrl-0.0.50.tar.gz tmp/tidyxbrl-0.1.0.tar.gz --markdown 20240514/t/tidyxbrl/0.0.50-0.1.0/README.md --exclude *.pyd
+[2024-05-14 05:17:37] INFO root fetch - processPackages [odoo-addon-commission-formula]: executing diffoscope
+[2024-05-14 05:17:37] INFO root fetch - processPackages [odoo-addon-commission-formula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_commission_formula-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_commission_formula-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-commission-formula/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-14 05:17:38] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-0.0.50.tar.gz]
+[2024-05-14 05:17:38] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-0.1.0.tar.gz]
+[2024-05-14 05:17:38] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
+[2024-05-14 05:17:38] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.8.tar.gz]
+[2024-05-14 05:17:38] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.9.tar.gz]
+[2024-05-14 05:17:38] INFO root fetch - main [MainThread]: End processing [weba]: success
+[2024-05-14 05:17:38] INFO root fetch - processPackages [odoo-addon-commission-formula]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission_formula-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-14 05:17:38] INFO root fetch - processPackages [odoo-addon-commission-formula]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_commission_formula-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-14 05:17:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-commission-formula]: success
+[2024-05-14 05:17:39] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-14 05:17:39] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-14 05:17:39] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-14 05:17:39] INFO root fetch - main [MainThread]: Store serial: [23195170]
