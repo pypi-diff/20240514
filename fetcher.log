@@ -10299,3 +10299,33 @@
 [2024-05-14 06:52:59] INFO root fetch - processPackages [pyrefactoring]: Remove: archive file [/home/abi/fetcher/tmp/pyrefactoring-0.0.1.1.post2.tar.gz]
 [2024-05-14 06:52:59] INFO root fetch - main [MainThread]: End processing [pyrefactoring]: success
 [2024-05-14 06:52:59] INFO root fetch - main [MainThread]: Store serial: [23195776]
+[2024-05-14 06:55:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195776]
+[2024-05-14 06:55:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 06:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-savepic
+[2024-05-14 06:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-aeat
+[2024-05-14 06:55:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-aeat-mod115
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.4]
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/f6/23/05df7b58cd130cb9bf8cc154c9e8908ad16efea5c5d230ac1f5276db8e76/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-14 06:55:08] INFO root fetch - processPackages [nonebot-plugin-savepic]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: New version: [17.0.1.0.1.6] Old Version: [17.0.1.0.1.4]
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Downloading https://files.pythonhosted.org/packages/32/cd/f8c31f93641ec6df0f7cd23ba35ce21b7bb95a2c516b6cd31b06b7e3a67b/odoo_addon_l10n_es_aeat_mod115-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-14 06:55:08] INFO root fetch - processPackages [nonebot-plugin-savepic]: Downloading https://files.pythonhosted.org/packages/aa/73/c5943f5ea51151d9215e758f0f976af743a86330b0f7e517d8c559dc3ff0/nonebot_plugin_savepic-0.2.6.tar.gz
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/2a/4c/4090c5820bf400aa617948690d62d05f32c30c78ff4315e46b7f7a5caedf/odoo_addon_l10n_es_aeat-17.0.1.0.1.4-py3-none-any.whl
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: executing diffoscope
+[2024-05-14 06:55:08] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod115-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-l10n-es-aeat-mod115/16.0.1.0.1.4-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-14 06:55:09] INFO root fetch - processPackages [nonebot-plugin-savepic]: Downloading https://files.pythonhosted.org/packages/3a/02/4522920c29897d7b74d92c0aa2f8ec9cd522de20977c3f2be3a470b3e955/nonebot_plugin_savepic-0.2.7.tar.gz
+[2024-05-14 06:55:09] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Downloading https://files.pythonhosted.org/packages/e5/63/a037a211cfeec9cb64e58f2129cf6de46a8daabf1a0aa5457484c6b94485/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl
+[2024-05-14 06:55:09] INFO root fetch - processPackages [nonebot-plugin-savepic]: executing diffoscope
+[2024-05-14 06:55:09] INFO root fetch - processPackages [nonebot-plugin-savepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_savepic-0.2.6.tar.gz tmp/nonebot_plugin_savepic-0.2.7.tar.gz --markdown 20240514/n/nonebot-plugin-savepic/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-14 06:55:09] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: executing diffoscope
+[2024-05-14 06:55:09] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-l10n-es-aeat/17.0.1.0.1.4-17.0.1.0.1.6/README.md --exclude *.pyd
+[2024-05-14 06:55:09] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod115-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-14 06:55:09] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod115]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod115-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-14 06:55:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod115]: success
+[2024-05-14 06:55:09] INFO root fetch - processPackages [nonebot-plugin-savepic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_savepic-0.2.6.tar.gz]
+[2024-05-14 06:55:09] INFO root fetch - processPackages [nonebot-plugin-savepic]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_savepic-0.2.7.tar.gz]
+[2024-05-14 06:55:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-savepic]: success
+[2024-05-14 06:55:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-14 06:55:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip]
+[2024-05-14 06:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
+[2024-05-14 06:55:10] INFO root fetch - main [MainThread]: Store serial: [23195783]
