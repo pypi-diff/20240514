@@ -22117,3 +22117,24 @@
 [2024-05-14 14:27:33] INFO root fetch - processPackages [inference-gpu]: Remove: archive file [/home/abi/fetcher/tmp/inference_gpu-0.9.9rc23-py3-none-any.whl.zip]
 [2024-05-14 14:27:33] INFO root fetch - main [MainThread]: End processing [inference-gpu]: success
 [2024-05-14 14:27:33] INFO root fetch - main [MainThread]: Store serial: [23200898]
+[2024-05-14 14:29:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200898]
+[2024-05-14 14:29:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 14:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yycli
+[2024-05-14 14:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ecoindex_compute
+[2024-05-14 14:29:42] INFO root fetch - processPackages [yycli]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 14:29:42] INFO root fetch - processPackages [ecoindex_compute]: New version: [5.8.0] Old Version: [5.7.0]
+[2024-05-14 14:29:42] INFO root fetch - processPackages [ecoindex_compute]: Downloading https://files.pythonhosted.org/packages/9f/2f/2d8af238ff5f21bb641b7b09c5c4795deca4e3c1b44d044e61f1620fbc61/ecoindex_compute-5.7.0.tar.gz
+[2024-05-14 14:29:43] INFO root fetch - processPackages [yycli]: Downloading https://files.pythonhosted.org/packages/06/1a/2f3a87d299474047a140076fadd54c7b43f1ce81ae66895b139bf199a319/yycli-0.0.4.tar.gz
+[2024-05-14 14:29:43] INFO root fetch - processPackages [ecoindex_compute]: Downloading https://files.pythonhosted.org/packages/36/e2/e8a97951b158dd06592b02b4011a1fbdf70b7e66a96861b2b8cbc69a0265/ecoindex_compute-5.8.0.tar.gz
+[2024-05-14 14:29:43] INFO root fetch - processPackages [yycli]: Downloading https://files.pythonhosted.org/packages/dd/2f/67abe7142feb9d9a1a79d9d94f6c195dc4535926d267db7612d795b6c8de/yycli-0.0.5.tar.gz
+[2024-05-14 14:29:43] INFO root fetch - processPackages [ecoindex_compute]: executing diffoscope
+[2024-05-14 14:29:43] INFO root fetch - processPackages [ecoindex_compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoindex_compute-5.7.0.tar.gz tmp/ecoindex_compute-5.8.0.tar.gz --markdown 20240514/e/ecoindex_compute/5.7.0-5.8.0/README.md --exclude *.pyd
+[2024-05-14 14:29:43] INFO root fetch - processPackages [yycli]: executing diffoscope
+[2024-05-14 14:29:43] INFO root fetch - processPackages [yycli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yycli-0.0.4.tar.gz tmp/yycli-0.0.5.tar.gz --markdown 20240514/y/yycli/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 14:29:44] INFO root fetch - processPackages [ecoindex_compute]: Remove: archive file [/home/abi/fetcher/tmp/ecoindex_compute-5.7.0.tar.gz]
+[2024-05-14 14:29:44] INFO root fetch - processPackages [ecoindex_compute]: Remove: archive file [/home/abi/fetcher/tmp/ecoindex_compute-5.8.0.tar.gz]
+[2024-05-14 14:29:44] INFO root fetch - main [MainThread]: End processing [ecoindex_compute]: success
+[2024-05-14 14:29:44] INFO root fetch - processPackages [yycli]: Remove: archive file [/home/abi/fetcher/tmp/yycli-0.0.4.tar.gz]
+[2024-05-14 14:29:44] INFO root fetch - processPackages [yycli]: Remove: archive file [/home/abi/fetcher/tmp/yycli-0.0.5.tar.gz]
+[2024-05-14 14:29:44] INFO root fetch - main [MainThread]: End processing [yycli]: success
+[2024-05-14 14:29:44] INFO root fetch - main [MainThread]: Store serial: [23200905]
