@@ -3237,3 +3237,43 @@
 [2024-05-14 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2024-05-14 02:47:56] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2024-05-14 02:47:56] INFO root fetch - main [MainThread]: Store serial: [23193158]
+[2024-05-14 02:49:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193158]
+[2024-05-14 02:50:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 02:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zep-cloud
+[2024-05-14 02:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celltraj
+[2024-05-14 02:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dalgorithms
+[2024-05-14 02:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchxrayvision
+[2024-05-14 02:50:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sns-notify
+[2024-05-14 02:50:05] INFO root fetch - processPackages [dalgorithms]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 02:50:05] INFO root fetch - processPackages [zep-cloud]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2024-05-14 02:50:05] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/46/d9/beadb54dc8caf0ad23dee39b99119d808eb215b18224fcaa2cb9841e7f94/dalgorithms-0.1.2-py3-none-any.whl
+[2024-05-14 02:50:05] INFO root fetch - processPackages [celltraj]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 02:50:05] INFO root fetch - processPackages [torchxrayvision]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-14 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 02:50:05] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/e4/20/ed5bbac162b1ae453ca3acbc2fadfed125f97946a4d1c70ae949ad92386f/zep_cloud-1.0.0rc1.tar.gz
+[2024-05-14 02:50:05] INFO root fetch - processPackages [torchxrayvision]: Downloading https://files.pythonhosted.org/packages/e2/a6/b1be7cb31f61fa9f7d5263f9541171dc9728e710fda1ebea37c522dae47b/torchxrayvision-1.2.2.tar.gz
+[2024-05-14 02:50:05] INFO root fetch - processPackages [celltraj]: Downloading https://files.pythonhosted.org/packages/18/cd/0dd46db2c6f9e0f9ae1dd4d08230050d92d22f23885dbed5b4b41124d44f/celltraj-0.1.4.tar.gz
+[2024-05-14 02:50:05] WARNING root fetch - processPackages [celltraj]: Skipping package: exceeds size limit 67919567>=10485760
+[2024-05-14 02:50:05] INFO root fetch - main [MainThread]: End processing [celltraj] error
+[2024-05-14 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-14 02:50:05] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/02/c4/b9685d1908805a64a611ee193a3979901e0bd43ed96d4ab2f565703acceb/dalgorithms-0.1.3.tar.gz
+[2024-05-14 02:50:05] WARNING root fetch - processPackages [torchxrayvision]: Skipping package: exceeds size limit 28984142>=10485760
+[2024-05-14 02:50:05] INFO root fetch - main [MainThread]: End processing [torchxrayvision] error
+[2024-05-14 02:50:05] INFO root fetch - processPackages [dalgorithms]: executing diffoscope
+[2024-05-14 02:50:05] INFO root fetch - processPackages [dalgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalgorithms-0.1.2-py3-none-any.whl.zip tmp/dalgorithms-0.1.3.tar.gz --markdown 20240514/d/dalgorithms/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 02:50:05] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/cb/6f/fac450d6dc5bd1d92851d49d474c71254255bf47305ca4f26803c8078ec1/zep_cloud-1.0.1.tar.gz
+[2024-05-14 02:50:05] INFO root fetch - processPackages [zep-cloud]: executing diffoscope
+[2024-05-14 02:50:05] INFO root fetch - processPackages [zep-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_cloud-1.0.0rc1.tar.gz tmp/zep_cloud-1.0.1.tar.gz --markdown 20240514/z/zep-cloud/1.0.0rc1-1.0.1/README.md --exclude *.pyd
+[2024-05-14 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-14 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-14 02:50:05] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240514/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 02:50:06] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.2-py3-none-any.whl.zip]
+[2024-05-14 02:50:06] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.3.tar.gz]
+[2024-05-14 02:50:06] INFO root fetch - main [MainThread]: End processing [dalgorithms]: success
+[2024-05-14 02:50:06] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.0rc1.tar.gz]
+[2024-05-14 02:50:06] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.1.tar.gz]
+[2024-05-14 02:50:06] INFO root fetch - main [MainThread]: End processing [zep-cloud]: success
+[2024-05-14 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-14 02:50:06] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-14 02:50:06] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-14 02:50:06] INFO root fetch - main [MainThread]: Store serial: [23193172]
