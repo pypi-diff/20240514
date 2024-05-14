@@ -10882,3 +10882,60 @@
 [2024-05-14 07:34:20] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.3.tar.gz]
 [2024-05-14 07:34:20] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
 [2024-05-14 07:34:20] INFO root fetch - main [MainThread]: Store serial: [23195984]
+[2024-05-14 07:36:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195984]
+[2024-05-14 07:36:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 07:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-14 07:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pennylane-kq
+[2024-05-14 07:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-ai-cli
+[2024-05-14 07:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2024-05-14 07:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anipy-api
+[2024-05-14 07:36:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-category-level
+[2024-05-14 07:36:29] INFO root fetch - processPackages [pennylane-kq]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 07:36:29] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240512] Old Version: [2.17.0.dev20240505]
+[2024-05-14 07:36:29] INFO root fetch - processPackages [flatpack]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-05-14 07:36:29] INFO root fetch - processPackages [odoo-addon-product-category-level]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-14 07:36:29] INFO root fetch - processPackages [anipy-api]: New version: [3.0.1] Old Version: [3.0.0.dev0]
+[2024-05-14 07:36:29] INFO root fetch - processPackages [py-ai-cli]: New version: [0.5.3] Old Version: [0.5.1]
+[2024-05-14 07:36:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/43/b6/c0cc82b6259a3402e74337d3aa8e623b2e2c60e2437d7aacb212ecc4d5e4/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-14 07:36:29] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/92/5a/46a0817bd1cfcbeb0f041626a2cc2b28a97a17caa6609495cfb355a5d90e/flatpack-3.4.8.tar.gz
+[2024-05-14 07:36:29] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/4a/93/27f92567c945db6c74995e4c4dfc17b55f0cfe0afa0f977f90f586513b04/pennylane-kq-0.0.8.tar.gz
+[2024-05-14 07:36:29] INFO root fetch - processPackages [anipy-api]: Downloading https://files.pythonhosted.org/packages/9b/64/7b498c70f9ed4b4130432600ddcbf34b93a0cd1e86bd7ec8b09f43f96885/anipy_api-3.0.0.dev0.tar.gz
+[2024-05-14 07:36:29] INFO root fetch - processPackages [odoo-addon-product-category-level]: Downloading https://files.pythonhosted.org/packages/75/e0/aaeb2e5b27a160b16161dc29096d4b3b0e9136219ed5a6a52a6cf6649d16/odoo_addon_product_category_level-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-14 07:36:29] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/2e/ee/fb9e8395000f909bd40f156ff1030947fc35a571e771265326cf63492e70/py-ai-cli-0.5.1.tar.gz
+[2024-05-14 07:36:29] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/29/b6/9545d80064161872f90e25faa6bb7dc31698e88762b3d442b5fb491967fd/flatpack-3.4.9.tar.gz
+[2024-05-14 07:36:29] INFO root fetch - processPackages [pennylane-kq]: Downloading https://files.pythonhosted.org/packages/19/05/3b95c0beef8bc8cdb63f6d1d6be35bd331b6ba365738d288339fb515ee4e/pennylane-kq-0.0.9.tar.gz
+[2024-05-14 07:36:29] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/35/66/ae97b5e6d14edb36b071175de69669f3dd9b0f249275fb3cc9188fbf2073/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-05-14 07:36:29] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-14 07:36:29] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.8.tar.gz tmp/flatpack-3.4.9.tar.gz --markdown 20240514/f/flatpack/3.4.8-3.4.9/README.md --exclude *.pyd
+[2024-05-14 07:36:29] INFO root fetch - processPackages [pennylane-kq]: executing diffoscope
+[2024-05-14 07:36:29] INFO root fetch - processPackages [pennylane-kq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pennylane-kq-0.0.8.tar.gz tmp/pennylane-kq-0.0.9.tar.gz --markdown 20240514/p/pennylane-kq/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 07:36:29] INFO root fetch - processPackages [odoo-addon-product-category-level]: Downloading https://files.pythonhosted.org/packages/a3/d6/7cd3b782faa0d593b96591b40cf989168246ea57a41352f750f81f51eb38/odoo_addon_product_category_level-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-14 07:36:29] INFO root fetch - processPackages [anipy-api]: Downloading https://files.pythonhosted.org/packages/33/d5/be9e255f7ac6d881cd36695d9e2b5428cf6070b51a83460a088e6e0b6f49/anipy_api-3.0.1.tar.gz
+[2024-05-14 07:36:30] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/e1/e8/b3e309f12374ce6d4cd8feaac5a899de2dc58dcd267b6c823198dfd11bc6/py-ai-cli-0.5.3.tar.gz
+[2024-05-14 07:36:30] INFO root fetch - processPackages [odoo-addon-product-category-level]: executing diffoscope
+[2024-05-14 07:36:30] INFO root fetch - processPackages [odoo-addon-product-category-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_category_level-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_category_level-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-product-category-level/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-14 07:36:30] INFO root fetch - processPackages [anipy-api]: executing diffoscope
+[2024-05-14 07:36:30] INFO root fetch - processPackages [anipy-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anipy_api-3.0.0.dev0.tar.gz tmp/anipy_api-3.0.1.tar.gz --markdown 20240514/a/anipy-api/3.0.0.dev0-3.0.1/README.md --exclude *.pyd
+[2024-05-14 07:36:30] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-05-14 07:36:30] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240514/t/tflite-runtime-nightly/2.17.0.dev20240505-2.17.0.dev20240512/README.md --exclude *.pyd
+[2024-05-14 07:36:30] INFO root fetch - processPackages [py-ai-cli]: executing diffoscope
+[2024-05-14 07:36:30] INFO root fetch - processPackages [py-ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ai-cli-0.5.1.tar.gz tmp/py-ai-cli-0.5.3.tar.gz --markdown 20240514/p/py-ai-cli/0.5.1-0.5.3/README.md --exclude *.pyd
+[2024-05-14 07:36:30] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.8.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.9.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-14 07:36:30] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.8.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - processPackages [pennylane-kq]: Remove: archive file [/home/abi/fetcher/tmp/pennylane-kq-0.0.9.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - main [MainThread]: End processing [pennylane-kq]: success
+[2024-05-14 07:36:30] INFO root fetch - processPackages [odoo-addon-product-category-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_category_level-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-14 07:36:30] INFO root fetch - processPackages [odoo-addon-product-category-level]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_category_level-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-14 07:36:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-category-level]: success
+[2024-05-14 07:36:30] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.5.1.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.5.3.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - main [MainThread]: End processing [py-ai-cli]: success
+[2024-05-14 07:36:30] INFO root fetch - processPackages [anipy-api]: Remove: archive file [/home/abi/fetcher/tmp/anipy_api-3.0.0.dev0.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - processPackages [anipy-api]: Remove: archive file [/home/abi/fetcher/tmp/anipy_api-3.0.1.tar.gz]
+[2024-05-14 07:36:30] INFO root fetch - main [MainThread]: End processing [anipy-api]: success
+[2024-05-14 07:36:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240505-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-14 07:36:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-05-14 07:36:52] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-05-14 07:36:52] INFO root fetch - main [MainThread]: Store serial: [23196009]
