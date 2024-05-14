@@ -10744,3 +10744,27 @@
 [2024-05-14 07:25:39] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.1.tar.gz]
 [2024-05-14 07:25:39] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
 [2024-05-14 07:25:39] INFO root fetch - main [MainThread]: Store serial: [23195934]
+[2024-05-14 07:27:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195934]
+[2024-05-14 07:27:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 07:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nodestream-plugin-gcp-asset-inventory
+[2024-05-14 07:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: soarv1
+[2024-05-14 07:27:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-core-package
+[2024-05-14 07:27:47] INFO root fetch - processPackages [test-core-package]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 07:27:47] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/c2/ff/39b99319570a12398bd60ef3d1eb2166e044e4c74cb620d1a427737c7076/test_core_package-0.0.7.tar.gz
+[2024-05-14 07:27:47] WARNING root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Skipping, unable to determine old version
+[2024-05-14 07:27:47] INFO root fetch - main [MainThread]: End processing [nodestream-plugin-gcp-asset-inventory] error
+[2024-05-14 07:27:47] INFO root fetch - processPackages [soarv1]: New version: [0.3] Old Version: [0.2]
+[2024-05-14 07:27:48] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/9f/73/d993023200d70e2754c3df5344c692e7246f60bc66f3df0360e0a7e87edc/soarv1-0.2.tar.gz
+[2024-05-14 07:27:48] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/32/cd/9c0011b1204d907d1b2f558f887230b2741fcc60ea9ecfbf8018576508be/test_core_package-0.0.8.tar.gz
+[2024-05-14 07:27:48] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-14 07:27:48] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.0.7.tar.gz tmp/test_core_package-0.0.8.tar.gz --markdown 20240514/t/test-core-package/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 07:27:48] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/33/a5/b9948a10129f63f7bf64e03a59df28b0bde43465168863d85f82a9235dfb/soarv1-0.3.tar.gz
+[2024-05-14 07:27:48] INFO root fetch - processPackages [soarv1]: executing diffoscope
+[2024-05-14 07:27:48] INFO root fetch - processPackages [soarv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soarv1-0.2.tar.gz tmp/soarv1-0.3.tar.gz --markdown 20240514/s/soarv1/0.2-0.3/README.md --exclude *.pyd
+[2024-05-14 07:27:48] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.7.tar.gz]
+[2024-05-14 07:27:48] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.8.tar.gz]
+[2024-05-14 07:27:48] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-14 07:27:49] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.2.tar.gz]
+[2024-05-14 07:27:49] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.3.tar.gz]
+[2024-05-14 07:27:49] INFO root fetch - main [MainThread]: End processing [soarv1]: success
+[2024-05-14 07:27:49] INFO root fetch - main [MainThread]: Store serial: [23195945]
