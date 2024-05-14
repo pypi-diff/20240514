@@ -11343,3 +11343,30 @@
 [2024-05-14 07:56:27] INFO root fetch - processPackages [gpp-components]: Remove: archive file [/home/abi/fetcher/tmp/gpp_components-0.1.6.tar.gz]
 [2024-05-14 07:56:27] INFO root fetch - main [MainThread]: End processing [gpp-components]: success
 [2024-05-14 07:56:27] INFO root fetch - main [MainThread]: Store serial: [23196177]
+[2024-05-14 07:58:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196177]
+[2024-05-14 07:58:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: postmark-template-translate
+[2024-05-14 07:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql-server-lineage
+[2024-05-14 07:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visual-debugger
+[2024-05-14 07:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blastpipe
+[2024-05-14 07:58:36] INFO root fetch - processPackages [visual-debugger]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-14 07:58:36] INFO root fetch - processPackages [blastpipe]: New version: [2024.7.1] Old Version: [2024.7.0]
+[2024-05-14 07:58:36] WARNING root fetch - processPackages [postmark-template-translate]: Skipping, unable to determine old version
+[2024-05-14 07:58:36] INFO root fetch - main [MainThread]: End processing [postmark-template-translate] error
+[2024-05-14 07:58:36] ERROR root fetch - processPackages [sql-server-lineage]: Unable to get metadata: No such project 'sql-server-lineage'
+[2024-05-14 07:58:36] INFO root fetch - main [MainThread]: End processing [sql-server-lineage] error
+[2024-05-14 07:58:36] INFO root fetch - processPackages [visual-debugger]: Downloading https://files.pythonhosted.org/packages/21/07/928d2ca200d7a4659269738007d6c8efb285ab81dac6a4b26ff8af3e4436/visual_debugger-0.2.5.tar.gz
+[2024-05-14 07:58:36] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/31/ad/2bb85637d70a0b98f212a00dcca5365207512d42462dedeec301ac4075bd/blastpipe-2024.7.0.tar.gz
+[2024-05-14 07:58:36] INFO root fetch - processPackages [visual-debugger]: Downloading https://files.pythonhosted.org/packages/ca/99/aae23b5cb475bc155d9325927e28c2418ce65809c3f56e11afeff5f0fe16/visual_debugger-0.2.6.tar.gz
+[2024-05-14 07:58:37] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/e0/ed/6d89ee1a97a2473978d141023269a6ba6f419fcdb76fcf971c3f0dd25758/blastpipe-2024.7.1.tar.gz
+[2024-05-14 07:58:37] INFO root fetch - processPackages [visual-debugger]: executing diffoscope
+[2024-05-14 07:58:37] INFO root fetch - processPackages [visual-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_debugger-0.2.5.tar.gz tmp/visual_debugger-0.2.6.tar.gz --markdown 20240514/v/visual-debugger/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-14 07:58:37] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-14 07:58:37] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.7.0.tar.gz tmp/blastpipe-2024.7.1.tar.gz --markdown 20240514/b/blastpipe/2024.7.0-2024.7.1/README.md --exclude *.pyd
+[2024-05-14 07:58:37] INFO root fetch - processPackages [visual-debugger]: Remove: archive file [/home/abi/fetcher/tmp/visual_debugger-0.2.5.tar.gz]
+[2024-05-14 07:58:37] INFO root fetch - processPackages [visual-debugger]: Remove: archive file [/home/abi/fetcher/tmp/visual_debugger-0.2.6.tar.gz]
+[2024-05-14 07:58:37] INFO root fetch - main [MainThread]: End processing [visual-debugger]: success
+[2024-05-14 07:58:38] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.0.tar.gz]
+[2024-05-14 07:58:38] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.1.tar.gz]
+[2024-05-14 07:58:38] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-14 07:58:38] INFO root fetch - main [MainThread]: Store serial: [23196226]
