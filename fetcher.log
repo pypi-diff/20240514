@@ -3511,3 +3511,30 @@
 [2024-05-14 03:01:38] INFO root fetch - processPackages [mwalib]: Remove: archive file [/home/abi/fetcher/tmp/mwalib-1.3.3-cp39-cp39-manylinux_2_34_x86_64.whl.zip]
 [2024-05-14 03:01:38] INFO root fetch - main [MainThread]: End processing [mwalib]: success
 [2024-05-14 03:01:38] INFO root fetch - main [MainThread]: Store serial: [23193267]
+[2024-05-14 03:03:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193267]
+[2024-05-14 03:03:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 03:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langsave
+[2024-05-14 03:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-protocol-models
+[2024-05-14 03:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compress-algorithms
+[2024-05-14 03:03:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uv
+[2024-05-14 03:03:51] WARNING root fetch - processPackages [langsave]: Skipping, unable to determine old version
+[2024-05-14 03:03:51] WARNING root fetch - processPackages [compress-algorithms]: Skipping, unable to determine old version
+[2024-05-14 03:03:51] INFO root fetch - main [MainThread]: End processing [langsave] error
+[2024-05-14 03:03:51] INFO root fetch - main [MainThread]: End processing [compress-algorithms] error
+[2024-05-14 03:03:51] INFO root fetch - processPackages [airbyte-protocol-models]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 03:03:51] INFO root fetch - processPackages [airbyte-protocol-models]: Downloading https://files.pythonhosted.org/packages/7e/cf/ab2b02d56aedfcc8ac6ddf332e15bbfcbc593d709838a28ca5d488d8d5e4/airbyte_protocol_models-1.0.0.tar.gz
+[2024-05-14 03:03:51] INFO root fetch - processPackages [uv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 03:03:52] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/a0/e6/3098c0e5986919287a41a4a1134b67f94b93da18b3c007875932e6844d8e/uv-0.1.8.tar.gz
+[2024-05-14 03:03:52] INFO root fetch - processPackages [airbyte-protocol-models]: Downloading https://files.pythonhosted.org/packages/23/76/d8cc8b0a6f4cba45b2bce02f280c5c3607faca5481c684879768e119b415/airbyte_protocol_models-1.0.1.tar.gz
+[2024-05-14 03:03:52] INFO root fetch - processPackages [airbyte-protocol-models]: executing diffoscope
+[2024-05-14 03:03:52] INFO root fetch - processPackages [airbyte-protocol-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_protocol_models-1.0.0.tar.gz tmp/airbyte_protocol_models-1.0.1.tar.gz --markdown 20240514/a/airbyte-protocol-models/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 03:03:52] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/d2/e8/e726e0b0cf2dac9c89f3871c8c19bd673273f3cf9711d91e4902ee67a0d0/uv-0.1.9.tar.gz
+[2024-05-14 03:03:52] INFO root fetch - processPackages [airbyte-protocol-models]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_protocol_models-1.0.0.tar.gz]
+[2024-05-14 03:03:52] INFO root fetch - processPackages [airbyte-protocol-models]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_protocol_models-1.0.1.tar.gz]
+[2024-05-14 03:03:52] INFO root fetch - main [MainThread]: End processing [airbyte-protocol-models]: success
+[2024-05-14 03:03:52] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-05-14 03:03:52] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.1.8.tar.gz tmp/uv-0.1.9.tar.gz --markdown 20240514/u/uv/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 03:03:55] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.8.tar.gz]
+[2024-05-14 03:03:55] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
+[2024-05-14 03:03:55] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-05-14 03:03:55] INFO root fetch - main [MainThread]: Store serial: [23193284]
