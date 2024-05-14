@@ -16607,3 +16607,69 @@
 [2024-05-14 11:12:37] INFO root fetch - processPackages [taibun]: Remove: archive file [/home/abi/fetcher/tmp/taibun-1.1.2.tar.gz]
 [2024-05-14 11:12:37] INFO root fetch - main [MainThread]: End processing [taibun]: success
 [2024-05-14 11:12:37] INFO root fetch - main [MainThread]: Store serial: [23198574]
+[2024-05-14 11:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198574]
+[2024-05-14 11:15:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qecore
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hcube
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comun-va
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conetwork-test
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cepack
+[2024-05-14 11:15:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ooui
+[2024-05-14 11:15:01] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [ooui]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [cepack]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/39/11/e2db1b404b33342c96b96471cb9597d68f097c73e2a02fdd08e6474df4b0/conetwork_test-0.1.7.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [comun-va]: New version: [3.5] Old Version: [3.4]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/d5/25/7f7baec7fdbf894019e45d046b2321e0375db314d5a7d1f0375580daab9f/ooui-0.6.2.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [qecore]: New version: [3.9] Old Version: [3.8]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-14 11:15:02] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/40/8a/f18c836364270abb2187c56a0acf2f49b2fc0ffa7e9723b9458e2e3110d4/cepack-0.0.2.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [qecore]: Downloading https://files.pythonhosted.org/packages/73/cb/eb3ee86bdd3b0f41e2347c735467caf4096dac1b2b870f884b6bfadcc048/qecore-3.8.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/3e/db/468b255f9792d6a04cdd1f0dc967fd37f49081ec475085415b204a61430b/comun_va-3.4.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-14 11:15:02] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240514/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 11:15:02] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/6e/42/f1067590496eed32ecf4082380f21dbd12af5527388f799a0c310ebacfcd/ooui-0.6.3.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/c0/7b/b42ac8fd4f94bf8bf06470237db1cb82cbd07467e9e30f1249753e22274e/cepack-0.0.3.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-14 11:15:02] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.6.2.tar.gz tmp/ooui-0.6.3.tar.gz --markdown 20240514/o/ooui/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-14 11:15:02] INFO root fetch - processPackages [qecore]: Downloading https://files.pythonhosted.org/packages/25/94/63b394997fb3ae40746393b5c86ff967be6aa834973467ffef8f769c053a/qecore-3.9.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [comun-va]: Downloading https://files.pythonhosted.org/packages/c1/75/330ff7a3544b3acbeb658cd7ca7884307c5732c2b6729b04048e4c229872/comun_va-3.5-py3-none-any.whl
+[2024-05-14 11:15:02] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-14 11:15:02] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:15:02] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.7.tar.gz tmp/conetwork_test-0.1.8.tar.gz --markdown 20240514/c/conetwork-test/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-14 11:15:02] INFO root fetch - processPackages [cepack]: executing diffoscope
+[2024-05-14 11:15:02] INFO root fetch - processPackages [cepack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cepack-0.0.2.tar.gz tmp/cepack-0.0.3.tar.gz --markdown 20240514/c/cepack/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 11:15:02] INFO root fetch - processPackages [qecore]: executing diffoscope
+[2024-05-14 11:15:02] INFO root fetch - processPackages [qecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qecore-3.8.tar.gz tmp/qecore-3.9.tar.gz --markdown 20240514/q/qecore/3.8-3.9/README.md --exclude *.pyd
+[2024-05-14 11:15:03] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-14 11:15:03] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240514/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-14 11:15:03] INFO root fetch - processPackages [comun-va]: executing diffoscope
+[2024-05-14 11:15:03] INFO root fetch - processPackages [comun-va]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comun_va-3.4.tar.gz tmp/comun_va-3.5-py3-none-any.whl.zip --markdown 20240514/c/comun-va/3.4-3.5/README.md --exclude *.pyd
+[2024-05-14 11:15:03] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-14 11:15:03] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.6.2.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.6.3.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-14 11:15:03] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.2.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.3.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - main [MainThread]: End processing [cepack]: success
+[2024-05-14 11:15:03] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.4.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - processPackages [comun-va]: Remove: archive file [/home/abi/fetcher/tmp/comun_va-3.5-py3-none-any.whl.zip]
+[2024-05-14 11:15:03] INFO root fetch - main [MainThread]: End processing [comun-va]: success
+[2024-05-14 11:15:03] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.7.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 11:15:03] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:15:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-14 11:15:04] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-14 11:15:04] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-14 11:15:04] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.8.tar.gz]
+[2024-05-14 11:15:04] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.9.tar.gz]
+[2024-05-14 11:15:04] INFO root fetch - main [MainThread]: End processing [qecore]: success
+[2024-05-14 11:15:04] INFO root fetch - main [MainThread]: Store serial: [23198601]
