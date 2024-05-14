@@ -14239,3 +14239,78 @@
 [2024-05-14 09:57:21] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz_dev-2.7.0.tar.gz]
 [2024-05-14 09:57:21] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
 [2024-05-14 09:57:21] INFO root fetch - main [MainThread]: Store serial: [23197485]
+[2024-05-14 09:59:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197485]
+[2024-05-14 09:59:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aka-data-prep
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easyreflectometry
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-project-wbs
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xdeps
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvprocessor
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conetwork-test
+[2024-05-14 09:59:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mavsdk
+[2024-05-14 09:59:33] INFO root fetch - processPackages [aka-data-prep]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [mavsdk]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/d2/e6/eedb8012dff3ae1925310f4bbd23a13401f63cdf6a70b884df2bebf4790c/aka_data_prep-0.0.3.tar.gz
+[2024-05-14 09:59:33] INFO root fetch - processPackages [odoo-addon-project-wbs]: New version: [15.0.1.1.4] Old Version: [15.0.1.1.3]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [easyreflectometry]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/b5/df/a867baac8bc5a1c356bedaa9e4dda6fdded40a0eb2c4cf9ac1f171c7a405/conetwork_test-0.1.2.tar.gz
+[2024-05-14 09:59:33] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240514] Old Version: [2.17.0.dev20240513]
+[2024-05-14 09:59:33] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/08/f0/1ff191243d7f43f41b178749fef9f03b24222f3003169145f1c97a744c58/cvprocessor-0.5.4.tar.gz
+[2024-05-14 09:59:33] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/89/45/6b8789f2820fe1142b2416f61ca61bff81c9bd949387d9c43c4e39843031/mavsdk-2.5.1-py3-none-win_amd64.whl
+[2024-05-14 09:59:33] INFO root fetch - processPackages [xdeps]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-05-14 09:59:34] INFO root fetch - processPackages [odoo-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/7f/77/e38c7095f90eff767e81feb2ad680c49ab75f5664de0cf333f3d2178de69/odoo_addon_project_wbs-15.0.1.1.3-py3-none-any.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [easyreflectometry]: Downloading https://files.pythonhosted.org/packages/d2/b6/3a23e66178f01fa4a1d46ea4996747a0cc5ee9cae318367f88bdc666f8ff/easyreflectometry-0.0.1-py3-none-any.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/94/dc/7e34b497c81b705dbdd3823db90b78a4d6564766f8481610eab8bd40416b/aka-data-prep-0.0.4.tar.gz
+[2024-05-14 09:59:34] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/bd/5a/44c46a73b1840d886ba1fab70b9e62e0bb4a63dac4012b679e7e6a25eba8/tf_nightly-2.17.0.dev20240513-cp39-cp39-win_amd64.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [xdeps]: Downloading https://files.pythonhosted.org/packages/90/08/72d3a261f88b88ab7ac6c736903dd6e82fdaab1dbdae6a7885b9d8b3160e/xdeps-0.5.7.tar.gz
+[2024-05-14 09:59:34] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/5a/5e/fe801f8bd6eb067c0d2c609291fa9dec67c460e8107e578e0c8d62900607/cvprocessor-0.5.5.tar.gz
+[2024-05-14 09:59:34] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/b7/44/e355cc60902fb499df9e332d5a35665536d58117fca681567b7087e9df7d/conetwork_test-0.1.3.tar.gz
+[2024-05-14 09:59:34] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka_data_prep-0.0.3.tar.gz tmp/aka-data-prep-0.0.4.tar.gz --markdown 20240514/a/aka-data-prep/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.4.tar.gz tmp/cvprocessor-0.5.5.tar.gz --markdown 20240514/c/cvprocessor/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [mavsdk]: Downloading https://files.pythonhosted.org/packages/40/50/ade5235cdad93f1ae4571a60d7880e00efb2993757a549299961c06c42f1/mavsdk-2.6.0-py3-none-win_amd64.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [odoo-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/b4/9f/32bebb1e96b9d9fbb8823722fa2627e5a1db94c4174cb4123f37169c6fba/odoo_addon_project_wbs-15.0.1.1.4-py3-none-any.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.2.tar.gz tmp/conetwork_test-0.1.3.tar.gz --markdown 20240514/c/conetwork-test/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [easyreflectometry]: Downloading https://files.pythonhosted.org/packages/72/22/c7a59cecd9d9c8a49f219fc1df32e186feebb2386582e38cac62bb21ca87/easyreflectometry-1.0.0.tar.gz
+[2024-05-14 09:59:34] INFO root fetch - processPackages [easyreflectometry]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [easyreflectometry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyreflectometry-0.0.1-py3-none-any.whl.zip tmp/easyreflectometry-1.0.0.tar.gz --markdown 20240514/e/easyreflectometry/0.0.1-1.0.0/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [mavsdk]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [mavsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavsdk-2.5.1-py3-none-win_amd64.whl.zip tmp/mavsdk-2.6.0-py3-none-win_amd64.whl.zip --markdown 20240514/m/mavsdk/2.5.1-2.6.0/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/6b/cf/37ac7f3ac2c4a680eb3a45dd31d0e4158cd3dd5f360b116555629fe1e4f7/tf_nightly-2.17.0.dev20240514-cp39-cp39-win_amd64.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [xdeps]: Downloading https://files.pythonhosted.org/packages/d3/4b/d9d41c99bf67a183bed66dbf1aa2d44b9c826537ff06b5a124792c832746/xdeps-0.6.0-cp38-cp38-musllinux_1_1_x86_64.whl
+[2024-05-14 09:59:34] INFO root fetch - processPackages [odoo-addon-project-wbs]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [odoo-addon-project-wbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_wbs-15.0.1.1.3-py3-none-any.whl.zip tmp/odoo_addon_project_wbs-15.0.1.1.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-project-wbs/15.0.1.1.3-15.0.1.1.4/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip --markdown 20240514/t/tf-nightly/2.17.0.dev20240513-2.17.0.dev20240514/README.md --exclude *.pyd
+[2024-05-14 09:59:34] INFO root fetch - processPackages [xdeps]: executing diffoscope
+[2024-05-14 09:59:34] INFO root fetch - processPackages [xdeps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdeps-0.5.7.tar.gz tmp/xdeps-0.6.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip --markdown 20240514/x/xdeps/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-05-14 09:59:35] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka_data_prep-0.0.3.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.4.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.4.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.5.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [easyreflectometry]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometry-0.0.1-py3-none-any.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [easyreflectometry]: Remove: archive file [/home/abi/fetcher/tmp/easyreflectometry-1.0.0.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [easyreflectometry]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.2.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.3.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [odoo-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_wbs-15.0.1.1.3-py3-none-any.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [odoo-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_wbs-15.0.1.1.4-py3-none-any.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-wbs]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.5.1-py3-none-win_amd64.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [mavsdk]: Remove: archive file [/home/abi/fetcher/tmp/mavsdk-2.6.0-py3-none-win_amd64.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [mavsdk]: success
+[2024-05-14 09:59:35] INFO root fetch - processPackages [xdeps]: Remove: archive file [/home/abi/fetcher/tmp/xdeps-0.5.7.tar.gz]
+[2024-05-14 09:59:35] INFO root fetch - processPackages [xdeps]: Remove: archive file [/home/abi/fetcher/tmp/xdeps-0.6.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [xdeps]: success
+[2024-05-14 09:59:35] INFO root fetch - main [MainThread]: Store serial: [23197538]
