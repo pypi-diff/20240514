@@ -10182,3 +10182,24 @@
 [2024-05-14 06:44:16] INFO root fetch - processPackages [derivative]: Remove: archive file [/home/abi/fetcher/tmp/derivative-0.6.1.tar.gz]
 [2024-05-14 06:44:16] INFO root fetch - main [MainThread]: End processing [derivative]: success
 [2024-05-14 06:44:16] INFO root fetch - main [MainThread]: Store serial: [23195730]
+[2024-05-14 06:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195730]
+[2024-05-14 06:46:24] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandera
+[2024-05-14 06:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amiami
+[2024-05-14 06:46:24] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-14 06:46:24] INFO root fetch - processPackages [amiami]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 06:46:25] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/b0/0e/d435a4c20c8ca9269ca2ccf44f3bb98ee85b9fc9fbfda8f1952cfc2b9c43/pandera-0.8.1.tar.gz
+[2024-05-14 06:46:25] INFO root fetch - processPackages [amiami]: Downloading https://files.pythonhosted.org/packages/ce/9b/61a2140ae9cafa1609ccd3cb385fafea99dfcee03bd2bf9f11b8566bed7f/amiami-0.0.8.tar.gz
+[2024-05-14 06:46:25] INFO root fetch - processPackages [pandera]: Downloading https://files.pythonhosted.org/packages/0b/8f/199b2d6886d40d20c9382c189d0b40c6118c2df6f0df21e9e78ab886aaea/pandera-0.9.0.tar.gz
+[2024-05-14 06:46:25] INFO root fetch - processPackages [amiami]: Downloading https://files.pythonhosted.org/packages/47/9b/2493a58049edd478643ee78ba9b4dd07f1ae8ceb3e6d03ccb644bd2b4ab4/amiami-0.0.9.tar.gz
+[2024-05-14 06:46:25] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2024-05-14 06:46:25] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20240514/p/pandera/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-14 06:46:25] INFO root fetch - processPackages [amiami]: executing diffoscope
+[2024-05-14 06:46:25] INFO root fetch - processPackages [amiami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amiami-0.0.8.tar.gz tmp/amiami-0.0.9.tar.gz --markdown 20240514/a/amiami/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 06:46:26] INFO root fetch - processPackages [amiami]: Remove: archive file [/home/abi/fetcher/tmp/amiami-0.0.8.tar.gz]
+[2024-05-14 06:46:26] INFO root fetch - processPackages [amiami]: Remove: archive file [/home/abi/fetcher/tmp/amiami-0.0.9.tar.gz]
+[2024-05-14 06:46:26] INFO root fetch - main [MainThread]: End processing [amiami]: success
+[2024-05-14 06:46:26] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.8.1.tar.gz]
+[2024-05-14 06:46:26] INFO root fetch - processPackages [pandera]: Remove: archive file [/home/abi/fetcher/tmp/pandera-0.9.0.tar.gz]
+[2024-05-14 06:46:26] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2024-05-14 06:46:26] INFO root fetch - main [MainThread]: Store serial: [23195735]
