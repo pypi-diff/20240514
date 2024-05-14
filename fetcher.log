@@ -8972,3 +8972,39 @@
 [2024-05-14 05:32:56] INFO root fetch - processPackages [odoo-addon-l10n-fr-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_cooperator-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-05-14 05:32:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-cooperator]: success
 [2024-05-14 05:32:56] INFO root fetch - main [MainThread]: Store serial: [23195244]
+[2024-05-14 05:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195244]
+[2024-05-14 05:35:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prett6
+[2024-05-14 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsmxt
+[2024-05-14 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seg_tgce
+[2024-05-14 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepeval
+[2024-05-14 05:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: app-store-server-library
+[2024-05-14 05:35:05] WARNING root fetch - processPackages [prett6]: Skipping, unable to determine old version
+[2024-05-14 05:35:05] INFO root fetch - main [MainThread]: End processing [prett6] error
+[2024-05-14 05:35:05] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-14 05:35:05] INFO root fetch - processPackages [qsmxt]: New version: [6.4.4] Old Version: [6.4.3]
+[2024-05-14 05:35:05] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-14 05:35:05] INFO root fetch - processPackages [app-store-server-library]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-14 05:35:05] WARNING root fetch - processPackages [seg_tgce]: Skipping, unable to determine old version
+[2024-05-14 05:35:05] INFO root fetch - main [MainThread]: End processing [seg_tgce] error
+[2024-05-14 05:35:05] INFO root fetch - processPackages [qsmxt]: Downloading https://files.pythonhosted.org/packages/e0/78/20a669f6c9d89b9844da8d7771e138adfe4caae239c93660f36f9feaec78/qsmxt-6.4.3.tar.gz
+[2024-05-14 05:35:05] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-14 05:35:05] INFO root fetch - processPackages [app-store-server-library]: Downloading https://files.pythonhosted.org/packages/9e/d9/97a135f6922a68ec5ec74e8b7d7311a2f9a201e0929bc48570cefefbe400/app_store_server_library-1.2.0.tar.gz
+[2024-05-14 05:35:06] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-14 05:35:06] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240514/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-14 05:35:06] INFO root fetch - processPackages [qsmxt]: Downloading https://files.pythonhosted.org/packages/57/fb/e88c59674c0f7b99bce715e2e037373b47b8554fefb1ef5f09c328a7997b/qsmxt-6.4.4.tar.gz
+[2024-05-14 05:35:06] INFO root fetch - processPackages [qsmxt]: executing diffoscope
+[2024-05-14 05:35:06] INFO root fetch - processPackages [qsmxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsmxt-6.4.3.tar.gz tmp/qsmxt-6.4.4.tar.gz --markdown 20240514/q/qsmxt/6.4.3-6.4.4/README.md --exclude *.pyd
+[2024-05-14 05:35:06] INFO root fetch - processPackages [app-store-server-library]: Downloading https://files.pythonhosted.org/packages/e7/fc/69985523402612448a36dcbce4cc7f8de87b10b3ca14baf1324ebd5a356d/app_store_server_library-1.2.1.tar.gz
+[2024-05-14 05:35:06] INFO root fetch - processPackages [app-store-server-library]: executing diffoscope
+[2024-05-14 05:35:06] INFO root fetch - processPackages [app-store-server-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/app_store_server_library-1.2.0.tar.gz tmp/app_store_server_library-1.2.1.tar.gz --markdown 20240514/a/app-store-server-library/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-14 05:35:06] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-14 05:35:06] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-14 05:35:06] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-14 05:35:07] INFO root fetch - processPackages [qsmxt]: Remove: archive file [/home/abi/fetcher/tmp/qsmxt-6.4.3.tar.gz]
+[2024-05-14 05:35:07] INFO root fetch - processPackages [qsmxt]: Remove: archive file [/home/abi/fetcher/tmp/qsmxt-6.4.4.tar.gz]
+[2024-05-14 05:35:07] INFO root fetch - main [MainThread]: End processing [qsmxt]: success
+[2024-05-14 05:35:07] INFO root fetch - processPackages [app-store-server-library]: Remove: archive file [/home/abi/fetcher/tmp/app_store_server_library-1.2.0.tar.gz]
+[2024-05-14 05:35:07] INFO root fetch - processPackages [app-store-server-library]: Remove: archive file [/home/abi/fetcher/tmp/app_store_server_library-1.2.1.tar.gz]
+[2024-05-14 05:35:07] INFO root fetch - main [MainThread]: End processing [app-store-server-library]: success
+[2024-05-14 05:35:07] INFO root fetch - main [MainThread]: Store serial: [23195261]
