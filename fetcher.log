@@ -11917,3 +11917,39 @@
 [2024-05-14 08:21:35] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
 [2024-05-14 08:21:35] INFO root fetch - main [MainThread]: End processing [pxutil]: success
 [2024-05-14 08:21:35] INFO root fetch - main [MainThread]: Store serial: [23196494]
+[2024-05-14 08:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196494]
+[2024-05-14 08:23:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simulaix
+[2024-05-14 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: donware
+[2024-05-14 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfapp-base
+[2024-05-14 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jccrypto
+[2024-05-14 08:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-flask
+[2024-05-14 08:23:48] INFO root fetch - processPackages [donware]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 08:23:48] INFO root fetch - processPackages [jccrypto]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 08:23:48] WARNING root fetch - processPackages [simulaix]: Skipping, unable to determine old version
+[2024-05-14 08:23:48] INFO root fetch - main [MainThread]: End processing [simulaix] error
+[2024-05-14 08:23:48] INFO root fetch - processPackages [abstract-flask]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 08:23:48] WARNING root fetch - processPackages [dfapp-base]: Skipping, unable to determine old version
+[2024-05-14 08:23:48] INFO root fetch - main [MainThread]: End processing [dfapp-base] error
+[2024-05-14 08:23:48] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/e5/37/8a12720c4d482f01813d1cfa769916368604044a9ab59079e6ed603f2461/donware-0.1.3.tar.gz
+[2024-05-14 08:23:48] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/ad/27/c9b08fc72fc0ac1ee3ff9a14c0e4518f112d5d697a099fd031ccb7a8a11f/jccrypto-1.0.1-py3-none-any.whl
+[2024-05-14 08:23:48] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/dd/b5/07ede9be0ef79356a261e6cea03862229d0aa640f9c0019ce4db7ff2f020/abstract_flask-0.0.0.8.tar.gz
+[2024-05-14 08:23:49] INFO root fetch - processPackages [abstract-flask]: Downloading https://files.pythonhosted.org/packages/da/9d/0f2ad7f593e9da2e089c35b62aecf3a0f42a18142ce9baca902c137548ef/abstract_flask-0.0.0.9.tar.gz
+[2024-05-14 08:23:49] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/ad/39/3cdff644cb31b04ce2c20abf33a2e1a19edbefbec627c21f872f949a46d5/donware-0.1.4.tar.gz
+[2024-05-14 08:23:49] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/d4/32/f15c120f1ca408d287515f373f11870ea97d7024f143f78fc372f0a759e0/jccrypto-1.0.2-py3-none-any.whl
+[2024-05-14 08:23:49] INFO root fetch - processPackages [abstract-flask]: executing diffoscope
+[2024-05-14 08:23:49] INFO root fetch - processPackages [abstract-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_flask-0.0.0.8.tar.gz tmp/abstract_flask-0.0.0.9.tar.gz --markdown 20240514/a/abstract-flask/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:23:49] INFO root fetch - processPackages [donware]: executing diffoscope
+[2024-05-14 08:23:49] INFO root fetch - processPackages [donware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donware-0.1.3.tar.gz tmp/donware-0.1.4.tar.gz --markdown 20240514/d/donware/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 08:23:49] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-14 08:23:49] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.0.1-py3-none-any.whl.zip tmp/jccrypto-1.0.2-py3-none-any.whl.zip --markdown 20240514/j/jccrypto/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 08:23:49] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.8.tar.gz]
+[2024-05-14 08:23:49] INFO root fetch - processPackages [abstract-flask]: Remove: archive file [/home/abi/fetcher/tmp/abstract_flask-0.0.0.9.tar.gz]
+[2024-05-14 08:23:49] INFO root fetch - main [MainThread]: End processing [abstract-flask]: success
+[2024-05-14 08:23:49] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.3.tar.gz]
+[2024-05-14 08:23:49] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.4.tar.gz]
+[2024-05-14 08:23:49] INFO root fetch - main [MainThread]: End processing [donware]: success
+[2024-05-14 08:23:49] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.1-py3-none-any.whl.zip]
+[2024-05-14 08:23:49] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.2-py3-none-any.whl.zip]
+[2024-05-14 08:23:49] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-14 08:23:49] INFO root fetch - main [MainThread]: Store serial: [23196537]
