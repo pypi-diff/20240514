@@ -16021,3 +16021,47 @@
 [2024-05-14 10:52:43] INFO root fetch - processPackages [spiakid-simulation]: Remove: archive file [/home/abi/fetcher/tmp/spiakid_simulation-1.21.tar.gz]
 [2024-05-14 10:52:43] INFO root fetch - main [MainThread]: End processing [spiakid-simulation]: success
 [2024-05-14 10:52:43] INFO root fetch - main [MainThread]: Store serial: [23198326]
+[2024-05-14 10:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198326]
+[2024-05-14 10:54:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 10:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-kookit
+[2024-05-14 10:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu
+[2024-05-14 10:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omegi-python-instrumentation
+[2024-05-14 10:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openquake.engine
+[2024-05-14 10:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcube
+[2024-05-14 10:54:58] INFO root fetch - processPackages [pytest-kookit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 10:54:58] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 10:54:58] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc7] Old Version: [0.9.9rc6]
+[2024-05-14 10:54:58] INFO root fetch - processPackages [openquake.engine]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-14 10:54:58] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 10:54:58] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/73/40/3fd9b299cc8700945aa4ea39da67f3eecd8d8c960349c808b7026de710c2/pytest_kookit-0.1.0.tar.gz
+[2024-05-14 10:54:58] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/74/d5/8a5425c8a823eda4815dfdf9d8e322e70e877cbd4557a5fdb04c12614372/omegi-python-instrumentation-0.1.2.tar.gz
+[2024-05-14 10:54:58] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/c1/ff/72eb6ce4262ad98fdb162e186d2f88d632b9053ff968826037d3159b4a0b/tsugu-0.9.9rc6.tar.gz
+[2024-05-14 10:54:58] INFO root fetch - processPackages [openquake.engine]: Downloading https://files.pythonhosted.org/packages/cc/2f/fcd3bb66a4a074327bceeec194fd7a75fdcad2dc3a1d1a12a789421ea5f3/openquake.engine-3.8.1.tar.gz
+[2024-05-14 10:54:59] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-05-14 10:54:59] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/c3/af/7849621c9fa917dcaa7b278bba93ab79615e928275b6cedaebf8d9a64fd6/pytest_kookit-0.1.1.tar.gz
+[2024-05-14 10:54:59] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/cc/5b/ec81a25eaf1f23e72a2ea437a084b63fb85fa090265df5266db0334191b6/tsugu-0.9.9rc7.tar.gz
+[2024-05-14 10:54:59] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/d7/dc/4f947d95a0890099da8fe3617bda4ef93f9358b7bdfadc93f957d5b03470/omegi-python-instrumentation-0.1.3.tar.gz
+[2024-05-14 10:54:59] INFO root fetch - processPackages [pytest-kookit]: executing diffoscope
+[2024-05-14 10:54:59] INFO root fetch - processPackages [pytest-kookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_kookit-0.1.0.tar.gz tmp/pytest_kookit-0.1.1.tar.gz --markdown 20240514/p/pytest-kookit/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 10:54:59] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-14 10:54:59] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi-python-instrumentation-0.1.2.tar.gz tmp/omegi-python-instrumentation-0.1.3.tar.gz --markdown 20240514/o/omegi-python-instrumentation/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 10:54:59] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 10:54:59] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc6.tar.gz tmp/tsugu-0.9.9rc7.tar.gz --markdown 20240514/t/tsugu/0.9.9rc6-0.9.9rc7/README.md --exclude *.pyd
+[2024-05-14 10:54:59] WARNING root fetch - processPackages [openquake.engine]: Skipping package: exceeds size limit 29973276>=10485760
+[2024-05-14 10:54:59] INFO root fetch - main [MainThread]: End processing [openquake.engine] error
+[2024-05-14 10:54:59] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-05-14 10:54:59] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-05-14 10:54:59] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240514/h/hcube/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 10:55:00] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.2.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.3.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-14 10:55:00] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.0.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.1.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - main [MainThread]: End processing [pytest-kookit]: success
+[2024-05-14 10:55:00] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc6.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc7.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 10:55:00] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-05-14 10:55:00] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-05-14 10:55:00] INFO root fetch - main [MainThread]: Store serial: [23198342]
