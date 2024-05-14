@@ -13518,3 +13518,51 @@
 [2024-05-14 09:34:08] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.6.tar.gz]
 [2024-05-14 09:34:08] INFO root fetch - main [MainThread]: End processing [omopsurvey]: success
 [2024-05-14 09:34:08] INFO root fetch - main [MainThread]: Store serial: [23197149]
+[2024-05-14 09:36:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197149]
+[2024-05-14 09:36:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 09:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lovely-numpy
+[2024-05-14 09:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlt
+[2024-05-14 09:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nef-pipelines
+[2024-05-14 09:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akride
+[2024-05-14 09:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sshanalysis
+[2024-05-14 09:36:18] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.69] Old Version: [0.1.68]
+[2024-05-14 09:36:18] INFO root fetch - processPackages [dlt]: New version: [0.4.9a2] Old Version: [0.4.9a1]
+[2024-05-14 09:36:18] INFO root fetch - processPackages [sshanalysis]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 09:36:18] INFO root fetch - processPackages [akride]: New version: [0.4.16] Old Version: [0.4.10]
+[2024-05-14 09:36:18] INFO root fetch - processPackages [lovely-numpy]: New version: [0.2.9.dev1] Old Version: [0.2.9]
+[2024-05-14 09:36:18] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/6b/9f/e1e12f852a2ead735ac6da66a2f0c4d88caae70dfff798711939a1654c28/nef_pipelines-0.1.68.tar.gz
+[2024-05-14 09:36:18] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/05/ee/6ffac4e898ce64eedd4b03a6d7925596d4a1959c0d2de78570cdfb266d85/dlt-0.4.9a1.tar.gz
+[2024-05-14 09:36:18] INFO root fetch - processPackages [lovely-numpy]: Downloading https://files.pythonhosted.org/packages/f4/07/f5c5c5b19ccd87591022de9e21331cdd1f37128748d02cd0987ba1142952/lovely-numpy-0.2.9.tar.gz
+[2024-05-14 09:36:18] INFO root fetch - processPackages [sshanalysis]: Downloading https://files.pythonhosted.org/packages/c9/29/41e1cce7bbe71afe682160d5e1ea37b10348362d1c852cd3ff4486918379/sshanalysis-0.0.1.tar.gz
+[2024-05-14 09:36:18] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/46/24/6473dda058cdd52c3f482d85658a1e4f138b82b2e3659266b4056e550b4a/akride-0.4.10-py3-none-any.whl
+[2024-05-14 09:36:20] INFO root fetch - processPackages [akride]: Downloading https://files.pythonhosted.org/packages/ca/d8/3531117cfec1dd71d5418f607cb536b9c7ec3f3fbd71d15a064eb0f5f5ee/akride-0.4.16-py3-none-any.whl
+[2024-05-14 09:36:20] INFO root fetch - processPackages [lovely-numpy]: Downloading https://files.pythonhosted.org/packages/47/15/369b26024af2f5e618192cc2ddf8175e1eb273f06f23946b2f7733e8be59/lovely-numpy-0.2.9.dev1.tar.gz
+[2024-05-14 09:36:20] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/80/54/48192f67adc74da5eaa9b9c96b71f9a397fe9c84c79e6344ba7df65e8362/dlt-0.4.9a2.tar.gz
+[2024-05-14 09:36:20] INFO root fetch - processPackages [sshanalysis]: Downloading https://files.pythonhosted.org/packages/02/33/a9dd516fec23f940d6deda0d27ba5af1eed3878f2222b8efef0a016fa38a/sshanalysis-0.0.2.tar.gz
+[2024-05-14 09:36:20] INFO root fetch - processPackages [akride]: executing diffoscope
+[2024-05-14 09:36:20] INFO root fetch - processPackages [akride]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akride-0.4.10-py3-none-any.whl.zip tmp/akride-0.4.16-py3-none-any.whl.zip --markdown 20240514/a/akride/0.4.10-0.4.16/README.md --exclude *.pyd
+[2024-05-14 09:36:20] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/0e/34/63e9d21f8e332a8047c4dc01c53ce9b1680f18e509cdd4cb205e332bc3c0/nef_pipelines-0.1.69.tar.gz
+[2024-05-14 09:36:20] INFO root fetch - processPackages [sshanalysis]: executing diffoscope
+[2024-05-14 09:36:20] INFO root fetch - processPackages [sshanalysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sshanalysis-0.0.1.tar.gz tmp/sshanalysis-0.0.2.tar.gz --markdown 20240514/s/sshanalysis/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 09:36:20] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2024-05-14 09:36:20] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.4.9a1.tar.gz tmp/dlt-0.4.9a2.tar.gz --markdown 20240514/d/dlt/0.4.9a1-0.4.9a2/README.md --exclude *.pyd
+[2024-05-14 09:36:20] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-05-14 09:36:20] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.68.tar.gz tmp/nef_pipelines-0.1.69.tar.gz --markdown 20240514/n/nef-pipelines/0.1.68-0.1.69/README.md --exclude *.pyd
+[2024-05-14 09:36:21] INFO root fetch - processPackages [sshanalysis]: Remove: archive file [/home/abi/fetcher/tmp/sshanalysis-0.0.1.tar.gz]
+[2024-05-14 09:36:21] INFO root fetch - processPackages [sshanalysis]: Remove: archive file [/home/abi/fetcher/tmp/sshanalysis-0.0.2.tar.gz]
+[2024-05-14 09:36:21] INFO root fetch - main [MainThread]: End processing [sshanalysis]: success
+[2024-05-14 09:36:21] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.10-py3-none-any.whl.zip]
+[2024-05-14 09:36:21] INFO root fetch - processPackages [akride]: Remove: archive file [/home/abi/fetcher/tmp/akride-0.4.16-py3-none-any.whl.zip]
+[2024-05-14 09:36:21] INFO root fetch - main [MainThread]: End processing [akride]: success
+[2024-05-14 09:36:22] INFO root fetch - processPackages [lovely-numpy]: executing diffoscope
+[2024-05-14 09:36:22] INFO root fetch - processPackages [lovely-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lovely-numpy-0.2.9.tar.gz tmp/lovely-numpy-0.2.9.dev1.tar.gz --markdown 20240514/l/lovely-numpy/0.2.9-0.2.9.dev1/README.md --exclude *.pyd
+[2024-05-14 09:36:22] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a1.tar.gz]
+[2024-05-14 09:36:22] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.4.9a2.tar.gz]
+[2024-05-14 09:36:22] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2024-05-14 09:36:22] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.68.tar.gz]
+[2024-05-14 09:36:22] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.69.tar.gz]
+[2024-05-14 09:36:22] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-05-14 09:36:23] INFO root fetch - processPackages [lovely-numpy]: Remove: archive file [/home/abi/fetcher/tmp/lovely-numpy-0.2.9.tar.gz]
+[2024-05-14 09:36:23] INFO root fetch - processPackages [lovely-numpy]: Remove: archive file [/home/abi/fetcher/tmp/lovely-numpy-0.2.9.dev1.tar.gz]
+[2024-05-14 09:36:23] INFO root fetch - main [MainThread]: End processing [lovely-numpy]: success
+[2024-05-14 09:36:23] INFO root fetch - main [MainThread]: Store serial: [23197167]
