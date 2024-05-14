@@ -15643,3 +15643,60 @@
 [2024-05-14 10:41:44] INFO root fetch - processPackages [resc-backend]: Remove: archive file [/home/abi/fetcher/tmp/resc_backend-4.0.0.tar.gz]
 [2024-05-14 10:41:44] INFO root fetch - main [MainThread]: End processing [resc-backend]: success
 [2024-05-14 10:41:44] INFO root fetch - main [MainThread]: Store serial: [23198170]
+[2024-05-14 10:43:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198170]
+[2024-05-14 10:44:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hombre-tools
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuksa-client
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modelmerge
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ava-llm
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darfix
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuzu
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ava-llm]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-14 10:44:01] INFO root fetch - processPackages [modelmerge]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-14 10:44:01] INFO root fetch - processPackages [kuzu]: New version: [0.4.2.dev6] Old Version: [0.4.2.dev5]
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ava-llm]: Downloading https://files.pythonhosted.org/packages/3d/b3/9411dd21e16c3a3ed3bdec9bd43d5bb71e92361034783bf6b37ba3e116d7/ava_llm-0.0.23.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/b0/f1/b84cecd8a57e7c401b63be45c9745cf63982c6f8ef88f0be1b88a0c33e65/modelmerge-0.3.5.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [hombre-tools]: New version: [0.1.26] Old Version: [0.1.25]
+[2024-05-14 10:44:01] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/c9/cd/665348333ac9ccff9fab462b97e99366978ae814a9f0f328f9ecd08fffb4/kuzu-0.4.2.dev5.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [darfix]: New version: [1.0.2] Old Version: [1.0.1rc1]
+[2024-05-14 10:44:01] INFO root fetch - processPackages [kuksa-client]: New version: [0.4.3a2] Old Version: [0.4.3a1]
+[2024-05-14 10:44:01] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/63/d7/76b59ed136df9203544ba475a17425cf578a64be84ae0b028081556713cf/hombre_tools-0.1.25.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/a2/f3/c8cd7e26220383b7957845e380bfcbfad4b19233946bbc8e1c381e81486f/darfix-1.0.1rc1.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/70/6a/df0af7567ec5ec9cebe02a48de594645ed19bcfe9388106df69ba89cba5d/kuksa_client-0.4.3a1.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ava-llm]: Downloading https://files.pythonhosted.org/packages/92/59/2fac56253e8623517bd27ea90f9316909ca009f1fe21a0a690becb70ad71/ava_llm-0.0.24.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/8b/a1/0e5e430b6bd3cfe161ded74e999f323ce428adba2d7eef59c6344b54696c/modelmerge-0.3.6.tar.gz
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ava-llm]: executing diffoscope
+[2024-05-14 10:44:01] INFO root fetch - processPackages [ava-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ava_llm-0.0.23.tar.gz tmp/ava_llm-0.0.24.tar.gz --markdown 20240514/a/ava-llm/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-14 10:44:01] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-14 10:44:01] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.5.tar.gz tmp/modelmerge-0.3.6.tar.gz --markdown 20240514/m/modelmerge/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-14 10:44:02] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a9/f4/db1151cb9463fc404337f6d7934a2130725b994b14c9da117616fda3d294/kuzu-0.4.2.dev6.tar.gz
+[2024-05-14 10:44:02] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/60/b9/3983c0c8fe2b856ee11613e4d1b3e98bd14b0a14c075bce8afbedcc04aaf/kuksa_client-0.4.3a2.tar.gz
+[2024-05-14 10:44:02] INFO root fetch - processPackages [hombre-tools]: Downloading https://files.pythonhosted.org/packages/a9/4b/1fb6fc4959dbfcfd4c6166761de2f44b1df1b0bc36bf8717ac514398807f/hombre_tools-0.1.26.tar.gz
+[2024-05-14 10:44:02] INFO root fetch - processPackages [kuksa-client]: executing diffoscope
+[2024-05-14 10:44:02] INFO root fetch - processPackages [kuksa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuksa_client-0.4.3a1.tar.gz tmp/kuksa_client-0.4.3a2.tar.gz --markdown 20240514/k/kuksa-client/0.4.3a1-0.4.3a2/README.md --exclude *.pyd
+[2024-05-14 10:44:02] INFO root fetch - processPackages [hombre-tools]: executing diffoscope
+[2024-05-14 10:44:02] INFO root fetch - processPackages [hombre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hombre_tools-0.1.25.tar.gz tmp/hombre_tools-0.1.26.tar.gz --markdown 20240514/h/hombre-tools/0.1.25-0.1.26/README.md --exclude *.pyd
+[2024-05-14 10:44:02] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-14 10:44:02] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.2.dev5.tar.gz tmp/kuzu-0.4.2.dev6.tar.gz --markdown 20240514/k/kuzu/0.4.2.dev5-0.4.2.dev6/README.md --exclude *.pyd
+[2024-05-14 10:44:02] INFO root fetch - processPackages [ava-llm]: Remove: archive file [/home/abi/fetcher/tmp/ava_llm-0.0.23.tar.gz]
+[2024-05-14 10:44:02] INFO root fetch - processPackages [ava-llm]: Remove: archive file [/home/abi/fetcher/tmp/ava_llm-0.0.24.tar.gz]
+[2024-05-14 10:44:02] INFO root fetch - main [MainThread]: End processing [ava-llm]: success
+[2024-05-14 10:44:02] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.5.tar.gz]
+[2024-05-14 10:44:02] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.6.tar.gz]
+[2024-05-14 10:44:02] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-14 10:44:02] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/23/8e/a4ff2e4365f35a9cd0c1c10c5d2b8ec00533a47547ab23a24591fffc7faf/darfix-1.0.2.tar.gz
+[2024-05-14 10:44:03] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.3a1.tar.gz]
+[2024-05-14 10:44:03] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.3a2.tar.gz]
+[2024-05-14 10:44:03] INFO root fetch - main [MainThread]: End processing [kuksa-client]: success
+[2024-05-14 10:44:03] INFO root fetch - processPackages [darfix]: executing diffoscope
+[2024-05-14 10:44:03] INFO root fetch - processPackages [darfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darfix-1.0.1rc1.tar.gz tmp/darfix-1.0.2.tar.gz --markdown 20240514/d/darfix/1.0.1rc1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 10:44:04] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.25.tar.gz]
+[2024-05-14 10:44:04] INFO root fetch - processPackages [hombre-tools]: Remove: archive file [/home/abi/fetcher/tmp/hombre_tools-0.1.26.tar.gz]
+[2024-05-14 10:44:04] INFO root fetch - main [MainThread]: End processing [hombre-tools]: success
+[2024-05-14 10:44:05] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc1.tar.gz]
+[2024-05-14 10:44:05] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.2.tar.gz]
+[2024-05-14 10:44:05] INFO root fetch - main [MainThread]: End processing [darfix]: success
+[2024-05-14 10:44:09] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev5.tar.gz]
+[2024-05-14 10:44:09] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev6.tar.gz]
+[2024-05-14 10:44:09] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-14 10:44:09] INFO root fetch - main [MainThread]: Store serial: [23198204]
