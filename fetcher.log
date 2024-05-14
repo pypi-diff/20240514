@@ -14128,3 +14128,114 @@
 [2024-05-14 09:54:36] INFO root fetch - processPackages [ipyleaflet]: Remove: archive file [/home/abi/fetcher/tmp/ipyleaflet-0.9.2.tar.gz]
 [2024-05-14 09:54:36] INFO root fetch - main [MainThread]: End processing [ipyleaflet]: success
 [2024-05-14 09:54:36] INFO root fetch - main [MainThread]: Store serial: [23197449]
+[2024-05-14 09:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197449]
+[2024-05-14 09:56:47] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccs-digitalmarketplace-utils
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WGSE-NG
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcw-finder
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyE2
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gooddata-sdk
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gooddata-fdw
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gooddata-dbt
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gooddata-pandas
+[2024-05-14 09:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gooddata-api-client
+[2024-05-14 09:56:47] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: New version: [66.0.0rc4] Old Version: [66.0.0rc3]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-dbt]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-fdw]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-pandas]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [WGSE-NG]: New version: [0.0.4a5] Old Version: [0.0.4a4]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-sdk]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/76/e7/82f70a6edf35dc747854d12e3393b503eeed383fea4764f9b9967115e741/ccs-digitalmarketplace-utils-66.0.0rc3.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-api-client]: New version: [1.9.1.dev1] Old Version: [1.9.0]
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/af/d2/74aa045051a6c3cdd9c60744f54e18244cd5c3685b0cfd8316ead7fb5f9f/gooddata-dbt-1.9.0.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/0d/f0/c213876dffbc5d7f680c82e829333e573a9c9bf577c78eca5d58b89e2fe1/gooddata-fdw-1.9.0.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/b4/78/c802b0dc962bb56b61f12a880d027f833c71800fd9c86fe100dcefac27a8/gooddata-pandas-1.9.0.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/3d/8a/3107212f8dce7129f210825670557c5798bc55c5b48ba0fc004c74f2b478/wgse_ng-0.0.4a4.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/f3/80/4285744ed6a565ac4ea49b7bf637e5e00d407d67abf103cc8671bd0e3261/gooddata-sdk-1.9.0.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Downloading https://files.pythonhosted.org/packages/e8/12/f239a87492e55865361bd671d53679d2519abe0bf3c650ef61234b0621ec/ccs-digitalmarketplace-utils-66.0.0rc4.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/16/e7/c8ceec7d71a92b4eff603eafab900647224f57543526dbf8b1c8e453ec98/gooddata-api-client-1.9.0.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 09:56:48] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:56:48] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: executing diffoscope
+[2024-05-14 09:56:48] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccs-digitalmarketplace-utils-66.0.0rc3.tar.gz tmp/ccs-digitalmarketplace-utils-66.0.0rc4.tar.gz --markdown 20240514/c/ccs-digitalmarketplace-utils/66.0.0rc3-66.0.0rc4/README.md --exclude *.pyd
+[2024-05-14 09:56:48] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 09:56:48] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-dbt]: Downloading https://files.pythonhosted.org/packages/e0/e6/aae416564ce76ca33ee9de368048118ded67271882273787e574c25abeec/gooddata-dbt-1.9.1.dev1.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-fdw]: Downloading https://files.pythonhosted.org/packages/a4/d2/aeb676c03fdd16fbb3e449ffdd81aada198350d7bb06985452ed7d890502/gooddata-fdw-1.9.1.dev1.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-pandas]: Downloading https://files.pythonhosted.org/packages/ab/1b/0071a38eef6ed1cb68b13e41220cddc882c9bc97969963d703a01c57a62a/gooddata-pandas-1.9.1.dev1.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/07/28/a3cc2341f73828d90303891acfdee6666bff2dccd862a57083ddaa9d9667/wgse_ng-0.0.4a5.tar.gz
+[2024-05-14 09:56:48] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-05-14 09:56:48] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240514/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-dbt]: executing diffoscope
+[2024-05-14 09:56:48] INFO root fetch - processPackages [gooddata-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-dbt-1.9.0.tar.gz tmp/gooddata-dbt-1.9.1.dev1.tar.gz --markdown 20240514/g/gooddata-dbt/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-sdk]: Downloading https://files.pythonhosted.org/packages/dd/ee/087b761347319baf431af47a6ea7518b52bd18f3781d48b5945cbf3d62c7/gooddata-sdk-1.9.1.dev1.tar.gz
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-fdw]: executing diffoscope
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-fdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-fdw-1.9.0.tar.gz tmp/gooddata-fdw-1.9.1.dev1.tar.gz --markdown 20240514/g/gooddata-fdw/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-sdk]: executing diffoscope
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-sdk-1.9.0.tar.gz tmp/gooddata-sdk-1.9.1.dev1.tar.gz --markdown 20240514/g/gooddata-sdk/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-pandas]: executing diffoscope
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-pandas-1.9.0.tar.gz tmp/gooddata-pandas-1.9.1.dev1.tar.gz --markdown 20240514/g/gooddata-pandas/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-14 09:56:49] INFO root fetch - processPackages [WGSE-NG]: executing diffoscope
+[2024-05-14 09:56:49] INFO root fetch - processPackages [WGSE-NG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgse_ng-0.0.4a4.tar.gz tmp/wgse_ng-0.0.4a5.tar.gz --markdown 20240514/W/WGSE-NG/0.0.4a4-0.0.4a5/README.md --exclude *.pyd
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-api-client]: Downloading https://files.pythonhosted.org/packages/15/59/ec005e63eadc0fa8eee98ed734a060dac49dd9466ae60adc2dc0097b34e3/gooddata-api-client-1.9.1.dev1.tar.gz
+[2024-05-14 09:56:49] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 09:56:49] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 09:56:49] INFO root fetch - processPackages [pms-encoder]: Start processing: esentity
+[2024-05-14 09:56:49] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-api-client]: executing diffoscope
+[2024-05-14 09:56:49] INFO root fetch - processPackages [gooddata-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gooddata-api-client-1.9.0.tar.gz tmp/gooddata-api-client-1.9.1.dev1.tar.gz --markdown 20240514/g/gooddata-api-client/1.9.0-1.9.1.dev1/README.md --exclude *.pyd
+[2024-05-14 09:56:49] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-05-14 09:56:49] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 09:56:49] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 09:56:49] INFO root fetch - processPackages [dcw-finder]: Start processing: aaz-dev
+[2024-05-14 09:56:49] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 09:56:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc3.tar.gz]
+[2024-05-14 09:56:49] INFO root fetch - processPackages [ccs-digitalmarketplace-utils]: Remove: archive file [/home/abi/fetcher/tmp/ccs-digitalmarketplace-utils-66.0.0rc4.tar.gz]
+[2024-05-14 09:56:49] INFO root fetch - main [MainThread]: End processing [ccs-digitalmarketplace-utils]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2024-05-14 09:56:50] INFO root fetch - processPackages [aaz-dev]: New version: [2.7.0] Old Version: [2.6.2]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.0.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-dbt]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-dbt-1.9.1.dev1.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - main [MainThread]: End processing [gooddata-dbt]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.0.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-pandas-1.9.1.dev1.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - main [MainThread]: End processing [gooddata-pandas]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/f1/0c/64e0bc826ec3d018f4ad1b7aad9dc293e5cdb89fdac5984bb488d5baf7c4/aaz_dev-2.6.2.tar.gz
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.0.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-fdw]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-fdw-1.9.1.dev1.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - main [MainThread]: End processing [gooddata-fdw]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a4.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a5.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.0.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - processPackages [gooddata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-sdk-1.9.1.dev1.tar.gz]
+[2024-05-14 09:56:50] INFO root fetch - main [MainThread]: End processing [gooddata-sdk]: success
+[2024-05-14 09:56:50] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2024-05-14 09:56:50] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20240514/e/esentity/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-05-14 09:56:50] INFO root fetch - processPackages [aaz-dev]: Downloading https://files.pythonhosted.org/packages/86/21/2de5bd27a43945117d94986e78048d5f3e87e7b1cda28e112e5c45fdf030/aaz_dev-2.7.0.tar.gz
+[2024-05-14 09:56:51] INFO root fetch - processPackages [aaz-dev]: executing diffoscope
+[2024-05-14 09:56:51] INFO root fetch - processPackages [aaz-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aaz_dev-2.6.2.tar.gz tmp/aaz_dev-2.7.0.tar.gz --markdown 20240514/a/aaz-dev/2.6.2-2.7.0/README.md --exclude *.pyd
+[2024-05-14 09:56:51] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2024-05-14 09:56:51] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2024-05-14 09:56:51] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2024-05-14 09:56:57] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.0.tar.gz]
+[2024-05-14 09:56:57] INFO root fetch - processPackages [gooddata-api-client]: Remove: archive file [/home/abi/fetcher/tmp/gooddata-api-client-1.9.1.dev1.tar.gz]
+[2024-05-14 09:56:57] INFO root fetch - main [MainThread]: End processing [gooddata-api-client]: success
+[2024-05-14 09:57:21] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz_dev-2.6.2.tar.gz]
+[2024-05-14 09:57:21] INFO root fetch - processPackages [aaz-dev]: Remove: archive file [/home/abi/fetcher/tmp/aaz_dev-2.7.0.tar.gz]
+[2024-05-14 09:57:21] INFO root fetch - main [MainThread]: End processing [aaz-dev]: success
+[2024-05-14 09:57:21] INFO root fetch - main [MainThread]: Store serial: [23197485]
