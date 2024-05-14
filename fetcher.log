@@ -20065,3 +20065,63 @@
 [2024-05-14 13:05:03] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-1.9.0.tar.gz]
 [2024-05-14 13:05:03] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
 [2024-05-14 13:05:03] INFO root fetch - main [MainThread]: Store serial: [23200019]
+[2024-05-14 13:07:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200019]
+[2024-05-14 13:07:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-id-python
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argument-parsing
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tinygui
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: junifer
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2024-05-14 13:07:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bestnlp
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-14 13:07:12] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev57] Old Version: [0.0.5.dev55]
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-14 13:07:12] INFO root fetch - processPackages [tinygui]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 13:07:12] WARNING root fetch - processPackages [argument-parsing]: Skipping, unable to determine old version
+[2024-05-14 13:07:12] INFO root fetch - main [MainThread]: End processing [argument-parsing] error
+[2024-05-14 13:07:12] INFO root fetch - processPackages [bestnlp]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/30/50/dd4eef3753bd6815fef0706f2d5b1c4ccbdd7bed7a0306c72a2c094d1840/junifer-0.0.5.dev55.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [tinygui]: Downloading https://files.pythonhosted.org/packages/07/cc/cd4d8872c9c81527c6d49d7936109257c4249915b0247203b9f9f1262e7d/tinygui-1.0.0.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/c8/49/8b415b3c0056f346c1a9a52b8d90bc450e8183532c9a3cffafcb676710cb/bestnlp-1.1.1-py3-none-any.whl
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/2b/ab/cc01cdc6e541df8308738bc51e8d44f5c2b460f24dfe3465c71ded0d8036/junifer-0.0.5.dev57.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240514/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-14 13:07:12] INFO root fetch - processPackages [tinygui]: Downloading https://files.pythonhosted.org/packages/b4/48/89043f70472bd6b9c3ad660c4fcde808800960b399c4011b4c9d529dbf35/tinygui-1.0.1.tar.gz
+[2024-05-14 13:07:12] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-05-14 13:07:12] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev55.tar.gz tmp/junifer-0.0.5.dev57.tar.gz --markdown 20240514/j/junifer/0.0.5.dev55-0.0.5.dev57/README.md --exclude *.pyd
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240514/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-14 13:07:12] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240514/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-14 13:07:12] INFO root fetch - processPackages [tinygui]: executing diffoscope
+[2024-05-14 13:07:12] INFO root fetch - processPackages [tinygui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinygui-1.0.0.tar.gz tmp/tinygui-1.0.1.tar.gz --markdown 20240514/t/tinygui/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 13:07:12] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/e0/21/505a4d93876c754a1c8872296c67645dc59fff6616ebe6d52360effb587f/bestnlp-1.1.2-py3-none-any.whl
+[2024-05-14 13:07:13] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2024-05-14 13:07:13] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.1.1-py3-none-any.whl.zip tmp/bestnlp-1.1.2-py3-none-any.whl.zip --markdown 20240514/b/bestnlp/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-14 13:07:13] INFO root fetch - processPackages [tinygui]: Remove: archive file [/home/abi/fetcher/tmp/tinygui-1.0.0.tar.gz]
+[2024-05-14 13:07:13] INFO root fetch - processPackages [tinygui]: Remove: archive file [/home/abi/fetcher/tmp/tinygui-1.0.1.tar.gz]
+[2024-05-14 13:07:13] INFO root fetch - main [MainThread]: End processing [tinygui]: success
+[2024-05-14 13:07:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-14 13:07:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-14 13:07:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-14 13:07:14] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.1.1-py3-none-any.whl.zip]
+[2024-05-14 13:07:14] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.1.2-py3-none-any.whl.zip]
+[2024-05-14 13:07:14] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2024-05-14 13:07:14] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-14 13:07:14] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-14 13:07:14] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-14 13:07:14] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev55.tar.gz]
+[2024-05-14 13:07:14] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev57.tar.gz]
+[2024-05-14 13:07:14] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-05-14 13:07:15] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-14 13:07:15] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-14 13:07:15] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-14 13:07:15] INFO root fetch - main [MainThread]: Store serial: [23200042]
