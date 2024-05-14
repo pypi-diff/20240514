@@ -12352,3 +12352,15 @@
 [2024-05-14 08:49:10] INFO root fetch - processPackages [pytest-allure-id2history]: Remove: archive file [/home/abi/fetcher/tmp/pytest_allure_id2history-0.1.2-py3-none-any.whl.zip]
 [2024-05-14 08:49:10] INFO root fetch - main [MainThread]: End processing [pytest-allure-id2history]: success
 [2024-05-14 08:49:10] INFO root fetch - main [MainThread]: Store serial: [23196732]
+[2024-05-14 08:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196732]
+[2024-05-14 08:51:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 08:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docmesh-core
+[2024-05-14 08:51:19] INFO root fetch - processPackages [docmesh-core]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 08:51:19] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/c2/29/b924476a77f22b1653e9833222eb394fc7c1ad767897bd218cef01967bfc/docmesh_core-0.0.1.tar.gz
+[2024-05-14 08:51:19] INFO root fetch - processPackages [docmesh-core]: Downloading https://files.pythonhosted.org/packages/12/73/5c24ca43c8ac4d3de8771f1adb762b0258f179022e4bb5ba9169159157b0/docmesh_core-0.0.2.tar.gz
+[2024-05-14 08:51:20] INFO root fetch - processPackages [docmesh-core]: executing diffoscope
+[2024-05-14 08:51:20] INFO root fetch - processPackages [docmesh-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_core-0.0.1.tar.gz tmp/docmesh_core-0.0.2.tar.gz --markdown 20240514/d/docmesh-core/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 08:51:20] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.1.tar.gz]
+[2024-05-14 08:51:20] INFO root fetch - processPackages [docmesh-core]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_core-0.0.2.tar.gz]
+[2024-05-14 08:51:20] INFO root fetch - main [MainThread]: End processing [docmesh-core]: success
+[2024-05-14 08:51:20] INFO root fetch - main [MainThread]: Store serial: [23196737]
