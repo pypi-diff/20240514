@@ -15477,3 +15477,109 @@
 [2024-05-14 10:37:02] INFO root fetch - processPackages [DIRAC]: Remove: archive file [/home/abi/fetcher/tmp/DIRAC-9.0.0a6.tar.gz]
 [2024-05-14 10:37:02] INFO root fetch - main [MainThread]: End processing [DIRAC]: success
 [2024-05-14 10:37:02] INFO root fetch - main [MainThread]: Store serial: [23198094]
+[2024-05-14 10:39:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198094]
+[2024-05-14 10:39:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: local_tuya_domoticz_tools
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Heron-42ad
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: explorateur
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: variable-local
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrapegraphai
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lamin_cli
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: MethodicConfigurator
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snek-sploit
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentry-relay
+[2024-05-14 10:39:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xl2roefact
+[2024-05-14 10:39:17] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 10:39:17] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b8] Old Version: [0.9.0b7]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [Heron-42ad]: New version: [0.8] Old Version: [0.7.5.3]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [snek-sploit]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-14 10:39:18] WARNING root fetch - processPackages [explorateur]: Skipping, unable to determine old version
+[2024-05-14 10:39:18] INFO root fetch - processPackages [explorateur]: Start processing: testpkg3322
+[2024-05-14 10:39:18] INFO root fetch - main [MainThread]: End processing [explorateur] error
+[2024-05-14 10:39:18] INFO root fetch - processPackages [lamin_cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [MethodicConfigurator]: New version: [0.5.1] Old Version: [0.4.2]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [testpkg3322]: New version: [2.35.9] Old Version: [2.35.8]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [local_tuya_domoticz_tools]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [xl2roefact]: New version: [0.7rc2] Old Version: [0.7rc1]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/63/5c/30d12a2ba836f5972d1146557ac75b13200683a0808baa631508b12da6d1/scrapegraphai-0.9.0b7.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/b9/c9/e486ba09062c28172d0bc9a928073148958a49a2848f1dc98e76b0e3ca5a/testpkg3322-2.35.8.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [Heron-42ad]: Downloading https://files.pythonhosted.org/packages/40/74/bbde04d2502d956bcb0ca1dea013e905031043942c866fb3f54e25eeaf5d/heron_42ad-0.7.5.3.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/1e/2f/7b1641b1ac5c2e6b48805c4665a36ff45eaf6399969a8d041846ab874d84/snek_sploit-0.5.0.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/b3/65/762e5649503edc943685937f291c7f0fdd23096ee0329017dfbc98bfce33/lamin_cli-0.9.2.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [local_tuya_domoticz_tools]: Downloading https://files.pythonhosted.org/packages/ed/fc/5647b52c9f5af2a98f45ea495bd66f6b0b309571ebaebe2959afd546b8f5/local_tuya_domoticz_tools-1.1.2.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/ca/26/806594594ce3bb151c43de8b4228cedea5e92aeaf951f206b3ade8984b56/methodicconfigurator-0.4.2.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-05-14 10:39:18] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-14 10:39:18] WARNING root fetch - processPackages [Heron-42ad]: Skipping package: exceeds size limit 16057944>=10485760
+[2024-05-14 10:39:18] INFO root fetch - processPackages [Heron-42ad]: Start processing: zaiclient
+[2024-05-14 10:39:18] INFO root fetch - main [MainThread]: End processing [Heron-42ad] error
+[2024-05-14 10:39:18] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-05-14 10:39:18] INFO root fetch - processPackages [sentry-relay]: Start processing: juntagrico-billing
+[2024-05-14 10:39:18] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-05-14 10:39:18] INFO root fetch - processPackages [xl2roefact]: Downloading https://files.pythonhosted.org/packages/77/88/1e578811feec90852effb95c220d73bdfcac1d7a391aa50ca7f369673982/xl2roefact-0.7rc1.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/e8/f4/c60696cf15fae6617f4351065cbc78d635ceedaf932079ea2bfdcd1822ec/scrapegraphai-0.9.0b8.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/d6/11/333284ab2e508038695e9308bdb436693df60040d7ce7a2e0aacac7f5bdb/testpkg3322-2.35.9.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-14 10:39:18] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240514/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 10:39:18] INFO root fetch - processPackages [zaiclient]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [testpkg3322]: executing diffoscope
+[2024-05-14 10:39:18] INFO root fetch - processPackages [testpkg3322]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpkg3322-2.35.8.tar.gz tmp/testpkg3322-2.35.9.tar.gz --markdown 20240514/t/testpkg3322/2.35.8-2.35.9/README.md --exclude *.pyd
+[2024-05-14 10:39:18] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-14 10:39:18] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b7.tar.gz tmp/scrapegraphai-0.9.0b8.tar.gz --markdown 20240514/s/scrapegraphai/0.9.0b7-0.9.0b8/README.md --exclude *.pyd
+[2024-05-14 10:39:18] INFO root fetch - processPackages [juntagrico-billing]: New version: [1.6.0] Old Version: [1.5.6]
+[2024-05-14 10:39:18] INFO root fetch - processPackages [snek-sploit]: Downloading https://files.pythonhosted.org/packages/b4/65/5f6e59a7eb02e3f14e7781d62676c11ee036be9938c6968e82d6f955eb4b/snek_sploit-0.6.0.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [lamin_cli]: Downloading https://files.pythonhosted.org/packages/d4/e4/7fd525f4a6ed45d5e207ecf462531ba3953864b668bf8d386d1c744212ed/lamin_cli-0.9.3.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [local_tuya_domoticz_tools]: Downloading https://files.pythonhosted.org/packages/a5/c6/c1294a3ef2ee1c33a244144a63dc77257c996e0686a45d0ba72aa24aa2c7/local_tuya_domoticz_tools-1.2.0.tar.gz
+[2024-05-14 10:39:18] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/22/fc/c6b48c571880b29824ba3b832679150c6e540a542ee8d932d6b2883ecdd9/zaiclient-4.2.0-py3-none-any.whl
+[2024-05-14 10:39:18] INFO root fetch - processPackages [snek-sploit]: executing diffoscope
+[2024-05-14 10:39:18] INFO root fetch - processPackages [snek-sploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snek_sploit-0.5.0.tar.gz tmp/snek_sploit-0.6.0.tar.gz --markdown 20240514/s/snek-sploit/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-14 10:39:18] INFO root fetch - processPackages [local_tuya_domoticz_tools]: executing diffoscope
+[2024-05-14 10:39:18] INFO root fetch - processPackages [local_tuya_domoticz_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_tuya_domoticz_tools-1.1.2.tar.gz tmp/local_tuya_domoticz_tools-1.2.0.tar.gz --markdown 20240514/l/local_tuya_domoticz_tools/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-05-14 10:39:18] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/ed/2b/4343061ae9f99939ce7ddf8a78fd9cb1c3b58ca562c033bf62c28f7f355f/methodicconfigurator-0.5.1.tar.gz
+[2024-05-14 10:39:19] INFO root fetch - processPackages [juntagrico-billing]: Downloading https://files.pythonhosted.org/packages/66/df/77684624622367ccb0f9e0c7f76be78b30a2022a0c51f8996b795d2d0942/juntagrico-billing-1.5.6.tar.gz
+[2024-05-14 10:39:19] INFO root fetch - processPackages [lamin_cli]: executing diffoscope
+[2024-05-14 10:39:19] INFO root fetch - processPackages [lamin_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamin_cli-0.9.2.tar.gz tmp/lamin_cli-0.9.3.tar.gz --markdown 20240514/l/lamin_cli/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-14 10:39:19] INFO root fetch - processPackages [xl2roefact]: Downloading https://files.pythonhosted.org/packages/4c/ba/ce30a169fa92ae3c31f2f4352f8fb20698443514281e423ee056d811926b/xl2roefact-0.7rc2.tar.gz
+[2024-05-14 10:39:19] INFO root fetch - processPackages [MethodicConfigurator]: executing diffoscope
+[2024-05-14 10:39:19] INFO root fetch - processPackages [MethodicConfigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/methodicconfigurator-0.4.2.tar.gz tmp/methodicconfigurator-0.5.1.tar.gz --markdown 20240514/M/MethodicConfigurator/0.4.2-0.5.1/README.md --exclude *.pyd
+[2024-05-14 10:39:19] INFO root fetch - processPackages [xl2roefact]: executing diffoscope
+[2024-05-14 10:39:19] INFO root fetch - processPackages [xl2roefact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xl2roefact-0.7rc1.tar.gz tmp/xl2roefact-0.7rc2.tar.gz --markdown 20240514/x/xl2roefact/0.7rc1-0.7rc2/README.md --exclude *.pyd
+[2024-05-14 10:39:19] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/ff/d5/a6e336832593f426347c89df08dc86bdb233e6a80a12ee2181dee7cb5ad8/zaiclient-4.3.0-py3-none-any.whl
+[2024-05-14 10:39:19] INFO root fetch - processPackages [juntagrico-billing]: Downloading https://files.pythonhosted.org/packages/c9/0b/05a1860231a47084652add422d3038a1877a4c8ebc8c9075855db349f811/juntagrico_billing-1.6.0.tar.gz
+[2024-05-14 10:39:19] INFO root fetch - processPackages [zaiclient]: executing diffoscope
+[2024-05-14 10:39:19] INFO root fetch - processPackages [zaiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaiclient-4.2.0-py3-none-any.whl.zip tmp/zaiclient-4.3.0-py3-none-any.whl.zip --markdown 20240514/z/zaiclient/4.2.0-4.3.0/README.md --exclude *.pyd
+[2024-05-14 10:39:19] INFO root fetch - processPackages [juntagrico-billing]: executing diffoscope
+[2024-05-14 10:39:19] INFO root fetch - processPackages [juntagrico-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juntagrico-billing-1.5.6.tar.gz tmp/juntagrico_billing-1.6.0.tar.gz --markdown 20240514/j/juntagrico-billing/1.5.6-1.6.0/README.md --exclude *.pyd
+[2024-05-14 10:39:20] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.8.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.9.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [testpkg3322]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [local_tuya_domoticz_tools]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya_domoticz_tools-1.1.2.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [local_tuya_domoticz_tools]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya_domoticz_tools-1.2.0.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [local_tuya_domoticz_tools]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.5.0.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [snek-sploit]: Remove: archive file [/home/abi/fetcher/tmp/snek_sploit-0.6.0.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [snek-sploit]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b7.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b8.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.2.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [lamin_cli]: Remove: archive file [/home/abi/fetcher/tmp/lamin_cli-0.9.3.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [lamin_cli]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [xl2roefact]: Remove: archive file [/home/abi/fetcher/tmp/xl2roefact-0.7rc1.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [xl2roefact]: Remove: archive file [/home/abi/fetcher/tmp/xl2roefact-0.7rc2.tar.gz]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [xl2roefact]: success
+[2024-05-14 10:39:20] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-4.2.0-py3-none-any.whl.zip]
+[2024-05-14 10:39:20] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-4.3.0-py3-none-any.whl.zip]
+[2024-05-14 10:39:20] INFO root fetch - main [MainThread]: End processing [zaiclient]: success
+[2024-05-14 10:39:21] INFO root fetch - processPackages [juntagrico-billing]: Remove: archive file [/home/abi/fetcher/tmp/juntagrico-billing-1.5.6.tar.gz]
+[2024-05-14 10:39:21] INFO root fetch - processPackages [juntagrico-billing]: Remove: archive file [/home/abi/fetcher/tmp/juntagrico_billing-1.6.0.tar.gz]
+[2024-05-14 10:39:21] INFO root fetch - main [MainThread]: End processing [juntagrico-billing]: success
+[2024-05-14 10:39:27] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.4.2.tar.gz]
+[2024-05-14 10:39:27] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.5.1.tar.gz]
+[2024-05-14 10:39:27] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
+[2024-05-14 10:39:27] INFO root fetch - main [MainThread]: Store serial: [23198148]
