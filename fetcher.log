@@ -7704,3 +7704,24 @@
 [2024-05-14 03:54:01] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.0.tar.gz]
 [2024-05-14 03:54:01] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
 [2024-05-14 03:54:01] INFO root fetch - main [MainThread]: Store serial: [23194730]
+[2024-05-14 03:56:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194730]
+[2024-05-14 03:56:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 03:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-stack-dingding
+[2024-05-14 03:56:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usso
+[2024-05-14 03:56:10] INFO root fetch - processPackages [sentry-stack-dingding]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 03:56:10] INFO root fetch - processPackages [usso]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 03:56:10] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/08/f4/efe4a553e289342e7f16ab6afe3d87c7c5fc61f7ff9703a45873ece8103a/sentry-stack-dingding-1.0.8.tar.gz
+[2024-05-14 03:56:10] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/32/6b/affc9cd10fca733f24a31679e715e276c8462d5b2199f3d9a35123e9e7d2/usso-0.8.0.tar.gz
+[2024-05-14 03:56:10] INFO root fetch - processPackages [sentry-stack-dingding]: Downloading https://files.pythonhosted.org/packages/b6/d7/f8ee3de9d36e27746e446086077f59149fe522febdc65a2e825271c70ba8/sentry-stack-dingding-1.0.9.tar.gz
+[2024-05-14 03:56:10] INFO root fetch - processPackages [usso]: Downloading https://files.pythonhosted.org/packages/70/21/51c7a85adbbfdaf9730493f23f5076201187ebeed4cf1923b633e2a66a14/usso-0.9.0.tar.gz
+[2024-05-14 03:56:10] INFO root fetch - processPackages [sentry-stack-dingding]: executing diffoscope
+[2024-05-14 03:56:10] INFO root fetch - processPackages [sentry-stack-dingding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry-stack-dingding-1.0.8.tar.gz tmp/sentry-stack-dingding-1.0.9.tar.gz --markdown 20240514/s/sentry-stack-dingding/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 03:56:10] INFO root fetch - processPackages [usso]: executing diffoscope
+[2024-05-14 03:56:10] INFO root fetch - processPackages [usso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usso-0.8.0.tar.gz tmp/usso-0.9.0.tar.gz --markdown 20240514/u/usso/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 03:56:11] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.8.0.tar.gz]
+[2024-05-14 03:56:11] INFO root fetch - processPackages [usso]: Remove: archive file [/home/abi/fetcher/tmp/usso-0.9.0.tar.gz]
+[2024-05-14 03:56:11] INFO root fetch - main [MainThread]: End processing [usso]: success
+[2024-05-14 03:56:11] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.8.tar.gz]
+[2024-05-14 03:56:11] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
+[2024-05-14 03:56:11] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
+[2024-05-14 03:56:11] INFO root fetch - main [MainThread]: Store serial: [23194736]
