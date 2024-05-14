@@ -17350,3 +17350,42 @@
 [2024-05-14 11:35:40] INFO root fetch - processPackages [orbit-database-shell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database_shell-1.0.9.tar.gz]
 [2024-05-14 11:35:40] INFO root fetch - main [MainThread]: End processing [orbit-database-shell]: success
 [2024-05-14 11:35:40] INFO root fetch - main [MainThread]: Store serial: [23198841]
+[2024-05-14 11:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198841]
+[2024-05-14 11:38:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyluba
+[2024-05-14 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jccrypto
+[2024-05-14 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcw-finder
+[2024-05-14 11:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyvista
+[2024-05-14 11:38:05] INFO root fetch - processPackages [jccrypto]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 11:38:05] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:38:05] INFO root fetch - processPackages [pyvista]: New version: [0.44.dev0] Old Version: [0.43.7]
+[2024-05-14 11:38:05] INFO root fetch - processPackages [pyluba]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-14 11:38:05] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/d4/32/f15c120f1ca408d287515f373f11870ea97d7024f143f78fc372f0a759e0/jccrypto-1.0.2-py3-none-any.whl
+[2024-05-14 11:38:05] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 11:38:05] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/b8/c4/614bd42266cfe91302a7367bf6791cf8a1b987dc755de50a1c1b99423c21/pyvista-0.43.7.tar.gz
+[2024-05-14 11:38:05] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/68/21/29e9f420bcfe25699741188d8a6916f70d8195a45823a37b00c68007f90f/pyluba-0.0.2.tar.gz
+[2024-05-14 11:38:06] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 11:38:06] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/aa/2b/a44baf4f0ea8628a26b9bf55f9cdb452590d90e4421195ce41cf90a95799/jccrypto-1.0.3-py3-none-any.whl
+[2024-05-14 11:38:06] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 11:38:06] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:38:06] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-14 11:38:06] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.0.2-py3-none-any.whl.zip tmp/jccrypto-1.0.3-py3-none-any.whl.zip --markdown 20240514/j/jccrypto/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 11:38:06] INFO root fetch - processPackages [pyluba]: Downloading https://files.pythonhosted.org/packages/cd/00/3f2be7ce7568a4ddeb8500adeab06ecbe573700e85effc256300222c38bf/pyluba-0.0.4.tar.gz
+[2024-05-14 11:38:06] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/65/e0/c0a9c27d38de6b868bc098c7f24f30fd42fe78e84e1c1ab993aa33619ed8/pyvista-0.44.dev0.tar.gz
+[2024-05-14 11:38:06] INFO root fetch - processPackages [pyluba]: executing diffoscope
+[2024-05-14 11:38:06] INFO root fetch - processPackages [pyluba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyluba-0.0.2.tar.gz tmp/pyluba-0.0.4.tar.gz --markdown 20240514/p/pyluba/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-14 11:38:06] INFO root fetch - processPackages [pyvista]: executing diffoscope
+[2024-05-14 11:38:06] INFO root fetch - processPackages [pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-0.43.7.tar.gz tmp/pyvista-0.44.dev0.tar.gz --markdown 20240514/p/pyvista/0.43.7-0.44.dev0/README.md --exclude *.pyd
+[2024-05-14 11:38:06] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.2-py3-none-any.whl.zip]
+[2024-05-14 11:38:06] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.3-py3-none-any.whl.zip]
+[2024-05-14 11:38:06] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-14 11:38:07] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 11:38:07] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 11:38:07] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 11:38:07] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.2.tar.gz]
+[2024-05-14 11:38:07] INFO root fetch - processPackages [pyluba]: Remove: archive file [/home/abi/fetcher/tmp/pyluba-0.0.4.tar.gz]
+[2024-05-14 11:38:07] INFO root fetch - main [MainThread]: End processing [pyluba]: success
+[2024-05-14 11:38:08] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.43.7.tar.gz]
+[2024-05-14 11:38:08] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.44.dev0.tar.gz]
+[2024-05-14 11:38:08] INFO root fetch - main [MainThread]: End processing [pyvista]: success
+[2024-05-14 11:38:08] INFO root fetch - main [MainThread]: Store serial: [23198853]
