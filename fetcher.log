@@ -15307,3 +15307,42 @@
 [2024-05-14 10:30:01] INFO root fetch - processPackages [orch-api]: Remove: archive file [/home/abi/fetcher/tmp/orch_api-0.0.2.tar.gz]
 [2024-05-14 10:30:01] INFO root fetch - main [MainThread]: End processing [orch-api]: success
 [2024-05-14 10:30:01] INFO root fetch - main [MainThread]: Store serial: [23198037]
+[2024-05-14 10:32:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198037]
+[2024-05-14 10:32:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenomApis
+[2024-05-14 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zibuyu-LLM
+[2024-05-14 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lcode
+[2024-05-14 10:32:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ehdtd
+[2024-05-14 10:32:18] INFO root fetch - processPackages [zibuyu-LLM]: New version: [0.1.9] Old Version: [0.1.16]
+[2024-05-14 10:32:18] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:32:19] INFO root fetch - processPackages [ehdtd]: New version: [0.2.5] Old Version: [0.2.3]
+[2024-05-14 10:32:19] INFO root fetch - processPackages [lcode]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-14 10:32:19] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-14 10:32:19] INFO root fetch - processPackages [zibuyu-LLM]: Downloading https://files.pythonhosted.org/packages/a9/5b/7f8f52bc6cb63dc1efbbaa9aaa6bd21b8029d7875b8cf42a690543a83e07/zibuyu_LLM-0.1.16-py3-none-any.whl
+[2024-05-14 10:32:19] INFO root fetch - processPackages [lcode]: Downloading https://files.pythonhosted.org/packages/2b/3c/21dbaefb252845cabe64f71db5e66723faf197c85560af2d6170b6c298a5/lcode-0.2.1.tar.gz
+[2024-05-14 10:32:19] INFO root fetch - processPackages [ehdtd]: Downloading https://files.pythonhosted.org/packages/86/13/c9a3eb9e6fb3af09503a461d7454ec4422aedda7ea0c3cb7ab355dcfb8ba/ehdtd-0.2.3.tar.gz
+[2024-05-14 10:32:19] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-14 10:32:19] INFO root fetch - processPackages [zibuyu-LLM]: Downloading https://files.pythonhosted.org/packages/8b/1d/73751ba8bfaf5b2eb71d0251541264c73d9b0da5c2d08f0111dbee0978db/zibuyu_LLM-0.1.9-py3-none-any.whl
+[2024-05-14 10:32:19] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-14 10:32:19] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240514/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:32:19] INFO root fetch - processPackages [zibuyu-LLM]: executing diffoscope
+[2024-05-14 10:32:19] INFO root fetch - processPackages [zibuyu-LLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibuyu_LLM-0.1.16-py3-none-any.whl.zip tmp/zibuyu_LLM-0.1.9-py3-none-any.whl.zip --markdown 20240514/z/zibuyu-LLM/0.1.16-0.1.9/README.md --exclude *.pyd
+[2024-05-14 10:32:19] INFO root fetch - processPackages [ehdtd]: Downloading https://files.pythonhosted.org/packages/d7/0f/a968c60d2f7e1f9b7563d0dc115ed3bdd5efb225cf2c7736f2053fad3b2f/ehdtd-0.2.5.tar.gz
+[2024-05-14 10:32:19] INFO root fetch - processPackages [ehdtd]: executing diffoscope
+[2024-05-14 10:32:19] INFO root fetch - processPackages [ehdtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdtd-0.2.3.tar.gz tmp/ehdtd-0.2.5.tar.gz --markdown 20240514/e/ehdtd/0.2.3-0.2.5/README.md --exclude *.pyd
+[2024-05-14 10:32:19] INFO root fetch - processPackages [lcode]: Downloading https://files.pythonhosted.org/packages/7b/89/9a08059f6d66ad5eebc23a90102558a59ccc548b9cd4a7f6fb21672a1969/lcode-0.3.0.tar.gz
+[2024-05-14 10:32:19] INFO root fetch - processPackages [lcode]: executing diffoscope
+[2024-05-14 10:32:19] INFO root fetch - processPackages [lcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lcode-0.2.1.tar.gz tmp/lcode-0.3.0.tar.gz --markdown 20240514/l/lcode/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-14 10:32:20] INFO root fetch - processPackages [ehdtd]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd-0.2.3.tar.gz]
+[2024-05-14 10:32:20] INFO root fetch - processPackages [ehdtd]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd-0.2.5.tar.gz]
+[2024-05-14 10:32:20] INFO root fetch - main [MainThread]: End processing [ehdtd]: success
+[2024-05-14 10:32:20] INFO root fetch - processPackages [zibuyu-LLM]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_LLM-0.1.16-py3-none-any.whl.zip]
+[2024-05-14 10:32:20] INFO root fetch - processPackages [zibuyu-LLM]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_LLM-0.1.9-py3-none-any.whl.zip]
+[2024-05-14 10:32:20] INFO root fetch - main [MainThread]: End processing [zibuyu-LLM]: success
+[2024-05-14 10:32:21] INFO root fetch - processPackages [lcode]: Remove: archive file [/home/abi/fetcher/tmp/lcode-0.2.1.tar.gz]
+[2024-05-14 10:32:21] INFO root fetch - processPackages [lcode]: Remove: archive file [/home/abi/fetcher/tmp/lcode-0.3.0.tar.gz]
+[2024-05-14 10:32:21] INFO root fetch - main [MainThread]: End processing [lcode]: success
+[2024-05-14 10:32:21] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-14 10:32:21] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-14 10:32:21] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-14 10:32:21] INFO root fetch - main [MainThread]: Store serial: [23198051]
