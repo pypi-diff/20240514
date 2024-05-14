@@ -8744,3 +8744,48 @@
 [2024-05-14 05:17:39] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
 [2024-05-14 05:17:39] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
 [2024-05-14 05:17:39] INFO root fetch - main [MainThread]: Store serial: [23195170]
+[2024-05-14 05:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195170]
+[2024-05-14 05:19:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotink
+[2024-05-14 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytech-zp
+[2024-05-14 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Akinator-python
+[2024-05-14 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyefergy
+[2024-05-14 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scholarsync
+[2024-05-14 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webbpsf-ext
+[2024-05-14 05:19:47] WARNING root fetch - processPackages [pytech-zp]: Skipping, unable to determine old version
+[2024-05-14 05:19:47] INFO root fetch - main [MainThread]: End processing [pytech-zp] error
+[2024-05-14 05:19:47] WARNING root fetch - processPackages [scholarsync]: Skipping, unable to determine old version
+[2024-05-14 05:19:47] INFO root fetch - main [MainThread]: End processing [scholarsync] error
+[2024-05-14 05:19:47] INFO root fetch - processPackages [pyefergy]: New version: [22.1.1] Old Version: [22.1.0]
+[2024-05-14 05:19:47] INFO root fetch - processPackages [Akinator-python]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-14 05:19:47] INFO root fetch - processPackages [plotink]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 05:19:47] INFO root fetch - processPackages [webbpsf-ext]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-14 05:19:47] INFO root fetch - processPackages [pyefergy]: Downloading https://files.pythonhosted.org/packages/c3/7f/23c09d5a4382e9d986e2ddf1dc7c68bf770fa02e2d83c3d15c2df6e7efa2/pyefergy-22.1.0.tar.gz
+[2024-05-14 05:19:47] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/d2/ba/aca9cfa468a9728d0712e6fc2b4aab8d305f4d77d9629536ec824be79c0b/Akinator-python-1.0.0.tar.gz
+[2024-05-14 05:19:48] INFO root fetch - processPackages [webbpsf-ext]: Downloading https://files.pythonhosted.org/packages/9d/73/7ba49de539e848b09256daef6a48db4bc59673531dd638cdedc16c14a6aa/webbpsf_ext-1.2.0.tar.gz
+[2024-05-14 05:19:48] INFO root fetch - processPackages [plotink]: Downloading https://files.pythonhosted.org/packages/4e/04/2cea443d2487ae51bab6a0f7758cfe34cd09ba7d5b4de57bd4cb88acfcb8/plotink-1.8.0.tar.gz
+[2024-05-14 05:19:48] INFO root fetch - processPackages [pyefergy]: Downloading https://files.pythonhosted.org/packages/5e/19/103e280a562ea33d41e63132416c938a13941537f3d2e09c3011d2d8ae7c/pyefergy-22.1.1.tar.gz
+[2024-05-14 05:19:48] INFO root fetch - processPackages [Akinator-python]: Downloading https://files.pythonhosted.org/packages/c1/30/a02b937830419441c439eb528e214789b501d58f01c33a66d7c5b2c23826/Akinator-python-1.1.0.tar.gz
+[2024-05-14 05:19:48] INFO root fetch - processPackages [Akinator-python]: executing diffoscope
+[2024-05-14 05:19:48] INFO root fetch - processPackages [Akinator-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akinator-python-1.0.0.tar.gz tmp/Akinator-python-1.1.0.tar.gz --markdown 20240514/A/Akinator-python/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-14 05:19:48] INFO root fetch - processPackages [pyefergy]: executing diffoscope
+[2024-05-14 05:19:48] INFO root fetch - processPackages [pyefergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyefergy-22.1.0.tar.gz tmp/pyefergy-22.1.1.tar.gz --markdown 20240514/p/pyefergy/22.1.0-22.1.1/README.md --exclude *.pyd
+[2024-05-14 05:19:48] INFO root fetch - processPackages [plotink]: Downloading https://files.pythonhosted.org/packages/56/da/1d4eaf5374ef2e627db1ba4caadb259b7cf93ecc9474688f59b85c8a2a3a/plotink-1.9.0.tar.gz
+[2024-05-14 05:19:48] INFO root fetch - processPackages [plotink]: executing diffoscope
+[2024-05-14 05:19:48] INFO root fetch - processPackages [plotink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotink-1.8.0.tar.gz tmp/plotink-1.9.0.tar.gz --markdown 20240514/p/plotink/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-14 05:19:48] INFO root fetch - processPackages [webbpsf-ext]: Downloading https://files.pythonhosted.org/packages/c6/bf/e570ce86068018acb66d743c3358bd4422af72b2dad3911bfce0253b898b/webbpsf_ext-1.2.1-py3-none-any.whl
+[2024-05-14 05:19:48] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.0.0.tar.gz]
+[2024-05-14 05:19:48] INFO root fetch - processPackages [Akinator-python]: Remove: archive file [/home/abi/fetcher/tmp/Akinator-python-1.1.0.tar.gz]
+[2024-05-14 05:19:48] INFO root fetch - main [MainThread]: End processing [Akinator-python]: success
+[2024-05-14 05:19:48] INFO root fetch - processPackages [pyefergy]: Remove: archive file [/home/abi/fetcher/tmp/pyefergy-22.1.0.tar.gz]
+[2024-05-14 05:19:48] INFO root fetch - processPackages [pyefergy]: Remove: archive file [/home/abi/fetcher/tmp/pyefergy-22.1.1.tar.gz]
+[2024-05-14 05:19:48] INFO root fetch - main [MainThread]: End processing [pyefergy]: success
+[2024-05-14 05:19:49] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.8.0.tar.gz]
+[2024-05-14 05:19:49] INFO root fetch - processPackages [plotink]: Remove: archive file [/home/abi/fetcher/tmp/plotink-1.9.0.tar.gz]
+[2024-05-14 05:19:49] INFO root fetch - main [MainThread]: End processing [plotink]: success
+[2024-05-14 05:19:49] INFO root fetch - processPackages [webbpsf-ext]: executing diffoscope
+[2024-05-14 05:19:49] INFO root fetch - processPackages [webbpsf-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webbpsf_ext-1.2.0.tar.gz tmp/webbpsf_ext-1.2.1-py3-none-any.whl.zip --markdown 20240514/w/webbpsf-ext/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-14 05:19:51] INFO root fetch - processPackages [webbpsf-ext]: Remove: archive file [/home/abi/fetcher/tmp/webbpsf_ext-1.2.0.tar.gz]
+[2024-05-14 05:19:51] INFO root fetch - processPackages [webbpsf-ext]: Remove: archive file [/home/abi/fetcher/tmp/webbpsf_ext-1.2.1-py3-none-any.whl.zip]
+[2024-05-14 05:19:51] INFO root fetch - main [MainThread]: End processing [webbpsf-ext]: success
+[2024-05-14 05:19:51] INFO root fetch - main [MainThread]: Store serial: [23195188]
