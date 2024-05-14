@@ -17086,3 +17086,72 @@
 [2024-05-14 11:28:12] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.7.tar.gz]
 [2024-05-14 11:28:12] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
 [2024-05-14 11:28:12] INFO root fetch - main [MainThread]: Store serial: [23198750]
+[2024-05-14 11:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198750]
+[2024-05-14 11:30:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QtHarmony
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saes6-jerry
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conetwork-test
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scrapegraphai
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbimagetotext
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cms-pri-chmod
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ku-of-fuzzy
+[2024-05-14 11:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: therix
+[2024-05-14 11:30:37] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:30:37] INFO root fetch - processPackages [QtHarmony]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-14 11:30:37] INFO root fetch - processPackages [vbimagetotext]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:30:37] WARNING root fetch - processPackages [cms-pri-chmod]: Skipping, unable to determine old version
+[2024-05-14 11:30:37] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 11:30:37] INFO root fetch - main [MainThread]: End processing [cms-pri-chmod] error
+[2024-05-14 11:30:37] INFO root fetch - processPackages [ku-of-fuzzy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 11:30:37] INFO root fetch - processPackages [scrapegraphai]: New version: [0.9.0b8] Old Version: [0.9.0b7]
+[2024-05-14 11:30:37] INFO root fetch - processPackages [therix]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 11:30:37] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/f2/9d/65f1892472931621dfbef882913219e0ca243987f3f630a40a835a4fe7d0/ku_of_fuzzy-0.1.1-py3-none-any.whl
+[2024-05-14 11:30:37] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/af/71/aa968de85e918db9c796223ecbf1d6bdbce57945c326c3909d1e7bb8805c/qtharmony-0.2.4.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/52/25/b7a358be0660e7fcc8fe251103fdedaa06a4d9e5dd6f187d24a5fd4cf69f/vbimagetotext-0.1.8.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/63/5c/30d12a2ba836f5972d1146557ac75b13200683a0808baa631508b12da6d1/scrapegraphai-0.9.0b7.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/29/d2/8d9909474719e5250aa9a2798624a304b927ab81ef44303776596219e4b3/saes6-jerry-0.0.4.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/26/c4/7dd339ef657db2cd1d0d295e22092c01ea02fbc73043dbb575249c55a904/therix-0.1.4.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/04/46/9db693483f7a0e0e246787bf0f1bb656c0862da2c80035e9f5fd07d64bc7/ku_of_fuzzy-0.1.2-py3-none-any.whl
+[2024-05-14 11:30:37] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/1e/9e/5c70bb34abb70f3ef9fdb99921004355586cd3873850b11f11068704999a/conetwork_test-0.1.9.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [vbimagetotext]: Downloading https://files.pythonhosted.org/packages/ca/ab/d04b9565c08e65166ef59f04608945a4f32a943cc2e38d220d87b781eff7/vbimagetotext-0.1.9.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/d0/06/b670f1ac3d9a84e620d8c3b72a519003090bc2790441e10474991fb76063/saes6-jerry-0.0.5.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/02/3a/76bda8e658afe02b129c7356b0173ac2e0812639e30aa9b987f991f70b0d/qtharmony-0.2.5.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [ku-of-fuzzy]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [ku-of-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip tmp/ku_of_fuzzy-0.1.2-py3-none-any.whl.zip --markdown 20240514/k/ku-of-fuzzy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 11:30:37] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/e8/f4/c60696cf15fae6617f4351065cbc78d635ceedaf932079ea2bfdcd1822ec/scrapegraphai-0.9.0b8.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.8.tar.gz tmp/conetwork_test-0.1.9.tar.gz --markdown 20240514/c/conetwork-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:30:37] INFO root fetch - processPackages [vbimagetotext]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [vbimagetotext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbimagetotext-0.1.8.tar.gz tmp/vbimagetotext-0.1.9.tar.gz --markdown 20240514/v/vbimagetotext/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:30:37] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/99/d5/4e68e17530bdd81793ffc35ec6513cbd992d48a80a4fe832bc27f32b910d/therix-0.1.5.tar.gz
+[2024-05-14 11:30:37] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.4.tar.gz tmp/saes6-jerry-0.0.5.tar.gz --markdown 20240514/s/saes6-jerry/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 11:30:37] INFO root fetch - processPackages [QtHarmony]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [QtHarmony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtharmony-0.2.4.tar.gz tmp/qtharmony-0.2.5.tar.gz --markdown 20240514/Q/QtHarmony/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-14 11:30:37] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.9.0b7.tar.gz tmp/scrapegraphai-0.9.0b8.tar.gz --markdown 20240514/s/scrapegraphai/0.9.0b7-0.9.0b8/README.md --exclude *.pyd
+[2024-05-14 11:30:37] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-14 11:30:37] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.4.tar.gz tmp/therix-0.1.5.tar.gz --markdown 20240514/t/therix/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 11:30:38] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.8.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - processPackages [vbimagetotext]: Remove: archive file [/home/abi/fetcher/tmp/vbimagetotext-0.1.9.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - main [MainThread]: End processing [vbimagetotext]: success
+[2024-05-14 11:30:38] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip]
+[2024-05-14 11:30:38] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.2-py3-none-any.whl.zip]
+[2024-05-14 11:30:38] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy]: success
+[2024-05-14 11:30:38] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.4.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.5.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-14 11:30:38] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.9.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:30:38] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.4.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.5.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - main [MainThread]: End processing [QtHarmony]: success
+[2024-05-14 11:30:38] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b7.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.9.0b8.tar.gz]
+[2024-05-14 11:30:38] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-14 11:30:39] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.4.tar.gz]
+[2024-05-14 11:30:39] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.5.tar.gz]
+[2024-05-14 11:30:39] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-14 11:30:39] INFO root fetch - main [MainThread]: Store serial: [23198776]
