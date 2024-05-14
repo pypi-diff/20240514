@@ -23725,3 +23725,42 @@
 [2024-05-14 15:24:48] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-05-14 15:24:48] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-05-14 15:24:48] INFO root fetch - main [MainThread]: Store serial: [23201613]
+[2024-05-14 15:26:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201613]
+[2024-05-14 15:26:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 15:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syrius-sdk
+[2024-05-14 15:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-location-local
+[2024-05-14 15:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcnodes
+[2024-05-14 15:26:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policyengine-us
+[2024-05-14 15:26:57] INFO root fetch - processPackages [contact-location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 15:26:57] INFO root fetch - processPackages [funcnodes]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 15:26:57] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/2f/0c/a80370d5a9bb7d4535cdfd68c9e49af2fc39ef7974e7a123bd9fcc9ad854/contact-location-local-0.0.8.tar.gz
+[2024-05-14 15:26:57] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/41/e9/f6d85ce69f932d3d49ed6ffd73370a498efcc151703809f4996b1b809ffa/funcnodes-0.2.8.tar.gz
+[2024-05-14 15:26:57] INFO root fetch - processPackages [syrius-sdk]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-14 15:26:57] INFO root fetch - processPackages [policyengine-us]: New version: [0.770.1] Old Version: [0.770.0]
+[2024-05-14 15:26:58] INFO root fetch - processPackages [syrius-sdk]: Downloading https://files.pythonhosted.org/packages/9a/e3/ec952e83fb2c2792a80a3447b042eba004601a36facd6ee108300c40d616/syrius_sdk-0.2.5.tar.gz
+[2024-05-14 15:26:58] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/17/5e/49b98779429d62238b93acafaaf4d268506159b2d1d0246a13b4e42b474d/contact-location-local-0.0.9.tar.gz
+[2024-05-14 15:26:58] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d1/cd/001639626517da461b7d030aa31cad6ec9334e5e39907339a7ef41277e09/policyengine-us-0.770.0.tar.gz
+[2024-05-14 15:26:58] INFO root fetch - processPackages [contact-location-local]: executing diffoscope
+[2024-05-14 15:26:58] INFO root fetch - processPackages [contact-location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-location-local-0.0.8.tar.gz tmp/contact-location-local-0.0.9.tar.gz --markdown 20240514/c/contact-location-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 15:26:58] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/13/3c/de4ac3d4d4a5996bc99f2d808fbb482979d33115bae4a12e7f864cafbe8d/funcnodes-0.2.9.tar.gz
+[2024-05-14 15:26:58] INFO root fetch - processPackages [syrius-sdk]: Downloading https://files.pythonhosted.org/packages/05/01/f7b9b2fa37d9a9fd56dbe03015527fd05806473ca105897e39e1e74fdd3d/syrius_sdk-0.2.6.tar.gz
+[2024-05-14 15:26:58] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-14 15:26:58] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.8.tar.gz tmp/funcnodes-0.2.9.tar.gz --markdown 20240514/f/funcnodes/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 15:26:58] INFO root fetch - processPackages [syrius-sdk]: executing diffoscope
+[2024-05-14 15:26:58] INFO root fetch - processPackages [syrius-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syrius_sdk-0.2.5.tar.gz tmp/syrius_sdk-0.2.6.tar.gz --markdown 20240514/s/syrius-sdk/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-14 15:26:58] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.8.tar.gz]
+[2024-05-14 15:26:58] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.9.tar.gz]
+[2024-05-14 15:26:58] INFO root fetch - main [MainThread]: End processing [contact-location-local]: success
+[2024-05-14 15:26:58] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ef/17/7eb364dff0f02e5900c1ae41339681d806720b2ad5771ec1e849f6f78e9b/policyengine_us-0.770.1-py3-none-any.whl
+[2024-05-14 15:26:59] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.5.tar.gz]
+[2024-05-14 15:26:59] INFO root fetch - processPackages [syrius-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syrius_sdk-0.2.6.tar.gz]
+[2024-05-14 15:26:59] INFO root fetch - main [MainThread]: End processing [syrius-sdk]: success
+[2024-05-14 15:26:59] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.8.tar.gz]
+[2024-05-14 15:26:59] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.9.tar.gz]
+[2024-05-14 15:26:59] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-14 15:27:00] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-05-14 15:27:00] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.770.0.tar.gz tmp/policyengine_us-0.770.1-py3-none-any.whl.zip --markdown 20240514/p/policyengine-us/0.770.0-0.770.1/README.md --exclude *.pyd
+[2024-05-14 15:27:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.770.0.tar.gz]
+[2024-05-14 15:27:02] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine_us-0.770.1-py3-none-any.whl.zip]
+[2024-05-14 15:27:02] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-05-14 15:27:02] INFO root fetch - main [MainThread]: Store serial: [23201625]
