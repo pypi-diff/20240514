@@ -21400,3 +21400,36 @@
 [2024-05-14 13:58:20] INFO root fetch - processPackages [telegram-bale-bot]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bale_bot-4.18.3.tar.gz]
 [2024-05-14 13:58:20] INFO root fetch - main [MainThread]: End processing [telegram-bale-bot]: success
 [2024-05-14 13:58:20] INFO root fetch - main [MainThread]: Store serial: [23200621]
+[2024-05-14 14:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200621]
+[2024-05-14 14:00:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c4m-pdk-sky130
+[2024-05-14 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BartePaySDK
+[2024-05-14 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struqture-py
+[2024-05-14 14:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyEmailerAJM
+[2024-05-14 14:00:29] WARNING root fetch - processPackages [BartePaySDK]: Skipping, unable to determine old version
+[2024-05-14 14:00:29] INFO root fetch - main [MainThread]: End processing [BartePaySDK] error
+[2024-05-14 14:00:29] INFO root fetch - processPackages [c4m-pdk-sky130]: New version: [0.2.2.post2] Old Version: [0.2.2.post1]
+[2024-05-14 14:00:29] INFO root fetch - processPackages [PyEmailerAJM]: New version: [1.3] Old Version: [1.2]
+[2024-05-14 14:00:29] INFO root fetch - processPackages [struqture-py]: New version: [2.0.0a0] Old Version: [1.7.0]
+[2024-05-14 14:00:30] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/1d/fe/f2610b055fb12fec004288104933f8434e940a431c4951225269c53c276f/c4m_pdk_sky130-0.2.2.post1.tar.gz
+[2024-05-14 14:00:30] INFO root fetch - processPackages [PyEmailerAJM]: Downloading https://files.pythonhosted.org/packages/80/f4/6e7563495e61dd04489a5e4929c0b7e9a6be8d7474584569e86e54872d65/PyEmailerAJM-1.2.tar.gz
+[2024-05-14 14:00:30] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/da/82/34e5cc21dc874d3bb779cbde11dbfa1a206371ad3dbab17bf8eac8a77d14/struqture_py-1.7.0.tar.gz
+[2024-05-14 14:00:30] INFO root fetch - processPackages [PyEmailerAJM]: Downloading https://files.pythonhosted.org/packages/4f/fa/35d76aac62fb07c4ffeaae7a3e1b79f592f8617ec6958af94fa7cc588546/PyEmailerAJM-1.3.tar.gz
+[2024-05-14 14:00:30] INFO root fetch - processPackages [PyEmailerAJM]: executing diffoscope
+[2024-05-14 14:00:30] INFO root fetch - processPackages [PyEmailerAJM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEmailerAJM-1.2.tar.gz tmp/PyEmailerAJM-1.3.tar.gz --markdown 20240514/P/PyEmailerAJM/1.2-1.3/README.md --exclude *.pyd
+[2024-05-14 14:00:30] INFO root fetch - processPackages [c4m-pdk-sky130]: Downloading https://files.pythonhosted.org/packages/28/25/a59343374efd3a9217c9ba6b9567397ffe7c26fbbe6c6730a7a9d1bee0a5/c4m_pdk_sky130-0.2.2.post2.tar.gz
+[2024-05-14 14:00:30] INFO root fetch - processPackages [c4m-pdk-sky130]: executing diffoscope
+[2024-05-14 14:00:30] INFO root fetch - processPackages [c4m-pdk-sky130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c4m_pdk_sky130-0.2.2.post1.tar.gz tmp/c4m_pdk_sky130-0.2.2.post2.tar.gz --markdown 20240514/c/c4m-pdk-sky130/0.2.2.post1-0.2.2.post2/README.md --exclude *.pyd
+[2024-05-14 14:00:31] INFO root fetch - processPackages [PyEmailerAJM]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailerAJM-1.2.tar.gz]
+[2024-05-14 14:00:31] INFO root fetch - processPackages [PyEmailerAJM]: Remove: archive file [/home/abi/fetcher/tmp/PyEmailerAJM-1.3.tar.gz]
+[2024-05-14 14:00:31] INFO root fetch - main [MainThread]: End processing [PyEmailerAJM]: success
+[2024-05-14 14:00:31] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/ce/3e/064c210dfea76477b77e0ea75d9398b4314ce0df53e73ceca72c08711c04/struqture_py-2.0.0a0.tar.gz
+[2024-05-14 14:00:31] INFO root fetch - processPackages [struqture-py]: executing diffoscope
+[2024-05-14 14:00:31] INFO root fetch - processPackages [struqture-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struqture_py-1.7.0.tar.gz tmp/struqture_py-2.0.0a0.tar.gz --markdown 20240514/s/struqture-py/1.7.0-2.0.0a0/README.md --exclude *.pyd
+[2024-05-14 14:00:37] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.7.0.tar.gz]
+[2024-05-14 14:00:37] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-2.0.0a0.tar.gz]
+[2024-05-14 14:00:37] INFO root fetch - main [MainThread]: End processing [struqture-py]: success
+[2024-05-14 14:00:43] INFO root fetch - processPackages [c4m-pdk-sky130]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_sky130-0.2.2.post1.tar.gz]
+[2024-05-14 14:00:43] INFO root fetch - processPackages [c4m-pdk-sky130]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_sky130-0.2.2.post2.tar.gz]
+[2024-05-14 14:00:43] INFO root fetch - main [MainThread]: End processing [c4m-pdk-sky130]: success
+[2024-05-14 14:00:43] INFO root fetch - main [MainThread]: Store serial: [23200647]
