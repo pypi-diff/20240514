@@ -13470,3 +13470,51 @@
 [2024-05-14 09:31:55] INFO root fetch - processPackages [neonize]: Remove: archive file [/home/abi/fetcher/tmp/neonize-0.0.9.tar.gz]
 [2024-05-14 09:31:55] INFO root fetch - main [MainThread]: End processing [neonize]: success
 [2024-05-14 09:31:55] INFO root fetch - main [MainThread]: Store serial: [23197129]
+[2024-05-14 09:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197129]
+[2024-05-14 09:34:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-redesign
+[2024-05-14 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-core-package
+[2024-05-14 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tableofcontents
+[2024-05-14 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xurpas-data-quality
+[2024-05-14 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omopsurvey
+[2024-05-14 09:34:06] INFO root fetch - processPackages [drf-redesign]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-05-14 09:34:06] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 09:34:06] INFO root fetch - processPackages [test-core-package]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-05-14 09:34:06] INFO root fetch - processPackages [omopsurvey]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 09:34:06] INFO root fetch - processPackages [tableofcontents]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-05-14 09:34:06] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/b8/0d/d43b74e1fc3b0b1f02ebd8e4757a7b39745398f670252b61e210d947dc86/test_core_package-0.1.2.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/85/ee/2349cae5cc198139fc7bfde1990ea146e9998e410a95efa4835ed4df480e/xurpas_data_quality-0.0.4.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/8c/e0/3f9847c23788264eb98b2c8449aea66fc990056084265a3224c2acc224f0/drf_redesign-0.3.5.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [omopsurvey]: Downloading https://files.pythonhosted.org/packages/b8/f4/7f915a38661641b7d7eb1d7b04938c455d9151cf43a2339ea10612159175/omopsurvey-0.0.5.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [tableofcontents]: Downloading https://files.pythonhosted.org/packages/a2/26/d0c98cda4f91495b418e97d7eb1811647e6a43e004b628d28091838a79a0/tableofcontents-2.6.0.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/6a/89/398c88554bb941b18821479babb9e6eadc6775a6e1fc6a6b71fe09cc643f/test_core_package-1.0.0.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/60/35/e0a1a05ad5221f13736a6a73a7fc6cd3ceb946fa714ae9403ae31e8583c9/xurpas_data_quality-0.0.5.tar.gz
+[2024-05-14 09:34:06] INFO root fetch - processPackages [drf-redesign]: Downloading https://files.pythonhosted.org/packages/c7/bb/0cd0807411ca74176c1307c562c2a2fde1c6645f8d80c45347b614dbac01/drf_redesign-0.3.6.tar.gz
+[2024-05-14 09:34:07] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-14 09:34:07] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.4.tar.gz tmp/xurpas_data_quality-0.0.5.tar.gz --markdown 20240514/x/xurpas-data-quality/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 09:34:07] INFO root fetch - processPackages [drf-redesign]: executing diffoscope
+[2024-05-14 09:34:07] INFO root fetch - processPackages [drf-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_redesign-0.3.5.tar.gz tmp/drf_redesign-0.3.6.tar.gz --markdown 20240514/d/drf-redesign/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-05-14 09:34:07] INFO root fetch - processPackages [omopsurvey]: Downloading https://files.pythonhosted.org/packages/dd/71/7ed301cd04b6bb4ba6964cd635791a069bb6009633fc63b2a93a0497b785/omopsurvey-0.0.6.tar.gz
+[2024-05-14 09:34:07] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-14 09:34:07] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.1.2.tar.gz tmp/test_core_package-1.0.0.tar.gz --markdown 20240514/t/test-core-package/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-05-14 09:34:07] INFO root fetch - processPackages [tableofcontents]: Downloading https://files.pythonhosted.org/packages/fd/b0/96c4fb9a37f524af4ea7905a484bf485a840817516cf0071f0b54692b5f9/tableofcontents-2.7.0.tar.gz
+[2024-05-14 09:34:07] INFO root fetch - processPackages [tableofcontents]: executing diffoscope
+[2024-05-14 09:34:07] INFO root fetch - processPackages [tableofcontents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableofcontents-2.6.0.tar.gz tmp/tableofcontents-2.7.0.tar.gz --markdown 20240514/t/tableofcontents/2.6.0-2.7.0/README.md --exclude *.pyd
+[2024-05-14 09:34:07] INFO root fetch - processPackages [omopsurvey]: executing diffoscope
+[2024-05-14 09:34:07] INFO root fetch - processPackages [omopsurvey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omopsurvey-0.0.5.tar.gz tmp/omopsurvey-0.0.6.tar.gz --markdown 20240514/o/omopsurvey/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 09:34:07] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.1.2.tar.gz]
+[2024-05-14 09:34:07] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-1.0.0.tar.gz]
+[2024-05-14 09:34:07] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-14 09:34:08] INFO root fetch - processPackages [tableofcontents]: Remove: archive file [/home/abi/fetcher/tmp/tableofcontents-2.6.0.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - processPackages [tableofcontents]: Remove: archive file [/home/abi/fetcher/tmp/tableofcontents-2.7.0.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - main [MainThread]: End processing [tableofcontents]: success
+[2024-05-14 09:34:08] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.5.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - processPackages [drf-redesign]: Remove: archive file [/home/abi/fetcher/tmp/drf_redesign-0.3.6.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - main [MainThread]: End processing [drf-redesign]: success
+[2024-05-14 09:34:08] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.4.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.5.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-14 09:34:08] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.5.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - processPackages [omopsurvey]: Remove: archive file [/home/abi/fetcher/tmp/omopsurvey-0.0.6.tar.gz]
+[2024-05-14 09:34:08] INFO root fetch - main [MainThread]: End processing [omopsurvey]: success
+[2024-05-14 09:34:08] INFO root fetch - main [MainThread]: Store serial: [23197149]
