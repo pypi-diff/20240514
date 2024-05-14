@@ -19242,3 +19242,106 @@
 [2024-05-14 12:38:35] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.96.tar.gz]
 [2024-05-14 12:38:35] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
 [2024-05-14 12:38:35] INFO root fetch - main [MainThread]: Store serial: [23199614]
+[2024-05-14 12:40:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199614]
+[2024-05-14 12:40:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyclonedx-editor-validator
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kong-ran
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skypilot-nightly
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tq42-grpc-client
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ml4teens
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flexible-dict
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zensvi
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: milvus-lite
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: poetry-dockerize-plugin
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bdmc
+[2024-05-14 12:40:44] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [kong-ran]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [poetry-dockerize-plugin]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [bdmc]: New version: [0.1.5.4] Old Version: [0.1.5.3]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [cyclonedx-editor-validator]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240513] Old Version: [1.0.0.dev20240512]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [flexible-dict]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ml4teens]: New version: [0.1.43] Old Version: [0.1.42]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [milvus-lite]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [poetry-dockerize-plugin]: Downloading https://files.pythonhosted.org/packages/ca/6e/ac315862b444430e3beba71443ad57df8c2ef98ab8ba9f53d8628e30e3f4/poetry_dockerize_plugin-0.5.0.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [zensvi]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-14 12:40:44] INFO root fetch - processPackages [kong-ran]: Downloading https://files.pythonhosted.org/packages/cb/35/a9708f22262d7db0a9d5a34aa84871e46fd493df482f78e8d2089b563783/kong_ran-1.0.2.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/96/7f/281ef15d30c419f155a6de7f03bcd0d368b5947f9e75c66c378203f44360/bdmc-0.1.5.3.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/fc/6a/7f6441fe2501a6d3c1ab25e96d2874458e09c2bc9fa0cd8b926a30a3299e/skypilot_nightly-1.0.0.dev20240512.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/67/7c/4938535f988f2063c7fa3fa677f0cc414cf52b3f02a6145747d61d7823f2/cyclonedx_editor_validator-0.9.3.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ml4teens]: Downloading https://files.pythonhosted.org/packages/64/3a/827af76abe7d33a6047e025155ea9ddaab99da391191001e863b11240b49/ml4teens-0.1.42.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/85/44/1161e47e20248ec9f760c5af0a02eab5f1b073cff815f4fec8f041301b00/flexible_dict-2.0.2.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/c4/b3/5f6efb302a54041edfdb7cee7e64caaad9afec14cd8770bb2ceb8f6b6fc8/zensvi-0.9.7.tar.gz
+[2024-05-14 12:40:44] INFO root fetch - processPackages [milvus-lite]: Downloading https://files.pythonhosted.org/packages/8a/33/5681736b891462b7083f94b45c6b40692e604e493ece47f070189ff3b91e/milvus_lite-2.4.2-py3-none-manylinux2014_x86_64.whl
+[2024-05-14 12:40:44] WARNING root fetch - processPackages [ml4teens]: Skipping package: exceeds size limit 22459922>=10485760
+[2024-05-14 12:40:44] INFO root fetch - processPackages [ml4teens]: Start processing: cepack
+[2024-05-14 12:40:44] INFO root fetch - main [MainThread]: End processing [ml4teens] error
+[2024-05-14 12:40:44] INFO root fetch - processPackages [poetry-dockerize-plugin]: Downloading https://files.pythonhosted.org/packages/f2/5d/5e44ec2ec66fd425355adb7b717210c868c9d6356b0e322de25558c6efd4/poetry_dockerize_plugin-0.6.0.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-14 12:40:45] WARNING root fetch - processPackages [milvus-lite]: Skipping package: exceeds size limit 57215914>=10485760
+[2024-05-14 12:40:45] INFO root fetch - processPackages [milvus-lite]: Start processing: pymemgpt-nightly
+[2024-05-14 12:40:45] INFO root fetch - main [MainThread]: End processing [milvus-lite] error
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cepack]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 12:40:45] INFO root fetch - processPackages [kong-ran]: Downloading https://files.pythonhosted.org/packages/25/27/89aeb0bb3d949b3cf155ed422a2b2a0125f62ab79d15e5189939ad4d20c3/kong_ran-1.0.3.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-14 12:40:45] INFO root fetch - processPackages [bdmc]: Downloading https://files.pythonhosted.org/packages/92/d6/2b51377de594f99cb87af678ff117e7f5946fa11f74e4fd3e493cdef2182/bdmc-0.1.5.4.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [poetry-dockerize-plugin]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [poetry-dockerize-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_dockerize_plugin-0.5.0.tar.gz tmp/poetry_dockerize_plugin-0.6.0.tar.gz --markdown 20240514/p/poetry-dockerize-plugin/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/c0/7b/b42ac8fd4f94bf8bf06470237db1cb82cbd07467e9e30f1249753e22274e/cepack-0.0.3.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240514/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/78/42/3f14c75bb3778fd7a0e383f90505f065e368e297727eaf7043b617e3c7c9/cyclonedx_editor_validator-0.9.4.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/f6/1b/70353a16070ba7321b18911399efb19db8764271ec1e1cc90976685da811/skypilot_nightly-1.0.0.dev20240513.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [kong-ran]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [kong-ran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kong_ran-1.0.2.tar.gz tmp/kong_ran-1.0.3.tar.gz --markdown 20240514/k/kong-ran/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [flexible-dict]: Downloading https://files.pythonhosted.org/packages/32/09/2db65de669b80c05cf96a7f31fb1eea011239b3c1767a31d26bd3be278f5/flexible_dict-2.0.3.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [bdmc]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [bdmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdmc-0.1.5.3.tar.gz tmp/bdmc-0.1.5.4.tar.gz --markdown 20240514/b/bdmc/0.1.5.3-0.1.5.4/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/58/a0/fa16c5167950fd72ac2b9de84f31f095275d7e96dede1c5f126683fca082/zensvi-0.9.8.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [flexible-dict]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [flexible-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flexible_dict-2.0.2.tar.gz tmp/flexible_dict-2.0.3.tar.gz --markdown 20240514/f/flexible-dict/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/b0/e7/a2e340d249d5d13eb5292910241d57bb9d281c3f5d1d4e721e5c31442d56/cepack-0.0.4.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cyclonedx-editor-validator]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cyclonedx-editor-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_editor_validator-0.9.3.tar.gz tmp/cyclonedx_editor_validator-0.9.4.tar.gz --markdown 20240514/c/cyclonedx-editor-validator/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.9.7.tar.gz tmp/zensvi-0.9.8.tar.gz --markdown 20240514/z/zensvi/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240512.tar.gz tmp/skypilot_nightly-1.0.0.dev20240513.tar.gz --markdown 20240514/s/skypilot-nightly/1.0.0.dev20240512-1.0.0.dev20240513/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cepack]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [cepack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cepack-0.0.3.tar.gz tmp/cepack-0.0.4.tar.gz --markdown 20240514/c/cepack/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 12:40:45] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-14 12:40:45] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-14 12:40:45] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240514/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-14 12:40:46] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.3.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - processPackages [bdmc]: Remove: archive file [/home/abi/fetcher/tmp/bdmc-0.1.5.4.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - main [MainThread]: End processing [bdmc]: success
+[2024-05-14 12:40:46] INFO root fetch - processPackages [poetry-dockerize-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dockerize_plugin-0.5.0.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - processPackages [poetry-dockerize-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dockerize_plugin-0.6.0.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - main [MainThread]: End processing [poetry-dockerize-plugin]: success
+[2024-05-14 12:40:46] INFO root fetch - processPackages [kong-ran]: Remove: archive file [/home/abi/fetcher/tmp/kong_ran-1.0.2.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - processPackages [kong-ran]: Remove: archive file [/home/abi/fetcher/tmp/kong_ran-1.0.3.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - main [MainThread]: End processing [kong-ran]: success
+[2024-05-14 12:40:46] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-2.0.2.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - processPackages [flexible-dict]: Remove: archive file [/home/abi/fetcher/tmp/flexible_dict-2.0.3.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - main [MainThread]: End processing [flexible-dict]: success
+[2024-05-14 12:40:46] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.3.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.4.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - main [MainThread]: End processing [cepack]: success
+[2024-05-14 12:40:46] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.7.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.9.8.tar.gz]
+[2024-05-14 12:40:46] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2024-05-14 12:40:47] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.3.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.4.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
+[2024-05-14 12:40:47] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-14 12:40:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240512.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240513.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-14 12:40:47] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-14 12:40:47] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-14 12:40:47] INFO root fetch - main [MainThread]: Store serial: [23199700]
