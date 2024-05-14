@@ -12645,3 +12645,69 @@
 [2024-05-14 09:00:08] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-05-14 09:00:08] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-05-14 09:00:08] INFO root fetch - main [MainThread]: Store serial: [23196829]
+[2024-05-14 09:02:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196829]
+[2024-05-14 09:02:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doc2tei-CERTIC
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ku-of-fuzzy
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-waf-openapi20190910
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cxalio-studio-tools
+[2024-05-14 09:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: topologicpy
+[2024-05-14 09:02:17] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 09:02:17] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-14 09:02:17] INFO root fetch - processPackages [doc2tei-CERTIC]: New version: [0.0.96] Old Version: [0.0.95]
+[2024-05-14 09:02:17] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/66/b5/40e237aaad7799ed298d175b5e7a69e7eaca0e934dd1e19551c531d43e9e/cxalio_studio_tools-0.1.8.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [ku-of-fuzzy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/05/d0/c6eb6478be765df651e17760661de306c30966683fba8d645fb6a2ea07ad/cvprocessor-0.5.1.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: New version: [1.2.0] Old Version: [1.1.8]
+[2024-05-14 09:02:18] INFO root fetch - processPackages [topologicpy]: New version: [6.0.0] Old Version: [0.6.3]
+[2024-05-14 09:02:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/4b/7f/cc958997e278ca94bc7411c4327f2196b3426c71b52389701d24e1f4a8d7/doc2tei-CERTIC-0.0.95.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/f2/9d/65f1892472931621dfbef882913219e0ca243987f3f630a40a835a4fe7d0/ku_of_fuzzy-0.1.1-py3-none-any.whl
+[2024-05-14 09:02:18] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: Downloading https://files.pythonhosted.org/packages/50/7f/f7e39a36be0fda4914c72e2ef83d1c6c7919b8682a395d533c5149364a9d/alibabacloud_waf-openapi20190910-1.1.8.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/a9/6a/078bfa9e7f12728aebd180b1a2bd32a51731e2eed852dbddf1813747b067/topologicpy-0.6.3-py3-none-any.whl
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/da/40/10d87fad2228e4d2cbfe295a19ddd36bf281c0e7375be7a1603222bd9e23/cxalio_studio_tools-0.1.9.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/df/5b/71c5aa44e64ebfa00db1a93807410895a6181db7335583093b0602c8615e/cvprocessor-0.5.2.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.1.tar.gz tmp/cvprocessor-0.5.2.tar.gz --markdown 20240514/c/cvprocessor/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-14 09:02:18] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240514/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.8.tar.gz tmp/cxalio_studio_tools-0.1.9.tar.gz --markdown 20240514/c/cxalio-studio-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 09:02:18] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/04/46/9db693483f7a0e0e246787bf0f1bb656c0862da2c80035e9f5fd07d64bc7/ku_of_fuzzy-0.1.2-py3-none-any.whl
+[2024-05-14 09:02:18] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: Downloading https://files.pythonhosted.org/packages/fd/12/ebe34c88c118bb93c8b63448f5551456d5fa823a7fd44b991573ac628901/alibabacloud_waf-openapi20190910-1.2.0.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [doc2tei-CERTIC]: Downloading https://files.pythonhosted.org/packages/bd/4d/945609cea87ae39f18b5e66f63f371cf2bcd0b01ffcea816b1f74087b616/doc2tei-CERTIC-0.0.96.tar.gz
+[2024-05-14 09:02:18] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/65/d7/de982dd19dedb2387a9d3c48ff9384633b27b874064c9d3614a3c6dc530b/topologicpy-6.0.0-py3-none-any.whl
+[2024-05-14 09:02:18] INFO root fetch - processPackages [ku-of-fuzzy]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [ku-of-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip tmp/ku_of_fuzzy-0.1.2-py3-none-any.whl.zip --markdown 20240514/k/ku-of-fuzzy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 09:02:18] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_waf-openapi20190910-1.1.8.tar.gz tmp/alibabacloud_waf-openapi20190910-1.2.0.tar.gz --markdown 20240514/a/alibabacloud-waf-openapi20190910/1.1.8-1.2.0/README.md --exclude *.pyd
+[2024-05-14 09:02:18] INFO root fetch - processPackages [topologicpy]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [topologicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/topologicpy-0.6.3-py3-none-any.whl.zip tmp/topologicpy-6.0.0-py3-none-any.whl.zip --markdown 20240514/t/topologicpy/0.6.3-6.0.0/README.md --exclude *.pyd
+[2024-05-14 09:02:18] INFO root fetch - processPackages [doc2tei-CERTIC]: executing diffoscope
+[2024-05-14 09:02:18] INFO root fetch - processPackages [doc2tei-CERTIC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doc2tei-CERTIC-0.0.95.tar.gz tmp/doc2tei-CERTIC-0.0.96.tar.gz --markdown 20240514/d/doc2tei-CERTIC/0.0.95-0.0.96/README.md --exclude *.pyd
+[2024-05-14 09:02:19] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.1.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.2.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 09:02:19] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.8.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.9.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-14 09:02:19] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-14 09:02:19] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip]
+[2024-05-14 09:02:19] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.2-py3-none-any.whl.zip]
+[2024-05-14 09:02:19] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy]: success
+[2024-05-14 09:02:19] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_waf-openapi20190910-1.1.8.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - processPackages [alibabacloud-waf-openapi20190910]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_waf-openapi20190910-1.2.0.tar.gz]
+[2024-05-14 09:02:19] INFO root fetch - main [MainThread]: End processing [alibabacloud-waf-openapi20190910]: success
+[2024-05-14 09:02:19] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-0.6.3-py3-none-any.whl.zip]
+[2024-05-14 09:02:19] INFO root fetch - processPackages [topologicpy]: Remove: archive file [/home/abi/fetcher/tmp/topologicpy-6.0.0-py3-none-any.whl.zip]
+[2024-05-14 09:02:19] INFO root fetch - main [MainThread]: End processing [topologicpy]: success
+[2024-05-14 09:02:20] INFO root fetch - processPackages [doc2tei-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/doc2tei-CERTIC-0.0.95.tar.gz]
+[2024-05-14 09:02:20] INFO root fetch - processPackages [doc2tei-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/doc2tei-CERTIC-0.0.96.tar.gz]
+[2024-05-14 09:02:20] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
+[2024-05-14 09:02:20] INFO root fetch - main [MainThread]: Store serial: [23196850]
