@@ -17818,3 +17818,60 @@
 [2024-05-14 11:48:08] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-1.0.2-cp311-cp311-win32.whl.zip]
 [2024-05-14 11:48:08] INFO root fetch - main [MainThread]: End processing [cytimes]: success
 [2024-05-14 11:48:08] INFO root fetch - main [MainThread]: Store serial: [23199014]
+[2024-05-14 11:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199014]
+[2024-05-14 11:50:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamfitter
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codedepot-ai
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kong-ran
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdot
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: youqu
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transstellar-antd
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pherosensor
+[2024-05-14 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymtpng
+[2024-05-14 11:50:34] INFO root fetch - processPackages [pymtpng]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 11:50:34] WARNING root fetch - processPackages [kong-ran]: Skipping, unable to determine old version
+[2024-05-14 11:50:34] INFO root fetch - main [MainThread]: End processing [kong-ran] error
+[2024-05-14 11:50:34] INFO root fetch - processPackages [streamfitter]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 11:50:34] INFO root fetch - processPackages [xdot]: New version: [1.4] Old Version: [1.3]
+[2024-05-14 11:50:34] INFO root fetch - processPackages [pymtpng]: Downloading https://files.pythonhosted.org/packages/86/4d/d45c3e8c3b0dd6d1bef24510b6a35b11edd18d1ad686be71e5d2625ef35c/pymtpng-1.0.2.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [transstellar-antd]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-14 11:50:34] INFO root fetch - processPackages [streamfitter]: Downloading https://files.pythonhosted.org/packages/73/db/920d4351c7745ed369af623abc291e95a1adcf7f728d32b5f0fc982425be/streamfitter-0.1.0.tar.gz
+[2024-05-14 11:50:34] WARNING root fetch - processPackages [codedepot-ai]: Skipping, unable to determine old version
+[2024-05-14 11:50:34] INFO root fetch - main [MainThread]: End processing [codedepot-ai] error
+[2024-05-14 11:50:34] WARNING root fetch - processPackages [pherosensor]: Skipping, unable to determine old version
+[2024-05-14 11:50:34] INFO root fetch - main [MainThread]: End processing [pherosensor] error
+[2024-05-14 11:50:34] INFO root fetch - processPackages [youqu]: New version: [2.6.0] Old Version: [2.5.5]
+[2024-05-14 11:50:34] INFO root fetch - processPackages [xdot]: Downloading https://files.pythonhosted.org/packages/2d/74/7f9af65f53fda367a82b5355bc8dd55d6cc0320bbc84b233749df3fd58f0/xdot-1.3.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [pymtpng]: Downloading https://files.pythonhosted.org/packages/92/c6/0f02a5e9067ca02bd330ee0c042e1010639336b02a39a077a2240781928f/pymtpng-1.0.3.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [streamfitter]: Downloading https://files.pythonhosted.org/packages/b3/83/27f6d5d4a2b4eb695820490658251dfd482c0517171c7b2c74d19b17719f/streamfitter-0.1.1.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/8f/6c/b47fd4b5e50bcc9a9fdefcb8d254a76178c9ee7b83f432607e13f910b445/youqu-2.5.5.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/9d/5c/bfe4187e39a0fa0b0bce0f5507f000f0f4ddad44285490961373d0b72e09/transstellar_antd-0.2.0.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [streamfitter]: executing diffoscope
+[2024-05-14 11:50:34] INFO root fetch - processPackages [streamfitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamfitter-0.1.0.tar.gz tmp/streamfitter-0.1.1.tar.gz --markdown 20240514/s/streamfitter/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 11:50:34] INFO root fetch - processPackages [pymtpng]: executing diffoscope
+[2024-05-14 11:50:34] INFO root fetch - processPackages [pymtpng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymtpng-1.0.2.tar.gz tmp/pymtpng-1.0.3.tar.gz --markdown 20240514/p/pymtpng/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 11:50:34] INFO root fetch - processPackages [xdot]: Downloading https://files.pythonhosted.org/packages/38/76/0503dddc3100e25135d1380f89cfa5d729b7d113a851804aa98dc4f19888/xdot-1.4.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [youqu]: Downloading https://files.pythonhosted.org/packages/38/b4/096b11de6ab5c5fbc100eb85d493f172e7b7eb50f8f9c2e8bb3285a2dba6/youqu-2.6.0.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [transstellar-antd]: Downloading https://files.pythonhosted.org/packages/4a/ef/af05f0d439a81303c38e1a771dbb4a030187d5082967c36aefe528ef8d7f/transstellar_antd-0.3.0.tar.gz
+[2024-05-14 11:50:34] INFO root fetch - processPackages [xdot]: executing diffoscope
+[2024-05-14 11:50:34] INFO root fetch - processPackages [xdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdot-1.3.tar.gz tmp/xdot-1.4.tar.gz --markdown 20240514/x/xdot/1.3-1.4/README.md --exclude *.pyd
+[2024-05-14 11:50:35] INFO root fetch - processPackages [transstellar-antd]: executing diffoscope
+[2024-05-14 11:50:35] INFO root fetch - processPackages [transstellar-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transstellar_antd-0.2.0.tar.gz tmp/transstellar_antd-0.3.0.tar.gz --markdown 20240514/t/transstellar-antd/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-14 11:50:35] INFO root fetch - processPackages [youqu]: executing diffoscope
+[2024-05-14 11:50:35] INFO root fetch - processPackages [youqu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youqu-2.5.5.tar.gz tmp/youqu-2.6.0.tar.gz --markdown 20240514/y/youqu/2.5.5-2.6.0/README.md --exclude *.pyd
+[2024-05-14 11:50:35] INFO root fetch - processPackages [pymtpng]: Remove: archive file [/home/abi/fetcher/tmp/pymtpng-1.0.2.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - processPackages [streamfitter]: Remove: archive file [/home/abi/fetcher/tmp/streamfitter-0.1.0.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - processPackages [pymtpng]: Remove: archive file [/home/abi/fetcher/tmp/pymtpng-1.0.3.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - processPackages [streamfitter]: Remove: archive file [/home/abi/fetcher/tmp/streamfitter-0.1.1.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - main [MainThread]: End processing [pymtpng]: success
+[2024-05-14 11:50:35] INFO root fetch - main [MainThread]: End processing [streamfitter]: success
+[2024-05-14 11:50:35] INFO root fetch - processPackages [xdot]: Remove: archive file [/home/abi/fetcher/tmp/xdot-1.3.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - processPackages [xdot]: Remove: archive file [/home/abi/fetcher/tmp/xdot-1.4.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - main [MainThread]: End processing [xdot]: success
+[2024-05-14 11:50:35] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.2.0.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - processPackages [transstellar-antd]: Remove: archive file [/home/abi/fetcher/tmp/transstellar_antd-0.3.0.tar.gz]
+[2024-05-14 11:50:35] INFO root fetch - main [MainThread]: End processing [transstellar-antd]: success
+[2024-05-14 11:50:36] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.5.5.tar.gz]
+[2024-05-14 11:50:36] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.0.tar.gz]
+[2024-05-14 11:50:36] INFO root fetch - main [MainThread]: End processing [youqu]: success
+[2024-05-14 11:50:36] INFO root fetch - main [MainThread]: Store serial: [23199061]
