@@ -19735,3 +19735,60 @@
 [2024-05-14 12:56:12] INFO root fetch - processPackages [ssb-sgis]: Remove: archive file [/home/abi/fetcher/tmp/ssb_sgis-1.0.2.tar.gz]
 [2024-05-14 12:56:12] INFO root fetch - main [MainThread]: End processing [ssb-sgis]: success
 [2024-05-14 12:56:12] INFO root fetch - main [MainThread]: Store serial: [23199862]
+[2024-05-14 12:58:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199862]
+[2024-05-14 12:58:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lnschema_bionty
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autosubmit-api
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eazyAI
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megaxdl
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssb-timeseries
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bionty
+[2024-05-14 12:58:23] INFO root fetch - processPackages [eazyAI]: New version: [1.1] Old Version: [0.1]
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ssb-timeseries]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 12:58:23] INFO root fetch - processPackages [megaxdl]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 12:58:23] INFO root fetch - processPackages [autosubmit-api]: New version: [4.0.0b7] Old Version: [4.0.0b6]
+[2024-05-14 12:58:23] INFO root fetch - processPackages [megaxdl]: Downloading https://files.pythonhosted.org/packages/0e/2b/7b9e73e06c3aecafb353ec05ece085c2270660df1595eeb80122b655b9ed/megaxdl-0.0.2.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ssb-timeseries]: Downloading https://files.pythonhosted.org/packages/22/3f/91f9dfd7068acc0bd976b865dd2e6dc0be66513a035b2eff7107aac9689d/ssb_timeseries-0.2.0.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2024-05-14 12:58:23] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-14 12:58:23] INFO root fetch - processPackages [eazyAI]: Downloading https://files.pythonhosted.org/packages/9d/08/2b1e8f5604c527538c4fa608dc51a772cd27523535a9b976132259e7b540/eazyAI-0.1.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [autosubmit-api]: Downloading https://files.pythonhosted.org/packages/e7/e1/568c9cbc6756eac728b936ac0b517c89362b49eda83a21a71ac7377e83fc/autosubmit_api-4.0.0b6.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/99/96/56b5f6e7d406917b173d9b761f4b2ff41b68d375105fe40b9b23131b295d/bionty-0.9.0.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ssb-timeseries]: Downloading https://files.pythonhosted.org/packages/ce/b4/4063c431bf9ec559170c6fb1f22f591d16db5039373888b71f309ae77580/ssb_timeseries-0.2.1.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [megaxdl]: Downloading https://files.pythonhosted.org/packages/ad/91/873de915f0ed2993849a0321c061c64910dac38d8f7fc00b9896c97ab155/megaxdl-0.0.3.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ssb-timeseries]: executing diffoscope
+[2024-05-14 12:58:23] INFO root fetch - processPackages [ssb-timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_timeseries-0.2.0.tar.gz tmp/ssb_timeseries-0.2.1.tar.gz --markdown 20240514/s/ssb-timeseries/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 12:58:23] INFO root fetch - processPackages [eazyAI]: Downloading https://files.pythonhosted.org/packages/46/7d/a0d58bb3fc6d09048b94af550d38c23965f5e2c50e5639bf09b1a57b5339/eazyAI-1.1.tar.gz
+[2024-05-14 12:58:23] INFO root fetch - processPackages [megaxdl]: executing diffoscope
+[2024-05-14 12:58:23] INFO root fetch - processPackages [megaxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megaxdl-0.0.2.tar.gz tmp/megaxdl-0.0.3.tar.gz --markdown 20240514/m/megaxdl/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 12:58:24] INFO root fetch - processPackages [autosubmit-api]: Downloading https://files.pythonhosted.org/packages/0b/29/e03f6b19ea75408e543a17f13461808c4e62a7d4e9b7e8fe79d4dfb187c5/autosubmit_api-4.0.0b7.tar.gz
+[2024-05-14 12:58:24] INFO root fetch - processPackages [eazyAI]: executing diffoscope
+[2024-05-14 12:58:24] INFO root fetch - processPackages [eazyAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eazyAI-0.1.tar.gz tmp/eazyAI-1.1.tar.gz --markdown 20240514/e/eazyAI/0.1-1.1/README.md --exclude *.pyd
+[2024-05-14 12:58:24] INFO root fetch - processPackages [bionty]: Downloading https://files.pythonhosted.org/packages/f4/01/3a99104d9a37cf7fbdae5c733cec97f252f8eb35f5553cd253a05edf8420/bionty-0.9.0rc1.tar.gz
+[2024-05-14 12:58:24] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2024-05-14 12:58:24] INFO root fetch - processPackages [autosubmit-api]: executing diffoscope
+[2024-05-14 12:58:24] INFO root fetch - processPackages [autosubmit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosubmit_api-4.0.0b6.tar.gz tmp/autosubmit_api-4.0.0b7.tar.gz --markdown 20240514/a/autosubmit-api/4.0.0b6-4.0.0b7/README.md --exclude *.pyd
+[2024-05-14 12:58:24] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2024-05-14 12:58:24] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20240514/b/bionty/0.9.0-0.9.0rc1/README.md --exclude *.pyd
+[2024-05-14 12:58:24] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2024-05-14 12:58:24] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20240514/l/lnschema_bionty/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-14 12:58:24] INFO root fetch - processPackages [megaxdl]: Remove: archive file [/home/abi/fetcher/tmp/megaxdl-0.0.2.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - processPackages [megaxdl]: Remove: archive file [/home/abi/fetcher/tmp/megaxdl-0.0.3.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - main [MainThread]: End processing [megaxdl]: success
+[2024-05-14 12:58:24] INFO root fetch - processPackages [ssb-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/ssb_timeseries-0.2.0.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - processPackages [ssb-timeseries]: Remove: archive file [/home/abi/fetcher/tmp/ssb_timeseries-0.2.1.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - main [MainThread]: End processing [ssb-timeseries]: success
+[2024-05-14 12:58:24] INFO root fetch - processPackages [eazyAI]: Remove: archive file [/home/abi/fetcher/tmp/eazyAI-0.1.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - processPackages [eazyAI]: Remove: archive file [/home/abi/fetcher/tmp/eazyAI-1.1.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - main [MainThread]: End processing [eazyAI]: success
+[2024-05-14 12:58:24] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2024-05-14 12:58:24] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2024-05-14 12:58:25] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0.tar.gz]
+[2024-05-14 12:58:25] INFO root fetch - processPackages [bionty]: Remove: archive file [/home/abi/fetcher/tmp/bionty-0.9.0rc1.tar.gz]
+[2024-05-14 12:58:25] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2024-05-14 12:58:25] INFO root fetch - processPackages [autosubmit-api]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit_api-4.0.0b6.tar.gz]
+[2024-05-14 12:58:25] INFO root fetch - processPackages [autosubmit-api]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit_api-4.0.0b7.tar.gz]
+[2024-05-14 12:58:25] INFO root fetch - main [MainThread]: End processing [autosubmit-api]: success
+[2024-05-14 12:58:25] INFO root fetch - main [MainThread]: Store serial: [23199881]
