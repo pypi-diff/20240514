@@ -22817,3 +22817,104 @@
 [2024-05-14 14:52:15] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.64.0.tar.gz]
 [2024-05-14 14:52:15] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2024-05-14 14:52:15] INFO root fetch - main [MainThread]: Store serial: [23201190]
+[2024-05-14 14:54:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201190]
+[2024-05-14 14:54:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: riversand
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: burst2safe
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyzeo
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gradio
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ramodels
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cgeoportal-commons
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cgeoportal-geoportal
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pigeonpost
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c2cgeoportal-admin
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-dingtalk
+[2024-05-14 14:54:24] INFO root fetch - processPackages [burst2safe]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [riversand]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [gradio]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [pyzeo]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [c2cgeoportal-geoportal]: New version: [2.8.1.90] Old Version: [2.8.1.89]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [pigeonpost]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [c2cgeoportal-commons]: New version: [2.8.1.90] Old Version: [2.8.1.89]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.11] Old Version: [2.1.10]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [c2cgeoportal-admin]: New version: [2.8.1.90] Old Version: [2.8.1.89]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [gradio]: Downloading https://files.pythonhosted.org/packages/eb/a2/56c39c590c6c0e5d2583115b6e478de4bf1c9aa42b45cc47d81d88f93665/gradio-4.9.0.tar.gz
+[2024-05-14 14:54:24] WARNING root fetch - processPackages [gradio]: Skipping package: exceeds size limit 26124496>=10485760
+[2024-05-14 14:54:24] INFO root fetch - processPackages [gradio]: Start processing: bc-korea-vector-map
+[2024-05-14 14:54:24] INFO root fetch - main [MainThread]: End processing [gradio] error
+[2024-05-14 14:54:24] INFO root fetch - processPackages [burst2safe]: Downloading https://files.pythonhosted.org/packages/9d/f7/c4c586c4a845e737eb6fbecbc2506a5d49a4757e41f6e3dcc9a59910eedc/burst2safe-0.3.3.tar.gz
+[2024-05-14 14:54:24] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/e6/45/ef452f13a8f9fe7687e72a01f0d0cb5680527c709e86b7e52d8ca278a12f/riversand-1.2.5.tar.gz
+[2024-05-14 14:54:24] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2024-05-14 14:54:24] INFO root fetch - processPackages [pyzeo]: Downloading https://files.pythonhosted.org/packages/86/ac/f35ed449be69bba9abfc1f294d6561fee6665dcc33c094793468a6a0c212/pyzeo-0.1.4.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/8d/6e/7c55b598c1d1cff716364697407e29d57a9947c1587ac121e8561f22e437/c2cgeoportal_geoportal-2.8.1.89-py2.py3-none-any.whl
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/bb/0c/932f7c24efb878ff5c7677098f06882316d50e09259945cee9ed7ca8231c/pigeonpost-0.4.6.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/fb/b1/f25e4b20a6024d006de5098dcaaa5816fe5d80a7cd631e4c88c69a29b5ce/c2cgeoportal_commons-2.8.1.89-py3-none-any.whl
+[2024-05-14 14:54:25] WARNING root fetch - processPackages [bc-korea-vector-map]: Skipping, unable to determine old version
+[2024-05-14 14:54:25] INFO root fetch - processPackages [bc-korea-vector-map]: Start processing: pdstools
+[2024-05-14 14:54:25] INFO root fetch - main [MainThread]: End processing [bc-korea-vector-map] error
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/34/83/75b9b51bfb69ebe11a5a832d888e18884f5c224833f7966d8c4972a42929/c2cgeoportal_admin-2.8.1.89-py3-none-any.whl
+[2024-05-14 14:54:25] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/ac/f3/4f6b00741f3f96c7499de8b05d8772e89d484b2be1cc85d14c55cc9c9666/alibabacloud_dingtalk-2.1.10.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pdstools]: New version: [3.4.3] Old Version: [3.4.1]
+[2024-05-14 14:54:25] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/3a/d9/eeebdab98aac7853f568ee19cb745d4a26ceb7ccfa3dcca0b0ec8afb0902/riversand-1.2.6.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pigeonpost]: Downloading https://files.pythonhosted.org/packages/44/59/801827c7eeca50aea9eb45f6106f415d12f281485b96af25350f4e4b0754/pigeonpost-0.4.7.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-commons]: Downloading https://files.pythonhosted.org/packages/90/24/564a224fd54fb0ff95633a1ab4845452c17ea581e2d45863c7f6550d3cd7/c2cgeoportal_commons-2.8.1.90-py3-none-any.whl
+[2024-05-14 14:54:25] INFO root fetch - processPackages [riversand]: executing diffoscope
+[2024-05-14 14:54:25] INFO root fetch - processPackages [riversand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riversand-1.2.5.tar.gz tmp/riversand-1.2.6.tar.gz --markdown 20240514/r/riversand/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-admin]: Downloading https://files.pythonhosted.org/packages/95/ad/509743997091db8bd4db2b56fe0b1b06bf2aecc8a08458f714fa48873e9f/c2cgeoportal_admin-2.8.1.90-py3-none-any.whl
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pyzeo]: Downloading https://files.pythonhosted.org/packages/af/f7/a602354165c53e940414fd3265c39155c0a27d4f6cd3206290134ad9dd0e/pyzeo-0.1.5-cp39-cp39-macosx_10_9_x86_64.whl
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pigeonpost]: executing diffoscope
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pigeonpost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pigeonpost-0.4.6.tar.gz tmp/pigeonpost-0.4.7.tar.gz --markdown 20240514/p/pigeonpost/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Downloading https://files.pythonhosted.org/packages/8d/76/254961731d21632b55b392f397f4e5c347b3df9499b49f8dbb5e4f42d15d/c2cgeoportal_geoportal-2.8.1.90-py2.py3-none-any.whl
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pdstools]: Downloading https://files.pythonhosted.org/packages/bb/12/271a7cac39e6e2df53cfa56652f5d80fbf1e2b1740eefa538a000689610c/pdstools-3.4.1.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/a8/56/6c7b3d2103cd47442909f9858037eb479ce0a8cc508aa5c3dfedec57c0d8/alibabacloud_dingtalk-2.1.11.tar.gz
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-commons]: executing diffoscope
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_commons-2.8.1.89-py3-none-any.whl.zip tmp/c2cgeoportal_commons-2.8.1.90-py3-none-any.whl.zip --markdown 20240514/c/c2cgeoportal-commons/2.8.1.89-2.8.1.90/README.md --exclude *.pyd
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-admin]: executing diffoscope
+[2024-05-14 14:54:25] INFO root fetch - processPackages [c2cgeoportal-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_admin-2.8.1.89-py3-none-any.whl.zip tmp/c2cgeoportal_admin-2.8.1.90-py3-none-any.whl.zip --markdown 20240514/c/c2cgeoportal-admin/2.8.1.89-2.8.1.90/README.md --exclude *.pyd
+[2024-05-14 14:54:25] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2024-05-14 14:54:25] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20240514/r/ramodels/9.7.2-9.7.3/README.md --exclude *.pyd
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pyzeo]: executing diffoscope
+[2024-05-14 14:54:25] INFO root fetch - processPackages [pyzeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzeo-0.1.4.tar.gz tmp/pyzeo-0.1.5-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20240514/p/pyzeo/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 14:54:26] INFO root fetch - processPackages [pdstools]: Downloading https://files.pythonhosted.org/packages/ed/fc/2f5ddc9ce814d8d62166bc7f196ee313d7a60e6aa5301cc7e224a3dba9b0/pdstools-3.4.3.tar.gz
+[2024-05-14 14:54:26] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-14 14:54:26] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.1.10.tar.gz tmp/alibabacloud_dingtalk-2.1.11.tar.gz --markdown 20240514/a/alibabacloud-dingtalk/2.1.10-2.1.11/README.md --exclude *.pyd
+[2024-05-14 14:54:26] INFO root fetch - processPackages [c2cgeoportal-geoportal]: executing diffoscope
+[2024-05-14 14:54:26] INFO root fetch - processPackages [c2cgeoportal-geoportal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cgeoportal_geoportal-2.8.1.89-py2.py3-none-any.whl.zip tmp/c2cgeoportal_geoportal-2.8.1.90-py2.py3-none-any.whl.zip --markdown 20240514/c/c2cgeoportal-geoportal/2.8.1.89-2.8.1.90/README.md --exclude *.pyd
+[2024-05-14 14:54:26] INFO root fetch - processPackages [pdstools]: executing diffoscope
+[2024-05-14 14:54:26] INFO root fetch - processPackages [pdstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdstools-3.4.1.tar.gz tmp/pdstools-3.4.3.tar.gz --markdown 20240514/p/pdstools/3.4.1-3.4.3/README.md --exclude *.pyd
+[2024-05-14 14:54:26] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.5.tar.gz]
+[2024-05-14 14:54:26] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.6.tar.gz]
+[2024-05-14 14:54:26] INFO root fetch - main [MainThread]: End processing [riversand]: success
+[2024-05-14 14:54:26] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.6.tar.gz]
+[2024-05-14 14:54:26] INFO root fetch - processPackages [pigeonpost]: Remove: archive file [/home/abi/fetcher/tmp/pigeonpost-0.4.7.tar.gz]
+[2024-05-14 14:54:26] INFO root fetch - main [MainThread]: End processing [pigeonpost]: success
+[2024-05-14 14:54:26] INFO root fetch - processPackages [burst2safe]: Downloading https://files.pythonhosted.org/packages/de/07/52aa4ea1f7d63fb71c26e2265ac66e94b0b2ca6e19b8ea9d7b1c2feb602f/burst2safe-0.3.4.tar.gz
+[2024-05-14 14:54:26] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2024-05-14 14:54:26] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2024-05-14 14:54:26] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2024-05-14 14:54:26] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.89-py3-none-any.whl.zip]
+[2024-05-14 14:54:26] INFO root fetch - processPackages [c2cgeoportal-admin]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_admin-2.8.1.90-py3-none-any.whl.zip]
+[2024-05-14 14:54:26] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-admin]: success
+[2024-05-14 14:54:26] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.89-py3-none-any.whl.zip]
+[2024-05-14 14:54:26] INFO root fetch - processPackages [c2cgeoportal-commons]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_commons-2.8.1.90-py3-none-any.whl.zip]
+[2024-05-14 14:54:26] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-commons]: success
+[2024-05-14 14:54:27] INFO root fetch - processPackages [pyzeo]: Remove: archive file [/home/abi/fetcher/tmp/pyzeo-0.1.4.tar.gz]
+[2024-05-14 14:54:27] INFO root fetch - processPackages [pyzeo]: Remove: archive file [/home/abi/fetcher/tmp/pyzeo-0.1.5-cp39-cp39-macosx_10_9_x86_64.whl.zip]
+[2024-05-14 14:54:27] INFO root fetch - main [MainThread]: End processing [pyzeo]: success
+[2024-05-14 14:54:27] INFO root fetch - processPackages [burst2safe]: executing diffoscope
+[2024-05-14 14:54:27] INFO root fetch - processPackages [burst2safe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burst2safe-0.3.3.tar.gz tmp/burst2safe-0.3.4.tar.gz --markdown 20240514/b/burst2safe/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-14 14:54:27] INFO root fetch - processPackages [pdstools]: Remove: archive file [/home/abi/fetcher/tmp/pdstools-3.4.1.tar.gz]
+[2024-05-14 14:54:27] INFO root fetch - processPackages [pdstools]: Remove: archive file [/home/abi/fetcher/tmp/pdstools-3.4.3.tar.gz]
+[2024-05-14 14:54:27] INFO root fetch - main [MainThread]: End processing [pdstools]: success
+[2024-05-14 14:54:27] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.89-py2.py3-none-any.whl.zip]
+[2024-05-14 14:54:27] INFO root fetch - processPackages [c2cgeoportal-geoportal]: Remove: archive file [/home/abi/fetcher/tmp/c2cgeoportal_geoportal-2.8.1.90-py2.py3-none-any.whl.zip]
+[2024-05-14 14:54:27] INFO root fetch - main [MainThread]: End processing [c2cgeoportal-geoportal]: success
+[2024-05-14 14:54:34] INFO root fetch - processPackages [burst2safe]: Remove: archive file [/home/abi/fetcher/tmp/burst2safe-0.3.3.tar.gz]
+[2024-05-14 14:54:34] INFO root fetch - processPackages [burst2safe]: Remove: archive file [/home/abi/fetcher/tmp/burst2safe-0.3.4.tar.gz]
+[2024-05-14 14:54:34] INFO root fetch - main [MainThread]: End processing [burst2safe]: success
+[2024-05-14 14:54:37] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.10.tar.gz]
+[2024-05-14 14:54:37] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.11.tar.gz]
+[2024-05-14 14:54:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-14 14:54:37] INFO root fetch - main [MainThread]: Store serial: [23201241]
