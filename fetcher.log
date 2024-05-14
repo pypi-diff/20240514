@@ -14725,3 +14725,90 @@
 [2024-05-14 10:13:04] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-14 10:13:04] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-14 10:13:04] INFO root fetch - main [MainThread]: Store serial: [23197753]
+[2024-05-14 10:15:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197753]
+[2024-05-14 10:15:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-group-local
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiokdb
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AWSXenos
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartlink-local
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: variable-local
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mongodb-orm
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WGSE-NG-3rd-party
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zenml
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mns-scheduler
+[2024-05-14 10:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nova
+[2024-05-14 10:15:17] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [contact-group-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:15:17] WARNING root fetch - processPackages [WGSE-NG-3rd-party]: Skipping, unable to determine old version
+[2024-05-14 10:15:17] INFO root fetch - main [MainThread]: End processing [WGSE-NG-3rd-party] error
+[2024-05-14 10:15:17] INFO root fetch - processPackages [mongodb-orm]: New version: [0.1.0] Old Version: [0.0.130]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [aiokdb]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.4.6] Old Version: [1.0.4.5]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [AWSXenos]: New version: [0.2.0] Old Version: [0.0.2]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/63/e5/ff261731db98a38a39f4657a4cd1e04b2a998f175a7af36c640220ff9b00/contact-group-local-0.0.8.tar.gz
+[2024-05-14 10:15:17] INFO root fetch - processPackages [nova]: New version: [29.0.1] Old Version: [29.0.0.0rc1]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [zenml]: New version: [0.9.0] Old Version: [0.8.1rc0]
+[2024-05-14 10:15:17] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/63/98/dbb18e061c99e4dc4d016ac42a90f4c7e6071755cef64b0ffb90f187e3be/mongodb_orm-0.0.130.tar.gz
+[2024-05-14 10:15:17] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-14 10:15:17] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-14 10:15:17] INFO root fetch - processPackages [aiokdb]: Downloading https://files.pythonhosted.org/packages/bc/e9/03707b29fdecb4bc92e171fe1d53ee772f3fada71bb4512944117ca88e71/aiokdb-0.1.0.tar.gz
+[2024-05-14 10:15:17] INFO root fetch - processPackages [AWSXenos]: Downloading https://files.pythonhosted.org/packages/88/12/18c848c63ab1ce805c2c0bc94237282005927fac16b103247bd6bbb6c192/AWSXenos-0.0.2.tar.gz
+[2024-05-14 10:15:17] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/26/4e/98acc9cb39a50eef86ac496fb24c96efcc0eb849fd5564e91f803b543791/mns-scheduler-1.0.4.5.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/a4/ba/9dd131570801a06d93e9cd4378d1f0d8501cf5e70ba8de510e199e4d3cc5/zenml-0.8.1rc0.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/84/cc/f78576331b2ff0f497f4640872d65b71ec33ae804f6a44bb2f10f1957687/contact-group-local-0.0.9.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/76/c8/9246d62ae3f2f1e5edf9ae1d09c18d7e6422ace7aff5733c9c9cd3e7bd65/nova-29.0.0.0rc1.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [mongodb-orm]: Downloading https://files.pythonhosted.org/packages/d4/d9/a5c908eb9f8271985429121ebab497f101329c81bba96335237809ec299f/mongodb_orm-0.1.0.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [contact-group-local]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [contact-group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-group-local-0.0.8.tar.gz tmp/contact-group-local-0.0.9.tar.gz --markdown 20240514/c/contact-group-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [aiokdb]: Downloading https://files.pythonhosted.org/packages/60/76/c612a24ab459cc2fc52618ab693670c966425dc65121390923f17ce9ff2a/aiokdb-0.1.1.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240514/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240514/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [mongodb-orm]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [mongodb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodb_orm-0.0.130.tar.gz tmp/mongodb_orm-0.1.0.tar.gz --markdown 20240514/m/mongodb-orm/0.0.130-0.1.0/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [AWSXenos]: Downloading https://files.pythonhosted.org/packages/a2/e1/06d8327a12b79fbc15c22cb0c6890f81f274196c5edf9ab5a66a01a43580/awsxenos-0.2.0.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [aiokdb]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [aiokdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiokdb-0.1.0.tar.gz tmp/aiokdb-0.1.1.tar.gz --markdown 20240514/a/aiokdb/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/58/9e/ea3d783fce082407005476b02c3352bfd0b463b1ac3255f2a0eb798b8378/mns-scheduler-1.0.4.6.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [AWSXenos]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [AWSXenos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AWSXenos-0.0.2.tar.gz tmp/awsxenos-0.2.0.tar.gz --markdown 20240514/A/AWSXenos/0.0.2-0.2.0/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/2c/42/78e070bea92d65044e034f70260230101d041ea1f99d781d2f29f7c995c5/zenml-0.9.0.tar.gz
+[2024-05-14 10:15:18] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.4.5.tar.gz tmp/mns-scheduler-1.0.4.6.tar.gz --markdown 20240514/m/mns-scheduler/1.0.4.5-1.0.4.6/README.md --exclude *.pyd
+[2024-05-14 10:15:18] INFO root fetch - processPackages [zenml]: executing diffoscope
+[2024-05-14 10:15:18] INFO root fetch - processPackages [zenml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml-0.8.1rc0.tar.gz tmp/zenml-0.9.0.tar.gz --markdown 20240514/z/zenml/0.8.1rc0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 10:15:19] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.8.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.9.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [contact-group-local]: success
+[2024-05-14 10:15:19] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-14 10:15:19] INFO root fetch - processPackages [aiokdb]: Remove: archive file [/home/abi/fetcher/tmp/aiokdb-0.1.0.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [aiokdb]: Remove: archive file [/home/abi/fetcher/tmp/aiokdb-0.1.1.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [aiokdb]: success
+[2024-05-14 10:15:19] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.0.130.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [mongodb-orm]: Remove: archive file [/home/abi/fetcher/tmp/mongodb_orm-0.1.0.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [mongodb-orm]: success
+[2024-05-14 10:15:19] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-14 10:15:19] INFO root fetch - processPackages [AWSXenos]: Remove: archive file [/home/abi/fetcher/tmp/AWSXenos-0.0.2.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [AWSXenos]: Remove: archive file [/home/abi/fetcher/tmp/awsxenos-0.2.0.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [AWSXenos]: success
+[2024-05-14 10:15:19] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.4.5.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.4.6.tar.gz]
+[2024-05-14 10:15:19] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-05-14 10:15:22] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.8.1rc0.tar.gz]
+[2024-05-14 10:15:22] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.9.0.tar.gz]
+[2024-05-14 10:15:22] INFO root fetch - main [MainThread]: End processing [zenml]: success
+[2024-05-14 10:15:22] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/8d/6b/ff5cf31b4688013e469745a0917d9029392e343353daa6401901a9044aab/nova-29.0.1.tar.gz
+[2024-05-14 10:15:25] INFO root fetch - processPackages [nova]: executing diffoscope
+[2024-05-14 10:15:25] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-29.0.0.0rc1.tar.gz tmp/nova-29.0.1.tar.gz --markdown 20240514/n/nova/29.0.0.0rc1-29.0.1/README.md --exclude *.pyd
+[2024-05-14 10:15:45] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.0.0rc1.tar.gz]
+[2024-05-14 10:15:45] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.1.tar.gz]
+[2024-05-14 10:15:45] INFO root fetch - main [MainThread]: End processing [nova]: success
+[2024-05-14 10:15:45] INFO root fetch - main [MainThread]: Store serial: [23197785]
