@@ -10615,3 +10615,15 @@
 [2024-05-14 07:14:47] INFO root fetch - processPackages [openai-messages-token-helper]: Remove: archive file [/home/abi/fetcher/tmp/openai_messages_token_helper-0.1.4.tar.gz]
 [2024-05-14 07:14:47] INFO root fetch - main [MainThread]: End processing [openai-messages-token-helper]: success
 [2024-05-14 07:14:47] INFO root fetch - main [MainThread]: Store serial: [23195890]
+[2024-05-14 07:16:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195890]
+[2024-05-14 07:16:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 07:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ralium
+[2024-05-14 07:16:56] INFO root fetch - processPackages [ralium]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-14 07:16:56] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/0d/70/0feb4aa71d4e1c21bc811934f5cc507d196be433f479d291d5b1b61bb334/ralium-0.0.0.tar.gz
+[2024-05-14 07:16:56] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/78/0c/067f5da32397c2557347b3abd4e2e31d2085a571f30315966718ffe1fcb3/ralium-0.1.0.tar.gz
+[2024-05-14 07:16:56] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-14 07:16:56] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-0.0.0.tar.gz tmp/ralium-0.1.0.tar.gz --markdown 20240514/r/ralium/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-14 07:16:57] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-0.0.0.tar.gz]
+[2024-05-14 07:16:57] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-0.1.0.tar.gz]
+[2024-05-14 07:16:57] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-14 07:16:57] INFO root fetch - main [MainThread]: Store serial: [23195893]
