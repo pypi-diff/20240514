@@ -10507,3 +10507,33 @@
 [2024-05-14 07:08:15] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-2.5.4-py3-none-any.whl.zip]
 [2024-05-14 07:08:15] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
 [2024-05-14 07:08:15] INFO root fetch - main [MainThread]: Store serial: [23195859]
+[2024-05-14 07:10:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195859]
+[2024-05-14 07:10:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-14 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zoho-crm-connector
+[2024-05-14 07:10:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biomedisa
+[2024-05-14 07:10:24] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 07:10:24] INFO root fetch - processPackages [zoho-crm-connector]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 07:10:24] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-14 07:10:24] INFO root fetch - processPackages [zoho-crm-connector]: Downloading https://files.pythonhosted.org/packages/3b/71/14af781bd0ce8e917fe6e61efa717e1f90a1de038f764ed478c9ca790d95/zoho_crm_connector-1.0.0.tar.gz
+[2024-05-14 07:10:24] INFO root fetch - processPackages [biomedisa]: New version: [2024.5.17] Old Version: [2024.5.16]
+[2024-05-14 07:10:24] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-14 07:10:24] INFO root fetch - processPackages [zoho-crm-connector]: Downloading https://files.pythonhosted.org/packages/39/17/f267066188aca10584d6c1bcf38332bc1c825038980afd761a80ee669e59/zoho_crm_connector-1.0.1.tar.gz
+[2024-05-14 07:10:24] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/c1/fa/3b78243274e9785544b4b058a39a0f76d8fd0fcade81b3fb5140ef398ee0/biomedisa-2024.5.16.tar.gz
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zoho-crm-connector]: executing diffoscope
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zoho-crm-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zoho_crm_connector-1.0.0.tar.gz tmp/zoho_crm_connector-1.0.1.tar.gz --markdown 20240514/z/zoho-crm-connector/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240514/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 07:10:25] INFO root fetch - processPackages [biomedisa]: Downloading https://files.pythonhosted.org/packages/3c/1a/5d065ad413e7af3e6db3722b7452b6c147f7dd4027bd99542dc3b2862307/biomedisa-2024.5.17-py3-none-any.whl
+[2024-05-14 07:10:25] INFO root fetch - processPackages [biomedisa]: executing diffoscope
+[2024-05-14 07:10:25] INFO root fetch - processPackages [biomedisa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedisa-2024.5.16.tar.gz tmp/biomedisa-2024.5.17-py3-none-any.whl.zip --markdown 20240514/b/biomedisa/2024.5.16-2024.5.17/README.md --exclude *.pyd
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.0.tar.gz]
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zoho-crm-connector]: Remove: archive file [/home/abi/fetcher/tmp/zoho_crm_connector-1.0.1.tar.gz]
+[2024-05-14 07:10:25] INFO root fetch - main [MainThread]: End processing [zoho-crm-connector]: success
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-14 07:10:25] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-14 07:10:25] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-14 07:10:26] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.16.tar.gz]
+[2024-05-14 07:10:26] INFO root fetch - processPackages [biomedisa]: Remove: archive file [/home/abi/fetcher/tmp/biomedisa-2024.5.17-py3-none-any.whl.zip]
+[2024-05-14 07:10:26] INFO root fetch - main [MainThread]: End processing [biomedisa]: success
+[2024-05-14 07:10:26] INFO root fetch - main [MainThread]: Store serial: [23195866]
