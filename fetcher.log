@@ -12711,3 +12711,101 @@
 [2024-05-14 09:02:20] INFO root fetch - processPackages [doc2tei-CERTIC]: Remove: archive file [/home/abi/fetcher/tmp/doc2tei-CERTIC-0.0.96.tar.gz]
 [2024-05-14 09:02:20] INFO root fetch - main [MainThread]: End processing [doc2tei-CERTIC]: success
 [2024-05-14 09:02:20] INFO root fetch - main [MainThread]: Store serial: [23196850]
+[2024-05-14 09:04:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196850]
+[2024-05-14 09:04:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpioc
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensortrax
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-osubot
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mcbootflash
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sddgen
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auglib
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-core-package
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mqttthreaddatalogger
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-shopfloor-mobile
+[2024-05-14 09:04:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-shopfloor-batch-automatic-creation
+[2024-05-14 09:04:30] INFO root fetch - processPackages [test-core-package]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [sddgen]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 09:04:30] WARNING root fetch - processPackages [odoo-addon-shopfloor-mobile]: Skipping, unable to determine old version
+[2024-05-14 09:04:30] WARNING root fetch - processPackages [odoo-addon-shopfloor-batch-automatic-creation]: Skipping, unable to determine old version
+[2024-05-14 09:04:30] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile]: Start processing: odoo-addon-shopfloor-mobile-base-auth-api-key
+[2024-05-14 09:04:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile] error
+[2024-05-14 09:04:30] INFO root fetch - processPackages [odoo-addon-shopfloor-batch-automatic-creation]: Start processing: ralium
+[2024-05-14 09:04:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-batch-automatic-creation] error
+[2024-05-14 09:04:30] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.0.5] Old Version: [6.0.4]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [gpioc]: New version: [1.0.1] Old Version: [0.2]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mcbootflash]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-14 09:04:30] WARNING root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: Skipping, unable to determine old version
+[2024-05-14 09:04:30] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: Start processing: odoo-addon-shopfloor-mobile-base
+[2024-05-14 09:04:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile-base-auth-api-key] error
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mqttthreaddatalogger]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [auglib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [ralium]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [sddgen]: Downloading https://files.pythonhosted.org/packages/9a/24/3869b070deba436253af8c397a7423ef4f4597cbe263341c6bf6966aed08/sddgen-0.0.6.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mcbootflash]: Downloading https://files.pythonhosted.org/packages/7c/ff/bb91093f59a3108f0762c6d40f6cdce81c309da6bc3b3d2b31b47b6508dc/mcbootflash-9.0.0.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/32/cd/9c0011b1204d907d1b2f558f887230b2741fcc60ea9ecfbf8018576508be/test_core_package-0.0.8.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/78/0c/067f5da32397c2557347b3abd4e2e31d2085a571f30315966718ffe1fcb3/ralium-0.1.0.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/8a/1e/e28a746b66636548ce5b4cee419f62af1ee85c2c49c6b80653e6e483504c/nonebot-plugin-osubot-6.0.4.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-14 09:04:30] INFO root fetch - processPackages [gpioc]: Downloading https://files.pythonhosted.org/packages/56/1d/4b884c9c2038660bf0e73387536db5335f44aec40a2eae3cece771a2ff0d/gpioc-0.2.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [auglib]: Downloading https://files.pythonhosted.org/packages/30/60/9e8666e4538a884d018769bf5c601e6f642bece9163f7af75016bef24f41/auglib-1.0.2.tar.gz
+[2024-05-14 09:04:30] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29386395>=10485760
+[2024-05-14 09:04:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mqttthreaddatalogger]: Downloading https://files.pythonhosted.org/packages/6c/f6/593d64c77a85e68620e5bde73e8684e142ec6ddab541299303fea14908e0/mqttthreaddatalogger-1.5.1.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/31/82/f0de1b165e3c23a5960f4e2ec7da10bc999821575a5dc1f9104db1cc1448/test_core_package-0.0.9.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/0f/9b/567c830f46286ee9804821351398624a876583f77595c8415cdb9033cb25/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-14 09:04:30] INFO root fetch - processPackages [sddgen]: Downloading https://files.pythonhosted.org/packages/e4/5f/d28063b2fcb198677dab4f74a34dfcc17653276af874f35c57ea951371ed/sddgen-0.0.7.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mcbootflash]: Downloading https://files.pythonhosted.org/packages/04/50/612c80239e8f35c95689c773c2ea870b9d19675b2716ff074b622c13002a/mcbootflash-9.0.1.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2024-05-14 09:04:30] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20240514/t/tensortrax/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-14 09:04:30] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-14 09:04:30] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.0.8.tar.gz tmp/test_core_package-0.0.9.tar.gz --markdown 20240514/t/test-core-package/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:04:30] INFO root fetch - processPackages [ralium]: Downloading https://files.pythonhosted.org/packages/64/bd/ff7891fad08d8d955a9bc7cb7dc26c86d46193445b715c0c3dd64b1347f1/ralium-0.1.1.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [sddgen]: executing diffoscope
+[2024-05-14 09:04:30] INFO root fetch - processPackages [sddgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddgen-0.0.6.tar.gz tmp/sddgen-0.0.7.tar.gz --markdown 20240514/s/sddgen/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 09:04:30] INFO root fetch - processPackages [gpioc]: Downloading https://files.pythonhosted.org/packages/01/e4/7aaf5f790197284dde03f8cb1027bd85923d9620d8d6689764f50e3d3885/gpioc-1.0.1.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mcbootflash]: executing diffoscope
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mcbootflash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcbootflash-9.0.0.tar.gz tmp/mcbootflash-9.0.1.tar.gz --markdown 20240514/m/mcbootflash/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-14 09:04:30] INFO root fetch - processPackages [mqttthreaddatalogger]: Downloading https://files.pythonhosted.org/packages/fb/22/4a155adfafeed491012ae39f5f7cc8aa59327e613e694d0105c3fab1fb83/mqttthreaddatalogger-1.6.0.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [auglib]: Downloading https://files.pythonhosted.org/packages/44/b8/7e7372a73b5b70eafe8282bfb2af661129e2c608a5b6984c4ae953379e0c/auglib-1.0.3.tar.gz
+[2024-05-14 09:04:30] INFO root fetch - processPackages [ralium]: executing diffoscope
+[2024-05-14 09:04:30] INFO root fetch - processPackages [ralium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ralium-0.1.0.tar.gz tmp/ralium-0.1.1.tar.gz --markdown 20240514/r/ralium/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 09:04:31] INFO root fetch - processPackages [gpioc]: executing diffoscope
+[2024-05-14 09:04:31] INFO root fetch - processPackages [gpioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpioc-0.2.tar.gz tmp/gpioc-1.0.1.tar.gz --markdown 20240514/g/gpioc/0.2-1.0.1/README.md --exclude *.pyd
+[2024-05-14 09:04:31] INFO root fetch - processPackages [mqttthreaddatalogger]: executing diffoscope
+[2024-05-14 09:04:31] INFO root fetch - processPackages [mqttthreaddatalogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqttthreaddatalogger-1.5.1.tar.gz tmp/mqttthreaddatalogger-1.6.0.tar.gz --markdown 20240514/m/mqttthreaddatalogger/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-14 09:04:31] INFO root fetch - processPackages [auglib]: executing diffoscope
+[2024-05-14 09:04:31] INFO root fetch - processPackages [auglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auglib-1.0.2.tar.gz tmp/auglib-1.0.3.tar.gz --markdown 20240514/a/auglib/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 09:04:31] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/3f/0e/81f748d30934dad79b90941ca93c2a71994003d15c5dde7e65be05d16932/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-14 09:04:31] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.8.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.0.9.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-14 09:04:31] INFO root fetch - processPackages [sddgen]: Remove: archive file [/home/abi/fetcher/tmp/sddgen-0.0.6.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [sddgen]: Remove: archive file [/home/abi/fetcher/tmp/sddgen-0.0.7.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [sddgen]: success
+[2024-05-14 09:04:31] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.8.5.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.9.0.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2024-05-14 09:04:31] INFO root fetch - processPackages [mqttthreaddatalogger]: Remove: archive file [/home/abi/fetcher/tmp/mqttthreaddatalogger-1.5.1.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [mqttthreaddatalogger]: Remove: archive file [/home/abi/fetcher/tmp/mqttthreaddatalogger-1.6.0.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [mqttthreaddatalogger]: success
+[2024-05-14 09:04:31] INFO root fetch - processPackages [mcbootflash]: Remove: archive file [/home/abi/fetcher/tmp/mcbootflash-9.0.0.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [mcbootflash]: Remove: archive file [/home/abi/fetcher/tmp/mcbootflash-9.0.1.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [mcbootflash]: success
+[2024-05-14 09:04:31] INFO root fetch - processPackages [gpioc]: Remove: archive file [/home/abi/fetcher/tmp/gpioc-0.2.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [gpioc]: Remove: archive file [/home/abi/fetcher/tmp/gpioc-1.0.1.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [gpioc]: success
+[2024-05-14 09:04:31] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-0.1.0.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - processPackages [ralium]: Remove: archive file [/home/abi/fetcher/tmp/ralium-0.1.1.tar.gz]
+[2024-05-14 09:04:31] INFO root fetch - main [MainThread]: End processing [ralium]: success
+[2024-05-14 09:04:32] INFO root fetch - processPackages [auglib]: Remove: archive file [/home/abi/fetcher/tmp/auglib-1.0.2.tar.gz]
+[2024-05-14 09:04:32] INFO root fetch - processPackages [auglib]: Remove: archive file [/home/abi/fetcher/tmp/auglib-1.0.3.tar.gz]
+[2024-05-14 09:04:32] INFO root fetch - main [MainThread]: End processing [auglib]: success
+[2024-05-14 09:04:32] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: executing diffoscope
+[2024-05-14 09:04:32] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-shopfloor-mobile-base/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-14 09:04:33] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-14 09:04:33] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_mobile_base-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-14 09:04:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile-base]: success
+[2024-05-14 09:04:33] INFO root fetch - main [MainThread]: Store serial: [23196885]
