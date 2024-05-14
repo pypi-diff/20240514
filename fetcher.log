@@ -2221,3 +2221,60 @@
 [2024-05-14 02:02:43] INFO root fetch - processPackages [lytils]: Remove: archive file [/home/abi/fetcher/tmp/lytils-0.1.9.tar.gz]
 [2024-05-14 02:02:43] INFO root fetch - main [MainThread]: End processing [lytils]: success
 [2024-05-14 02:02:43] INFO root fetch - main [MainThread]: Store serial: [23192703]
+[2024-05-14 02:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192703]
+[2024-05-14 02:04:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-edge-torch
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: workforce
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mct-nightly
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: abstract-shapes
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-14 02:04:52] INFO root fetch - processPackages [workforce]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 02:04:52] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:04:52] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240513.419] Old Version: [2.0.0.20240512.446]
+[2024-05-14 02:04:52] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/55/59/53be4a44d778aa9a2e2b63afe372493a11a17d0ed224ed95cc5a778fbc89/workforce-1.0.8.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ai-edge-torch]: New version: [0.dev202405131354] Old Version: [0.1.1]
+[2024-05-14 02:04:52] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-14 02:04:52] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/34/f6/7c3d018daa5d2477263ccd9a71ec2ccbe9223e42b85d31bfd5dda24a75c5/mct-nightly-2.0.0.20240512.446.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [workforce]: Downloading https://files.pythonhosted.org/packages/2d/19/86805c3946865872d10ea1e4ee5d133e7a8a82b698617f1b47e9b91cb517/workforce-1.0.9.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/a4/d1/b2cd1915f7ce7c4011fd60ed2c3d55c00dae877673c5496e03707472815b/ai_edge_torch-0.1.1-py3-none-any.whl
+[2024-05-14 02:04:52] INFO root fetch - processPackages [workforce]: executing diffoscope
+[2024-05-14 02:04:52] INFO root fetch - processPackages [workforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/workforce-1.0.8.tar.gz tmp/workforce-1.0.9.tar.gz --markdown 20240514/w/workforce/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 02:04:52] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-14 02:04:52] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:04:52] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:04:52] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ee/f4/de7ad47df36ac79c7ad05b53336b2a7d75ac547540468eeb005df0dfaaba/mct-nightly-2.0.0.20240513.419.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-14 02:04:52] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-05-14 02:04:52] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240512.446.tar.gz tmp/mct-nightly-2.0.0.20240513.419.tar.gz --markdown 20240514/m/mct-nightly/2.0.0.20240512.446-2.0.0.20240513.419/README.md --exclude *.pyd
+[2024-05-14 02:04:52] INFO root fetch - processPackages [ai-edge-torch]: Downloading https://files.pythonhosted.org/packages/c4/48/90191fd0f17d9b66f145bd0c52e7a3b51167853bcb78880f88853bbfc9db/ai_edge_torch-0.dev202405131354-py3-none-any.whl
+[2024-05-14 02:04:53] INFO root fetch - processPackages [ai-edge-torch]: executing diffoscope
+[2024-05-14 02:04:53] INFO root fetch - processPackages [ai-edge-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_edge_torch-0.1.1-py3-none-any.whl.zip tmp/ai_edge_torch-0.dev202405131354-py3-none-any.whl.zip --markdown 20240514/a/ai-edge-torch/0.1.1-0.dev202405131354/README.md --exclude *.pyd
+[2024-05-14 02:04:53] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-14 02:04:53] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:04:53] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:04:53] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:04:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-14 02:04:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-14 02:04:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240514/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-14 02:04:53] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.8.tar.gz]
+[2024-05-14 02:04:53] INFO root fetch - processPackages [workforce]: Remove: archive file [/home/abi/fetcher/tmp/workforce-1.0.9.tar.gz]
+[2024-05-14 02:04:53] INFO root fetch - main [MainThread]: End processing [workforce]: success
+[2024-05-14 02:04:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-14 02:04:53] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-14 02:04:53] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-14 02:04:54] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.1.1-py3-none-any.whl.zip]
+[2024-05-14 02:04:54] INFO root fetch - processPackages [ai-edge-torch]: Remove: archive file [/home/abi/fetcher/tmp/ai_edge_torch-0.dev202405131354-py3-none-any.whl.zip]
+[2024-05-14 02:04:54] INFO root fetch - main [MainThread]: End processing [ai-edge-torch]: success
+[2024-05-14 02:04:54] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-14 02:04:54] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-14 02:04:54] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240514/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-14 02:04:55] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240512.446.tar.gz]
+[2024-05-14 02:04:55] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240513.419.tar.gz]
+[2024-05-14 02:04:55] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-05-14 02:04:56] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-14 02:04:56] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-14 02:04:56] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-14 02:04:56] INFO root fetch - main [MainThread]: Store serial: [23192720]
