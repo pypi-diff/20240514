@@ -20282,3 +20282,48 @@
 [2024-05-14 13:13:50] INFO root fetch - processPackages [mistapi]: Remove: archive file [/home/abi/fetcher/tmp/mistapi-0.47.5.tar.gz]
 [2024-05-14 13:13:50] INFO root fetch - main [MainThread]: End processing [mistapi]: success
 [2024-05-14 13:13:50] INFO root fetch - main [MainThread]: Store serial: [23200116]
+[2024-05-14 13:15:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200116]
+[2024-05-14 13:15:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 13:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2024-05-14 13:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contact-location-local
+[2024-05-14 13:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sortipy
+[2024-05-14 13:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TraktorBuddy
+[2024-05-14 13:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nrel-bird
+[2024-05-14 13:15:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasalad
+[2024-05-14 13:15:59] INFO root fetch - processPackages [nrel-bird]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 13:15:59] WARNING root fetch - processPackages [datasalad]: Skipping, unable to determine old version
+[2024-05-14 13:15:59] INFO root fetch - main [MainThread]: End processing [datasalad] error
+[2024-05-14 13:15:59] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-05-14 13:15:59] INFO root fetch - processPackages [nrel-bird]: Downloading https://files.pythonhosted.org/packages/ff/c2/01ac987ee98d014f7b041ac96ef27e15814477a5a7be10a493ace8081b2c/nrel_bird-0.0.7.tar.gz
+[2024-05-14 13:15:59] INFO root fetch - processPackages [sortipy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 13:15:59] INFO root fetch - processPackages [contact-location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 13:15:59] WARNING root fetch - processPackages [TraktorBuddy]: Skipping, unable to determine old version
+[2024-05-14 13:15:59] INFO root fetch - main [MainThread]: End processing [TraktorBuddy] error
+[2024-05-14 13:15:59] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-05-14 13:16:00] INFO root fetch - processPackages [nrel-bird]: Downloading https://files.pythonhosted.org/packages/d6/80/b0eefeb60aea1e8905373edd338e188c1ef407a43ccf1c4d2b09269d86f9/nrel_bird-0.0.8.tar.gz
+[2024-05-14 13:16:00] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/2f/0c/a80370d5a9bb7d4535cdfd68c9e49af2fc39ef7974e7a123bd9fcc9ad854/contact-location-local-0.0.8.tar.gz
+[2024-05-14 13:16:00] INFO root fetch - processPackages [sortipy]: Downloading https://files.pythonhosted.org/packages/cb/54/7bb2de82d16e36115c2542db2d488aed754245387ca5151647a248ed6d6e/sortipy-0.0.1.tar.gz
+[2024-05-14 13:16:00] INFO root fetch - processPackages [nrel-bird]: executing diffoscope
+[2024-05-14 13:16:00] INFO root fetch - processPackages [nrel-bird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrel_bird-0.0.7.tar.gz tmp/nrel_bird-0.0.8.tar.gz --markdown 20240514/n/nrel-bird/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 13:16:00] INFO root fetch - processPackages [sortipy]: Downloading https://files.pythonhosted.org/packages/6d/14/20994acf7b6d70b95d098034bd4b677b89b1d50281b3c303a6584bbfe875/sortipy-0.0.2.tar.gz
+[2024-05-14 13:16:00] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-05-14 13:16:00] INFO root fetch - processPackages [contact-location-local]: Downloading https://files.pythonhosted.org/packages/17/5e/49b98779429d62238b93acafaaf4d268506159b2d1d0246a13b4e42b474d/contact-location-local-0.0.9.tar.gz
+[2024-05-14 13:16:00] INFO root fetch - processPackages [sortipy]: executing diffoscope
+[2024-05-14 13:16:00] INFO root fetch - processPackages [sortipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortipy-0.0.1.tar.gz tmp/sortipy-0.0.2.tar.gz --markdown 20240514/s/sortipy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 13:16:00] INFO root fetch - processPackages [contact-location-local]: executing diffoscope
+[2024-05-14 13:16:00] INFO root fetch - processPackages [contact-location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-location-local-0.0.8.tar.gz tmp/contact-location-local-0.0.9.tar.gz --markdown 20240514/c/contact-location-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 13:16:00] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-05-14 13:16:00] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240514/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/README.md --exclude *.pyd
+[2024-05-14 13:16:01] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.8.tar.gz]
+[2024-05-14 13:16:01] INFO root fetch - processPackages [contact-location-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-location-local-0.0.9.tar.gz]
+[2024-05-14 13:16:01] INFO root fetch - main [MainThread]: End processing [contact-location-local]: success
+[2024-05-14 13:16:01] INFO root fetch - processPackages [nrel-bird]: Remove: archive file [/home/abi/fetcher/tmp/nrel_bird-0.0.7.tar.gz]
+[2024-05-14 13:16:01] INFO root fetch - processPackages [nrel-bird]: Remove: archive file [/home/abi/fetcher/tmp/nrel_bird-0.0.8.tar.gz]
+[2024-05-14 13:16:01] INFO root fetch - main [MainThread]: End processing [nrel-bird]: success
+[2024-05-14 13:16:01] INFO root fetch - processPackages [sortipy]: Remove: archive file [/home/abi/fetcher/tmp/sortipy-0.0.1.tar.gz]
+[2024-05-14 13:16:01] INFO root fetch - processPackages [sortipy]: Remove: archive file [/home/abi/fetcher/tmp/sortipy-0.0.2.tar.gz]
+[2024-05-14 13:16:01] INFO root fetch - main [MainThread]: End processing [sortipy]: success
+[2024-05-14 13:16:02] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-05-14 13:16:02] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-05-14 13:16:02] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-05-14 13:16:02] INFO root fetch - main [MainThread]: Store serial: [23200159]
