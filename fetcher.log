@@ -2846,3 +2846,60 @@
 [2024-05-14 02:27:06] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2024-05-14 02:27:06] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2024-05-14 02:27:06] INFO root fetch - main [MainThread]: Store serial: [23192941]
+[2024-05-14 02:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192941]
+[2024-05-14 02:29:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-05-14 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowee
+[2024-05-14 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-certbot-dns-route53
+[2024-05-14 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-aurora-globaldatabase
+[2024-05-14 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vistutils
+[2024-05-14 02:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trame-quasar
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-14 02:29:15] INFO root fetch - processPackages [trame-quasar]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 02:29:15] INFO root fetch - processPackages [flowee]: New version: [1.2] Old Version: [1.1]
+[2024-05-14 02:29:15] INFO root fetch - processPackages [vistutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/64/25/acbe9c39bcb1abafce169cb116556fc4465ca3bd66e6b5d2d9d058e83319/flowee-1.1.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [vistutils]: Downloading https://files.pythonhosted.org/packages/03/ab/4cec8e0c3fdfbe38de2cf19925a3540bca6347e9df74b83c06d7ef70bf56/vistutils-0.1.8.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [trame-quasar]: Downloading https://files.pythonhosted.org/packages/db/89/483dee67b4af683eacee5ffd5eae318cb03b29ab746f4aac5077552aebcf/trame-quasar-0.2.0.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240514/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240514/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-14 02:29:15] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240514/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-14 02:29:15] INFO root fetch - processPackages [vistutils]: Downloading https://files.pythonhosted.org/packages/b6/b2/2ba6145790f8f33dc77703df6cfa0dbe27354032a5e534b93d69337ca6c7/vistutils-0.1.9.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/86/f4/907af52013c1464ca388873b69af646ec2b4b581585b867a80850421e1bf/flowee-1.2.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [trame-quasar]: Downloading https://files.pythonhosted.org/packages/de/7d/c28fdc9ae505ce51cb895a956d5d46408abb69e113cabb9db13feee14ae5/trame-quasar-0.2.1.tar.gz
+[2024-05-14 02:29:15] INFO root fetch - processPackages [vistutils]: executing diffoscope
+[2024-05-14 02:29:15] INFO root fetch - processPackages [vistutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vistutils-0.1.8.tar.gz tmp/vistutils-0.1.9.tar.gz --markdown 20240514/v/vistutils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 02:29:16] INFO root fetch - processPackages [flowee]: executing diffoscope
+[2024-05-14 02:29:16] INFO root fetch - processPackages [flowee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowee-1.1.tar.gz tmp/flowee-1.2.tar.gz --markdown 20240514/f/flowee/1.1-1.2/README.md --exclude *.pyd
+[2024-05-14 02:29:16] INFO root fetch - processPackages [trame-quasar]: executing diffoscope
+[2024-05-14 02:29:16] INFO root fetch - processPackages [trame-quasar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-quasar-0.2.0.tar.gz tmp/trame-quasar-0.2.1.tar.gz --markdown 20240514/t/trame-quasar/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 02:29:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-14 02:29:16] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-14 02:29:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-14 02:29:16] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.8.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - processPackages [vistutils]: Remove: archive file [/home/abi/fetcher/tmp/vistutils-0.1.9.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - main [MainThread]: End processing [vistutils]: success
+[2024-05-14 02:29:16] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.1.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.2.tar.gz]
+[2024-05-14 02:29:16] INFO root fetch - main [MainThread]: End processing [flowee]: success
+[2024-05-14 02:29:17] INFO root fetch - processPackages [trame-quasar]: Remove: archive file [/home/abi/fetcher/tmp/trame-quasar-0.2.0.tar.gz]
+[2024-05-14 02:29:17] INFO root fetch - processPackages [trame-quasar]: Remove: archive file [/home/abi/fetcher/tmp/trame-quasar-0.2.1.tar.gz]
+[2024-05-14 02:29:17] INFO root fetch - main [MainThread]: End processing [trame-quasar]: success
+[2024-05-14 02:29:17] INFO root fetch - main [MainThread]: Store serial: [23192958]
