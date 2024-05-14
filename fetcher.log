@@ -11875,3 +11875,45 @@
 [2024-05-14 08:19:15] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240514.tar.gz]
 [2024-05-14 08:19:15] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-05-14 08:19:15] INFO root fetch - main [MainThread]: Store serial: [23196483]
+[2024-05-14 08:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196483]
+[2024-05-14 08:21:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 08:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2024-05-14 08:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jccrypto
+[2024-05-14 08:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graas-observability-utility
+[2024-05-14 08:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pxutil
+[2024-05-14 08:21:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simulaix
+[2024-05-14 08:21:33] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-14 08:21:33] INFO root fetch - processPackages [jccrypto]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 08:21:33] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240513.370] Old Version: [0.44.20240513.369]
+[2024-05-14 08:21:33] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/61/e8/d28cfc9e0252d20e9e9a26056e8384088160927449ef6e4823c974cde418/graas-observability-utility-1.6.2.tar.gz
+[2024-05-14 08:21:33] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/e7/21/5ecc343857fd211810c43938dba53b3a1f9c10ddbc98f6478d6825576547/pkscreener-0.44.20240513.369.tar.gz
+[2024-05-14 08:21:33] INFO root fetch - processPackages [pxutil]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:21:33] WARNING root fetch - processPackages [simulaix]: Skipping, unable to determine old version
+[2024-05-14 08:21:33] INFO root fetch - main [MainThread]: End processing [simulaix] error
+[2024-05-14 08:21:33] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/e1/d4/fcc17e6cdbf0076fed6f4994f2ba99dfe4dcd9d1e8c989eaf7cbd5765477/jccrypto-1.0.0-py3-none-any.whl
+[2024-05-14 08:21:33] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/35/e7/672c8283ca92e4d7236866f44e76fcd344ade7c5a159aa244e69bce6bad1/graas-observability-utility-1.6.3.tar.gz
+[2024-05-14 08:21:33] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/08/08/a20d5bafe5968608bb243365578c4b4de4dc08e5854c8490951b1e38dcab/pxutil-0.0.8.tar.gz
+[2024-05-14 08:21:33] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-05-14 08:21:33] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.6.2.tar.gz tmp/graas-observability-utility-1.6.3.tar.gz --markdown 20240514/g/graas-observability-utility/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-14 08:21:33] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/ad/27/c9b08fc72fc0ac1ee3ff9a14c0e4518f112d5d697a099fd031ccb7a8a11f/jccrypto-1.0.1-py3-none-any.whl
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/d8/70/196238a26b6ddf5d3c0962f500f0e5191541134e412f17f56a4c3f1f8974/pkscreener-0.44.20240513.370.tar.gz
+[2024-05-14 08:21:34] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-14 08:21:34] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.0.0-py3-none-any.whl.zip tmp/jccrypto-1.0.1-py3-none-any.whl.zip --markdown 20240514/j/jccrypto/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240513.369.tar.gz tmp/pkscreener-0.44.20240513.370.tar.gz --markdown 20240514/p/pkscreener/0.44.20240513.369-0.44.20240513.370/README.md --exclude *.pyd
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pxutil]: Downloading https://files.pythonhosted.org/packages/90/df/f60fc33beb2bac107f453dbd7493779ff1208cbe453c0c76ddf0888645ff/pxutil-0.0.9.tar.gz
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pxutil]: executing diffoscope
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pxutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pxutil-0.0.8.tar.gz tmp/pxutil-0.0.9.tar.gz --markdown 20240514/p/pxutil/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:21:34] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.2.tar.gz]
+[2024-05-14 08:21:34] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.3.tar.gz]
+[2024-05-14 08:21:34] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-05-14 08:21:34] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.0-py3-none-any.whl.zip]
+[2024-05-14 08:21:34] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.1-py3-none-any.whl.zip]
+[2024-05-14 08:21:34] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240513.369.tar.gz]
+[2024-05-14 08:21:34] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240513.370.tar.gz]
+[2024-05-14 08:21:34] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-14 08:21:35] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.8.tar.gz]
+[2024-05-14 08:21:35] INFO root fetch - processPackages [pxutil]: Remove: archive file [/home/abi/fetcher/tmp/pxutil-0.0.9.tar.gz]
+[2024-05-14 08:21:35] INFO root fetch - main [MainThread]: End processing [pxutil]: success
+[2024-05-14 08:21:35] INFO root fetch - main [MainThread]: Store serial: [23196494]
