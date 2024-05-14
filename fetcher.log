@@ -8303,3 +8303,27 @@
 [2024-05-14 04:45:01] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev5-py3-none-any.whl.zip]
 [2024-05-14 04:45:01] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-asset-batch-compute]: success
 [2024-05-14 04:45:01] INFO root fetch - main [MainThread]: Store serial: [23195020]
+[2024-05-14 04:47:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195020]
+[2024-05-14 04:47:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-account-asset-batch-compute
+[2024-05-14 04:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: support-toolbox
+[2024-05-14 04:47:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangowiz
+[2024-05-14 04:47:09] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: New version: [13.0.1.0.1.dev5] Old Version: [13.0.1.0.1.dev3]
+[2024-05-14 04:47:09] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: Downloading https://files.pythonhosted.org/packages/b1/17/c484003dd4c9e769a74d2cc2ebbb0d5db340a590e40036976cd3d5015ebf/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev3-py3-none-any.whl
+[2024-05-14 04:47:09] INFO root fetch - processPackages [support-toolbox]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 04:47:09] WARNING root fetch - processPackages [djangowiz]: Skipping, unable to determine old version
+[2024-05-14 04:47:09] INFO root fetch - main [MainThread]: End processing [djangowiz] error
+[2024-05-14 04:47:10] INFO root fetch - processPackages [support-toolbox]: Downloading https://files.pythonhosted.org/packages/97/d8/9521644185e04d3b7ed20baa95519553d10c1c8173b6bb8a11c9d843a97d/support-toolbox-0.9.0.tar.gz
+[2024-05-14 04:47:10] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: Downloading https://files.pythonhosted.org/packages/ca/43/ca22b4ad6addf3fe2764811d0e27b66be3ee4ae46027da1fe82c4de5a8a3/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev5-py3-none-any.whl
+[2024-05-14 04:47:10] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: executing diffoscope
+[2024-05-14 04:47:10] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20240514/o/odoo13-addon-account-asset-batch-compute/13.0.1.0.1.dev3-13.0.1.0.1.dev5/README.md --exclude *.pyd
+[2024-05-14 04:47:10] INFO root fetch - processPackages [support-toolbox]: Downloading https://files.pythonhosted.org/packages/ee/cc/c066da6874526baaf6490863ddb6e03e6f3edb49d639e6735cc3824dc688/support-toolbox-0.9.1.tar.gz
+[2024-05-14 04:47:10] INFO root fetch - processPackages [support-toolbox]: executing diffoscope
+[2024-05-14 04:47:10] INFO root fetch - processPackages [support-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/support-toolbox-0.9.0.tar.gz tmp/support-toolbox-0.9.1.tar.gz --markdown 20240514/s/support-toolbox/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 04:47:10] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-05-14 04:47:10] INFO root fetch - processPackages [odoo13-addon-account-asset-batch-compute]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_account_asset_batch_compute-13.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2024-05-14 04:47:10] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-asset-batch-compute]: success
+[2024-05-14 04:47:11] INFO root fetch - processPackages [support-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/support-toolbox-0.9.0.tar.gz]
+[2024-05-14 04:47:11] INFO root fetch - processPackages [support-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/support-toolbox-0.9.1.tar.gz]
+[2024-05-14 04:47:11] INFO root fetch - main [MainThread]: End processing [support-toolbox]: success
+[2024-05-14 04:47:11] INFO root fetch - main [MainThread]: Store serial: [23195031]
