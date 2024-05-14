@@ -3213,3 +3213,27 @@
 [2024-05-14 02:45:45] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405130044.tar.gz]
 [2024-05-14 02:45:45] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-14 02:45:45] INFO root fetch - main [MainThread]: Store serial: [23193138]
+[2024-05-14 02:47:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193138]
+[2024-05-14 02:47:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 02:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scarilyz
+[2024-05-14 02:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2024-05-14 02:47:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-05-14 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-14 02:47:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-05-14 02:47:55] WARNING root fetch - processPackages [scarilyz]: Skipping, unable to determine old version
+[2024-05-14 02:47:55] INFO root fetch - main [MainThread]: End processing [scarilyz] error
+[2024-05-14 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-14 02:47:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-05-14 02:47:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-05-14 02:47:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-05-14 02:47:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240514/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/README.md --exclude *.pyd
+[2024-05-14 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-14 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-14 02:47:55] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240514/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-14 02:47:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-05-14 02:47:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-05-14 02:47:56] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-05-14 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-14 02:47:56] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-14 02:47:56] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-14 02:47:56] INFO root fetch - main [MainThread]: Store serial: [23193158]
