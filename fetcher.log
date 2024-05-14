@@ -16176,3 +16176,81 @@
 [2024-05-14 10:59:50] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1540-py3-none-any.whl.zip]
 [2024-05-14 10:59:50] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-05-14 10:59:50] INFO root fetch - main [MainThread]: Store serial: [23198389]
+[2024-05-14 11:02:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198389]
+[2024-05-14 11:02:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: projen
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotwin_gmglib
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tftui
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: minecraft-python
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: carbon-registry-indexer
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coolbg
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: obs-waykey
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-14 11:02:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: argparsenv
+[2024-05-14 11:02:06] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-14 11:02:06] WARNING root fetch - processPackages [argparsenv]: Skipping, unable to determine old version
+[2024-05-14 11:02:06] INFO root fetch - main [MainThread]: End processing [argparsenv] error
+[2024-05-14 11:02:06] INFO root fetch - processPackages [autotwin_gmglib]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/39/ca/4ea2a28f9aef7588ed16512ca0fa1b59028b51403b0dacda7e43f854ac94/nonebot_plugin_tetris_stats-1.1.5.tar.gz
+[2024-05-14 11:02:06] INFO root fetch - processPackages [obs-waykey]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [tftui]: New version: [0.9] Old Version: [0.8]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-14 11:02:06] INFO root fetch - processPackages [minecraft-python]: New version: [161348] Old Version: [160052.post1]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [projen]: New version: [0.81.9] Old Version: [0.81.8]
+[2024-05-14 11:02:06] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-14 11:02:06] INFO root fetch - processPackages [autotwin_gmglib]: Downloading https://files.pythonhosted.org/packages/1c/34/5a8a584c9d5339fc23d8eccf5f0c8f14fd0a46ccdf87e84e39f8cc792e09/autotwin_gmglib-0.0.6.tar.gz
+[2024-05-14 11:02:06] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/d4/d1/4c3c70afef2528484ac54a7b5a17ec7ebf1e59972e9031edf1a021cd1064/nonebot_plugin_tetris_stats-1.2.0.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [obs-waykey]: Downloading https://files.pythonhosted.org/packages/b3/0f/e8aeb7610330c71ae8342833c95428eaf47829f6876f271c027179f9bc31/obs_waykey-0.1.0.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/07/0e/e2c47460cb0215e7aae18d4d4c18cbbe95dac793324cf3a234c6833a5c7c/tftui-0.8.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/4b/31/bf570dab08d95ac9abbbab18f809884e587e2af5268a894ffbbf7d520527/minecraft-python-160052.post1.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/1e/71c5fe5e0fe91b950d1c1b54ec57fee6ad64f50810fed74f469dfdd21a79/projen-0.81.8.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240514/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-14 11:02:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.1.5.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.0.tar.gz --markdown 20240514/n/nonebot-plugin-tetris-stats/1.1.5-1.2.0/README.md --exclude *.pyd
+[2024-05-14 11:02:07] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240514/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:02:07] INFO root fetch - processPackages [autotwin_gmglib]: Downloading https://files.pythonhosted.org/packages/b7/4d/9a6e6d49fba43e8ee520cd5dd84b95f14905bc99193c2f5c8b4e45a38f4c/autotwin_gmglib-0.1.0.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [obs-waykey]: Downloading https://files.pythonhosted.org/packages/9a/f7/a620b2e2817fedf3e7d8abf86af89fde5cbac27591a591204844f515192c/obs_waykey-0.1.1.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [minecraft-python]: Downloading https://files.pythonhosted.org/packages/bb/96/2ce2d27777f3528c850f0870857dbb187977b7a1d0a34dcbf43075bf5e4c/minecraft-python-161348.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [obs-waykey]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [obs-waykey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs_waykey-0.1.0.tar.gz tmp/obs_waykey-0.1.1.tar.gz --markdown 20240514/o/obs-waykey/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 11:02:07] INFO root fetch - processPackages [tftui]: Downloading https://files.pythonhosted.org/packages/fb/f4/6132cfd40b797a6f137e46a9b1c148912acbaf7c522f20c755d1a193ddbb/tftui-0.9.tar.gz
+[2024-05-14 11:02:07] INFO root fetch - processPackages [autotwin_gmglib]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [autotwin_gmglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotwin_gmglib-0.0.6.tar.gz tmp/autotwin_gmglib-0.1.0.tar.gz --markdown 20240514/a/autotwin_gmglib/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-14 11:02:07] INFO root fetch - processPackages [minecraft-python]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [minecraft-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraft-python-160052.post1.tar.gz tmp/minecraft-python-161348.tar.gz --markdown 20240514/m/minecraft-python/160052.post1-161348/README.md --exclude *.pyd
+[2024-05-14 11:02:07] INFO root fetch - processPackages [tftui]: executing diffoscope
+[2024-05-14 11:02:07] INFO root fetch - processPackages [tftui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tftui-0.8.tar.gz tmp/tftui-0.9.tar.gz --markdown 20240514/t/tftui/0.8-0.9/README.md --exclude *.pyd
+[2024-05-14 11:02:08] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-14 11:02:08] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/a4/bd/42ccbdcec141a68fd1ef11c16c2ec702d07f65b9a004736eba33473e8cdd/projen-0.81.9.tar.gz
+[2024-05-14 11:02:08] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-14 11:02:08] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.1.5.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.0.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-14 11:02:08] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-05-14 11:02:08] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.81.8.tar.gz tmp/projen-0.81.9.tar.gz --markdown 20240514/p/projen/0.81.8-0.81.9/README.md --exclude *.pyd
+[2024-05-14 11:02:08] INFO root fetch - processPackages [autotwin_gmglib]: Remove: archive file [/home/abi/fetcher/tmp/autotwin_gmglib-0.0.6.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [autotwin_gmglib]: Remove: archive file [/home/abi/fetcher/tmp/autotwin_gmglib-0.1.0.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [autotwin_gmglib]: success
+[2024-05-14 11:02:08] INFO root fetch - processPackages [obs-waykey]: Remove: archive file [/home/abi/fetcher/tmp/obs_waykey-0.1.0.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [obs-waykey]: Remove: archive file [/home/abi/fetcher/tmp/obs_waykey-0.1.1.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [obs-waykey]: success
+[2024-05-14 11:02:08] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.8.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [tftui]: Remove: archive file [/home/abi/fetcher/tmp/tftui-0.9.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [tftui]: success
+[2024-05-14 11:02:08] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-160052.post1.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - processPackages [minecraft-python]: Remove: archive file [/home/abi/fetcher/tmp/minecraft-python-161348.tar.gz]
+[2024-05-14 11:02:08] INFO root fetch - main [MainThread]: End processing [minecraft-python]: success
+[2024-05-14 11:02:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.8.tar.gz]
+[2024-05-14 11:02:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
+[2024-05-14 11:02:09] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-05-14 11:02:09] INFO root fetch - main [MainThread]: Store serial: [23198444]
