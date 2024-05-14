@@ -21039,3 +21039,33 @@
 [2024-05-14 13:40:38] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
 [2024-05-14 13:40:38] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
 [2024-05-14 13:40:38] INFO root fetch - main [MainThread]: Store serial: [23200460]
+[2024-05-14 13:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200460]
+[2024-05-14 13:42:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 13:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-filewrap
+[2024-05-14 13:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dagster-toolbox
+[2024-05-14 13:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightswitch_kr
+[2024-05-14 13:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: queue-kv
+[2024-05-14 13:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fish-util
+[2024-05-14 13:42:48] INFO root fetch - processPackages [dagster-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 13:42:48] WARNING root fetch - processPackages [fish-util]: Skipping, unable to determine old version
+[2024-05-14 13:42:48] INFO root fetch - main [MainThread]: End processing [fish-util] error
+[2024-05-14 13:42:48] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/81/cc/33840416f22e9cedd1d0dcbedc15117fe3695e9ddd263039c591c0dd4efa/dagster-toolbox-0.0.8.tar.gz
+[2024-05-14 13:42:48] WARNING root fetch - processPackages [python-filewrap]: Skipping, unable to determine old version
+[2024-05-14 13:42:48] INFO root fetch - main [MainThread]: End processing [python-filewrap] error
+[2024-05-14 13:42:48] WARNING root fetch - processPackages [lightswitch_kr]: Skipping, unable to determine old version
+[2024-05-14 13:42:48] INFO root fetch - main [MainThread]: End processing [lightswitch_kr] error
+[2024-05-14 13:42:48] INFO root fetch - processPackages [queue-kv]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 13:42:48] INFO root fetch - processPackages [queue-kv]: Downloading https://files.pythonhosted.org/packages/df/ff/352e1d510cd026006d216ce2b5e04746ddd5ee2f595ef83b5d237afaa3b0/queue_kv-0.1.5.tar.gz
+[2024-05-14 13:42:48] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/6b/b9a026c41f2d2b39ba0fcb5ab35c4d26a67f87fe2e7701a3c0d492d27289/dagster-toolbox-0.0.9.tar.gz
+[2024-05-14 13:42:48] INFO root fetch - processPackages [dagster-toolbox]: executing diffoscope
+[2024-05-14 13:42:48] INFO root fetch - processPackages [dagster-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-toolbox-0.0.8.tar.gz tmp/dagster-toolbox-0.0.9.tar.gz --markdown 20240514/d/dagster-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 13:42:48] INFO root fetch - processPackages [queue-kv]: Downloading https://files.pythonhosted.org/packages/ed/c4/072b7dd362ab98cd9be056768b16970576d68a18b22ae47df9dc23942dce/queue_kv-0.1.6.tar.gz
+[2024-05-14 13:42:48] INFO root fetch - processPackages [queue-kv]: executing diffoscope
+[2024-05-14 13:42:48] INFO root fetch - processPackages [queue-kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queue_kv-0.1.5.tar.gz tmp/queue_kv-0.1.6.tar.gz --markdown 20240514/q/queue-kv/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 13:42:49] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.8.tar.gz]
+[2024-05-14 13:42:49] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.9.tar.gz]
+[2024-05-14 13:42:49] INFO root fetch - main [MainThread]: End processing [dagster-toolbox]: success
+[2024-05-14 13:42:49] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.5.tar.gz]
+[2024-05-14 13:42:49] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.6.tar.gz]
+[2024-05-14 13:42:49] INFO root fetch - main [MainThread]: End processing [queue-kv]: success
+[2024-05-14 13:42:49] INFO root fetch - main [MainThread]: Store serial: [23200480]
