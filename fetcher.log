@@ -11516,3 +11516,50 @@
 [2024-05-14 08:07:22] INFO root fetch - processPackages [sharrow]: Remove: archive file [/home/abi/fetcher/tmp/sharrow-2.9.0.tar.gz]
 [2024-05-14 08:07:22] INFO root fetch - main [MainThread]: End processing [sharrow]: success
 [2024-05-14 08:07:22] INFO root fetch - main [MainThread]: Store serial: [23196294]
+[2024-05-14 08:09:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196294]
+[2024-05-14 08:09:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidyxbrl
+[2024-05-14 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpkg3322
+[2024-05-14 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duckdb
+[2024-05-14 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-sale-workflow
+[2024-05-14 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-force-invoiced
+[2024-05-14 08:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mpd-now-playable
+[2024-05-14 08:09:31] INFO root fetch - processPackages [tidyxbrl]: New version: [1.1.0] Old Version: [1.0.5]
+[2024-05-14 08:09:31] INFO root fetch - processPackages [mpd-now-playable]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-14 08:09:31] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/22/ff/881b71bf7c77623c87dc82543662bc23822c37fefa87b61926627ebf353c/tidyxbrl-1.0.5.tar.gz
+[2024-05-14 08:09:31] INFO root fetch - processPackages [mpd-now-playable]: Downloading https://files.pythonhosted.org/packages/8c/45/1840e4dacad96bb1a8012bb5c23691d1bc70a2af13af9c9be19920bd7193/mpd_now_playable-1.1.0.tar.gz
+[2024-05-14 08:09:31] WARNING root fetch - processPackages [testpkg3322]: Skipping, unable to determine old version
+[2024-05-14 08:09:31] INFO root fetch - main [MainThread]: End processing [testpkg3322] error
+[2024-05-14 08:09:31] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20240502.1] Old Version: [16.0.20240213.0]
+[2024-05-14 08:09:31] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.1.0.4] Old Version: [17.0.1.1.0.3]
+[2024-05-14 08:09:31] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/e6/9d/df5e0ce3613ec4510ce7cc5e8bcca93c415b973b0fdca158d2ea701d2a3c/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl
+[2024-05-14 08:09:31] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/31/55/e9dc6ac194ed65f0eefe8485f3ea057dc9359500aac32f137c57ca83bbc0/odoo_addon_sale_force_invoiced-17.0.1.1.0.3-py3-none-any.whl
+[2024-05-14 08:09:31] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/84/d6/810ec6f2dcaeca43de812b314a3b4f723218acb1c51f2b00f20607bbbf46/tidyxbrl-1.1.0.tar.gz
+[2024-05-14 08:09:31] INFO root fetch - processPackages [mpd-now-playable]: Downloading https://files.pythonhosted.org/packages/2b/d3/89b48e9498ddde1debc25ad8a36790ddc45bb7b90d834d056ae36c30e46f/mpd_now_playable-1.1.1.tar.gz
+[2024-05-14 08:09:31] INFO root fetch - processPackages [tidyxbrl]: executing diffoscope
+[2024-05-14 08:09:31] INFO root fetch - processPackages [tidyxbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyxbrl-1.0.5.tar.gz tmp/tidyxbrl-1.1.0.tar.gz --markdown 20240514/t/tidyxbrl/1.0.5-1.1.0/README.md --exclude *.pyd
+[2024-05-14 08:09:31] INFO root fetch - processPackages [duckdb]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-14 08:09:31] INFO root fetch - processPackages [mpd-now-playable]: executing diffoscope
+[2024-05-14 08:09:31] INFO root fetch - processPackages [mpd-now-playable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpd_now_playable-1.1.0.tar.gz tmp/mpd_now_playable-1.1.1.tar.gz --markdown 20240514/m/mpd-now-playable/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-14 08:09:31] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/31/4c/d8c9cdfc8008f70734e45fbf0fbc56b0a5fd43d68502ceb09cc93a379aae/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl
+[2024-05-14 08:09:31] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/31/3d/163b2ea43dada577af8fb1d3062ef3bcdb67a172374847a71db194270694/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl
+[2024-05-14 08:09:32] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/83/36/ea553454969fa7f356555da1ffcf31acc82172548be77278159002d34514/duckdb-0.9.1.tar.gz
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip --markdown 20240514/o/odoo-addons-oca-sale-workflow/16.0.20240213.0-16.0.20240502.1/README.md --exclude *.pyd
+[2024-05-14 08:09:32] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10640161>=10485760
+[2024-05-14 08:09:32] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-sale-force-invoiced/17.0.1.1.0.3-17.0.1.1.0.4/README.md --exclude *.pyd
+[2024-05-14 08:09:32] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.5.tar.gz]
+[2024-05-14 08:09:32] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.1.0.tar.gz]
+[2024-05-14 08:09:32] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
+[2024-05-14 08:09:32] INFO root fetch - processPackages [mpd-now-playable]: Remove: archive file [/home/abi/fetcher/tmp/mpd_now_playable-1.1.0.tar.gz]
+[2024-05-14 08:09:32] INFO root fetch - processPackages [mpd-now-playable]: Remove: archive file [/home/abi/fetcher/tmp/mpd_now_playable-1.1.1.tar.gz]
+[2024-05-14 08:09:32] INFO root fetch - main [MainThread]: End processing [mpd-now-playable]: success
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240213.0-py3-none-any.whl.zip]
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20240502.1-py3-none-any.whl.zip]
+[2024-05-14 08:09:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-14 08:09:32] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-14 08:09:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-05-14 08:09:32] INFO root fetch - main [MainThread]: Store serial: [23196321]
