@@ -12223,3 +12223,27 @@
 [2024-05-14 08:42:39] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.5.2.tar.gz]
 [2024-05-14 08:42:39] INFO root fetch - main [MainThread]: End processing [autopkg-wrapper]: success
 [2024-05-14 08:42:39] INFO root fetch - main [MainThread]: Store serial: [23196671]
+[2024-05-14 08:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196671]
+[2024-05-14 08:44:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-stock-logistics-workflow
+[2024-05-14 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: faceserve
+[2024-05-14 08:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filum-utils
+[2024-05-14 08:44:47] WARNING root fetch - processPackages [faceserve]: Skipping, unable to determine old version
+[2024-05-14 08:44:47] INFO root fetch - main [MainThread]: End processing [faceserve] error
+[2024-05-14 08:44:47] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: New version: [16.0.20240513.0] Old Version: [16.0.20240507.1]
+[2024-05-14 08:44:47] INFO root fetch - processPackages [filum-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 08:44:48] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/ee/67/26e47949ec92239bb92fe1a736d6e31e5f940bbfe132f26904d12a40a65b/odoo_addons_oca_stock_logistics_workflow-16.0.20240507.1-py3-none-any.whl
+[2024-05-14 08:44:48] INFO root fetch - processPackages [filum-utils]: Downloading https://files.pythonhosted.org/packages/78/35/96933d46034f0997d5136e61e643f945177213d6400bfe756a99862b7f04/filum-utils-0.1.8.tar.gz
+[2024-05-14 08:44:48] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Downloading https://files.pythonhosted.org/packages/0f/27/fd4a9aea3e7e2d96f6f86d1f9496a66bf2b2f2ccc06ea34a0e407744a2af/odoo_addons_oca_stock_logistics_workflow-16.0.20240513.0-py3-none-any.whl
+[2024-05-14 08:44:48] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: executing diffoscope
+[2024-05-14 08:44:48] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240507.1-py3-none-any.whl.zip tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240513.0-py3-none-any.whl.zip --markdown 20240514/o/odoo-addons-oca-stock-logistics-workflow/16.0.20240507.1-16.0.20240513.0/README.md --exclude *.pyd
+[2024-05-14 08:44:48] INFO root fetch - processPackages [filum-utils]: Downloading https://files.pythonhosted.org/packages/d6/c7/22f22ae0044dc243acdac4178015668c8c4b6b9c8f47935c46de1b4b8df7/filum-utils-0.1.9.tar.gz
+[2024-05-14 08:44:48] INFO root fetch - processPackages [filum-utils]: executing diffoscope
+[2024-05-14 08:44:48] INFO root fetch - processPackages [filum-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filum-utils-0.1.8.tar.gz tmp/filum-utils-0.1.9.tar.gz --markdown 20240514/f/filum-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 08:44:48] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240507.1-py3-none-any.whl.zip]
+[2024-05-14 08:44:48] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20240513.0-py3-none-any.whl.zip]
+[2024-05-14 08:44:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
+[2024-05-14 08:44:49] INFO root fetch - processPackages [filum-utils]: Remove: archive file [/home/abi/fetcher/tmp/filum-utils-0.1.8.tar.gz]
+[2024-05-14 08:44:49] INFO root fetch - processPackages [filum-utils]: Remove: archive file [/home/abi/fetcher/tmp/filum-utils-0.1.9.tar.gz]
+[2024-05-14 08:44:49] INFO root fetch - main [MainThread]: End processing [filum-utils]: success
+[2024-05-14 08:44:49] INFO root fetch - main [MainThread]: Store serial: [23196683]
