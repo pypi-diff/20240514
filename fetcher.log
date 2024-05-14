@@ -14017,3 +14017,72 @@
 [2024-05-14 09:50:06] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7397.tar.gz]
 [2024-05-14 09:50:06] INFO root fetch - main [MainThread]: End processing [netbluemind5]: success
 [2024-05-14 09:50:06] INFO root fetch - main [MainThread]: Store serial: [23197398]
+[2024-05-14 09:52:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197398]
+[2024-05-14 09:52:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CRUDFastAPI
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycaption
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyterhub-forwardbasespawner
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: omegi-python-instrumentation
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxalio-studio-tools
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-leaflet
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: core-pro
+[2024-05-14 09:52:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blastpipe
+[2024-05-14 09:52:17] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:52:17] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 09:52:17] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:52:17] INFO root fetch - processPackages [CRUDFastAPI]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 09:52:17] WARNING root fetch - processPackages [jupyter-leaflet]: Skipping, unable to determine old version
+[2024-05-14 09:52:17] INFO root fetch - main [MainThread]: End processing [jupyter-leaflet] error
+[2024-05-14 09:52:17] INFO root fetch - processPackages [blastpipe]: New version: [2024.7.3] Old Version: [2024.7.2]
+[2024-05-14 09:52:17] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/03/5e/0150fcb908e4707884e8fd58eec0a04cd90b5c00190844fbaa84143d8051/omegi-python-instrumentation-0.0.8.tar.gz
+[2024-05-14 09:52:17] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 09:52:17] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/66/b5/40e237aaad7799ed298d175b5e7a69e7eaca0e934dd1e19551c531d43e9e/cxalio_studio_tools-0.1.8.tar.gz
+[2024-05-14 09:52:17] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-05-14 09:52:17] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/bb/ce/5babfb0c79a595facf1a6c450b5d966e2b5195ac05a203f2deb3edbb24c9/crudfastapi-0.0.1-py3-none-any.whl
+[2024-05-14 09:52:17] INFO root fetch - processPackages [pycaption]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-05-14 09:52:17] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/44/15/7f0e092476481d1b2070e8795ee822359784b4597d91533134106e564425/blastpipe-2024.7.2.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/75/0a/c33def38c44b774fc481f2ae72c1010fecb2ee2461982d96d2c125faa7d3/pycaption-2.2.6.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Downloading https://files.pythonhosted.org/packages/37/33/b19cf109c41a8553e63f4e94587030cd961141837433d9779984aeb3deed/jupyterhub_forwardbasespawner-1.0.1.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/da/40/10d87fad2228e4d2cbfe295a19ddd36bf281c0e7375be7a1603222bd9e23/cxalio_studio_tools-0.1.9.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/aa/22/0c253ea38ed1d94d2fa45bebd1bfdcdc877608a7956d28a9825de81ec745/crudfastapi-0.0.2.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/f9/43/a09eb5e6d2e0518d98bbb03b6314f640ede567c97dc8937448d59b7ff8e6/omegi-python-instrumentation-0.0.9.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240514/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:52:18] INFO root fetch - processPackages [CRUDFastAPI]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [CRUDFastAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crudfastapi-0.0.1-py3-none-any.whl.zip tmp/crudfastapi-0.0.2.tar.gz --markdown 20240514/C/CRUDFastAPI/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 09:52:18] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi-python-instrumentation-0.0.8.tar.gz tmp/omegi-python-instrumentation-0.0.9.tar.gz --markdown 20240514/o/omegi-python-instrumentation/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:52:18] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/4f/69/465fb1a82ce4d28f8700a4f9b7be88f2efedd052905fc72db64f721f57f9/blastpipe-2024.7.3.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.8.tar.gz tmp/cxalio_studio_tools-0.1.9.tar.gz --markdown 20240514/c/cxalio-studio-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 09:52:18] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Downloading https://files.pythonhosted.org/packages/f7/4e/8254c2bdee42dda9012dcb9630a050159b4bcd47d7a44ee1ebb93218a2bd/jupyterhub_forwardbasespawner-1.0.2.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.7.2.tar.gz tmp/blastpipe-2024.7.3.tar.gz --markdown 20240514/b/blastpipe/2024.7.2-2024.7.3/README.md --exclude *.pyd
+[2024-05-14 09:52:18] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterhub_forwardbasespawner-1.0.1.tar.gz tmp/jupyterhub_forwardbasespawner-1.0.2.tar.gz --markdown 20240514/j/jupyterhub-forwardbasespawner/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 09:52:18] INFO root fetch - processPackages [pycaption]: Downloading https://files.pythonhosted.org/packages/89/1b/f97be1d062ff2e3af7e5068b7ef1543180eb666dace0b7c3caf7868bbd13/pycaption-2.2.7.tar.gz
+[2024-05-14 09:52:18] INFO root fetch - processPackages [pycaption]: executing diffoscope
+[2024-05-14 09:52:18] INFO root fetch - processPackages [pycaption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaption-2.2.6.tar.gz tmp/pycaption-2.2.7.tar.gz --markdown 20240514/p/pycaption/2.2.6-2.2.7/README.md --exclude *.pyd
+[2024-05-14 09:52:19] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.1-py3-none-any.whl.zip]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.2.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI]: success
+[2024-05-14 09:52:19] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.0.8.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.0.9.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-14 09:52:19] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-05-14 09:52:19] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.8.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.9.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-14 09:52:19] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_forwardbasespawner-1.0.1.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [jupyterhub-forwardbasespawner]: Remove: archive file [/home/abi/fetcher/tmp/jupyterhub_forwardbasespawner-1.0.2.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [jupyterhub-forwardbasespawner]: success
+[2024-05-14 09:52:19] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.6.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [pycaption]: Remove: archive file [/home/abi/fetcher/tmp/pycaption-2.2.7.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [pycaption]: success
+[2024-05-14 09:52:19] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.2.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.7.3.tar.gz]
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-14 09:52:19] INFO root fetch - main [MainThread]: Store serial: [23197432]
