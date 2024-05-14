@@ -16865,3 +16865,42 @@
 [2024-05-14 11:20:08] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
 [2024-05-14 11:20:08] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2024-05-14 11:20:08] INFO root fetch - main [MainThread]: Store serial: [23198667]
+[2024-05-14 11:22:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198667]
+[2024-05-14 11:22:32] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 11:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartlink-local
+[2024-05-14 11:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyutilkit
+[2024-05-14 11:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saes6-jerry
+[2024-05-14 11:22:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: byzerllm
+[2024-05-14 11:22:33] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:22:33] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.87]
+[2024-05-14 11:22:33] INFO root fetch - processPackages [saes6-jerry]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 11:22:33] INFO root fetch - processPackages [pyutilkit]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-14 11:22:33] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/54/80/c2d70b530b1c0b6a6af8fe654c40825ec6938b90c6850cfa89d64da38e70/byzerllm-0.1.87.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [pyutilkit]: Downloading https://files.pythonhosted.org/packages/ba/58/fe33450a251e1ded03cd0589b464ac493c1645fcfe4fa45f7bc76e400313/pyutilkit-0.2.0.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/29/d2/8d9909474719e5250aa9a2798624a304b927ab81ef44303776596219e4b3/saes6-jerry-0.0.4.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-14 11:22:33] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240514/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:22:33] INFO root fetch - processPackages [pyutilkit]: Downloading https://files.pythonhosted.org/packages/43/51/76e46fc4a14c7c3bd08200e9610c24c07c3d241f992c7b018fa993e0eaa8/pyutilkit-0.3.0.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [saes6-jerry]: Downloading https://files.pythonhosted.org/packages/d0/06/b670f1ac3d9a84e620d8c3b72a519003090bc2790441e10474991fb76063/saes6-jerry-0.0.5.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-05-14 11:22:33] INFO root fetch - processPackages [saes6-jerry]: executing diffoscope
+[2024-05-14 11:22:33] INFO root fetch - processPackages [saes6-jerry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saes6-jerry-0.0.4.tar.gz tmp/saes6-jerry-0.0.5.tar.gz --markdown 20240514/s/saes6-jerry/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 11:22:33] INFO root fetch - processPackages [pyutilkit]: executing diffoscope
+[2024-05-14 11:22:33] INFO root fetch - processPackages [pyutilkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutilkit-0.2.0.tar.gz tmp/pyutilkit-0.3.0.tar.gz --markdown 20240514/p/pyutilkit/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-14 11:22:34] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-14 11:22:34] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.87.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240514/b/byzerllm/0.1.87-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:22:34] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-14 11:22:34] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-14 11:22:34] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-14 11:22:34] INFO root fetch - processPackages [pyutilkit]: Remove: archive file [/home/abi/fetcher/tmp/pyutilkit-0.2.0.tar.gz]
+[2024-05-14 11:22:34] INFO root fetch - processPackages [pyutilkit]: Remove: archive file [/home/abi/fetcher/tmp/pyutilkit-0.3.0.tar.gz]
+[2024-05-14 11:22:34] INFO root fetch - main [MainThread]: End processing [pyutilkit]: success
+[2024-05-14 11:22:34] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.4.tar.gz]
+[2024-05-14 11:22:34] INFO root fetch - processPackages [saes6-jerry]: Remove: archive file [/home/abi/fetcher/tmp/saes6-jerry-0.0.5.tar.gz]
+[2024-05-14 11:22:34] INFO root fetch - main [MainThread]: End processing [saes6-jerry]: success
+[2024-05-14 11:22:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.87.tar.gz]
+[2024-05-14 11:22:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-05-14 11:22:36] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-14 11:22:36] INFO root fetch - main [MainThread]: Store serial: [23198676]
