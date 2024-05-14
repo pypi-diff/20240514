@@ -9832,3 +9832,36 @@
 [2024-05-14 06:17:07] INFO root fetch - processPackages [mwa-hyperbeam]: Remove: archive file [/home/abi/fetcher/tmp/mwa_hyperbeam-0.7.2-cp39-cp39-manylinux_2_35_x86_64.whl.zip]
 [2024-05-14 06:17:07] INFO root fetch - main [MainThread]: End processing [mwa-hyperbeam]: success
 [2024-05-14 06:17:07] INFO root fetch - main [MainThread]: Store serial: [23195589]
+[2024-05-14 06:19:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195589]
+[2024-05-14 06:19:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flux-local
+[2024-05-14 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-passman
+[2024-05-14 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchret
+[2024-05-14 06:19:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cancer-simulation
+[2024-05-14 06:19:22] INFO root fetch - processPackages [cancer-simulation]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-14 06:19:22] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/e7/15/c8b89ea3887b858527c2ac24c08b11a1456c66c5fa27531c58117e65ff5f/cancer_simulation-0.7.1.tar.gz
+[2024-05-14 06:19:22] WARNING root fetch - processPackages [torchret]: Skipping, unable to determine old version
+[2024-05-14 06:19:22] INFO root fetch - main [MainThread]: End processing [torchret] error
+[2024-05-14 06:19:22] INFO root fetch - processPackages [python-passman]: New version: [1.0.0] Old Version: [0.2]
+[2024-05-14 06:19:22] INFO root fetch - processPackages [flux-local]: New version: [5.3.1] Old Version: [5.3.0]
+[2024-05-14 06:19:22] INFO root fetch - processPackages [python-passman]: Downloading https://files.pythonhosted.org/packages/13/c8/7158f117276d54173b86151ecc209fcf5428b29f53e01fe9e3120b129f08/python-passman-0.2.tar.gz
+[2024-05-14 06:19:22] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/83/91/ec721a810dad7b690ecb52a261186e896463caafea981deab22d1aaa59cf/flux_local-5.3.0.tar.gz
+[2024-05-14 06:19:22] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/ff/42/4bfdcfbb3610be3d63aa363b485786fe25f36b2ea6eace008752e9b268a8/cancer_simulation-0.7.2.tar.gz
+[2024-05-14 06:19:22] INFO root fetch - processPackages [cancer-simulation]: executing diffoscope
+[2024-05-14 06:19:22] INFO root fetch - processPackages [cancer-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancer_simulation-0.7.1.tar.gz tmp/cancer_simulation-0.7.2.tar.gz --markdown 20240514/c/cancer-simulation/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-14 06:19:22] INFO root fetch - processPackages [python-passman]: Downloading https://files.pythonhosted.org/packages/e1/5e/e5255199b6984e302e68b68b7908e61a7100b177b5121204d150fba4ac30/python-passman-1.0.0.tar.gz
+[2024-05-14 06:19:23] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/16/79/47355b734022963f0f2cf0f327e71fb3834a289aaf0048156174fbf32277/flux_local-5.3.1.tar.gz
+[2024-05-14 06:19:23] INFO root fetch - processPackages [flux-local]: executing diffoscope
+[2024-05-14 06:19:23] INFO root fetch - processPackages [flux-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux_local-5.3.0.tar.gz tmp/flux_local-5.3.1.tar.gz --markdown 20240514/f/flux-local/5.3.0-5.3.1/README.md --exclude *.pyd
+[2024-05-14 06:19:23] INFO root fetch - processPackages [python-passman]: executing diffoscope
+[2024-05-14 06:19:23] INFO root fetch - processPackages [python-passman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-passman-0.2.tar.gz tmp/python-passman-1.0.0.tar.gz --markdown 20240514/p/python-passman/0.2-1.0.0/README.md --exclude *.pyd
+[2024-05-14 06:19:23] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.1.tar.gz]
+[2024-05-14 06:19:23] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.2.tar.gz]
+[2024-05-14 06:19:23] INFO root fetch - main [MainThread]: End processing [cancer-simulation]: success
+[2024-05-14 06:19:23] INFO root fetch - processPackages [python-passman]: Remove: archive file [/home/abi/fetcher/tmp/python-passman-0.2.tar.gz]
+[2024-05-14 06:19:23] INFO root fetch - processPackages [python-passman]: Remove: archive file [/home/abi/fetcher/tmp/python-passman-1.0.0.tar.gz]
+[2024-05-14 06:19:23] INFO root fetch - main [MainThread]: End processing [python-passman]: success
+[2024-05-14 06:19:23] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux_local-5.3.0.tar.gz]
+[2024-05-14 06:19:23] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux_local-5.3.1.tar.gz]
+[2024-05-14 06:19:23] INFO root fetch - main [MainThread]: End processing [flux-local]: success
+[2024-05-14 06:19:23] INFO root fetch - main [MainThread]: Store serial: [23195605]
