@@ -16254,3 +16254,96 @@
 [2024-05-14 11:02:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.81.9.tar.gz]
 [2024-05-14 11:02:09] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2024-05-14 11:02:09] INFO root fetch - main [MainThread]: Store serial: [23198444]
+[2024-05-14 11:04:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198444]
+[2024-05-14 11:04:25] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanomock
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example990420
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-auth-saml
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.common
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testpkg3322
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pvsite-datamodel
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.core
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: general-utils-juan-palma-borda
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tuf
+[2024-05-14 11:04:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: conetwork-test
+[2024-05-14 11:04:25] INFO root fetch - processPackages [example990420]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [testpkg3322]: New version: [2.35.9] Old Version: [2.35.8]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240513] Old Version: [1.1.1b20240512]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240513] Old Version: [1.1.1b20240512]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [odoo-addon-auth-saml]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [pvsite-datamodel]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/b9/c9/e486ba09062c28172d0bc9a928073148958a49a2848f1dc98e76b0e3ca5a/testpkg3322-2.35.8.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [nanomock]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/ba/27/88ecb53975c491b5d2c7a17076ae88367e14f8ccd1c479f48500ba1ca8d6/autogluon.core-1.1.1b20240512.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [general-utils-juan-palma-borda]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/88/da/2f23f5c2006407f1621e4a1794e7fc9d7e53dd34dcc5bffc8b6463c8f7f3/conetwork_test-0.1.4.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/f0/08/353718816cbeb4c7b73ad64131be9ccc7b0c77b3742b85446c67f3a1bca3/autogluon.common-1.1.1b20240512.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [tuf]: New version: [5.0.0] Old Version: [4.0.0]
+[2024-05-14 11:04:25] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/f9/60/4ab40530e6250da6de7fd9375f5fb595bce76d10492024fe53e44496ba84/example990420-1.1.0.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/e0/fc/b2227a6e519b8a1e86b54b5ace3b3b745841d5782773825020d1ef3a4270/odoo_addon_auth_saml-16.0.1.0.3-py3-none-any.whl
+[2024-05-14 11:04:25] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/4f/94/17d9ce3de61a220e5960639e6088e95f0a697c74ba8a19f612cfe429b4a9/pvsite_datamodel-1.0.8.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [nanomock]: Downloading https://files.pythonhosted.org/packages/4e/13/b60641bdd8ad41c497abc47d30411627d1d7dbab83dba9491b8699b1c7e8/nanomock-0.0.8.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/d6/11/333284ab2e508038695e9308bdb436693df60040d7ce7a2e0aacac7f5bdb/testpkg3322-2.35.9.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/b4/ce/3decc3acac5ca336959e072ed97c88c106f9571dfe0e67989513fe8e4728/general-utils-juan-palma-borda-0.2.0.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [tuf]: Downloading https://files.pythonhosted.org/packages/1e/4a/7405036c92b86229ec722dfa882bf999ac7241c7bd3cc8e9e6ceae75e73b/tuf-4.0.0.tar.gz
+[2024-05-14 11:04:25] INFO root fetch - processPackages [testpkg3322]: executing diffoscope
+[2024-05-14 11:04:25] INFO root fetch - processPackages [testpkg3322]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpkg3322-2.35.8.tar.gz tmp/testpkg3322-2.35.9.tar.gz --markdown 20240514/t/testpkg3322/2.35.8-2.35.9/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/2e/de/b66cdec9aa9915918c16287d1aa9d8ffcb012cd0fa174422ee63a91e69d5/autogluon.common-1.1.1b20240513.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/8f/f3/d83be9c621fd4df3ec8d9e1400c0d02f7bd52962a39bc35224fab3a7ccbc/conetwork_test-0.1.5.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/cc/a7/b76c6a60c179a2ef46a3ec1084c2916e2fb3fcb7644a71e641ba3ba6750d/autogluon.core-1.1.1b20240513.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [example990420]: Downloading https://files.pythonhosted.org/packages/3e/a1/a4f5a916b3560f6a1962d32c53c706ba6eddea3241fc5a4602b9ba246792/example990420-1.1.1.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240512.tar.gz tmp/autogluon.common-1.1.1b20240513.tar.gz --markdown 20240514/a/autogluon.common/1.1.1b20240512-1.1.1b20240513/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.4.tar.gz tmp/conetwork_test-0.1.5.tar.gz --markdown 20240514/c/conetwork-test/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240512.tar.gz tmp/autogluon.core-1.1.1b20240513.tar.gz --markdown 20240514/a/autogluon.core/1.1.1b20240512-1.1.1b20240513/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [example990420]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [example990420]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example990420-1.1.0.tar.gz tmp/example990420-1.1.1.tar.gz --markdown 20240514/e/example990420/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [tuf]: Downloading https://files.pythonhosted.org/packages/db/ea/5a89820ae36f8717ca3f12bfe369e92b51a5bd43efb3f2afec6cdd8e15ad/tuf-5.0.0.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/5f/f2/f795443747cf1ab3b94301ffa7542b112b823958f4775a0c6119050ed118/general_utils_juan_palma_borda-0.2.1.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [odoo-addon-auth-saml]: Downloading https://files.pythonhosted.org/packages/e0/3d/27b82b97f8c45bf1966769f220e9843ec1f52ff25992adda57c65fdedb39/odoo_addon_auth_saml-16.0.1.0.4-py3-none-any.whl
+[2024-05-14 11:04:26] INFO root fetch - processPackages [nanomock]: Downloading https://files.pythonhosted.org/packages/75/81/dbdeec61572ee399178ff439c012ae5d1cf6618c8d438efea76bb64a820e/nanomock-0.0.9.tar.gz
+[2024-05-14 11:04:26] INFO root fetch - processPackages [odoo-addon-auth-saml]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [odoo-addon-auth-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_saml-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_saml-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-auth-saml/16.0.1.0.3-16.0.1.0.4/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [tuf]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [tuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuf-4.0.0.tar.gz tmp/tuf-5.0.0.tar.gz --markdown 20240514/t/tuf/4.0.0-5.0.0/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [general-utils-juan-palma-borda]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [general-utils-juan-palma-borda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general-utils-juan-palma-borda-0.2.0.tar.gz tmp/general_utils_juan_palma_borda-0.2.1.tar.gz --markdown 20240514/g/general-utils-juan-palma-borda/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [nanomock]: executing diffoscope
+[2024-05-14 11:04:26] INFO root fetch - processPackages [nanomock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanomock-0.0.8.tar.gz tmp/nanomock-0.0.9.tar.gz --markdown 20240514/n/nanomock/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:04:26] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.8.tar.gz]
+[2024-05-14 11:04:26] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.9.tar.gz]
+[2024-05-14 11:04:26] INFO root fetch - main [MainThread]: End processing [testpkg3322]: success
+[2024-05-14 11:04:27] INFO root fetch - processPackages [pvsite-datamodel]: Downloading https://files.pythonhosted.org/packages/09/05/b1d02e4bce0bada9effc1c581a0762ec56c98c169d8463fc2bedefa2893d/pvsite_datamodel-1.0.9.tar.gz
+[2024-05-14 11:04:27] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.4.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.5.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:04:27] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240512.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240513.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-14 11:04:27] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240512.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240513.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-14 11:04:27] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-14 11:04:27] INFO root fetch - processPackages [odoo-addon-auth-saml]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_saml-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-05-14 11:04:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-saml]: success
+[2024-05-14 11:04:27] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Remove: archive file [/home/abi/fetcher/tmp/general-utils-juan-palma-borda-0.2.0.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Remove: archive file [/home/abi/fetcher/tmp/general_utils_juan_palma_borda-0.2.1.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - main [MainThread]: End processing [general-utils-juan-palma-borda]: success
+[2024-05-14 11:04:27] INFO root fetch - processPackages [nanomock]: Remove: archive file [/home/abi/fetcher/tmp/nanomock-0.0.8.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - processPackages [nanomock]: Remove: archive file [/home/abi/fetcher/tmp/nanomock-0.0.9.tar.gz]
+[2024-05-14 11:04:27] INFO root fetch - main [MainThread]: End processing [nanomock]: success
+[2024-05-14 11:04:28] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-1.1.0.tar.gz]
+[2024-05-14 11:04:28] INFO root fetch - processPackages [example990420]: Remove: archive file [/home/abi/fetcher/tmp/example990420-1.1.1.tar.gz]
+[2024-05-14 11:04:28] INFO root fetch - main [MainThread]: End processing [example990420]: success
+[2024-05-14 11:04:28] INFO root fetch - processPackages [pvsite-datamodel]: executing diffoscope
+[2024-05-14 11:04:28] INFO root fetch - processPackages [pvsite-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvsite_datamodel-1.0.8.tar.gz tmp/pvsite_datamodel-1.0.9.tar.gz --markdown 20240514/p/pvsite-datamodel/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 11:04:28] INFO root fetch - processPackages [tuf]: Remove: archive file [/home/abi/fetcher/tmp/tuf-4.0.0.tar.gz]
+[2024-05-14 11:04:28] INFO root fetch - processPackages [tuf]: Remove: archive file [/home/abi/fetcher/tmp/tuf-5.0.0.tar.gz]
+[2024-05-14 11:04:28] INFO root fetch - main [MainThread]: End processing [tuf]: success
+[2024-05-14 11:04:29] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.8.tar.gz]
+[2024-05-14 11:04:29] INFO root fetch - processPackages [pvsite-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/pvsite_datamodel-1.0.9.tar.gz]
+[2024-05-14 11:04:29] INFO root fetch - main [MainThread]: End processing [pvsite-datamodel]: success
+[2024-05-14 11:04:29] INFO root fetch - main [MainThread]: Store serial: [23198478]
