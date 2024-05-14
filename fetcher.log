@@ -19173,3 +19173,72 @@
 [2024-05-14 12:36:22] INFO root fetch - processPackages [digitalhub-core]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_core-0.4.0b8.tar.gz]
 [2024-05-14 12:36:22] INFO root fetch - main [MainThread]: End processing [digitalhub-core]: success
 [2024-05-14 12:36:22] INFO root fetch - main [MainThread]: Store serial: [23199575]
+[2024-05-14 12:38:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199575]
+[2024-05-14 12:38:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tq42-grpc-client
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pimdb
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gov-uk-dashboards
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxllib
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dghs-imgutils
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eurmlsdk
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iregexp-check
+[2024-05-14 12:38:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyretailscience
+[2024-05-14 12:38:32] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 12:38:32] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.83] Old Version: [0.0.82]
+[2024-05-14 12:38:32] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [dghs-imgutils]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-14 12:38:32] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-05-14 12:38:32] INFO root fetch - processPackages [pyretailscience]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 12:38:32] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/d4/b0/2fcb49ace3cdc11c69c53dac85a950f8594ee060392dedb298521ca6b5ca/eurmlsdk-0.0.82.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [pimdb]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-14 12:38:32] INFO root fetch - processPackages [pyxllib]: New version: [0.3.96] Old Version: [0.3.95]
+[2024-05-14 12:38:32] WARNING root fetch - processPackages [iregexp-check]: Skipping, unable to determine old version
+[2024-05-14 12:38:32] INFO root fetch - main [MainThread]: End processing [iregexp-check] error
+[2024-05-14 12:38:32] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/8c/3f/e6a9b975621da720d6e94c8e7f54372422ef700d3455aa9ba8c80aab2920/dghs_imgutils-0.4.5.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/15/aa038ec0161f510bba1e81208b6b8fb48174839d812f78343601edd00197/gov_uk_dashboards-9.8.0.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [pimdb]: Downloading https://files.pythonhosted.org/packages/1c/09/441110070b9be766d558994b4e0197e97110cd8a87a9c09b05292109c583/pimdb-0.2.3-py3-none-any.whl
+[2024-05-14 12:38:32] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/e7/3c/17e7db64b3f76320bbf38868555e1b764c703a512c991724477530a4d563/pyxllib-0.3.95.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [pyretailscience]: Downloading https://files.pythonhosted.org/packages/f4/84/ed9aba9f7ea7107fd648fb7b91ea6ab6e38552b429b6d83a9e004a1ac8aa/pyretailscience-0.3.1.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/a2/82/8890a28de2512574bff9ff0442d216e59c89813f285f442ab76b3ca5b5fb/eurmlsdk-0.0.83.tar.gz
+[2024-05-14 12:38:32] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-14 12:38:32] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240514/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 12:38:32] INFO root fetch - processPackages [dghs-imgutils]: Downloading https://files.pythonhosted.org/packages/cb/d4/e177987572cb3a424233fcda2fc9400879ae6e158b65cc38168b30732bda/dghs_imgutils-0.4.6.tar.gz
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pyretailscience]: Downloading https://files.pythonhosted.org/packages/ec/0c/ed1f092431117ac99f9a85cb1a819afe7838901307c5fc4753af7f29e2b2/pyretailscience-0.3.2.tar.gz
+[2024-05-14 12:38:33] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-14 12:38:33] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.82.tar.gz tmp/eurmlsdk-0.0.83.tar.gz --markdown 20240514/e/eurmlsdk/0.0.82-0.0.83/README.md --exclude *.pyd
+[2024-05-14 12:38:33] INFO root fetch - processPackages [dghs-imgutils]: executing diffoscope
+[2024-05-14 12:38:33] INFO root fetch - processPackages [dghs-imgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dghs_imgutils-0.4.5.tar.gz tmp/dghs_imgutils-0.4.6.tar.gz --markdown 20240514/d/dghs-imgutils/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/28/6c/845f9d401f8fc52b82d4e4d79b9fc6d67497c441d4a1b3ac886e243aea4e/pyxllib-0.3.96.tar.gz
+[2024-05-14 12:38:33] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/28/ea/814247833cc4320a4963bc9588f46cb3725c05f6064d14ac066bbc574e6d/gov_uk_dashboards-9.9.0.tar.gz
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pimdb]: Downloading https://files.pythonhosted.org/packages/62/46/ab862580b55907a5feb122e1c52473c756d6f1dae650f4ac2fc407bc999c/pimdb-0.3.0-py3-none-any.whl
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pyretailscience]: executing diffoscope
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pyretailscience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyretailscience-0.3.1.tar.gz tmp/pyretailscience-0.3.2.tar.gz --markdown 20240514/p/pyretailscience/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pimdb]: executing diffoscope
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pimdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pimdb-0.2.3-py3-none-any.whl.zip tmp/pimdb-0.3.0-py3-none-any.whl.zip --markdown 20240514/p/pimdb/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-14 12:38:33] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2024-05-14 12:38:33] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.8.0.tar.gz tmp/gov_uk_dashboards-9.9.0.tar.gz --markdown 20240514/g/gov-uk-dashboards/9.8.0-9.9.0/README.md --exclude *.pyd
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2024-05-14 12:38:33] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.95.tar.gz tmp/pyxllib-0.3.96.tar.gz --markdown 20240514/p/pyxllib/0.3.95-0.3.96/README.md --exclude *.pyd
+[2024-05-14 12:38:33] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.82.tar.gz]
+[2024-05-14 12:38:33] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.83.tar.gz]
+[2024-05-14 12:38:33] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-14 12:38:34] INFO root fetch - processPackages [pyretailscience]: Remove: archive file [/home/abi/fetcher/tmp/pyretailscience-0.3.1.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - processPackages [pyretailscience]: Remove: archive file [/home/abi/fetcher/tmp/pyretailscience-0.3.2.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - main [MainThread]: End processing [pyretailscience]: success
+[2024-05-14 12:38:34] INFO root fetch - processPackages [pimdb]: Remove: archive file [/home/abi/fetcher/tmp/pimdb-0.2.3-py3-none-any.whl.zip]
+[2024-05-14 12:38:34] INFO root fetch - processPackages [pimdb]: Remove: archive file [/home/abi/fetcher/tmp/pimdb-0.3.0-py3-none-any.whl.zip]
+[2024-05-14 12:38:34] INFO root fetch - main [MainThread]: End processing [pimdb]: success
+[2024-05-14 12:38:34] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.5.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - processPackages [dghs-imgutils]: Remove: archive file [/home/abi/fetcher/tmp/dghs_imgutils-0.4.6.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - main [MainThread]: End processing [dghs-imgutils]: success
+[2024-05-14 12:38:34] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.8.0.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.9.0.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2024-05-14 12:38:34] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-14 12:38:34] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-14 12:38:35] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.95.tar.gz]
+[2024-05-14 12:38:35] INFO root fetch - processPackages [pyxllib]: Remove: archive file [/home/abi/fetcher/tmp/pyxllib-0.3.96.tar.gz]
+[2024-05-14 12:38:35] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2024-05-14 12:38:35] INFO root fetch - main [MainThread]: Store serial: [23199614]
