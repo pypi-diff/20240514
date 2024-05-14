@@ -3108,3 +3108,30 @@
 [2024-05-14 02:39:06] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.9.tar.gz]
 [2024-05-14 02:39:06] INFO root fetch - main [MainThread]: End processing [proximl]: success
 [2024-05-14 02:39:06] INFO root fetch - main [MainThread]: Store serial: [23193086]
+[2024-05-14 02:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193086]
+[2024-05-14 02:41:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pms-encoder
+[2024-05-14 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowee
+[2024-05-14 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: middlebrowz
+[2024-05-14 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basic-web-server
+[2024-05-14 02:41:14] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 02:41:14] INFO root fetch - processPackages [flowee]: New version: [1.3] Old Version: [1.2]
+[2024-05-14 02:41:14] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 02:41:14] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/86/f4/907af52013c1464ca388873b69af646ec2b4b581585b867a80850421e1bf/flowee-1.2.tar.gz
+[2024-05-14 02:41:14] WARNING root fetch - processPackages [middlebrowz]: Skipping, unable to determine old version
+[2024-05-14 02:41:14] INFO root fetch - main [MainThread]: End processing [middlebrowz] error
+[2024-05-14 02:41:14] WARNING root fetch - processPackages [basic-web-server]: Skipping, unable to determine old version
+[2024-05-14 02:41:14] INFO root fetch - main [MainThread]: End processing [basic-web-server] error
+[2024-05-14 02:41:14] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 02:41:14] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 02:41:14] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:41:14] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/7a/69/60a1527c8ae921be9d9666d632cc3a0d5155eb807cbd49aa3d5a1a319190/flowee-1.3.tar.gz
+[2024-05-14 02:41:15] INFO root fetch - processPackages [flowee]: executing diffoscope
+[2024-05-14 02:41:15] INFO root fetch - processPackages [flowee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowee-1.2.tar.gz tmp/flowee-1.3.tar.gz --markdown 20240514/f/flowee/1.2-1.3/README.md --exclude *.pyd
+[2024-05-14 02:41:15] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 02:41:15] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 02:41:15] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 02:41:15] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.2.tar.gz]
+[2024-05-14 02:41:15] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.3.tar.gz]
+[2024-05-14 02:41:15] INFO root fetch - main [MainThread]: End processing [flowee]: success
+[2024-05-14 02:41:15] INFO root fetch - main [MainThread]: Store serial: [23193109]
