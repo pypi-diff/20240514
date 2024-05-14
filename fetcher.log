@@ -11244,3 +11244,39 @@
 [2024-05-14 07:49:53] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2394.0.tar.gz]
 [2024-05-14 07:49:53] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
 [2024-05-14 07:49:53] INFO root fetch - main [MainThread]: Store serial: [23196115]
+[2024-05-14 07:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196115]
+[2024-05-14 07:52:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 07:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zfx
+[2024-05-14 07:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcolz-zipline
+[2024-05-14 07:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graas-observability-utility
+[2024-05-14 07:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jccrypto
+[2024-05-14 07:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nodestream-plugin-gcp-asset-inventory
+[2024-05-14 07:52:04] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 07:52:04] WARNING root fetch - processPackages [jccrypto]: Skipping, unable to determine old version
+[2024-05-14 07:52:04] INFO root fetch - main [MainThread]: End processing [jccrypto] error
+[2024-05-14 07:52:04] WARNING root fetch - processPackages [nodestream-plugin-gcp-asset-inventory]: Skipping, unable to determine old version
+[2024-05-14 07:52:04] INFO root fetch - main [MainThread]: End processing [nodestream-plugin-gcp-asset-inventory] error
+[2024-05-14 07:52:04] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-14 07:52:04] INFO root fetch - processPackages [bcolz-zipline]: New version: [1.2.9] Old Version: [1.2.6]
+[2024-05-14 07:52:04] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-14 07:52:05] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/61/e8/d28cfc9e0252d20e9e9a26056e8384088160927449ef6e4823c974cde418/graas-observability-utility-1.6.2.tar.gz
+[2024-05-14 07:52:05] INFO root fetch - processPackages [bcolz-zipline]: Downloading https://files.pythonhosted.org/packages/df/a2/8cb034b0cd58841eca00256b1e662ecd8e30397d1850203759e98cbe0148/bcolz-zipline-1.2.6.tar.gz
+[2024-05-14 07:52:05] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-14 07:52:05] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-14 07:52:05] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240514/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 07:52:05] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/35/e7/672c8283ca92e4d7236866f44e76fcd344ade7c5a159aa244e69bce6bad1/graas-observability-utility-1.6.3.tar.gz
+[2024-05-14 07:52:05] INFO root fetch - processPackages [bcolz-zipline]: Downloading https://files.pythonhosted.org/packages/1d/d9/fc761b13ced969ef7b07fb7af3bca9889c0f5475a1b77c8b766a21f0bc82/bcolz_zipline-1.2.9.tar.gz
+[2024-05-14 07:52:05] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-05-14 07:52:05] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.6.2.tar.gz tmp/graas-observability-utility-1.6.3.tar.gz --markdown 20240514/g/graas-observability-utility/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-14 07:52:05] INFO root fetch - processPackages [bcolz-zipline]: executing diffoscope
+[2024-05-14 07:52:05] INFO root fetch - processPackages [bcolz-zipline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcolz-zipline-1.2.6.tar.gz tmp/bcolz_zipline-1.2.9.tar.gz --markdown 20240514/b/bcolz-zipline/1.2.6-1.2.9/README.md --exclude *.pyd
+[2024-05-14 07:52:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-14 07:52:05] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-14 07:52:05] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-14 07:52:06] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.2.tar.gz]
+[2024-05-14 07:52:06] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.6.3.tar.gz]
+[2024-05-14 07:52:06] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-05-14 07:52:07] INFO root fetch - processPackages [bcolz-zipline]: Remove: archive file [/home/abi/fetcher/tmp/bcolz-zipline-1.2.6.tar.gz]
+[2024-05-14 07:52:07] INFO root fetch - processPackages [bcolz-zipline]: Remove: archive file [/home/abi/fetcher/tmp/bcolz_zipline-1.2.9.tar.gz]
+[2024-05-14 07:52:07] INFO root fetch - main [MainThread]: End processing [bcolz-zipline]: success
+[2024-05-14 07:52:07] INFO root fetch - main [MainThread]: Store serial: [23196148]
