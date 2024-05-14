@@ -12045,3 +12045,49 @@
 [2024-05-14 08:31:36] INFO root fetch - processPackages [dbgear]: Remove: archive file [/home/abi/fetcher/tmp/dbgear-0.9.0.tar.gz]
 [2024-05-14 08:31:36] INFO root fetch - main [MainThread]: End processing [dbgear]: success
 [2024-05-14 08:31:36] INFO root fetch - main [MainThread]: Store serial: [23196569]
+[2024-05-14 08:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196569]
+[2024-05-14 08:33:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 08:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvprocessor
+[2024-05-14 08:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tenzir
+[2024-05-14 08:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-picking-report-incoming-delivery-address
+[2024-05-14 08:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcw-finder
+[2024-05-14 08:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcw-finder
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [tenzir]: New version: [4.9.0] Old Version: [4.8.2]
+[2024-05-14 08:33:46] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2024-05-14 08:33:46] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.0] Old Version: [0.3.1]
+[2024-05-14 08:33:46] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: Downloading https://files.pythonhosted.org/packages/27/30/d81fcf86a12dd5d21337fba48a1ed9a4797bf85ddbb3a1030b220143a26a/odoo_addon_stock_picking_report_incoming_delivery_address-16.0.1.0.1-py3-none-any.whl
+[2024-05-14 08:33:46] INFO root fetch - processPackages [tenzir]: Downloading https://files.pythonhosted.org/packages/ae/b5/3cebea0d71c0842865ba21ba5eb8ba4ec7b81c08c08b6a9b62c03ac88ce5/tenzir-4.8.2.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/19/ac/970fb5cf51b2450b93da832fa3984b5b6b52abf2401a35b718a70cecf04a/cvprocessor-0.3.1.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 08:33:46] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 08:33:46] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: Downloading https://files.pythonhosted.org/packages/02/5b/222e77cae188044bbb54298c36be2b75eb7c46cebf9fad54c4edbd927aeb/odoo_addon_stock_picking_report_incoming_delivery_address-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-14 08:33:46] INFO root fetch - processPackages [tenzir]: Downloading https://files.pythonhosted.org/packages/e2/0e/a7a8a662547907859021f98b58cfd0ea300495994aa314939c1a0539d06b/tenzir-4.9.0.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/f4/17/b235db7b02ca5bf790c48850f6374fe88c34a65fe6d96601f4149b5e0fcd/cvprocessor-0.5.0.tar.gz
+[2024-05-14 08:33:46] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: executing diffoscope
+[2024-05-14 08:33:46] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_report_incoming_delivery_address-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_report_incoming_delivery_address-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-stock-picking-report-incoming-delivery-address/16.0.1.0.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-14 08:33:46] INFO root fetch - processPackages [tenzir]: executing diffoscope
+[2024-05-14 08:33:46] INFO root fetch - processPackages [tenzir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tenzir-4.8.2.tar.gz tmp/tenzir-4.9.0.tar.gz --markdown 20240514/t/tenzir/4.8.2-4.9.0/README.md --exclude *.pyd
+[2024-05-14 08:33:46] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 08:33:46] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.3.1.tar.gz tmp/cvprocessor-0.5.0.tar.gz --markdown 20240514/c/cvprocessor/0.3.1-0.5.0/README.md --exclude *.pyd
+[2024-05-14 08:33:47] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 08:33:47] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 08:33:47] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 08:33:47] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 08:33:47] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.3.1.tar.gz]
+[2024-05-14 08:33:47] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.0.tar.gz]
+[2024-05-14 08:33:47] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 08:33:47] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_incoming_delivery_address-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-14 08:33:47] INFO root fetch - processPackages [odoo-addon-stock-picking-report-incoming-delivery-address]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_report_incoming_delivery_address-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-14 08:33:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-report-incoming-delivery-address]: success
+[2024-05-14 08:33:47] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.8.2.tar.gz]
+[2024-05-14 08:33:47] INFO root fetch - processPackages [tenzir]: Remove: archive file [/home/abi/fetcher/tmp/tenzir-4.9.0.tar.gz]
+[2024-05-14 08:33:47] INFO root fetch - main [MainThread]: End processing [tenzir]: success
+[2024-05-14 08:33:47] INFO root fetch - main [MainThread]: Store serial: [23196584]
