@@ -15838,3 +15838,120 @@
 [2024-05-14 10:48:04] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19669-py2.py3-none-any.whl.zip]
 [2024-05-14 10:48:04] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-05-14 10:48:04] INFO root fetch - main [MainThread]: Store serial: [23198259]
+[2024-05-14 10:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198259]
+[2024-05-14 10:50:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartlink-local
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omegi-python-instrumentation
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paradi
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OZI
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdo-sdk-python
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ava-llm
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dem-roughness-calculator
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mteb
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aTeam-PySparkLibrary
+[2024-05-14 10:50:19] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [mteb]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [OZI]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ava-llm]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [paradi]: New version: [0.1.3.post1] Old Version: [0.1.3]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [dem-roughness-calculator]: New version: [1.3.0] Old Version: [1.2.2]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/94/0a/01597b38b03403c107eb7a64345ee0568358bcd2a027e44b1a7b1fcb9ef7/mteb-1.9.0.tar.gz
+[2024-05-14 10:50:19] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/e7/4f/bb7ada35fe015fd2e70c942499ef41de92d2430eeb6da06d89d645fa26e6/omegi-python-instrumentation-0.1.1.tar.gz
+[2024-05-14 10:50:19] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/7c/4e/765df127a6666d43f4b3d2a034871d9184b50e9b0cc2bfd4f641ee0956ff/OZI-1.6.4.tar.gz
+[2024-05-14 10:50:19] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-14 10:50:19] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-14 10:50:19] INFO root fetch - processPackages [paradi]: Downloading https://files.pythonhosted.org/packages/b4/75/52759220b450352acdac0643cc77a90a81a9895bc7baaf1915b5e7b36a14/paradi-0.1.3.tar.gz
+[2024-05-14 10:50:19] INFO root fetch - processPackages [ava-llm]: Downloading https://files.pythonhosted.org/packages/92/59/2fac56253e8623517bd27ea90f9316909ca009f1fe21a0a690becb70ad71/ava_llm-0.0.24.tar.gz
+[2024-05-14 10:50:19] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [dem-roughness-calculator]: Downloading https://files.pythonhosted.org/packages/91/67/9250ff7997869dc3b03fc589349287b68a341795e80bd51d3990e44dc2d3/dem_roughness_calculator-1.2.2.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-14 10:50:20] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/74/d5/8a5425c8a823eda4815dfdf9d8e322e70e877cbd4557a5fdb04c12614372/omegi-python-instrumentation-0.1.2.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [paradi]: Downloading https://files.pythonhosted.org/packages/63/05/8d3114ab49a49f492d8a4b58fc150198998e5d46f81193a4af6ae82747d3/paradi-0.1.3.post1.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/7e/fa/572b86b0ca40aa375109f0cc91bd53d69b599cd27496ded52ba7019dff2d/OZI-1.6.5.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/78/58/ab144edcd0c97631595ee28a030213161175efdaafc78f43c5f2571da876/mteb-1.9.1.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240514/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi-python-instrumentation-0.1.1.tar.gz tmp/omegi-python-instrumentation-0.1.2.tar.gz --markdown 20240514/o/omegi-python-instrumentation/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [paradi]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [paradi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradi-0.1.3.tar.gz tmp/paradi-0.1.3.post1.tar.gz --markdown 20240514/p/paradi/0.1.3-0.1.3.post1/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.6.4.tar.gz tmp/OZI-1.6.5.tar.gz --markdown 20240514/O/OZI/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [dem-roughness-calculator]: Downloading https://files.pythonhosted.org/packages/f3/ca/c055626df3a672efa22a5d6aae7a16f910090c8879a4a2c4e729f7b3fb20/dem_roughness_calculator-1.3.0.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240514/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.0.tar.gz tmp/mteb-1.9.1.tar.gz --markdown 20240514/m/mteb/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [ava-llm]: Downloading https://files.pythonhosted.org/packages/9d/fe/d2212a95a60be8086160dfa7bbbb687812321b8765fd6a7c1262bb782a05/ava_llm-0.0.25.tar.gz
+[2024-05-14 10:50:20] INFO root fetch - processPackages [dem-roughness-calculator]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [dem-roughness-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dem_roughness_calculator-1.2.2.tar.gz tmp/dem_roughness_calculator-1.3.0.tar.gz --markdown 20240514/d/dem-roughness-calculator/1.2.2-1.3.0/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240514/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [ava-llm]: executing diffoscope
+[2024-05-14 10:50:20] INFO root fetch - processPackages [ava-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ava_llm-0.0.24.tar.gz tmp/ava_llm-0.0.25.tar.gz --markdown 20240514/a/ava-llm/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-05-14 10:50:20] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-14 10:50:21] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [smartlink-local]: Start processing: testpkg3322
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-14 10:50:21] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.1.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.2.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [testpkg3322]: New version: [2.35.9] Old Version: [2.35.8]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [omegi-python-instrumentation]: Start processing: cpf-and-cnpj-generator
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-14 10:50:21] INFO root fetch - processPackages [paradi]: Remove: archive file [/home/abi/fetcher/tmp/paradi-0.1.3.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [paradi]: Remove: archive file [/home/abi/fetcher/tmp/paradi-0.1.3.post1.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [paradi]: Start processing: structstore
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [paradi]: success
+[2024-05-14 10:50:21] WARNING root fetch - processPackages [structstore]: Skipping, unable to determine old version
+[2024-05-14 10:50:21] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/b9/c9/e486ba09062c28172d0bc9a928073148958a49a2848f1dc98e76b0e3ca5a/testpkg3322-2.35.8.tar.gz
+[2024-05-14 10:50:21] INFO root fetch - processPackages [structstore]: Start processing: metadata-viewer
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [structstore] error
+[2024-05-14 10:50:21] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-05-14 10:50:21] WARNING root fetch - processPackages [cpf-and-cnpj-generator]: Skipping, unable to determine old version
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [cpf-and-cnpj-generator] error
+[2024-05-14 10:50:21] INFO root fetch - processPackages [metadata-viewer]: New version: [1.9] Old Version: [1.8]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [dem-roughness-calculator]: Remove: archive file [/home/abi/fetcher/tmp/dem_roughness_calculator-1.2.2.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - processPackages [dem-roughness-calculator]: Remove: archive file [/home/abi/fetcher/tmp/dem_roughness_calculator-1.3.0.tar.gz]
+[2024-05-14 10:50:21] INFO root fetch - main [MainThread]: End processing [dem-roughness-calculator]: success
+[2024-05-14 10:50:22] INFO root fetch - processPackages [ava-llm]: Remove: archive file [/home/abi/fetcher/tmp/ava_llm-0.0.24.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - processPackages [ava-llm]: Remove: archive file [/home/abi/fetcher/tmp/ava_llm-0.0.25.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - main [MainThread]: End processing [ava-llm]: success
+[2024-05-14 10:50:22] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/d6/11/333284ab2e508038695e9308bdb436693df60040d7ce7a2e0aacac7f5bdb/testpkg3322-2.35.9.tar.gz
+[2024-05-14 10:50:22] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.6.4.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.6.5.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-14 10:50:22] INFO root fetch - processPackages [testpkg3322]: executing diffoscope
+[2024-05-14 10:50:22] INFO root fetch - processPackages [testpkg3322]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpkg3322-2.35.8.tar.gz tmp/testpkg3322-2.35.9.tar.gz --markdown 20240514/t/testpkg3322/2.35.8-2.35.9/README.md --exclude *.pyd
+[2024-05-14 10:50:22] INFO root fetch - processPackages [metadata-viewer]: Downloading https://files.pythonhosted.org/packages/92/e5/58a458c700dfdfbcfa9e45aa3e3f0dffb03459bed3e573128f310248cedd/metadata-viewer-1.8.tar.gz
+[2024-05-14 10:50:22] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-14 10:50:22] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240514/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-14 10:50:22] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-14 10:50:22] INFO root fetch - processPackages [metadata-viewer]: Downloading https://files.pythonhosted.org/packages/24/a6/f1e71224d2121401ee94911ee270013db991d725112c7c91a7f904e51fc8/metadata-viewer-1.9.tar.gz
+[2024-05-14 10:50:22] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.8.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.9.tar.gz]
+[2024-05-14 10:50:22] INFO root fetch - main [MainThread]: End processing [testpkg3322]: success
+[2024-05-14 10:50:23] INFO root fetch - processPackages [metadata-viewer]: executing diffoscope
+[2024-05-14 10:50:23] INFO root fetch - processPackages [metadata-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metadata-viewer-1.8.tar.gz tmp/metadata-viewer-1.9.tar.gz --markdown 20240514/m/metadata-viewer/1.8-1.9/README.md --exclude *.pyd
+[2024-05-14 10:50:24] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.0.tar.gz]
+[2024-05-14 10:50:24] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.1.tar.gz]
+[2024-05-14 10:50:24] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-14 10:50:24] INFO root fetch - processPackages [metadata-viewer]: Remove: archive file [/home/abi/fetcher/tmp/metadata-viewer-1.8.tar.gz]
+[2024-05-14 10:50:24] INFO root fetch - processPackages [metadata-viewer]: Remove: archive file [/home/abi/fetcher/tmp/metadata-viewer-1.9.tar.gz]
+[2024-05-14 10:50:24] INFO root fetch - main [MainThread]: End processing [metadata-viewer]: success
+[2024-05-14 10:50:25] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-14 10:50:25] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-14 10:50:25] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-14 10:50:25] INFO root fetch - main [MainThread]: Store serial: [23198308]
