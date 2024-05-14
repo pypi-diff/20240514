@@ -22761,3 +22761,24 @@
 [2024-05-14 14:47:53] INFO root fetch - processPackages [py-portfolio-index]: Remove: archive file [/home/abi/fetcher/tmp/py-portfolio-index-0.0.9.tar.gz]
 [2024-05-14 14:47:53] INFO root fetch - main [MainThread]: End processing [py-portfolio-index]: success
 [2024-05-14 14:47:53] INFO root fetch - main [MainThread]: Store serial: [23201157]
+[2024-05-14 14:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201157]
+[2024-05-14 14:50:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BartePaySDK
+[2024-05-14 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbon-registry-indexer
+[2024-05-14 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyfortracc
+[2024-05-14 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slurmtop
+[2024-05-14 14:50:02] WARNING root fetch - processPackages [BartePaySDK]: Skipping, unable to determine old version
+[2024-05-14 14:50:02] INFO root fetch - main [MainThread]: End processing [BartePaySDK] error
+[2024-05-14 14:50:02] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 14:50:02] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-14 14:50:02] WARNING root fetch - processPackages [slurmtop]: Skipping, unable to determine old version
+[2024-05-14 14:50:02] INFO root fetch - main [MainThread]: End processing [slurmtop] error
+[2024-05-14 14:50:02] WARNING root fetch - processPackages [pyfortracc]: Skipping, unable to determine old version
+[2024-05-14 14:50:02] INFO root fetch - main [MainThread]: End processing [pyfortracc] error
+[2024-05-14 14:50:03] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-14 14:50:03] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-14 14:50:03] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240514/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 14:50:03] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-14 14:50:03] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-14 14:50:03] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-14 14:50:03] INFO root fetch - main [MainThread]: Store serial: [23201175]
