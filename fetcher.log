@@ -10014,3 +10014,27 @@
 [2024-05-14 06:28:25] INFO root fetch - processPackages [filez4eva]: Remove: archive file [/home/abi/fetcher/tmp/filez4eva-3.0.0.tar.gz]
 [2024-05-14 06:28:25] INFO root fetch - main [MainThread]: End processing [filez4eva]: success
 [2024-05-14 06:28:25] INFO root fetch - main [MainThread]: Store serial: [23195652]
+[2024-05-14 06:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195652]
+[2024-05-14 06:30:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 06:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meerschaum
+[2024-05-14 06:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visual-debugger
+[2024-05-14 06:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioxelnodes
+[2024-05-14 06:30:38] INFO root fetch - processPackages [visual-debugger]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-14 06:30:38] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0.dev2] Old Version: [2.2.0.dev1]
+[2024-05-14 06:30:39] WARNING root fetch - processPackages [bioxelnodes]: Skipping, unable to determine old version
+[2024-05-14 06:30:39] INFO root fetch - main [MainThread]: End processing [bioxelnodes] error
+[2024-05-14 06:30:39] INFO root fetch - processPackages [visual-debugger]: Downloading https://files.pythonhosted.org/packages/41/02/eaf2eec62e9b4369eb0fc614336230ed692da19de3366757efc84761a1a9/visual_debugger-0.2.4.tar.gz
+[2024-05-14 06:30:39] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/b7/16/fea39831386dd569ba5361352541e92dbd2d7684ec6acc3850fe86938339/meerschaum-2.2.0.dev1.tar.gz
+[2024-05-14 06:30:39] INFO root fetch - processPackages [visual-debugger]: Downloading https://files.pythonhosted.org/packages/21/07/928d2ca200d7a4659269738007d6c8efb285ab81dac6a4b26ff8af3e4436/visual_debugger-0.2.5.tar.gz
+[2024-05-14 06:30:39] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/c3/cc/bd0f9f6f285fcd514dbb49d6c5e95c29b5b87b7a69b96b9e5298faf3422c/meerschaum-2.2.0.dev2.tar.gz
+[2024-05-14 06:30:39] INFO root fetch - processPackages [visual-debugger]: executing diffoscope
+[2024-05-14 06:30:39] INFO root fetch - processPackages [visual-debugger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visual_debugger-0.2.4.tar.gz tmp/visual_debugger-0.2.5.tar.gz --markdown 20240514/v/visual-debugger/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-14 06:30:39] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-14 06:30:39] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.2.0.dev1.tar.gz tmp/meerschaum-2.2.0.dev2.tar.gz --markdown 20240514/m/meerschaum/2.2.0.dev1-2.2.0.dev2/README.md --exclude *.pyd
+[2024-05-14 06:30:39] INFO root fetch - processPackages [visual-debugger]: Remove: archive file [/home/abi/fetcher/tmp/visual_debugger-0.2.4.tar.gz]
+[2024-05-14 06:30:39] INFO root fetch - processPackages [visual-debugger]: Remove: archive file [/home/abi/fetcher/tmp/visual_debugger-0.2.5.tar.gz]
+[2024-05-14 06:30:39] INFO root fetch - main [MainThread]: End processing [visual-debugger]: success
+[2024-05-14 06:30:40] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev1.tar.gz]
+[2024-05-14 06:30:40] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev2.tar.gz]
+[2024-05-14 06:30:40] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-14 06:30:40] INFO root fetch - main [MainThread]: Store serial: [23195667]
