@@ -21204,3 +21204,45 @@
 [2024-05-14 13:49:25] INFO root fetch - processPackages [mountain-chicken]: Remove: archive file [/home/abi/fetcher/tmp/mountain_chicken-0.1.2.tar.gz]
 [2024-05-14 13:49:25] INFO root fetch - main [MainThread]: End processing [mountain-chicken]: success
 [2024-05-14 13:49:25] INFO root fetch - main [MainThread]: Store serial: [23200538]
+[2024-05-14 13:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200538]
+[2024-05-14 13:51:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stockpyl
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pleonasty
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carbon-registry-indexer
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oj-tools
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctrip-app-ui
+[2024-05-14 13:51:34] WARNING root fetch - processPackages [oj-tools]: Skipping, unable to determine old version
+[2024-05-14 13:51:34] INFO root fetch - main [MainThread]: End processing [oj-tools] error
+[2024-05-14 13:51:34] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-14 13:51:34] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-14 13:51:34] INFO root fetch - processPackages [pleonasty]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 13:51:34] INFO root fetch - processPackages [stockpyl]: New version: [1.0.0] Old Version: [0.1.0a0]
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/4d/cb/094db9f7b0ac5cfc374fe9fb904aea1fe61173ba592e3baad85ed57ebc78/ctrip-app-ui-0.4.5.tar.gz
+[2024-05-14 13:51:34] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-14 13:51:34] INFO root fetch - processPackages [stockpyl]: Downloading https://files.pythonhosted.org/packages/19/b7/d7f45c658c989845883670c38d7c35f818e5171e2575bcbc36cf9c158667/stockpyl-0.1.0a0.tar.gz
+[2024-05-14 13:51:34] INFO root fetch - processPackages [pleonasty]: Downloading https://files.pythonhosted.org/packages/48/b1/6838f094d714d87840e59f9100d79111bf3377cb92e1712b4b66bb044a3b/pleonasty-0.0.5.tar.gz
+[2024-05-14 13:51:34] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-14 13:51:34] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240514/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 13:51:34] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/53/60/11b275736c5b02bd157a8b8b0ea0ea4edf19ecbc68fdfe74aa44e44b079d/ctrip-app-ui-0.4.6.tar.gz
+[2024-05-14 13:51:35] INFO root fetch - processPackages [pleonasty]: Downloading https://files.pythonhosted.org/packages/74/0c/8af3d922573c712a41f6ddb3cfae08176d36592d79d54729f26e6d2127a7/pleonasty-0.0.6.tar.gz
+[2024-05-14 13:51:35] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-14 13:51:35] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.4.5.tar.gz tmp/ctrip-app-ui-0.4.6.tar.gz --markdown 20240514/c/ctrip-app-ui/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-14 13:51:35] INFO root fetch - processPackages [stockpyl]: Downloading https://files.pythonhosted.org/packages/ee/af/338adc84800f63df60b6009a5475fb78ea29b1ea64f472f714fe08f52caf/stockpyl-1.0.0.tar.gz
+[2024-05-14 13:51:35] INFO root fetch - processPackages [pleonasty]: executing diffoscope
+[2024-05-14 13:51:35] INFO root fetch - processPackages [pleonasty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pleonasty-0.0.5.tar.gz tmp/pleonasty-0.0.6.tar.gz --markdown 20240514/p/pleonasty/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 13:51:35] INFO root fetch - processPackages [stockpyl]: executing diffoscope
+[2024-05-14 13:51:35] INFO root fetch - processPackages [stockpyl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stockpyl-0.1.0a0.tar.gz tmp/stockpyl-1.0.0.tar.gz --markdown 20240514/s/stockpyl/0.1.0a0-1.0.0/README.md --exclude *.pyd
+[2024-05-14 13:51:35] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-14 13:51:35] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-14 13:51:35] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-14 13:51:36] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.4.5.tar.gz]
+[2024-05-14 13:51:36] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.4.6.tar.gz]
+[2024-05-14 13:51:36] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-14 13:51:36] INFO root fetch - processPackages [pleonasty]: Remove: archive file [/home/abi/fetcher/tmp/pleonasty-0.0.5.tar.gz]
+[2024-05-14 13:51:36] INFO root fetch - processPackages [pleonasty]: Remove: archive file [/home/abi/fetcher/tmp/pleonasty-0.0.6.tar.gz]
+[2024-05-14 13:51:36] INFO root fetch - main [MainThread]: End processing [pleonasty]: success
+[2024-05-14 13:51:36] INFO root fetch - processPackages [stockpyl]: Remove: archive file [/home/abi/fetcher/tmp/stockpyl-0.1.0a0.tar.gz]
+[2024-05-14 13:51:36] INFO root fetch - processPackages [stockpyl]: Remove: archive file [/home/abi/fetcher/tmp/stockpyl-1.0.0.tar.gz]
+[2024-05-14 13:51:36] INFO root fetch - main [MainThread]: End processing [stockpyl]: success
+[2024-05-14 13:51:36] INFO root fetch - main [MainThread]: Store serial: [23200552]
