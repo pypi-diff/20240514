@@ -10068,3 +10068,42 @@
 [2024-05-14 06:32:57] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.2.tar.gz]
 [2024-05-14 06:32:57] INFO root fetch - main [MainThread]: End processing [serializor]: success
 [2024-05-14 06:32:57] INFO root fetch - main [MainThread]: Store serial: [23195695]
+[2024-05-14 06:35:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195695]
+[2024-05-14 06:35:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 06:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: borneo-client-python
+[2024-05-14 06:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geoglows
+[2024-05-14 06:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: message-send-local
+[2024-05-14 06:35:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addons-oca-l10n-germany
+[2024-05-14 06:35:12] INFO root fetch - processPackages [message-send-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 06:35:12] INFO root fetch - processPackages [borneo-client-python]: New version: [3.10.4] Old Version: [3.10.3]
+[2024-05-14 06:35:12] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: New version: [13.0.20240513.0] Old Version: [13.0.20231204.0]
+[2024-05-14 06:35:12] INFO root fetch - processPackages [geoglows]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-14 06:35:12] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/53/f4/ccab99650f99cd554f45d70b926610f14601748834bcc2692143f33f120a/borneo_client_python-3.10.3.tar.gz
+[2024-05-14 06:35:12] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/3e/db/20078e6bce901b0dbb9011faa9575f415223a54413a0d1d8a39235f01f78/message-send-local-0.0.8.tar.gz
+[2024-05-14 06:35:12] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: Downloading https://files.pythonhosted.org/packages/2c/0b/c2adc95f0c8218dd0ddb9fb7d9ad8beea0ebb847306cc5274eaf6417ce1e/odoo13_addons_oca_l10n_germany-13.0.20231204.0-py3-none-any.whl
+[2024-05-14 06:35:12] INFO root fetch - processPackages [message-send-local]: Downloading https://files.pythonhosted.org/packages/db/66/5da108296f6700eab97b86794abc1bd0796a98314fbe82224556c81fed80/message-send-local-0.0.9.tar.gz
+[2024-05-14 06:35:12] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/a6/39/23cccccf333b5de8f5050db02e17350c4afa81c111c4a9c30149f6aaaa8e/geoglows-1.6.0.tar.gz
+[2024-05-14 06:35:12] INFO root fetch - processPackages [message-send-local]: executing diffoscope
+[2024-05-14 06:35:12] INFO root fetch - processPackages [message-send-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-send-local-0.0.8.tar.gz tmp/message-send-local-0.0.9.tar.gz --markdown 20240514/m/message-send-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 06:35:12] INFO root fetch - processPackages [borneo-client-python]: Downloading https://files.pythonhosted.org/packages/cc/65/32464df06e6f2c0ddebf74c8a47d5dff52c31cf63e9a38bef4aa1fa67cd6/borneo_client_python-3.10.4.tar.gz
+[2024-05-14 06:35:13] INFO root fetch - processPackages [borneo-client-python]: executing diffoscope
+[2024-05-14 06:35:13] INFO root fetch - processPackages [borneo-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/borneo_client_python-3.10.3.tar.gz tmp/borneo_client_python-3.10.4.tar.gz --markdown 20240514/b/borneo-client-python/3.10.3-3.10.4/README.md --exclude *.pyd
+[2024-05-14 06:35:13] INFO root fetch - processPackages [geoglows]: Downloading https://files.pythonhosted.org/packages/ed/20/d75de2c2848c0df411e80266c1b022d67f4cb6f8d5c071a43ad1ca43469e/geoglows-1.6.1.tar.gz
+[2024-05-14 06:35:13] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: Downloading https://files.pythonhosted.org/packages/9c/56/13a5b6cd9fe5df8153f34d216129acf07023e6601bfe915fbcb7c1bd4f0a/odoo13_addons_oca_l10n_germany-13.0.20240513.0-py3-none-any.whl
+[2024-05-14 06:35:13] INFO root fetch - processPackages [geoglows]: executing diffoscope
+[2024-05-14 06:35:13] INFO root fetch - processPackages [geoglows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoglows-1.6.0.tar.gz tmp/geoglows-1.6.1.tar.gz --markdown 20240514/g/geoglows/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-14 06:35:13] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: executing diffoscope
+[2024-05-14 06:35:13] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_l10n_germany-13.0.20231204.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_l10n_germany-13.0.20240513.0-py3-none-any.whl.zip --markdown 20240514/o/odoo13-addons-oca-l10n-germany/13.0.20231204.0-13.0.20240513.0/README.md --exclude *.pyd
+[2024-05-14 06:35:13] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.8.tar.gz]
+[2024-05-14 06:35:13] INFO root fetch - processPackages [message-send-local]: Remove: archive file [/home/abi/fetcher/tmp/message-send-local-0.0.9.tar.gz]
+[2024-05-14 06:35:13] INFO root fetch - main [MainThread]: End processing [message-send-local]: success
+[2024-05-14 06:35:13] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.3.tar.gz]
+[2024-05-14 06:35:13] INFO root fetch - processPackages [borneo-client-python]: Remove: archive file [/home/abi/fetcher/tmp/borneo_client_python-3.10.4.tar.gz]
+[2024-05-14 06:35:13] INFO root fetch - main [MainThread]: End processing [borneo-client-python]: success
+[2024-05-14 06:35:13] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_l10n_germany-13.0.20231204.0-py3-none-any.whl.zip]
+[2024-05-14 06:35:13] INFO root fetch - processPackages [odoo13-addons-oca-l10n-germany]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_l10n_germany-13.0.20240513.0-py3-none-any.whl.zip]
+[2024-05-14 06:35:13] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-l10n-germany]: success
+[2024-05-14 06:35:13] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.6.0.tar.gz]
+[2024-05-14 06:35:13] INFO root fetch - processPackages [geoglows]: Remove: archive file [/home/abi/fetcher/tmp/geoglows-1.6.1.tar.gz]
+[2024-05-14 06:35:13] INFO root fetch - main [MainThread]: End processing [geoglows]: success
+[2024-05-14 06:35:13] INFO root fetch - main [MainThread]: Store serial: [23195709]
