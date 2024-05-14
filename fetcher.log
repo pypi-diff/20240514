@@ -14941,3 +14941,108 @@
 [2024-05-14 10:20:43] INFO root fetch - processPackages [xsuite]: Remove: archive file [/home/abi/fetcher/tmp/xsuite-0.9.4.tar.gz]
 [2024-05-14 10:20:43] INFO root fetch - main [MainThread]: End processing [xsuite]: success
 [2024-05-14 10:20:43] INFO root fetch - main [MainThread]: Store serial: [23197842]
+[2024-05-14 10:22:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197842]
+[2024-05-14 10:22:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffun
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aka-data-prep
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: najapy
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: variable-local
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scipion-pyworkflow
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: julearn
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bloock
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em
+[2024-05-14 10:22:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: beancount-reds-importers
+[2024-05-14 10:23:00] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [aka-data-prep]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [bloock]: New version: [2.8.8] Old Version: [2.8.7b2]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [julearn]: New version: [0.3.3.dev8] Old Version: [0.3.3.dev4]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [scipion-em]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [ffun]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [najapy]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [beancount-reds-importers]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [scipion-pyworkflow]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-14 10:23:00] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/47/ef/b79a28d10fff9d84b137c66d242acd1b9f04882f9eae1481b0243d32c182/aka-data-prep-0.0.5.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [bloock]: Downloading https://files.pythonhosted.org/packages/03/d8/0d8fad6954292f7a1d3c273a6267794446ecab72ac224f9dc981b9353f78/bloock-2.8.7b2-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-14 10:23:00] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/b1/e1/2c8e747a76ef868f1b6ea5714cbf984d8ac45db77ebbd3af0f1605361054/julearn-0.3.3.dev4.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [ffun]: Downloading https://files.pythonhosted.org/packages/67/fe/e072a11837da9d6e81d96b90e9b66311aaab03c69feaf682760c22b36290/ffun-1.4.0.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [najapy]: Downloading https://files.pythonhosted.org/packages/8a/70/55af7d35bfbdb0adc2c6f44278132d39abc3f1261b55e1c8f1906f7cd52e/najapy-1.3.1.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [scipion-pyworkflow]: Downloading https://files.pythonhosted.org/packages/a2/02/ba0ace7240db337fe31e92d8bcd75f20d0d3d17fac7ca22f25749f4f0d0a/scipion-pyworkflow-3.5.0.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/fd/8b/e5f9cb09535e1dc44d87abb373d733d0d642eb696c56c248ba4008425dd4/scipion-em-3.6.0.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [beancount-reds-importers]: Downloading https://files.pythonhosted.org/packages/90/61/fd401d1cffdf37068b597bd2e9149ae99fdedef1020ad40a602e4fe347ff/beancount_reds_importers-0.8.0.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/1b/4c/a229c74f374462a40efbd0265e6512cd29b711867d612152f5778e9c7d39/aka-data-prep-0.0.6.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 10:23:00] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:23:00] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-14 10:23:00] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240514/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 10:23:00] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-14 10:23:00] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka-data-prep-0.0.5.tar.gz tmp/aka-data-prep-0.0.6.tar.gz --markdown 20240514/a/aka-data-prep/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 10:23:00] INFO root fetch - processPackages [beancount-reds-importers]: Downloading https://files.pythonhosted.org/packages/eb/14/8e1e4ab820ef58d0e019546a70f37df75e94389e6d4007a2ce63c0d25c2e/beancount_reds_importers-0.9.0.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [bloock]: Downloading https://files.pythonhosted.org/packages/d7/4c/3e9b08bfee82a8ba3bbc131ae5d1ec892706865a1c93178105632fe10525/bloock-2.8.8-pp39-pypy39_pp73-win_amd64.whl
+[2024-05-14 10:23:00] INFO root fetch - processPackages [najapy]: Downloading https://files.pythonhosted.org/packages/7b/71/f2bf89e5ec784a5d67005bfb90e555d619c4e9fb28f0ec9281d63b184996/najapy-1.3.2.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [ffun]: Downloading https://files.pythonhosted.org/packages/e9/4d/128a15d5c549f4c1454660a61314ed0371bd945989f9de696e5ebff7a8f1/ffun-1.5.0.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/0d/f9/915966a039e9a791dae631c8ffab39898ee611523cfd2938e2f72d89314a/julearn-0.3.3.dev8.tar.gz
+[2024-05-14 10:23:00] INFO root fetch - processPackages [scipion-pyworkflow]: Downloading https://files.pythonhosted.org/packages/6f/85/fc2154091f9f753fca5f561a2d622e7f5fdb761d47dc7da27986dbdead62/scipion_pyworkflow-3.6.0.tar.gz
+[2024-05-14 10:23:01] INFO root fetch - processPackages [beancount-reds-importers]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [beancount-reds-importers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beancount_reds_importers-0.8.0.tar.gz tmp/beancount_reds_importers-0.9.0.tar.gz --markdown 20240514/b/beancount-reds-importers/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [ffun]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [ffun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffun-1.4.0.tar.gz tmp/ffun-1.5.0.tar.gz --markdown 20240514/f/ffun/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [najapy]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [najapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/najapy-1.3.1.tar.gz tmp/najapy-1.3.2.tar.gz --markdown 20240514/n/najapy/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.3.dev4.tar.gz tmp/julearn-0.3.3.dev8.tar.gz --markdown 20240514/j/julearn/0.3.3.dev4-0.3.3.dev8/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/b0/e2/603acc1c4ea45a99d8788ef2b272bfffe54b87398a1a133394f4ec9b1484/scipion-em-3.7.0.tar.gz
+[2024-05-14 10:23:01] INFO root fetch - processPackages [bloock]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [bloock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloock-2.8.7b2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/bloock-2.8.8-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20240514/b/bloock/2.8.7b2-2.8.8/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [scipion-pyworkflow]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [scipion-pyworkflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-pyworkflow-3.5.0.tar.gz tmp/scipion_pyworkflow-3.6.0.tar.gz --markdown 20240514/s/scipion-pyworkflow/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 10:23:01] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 10:23:01] INFO root fetch - processPackages [pms-encoder]: Start processing: etiq-spark
+[2024-05-14 10:23:01] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 10:23:01] INFO root fetch - processPackages [scipion-em]: executing diffoscope
+[2024-05-14 10:23:01] INFO root fetch - processPackages [scipion-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-3.6.0.tar.gz tmp/scipion-em-3.7.0.tar.gz --markdown 20240514/s/scipion-em/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-05-14 10:23:01] INFO root fetch - processPackages [etiq-spark]: New version: [1.6.0rc1] Old Version: [1.6.0rc0]
+[2024-05-14 10:23:01] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-14 10:23:01] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-14 10:23:01] INFO root fetch - processPackages [variable-local]: Start processing: saes6-jerry
+[2024-05-14 10:23:01] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-14 10:23:01] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.5.tar.gz]
+[2024-05-14 10:23:01] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.6.tar.gz]
+[2024-05-14 10:23:01] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-14 10:23:01] WARNING root fetch - processPackages [saes6-jerry]: Skipping, unable to determine old version
+[2024-05-14 10:23:01] INFO root fetch - main [MainThread]: End processing [saes6-jerry] error
+[2024-05-14 10:23:01] INFO root fetch - processPackages [etiq-spark]: Downloading https://files.pythonhosted.org/packages/cf/ad/4ca4d1c9e70a275d78f6d0186588a07b2b3ac0ca210ec9472984ec35a854/etiq_spark-1.6.0rc0-cp39-cp39-win_amd64.whl
+[2024-05-14 10:23:02] INFO root fetch - processPackages [najapy]: Remove: archive file [/home/abi/fetcher/tmp/najapy-1.3.1.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - processPackages [najapy]: Remove: archive file [/home/abi/fetcher/tmp/najapy-1.3.2.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - main [MainThread]: End processing [najapy]: success
+[2024-05-14 10:23:02] INFO root fetch - processPackages [etiq-spark]: Downloading https://files.pythonhosted.org/packages/d5/5c/d6bd8f91ccff5ee0c6ebc0c941848b3f88bfe5f02dd263cc660ede242ece/etiq_spark-1.6.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-14 10:23:02] INFO root fetch - processPackages [etiq-spark]: executing diffoscope
+[2024-05-14 10:23:02] INFO root fetch - processPackages [etiq-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etiq_spark-1.6.0rc0-cp39-cp39-win_amd64.whl.zip tmp/etiq_spark-1.6.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240514/e/etiq-spark/1.6.0rc0-1.6.0rc1/README.md --exclude *.pyd
+[2024-05-14 10:23:02] INFO root fetch - processPackages [ffun]: Remove: archive file [/home/abi/fetcher/tmp/ffun-1.4.0.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - processPackages [ffun]: Remove: archive file [/home/abi/fetcher/tmp/ffun-1.5.0.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - main [MainThread]: End processing [ffun]: success
+[2024-05-14 10:23:02] INFO root fetch - processPackages [bloock]: Remove: archive file [/home/abi/fetcher/tmp/bloock-2.8.7b2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-14 10:23:02] INFO root fetch - processPackages [bloock]: Remove: archive file [/home/abi/fetcher/tmp/bloock-2.8.8-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-05-14 10:23:02] INFO root fetch - main [MainThread]: End processing [bloock]: success
+[2024-05-14 10:23:02] INFO root fetch - processPackages [beancount-reds-importers]: Remove: archive file [/home/abi/fetcher/tmp/beancount_reds_importers-0.8.0.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - processPackages [beancount-reds-importers]: Remove: archive file [/home/abi/fetcher/tmp/beancount_reds_importers-0.9.0.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - main [MainThread]: End processing [beancount-reds-importers]: success
+[2024-05-14 10:23:02] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev4.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev8.tar.gz]
+[2024-05-14 10:23:02] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-05-14 10:23:03] INFO root fetch - processPackages [scipion-pyworkflow]: Remove: archive file [/home/abi/fetcher/tmp/scipion-pyworkflow-3.5.0.tar.gz]
+[2024-05-14 10:23:03] INFO root fetch - processPackages [scipion-pyworkflow]: Remove: archive file [/home/abi/fetcher/tmp/scipion_pyworkflow-3.6.0.tar.gz]
+[2024-05-14 10:23:03] INFO root fetch - main [MainThread]: End processing [scipion-pyworkflow]: success
+[2024-05-14 10:23:03] INFO root fetch - processPackages [etiq-spark]: Remove: archive file [/home/abi/fetcher/tmp/etiq_spark-1.6.0rc0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 10:23:03] INFO root fetch - processPackages [etiq-spark]: Remove: archive file [/home/abi/fetcher/tmp/etiq_spark-1.6.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 10:23:03] INFO root fetch - main [MainThread]: End processing [etiq-spark]: success
+[2024-05-14 10:23:03] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.6.0.tar.gz]
+[2024-05-14 10:23:03] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.7.0.tar.gz]
+[2024-05-14 10:23:03] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
+[2024-05-14 10:23:03] INFO root fetch - main [MainThread]: Store serial: [23197911]
