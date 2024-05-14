@@ -23551,3 +23551,78 @@
 [2024-05-14 15:18:11] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-14 15:18:11] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-14 15:18:11] INFO root fetch - main [MainThread]: Store serial: [23201549]
+[2024-05-14 15:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201549]
+[2024-05-14 15:20:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bc-korea-vector-map
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-energiepartagee
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtc-tools-interface
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: group-local
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: JablotronPy
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hgraph
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: linkedin-user-scrape
+[2024-05-14 15:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: carrot-cdm
+[2024-05-14 15:20:20] INFO root fetch - processPackages [linkedin-user-scrape]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 15:20:20] INFO root fetch - processPackages [group-local]: New version: [0.0.25] Old Version: [0.0.24]
+[2024-05-14 15:20:20] INFO root fetch - processPackages [bc-korea-vector-map]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-14 15:20:20] INFO root fetch - processPackages [hgraph]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 15:20:20] INFO root fetch - processPackages [carrot-cdm]: New version: [0.73] Old Version: [0.72]
+[2024-05-14 15:20:20] INFO root fetch - processPackages [rtc-tools-interface]: New version: [0.8.0b1] Old Version: [0.7.6]
+[2024-05-14 15:20:20] INFO root fetch - processPackages [linkedin-user-scrape]: Downloading https://files.pythonhosted.org/packages/9f/2a/d1020fd25aac1f63a8556b60f2dcdcbb9aae3ac7fcb5e147ac5ab883f8ba/linkedin_user_scrape-1.0.2.tar.gz
+[2024-05-14 15:20:20] INFO root fetch - processPackages [JablotronPy]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-14 15:20:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-14 15:20:21] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/45/fc/a5879500f3ff7525b3f24f8fd823f5ed534288380b61f30e094f8ded2847/group_local-0.0.24.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/da/ad/e83b1d8661a0e583d3a8e4e301911d6797358607dad40d27057574e75081/hgraph-0.2.8.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [bc-korea-vector-map]: Downloading https://files.pythonhosted.org/packages/20/f7/01ce08b8efadaa9b906a9f4158da39bcd6cf22057d79a2a9b4cd916fe014/bc_korea_vector_map-0.2.0.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [carrot-cdm]: Downloading https://files.pythonhosted.org/packages/d9/fa/c59b5981d075ae574594ce3b134af8e010303239d09c0b435c0a3026e182/carrot-cdm-0.72.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [rtc-tools-interface]: Downloading https://files.pythonhosted.org/packages/40/f0/d9eec60d34b93a6c8b1e2c56f0304b3074c37ae24bd600a54c071812d73b/rtc-tools-interface-0.7.6.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [JablotronPy]: Downloading https://files.pythonhosted.org/packages/74/f0/72fbc9af3ce9de2f0ef2046ef0bd545a8e00594d37a90b566baf94ea76c6/JablotronPy-0.6.0.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [linkedin-user-scrape]: Downloading https://files.pythonhosted.org/packages/77/26/cb678f4f56af675d85b68279d5f84f3a090fe464972cc943ca63ca20f36f/linkedin_user_scrape-1.0.3.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [hgraph]: Downloading https://files.pythonhosted.org/packages/22/05/43ea3ada7d538f8592b51d36721d624366793ada729a497eaaff2db9b540/hgraph-0.2.9.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [group-local]: Downloading https://files.pythonhosted.org/packages/1d/13/e5d342189d65db077c115e1222ac26c71203d32bc549647b1314feace4b1/group_local-0.0.25.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [bc-korea-vector-map]: Downloading https://files.pythonhosted.org/packages/18/2e/e9685c800f0c2e17e67d06e8bee2fd4948c9bb37ae159eaec947c396696b/bc_korea_vector_map-0.2.1.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [linkedin-user-scrape]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [linkedin-user-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin_user_scrape-1.0.2.tar.gz tmp/linkedin_user_scrape-1.0.3.tar.gz --markdown 20240514/l/linkedin-user-scrape/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [group-local]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/group_local-0.0.24.tar.gz tmp/group_local-0.0.25.tar.gz --markdown 20240514/g/group-local/0.0.24-0.0.25/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [carrot-cdm]: Downloading https://files.pythonhosted.org/packages/5d/26/039622ef9ab1e7619c7c6e776fd03ebb042c3b25d114c86a1196411f6b58/carrot-cdm-0.73.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [rtc-tools-interface]: Downloading https://files.pythonhosted.org/packages/49/55/1f205a42ed0785fb5361b12e9573bd66c485eeded70069ed5eeac8efa9ed/rtc-tools-interface-0.8.0b1.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [bc-korea-vector-map]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [bc-korea-vector-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc_korea_vector_map-0.2.0.tar.gz tmp/bc_korea_vector_map-0.2.1.tar.gz --markdown 20240514/b/bc-korea-vector-map/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [JablotronPy]: Downloading https://files.pythonhosted.org/packages/ee/95/606e4f65ada32349e327f48e87d7343122275c81a90be4fbb5e0b99f0b75/jablotronpy-0.6.1.tar.gz
+[2024-05-14 15:20:21] INFO root fetch - processPackages [hgraph]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [hgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgraph-0.2.8.tar.gz tmp/hgraph-0.2.9.tar.gz --markdown 20240514/h/hgraph/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [carrot-cdm]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [carrot-cdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carrot-cdm-0.72.tar.gz tmp/carrot-cdm-0.73.tar.gz --markdown 20240514/c/carrot-cdm/0.72-0.73/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [rtc-tools-interface]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [rtc-tools-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-interface-0.7.6.tar.gz tmp/rtc-tools-interface-0.8.0b1.tar.gz --markdown 20240514/r/rtc-tools-interface/0.7.6-0.8.0b1/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [JablotronPy]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [JablotronPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JablotronPy-0.6.0.tar.gz tmp/jablotronpy-0.6.1.tar.gz --markdown 20240514/J/JablotronPy/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-14 15:20:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-14 15:20:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240514/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-14 15:20:23] INFO root fetch - processPackages [bc-korea-vector-map]: Remove: archive file [/home/abi/fetcher/tmp/bc_korea_vector_map-0.2.0.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - processPackages [bc-korea-vector-map]: Remove: archive file [/home/abi/fetcher/tmp/bc_korea_vector_map-0.2.1.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - main [MainThread]: End processing [bc-korea-vector-map]: success
+[2024-05-14 15:20:23] INFO root fetch - processPackages [linkedin-user-scrape]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_user_scrape-1.0.2.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - processPackages [linkedin-user-scrape]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_user_scrape-1.0.3.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - main [MainThread]: End processing [linkedin-user-scrape]: success
+[2024-05-14 15:20:23] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.24.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - processPackages [group-local]: Remove: archive file [/home/abi/fetcher/tmp/group_local-0.0.25.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - main [MainThread]: End processing [group-local]: success
+[2024-05-14 15:20:23] INFO root fetch - processPackages [JablotronPy]: Remove: archive file [/home/abi/fetcher/tmp/JablotronPy-0.6.0.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - processPackages [JablotronPy]: Remove: archive file [/home/abi/fetcher/tmp/jablotronpy-0.6.1.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - main [MainThread]: End processing [JablotronPy]: success
+[2024-05-14 15:20:23] INFO root fetch - processPackages [carrot-cdm]: Remove: archive file [/home/abi/fetcher/tmp/carrot-cdm-0.72.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - processPackages [carrot-cdm]: Remove: archive file [/home/abi/fetcher/tmp/carrot-cdm-0.73.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - main [MainThread]: End processing [carrot-cdm]: success
+[2024-05-14 15:20:23] INFO root fetch - processPackages [rtc-tools-interface]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-interface-0.7.6.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - processPackages [rtc-tools-interface]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-interface-0.8.0b1.tar.gz]
+[2024-05-14 15:20:23] INFO root fetch - main [MainThread]: End processing [rtc-tools-interface]: success
+[2024-05-14 15:20:24] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-14 15:20:24] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-14 15:20:24] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-14 15:20:24] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.8.tar.gz]
+[2024-05-14 15:20:24] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
+[2024-05-14 15:20:24] INFO root fetch - main [MainThread]: End processing [hgraph]: success
+[2024-05-14 15:20:24] INFO root fetch - main [MainThread]: Store serial: [23201573]
