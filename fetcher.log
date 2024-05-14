@@ -8168,3 +8168,27 @@
 [2024-05-14 04:36:19] INFO root fetch - processPackages [InterProcessPyObjects]: Remove: archive file [/home/abi/fetcher/tmp/interprocesspyobjects-1.0.6.tar.gz]
 [2024-05-14 04:36:19] INFO root fetch - main [MainThread]: End processing [InterProcessPyObjects]: success
 [2024-05-14 04:36:19] INFO root fetch - main [MainThread]: Store serial: [23194973]
+[2024-05-14 04:38:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194973]
+[2024-05-14 04:38:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-hr-department-analytic
+[2024-05-14 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-webp
+[2024-05-14 04:38:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybiotk
+[2024-05-14 04:38:28] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-05-14 04:38:28] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Downloading https://files.pythonhosted.org/packages/32/da/9717a4c4a1cfbeddb17fea39cf6faba0c8e9c7bd250d10784a2c65b7df2a/odoo_addon_hr_department_analytic-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-14 04:38:28] WARNING root fetch - processPackages [python-webp]: Skipping, unable to determine old version
+[2024-05-14 04:38:28] INFO root fetch - processPackages [pybiotk]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-05-14 04:38:28] INFO root fetch - main [MainThread]: End processing [python-webp] error
+[2024-05-14 04:38:28] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Downloading https://files.pythonhosted.org/packages/17/52/201f4cdade3e4e6734608641de67b45e4b4a84319f2d90948cb487a5b747/odoo_addon_hr_department_analytic-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-14 04:38:28] INFO root fetch - processPackages [pybiotk]: Downloading https://files.pythonhosted.org/packages/c9/89/e369e981702b24082a840ab6e988062653b861ccd9bab4cfd7ec1e625c8b/pybiotk-1.2.7.tar.gz
+[2024-05-14 04:38:28] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: executing diffoscope
+[2024-05-14 04:38:28] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-hr-department-analytic/16.0.1.0.0.2-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-14 04:38:28] INFO root fetch - processPackages [pybiotk]: Downloading https://files.pythonhosted.org/packages/5e/18/245e4c2f522ab75d284adf9b93c3f72afa9d063b935452ad6a6409d1d7b1/pybiotk-1.2.8.tar.gz
+[2024-05-14 04:38:28] INFO root fetch - processPackages [pybiotk]: executing diffoscope
+[2024-05-14 04:38:28] INFO root fetch - processPackages [pybiotk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybiotk-1.2.7.tar.gz tmp/pybiotk-1.2.8.tar.gz --markdown 20240514/p/pybiotk/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-05-14 04:38:29] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-14 04:38:29] INFO root fetch - processPackages [odoo-addon-hr-department-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_department_analytic-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-14 04:38:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-department-analytic]: success
+[2024-05-14 04:38:29] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.2.7.tar.gz]
+[2024-05-14 04:38:29] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.2.8.tar.gz]
+[2024-05-14 04:38:29] INFO root fetch - main [MainThread]: End processing [pybiotk]: success
+[2024-05-14 04:38:29] INFO root fetch - main [MainThread]: Store serial: [23194980]
