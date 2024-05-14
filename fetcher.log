@@ -18704,3 +18704,99 @@
 [2024-05-14 12:20:52] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.9.tar.gz]
 [2024-05-14 12:20:52] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
 [2024-05-14 12:20:52] INFO root fetch - main [MainThread]: Store serial: [23199421]
+[2024-05-14 12:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199421]
+[2024-05-14 12:23:01] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: valeiraConnect
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openseneca
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wxhelper
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bw2data
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python3-cyberfusion-common
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: SimplerLLM
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dyspyosis
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zibuyu-LLM
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: git_alert
+[2024-05-14 12:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tensortrax
+[2024-05-14 12:23:01] INFO root fetch - processPackages [dyspyosis]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [zibuyu-LLM]: New version: [0.1.9] Old Version: [0.1.17]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [git_alert]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [wxhelper]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 12:23:01] WARNING root fetch - processPackages [valeiraConnect]: Skipping, unable to determine old version
+[2024-05-14 12:23:01] INFO root fetch - processPackages [valeiraConnect]: Start processing: scores
+[2024-05-14 12:23:01] INFO root fetch - main [MainThread]: End processing [valeiraConnect] error
+[2024-05-14 12:23:01] INFO root fetch - processPackages [SimplerLLM]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [openseneca]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [python3-cyberfusion-common]: New version: [2.10.11.2] Old Version: [2.10.11.1]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [dyspyosis]: Downloading https://files.pythonhosted.org/packages/fd/eb/34bdb211b7a6033cc28af878a27c85accd7aaf9ffe6ab965d181fb78f6cf/dyspyosis-0.0.1.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [bw2data]: New version: [4.0.dev9] Old Version: [4.0.dev8]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [git_alert]: Downloading https://files.pythonhosted.org/packages/a3/ca/d469e62d1c386440a43fa583d5064be4143300352ed260dd4fe2981def74/git_alert-0.3.1.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [zibuyu-LLM]: Downloading https://files.pythonhosted.org/packages/9e/c0/abd59721993870395fb5eb289bb5ade90d2ec51562004f621b09a99a1848/zibuyu_LLM-0.1.17-py3-none-any.whl
+[2024-05-14 12:23:01] INFO root fetch - processPackages [scores]: New version: [0.8] Old Version: [0.72]
+[2024-05-14 12:23:01] INFO root fetch - processPackages [wxhelper]: Downloading https://files.pythonhosted.org/packages/bb/23/426f1371d174b5d707c1bcdfb941d882a774ccda8f331a36371736df134c/wxhelper-0.0.3.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [openseneca]: Downloading https://files.pythonhosted.org/packages/ca/e3/8a9fc59dab894fcfaaaceac7b79946feedff9dd407ea3443c3ea52389f4b/openseneca-0.1.0.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [SimplerLLM]: Downloading https://files.pythonhosted.org/packages/3a/4a/f538806c48110ae86023e202c6c18a64365f8ea28d1b1f2a87d51c8fd5de/simplerllm-0.2.1.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [python3-cyberfusion-common]: Downloading https://files.pythonhosted.org/packages/d7/54/def2a03e6d6e46ab7abbb3229dc7b6accaac15085d43d40ae6ccf4b059c7/python3-cyberfusion-common-2.10.11.1.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [bw2data]: Downloading https://files.pythonhosted.org/packages/79/e2/4a6806f2f7e95e68ef879286b48a99e79f5ef3c640b203015d6e50b88c4c/bw2data-4.0.dev8.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [dyspyosis]: Downloading https://files.pythonhosted.org/packages/c0/3b/fe8b8f474dda3b23565e300c23ddd535fe0ac7471bac040cd3c9e0345940/dyspyosis-0.0.2.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/48/05/740bbae86ca6c50c2e0eafb6876e038ba52b3311f2c3ab384393fecd23e5/scores-0.72.tar.gz
+[2024-05-14 12:23:01] INFO root fetch - processPackages [zibuyu-LLM]: Downloading https://files.pythonhosted.org/packages/8b/1d/73751ba8bfaf5b2eb71d0251541264c73d9b0da5c2d08f0111dbee0978db/zibuyu_LLM-0.1.9-py3-none-any.whl
+[2024-05-14 12:23:02] INFO root fetch - processPackages [dyspyosis]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [dyspyosis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyspyosis-0.0.1.tar.gz tmp/dyspyosis-0.0.2.tar.gz --markdown 20240514/d/dyspyosis/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [git_alert]: Downloading https://files.pythonhosted.org/packages/15/bb/31b3078f0587f6dca3d3edd1f96678613c963f6571aa5bae40f10868651d/git_alert-0.3.2.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20240514/t/tensortrax/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [zibuyu-LLM]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [zibuyu-LLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibuyu_LLM-0.1.17-py3-none-any.whl.zip tmp/zibuyu_LLM-0.1.9-py3-none-any.whl.zip --markdown 20240514/z/zibuyu-LLM/0.1.17-0.1.9/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [git_alert]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [git_alert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_alert-0.3.1.tar.gz tmp/git_alert-0.3.2.tar.gz --markdown 20240514/g/git_alert/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [python3-cyberfusion-common]: Downloading https://files.pythonhosted.org/packages/39/1e/507a605ebdeff055bdaf0f0c137a1596071a06fab477fc4daafdaa61fb67/python3-cyberfusion-common-2.10.11.2.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [SimplerLLM]: Downloading https://files.pythonhosted.org/packages/b4/d1/14c57d29848aea46707657b69f308e71a7dab2458226a674ec1fa92431bf/simplerllm-0.2.3.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [openseneca]: Downloading https://files.pythonhosted.org/packages/59/e8/215b112e830b086890f3506a71f7fdc70477f2a870deb730a97cb06aadca/openseneca-0.1.1.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [bw2data]: Downloading https://files.pythonhosted.org/packages/fc/8c/90e7206ce18d131ff4911ed43ec32ba0a2675262f923b4081196e2a06757/bw2data-4.0.dev9.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [wxhelper]: Downloading https://files.pythonhosted.org/packages/42/75/9835868cd72564df70dc3edbf66277c5c76ad5fd392e82431107a8dcc322/wxhelper-0.0.4.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [python3-cyberfusion-common]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [python3-cyberfusion-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python3-cyberfusion-common-2.10.11.1.tar.gz tmp/python3-cyberfusion-common-2.10.11.2.tar.gz --markdown 20240514/p/python3-cyberfusion-common/2.10.11.1-2.10.11.2/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [SimplerLLM]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [SimplerLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerllm-0.2.1.tar.gz tmp/simplerllm-0.2.3.tar.gz --markdown 20240514/S/SimplerLLM/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [openseneca]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [openseneca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseneca-0.1.0.tar.gz tmp/openseneca-0.1.1.tar.gz --markdown 20240514/o/openseneca/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [wxhelper]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [wxhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxhelper-0.0.3.tar.gz tmp/wxhelper-0.0.4.tar.gz --markdown 20240514/w/wxhelper/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [scores]: Downloading https://files.pythonhosted.org/packages/7d/a6/abc47ea312b59930745878e0b66c155b61da0fdbf1f6fbdfb843d2395d77/scores-0.8.tar.gz
+[2024-05-14 12:23:02] INFO root fetch - processPackages [bw2data]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [bw2data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2data-4.0.dev8.tar.gz tmp/bw2data-4.0.dev9.tar.gz --markdown 20240514/b/bw2data/4.0.dev8-4.0.dev9/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [scores]: executing diffoscope
+[2024-05-14 12:23:02] INFO root fetch - processPackages [scores]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scores-0.72.tar.gz tmp/scores-0.8.tar.gz --markdown 20240514/s/scores/0.72-0.8/README.md --exclude *.pyd
+[2024-05-14 12:23:02] INFO root fetch - processPackages [dyspyosis]: Remove: archive file [/home/abi/fetcher/tmp/dyspyosis-0.0.1.tar.gz]
+[2024-05-14 12:23:02] INFO root fetch - processPackages [dyspyosis]: Remove: archive file [/home/abi/fetcher/tmp/dyspyosis-0.0.2.tar.gz]
+[2024-05-14 12:23:02] INFO root fetch - main [MainThread]: End processing [dyspyosis]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.8.5.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.9.0.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [zibuyu-LLM]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_LLM-0.1.17-py3-none-any.whl.zip]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [zibuyu-LLM]: Remove: archive file [/home/abi/fetcher/tmp/zibuyu_LLM-0.1.9-py3-none-any.whl.zip]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [zibuyu-LLM]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [git_alert]: Remove: archive file [/home/abi/fetcher/tmp/git_alert-0.3.1.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [git_alert]: Remove: archive file [/home/abi/fetcher/tmp/git_alert-0.3.2.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [git_alert]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [SimplerLLM]: Remove: archive file [/home/abi/fetcher/tmp/simplerllm-0.2.1.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [SimplerLLM]: Remove: archive file [/home/abi/fetcher/tmp/simplerllm-0.2.3.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [SimplerLLM]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [python3-cyberfusion-common]: Remove: archive file [/home/abi/fetcher/tmp/python3-cyberfusion-common-2.10.11.1.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [python3-cyberfusion-common]: Remove: archive file [/home/abi/fetcher/tmp/python3-cyberfusion-common-2.10.11.2.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [python3-cyberfusion-common]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [wxhelper]: Remove: archive file [/home/abi/fetcher/tmp/wxhelper-0.0.3.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [wxhelper]: Remove: archive file [/home/abi/fetcher/tmp/wxhelper-0.0.4.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [wxhelper]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [bw2data]: Remove: archive file [/home/abi/fetcher/tmp/bw2data-4.0.dev8.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [bw2data]: Remove: archive file [/home/abi/fetcher/tmp/bw2data-4.0.dev9.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [bw2data]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [openseneca]: Remove: archive file [/home/abi/fetcher/tmp/openseneca-0.1.0.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [openseneca]: Remove: archive file [/home/abi/fetcher/tmp/openseneca-0.1.1.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [openseneca]: success
+[2024-05-14 12:23:03] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.72.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - processPackages [scores]: Remove: archive file [/home/abi/fetcher/tmp/scores-0.8.tar.gz]
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: End processing [scores]: success
+[2024-05-14 12:23:03] INFO root fetch - main [MainThread]: Store serial: [23199461]
