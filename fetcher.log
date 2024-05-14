@@ -2412,3 +2412,54 @@
 [2024-05-14 02:09:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-14 02:09:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-14 02:09:18] INFO root fetch - main [MainThread]: Store serial: [23192778]
+[2024-05-14 02:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192778]
+[2024-05-14 02:11:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synnax
+[2024-05-14 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owega
+[2024-05-14 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unhorrifiedz
+[2024-05-14 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-nightly
+[2024-05-14 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-quantizers-nightly
+[2024-05-14 02:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-14 02:11:26] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:11:26] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240513.post1109] Old Version: [1.5.0.20240512.post1149]
+[2024-05-14 02:11:26] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.7.dev202405130009] Old Version: [4.1.7.dev202405120010]
+[2024-05-14 02:11:26] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:11:26] WARNING root fetch - processPackages [unhorrifiedz]: Skipping, unable to determine old version
+[2024-05-14 02:11:26] INFO root fetch - main [MainThread]: End processing [unhorrifiedz] error
+[2024-05-14 02:11:26] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 02:11:26] INFO root fetch - processPackages [owega]: New version: [5.7.4] Old Version: [5.7.3]
+[2024-05-14 02:11:26] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/f3/6e/decff3f2924d616b2bb0a048383e027715b6ddb635b6a20b9eec05a7db1f/mct-quantizers-nightly-1.5.0.20240512.post1149.tar.gz
+[2024-05-14 02:11:26] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/50/6f/50fa7522926e0c5d1f2fe66242532f441128c6212ebb4152739724989c69/openbb_nightly-4.1.7.dev202405120010.tar.gz
+[2024-05-14 02:11:26] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/2e/9c/6c4f8ff66ef29a5670e1d816f53f4d63bee1f6218a63158d475b0b8a7a51/owega-5.7.3.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:11:27] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:11:27] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/5e/78/2aed9674a49f032ed7e6a9b4e6459311fe84dd4beb5b0d6616cfcccaf06b/mct-quantizers-nightly-1.5.0.20240513.post1109.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-14 02:11:27] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240512.post1149.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240513.post1109.tar.gz --markdown 20240514/m/mct-quantizers-nightly/1.5.0.20240512.post1149-1.5.0.20240513.post1109/README.md --exclude *.pyd
+[2024-05-14 02:11:27] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/be/50/b57eeff35a70b5a0c950808a36195a57c18c5c920176f026011c903597bc/owega-5.7.4.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/50/10/0308d2ffdff88ba61a7d6c9ad2784c0ca97f841dc4d479d615695fc9e28f/openbb_nightly-4.1.7.dev202405130009.tar.gz
+[2024-05-14 02:11:27] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-14 02:11:27] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.7.3.tar.gz tmp/owega-5.7.4.tar.gz --markdown 20240514/o/owega/5.7.3-5.7.4/README.md --exclude *.pyd
+[2024-05-14 02:11:27] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-14 02:11:27] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240514/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 02:11:27] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:11:27] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:11:27] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:11:27] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-05-14 02:11:27] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.7.dev202405120010.tar.gz tmp/openbb_nightly-4.1.7.dev202405130009.tar.gz --markdown 20240514/o/openbb-nightly/4.1.7.dev202405120010-4.1.7.dev202405130009/README.md --exclude *.pyd
+[2024-05-14 02:11:28] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.3.tar.gz]
+[2024-05-14 02:11:28] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.4.tar.gz]
+[2024-05-14 02:11:28] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-14 02:11:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240512.post1149.tar.gz]
+[2024-05-14 02:11:28] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240513.post1109.tar.gz]
+[2024-05-14 02:11:28] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-14 02:11:28] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-14 02:11:28] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-14 02:11:28] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-14 02:11:30] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405120010.tar.gz]
+[2024-05-14 02:11:30] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.7.dev202405130009.tar.gz]
+[2024-05-14 02:11:30] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-05-14 02:11:30] INFO root fetch - main [MainThread]: Store serial: [23192797]
