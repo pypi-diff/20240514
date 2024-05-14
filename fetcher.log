@@ -14370,3 +14370,60 @@
 [2024-05-14 10:01:52] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
 [2024-05-14 10:01:52] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-05-14 10:01:52] INFO root fetch - main [MainThread]: Store serial: [23197587]
+[2024-05-14 10:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197587]
+[2024-05-14 10:04:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 10:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SEVtras
+[2024-05-14 10:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ritdu-slacker
+[2024-05-14 10:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genai-apis
+[2024-05-14 10:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyFEA
+[2024-05-14 10:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langfun
+[2024-05-14 10:04:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvprocessor
+[2024-05-14 10:04:04] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-14 10:04:04] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240513] Old Version: [0.0.2.dev20240512]
+[2024-05-14 10:04:04] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/5a/5e/fe801f8bd6eb067c0d2c609291fa9dec67c460e8107e578e0c8d62900607/cvprocessor-0.5.5.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [EasyFEA]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 10:04:04] INFO root fetch - processPackages [genai-apis]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 10:04:04] INFO root fetch - processPackages [SEVtras]: New version: [0.2.8] Old Version: [0.2.10]
+[2024-05-14 10:04:04] INFO root fetch - processPackages [ritdu-slacker]: New version: [1.5.1] Old Version: [1.4.2]
+[2024-05-14 10:04:04] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/dc/81/7e35ab4ef5b27ed3399598a5de0e1ed8a818f848e0ad2fec84e96128cec6/langfun-0.0.2.dev20240512.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [SEVtras]: Downloading https://files.pythonhosted.org/packages/fd/e1/66624417f1ee2099b58c299aef0d6d97cf5eb80211fb59ca5018ac65c7d2/SEVtras-0.2.10.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [ritdu-slacker]: Downloading https://files.pythonhosted.org/packages/74/32/6a35d98a9b4334a4bb6cf91704bfb71730ccc0a79f47e96982591be1608a/ritdu_slacker-1.4.2.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/0e/73/d72a5c10fa938a385ca74b7b43d0e681a73a732fb9dc6f92dab52b82b88f/genai_apis-0.0.4-py3-none-any.whl
+[2024-05-14 10:04:04] INFO root fetch - processPackages [EasyFEA]: Downloading https://files.pythonhosted.org/packages/50/75/1a63c667a97518b776962b08c58fdd7f31735b705760d374c1435ef20873/EasyFEA-1.0.1.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/98/3e/bb7ae9d48b6a08253f073412c37e3ae866206e3350a4c5ee6d211830f66f/cvprocessor-0.5.6.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/b7/1a/a14f4e1ab825cd35965c57b20a4a217f799f3ea7fdf599de7a39522fe2d5/langfun-0.0.2.dev20240513.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 10:04:04] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.5.tar.gz tmp/cvprocessor-0.5.6.tar.gz --markdown 20240514/c/cvprocessor/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-14 10:04:04] INFO root fetch - processPackages [ritdu-slacker]: Downloading https://files.pythonhosted.org/packages/80/30/13feef7629a7f4adaa61d2f7848468a9198d4cbc6292a10caf8c99f98db3/ritdu_slacker-1.5.1.tar.gz
+[2024-05-14 10:04:04] INFO root fetch - processPackages [ritdu-slacker]: executing diffoscope
+[2024-05-14 10:04:04] INFO root fetch - processPackages [ritdu-slacker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ritdu_slacker-1.4.2.tar.gz tmp/ritdu_slacker-1.5.1.tar.gz --markdown 20240514/r/ritdu-slacker/1.4.2-1.5.1/README.md --exclude *.pyd
+[2024-05-14 10:04:04] INFO root fetch - processPackages [genai-apis]: Downloading https://files.pythonhosted.org/packages/7c/4c/768e2351bcd33c891b6737542607a87b9353b27711a5d7a49fe061498d94/genai_apis-0.0.5-py3-none-any.whl
+[2024-05-14 10:04:04] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-14 10:04:04] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240512.tar.gz tmp/langfun-0.0.2.dev20240513.tar.gz --markdown 20240514/l/langfun/0.0.2.dev20240512-0.0.2.dev20240513/README.md --exclude *.pyd
+[2024-05-14 10:04:04] INFO root fetch - processPackages [EasyFEA]: Downloading https://files.pythonhosted.org/packages/57/44/bd34a7b1b3b63c9110f8653ecc9a572040ad5ce5fca61fbb1d01ad00b96d/EasyFEA-1.0.2.tar.gz
+[2024-05-14 10:04:05] INFO root fetch - processPackages [genai-apis]: executing diffoscope
+[2024-05-14 10:04:05] INFO root fetch - processPackages [genai-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genai_apis-0.0.4-py3-none-any.whl.zip tmp/genai_apis-0.0.5-py3-none-any.whl.zip --markdown 20240514/g/genai-apis/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 10:04:05] INFO root fetch - processPackages [EasyFEA]: executing diffoscope
+[2024-05-14 10:04:05] INFO root fetch - processPackages [EasyFEA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyFEA-1.0.1.tar.gz tmp/EasyFEA-1.0.2.tar.gz --markdown 20240514/E/EasyFEA/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 10:04:05] INFO root fetch - processPackages [ritdu-slacker]: Remove: archive file [/home/abi/fetcher/tmp/ritdu_slacker-1.4.2.tar.gz]
+[2024-05-14 10:04:05] INFO root fetch - processPackages [ritdu-slacker]: Remove: archive file [/home/abi/fetcher/tmp/ritdu_slacker-1.5.1.tar.gz]
+[2024-05-14 10:04:05] INFO root fetch - main [MainThread]: End processing [ritdu-slacker]: success
+[2024-05-14 10:04:05] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.5.tar.gz]
+[2024-05-14 10:04:05] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.6.tar.gz]
+[2024-05-14 10:04:05] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 10:04:05] INFO root fetch - processPackages [SEVtras]: Downloading https://files.pythonhosted.org/packages/a6/a4/69c5b72916fe8cf12f45251e23a2526836e4b293954f85f0320902ed1356/SEVtras-0.2.8.tar.gz
+[2024-05-14 10:04:05] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.4-py3-none-any.whl.zip]
+[2024-05-14 10:04:05] INFO root fetch - processPackages [genai-apis]: Remove: archive file [/home/abi/fetcher/tmp/genai_apis-0.0.5-py3-none-any.whl.zip]
+[2024-05-14 10:04:05] INFO root fetch - main [MainThread]: End processing [genai-apis]: success
+[2024-05-14 10:04:05] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240512.tar.gz]
+[2024-05-14 10:04:05] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240513.tar.gz]
+[2024-05-14 10:04:05] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-14 10:04:06] INFO root fetch - processPackages [EasyFEA]: Remove: archive file [/home/abi/fetcher/tmp/EasyFEA-1.0.1.tar.gz]
+[2024-05-14 10:04:06] INFO root fetch - processPackages [EasyFEA]: Remove: archive file [/home/abi/fetcher/tmp/EasyFEA-1.0.2.tar.gz]
+[2024-05-14 10:04:06] INFO root fetch - main [MainThread]: End processing [EasyFEA]: success
+[2024-05-14 10:04:07] INFO root fetch - processPackages [SEVtras]: executing diffoscope
+[2024-05-14 10:04:07] INFO root fetch - processPackages [SEVtras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SEVtras-0.2.10.tar.gz tmp/SEVtras-0.2.8.tar.gz --markdown 20240514/S/SEVtras/0.2.10-0.2.8/README.md --exclude *.pyd
+[2024-05-14 10:04:08] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.10.tar.gz]
+[2024-05-14 10:04:08] INFO root fetch - processPackages [SEVtras]: Remove: archive file [/home/abi/fetcher/tmp/SEVtras-0.2.8.tar.gz]
+[2024-05-14 10:04:08] INFO root fetch - main [MainThread]: End processing [SEVtras]: success
+[2024-05-14 10:04:08] INFO root fetch - main [MainThread]: Store serial: [23197605]
