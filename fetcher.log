@@ -9886,3 +9886,48 @@
 [2024-05-14 06:21:39] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-14 06:21:39] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-14 06:21:39] INFO root fetch - main [MainThread]: Store serial: [23195611]
+[2024-05-14 06:23:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195611]
+[2024-05-14 06:23:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ffsim
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dq-check
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracktour
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tidyxbrl
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meerschaum
+[2024-05-14 06:23:52] INFO root fetch - processPackages [tidyxbrl]: New version: [1.0.1] Old Version: [0.1.0]
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ffsim]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 06:23:52] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/2e/99/8dd07af7a50fbac6c2f6084853a12f007db2faac6b180724ce6b79e465ae/ffsim-0.0.8.tar.gz
+[2024-05-14 06:23:52] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/11/c5/9b2b2b7cc954735cbaf45cb91fa48b421a4bfa6df84b019faef6e7e072bc/tidyxbrl-0.1.0.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [tracktour]: New version: [0.0.5rc1] Old Version: [0.0.4]
+[2024-05-14 06:23:53] INFO root fetch - processPackages [dq-check]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-14 06:23:53] INFO root fetch - processPackages [meerschaum]: New version: [2.2.0.dev2] Old Version: [2.2.0.dev1]
+[2024-05-14 06:23:53] INFO root fetch - processPackages [tracktour]: Downloading https://files.pythonhosted.org/packages/44/ad/bcdb0fb33518e37f516cf0d93e1b2a022dc3a358182dd86536b464c05d4b/tracktour-0.0.4.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [dq-check]: Downloading https://files.pythonhosted.org/packages/f6/15/7e3ddb57465fb0c338ebfab16d048d8bdb0b98f2b773067d386f00c306d0/dq_check-0.3.0.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [ffsim]: Downloading https://files.pythonhosted.org/packages/44/73/0a674ae24e0d1adf0b2d2be576e9763c16ffe468b8aef7a301a7eceef858/ffsim-0.0.9.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/ba/40/4183167fa345ae6887750b97699606280747ff45af887b4362e8951d873d/tidyxbrl-1.0.1.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/b7/16/fea39831386dd569ba5361352541e92dbd2d7684ec6acc3850fe86938339/meerschaum-2.2.0.dev1.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [ffsim]: executing diffoscope
+[2024-05-14 06:23:53] INFO root fetch - processPackages [ffsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffsim-0.0.8.tar.gz tmp/ffsim-0.0.9.tar.gz --markdown 20240514/f/ffsim/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 06:23:53] INFO root fetch - processPackages [tidyxbrl]: executing diffoscope
+[2024-05-14 06:23:53] INFO root fetch - processPackages [tidyxbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyxbrl-0.1.0.tar.gz tmp/tidyxbrl-1.0.1.tar.gz --markdown 20240514/t/tidyxbrl/0.1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 06:23:53] INFO root fetch - processPackages [dq-check]: Downloading https://files.pythonhosted.org/packages/7d/6d/7201791a003f11f4207dde9ba13a74cbcc98d03009dc95d7396b2854275b/dq_check-0.3.1.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [tracktour]: Downloading https://files.pythonhosted.org/packages/06/95/b2b49e43662568ea7aa8d49196b8ff1ab3076b9cc8207643a0d0d83ecce0/tracktour-0.0.5rc1.tar.gz
+[2024-05-14 06:23:53] INFO root fetch - processPackages [dq-check]: executing diffoscope
+[2024-05-14 06:23:53] INFO root fetch - processPackages [dq-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dq_check-0.3.0.tar.gz tmp/dq_check-0.3.1.tar.gz --markdown 20240514/d/dq-check/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-14 06:23:53] WARNING root fetch - processPackages [tracktour]: Skipping package: exceeds size limit 13042685>=10485760
+[2024-05-14 06:23:53] INFO root fetch - main [MainThread]: End processing [tracktour] error
+[2024-05-14 06:23:53] INFO root fetch - processPackages [meerschaum]: Downloading https://files.pythonhosted.org/packages/c3/cc/bd0f9f6f285fcd514dbb49d6c5e95c29b5b87b7a69b96b9e5298faf3422c/meerschaum-2.2.0.dev2.tar.gz
+[2024-05-14 06:23:54] INFO root fetch - processPackages [meerschaum]: executing diffoscope
+[2024-05-14 06:23:54] INFO root fetch - processPackages [meerschaum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerschaum-2.2.0.dev1.tar.gz tmp/meerschaum-2.2.0.dev2.tar.gz --markdown 20240514/m/meerschaum/2.2.0.dev1-2.2.0.dev2/README.md --exclude *.pyd
+[2024-05-14 06:23:54] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-0.1.0.tar.gz]
+[2024-05-14 06:23:54] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.1.tar.gz]
+[2024-05-14 06:23:54] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
+[2024-05-14 06:23:54] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.3.0.tar.gz]
+[2024-05-14 06:23:54] INFO root fetch - processPackages [dq-check]: Remove: archive file [/home/abi/fetcher/tmp/dq_check-0.3.1.tar.gz]
+[2024-05-14 06:23:54] INFO root fetch - main [MainThread]: End processing [dq-check]: success
+[2024-05-14 06:23:54] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.8.tar.gz]
+[2024-05-14 06:23:54] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
+[2024-05-14 06:23:54] INFO root fetch - main [MainThread]: End processing [ffsim]: success
+[2024-05-14 06:23:55] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev1.tar.gz]
+[2024-05-14 06:23:55] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev2.tar.gz]
+[2024-05-14 06:23:55] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
+[2024-05-14 06:23:55] INFO root fetch - main [MainThread]: Store serial: [23195629]
