@@ -18109,3 +18109,45 @@
 [2024-05-14 11:55:36] INFO root fetch - processPackages [simple-build-dgcode]: Remove: archive file [/home/abi/fetcher/tmp/simple_build_dgcode-1.1.7.tar.gz]
 [2024-05-14 11:55:36] INFO root fetch - main [MainThread]: End processing [simple-build-dgcode]: success
 [2024-05-14 11:55:36] INFO root fetch - main [MainThread]: Store serial: [23199139]
+[2024-05-14 11:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199139]
+[2024-05-14 11:58:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 11:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-webservice
+[2024-05-14 11:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autotwin_pmswsgi
+[2024-05-14 11:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sniffing-io
+[2024-05-14 11:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tempit
+[2024-05-14 11:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghfc-utils
+[2024-05-14 11:58:01] INFO root fetch - processPackages [sniffing-io]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-14 11:58:01] INFO root fetch - processPackages [odoo-addon-webservice]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2024-05-14 11:58:01] INFO root fetch - processPackages [tempit]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 11:58:01] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/b3/7c/3204b8ebceebf63917d339f12c3d921ac7e3a2939e42427514cb0e920ec2/sniffing-io-0.0.4.tar.gz
+[2024-05-14 11:58:01] INFO root fetch - processPackages [autotwin_pmswsgi]: New version: [0.1.0] Old Version: [0.0.4]
+[2024-05-14 11:58:01] WARNING root fetch - processPackages [ghfc-utils]: Skipping, unable to determine old version
+[2024-05-14 11:58:01] INFO root fetch - main [MainThread]: End processing [ghfc-utils] error
+[2024-05-14 11:58:01] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/9d/87/eb7d2a6bd1a996d5c5a7d487f8cee40d31dd19fa625ef14a5470d4654a4f/odoo_addon_webservice-16.0.1.2.0-py3-none-any.whl
+[2024-05-14 11:58:01] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/08/0b/c6e8a0cfdb3809f40cda4a74ef668a1d185932b0b48d2190e791d8cbc198/tempit-0.1.5.tar.gz
+[2024-05-14 11:58:02] INFO root fetch - processPackages [autotwin_pmswsgi]: Downloading https://files.pythonhosted.org/packages/a9/46/9d2cdbbaef9639cf30e0a97da1a7188c62db5c366d35a2e69eb213653c84/autotwin_pmswsgi-0.0.4.tar.gz
+[2024-05-14 11:58:02] INFO root fetch - processPackages [odoo-addon-webservice]: Downloading https://files.pythonhosted.org/packages/8b/27/6fba0cafbd9b7aee2bae3c0b670a972683664bceb6ef285b7c8b7bf26737/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl
+[2024-05-14 11:58:02] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/1a/11/d56f20c67f71053a5a9df81d7a4fa6a70448882b701cf959ced203e175ba/sniffing-io-0.1.0.tar.gz
+[2024-05-14 11:58:02] INFO root fetch - processPackages [sniffing-io]: executing diffoscope
+[2024-05-14 11:58:02] INFO root fetch - processPackages [sniffing-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniffing-io-0.0.4.tar.gz tmp/sniffing-io-0.1.0.tar.gz --markdown 20240514/s/sniffing-io/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-14 11:58:02] INFO root fetch - processPackages [odoo-addon-webservice]: executing diffoscope
+[2024-05-14 11:58:02] INFO root fetch - processPackages [odoo-addon-webservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_webservice-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-webservice/16.0.1.2.0-16.0.1.2.0.1/README.md --exclude *.pyd
+[2024-05-14 11:58:02] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/56/1c/886439ab0cbb4a24ec9394fd50caa21ec985e9069943e3b414e417a0b05b/tempit-0.1.6.tar.gz
+[2024-05-14 11:58:02] INFO root fetch - processPackages [tempit]: executing diffoscope
+[2024-05-14 11:58:02] INFO root fetch - processPackages [tempit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempit-0.1.5.tar.gz tmp/tempit-0.1.6.tar.gz --markdown 20240514/t/tempit/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 11:58:02] INFO root fetch - processPackages [autotwin_pmswsgi]: Downloading https://files.pythonhosted.org/packages/3e/6c/165bff969b53e16122f91b0a27926daef3cfd93c98774e347663fb22c244/autotwin_pmswsgi-0.1.0.tar.gz
+[2024-05-14 11:58:02] INFO root fetch - processPackages [autotwin_pmswsgi]: executing diffoscope
+[2024-05-14 11:58:02] INFO root fetch - processPackages [autotwin_pmswsgi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotwin_pmswsgi-0.0.4.tar.gz tmp/autotwin_pmswsgi-0.1.0.tar.gz --markdown 20240514/a/autotwin_pmswsgi/0.0.4-0.1.0/README.md --exclude *.pyd
+[2024-05-14 11:58:03] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.4.tar.gz]
+[2024-05-14 11:58:03] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.1.0.tar.gz]
+[2024-05-14 11:58:03] INFO root fetch - main [MainThread]: End processing [sniffing-io]: success
+[2024-05-14 11:58:03] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-05-14 11:58:03] INFO root fetch - processPackages [odoo-addon-webservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_webservice-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-05-14 11:58:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-webservice]: success
+[2024-05-14 11:58:03] INFO root fetch - processPackages [autotwin_pmswsgi]: Remove: archive file [/home/abi/fetcher/tmp/autotwin_pmswsgi-0.0.4.tar.gz]
+[2024-05-14 11:58:03] INFO root fetch - processPackages [autotwin_pmswsgi]: Remove: archive file [/home/abi/fetcher/tmp/autotwin_pmswsgi-0.1.0.tar.gz]
+[2024-05-14 11:58:03] INFO root fetch - main [MainThread]: End processing [autotwin_pmswsgi]: success
+[2024-05-14 11:58:03] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.5.tar.gz]
+[2024-05-14 11:58:03] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.6.tar.gz]
+[2024-05-14 11:58:03] INFO root fetch - main [MainThread]: End processing [tempit]: success
+[2024-05-14 11:58:03] INFO root fetch - main [MainThread]: Store serial: [23199156]
