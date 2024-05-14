@@ -10038,3 +10038,33 @@
 [2024-05-14 06:30:40] INFO root fetch - processPackages [meerschaum]: Remove: archive file [/home/abi/fetcher/tmp/meerschaum-2.2.0.dev2.tar.gz]
 [2024-05-14 06:30:40] INFO root fetch - main [MainThread]: End processing [meerschaum]: success
 [2024-05-14 06:30:40] INFO root fetch - main [MainThread]: Store serial: [23195667]
+[2024-05-14 06:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195667]
+[2024-05-14 06:32:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 06:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serializor
+[2024-05-14 06:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muutils
+[2024-05-14 06:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blastpipe
+[2024-05-14 06:32:54] INFO root fetch - processPackages [muutils]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 06:32:54] INFO root fetch - processPackages [blastpipe]: New version: [2024.6.4] Old Version: [2024.6.3]
+[2024-05-14 06:32:54] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/97/de/465ef1162b14cae718a2cc0844cd985a85e19c61e4ca5b71b6c89593ce15/muutils-0.5.8.tar.gz
+[2024-05-14 06:32:54] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/3f/c2/b5827b828eab389c4993009636c886c86912b335e1c9ff92efaddaa8f0c9/blastpipe-2024.6.3.tar.gz
+[2024-05-14 06:32:54] INFO root fetch - processPackages [serializor]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 06:32:54] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/f7/93/be31f25db319f6e4ae983df88ef7b9d5908b4b18911edd3435efa9c2653a/serializor-1.0.1.tar.gz
+[2024-05-14 06:32:55] INFO root fetch - processPackages [muutils]: Downloading https://files.pythonhosted.org/packages/1d/9b/0847fd2cc8a5d41a71fd25f1309bb929ea9bcb5720660bee655335b25dd8/muutils-0.5.9.tar.gz
+[2024-05-14 06:32:55] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/a4/36/ee092df455553e5f984c6d4cf746881342d1f98e646e0caeb60b79370714/blastpipe-2024.6.4.tar.gz
+[2024-05-14 06:32:55] INFO root fetch - processPackages [muutils]: executing diffoscope
+[2024-05-14 06:32:55] INFO root fetch - processPackages [muutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muutils-0.5.8.tar.gz tmp/muutils-0.5.9.tar.gz --markdown 20240514/m/muutils/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 06:32:55] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-05-14 06:32:55] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.6.3.tar.gz tmp/blastpipe-2024.6.4.tar.gz --markdown 20240514/b/blastpipe/2024.6.3-2024.6.4/README.md --exclude *.pyd
+[2024-05-14 06:32:55] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/16/e4/d1f49ce73042c30fac5d89e4fa962257b9cd1d9b209d8fe6b7966ef7e4a1/serializor-1.0.2.tar.gz
+[2024-05-14 06:32:55] INFO root fetch - processPackages [serializor]: executing diffoscope
+[2024-05-14 06:32:55] INFO root fetch - processPackages [serializor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializor-1.0.1.tar.gz tmp/serializor-1.0.2.tar.gz --markdown 20240514/s/serializor/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 06:32:55] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.8.tar.gz]
+[2024-05-14 06:32:55] INFO root fetch - processPackages [muutils]: Remove: archive file [/home/abi/fetcher/tmp/muutils-0.5.9.tar.gz]
+[2024-05-14 06:32:55] INFO root fetch - main [MainThread]: End processing [muutils]: success
+[2024-05-14 06:32:56] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.6.3.tar.gz]
+[2024-05-14 06:32:56] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.6.4.tar.gz]
+[2024-05-14 06:32:56] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-05-14 06:32:57] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.1.tar.gz]
+[2024-05-14 06:32:57] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.2.tar.gz]
+[2024-05-14 06:32:57] INFO root fetch - main [MainThread]: End processing [serializor]: success
+[2024-05-14 06:32:57] INFO root fetch - main [MainThread]: Store serial: [23195695]
