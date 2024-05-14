@@ -10397,3 +10397,33 @@
 [2024-05-14 07:01:41] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 19461848>=10485760
 [2024-05-14 07:01:41] INFO root fetch - main [MainThread]: End processing [opendp] error
 [2024-05-14 07:01:41] INFO root fetch - main [MainThread]: Store serial: [23195808]
+[2024-05-14 07:03:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195808]
+[2024-05-14 07:03:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowetl
+[2024-05-14 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmachine
+[2024-05-14 07:03:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycatch22
+[2024-05-14 07:03:50] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-14 07:03:50] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2024-05-14 07:03:50] INFO root fetch - processPackages [pycatch22]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-14 07:03:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-14 07:03:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2024-05-14 07:03:50] INFO root fetch - processPackages [pycatch22]: Downloading https://files.pythonhosted.org/packages/cd/a7/092c2cf51cef621040c9f3ba25f8068ca6d610f8ca999ef500af1d68fdef/pycatch22-0.4.4.tar.gz
+[2024-05-14 07:03:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-14 07:03:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2024-05-14 07:03:51] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2024-05-14 07:03:51] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240514/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-14 07:03:51] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2024-05-14 07:03:51] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20240514/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/README.md --exclude *.pyd
+[2024-05-14 07:03:51] INFO root fetch - processPackages [pycatch22]: Downloading https://files.pythonhosted.org/packages/84/9c/452f83ae4d0e1f0fc36317b6b15c7a07214a1cc7205e19b35d77253c6cad/pycatch22-0.4.5.tar.gz
+[2024-05-14 07:03:51] INFO root fetch - processPackages [pycatch22]: executing diffoscope
+[2024-05-14 07:03:51] INFO root fetch - processPackages [pycatch22]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycatch22-0.4.4.tar.gz tmp/pycatch22-0.4.5.tar.gz --markdown 20240514/p/pycatch22/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-14 07:03:51] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-14 07:03:51] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-14 07:03:51] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2024-05-14 07:03:51] INFO root fetch - processPackages [pycatch22]: Remove: archive file [/home/abi/fetcher/tmp/pycatch22-0.4.4.tar.gz]
+[2024-05-14 07:03:51] INFO root fetch - processPackages [pycatch22]: Remove: archive file [/home/abi/fetcher/tmp/pycatch22-0.4.5.tar.gz]
+[2024-05-14 07:03:51] INFO root fetch - main [MainThread]: End processing [pycatch22]: success
+[2024-05-14 07:03:52] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2024-05-14 07:03:52] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2024-05-14 07:03:52] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2024-05-14 07:03:52] INFO root fetch - main [MainThread]: Store serial: [23195828]
