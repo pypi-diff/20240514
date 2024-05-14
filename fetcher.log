@@ -17012,3 +17012,77 @@
 [2024-05-14 11:25:06] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.70.tar.gz]
 [2024-05-14 11:25:06] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
 [2024-05-14 11:25:06] INFO root fetch - main [MainThread]: Store serial: [23198720]
+[2024-05-14 11:27:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198720]
+[2024-05-14 11:27:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coolbg
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: home-assistant-chip-repl
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcw-finder
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funcnodes
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: petitRADTRANS
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gwml
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-stock-picking-auto-create-lot-qty
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-tetris-stats
+[2024-05-14 11:27:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arducam-config-parser
+[2024-05-14 11:27:30] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [gwml]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [coolbg]: New version: [3.99] Old Version: [3.98]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [petitRADTRANS]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [funcnodes]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/8d/bf/87b7380189a12ebdbdbbb5a735e02a8d63c3217f8fdbe0a3bf958ca3fb16/gwml-0.0.6-py3-none-any.whl
+[2024-05-14 11:27:30] INFO root fetch - processPackages [home-assistant-chip-repl]: New version: [2024.5.0] Old Version: [2024.4.1]
+[2024-05-14 11:27:30] WARNING root fetch - processPackages [odoo14-addon-stock-picking-auto-create-lot-qty]: Skipping, unable to determine old version
+[2024-05-14 11:27:30] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-auto-create-lot-qty] error
+[2024-05-14 11:27:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/e7/cd/b75a083577974ce8b9accb8f86fa6cc4f3ae243d6d7271e88ca7245ad537/nonebot_plugin_tetris_stats-1.2.1.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [arducam-config-parser]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 11:27:30] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/d7/c3/f415c67b06b64b106d77164059874a88e63b0b458f15e31b8535db29cb90/coolbg-3.98.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [petitRADTRANS]: Downloading https://files.pythonhosted.org/packages/03/75/382bf8dc16c5118599187e68ac10e0ffdc84cf3a19052cb9910d2844102c/petitradtrans-3.0.1.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/e0/14/ae53bf0c52d3e33a4385fa9fce7989993f22e79ef5538153cfa914d3cd8e/funcnodes-0.2.6.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/c5/37/281073660e9baef00589631d212ca2ad79103d403098b7a59fddda13f301/home_assistant_chip_repl-2024.4.1-py3-none-any.whl
+[2024-05-14 11:27:30] WARNING root fetch - processPackages [petitRADTRANS]: Skipping package: exceeds size limit 18908523>=10485760
+[2024-05-14 11:27:30] INFO root fetch - main [MainThread]: End processing [petitRADTRANS] error
+[2024-05-14 11:27:30] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/d3/4b/86786409cc3b328e98c00d235c1324dae94024904968e206b9a09e7eb2e2/gwml-0.0.7-py3-none-any.whl
+[2024-05-14 11:27:30] INFO root fetch - processPackages [arducam-config-parser]: Downloading https://files.pythonhosted.org/packages/36/8c/1b978a2d26adabd415d0360b58f81fcf7d0fc30d8406409d8983791b23ad/arducam_config_parser-0.1.1.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [coolbg]: Downloading https://files.pythonhosted.org/packages/ce/4b/f8be9218715144b4320ce8504ca5bec7fe021987e9280ea461761bd71412/coolbg-3.99.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-14 11:27:30] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.0.6-py3-none-any.whl.zip tmp/gwml-0.0.7-py3-none-any.whl.zip --markdown 20240514/g/gwml/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 11:27:30] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/8e/1f/89bc079a9869f1d0fc09827383fed9698c1888dbcdb72c1178ad8f363d36/nonebot_plugin_tetris_stats-1.2.2.tar.gz
+[2024-05-14 11:27:30] INFO root fetch - processPackages [coolbg]: executing diffoscope
+[2024-05-14 11:27:30] INFO root fetch - processPackages [coolbg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coolbg-3.98.tar.gz tmp/coolbg-3.99.tar.gz --markdown 20240514/c/coolbg/3.98-3.99/README.md --exclude *.pyd
+[2024-05-14 11:27:30] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 11:27:30] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 11:27:30] INFO root fetch - processPackages [home-assistant-chip-repl]: Downloading https://files.pythonhosted.org/packages/83/c9/4aa08b276e24c6128a25400e82a9d45dc90e0886fe481f01e8b44fa6bada/home_assistant_chip_repl-2024.5.0-py3-none-any.whl
+[2024-05-14 11:27:31] INFO root fetch - processPackages [arducam-config-parser]: Downloading https://files.pythonhosted.org/packages/bf/bf/4e4c511a4afb53deaf8f6c56dcf35549bb69232143516b6d9c275dbe9916/arducam_config_parser-0.1.2.tar.gz
+[2024-05-14 11:27:31] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/b2/69/7e3e781a525c68474296f775934d8208afa40e6cabfe8290a848c3f579c0/funcnodes-0.2.7.tar.gz
+[2024-05-14 11:27:31] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-05-14 11:27:31] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.2.1.tar.gz tmp/nonebot_plugin_tetris_stats-1.2.2.tar.gz --markdown 20240514/n/nonebot-plugin-tetris-stats/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-05-14 11:27:31] INFO root fetch - processPackages [home-assistant-chip-repl]: executing diffoscope
+[2024-05-14 11:27:31] INFO root fetch - processPackages [home-assistant-chip-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_repl-2024.4.1-py3-none-any.whl.zip tmp/home_assistant_chip_repl-2024.5.0-py3-none-any.whl.zip --markdown 20240514/h/home-assistant-chip-repl/2024.4.1-2024.5.0/README.md --exclude *.pyd
+[2024-05-14 11:27:31] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-14 11:27:31] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.6.tar.gz tmp/funcnodes-0.2.7.tar.gz --markdown 20240514/f/funcnodes/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-14 11:27:31] INFO root fetch - processPackages [arducam-config-parser]: executing diffoscope
+[2024-05-14 11:27:31] INFO root fetch - processPackages [arducam-config-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arducam_config_parser-0.1.1.tar.gz tmp/arducam_config_parser-0.1.2.tar.gz --markdown 20240514/a/arducam-config-parser/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 11:27:31] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.98.tar.gz]
+[2024-05-14 11:27:31] INFO root fetch - processPackages [coolbg]: Remove: archive file [/home/abi/fetcher/tmp/coolbg-3.99.tar.gz]
+[2024-05-14 11:27:31] INFO root fetch - main [MainThread]: End processing [coolbg]: success
+[2024-05-14 11:27:31] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.6-py3-none-any.whl.zip]
+[2024-05-14 11:27:31] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.7-py3-none-any.whl.zip]
+[2024-05-14 11:27:31] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-14 11:27:31] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 11:27:31] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 11:27:31] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 11:27:31] INFO root fetch - processPackages [home-assistant-chip-repl]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_chip_repl-2024.4.1-py3-none-any.whl.zip]
+[2024-05-14 11:27:31] INFO root fetch - processPackages [home-assistant-chip-repl]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_chip_repl-2024.5.0-py3-none-any.whl.zip]
+[2024-05-14 11:27:31] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-repl]: success
+[2024-05-14 11:27:32] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.1.tar.gz]
+[2024-05-14 11:27:32] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.2.2.tar.gz]
+[2024-05-14 11:27:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-05-14 11:27:32] INFO root fetch - processPackages [arducam-config-parser]: Remove: archive file [/home/abi/fetcher/tmp/arducam_config_parser-0.1.1.tar.gz]
+[2024-05-14 11:27:32] INFO root fetch - processPackages [arducam-config-parser]: Remove: archive file [/home/abi/fetcher/tmp/arducam_config_parser-0.1.2.tar.gz]
+[2024-05-14 11:27:32] INFO root fetch - main [MainThread]: End processing [arducam-config-parser]: success
+[2024-05-14 11:28:12] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.6.tar.gz]
+[2024-05-14 11:28:12] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.7.tar.gz]
+[2024-05-14 11:28:12] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-14 11:28:12] INFO root fetch - main [MainThread]: Store serial: [23198750]
