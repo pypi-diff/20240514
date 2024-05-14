@@ -8192,3 +8192,54 @@
 [2024-05-14 04:38:29] INFO root fetch - processPackages [pybiotk]: Remove: archive file [/home/abi/fetcher/tmp/pybiotk-1.2.8.tar.gz]
 [2024-05-14 04:38:29] INFO root fetch - main [MainThread]: End processing [pybiotk]: success
 [2024-05-14 04:38:29] INFO root fetch - main [MainThread]: Store serial: [23194980]
+[2024-05-14 04:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194980]
+[2024-05-14 04:40:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-vectorsearch
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Books-pkg
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tiles-util
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-ak-195dff03d395462ea294bafdba69df3f
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ovos-PHAL-plugin-homeassistant
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duwi-smart-sdk
+[2024-05-14 04:40:38] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-14 04:40:38] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/a1/9d/3d917f2384a3373fe4d3676f51961aca7c7f0809b996e91577c4601202a0/duwi_smart_sdk-0.2.9.tar.gz
+[2024-05-14 04:40:38] INFO root fetch - processPackages [Books-pkg]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 04:40:38] INFO root fetch - processPackages [databricks-vectorsearch]: New version: [0.9] Old Version: [0.8]
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: New version: [0.0.4a8] Old Version: [0.0.4a7]
+[2024-05-14 04:40:38] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-14 04:40:38] WARNING root fetch - processPackages [tiles-util]: Skipping, unable to determine old version
+[2024-05-14 04:40:38] INFO root fetch - main [MainThread]: End processing [tiles-util] error
+[2024-05-14 04:40:38] INFO root fetch - processPackages [Books-pkg]: Downloading https://files.pythonhosted.org/packages/30/fe/a2328a0be4abc5082cd828ccd6d0698904512f692234fd1385ea3b774c56/books_pkg-1.0.0.tar.gz
+[2024-05-14 04:40:38] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/56/57/3e47c2c37bcf4f0217be4314b1617dfe88ca797da7198c9e39388a739884/databricks_vectorsearch-0.8-py3-none-any.whl
+[2024-05-14 04:40:38] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: Downloading https://files.pythonhosted.org/packages/9d/13/89f3ed978b01447b0093bc9dc708ee2d9e86ac31a90605809c1fabe61839/antchain_ak_195dff03d395462ea294bafdba69df3f-1.2.1.tar.gz
+[2024-05-14 04:40:38] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/8e/fc/b0fe7a0439bc0efffb7fd0739c2e76c7443dab573f222c681d445d633b7e/ovos-PHAL-plugin-homeassistant-0.0.4a7.tar.gz
+[2024-05-14 04:40:38] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/38/59/aefcdd8ef72c14ba9272f14b5acfb5112104eca813cfaf75ff36bfe6d0e1/duwi_smart_sdk-0.3.0.tar.gz
+[2024-05-14 04:40:39] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-14 04:40:39] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.2.9.tar.gz tmp/duwi_smart_sdk-0.3.0.tar.gz --markdown 20240514/d/duwi-smart-sdk/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-14 04:40:39] INFO root fetch - processPackages [Books-pkg]: Downloading https://files.pythonhosted.org/packages/59/c4/8f102f424ce7b01c1bd6c43c342516c99dd80bff191d20fbdc42481f858d/books_pkg-1.0.1.tar.gz
+[2024-05-14 04:40:39] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: Downloading https://files.pythonhosted.org/packages/65/ae/ec166191af041f193026d8215ad5e9417ea12f9a8b1460d823ff85dc5914/antchain_ak_195dff03d395462ea294bafdba69df3f-1.3.0.tar.gz
+[2024-05-14 04:40:39] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Downloading https://files.pythonhosted.org/packages/0a/cd/aca3ce62487970165b3422888c8ad88fbbb9019ea227783949da860d1ac4/ovos-PHAL-plugin-homeassistant-0.0.4a8.tar.gz
+[2024-05-14 04:40:39] INFO root fetch - processPackages [databricks-vectorsearch]: Downloading https://files.pythonhosted.org/packages/ff/15/c8aeb1ca09590bc3630502043bdae13fd2ff0568659d0eceb028ed3cc828/databricks_vectorsearch-0.9-py3-none-any.whl
+[2024-05-14 04:40:39] INFO root fetch - processPackages [Books-pkg]: executing diffoscope
+[2024-05-14 04:40:39] INFO root fetch - processPackages [Books-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/books_pkg-1.0.0.tar.gz tmp/books_pkg-1.0.1.tar.gz --markdown 20240514/B/Books-pkg/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 04:40:39] INFO root fetch - processPackages [databricks-vectorsearch]: executing diffoscope
+[2024-05-14 04:40:39] INFO root fetch - processPackages [databricks-vectorsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip --markdown 20240514/d/databricks-vectorsearch/0.8-0.9/README.md --exclude *.pyd
+[2024-05-14 04:40:39] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: executing diffoscope
+[2024-05-14 04:40:39] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_195dff03d395462ea294bafdba69df3f-1.2.1.tar.gz tmp/antchain_ak_195dff03d395462ea294bafdba69df3f-1.3.0.tar.gz --markdown 20240514/a/antchain-ak-195dff03d395462ea294bafdba69df3f/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-14 04:40:39] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: executing diffoscope
+[2024-05-14 04:40:39] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-PHAL-plugin-homeassistant-0.0.4a7.tar.gz tmp/ovos-PHAL-plugin-homeassistant-0.0.4a8.tar.gz --markdown 20240514/o/ovos-PHAL-plugin-homeassistant/0.0.4a7-0.0.4a8/README.md --exclude *.pyd
+[2024-05-14 04:40:39] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.2.9.tar.gz]
+[2024-05-14 04:40:39] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.3.0.tar.gz]
+[2024-05-14 04:40:39] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-14 04:40:39] INFO root fetch - processPackages [Books-pkg]: Remove: archive file [/home/abi/fetcher/tmp/books_pkg-1.0.0.tar.gz]
+[2024-05-14 04:40:39] INFO root fetch - processPackages [Books-pkg]: Remove: archive file [/home/abi/fetcher/tmp/books_pkg-1.0.1.tar.gz]
+[2024-05-14 04:40:39] INFO root fetch - main [MainThread]: End processing [Books-pkg]: success
+[2024-05-14 04:40:39] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.8-py3-none-any.whl.zip]
+[2024-05-14 04:40:39] INFO root fetch - processPackages [databricks-vectorsearch]: Remove: archive file [/home/abi/fetcher/tmp/databricks_vectorsearch-0.9-py3-none-any.whl.zip]
+[2024-05-14 04:40:39] INFO root fetch - main [MainThread]: End processing [databricks-vectorsearch]: success
+[2024-05-14 04:40:40] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_195dff03d395462ea294bafdba69df3f-1.2.1.tar.gz]
+[2024-05-14 04:40:40] INFO root fetch - processPackages [antchain-ak-195dff03d395462ea294bafdba69df3f]: Remove: archive file [/home/abi/fetcher/tmp/antchain_ak_195dff03d395462ea294bafdba69df3f-1.3.0.tar.gz]
+[2024-05-14 04:40:40] INFO root fetch - main [MainThread]: End processing [antchain-ak-195dff03d395462ea294bafdba69df3f]: success
+[2024-05-14 04:40:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.4a7.tar.gz]
+[2024-05-14 04:40:40] INFO root fetch - processPackages [ovos-PHAL-plugin-homeassistant]: Remove: archive file [/home/abi/fetcher/tmp/ovos-PHAL-plugin-homeassistant-0.0.4a8.tar.gz]
+[2024-05-14 04:40:40] INFO root fetch - main [MainThread]: End processing [ovos-PHAL-plugin-homeassistant]: success
+[2024-05-14 04:40:40] INFO root fetch - main [MainThread]: Store serial: [23194998]
