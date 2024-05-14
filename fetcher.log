@@ -18548,3 +18548,129 @@
 [2024-05-14 12:16:20] ERROR root fetch - processPackages [sssom]: Timeout during execution of pkgdiff
 [2024-05-14 12:16:20] INFO root fetch - main [MainThread]: End processing [sssom] error
 [2024-05-14 12:16:20] INFO root fetch - main [MainThread]: Store serial: [23199314]
+[2024-05-14 12:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199314]
+[2024-05-14 12:18:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codedepot-ai
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spai
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-developer-menu
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpf-and-cnpj-generator
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jccrypto
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdo-sdk-python
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holobench
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cityseer
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zou
+[2024-05-14 12:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gcp-pal
+[2024-05-14 12:18:29] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [codedepot-ai]: New version: [0.0.24] Old Version: [0.0.23]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [jccrypto]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cpf-and-cnpj-generator]: New version: [0.0.1] Old Version: [0.0.0.1]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [holobench]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [spai]: New version: [2024.5.14] Old Version: [2024.4.29]
+[2024-05-14 12:18:29] WARNING root fetch - processPackages [odoo-addon-developer-menu]: Skipping, unable to determine old version
+[2024-05-14 12:18:29] INFO root fetch - processPackages [odoo-addon-developer-menu]: Start processing: aipkgs-core
+[2024-05-14 12:18:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-developer-menu] error
+[2024-05-14 12:18:29] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/62/c0/2975948bb8b1c809a023db3bd1c8de949c9d56bf34dd96f5015259b9e77b/holobench-1.8.0.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/aa/2b/a44baf4f0ea8628a26b9bf55f9cdb452590d90e4421195ce41cf90a95799/jccrypto-1.0.3-py3-none-any.whl
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cityseer]: New version: [4.9.0] Old Version: [4.8.1]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/b9/53/0499b1bdad8e79c84118cbf501ebb26b70c8b5b60bce463c4a8d0618fe81/gcp_pal-1.0.8.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Downloading https://files.pythonhosted.org/packages/26/ba/2c1c483ad47d2d61a5f0459bff7276cd4f2b63dd3870734562a904392077/cpf_and_cnpj_generator-0.0.0.1.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-05-14 12:18:29] INFO root fetch - processPackages [codedepot-ai]: Downloading https://files.pythonhosted.org/packages/f3/5d/d96c166585c02e0d37a2f491d1f7c2a30a0e5f006502ab1f78a7416bf4d8/codedepot_ai-0.0.23.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [aipkgs-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-14 12:18:29] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/16/4c/36ea28da1c7735a00b315d64b709c300ce6d25169341cf4db5ae2b8ed32b/spai-2024.4.29.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/0c/fe/6cd0237a6988486e2fe3ef2043976edcfc1952a2f66a704892d2176229b2/cityseer-4.8.1.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [holobench]: Downloading https://files.pythonhosted.org/packages/93/4f/5ab3d9f60dc2580f0c2f054540ed82c34393cc7b4e115f96d3a5b81e1b16/holobench-1.9.0.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/17/9d/a94a5fbeb231545005b2ea79f9e2d4971ca9b9114461259b2f75913f2fd4/aipkgs_core-0.4.4.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Downloading https://files.pythonhosted.org/packages/41/a3/903b2d2d72b5f6593ef30dd1e713df0b45241a652b19080695627d591824/cpf_and_cnpj_generator-0.0.1.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [codedepot-ai]: Downloading https://files.pythonhosted.org/packages/68/0e/a4a7979b9f627b24026edb0646aaad91a8ba03c4631ec09cf92e2f3df611/codedepot_ai-0.0.24.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/8c/b8/2efa9600008859fa691d602891fa9c6bb228fd92cd7f0036d55241b68620/gcp_pal-1.0.9.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-14 12:18:29] INFO root fetch - processPackages [holobench]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [holobench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holobench-1.8.0.tar.gz tmp/holobench-1.9.0.tar.gz --markdown 20240514/h/holobench/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/55/30/9b3c5e563e4003ec98fd138df1d4a6d2b78950bee5ba98c2ee3f2e13141e/jccrypto-1.0.4-py3-none-any.whl
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cpf-and-cnpj-generator]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cpf-and-cnpj-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpf_and_cnpj_generator-0.0.0.1.tar.gz tmp/cpf_and_cnpj_generator-0.0.1.tar.gz --markdown 20240514/c/cpf-and-cnpj-generator/0.0.0.1-0.0.1/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240514/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [codedepot-ai]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [codedepot-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedepot_ai-0.0.23.tar.gz tmp/codedepot_ai-0.0.24.tar.gz --markdown 20240514/c/codedepot-ai/0.0.23-0.0.24/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.8.tar.gz tmp/gcp_pal-1.0.9.tar.gz --markdown 20240514/g/gcp-pal/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240514/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-14 12:18:29] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.0.3-py3-none-any.whl.zip tmp/jccrypto-1.0.4-py3-none-any.whl.zip --markdown 20240514/j/jccrypto/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-14 12:18:29] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/7c/56/d0ef003425f806075a9cee6e722b6d82523dbb8cb7d74c153a2e7a35fe6a/spai-2024.5.14.tar.gz
+[2024-05-14 12:18:30] INFO root fetch - processPackages [aipkgs-core]: Downloading https://files.pythonhosted.org/packages/b2/91/15dd441fec63f1b325d2e82651f8c82fd93367366a1ab6b5b6a2bd1b0287/aipkgs_core-0.4.5.tar.gz
+[2024-05-14 12:18:30] INFO root fetch - processPackages [aipkgs-core]: executing diffoscope
+[2024-05-14 12:18:30] INFO root fetch - processPackages [aipkgs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aipkgs_core-0.4.4.tar.gz tmp/aipkgs_core-0.4.5.tar.gz --markdown 20240514/a/aipkgs-core/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-14 12:18:30] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-05-14 12:18:30] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.4.29.tar.gz tmp/spai-2024.5.14.tar.gz --markdown 20240514/s/spai/2024.4.29-2024.5.14/README.md --exclude *.pyd
+[2024-05-14 12:18:30] INFO root fetch - processPackages [codedepot-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai-0.0.23.tar.gz]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [codedepot-ai]: Remove: archive file [/home/abi/fetcher/tmp/codedepot_ai-0.0.24.tar.gz]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [codedepot-ai]: Start processing: KudraCloudClient
+[2024-05-14 12:18:30] INFO root fetch - main [MainThread]: End processing [codedepot-ai]: success
+[2024-05-14 12:18:30] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Remove: archive file [/home/abi/fetcher/tmp/cpf_and_cnpj_generator-0.0.0.1.tar.gz]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Remove: archive file [/home/abi/fetcher/tmp/cpf_and_cnpj_generator-0.0.1.tar.gz]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Start processing: agi-med-metrics
+[2024-05-14 12:18:30] INFO root fetch - main [MainThread]: End processing [cpf-and-cnpj-generator]: success
+[2024-05-14 12:18:30] WARNING root fetch - processPackages [agi-med-metrics]: Skipping, unable to determine old version
+[2024-05-14 12:18:30] INFO root fetch - processPackages [agi-med-metrics]: Start processing: cognite-sdk
+[2024-05-14 12:18:30] INFO root fetch - main [MainThread]: End processing [agi-med-metrics] error
+[2024-05-14 12:18:30] INFO root fetch - processPackages [KudraCloudClient]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.8.tar.gz]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.9.tar.gz]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [gcp-pal]: Start processing: jccrypto
+[2024-05-14 12:18:30] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-05-14 12:18:30] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.3-py3-none-any.whl.zip]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.4-py3-none-any.whl.zip]
+[2024-05-14 12:18:30] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-14 12:18:30] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-05-14 12:18:30] INFO root fetch - processPackages [jccrypto]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-14 12:18:31] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.8.0.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - processPackages [holobench]: Remove: archive file [/home/abi/fetcher/tmp/holobench-1.9.0.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - main [MainThread]: End processing [holobench]: success
+[2024-05-14 12:18:31] INFO root fetch - processPackages [KudraCloudClient]: Downloading https://files.pythonhosted.org/packages/56/1d/35dbf6f0098f997f5303e1fc2f56be132e4c72d56830f0618339da7b65d5/KudraCloudClient-0.0.8.tar.gz
+[2024-05-14 12:18:31] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-0.4.4.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - processPackages [aipkgs-core]: Remove: archive file [/home/abi/fetcher/tmp/aipkgs_core-0.4.5.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - main [MainThread]: End processing [aipkgs-core]: success
+[2024-05-14 12:18:31] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/c6/a5/31d6767b0860d5864866b880f9dfc0a8505eea42def5e5446234befe374d/jccrypto-1.0.5-py3-none-any.whl
+[2024-05-14 12:18:31] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-05-14 12:18:31] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.29.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.5.14.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-05-14 12:18:31] INFO root fetch - processPackages [KudraCloudClient]: Downloading https://files.pythonhosted.org/packages/43/03/d8679b18086b228f7542c140e1a90247ffdcdbb21148ba96f5553929d603/KudraCloudClient-0.0.9.tar.gz
+[2024-05-14 12:18:31] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-05-14 12:18:31] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-05-14 12:18:31] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-05-14 12:18:31] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-14 12:18:31] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-14 12:18:31] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/5b/60/1de971727669399546ab4b72aec0a753299943dc1eeae956a037f46788ce/jccrypto-1.0.6-py3-none-any.whl
+[2024-05-14 12:18:31] INFO root fetch - processPackages [KudraCloudClient]: executing diffoscope
+[2024-05-14 12:18:31] INFO root fetch - processPackages [KudraCloudClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KudraCloudClient-0.0.8.tar.gz tmp/KudraCloudClient-0.0.9.tar.gz --markdown 20240514/K/KudraCloudClient/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:18:31] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-05-14 12:18:31] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-14 12:18:31] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.0.5-py3-none-any.whl.zip tmp/jccrypto-1.0.6-py3-none-any.whl.zip --markdown 20240514/j/jccrypto/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-14 12:18:31] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-05-14 12:18:31] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240514/c/cognite-sdk/7.8.9-7.9.0/README.md --exclude *.pyd
+[2024-05-14 12:18:32] INFO root fetch - processPackages [KudraCloudClient]: Remove: archive file [/home/abi/fetcher/tmp/KudraCloudClient-0.0.8.tar.gz]
+[2024-05-14 12:18:32] INFO root fetch - processPackages [KudraCloudClient]: Remove: archive file [/home/abi/fetcher/tmp/KudraCloudClient-0.0.9.tar.gz]
+[2024-05-14 12:18:32] INFO root fetch - main [MainThread]: End processing [KudraCloudClient]: success
+[2024-05-14 12:18:32] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.5-py3-none-any.whl.zip]
+[2024-05-14 12:18:32] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.6-py3-none-any.whl.zip]
+[2024-05-14 12:18:32] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-14 12:18:32] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-05-14 12:18:32] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-05-14 12:18:32] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-05-14 12:18:37] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/ab/e1/bacf1bf58fe1a62b4563c927a3d3a5556542170d22d08863da6c88a412c6/cityseer-4.9.0.tar.gz
+[2024-05-14 12:18:39] INFO root fetch - processPackages [cityseer]: executing diffoscope
+[2024-05-14 12:18:39] INFO root fetch - processPackages [cityseer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cityseer-4.8.1.tar.gz tmp/cityseer-4.9.0.tar.gz --markdown 20240514/c/cityseer/4.8.1-4.9.0/README.md --exclude *.pyd
+[2024-05-14 12:18:40] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.8.1.tar.gz]
+[2024-05-14 12:18:40] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.9.0.tar.gz]
+[2024-05-14 12:18:40] INFO root fetch - main [MainThread]: End processing [cityseer]: success
+[2024-05-14 12:18:40] INFO root fetch - main [MainThread]: Store serial: [23199396]
