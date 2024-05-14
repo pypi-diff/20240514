@@ -632,7 +632,7 @@
 
  * *error from `html2text {}`:*
 
- * *File "/tmp/diffoscope_abrkp9bi_/tmpq3_ynppe_TarContainer/0/20", line 188, column 0: CDATA terminal not found*
+ * *File "/tmp/diffoscope_ebbwtwue_/tmpokopfiuw_TarContainer/0/20", line 188, column 0: CDATA terminal not found*
 
 ```diff
 @@ -1,8 +1,8 @@
@@ -2006,7 +2006,7 @@
 
  * *error from `html2text {}`:*
 
- * *File "/tmp/diffoscope_abrkp9bi_/tmpq3_ynppe_TarContainer/0/120", line 188, column 0: CDATA terminal not found*
+ * *File "/tmp/diffoscope_ebbwtwue_/tmpokopfiuw_TarContainer/0/120", line 188, column 0: CDATA terminal not found*
 
 ```diff
 @@ -1,8 +1,8 @@
