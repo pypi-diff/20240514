@@ -7976,3 +7976,27 @@
 [2024-05-14 04:19:57] INFO root fetch - processPackages [arctix]: Remove: archive file [/home/abi/fetcher/tmp/arctix-0.0.5.tar.gz]
 [2024-05-14 04:19:57] INFO root fetch - main [MainThread]: End processing [arctix]: success
 [2024-05-14 04:19:57] INFO root fetch - main [MainThread]: Store serial: [23194888]
+[2024-05-14 04:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194888]
+[2024-05-14 04:22:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drepr-v2
+[2024-05-14 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-hvac
+[2024-05-14 04:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccxt-idax-adapter
+[2024-05-14 04:22:06] WARNING root fetch - processPackages [ccxt-idax-adapter]: Skipping, unable to determine old version
+[2024-05-14 04:22:06] INFO root fetch - main [MainThread]: End processing [ccxt-idax-adapter] error
+[2024-05-14 04:22:06] INFO root fetch - processPackages [drepr-v2]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-14 04:22:06] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/44/ac/175b6daa6bb65c0619fbbf3d0ca75fc2fe1b53d3a68c1d29169836c83306/drepr_v2-1.3.0.tar.gz
+[2024-05-14 04:22:06] INFO root fetch - processPackages [types-hvac]: New version: [2.1.0.20240514] Old Version: [2.1.0.20240329]
+[2024-05-14 04:22:06] INFO root fetch - processPackages [types-hvac]: Downloading https://files.pythonhosted.org/packages/d3/13/f5b400240036fb7cfa7fce4e216362db38dd2b867fc57dec5d15464badcf/types-hvac-2.1.0.20240329.tar.gz
+[2024-05-14 04:22:06] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/ae/82/57898661fce0b9f9a96c24dd5c7af39bbf8d363990d31740140fa0e3eaca/drepr_v2-1.3.1.tar.gz
+[2024-05-14 04:22:07] INFO root fetch - processPackages [drepr-v2]: executing diffoscope
+[2024-05-14 04:22:07] INFO root fetch - processPackages [drepr-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drepr_v2-1.3.0.tar.gz tmp/drepr_v2-1.3.1.tar.gz --markdown 20240514/d/drepr-v2/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-14 04:22:07] INFO root fetch - processPackages [types-hvac]: Downloading https://files.pythonhosted.org/packages/7d/3e/ffb7d333d6cc85ec1d37c4d845681706bdcb1b536d4f6348d1ecb8b27b03/types-hvac-2.1.0.20240514.tar.gz
+[2024-05-14 04:22:07] INFO root fetch - processPackages [types-hvac]: executing diffoscope
+[2024-05-14 04:22:07] INFO root fetch - processPackages [types-hvac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-hvac-2.1.0.20240329.tar.gz tmp/types-hvac-2.1.0.20240514.tar.gz --markdown 20240514/t/types-hvac/2.1.0.20240329-2.1.0.20240514/README.md --exclude *.pyd
+[2024-05-14 04:22:07] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.0.tar.gz]
+[2024-05-14 04:22:07] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.1.tar.gz]
+[2024-05-14 04:22:07] INFO root fetch - main [MainThread]: End processing [drepr-v2]: success
+[2024-05-14 04:22:07] INFO root fetch - processPackages [types-hvac]: Remove: archive file [/home/abi/fetcher/tmp/types-hvac-2.1.0.20240329.tar.gz]
+[2024-05-14 04:22:07] INFO root fetch - processPackages [types-hvac]: Remove: archive file [/home/abi/fetcher/tmp/types-hvac-2.1.0.20240514.tar.gz]
+[2024-05-14 04:22:07] INFO root fetch - main [MainThread]: End processing [types-hvac]: success
+[2024-05-14 04:22:07] INFO root fetch - main [MainThread]: Store serial: [23194900]
