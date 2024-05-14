@@ -10353,3 +10353,47 @@
 [2024-05-14 06:59:31] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a4.tar.gz]
 [2024-05-14 06:59:31] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
 [2024-05-14 06:59:31] INFO root fetch - main [MainThread]: Store serial: [23195788]
+[2024-05-14 07:01:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195788]
+[2024-05-14 07:01:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 07:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jy_lib
+[2024-05-14 07:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-05-14 07:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zep-cloud
+[2024-05-14 07:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flowkit-jwt-generator
+[2024-05-14 07:01:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cxalio-studio-tools
+[2024-05-14 07:01:40] INFO root fetch - processPackages [zep-cloud]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2024-05-14 07:01:40] INFO root fetch - processPackages [flowkit-jwt-generator]: New version: [1.25.0.post0.dev99] Old Version: [1.25.0.post0.dev93]
+[2024-05-14 07:01:40] INFO root fetch - processPackages [jy_lib]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-14 07:01:40] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/e4/20/ed5bbac162b1ae453ca3acbc2fadfed125f97946a4d1c70ae949ad92386f/zep_cloud-1.0.0rc1.tar.gz
+[2024-05-14 07:01:40] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/bc/60/2a459e1a59e993c79a8a871ba4e72737e87c66ba3c2fe2a53431cf205b37/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl
+[2024-05-14 07:01:40] INFO root fetch - processPackages [cxalio-studio-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 07:01:40] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/78/71/db666c1b12d756e61f38af38d13ac57b0d2e2d6c742d60f9450ab4864ddb/jy_lib-0.7.4.tar.gz
+[2024-05-14 07:01:40] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/66/b5/40e237aaad7799ed298d175b5e7a69e7eaca0e934dd1e19551c531d43e9e/cxalio_studio_tools-0.1.8.tar.gz
+[2024-05-14 07:01:40] INFO root fetch - processPackages [flowkit-jwt-generator]: Downloading https://files.pythonhosted.org/packages/ff/58/e7691247f32599d16e885a2c995f0f3a654ab3d148c0c48a8e6a8d61c207/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl
+[2024-05-14 07:01:40] INFO root fetch - processPackages [zep-cloud]: Downloading https://files.pythonhosted.org/packages/cb/6f/fac450d6dc5bd1d92851d49d474c71254255bf47305ca4f26803c8078ec1/zep_cloud-1.0.1.tar.gz
+[2024-05-14 07:01:40] INFO root fetch - processPackages [flowkit-jwt-generator]: executing diffoscope
+[2024-05-14 07:01:40] INFO root fetch - processPackages [flowkit-jwt-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip --markdown 20240514/f/flowkit-jwt-generator/1.25.0.post0.dev93-1.25.0.post0.dev99/README.md --exclude *.pyd
+[2024-05-14 07:01:40] INFO root fetch - processPackages [zep-cloud]: executing diffoscope
+[2024-05-14 07:01:40] INFO root fetch - processPackages [zep-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_cloud-1.0.0rc1.tar.gz tmp/zep_cloud-1.0.1.tar.gz --markdown 20240514/z/zep-cloud/1.0.0rc1-1.0.1/README.md --exclude *.pyd
+[2024-05-14 07:01:40] INFO root fetch - processPackages [cxalio-studio-tools]: Downloading https://files.pythonhosted.org/packages/da/40/10d87fad2228e4d2cbfe295a19ddd36bf281c0e7375be7a1603222bd9e23/cxalio_studio_tools-0.1.9.tar.gz
+[2024-05-14 07:01:40] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240513001]
+[2024-05-14 07:01:40] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/f3/e5/a09b0d9b54713fd1946ce6ebba86648bc4172467e67a13c5862dd0a43c80/jy_lib-0.7.5.tar.gz
+[2024-05-14 07:01:40] INFO root fetch - processPackages [cxalio-studio-tools]: executing diffoscope
+[2024-05-14 07:01:40] INFO root fetch - processPackages [cxalio-studio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxalio_studio_tools-0.1.8.tar.gz tmp/cxalio_studio_tools-0.1.9.tar.gz --markdown 20240514/c/cxalio-studio-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 07:01:40] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-05-14 07:01:40] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.7.4.tar.gz tmp/jy_lib-0.7.5.tar.gz --markdown 20240514/j/jy_lib/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-14 07:01:40] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/0c/80/7dfe15cae3b27c87adcf0579182cc54c74d698b249b9867bf62b2c8eff10/opendp-0.9.2a20240513001-pp310-pypy310_pp73-macosx_10_9_x86_64.whl
+[2024-05-14 07:01:41] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev93-py3-none-any.whl.zip]
+[2024-05-14 07:01:41] INFO root fetch - processPackages [flowkit-jwt-generator]: Remove: archive file [/home/abi/fetcher/tmp/flowkit_jwt_generator-1.25.0.post0.dev99-py3-none-any.whl.zip]
+[2024-05-14 07:01:41] INFO root fetch - main [MainThread]: End processing [flowkit-jwt-generator]: success
+[2024-05-14 07:01:41] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.8.tar.gz]
+[2024-05-14 07:01:41] INFO root fetch - processPackages [cxalio-studio-tools]: Remove: archive file [/home/abi/fetcher/tmp/cxalio_studio_tools-0.1.9.tar.gz]
+[2024-05-14 07:01:41] INFO root fetch - main [MainThread]: End processing [cxalio-studio-tools]: success
+[2024-05-14 07:01:41] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.4.tar.gz]
+[2024-05-14 07:01:41] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.7.5.tar.gz]
+[2024-05-14 07:01:41] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-05-14 07:01:41] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.0rc1.tar.gz]
+[2024-05-14 07:01:41] INFO root fetch - processPackages [zep-cloud]: Remove: archive file [/home/abi/fetcher/tmp/zep_cloud-1.0.1.tar.gz]
+[2024-05-14 07:01:41] INFO root fetch - main [MainThread]: End processing [zep-cloud]: success
+[2024-05-14 07:01:41] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 19461848>=10485760
+[2024-05-14 07:01:41] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-05-14 07:01:41] INFO root fetch - main [MainThread]: Store serial: [23195808]
