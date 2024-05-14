@@ -19792,3 +19792,54 @@
 [2024-05-14 12:58:25] INFO root fetch - processPackages [autosubmit-api]: Remove: archive file [/home/abi/fetcher/tmp/autosubmit_api-4.0.0b7.tar.gz]
 [2024-05-14 12:58:25] INFO root fetch - main [MainThread]: End processing [autosubmit-api]: success
 [2024-05-14 12:58:25] INFO root fetch - main [MainThread]: Store serial: [23199881]
+[2024-05-14 13:00:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199881]
+[2024-05-14 13:00:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: billiarded-chromedriver
+[2024-05-14 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adapta
+[2024-05-14 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MachSysS
+[2024-05-14 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RunFeemsSim
+[2024-05-14 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feems
+[2024-05-14 13:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: riversand
+[2024-05-14 13:00:36] INFO root fetch - processPackages [RunFeemsSim]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-14 13:00:36] INFO root fetch - processPackages [feems]: New version: [0.10.7] Old Version: [0.10.6]
+[2024-05-14 13:00:36] INFO root fetch - processPackages [MachSysS]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-05-14 13:00:36] INFO root fetch - processPackages [riversand]: New version: [1.2.4] Old Version: [1.2.2]
+[2024-05-14 13:00:36] INFO root fetch - processPackages [adapta]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-14 13:00:36] WARNING root fetch - processPackages [billiarded-chromedriver]: Skipping, unable to determine old version
+[2024-05-14 13:00:36] INFO root fetch - main [MainThread]: End processing [billiarded-chromedriver] error
+[2024-05-14 13:00:36] INFO root fetch - processPackages [RunFeemsSim]: Downloading https://files.pythonhosted.org/packages/2b/89/245c276e8fa97b8c81f52fed8d54ce06aaf9b334a6dcd6e3a7b4ae95ff3f/RunFeemsSim-0.2.3.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [feems]: Downloading https://files.pythonhosted.org/packages/ca/57/77fce6bee582ba2e052859aface03a475dae24a1913407a4b777d889cf92/feems-0.10.6.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [MachSysS]: Downloading https://files.pythonhosted.org/packages/8a/6c/2206e8c85966f32177bd1435cae7fe0f58219a64f55b96ae63545495e96a/MachSysS-0.6.5.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/33/1302d42b2f30e2a721e649391c266b8d25fef79e334f145fe1f59175016a/adapta-2.9.1.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/0a/47/c1d6994babb2747240a708a08a37aaeab39957135ddc4e0f52990fb7667d/riversand-1.2.2.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [RunFeemsSim]: Downloading https://files.pythonhosted.org/packages/ba/0c/730169d6ef916f5120ef3d9cb54f2af3653ef01800e0b8f36b9adefd8f89/runfeemssim-0.2.4.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [MachSysS]: Downloading https://files.pythonhosted.org/packages/90/09/b45c1539c32951199401165a3252d80487042ce61af054de6aaadd0f09f5/machsyss-0.6.6.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/38/7b/c2e190b90d739aea14559d55ef402f1648abe251bc5e5eb13948fba8b345/adapta-2.9.2.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [feems]: Downloading https://files.pythonhosted.org/packages/3d/3f/fbe3874651eac30368a9ae6c58c2a5264426c4a0fe9f551bb3e928f50be3/feems-0.10.7.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/38/d5/9bfafd2385780a4cf34ed3bfffa5e34593036c4fd6048967f51b1d90566d/riversand-1.2.4.tar.gz
+[2024-05-14 13:00:36] INFO root fetch - processPackages [RunFeemsSim]: executing diffoscope
+[2024-05-14 13:00:36] INFO root fetch - processPackages [RunFeemsSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RunFeemsSim-0.2.3.tar.gz tmp/runfeemssim-0.2.4.tar.gz --markdown 20240514/R/RunFeemsSim/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-14 13:00:36] INFO root fetch - processPackages [MachSysS]: executing diffoscope
+[2024-05-14 13:00:36] INFO root fetch - processPackages [MachSysS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MachSysS-0.6.5.tar.gz tmp/machsyss-0.6.6.tar.gz --markdown 20240514/M/MachSysS/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-05-14 13:00:36] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2024-05-14 13:00:36] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.9.1.tar.gz tmp/adapta-2.9.2.tar.gz --markdown 20240514/a/adapta/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-14 13:00:36] INFO root fetch - processPackages [feems]: executing diffoscope
+[2024-05-14 13:00:36] INFO root fetch - processPackages [feems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feems-0.10.6.tar.gz tmp/feems-0.10.7.tar.gz --markdown 20240514/f/feems/0.10.6-0.10.7/README.md --exclude *.pyd
+[2024-05-14 13:00:36] INFO root fetch - processPackages [riversand]: executing diffoscope
+[2024-05-14 13:00:36] INFO root fetch - processPackages [riversand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riversand-1.2.2.tar.gz tmp/riversand-1.2.4.tar.gz --markdown 20240514/r/riversand/1.2.2-1.2.4/README.md --exclude *.pyd
+[2024-05-14 13:00:37] INFO root fetch - processPackages [RunFeemsSim]: Remove: archive file [/home/abi/fetcher/tmp/RunFeemsSim-0.2.3.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - processPackages [RunFeemsSim]: Remove: archive file [/home/abi/fetcher/tmp/runfeemssim-0.2.4.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - main [MainThread]: End processing [RunFeemsSim]: success
+[2024-05-14 13:00:37] INFO root fetch - processPackages [MachSysS]: Remove: archive file [/home/abi/fetcher/tmp/MachSysS-0.6.5.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - processPackages [MachSysS]: Remove: archive file [/home/abi/fetcher/tmp/machsyss-0.6.6.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - main [MainThread]: End processing [MachSysS]: success
+[2024-05-14 13:00:37] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.2.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.4.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - main [MainThread]: End processing [riversand]: success
+[2024-05-14 13:00:37] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.1.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.9.2.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2024-05-14 13:00:37] INFO root fetch - processPackages [feems]: Remove: archive file [/home/abi/fetcher/tmp/feems-0.10.6.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - processPackages [feems]: Remove: archive file [/home/abi/fetcher/tmp/feems-0.10.7.tar.gz]
+[2024-05-14 13:00:37] INFO root fetch - main [MainThread]: End processing [feems]: success
+[2024-05-14 13:00:37] INFO root fetch - main [MainThread]: Store serial: [23199904]
