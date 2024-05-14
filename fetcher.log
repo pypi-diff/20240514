@@ -7683,3 +7683,24 @@
 [2024-05-14 03:51:51] INFO root fetch - processPackages [ffsim]: Remove: archive file [/home/abi/fetcher/tmp/ffsim-0.0.9.tar.gz]
 [2024-05-14 03:51:51] INFO root fetch - main [MainThread]: End processing [ffsim]: success
 [2024-05-14 03:51:51] INFO root fetch - main [MainThread]: Store serial: [23194724]
+[2024-05-14 03:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194724]
+[2024-05-14 03:53:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 03:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atap-corpus-loader
+[2024-05-14 03:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-extra
+[2024-05-14 03:54:00] INFO root fetch - processPackages [ml-extra]: New version: [0.1.1a0] Old Version: [0.1.1]
+[2024-05-14 03:54:00] INFO root fetch - processPackages [atap-corpus-loader]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-05-14 03:54:00] INFO root fetch - processPackages [ml-extra]: Downloading https://files.pythonhosted.org/packages/bd/66/94609e14ae9622884632ba1e58b452d2195b86e5315adb42d267816063be/ml_extra-0.1.1.tar.gz
+[2024-05-14 03:54:00] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/94/d0/a43e5a430cd1be302c3b0cce52e7c9df4bc55d6b316cc46f03474d7c59ac/atap_corpus_loader-1.4.0.tar.gz
+[2024-05-14 03:54:00] INFO root fetch - processPackages [ml-extra]: Downloading https://files.pythonhosted.org/packages/1e/83/61451d2ba5174ddaf7292bd56ddd6ab5fe9bb28e57e8fbf85f8f3e7d1a93/ml_extra-0.1.1a0.tar.gz
+[2024-05-14 03:54:00] INFO root fetch - processPackages [ml-extra]: executing diffoscope
+[2024-05-14 03:54:00] INFO root fetch - processPackages [ml-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_extra-0.1.1.tar.gz tmp/ml_extra-0.1.1a0.tar.gz --markdown 20240514/m/ml-extra/0.1.1-0.1.1a0/README.md --exclude *.pyd
+[2024-05-14 03:54:00] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/de/f3/830331ab96b5f9ccff950a42cf5624be19912be25f396d5826d562fefc14/atap_corpus_loader-1.5.0.tar.gz
+[2024-05-14 03:54:00] INFO root fetch - processPackages [atap-corpus-loader]: executing diffoscope
+[2024-05-14 03:54:00] INFO root fetch - processPackages [atap-corpus-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atap_corpus_loader-1.4.0.tar.gz tmp/atap_corpus_loader-1.5.0.tar.gz --markdown 20240514/a/atap-corpus-loader/1.4.0-1.5.0/README.md --exclude *.pyd
+[2024-05-14 03:54:01] INFO root fetch - processPackages [ml-extra]: Remove: archive file [/home/abi/fetcher/tmp/ml_extra-0.1.1.tar.gz]
+[2024-05-14 03:54:01] INFO root fetch - processPackages [ml-extra]: Remove: archive file [/home/abi/fetcher/tmp/ml_extra-0.1.1a0.tar.gz]
+[2024-05-14 03:54:01] INFO root fetch - main [MainThread]: End processing [ml-extra]: success
+[2024-05-14 03:54:01] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.4.0.tar.gz]
+[2024-05-14 03:54:01] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.5.0.tar.gz]
+[2024-05-14 03:54:01] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
+[2024-05-14 03:54:01] INFO root fetch - main [MainThread]: Store serial: [23194730]
