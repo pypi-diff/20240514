@@ -7432,3 +7432,41 @@
 [2024-05-14 03:32:15] INFO root fetch - processPackages [goodest]: Remove: archive file [/home/abi/fetcher/tmp/goodest-1.2.0.tar.gz]
 [2024-05-14 03:32:15] INFO root fetch - main [MainThread]: End processing [goodest]: success
 [2024-05-14 03:32:15] INFO root fetch - main [MainThread]: Store serial: [23194392]
+[2024-05-14 03:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194392]
+[2024-05-14 03:34:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 03:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: evomap
+[2024-05-14 03:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyAgrum-nightly
+[2024-05-14 03:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whatap-python
+[2024-05-14 03:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary-execution
+[2024-05-14 03:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plain-rougel
+[2024-05-14 03:34:25] INFO root fetch - processPackages [domolibrary-execution]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 03:34:25] INFO root fetch - processPackages [domolibrary-execution]: Downloading https://files.pythonhosted.org/packages/7d/29/fd25a0be5ac085abe4d28c638f381fa44d9042f9f90fd653ff54d6344cba/domolibrary_execution-0.0.8.tar.gz
+[2024-05-14 03:34:25] WARNING root fetch - processPackages [plain-rougel]: Skipping, unable to determine old version
+[2024-05-14 03:34:25] INFO root fetch - main [MainThread]: End processing [plain-rougel] error
+[2024-05-14 03:34:25] INFO root fetch - processPackages [evomap]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-14 03:34:25] INFO root fetch - processPackages [whatap-python]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-14 03:34:25] INFO root fetch - processPackages [evomap]: Downloading https://files.pythonhosted.org/packages/6b/4d/2bf780c9702b6261d36ee568e149653b18c567c7894c137233f1d3c6da1c/evomap-0.3.0.tar.gz
+[2024-05-14 03:34:25] INFO root fetch - processPackages [whatap-python]: Downloading https://files.pythonhosted.org/packages/7a/36/e6495cc9ffbf0c0ad97d5fd4376d8ca822906f800e7e8a4f18391aa70fdc/whatap-python-1.6.3.tar.gz
+[2024-05-14 03:34:25] INFO root fetch - processPackages [domolibrary-execution]: Downloading https://files.pythonhosted.org/packages/33/e5/e32522ce284730ef3e8267b11d43c980a09ec9c4f7cbd6c1d3b739c3694b/domolibrary_execution-0.0.9.tar.gz
+[2024-05-14 03:34:26] WARNING root fetch - processPackages [whatap-python]: Skipping package: exceeds size limit 49022082>=10485760
+[2024-05-14 03:34:26] INFO root fetch - main [MainThread]: End processing [whatap-python] error
+[2024-05-14 03:34:26] INFO root fetch - processPackages [domolibrary-execution]: executing diffoscope
+[2024-05-14 03:34:26] INFO root fetch - processPackages [domolibrary-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary_execution-0.0.8.tar.gz tmp/domolibrary_execution-0.0.9.tar.gz --markdown 20240514/d/domolibrary-execution/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 03:34:26] INFO root fetch - processPackages [evomap]: Downloading https://files.pythonhosted.org/packages/af/b0/846eabc385d8c2adabffdc8fe2ee27487e64bfc6115f36661b45fafdb6d9/evomap-0.3.1.tar.gz
+[2024-05-14 03:34:26] INFO root fetch - processPackages [domolibrary-execution]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_execution-0.0.8.tar.gz]
+[2024-05-14 03:34:26] INFO root fetch - processPackages [domolibrary-execution]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary_execution-0.0.9.tar.gz]
+[2024-05-14 03:34:26] INFO root fetch - main [MainThread]: End processing [domolibrary-execution]: success
+[2024-05-14 03:34:26] INFO root fetch - processPackages [evomap]: executing diffoscope
+[2024-05-14 03:34:26] INFO root fetch - processPackages [evomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evomap-0.3.0.tar.gz tmp/evomap-0.3.1.tar.gz --markdown 20240514/e/evomap/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-14 03:34:27] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-14 03:34:27] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-14 03:34:28] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-14 03:34:28] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-14 03:34:28] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240514/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-14 03:34:28] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 03:34:28] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 03:34:29] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-14 03:34:29] INFO root fetch - processPackages [evomap]: Remove: archive file [/home/abi/fetcher/tmp/evomap-0.3.0.tar.gz]
+[2024-05-14 03:34:29] INFO root fetch - processPackages [evomap]: Remove: archive file [/home/abi/fetcher/tmp/evomap-0.3.1.tar.gz]
+[2024-05-14 03:34:29] INFO root fetch - main [MainThread]: End processing [evomap]: success
+[2024-05-14 03:34:29] INFO root fetch - main [MainThread]: Store serial: [23194480]
