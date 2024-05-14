@@ -23168,3 +23168,87 @@
 [2024-05-14 15:08:25] WARNING root fetch - processPackages [postmark-template-translate]: Skipping, unable to determine old version
 [2024-05-14 15:08:25] INFO root fetch - main [MainThread]: End processing [postmark-template-translate] error
 [2024-05-14 15:08:25] INFO root fetch - main [MainThread]: Store serial: [23201404]
+[2024-05-14 15:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201404]
+[2024-05-14 15:10:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zetamarkets-py
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ca-vntl-helper
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecom-utils
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superblocks-types
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linkedin-user-scrape
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pg-sync-roles
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mira-SimPEG
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: metainfoyaml2py
+[2024-05-14 15:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt-fn
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ecom-utils]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [linkedin-user-scrape]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [metainfoyaml2py]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [pg-sync-roles]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [zetamarkets-py]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [Mira-SimPEG]: New version: [0.19.0.dev8] Old Version: [0.19.0.dev7]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [gpt-fn]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/94/a5/a70effd4363faf0883b9c433f568e4250ff8b7c781dd6069744a55f19e93/ca_vntl_helper-1.0.2.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [metainfoyaml2py]: Downloading https://files.pythonhosted.org/packages/34/c4/eb2ccd73d5d0b58f50fb6f32ba956e9441ce991ac9eee3809cff7402fdbf/metainfoyaml2py-0.0.8.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/3d/7c/ba030bd433528bf948c4e15e9da02f73374bdc9057c33d077c636d448b54/superblocks-types-0.0.5.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [linkedin-user-scrape]: Downloading https://files.pythonhosted.org/packages/e7/c0/6521b543774276b755ae8e9e22de5cfe35be19892592298e34cae03d3c69/linkedin_user_scrape-1.0.0.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ecom-utils]: Downloading https://files.pythonhosted.org/packages/8c/29/651eb26ac154d5a61ba16ef1ead8bac37dcf3487d390fd35e96481a96558/ecom-utils-1.3.8.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/e5/00/689dce1c71a269fc31a6f29e65d7d555fd7ddbc8cc79da2dff482ce5e687/pg_sync_roles-0.0.8.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/cd/af/f7f964f2260bfe51acc8dac83276d41a8222a44d8408ea92789cb6e54cdb/zetamarkets_py-0.2.7.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [Mira-SimPEG]: Downloading https://files.pythonhosted.org/packages/2c/75/bf89af29d5138181c4ff9492721bffb0aeb04a455f4e25cee55bd607d997/mira_simpeg-0.19.0.dev7.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/b6/22/ca8ed05dc1b65d83f286152484792a31eaa9e4413792fd25f2fdda401808/gpt_fn-0.1.2.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [metainfoyaml2py]: Downloading https://files.pythonhosted.org/packages/7d/76/9cb61a7644e23843774c5855db0af9f4dabe49955c59635eff50a5913f82/metainfoyaml2py-0.0.9.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/b2/c8/882d803389dd336dc6dca24ab9ab87c1771261a980bb4823938ed0f387be/ca_vntl_helper-1.0.3.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [pg-sync-roles]: Downloading https://files.pythonhosted.org/packages/57/16/3555015cd988ece14b511219460af3c22de1b955c715d90322aa11026bd9/pg_sync_roles-0.0.9.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [metainfoyaml2py]: executing diffoscope
+[2024-05-14 15:10:34] INFO root fetch - processPackages [metainfoyaml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metainfoyaml2py-0.0.8.tar.gz tmp/metainfoyaml2py-0.0.9.tar.gz --markdown 20240514/m/metainfoyaml2py/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ecom-utils]: Downloading https://files.pythonhosted.org/packages/ad/86/11e55e0715bc8892beddcb68f7606dc722e7086a6202c51f1679a31a3a68/ecom-utils-1.3.9.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-1.0.2.tar.gz tmp/ca_vntl_helper-1.0.3.tar.gz --markdown 20240514/c/ca-vntl-helper/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 15:10:34] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/b8/18/667a65d3b75a272035ca399b898a38afcf3e263721772605f43eb0be25ba/superblocks-types-0.0.6.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [linkedin-user-scrape]: Downloading https://files.pythonhosted.org/packages/00/3c/dcd21f77bec205fc24a70e82a5adf384c999b42bc998c48e03bec6b5d96b/linkedin_user_scrape-1.0.1.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [pg-sync-roles]: executing diffoscope
+[2024-05-14 15:10:34] INFO root fetch - processPackages [pg-sync-roles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_sync_roles-0.0.8.tar.gz tmp/pg_sync_roles-0.0.9.tar.gz --markdown 20240514/p/pg-sync-roles/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 15:10:34] INFO root fetch - processPackages [gpt-fn]: Downloading https://files.pythonhosted.org/packages/67/a1/4628542f7930b04a575cd9e065f257b383432305d91c63869d204a6fec3e/gpt_fn-0.1.3.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ecom-utils]: executing diffoscope
+[2024-05-14 15:10:34] INFO root fetch - processPackages [ecom-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecom-utils-1.3.8.tar.gz tmp/ecom-utils-1.3.9.tar.gz --markdown 20240514/e/ecom-utils/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-14 15:10:34] INFO root fetch - processPackages [zetamarkets-py]: Downloading https://files.pythonhosted.org/packages/b2/a0/077585838f672a1d19c11fddd9265f944635323847353a76dcbc0bc8f2ed/zetamarkets_py-0.2.9.tar.gz
+[2024-05-14 15:10:34] INFO root fetch - processPackages [linkedin-user-scrape]: executing diffoscope
+[2024-05-14 15:10:34] INFO root fetch - processPackages [linkedin-user-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin_user_scrape-1.0.0.tar.gz tmp/linkedin_user_scrape-1.0.1.tar.gz --markdown 20240514/l/linkedin-user-scrape/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 15:10:34] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-14 15:10:34] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.5.tar.gz tmp/superblocks-types-0.0.6.tar.gz --markdown 20240514/s/superblocks-types/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 15:10:35] INFO root fetch - processPackages [Mira-SimPEG]: Downloading https://files.pythonhosted.org/packages/cb/e3/7ddecfbf8f726d9c8478030aede517e1354bfe12f435927fc3f4a84b8fe9/mira_simpeg-0.19.0.dev8.tar.gz
+[2024-05-14 15:10:35] INFO root fetch - processPackages [gpt-fn]: executing diffoscope
+[2024-05-14 15:10:35] INFO root fetch - processPackages [gpt-fn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_fn-0.1.2.tar.gz tmp/gpt_fn-0.1.3.tar.gz --markdown 20240514/g/gpt-fn/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 15:10:35] INFO root fetch - processPackages [zetamarkets-py]: executing diffoscope
+[2024-05-14 15:10:35] INFO root fetch - processPackages [zetamarkets-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetamarkets_py-0.2.7.tar.gz tmp/zetamarkets_py-0.2.9.tar.gz --markdown 20240514/z/zetamarkets-py/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-14 15:10:35] INFO root fetch - processPackages [Mira-SimPEG]: executing diffoscope
+[2024-05-14 15:10:35] INFO root fetch - processPackages [Mira-SimPEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mira_simpeg-0.19.0.dev7.tar.gz tmp/mira_simpeg-0.19.0.dev8.tar.gz --markdown 20240514/M/Mira-SimPEG/0.19.0.dev7-0.19.0.dev8/README.md --exclude *.pyd
+[2024-05-14 15:10:35] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.0.2.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.0.3.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-14 15:10:35] INFO root fetch - processPackages [linkedin-user-scrape]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_user_scrape-1.0.0.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - processPackages [linkedin-user-scrape]: Remove: archive file [/home/abi/fetcher/tmp/linkedin_user_scrape-1.0.1.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - main [MainThread]: End processing [linkedin-user-scrape]: success
+[2024-05-14 15:10:35] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.8.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - processPackages [pg-sync-roles]: Remove: archive file [/home/abi/fetcher/tmp/pg_sync_roles-0.0.9.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - main [MainThread]: End processing [pg-sync-roles]: success
+[2024-05-14 15:10:35] INFO root fetch - processPackages [ecom-utils]: Remove: archive file [/home/abi/fetcher/tmp/ecom-utils-1.3.8.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - processPackages [ecom-utils]: Remove: archive file [/home/abi/fetcher/tmp/ecom-utils-1.3.9.tar.gz]
+[2024-05-14 15:10:35] INFO root fetch - main [MainThread]: End processing [ecom-utils]: success
+[2024-05-14 15:10:36] INFO root fetch - processPackages [metainfoyaml2py]: Remove: archive file [/home/abi/fetcher/tmp/metainfoyaml2py-0.0.8.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - processPackages [metainfoyaml2py]: Remove: archive file [/home/abi/fetcher/tmp/metainfoyaml2py-0.0.9.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - main [MainThread]: End processing [metainfoyaml2py]: success
+[2024-05-14 15:10:36] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.1.2.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - processPackages [gpt-fn]: Remove: archive file [/home/abi/fetcher/tmp/gpt_fn-0.1.3.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - main [MainThread]: End processing [gpt-fn]: success
+[2024-05-14 15:10:36] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.5.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.6.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-14 15:10:36] INFO root fetch - processPackages [Mira-SimPEG]: Remove: archive file [/home/abi/fetcher/tmp/mira_simpeg-0.19.0.dev7.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - processPackages [Mira-SimPEG]: Remove: archive file [/home/abi/fetcher/tmp/mira_simpeg-0.19.0.dev8.tar.gz]
+[2024-05-14 15:10:36] INFO root fetch - main [MainThread]: End processing [Mira-SimPEG]: success
+[2024-05-14 15:10:41] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.7.tar.gz]
+[2024-05-14 15:10:41] INFO root fetch - processPackages [zetamarkets-py]: Remove: archive file [/home/abi/fetcher/tmp/zetamarkets_py-0.2.9.tar.gz]
+[2024-05-14 15:10:41] INFO root fetch - main [MainThread]: End processing [zetamarkets-py]: success
+[2024-05-14 15:10:41] INFO root fetch - main [MainThread]: Store serial: [23201429]
