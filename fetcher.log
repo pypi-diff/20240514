@@ -19555,3 +19555,51 @@
 [2024-05-14 12:47:23] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-05-14 12:47:23] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-05-14 12:47:23] INFO root fetch - main [MainThread]: Store serial: [23199791]
+[2024-05-14 12:49:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199791]
+[2024-05-14 12:49:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: megaxdl
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SimplerLLM
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conditional
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-app-ui
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: power-grid-model
+[2024-05-14 12:49:34] INFO root fetch - processPackages [SimplerLLM]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-14 12:49:34] INFO root fetch - processPackages [megaxdl]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-14 12:49:34] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-14 12:49:34] INFO root fetch - processPackages [conditional]: New version: [2.0] Old Version: [1.5]
+[2024-05-14 12:49:34] INFO root fetch - processPackages [SimplerLLM]: Downloading https://files.pythonhosted.org/packages/3a/4a/f538806c48110ae86023e202c6c18a64365f8ea28d1b1f2a87d51c8fd5de/simplerllm-0.2.1.tar.gz
+[2024-05-14 12:49:34] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/84/6b/75940e5744e4bf127c053569e180cee0bc24ccd96b25cefff036a1491c40/ctrip-app-ui-0.4.4.tar.gz
+[2024-05-14 12:49:34] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-14 12:49:34] INFO root fetch - processPackages [megaxdl]: Downloading https://files.pythonhosted.org/packages/10/a5/0eb8845985f3c2740f1e35963a2dffc05a3e3c5969eb9e8603c2c7669ad2/megaxdl-0.0.1.tar.gz
+[2024-05-14 12:49:34] INFO root fetch - processPackages [conditional]: Downloading https://files.pythonhosted.org/packages/8e/a5/9ceac769cb63e0a481e5fab665ea486a40da48ef11727ea2b4feb3362d54/conditional-1.5.tar.gz
+[2024-05-14 12:49:34] INFO root fetch - processPackages [SimplerLLM]: Downloading https://files.pythonhosted.org/packages/b4/d1/14c57d29848aea46707657b69f308e71a7dab2458226a674ec1fa92431bf/simplerllm-0.2.3.tar.gz
+[2024-05-14 12:49:35] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/4d/cb/094db9f7b0ac5cfc374fe9fb904aea1fe61173ba592e3baad85ed57ebc78/ctrip-app-ui-0.4.5.tar.gz
+[2024-05-14 12:49:35] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-14 12:49:35] INFO root fetch - processPackages [SimplerLLM]: executing diffoscope
+[2024-05-14 12:49:35] INFO root fetch - processPackages [SimplerLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerllm-0.2.1.tar.gz tmp/simplerllm-0.2.3.tar.gz --markdown 20240514/S/SimplerLLM/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-14 12:49:35] INFO root fetch - processPackages [megaxdl]: Downloading https://files.pythonhosted.org/packages/0e/2b/7b9e73e06c3aecafb353ec05ece085c2270660df1595eeb80122b655b9ed/megaxdl-0.0.2.tar.gz
+[2024-05-14 12:49:35] INFO root fetch - processPackages [conditional]: Downloading https://files.pythonhosted.org/packages/e6/b6/0fe3956c1eab81a77fb61c206fe1d09ce1b2a7e8a6957f379d7bead13d38/conditional-2.0.tar.gz
+[2024-05-14 12:49:35] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-14 12:49:35] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.4.4.tar.gz tmp/ctrip-app-ui-0.4.5.tar.gz --markdown 20240514/c/ctrip-app-ui/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-14 12:49:35] INFO root fetch - processPackages [megaxdl]: executing diffoscope
+[2024-05-14 12:49:35] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-14 12:49:35] INFO root fetch - processPackages [megaxdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megaxdl-0.0.1.tar.gz tmp/megaxdl-0.0.2.tar.gz --markdown 20240514/m/megaxdl/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 12:49:35] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240514/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-14 12:49:35] INFO root fetch - processPackages [conditional]: executing diffoscope
+[2024-05-14 12:49:35] INFO root fetch - processPackages [conditional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conditional-1.5.tar.gz tmp/conditional-2.0.tar.gz --markdown 20240514/c/conditional/1.5-2.0/README.md --exclude *.pyd
+[2024-05-14 12:49:35] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.4.4.tar.gz]
+[2024-05-14 12:49:35] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.4.5.tar.gz]
+[2024-05-14 12:49:35] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-14 12:49:35] INFO root fetch - processPackages [conditional]: Remove: archive file [/home/abi/fetcher/tmp/conditional-1.5.tar.gz]
+[2024-05-14 12:49:35] INFO root fetch - processPackages [conditional]: Remove: archive file [/home/abi/fetcher/tmp/conditional-2.0.tar.gz]
+[2024-05-14 12:49:35] INFO root fetch - main [MainThread]: End processing [conditional]: success
+[2024-05-14 12:49:35] INFO root fetch - processPackages [SimplerLLM]: Remove: archive file [/home/abi/fetcher/tmp/simplerllm-0.2.1.tar.gz]
+[2024-05-14 12:49:35] INFO root fetch - processPackages [SimplerLLM]: Remove: archive file [/home/abi/fetcher/tmp/simplerllm-0.2.3.tar.gz]
+[2024-05-14 12:49:35] INFO root fetch - main [MainThread]: End processing [SimplerLLM]: success
+[2024-05-14 12:49:36] INFO root fetch - processPackages [megaxdl]: Remove: archive file [/home/abi/fetcher/tmp/megaxdl-0.0.1.tar.gz]
+[2024-05-14 12:49:36] INFO root fetch - processPackages [megaxdl]: Remove: archive file [/home/abi/fetcher/tmp/megaxdl-0.0.2.tar.gz]
+[2024-05-14 12:49:36] INFO root fetch - main [MainThread]: End processing [megaxdl]: success
+[2024-05-14 12:49:37] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-14 12:49:37] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-14 12:49:37] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-14 12:49:37] INFO root fetch - main [MainThread]: Store serial: [23199811]
