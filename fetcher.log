@@ -2334,3 +2334,81 @@
 [2024-05-14 02:07:07] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240513.tar.gz]
 [2024-05-14 02:07:07] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-14 02:07:07] INFO root fetch - main [MainThread]: Store serial: [23192742]
+[2024-05-14 02:09:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192742]
+[2024-05-14 02:09:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: treedata
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: abstract-shapes
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ousint
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: not-again-ai
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ralium
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chromedriver-py
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: inoopa_utils
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-common
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alamos
+[2024-05-14 02:09:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: synnax-freighter
+[2024-05-14 02:09:16] WARNING root fetch - processPackages [ousint]: Skipping, unable to determine old version
+[2024-05-14 02:09:16] INFO root fetch - processPackages [ousint]: Start processing: abstract-shapes
+[2024-05-14 02:09:16] INFO root fetch - main [MainThread]: End processing [ousint] error
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [not-again-ai]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:09:16] WARNING root fetch - processPackages [treedata]: Skipping, unable to determine old version
+[2024-05-14 02:09:16] INFO root fetch - main [MainThread]: End processing [treedata] error
+[2024-05-14 02:09:16] WARNING root fetch - processPackages [ralium]: Skipping, unable to determine old version
+[2024-05-14 02:09:16] INFO root fetch - main [MainThread]: End processing [ralium] error
+[2024-05-14 02:09:16] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [chromedriver-py]: New version: [99.0.4844.51] Old Version: [99.0.4844.35]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-14 02:09:16] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [not-again-ai]: Downloading https://files.pythonhosted.org/packages/3a/1a/3b855e05b5dbc28154e77886dab54c2470849d38ec377e9b2705f2ffffce/not_again_ai-0.8.0.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [chromedriver-py]: Downloading https://files.pythonhosted.org/packages/39/03/f1ac791b3c69bd62af64eb3b4f2f0c942828a41ad7eb4840f42ff715c79a/chromedriver-py-99.0.4844.35.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/47/1d/b44d0a666ad7dfde7a8635a95d6241671db501c8ed9f7dd576bdf7fe184e/synnax_freighter-0.6.8.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:09:16] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:09:16] INFO root fetch - processPackages [not-again-ai]: Downloading https://files.pythonhosted.org/packages/ed/f7/346e50c858e4cedc5adfd677de60a32a3684a67801cff10b8957022f982f/not_again_ai-0.8.1.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-14 02:09:16] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240514/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-14 02:09:16] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/97/99/8375d1635ab3481a144b8507f5f4be9c85b138a7ecc2c616808ded325e74/synnax_freighter-0.6.9.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-14 02:09:16] INFO root fetch - processPackages [not-again-ai]: executing diffoscope
+[2024-05-14 02:09:16] INFO root fetch - processPackages [not-again-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not_again_ai-0.8.0.tar.gz tmp/not_again_ai-0.8.1.tar.gz --markdown 20240514/n/not-again-ai/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-05-14 02:09:17] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-14 02:09:17] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.8.tar.gz tmp/synnax_freighter-0.6.9.tar.gz --markdown 20240514/s/synnax-freighter/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-14 02:09:17] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-14 02:09:17] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240514/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 02:09:17] WARNING root fetch - processPackages [chromedriver-py]: Skipping package: exceeds size limit 29238079>=10485760
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [chromedriver-py] error
+[2024-05-14 02:09:17] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-14 02:09:17] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240514/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-14 02:09:17] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:09:17] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-14 02:09:17] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.8.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.9.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-14 02:09:17] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-14 02:09:17] INFO root fetch - processPackages [not-again-ai]: Remove: archive file [/home/abi/fetcher/tmp/not_again_ai-0.8.0.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - processPackages [not-again-ai]: Remove: archive file [/home/abi/fetcher/tmp/not_again_ai-0.8.1.tar.gz]
+[2024-05-14 02:09:17] INFO root fetch - main [MainThread]: End processing [not-again-ai]: success
+[2024-05-14 02:09:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-14 02:09:18] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-14 02:09:18] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-14 02:09:18] INFO root fetch - main [MainThread]: Store serial: [23192778]
