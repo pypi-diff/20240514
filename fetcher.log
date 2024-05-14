@@ -22012,3 +22012,30 @@
 [2024-05-14 14:23:09] INFO root fetch - processPackages [Mako]: Remove: archive file [/home/abi/fetcher/tmp/Mako-1.3.4.tar.gz]
 [2024-05-14 14:23:09] INFO root fetch - main [MainThread]: End processing [Mako]: success
 [2024-05-14 14:23:09] INFO root fetch - main [MainThread]: Store serial: [23200860]
+[2024-05-14 14:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200860]
+[2024-05-14 14:25:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: superlinked
+[2024-05-14 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celltypegenomics
+[2024-05-14 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrattle
+[2024-05-14 14:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: animelistfetcher
+[2024-05-14 14:25:19] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-14 14:25:19] WARNING root fetch - processPackages [pyrattle]: Skipping, unable to determine old version
+[2024-05-14 14:25:19] INFO root fetch - main [MainThread]: End processing [pyrattle] error
+[2024-05-14 14:25:19] ERROR root fetch - processPackages [animelistfetcher]: Unable to get metadata: No such project 'animelistfetcher'
+[2024-05-14 14:25:19] INFO root fetch - main [MainThread]: End processing [animelistfetcher] error
+[2024-05-14 14:25:19] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-05-14 14:25:19] INFO root fetch - processPackages [celltypegenomics]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 14:25:19] INFO root fetch - processPackages [celltypegenomics]: Downloading https://files.pythonhosted.org/packages/e9/f4/da7fbeca37f6b6fa0ab506066a03ae585bbb0015a60f1bd2fc211474917d/celltypegenomics-0.0.4.tar.gz
+[2024-05-14 14:25:19] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-05-14 14:25:19] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-05-14 14:25:19] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240514/s/superlinked/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-14 14:25:19] INFO root fetch - processPackages [celltypegenomics]: Downloading https://files.pythonhosted.org/packages/ec/74/9d3a97d555ef3b509bc14c928c1d57e06a41c2a7dddae6953a359b495b59/celltypegenomics-0.0.5.tar.gz
+[2024-05-14 14:25:19] INFO root fetch - processPackages [celltypegenomics]: executing diffoscope
+[2024-05-14 14:25:19] INFO root fetch - processPackages [celltypegenomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celltypegenomics-0.0.4.tar.gz tmp/celltypegenomics-0.0.5.tar.gz --markdown 20240514/c/celltypegenomics/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 14:25:20] INFO root fetch - processPackages [celltypegenomics]: Remove: archive file [/home/abi/fetcher/tmp/celltypegenomics-0.0.4.tar.gz]
+[2024-05-14 14:25:20] INFO root fetch - processPackages [celltypegenomics]: Remove: archive file [/home/abi/fetcher/tmp/celltypegenomics-0.0.5.tar.gz]
+[2024-05-14 14:25:20] INFO root fetch - main [MainThread]: End processing [celltypegenomics]: success
+[2024-05-14 14:25:20] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-05-14 14:25:20] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-05-14 14:25:20] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-05-14 14:25:20] INFO root fetch - main [MainThread]: Store serial: [23200875]
