@@ -8126,3 +8126,33 @@
 [2024-05-14 04:31:49] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.4.9a3.tar.gz]
 [2024-05-14 04:31:49] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2024-05-14 04:31:49] INFO root fetch - main [MainThread]: Store serial: [23194948]
+[2024-05-14 04:33:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194948]
+[2024-05-14 04:33:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 04:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webbpsf-ext
+[2024-05-14 04:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ai-edge-torch-nightly
+[2024-05-14 04:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambr-py
+[2024-05-14 04:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scholarsync
+[2024-05-14 04:33:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bazel-runfiles
+[2024-05-14 04:33:58] WARNING root fetch - processPackages [ai-edge-torch-nightly]: Skipping, unable to determine old version
+[2024-05-14 04:33:58] INFO root fetch - main [MainThread]: End processing [ai-edge-torch-nightly] error
+[2024-05-14 04:33:58] INFO root fetch - processPackages [bazel-runfiles]: New version: [0.32.1] Old Version: [0.32.0]
+[2024-05-14 04:33:58] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/c8/6b/8028b689d0491b9a1df5176a2fa2d0b8c069d9fa4833b9aa3dc97b9ff24e/bazel_runfiles-0.32.0-py3-none-any.whl
+[2024-05-14 04:33:58] WARNING root fetch - processPackages [ambr-py]: Skipping, unable to determine old version
+[2024-05-14 04:33:58] INFO root fetch - main [MainThread]: End processing [ambr-py] error
+[2024-05-14 04:33:58] INFO root fetch - processPackages [webbpsf-ext]: New version: [1.2.0] Old Version: [1.0.4]
+[2024-05-14 04:33:58] WARNING root fetch - processPackages [scholarsync]: Skipping, unable to determine old version
+[2024-05-14 04:33:58] INFO root fetch - main [MainThread]: End processing [scholarsync] error
+[2024-05-14 04:33:58] INFO root fetch - processPackages [webbpsf-ext]: Downloading https://files.pythonhosted.org/packages/be/85/25c7b37c97392d0c919eb6d45bfeca97f8aadf4d5840e7da3f34f4f47157/webbpsf_ext-1.0.4.tar.gz
+[2024-05-14 04:33:58] INFO root fetch - processPackages [bazel-runfiles]: Downloading https://files.pythonhosted.org/packages/d9/48/448283d406c65140176847890170dbf8f9a7a5be00a2cfcd71ccf5bb676e/bazel_runfiles-0.32.1-py3-none-any.whl
+[2024-05-14 04:33:58] INFO root fetch - processPackages [bazel-runfiles]: executing diffoscope
+[2024-05-14 04:33:58] INFO root fetch - processPackages [bazel-runfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bazel_runfiles-0.32.0-py3-none-any.whl.zip tmp/bazel_runfiles-0.32.1-py3-none-any.whl.zip --markdown 20240514/b/bazel-runfiles/0.32.0-0.32.1/README.md --exclude *.pyd
+[2024-05-14 04:33:59] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.32.0-py3-none-any.whl.zip]
+[2024-05-14 04:33:59] INFO root fetch - processPackages [bazel-runfiles]: Remove: archive file [/home/abi/fetcher/tmp/bazel_runfiles-0.32.1-py3-none-any.whl.zip]
+[2024-05-14 04:33:59] INFO root fetch - main [MainThread]: End processing [bazel-runfiles]: success
+[2024-05-14 04:34:00] INFO root fetch - processPackages [webbpsf-ext]: Downloading https://files.pythonhosted.org/packages/9d/73/7ba49de539e848b09256daef6a48db4bc59673531dd638cdedc16c14a6aa/webbpsf_ext-1.2.0.tar.gz
+[2024-05-14 04:34:04] INFO root fetch - processPackages [webbpsf-ext]: executing diffoscope
+[2024-05-14 04:34:04] INFO root fetch - processPackages [webbpsf-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webbpsf_ext-1.0.4.tar.gz tmp/webbpsf_ext-1.2.0.tar.gz --markdown 20240514/w/webbpsf-ext/1.0.4-1.2.0/README.md --exclude *.pyd
+[2024-05-14 04:34:07] INFO root fetch - processPackages [webbpsf-ext]: Remove: archive file [/home/abi/fetcher/tmp/webbpsf_ext-1.0.4.tar.gz]
+[2024-05-14 04:34:07] INFO root fetch - processPackages [webbpsf-ext]: Remove: archive file [/home/abi/fetcher/tmp/webbpsf_ext-1.2.0.tar.gz]
+[2024-05-14 04:34:07] INFO root fetch - main [MainThread]: End processing [webbpsf-ext]: success
+[2024-05-14 04:34:07] INFO root fetch - main [MainThread]: Store serial: [23194970]
