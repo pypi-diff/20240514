@@ -12925,3 +12925,42 @@
 [2024-05-14 09:08:55] INFO root fetch - processPackages [airsmodel]: Remove: archive file [/home/abi/fetcher/tmp/airsmodel-0.3.2.tar.gz]
 [2024-05-14 09:08:55] INFO root fetch - main [MainThread]: End processing [airsmodel]: success
 [2024-05-14 09:08:55] INFO root fetch - main [MainThread]: Store serial: [23196923]
+[2024-05-14 09:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196923]
+[2024-05-14 09:11:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 09:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smartboiler
+[2024-05-14 09:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dblcsgen
+[2024-05-14 09:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carbon-registry-indexer
+[2024-05-14 09:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phenomApis
+[2024-05-14 09:11:06] INFO root fetch - processPackages [dblcsgen]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-14 09:11:06] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:11:06] INFO root fetch - processPackages [smartboiler]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 09:11:06] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 09:11:06] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/dd/0f/aa1eec5b27e0bb33faefa820e3c6e85efeb89034bf7dccda2911c00b0137/dblcsgen-0.2.6.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/2d/c2/dc89e91f7ffd8e8e6180b2f3389f5b6dacdebaaf0e9e48738354ac0e1590/smartboiler-0.1.8.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/2e/0b/6cb3b567f89569a60b52c772445e1721c0040d733bbfc99b6e8e5ec19613/smartboiler-0.1.9.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [dblcsgen]: Downloading https://files.pythonhosted.org/packages/71/36/6ea21287fa4199a11f89a8fc33ccb20ba942387630ee49f28048a0456a7e/dblcsgen-0.2.7.tar.gz
+[2024-05-14 09:11:06] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-14 09:11:06] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.1.8.tar.gz tmp/smartboiler-0.1.9.tar.gz --markdown 20240514/s/smartboiler/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 09:11:06] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-14 09:11:06] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240514/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:11:06] INFO root fetch - processPackages [dblcsgen]: executing diffoscope
+[2024-05-14 09:11:06] INFO root fetch - processPackages [dblcsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblcsgen-0.2.6.tar.gz tmp/dblcsgen-0.2.7.tar.gz --markdown 20240514/d/dblcsgen/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-14 09:11:07] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-14 09:11:07] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-14 09:11:07] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240514/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 09:11:07] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.8.tar.gz]
+[2024-05-14 09:11:07] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.1.9.tar.gz]
+[2024-05-14 09:11:07] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-14 09:11:07] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-14 09:11:07] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-14 09:11:07] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-14 09:11:08] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.6.tar.gz]
+[2024-05-14 09:11:08] INFO root fetch - processPackages [dblcsgen]: Remove: archive file [/home/abi/fetcher/tmp/dblcsgen-0.2.7.tar.gz]
+[2024-05-14 09:11:08] INFO root fetch - main [MainThread]: End processing [dblcsgen]: success
+[2024-05-14 09:11:08] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-14 09:11:08] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-14 09:11:08] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-14 09:11:08] INFO root fetch - main [MainThread]: Store serial: [23196934]
