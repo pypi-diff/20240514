@@ -2278,3 +2278,59 @@
 [2024-05-14 02:04:56] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-05-14 02:04:56] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-05-14 02:04:56] INFO root fetch - main [MainThread]: Store serial: [23192720]
+[2024-05-14 02:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192720]
+[2024-05-14 02:07:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grimpz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxkern-nightly
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easytl
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxutils-nightly
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MyoSuite
+[2024-05-14 02:07:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abstract-shapes
+[2024-05-14 02:07:05] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240513] Old Version: [0.1.0.dev20240512]
+[2024-05-14 02:07:05] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240513] Old Version: [0.0.8.dev20240512]
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-05-14 02:07:05] INFO root fetch - processPackages [easytl]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-14 02:07:05] WARNING root fetch - processPackages [grimpz]: Skipping, unable to determine old version
+[2024-05-14 02:07:05] INFO root fetch - main [MainThread]: End processing [grimpz] error
+[2024-05-14 02:07:05] INFO root fetch - processPackages [MyoSuite]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-14 02:07:05] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/13/6a/0dafc127ade2897e61a3bac29eee3f4283b8da265587b51648c81a6e77d8/onnxscript-0.1.0.dev20240512.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/fc/c7/fc2d241f67f5629277c29ad5cfde5604c73474041ead39c510087497b8ff/jaxutils-nightly-0.0.8.dev20240512.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/7c/8f/c83ea699536418656ba2aa9dd7473954af1dffd84ac164c894ab2d39fc4d/easytl-0.3.2.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [MyoSuite]: Downloading https://files.pythonhosted.org/packages/c5/f7/7c54a6a95b2b88b801eec765c4d5584736eabcb38deaa40a3af54f41e92c/MyoSuite-2.3.0.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:07:05] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/7c/78/5d4e5096c4e777e847bde176a77cd7427559638621bc982b8d5a839af32a/jaxutils-nightly-0.0.8.dev20240513.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240514/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-05-14 02:07:05] WARNING root fetch - processPackages [MyoSuite]: Skipping package: exceeds size limit 52395512>=10485760
+[2024-05-14 02:07:05] INFO root fetch - main [MainThread]: End processing [MyoSuite] error
+[2024-05-14 02:07:05] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/05/1d/d325df31ddd2b7d1ba415e31498b4cadcfb43a57d9a84b259f786b8b363d/onnxscript-0.1.0.dev20240513.tar.gz
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-05-14 02:07:05] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240512.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240513.tar.gz --markdown 20240514/j/jaxutils-nightly/0.0.8.dev20240512-0.0.8.dev20240513/README.md --exclude *.pyd
+[2024-05-14 02:07:06] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/fc/6d/2124819feed36f89427cdda87454e9a27d2126434ed4e791887019edb667/easytl-0.3.3.tar.gz
+[2024-05-14 02:07:06] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-14 02:07:06] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240512.tar.gz tmp/onnxscript-0.1.0.dev20240513.tar.gz --markdown 20240514/o/onnxscript/0.1.0.dev20240512-0.1.0.dev20240513/README.md --exclude *.pyd
+[2024-05-14 02:07:06] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-05-14 02:07:06] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.3.2.tar.gz tmp/easytl-0.3.3.tar.gz --markdown 20240514/e/easytl/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-14 02:07:06] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:07:06] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240512.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240513.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-05-14 02:07:06] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-05-14 02:07:06] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.3.2.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.3.3.tar.gz]
+[2024-05-14 02:07:06] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-05-14 02:07:07] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240512.tar.gz]
+[2024-05-14 02:07:07] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240513.tar.gz]
+[2024-05-14 02:07:07] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-14 02:07:07] INFO root fetch - main [MainThread]: Store serial: [23192742]
