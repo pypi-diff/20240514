@@ -8789,3 +8789,24 @@
 [2024-05-14 05:19:51] INFO root fetch - processPackages [webbpsf-ext]: Remove: archive file [/home/abi/fetcher/tmp/webbpsf_ext-1.2.1-py3-none-any.whl.zip]
 [2024-05-14 05:19:51] INFO root fetch - main [MainThread]: End processing [webbpsf-ext]: success
 [2024-05-14 05:19:51] INFO root fetch - main [MainThread]: Store serial: [23195188]
+[2024-05-14 05:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195188]
+[2024-05-14 05:21:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 05:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-azuread
+[2024-05-14 05:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CodingRider
+[2024-05-14 05:21:59] INFO root fetch - processPackages [CodingRider]: New version: [2.4] Old Version: [2.3]
+[2024-05-14 05:21:59] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/0a/60/76f7c4030a1003a06647da97c2e8e24a2b799f16d0c6e65a5e4115f5896f/CodingRider-2.3.tar.gz
+[2024-05-14 05:21:59] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-14 05:22:00] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/ed/42/0991368cf30dc6e30e86ca4c70764804edcdfdbc80c3eb74a3ff0abfed9e/codingrider-2.4.tar.gz
+[2024-05-14 05:22:00] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/88/be/02d6ea320d798503db50a8f378e071a0eec764c5f82f4542e0a22c80c814/cdktf-cdktf-provider-azuread-9.0.0.tar.gz
+[2024-05-14 05:22:00] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-05-14 05:22:00] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodingRider-2.3.tar.gz tmp/codingrider-2.4.tar.gz --markdown 20240514/C/CodingRider/2.3-2.4/README.md --exclude *.pyd
+[2024-05-14 05:22:00] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/e3/24/95b50eb2ef4a4cf51ed286e2f1e7a27be76fb4b0023f8876242860f65ef2/cdktf-cdktf-provider-azuread-9.0.1.tar.gz
+[2024-05-14 05:22:00] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-2.3.tar.gz]
+[2024-05-14 05:22:00] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.4.tar.gz]
+[2024-05-14 05:22:00] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-05-14 05:22:00] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: executing diffoscope
+[2024-05-14 05:22:00] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azuread-9.0.0.tar.gz tmp/cdktf-cdktf-provider-azuread-9.0.1.tar.gz --markdown 20240514/c/cdktf-cdktf-provider-azuread/9.0.0-9.0.1/README.md --exclude *.pyd
+[2024-05-14 05:22:02] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-9.0.0.tar.gz]
+[2024-05-14 05:22:02] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-azuread-9.0.1.tar.gz]
+[2024-05-14 05:22:02] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
+[2024-05-14 05:22:02] INFO root fetch - main [MainThread]: Store serial: [23195196]
