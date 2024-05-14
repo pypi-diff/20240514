@@ -17632,3 +17632,77 @@
 [2024-05-14 11:43:07] INFO root fetch - processPackages [nautiluszim]: Remove: archive file [/home/abi/fetcher/tmp/nautiluszim-1.2.0.tar.gz]
 [2024-05-14 11:43:07] INFO root fetch - main [MainThread]: End processing [nautiluszim]: success
 [2024-05-14 11:43:07] INFO root fetch - main [MainThread]: Store serial: [23198934]
+[2024-05-14 11:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198934]
+[2024-05-14 11:45:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ooui
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kimmdy
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: popoll-backend
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oip-tracking-client
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nchuchain
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scipion-em
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agi-med-metrics
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mocket
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kodexa
+[2024-05-14 11:45:33] INFO root fetch - processPackages [ooui]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [popoll-backend]: New version: [0.0.50] Old Version: [0.0.49]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [nchuchain]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kodexa]: New version: [7.0.9067026472] Old Version: [7.0.9066988095]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/6e/42/f1067590496eed32ecf4082380f21dbd12af5527388f799a0c310ebacfcd/ooui-0.6.3.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [scipion-em]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kimmdy]: New version: [6.6.1] Old Version: [6.6.0]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [oip-tracking-client]: New version: [0.0.3.dev0] Old Version: [0.0.3]
+[2024-05-14 11:45:34] WARNING root fetch - processPackages [agi-med-metrics]: Skipping, unable to determine old version
+[2024-05-14 11:45:34] INFO root fetch - main [MainThread]: End processing [agi-med-metrics] error
+[2024-05-14 11:45:34] INFO root fetch - processPackages [mocket]: New version: [3.9.44] Old Version: [3.9.42]
+[2024-05-14 11:45:34] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/84/77/371113b1c4788071816a784c0ad48522e14a73690f5dbd7bc3cc4c445205/nchuchain-1.0.7.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/a3/73/59348eba77b5afdfb47209183ef90120ca504252639dc8219a4765ea60d5/kodexa-7.0.9066988095.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/fd/8b/e5f9cb09535e1dc44d87abb373d733d0d642eb696c56c248ba4008425dd4/scipion-em-3.6.0.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/1c/cc/c266ef698a8d34a7f6f31d425dbca85dc07f4a1d910c8838361207ad6f93/popoll_backend-0.0.49.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [oip-tracking-client]: Downloading https://files.pythonhosted.org/packages/0b/92/cd00ee963dc78f854e4d19032d5c8be4cd9775126e6c1cdbc33fbc65a259/oip_tracking_client-0.0.3-py3-none-any.whl
+[2024-05-14 11:45:34] INFO root fetch - processPackages [mocket]: Downloading https://files.pythonhosted.org/packages/6a/92/beb21fbbcf5558bd5bbb9390523aa3e289bdc7c914f4888b6517604866b0/mocket-3.9.42.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kimmdy]: Downloading https://files.pythonhosted.org/packages/de/f6/f48bc1140d02f9ac5fd60b61f375d334be9dc798c3539d70bb56baec1aa7/kimmdy-6.6.0.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [ooui]: Downloading https://files.pythonhosted.org/packages/9d/d3/8058bab33ffa0864f74f54c2c5652661b1786ea352a6ec0ad15390a42e35/ooui-0.7.0.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [nchuchain]: Downloading https://files.pythonhosted.org/packages/7b/b9/f01fbeaa27b6e9a8bbcab5800394e47d9e0652b2f629ae7cac356498ec53/nchuchain-1.0.9.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/59/e0/a6184e503c3032aaf1b879fdff81a27e5d3830a65116c8a5b39c18f634c5/kodexa-7.0.9067026472-py3-none-any.whl
+[2024-05-14 11:45:34] INFO root fetch - processPackages [ooui]: executing diffoscope
+[2024-05-14 11:45:34] INFO root fetch - processPackages [ooui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooui-0.6.3.tar.gz tmp/ooui-0.7.0.tar.gz --markdown 20240514/o/ooui/0.6.3-0.7.0/README.md --exclude *.pyd
+[2024-05-14 11:45:34] INFO root fetch - processPackages [scipion-em]: Downloading https://files.pythonhosted.org/packages/b0/e2/603acc1c4ea45a99d8788ef2b272bfffe54b87398a1a133394f4ec9b1484/scipion-em-3.7.0.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [popoll-backend]: Downloading https://files.pythonhosted.org/packages/4a/b8/aa44ae8e77be9f68f973b37118881634f9356e7eddbd27e9ca0ff7f460cb/popoll_backend-0.0.50.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [nchuchain]: executing diffoscope
+[2024-05-14 11:45:34] INFO root fetch - processPackages [nchuchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nchuchain-1.0.7.tar.gz tmp/nchuchain-1.0.9.tar.gz --markdown 20240514/n/nchuchain/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-14 11:45:34] WARNING root fetch - processPackages [kimmdy]: Skipping package: exceeds size limit 39059982>=10485760
+[2024-05-14 11:45:34] INFO root fetch - main [MainThread]: End processing [kimmdy] error
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2024-05-14 11:45:34] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-7.0.9066988095.tar.gz tmp/kodexa-7.0.9067026472-py3-none-any.whl.zip --markdown 20240514/k/kodexa/7.0.9066988095-7.0.9067026472/README.md --exclude *.pyd
+[2024-05-14 11:45:34] INFO root fetch - processPackages [oip-tracking-client]: Downloading https://files.pythonhosted.org/packages/0f/16/ca24a8e26f44f35a08d86b00273a73374272aca3f564f476fc4befbf7d5f/oip_tracking_client-0.0.3.dev0-py3-none-any.whl
+[2024-05-14 11:45:34] INFO root fetch - processPackages [popoll-backend]: executing diffoscope
+[2024-05-14 11:45:34] INFO root fetch - processPackages [popoll-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popoll_backend-0.0.49.tar.gz tmp/popoll_backend-0.0.50.tar.gz --markdown 20240514/p/popoll-backend/0.0.49-0.0.50/README.md --exclude *.pyd
+[2024-05-14 11:45:34] INFO root fetch - processPackages [mocket]: Downloading https://files.pythonhosted.org/packages/7c/48/9298bfb1f8104b0e9fccf5cd79aa09c7b4e3ec9514ee5306b1052c826c53/mocket-3.9.44.tar.gz
+[2024-05-14 11:45:34] INFO root fetch - processPackages [scipion-em]: executing diffoscope
+[2024-05-14 11:45:34] INFO root fetch - processPackages [scipion-em]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-3.6.0.tar.gz tmp/scipion-em-3.7.0.tar.gz --markdown 20240514/s/scipion-em/3.6.0-3.7.0/README.md --exclude *.pyd
+[2024-05-14 11:45:35] INFO root fetch - processPackages [oip-tracking-client]: executing diffoscope
+[2024-05-14 11:45:35] INFO root fetch - processPackages [oip-tracking-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oip_tracking_client-0.0.3-py3-none-any.whl.zip tmp/oip_tracking_client-0.0.3.dev0-py3-none-any.whl.zip --markdown 20240514/o/oip-tracking-client/0.0.3-0.0.3.dev0/README.md --exclude *.pyd
+[2024-05-14 11:45:35] INFO root fetch - processPackages [mocket]: executing diffoscope
+[2024-05-14 11:45:35] INFO root fetch - processPackages [mocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mocket-3.9.42.tar.gz tmp/mocket-3.9.44.tar.gz --markdown 20240514/m/mocket/3.9.42-3.9.44/README.md --exclude *.pyd
+[2024-05-14 11:45:35] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.6.3.tar.gz]
+[2024-05-14 11:45:35] INFO root fetch - processPackages [ooui]: Remove: archive file [/home/abi/fetcher/tmp/ooui-0.7.0.tar.gz]
+[2024-05-14 11:45:35] INFO root fetch - main [MainThread]: End processing [ooui]: success
+[2024-05-14 11:45:36] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.9066988095.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.9067026472-py3-none-any.whl.zip]
+[2024-05-14 11:45:36] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2024-05-14 11:45:36] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.7.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - processPackages [nchuchain]: Remove: archive file [/home/abi/fetcher/tmp/nchuchain-1.0.9.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - main [MainThread]: End processing [nchuchain]: success
+[2024-05-14 11:45:36] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.49.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - processPackages [popoll-backend]: Remove: archive file [/home/abi/fetcher/tmp/popoll_backend-0.0.50.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - main [MainThread]: End processing [popoll-backend]: success
+[2024-05-14 11:45:36] INFO root fetch - processPackages [oip-tracking-client]: Remove: archive file [/home/abi/fetcher/tmp/oip_tracking_client-0.0.3-py3-none-any.whl.zip]
+[2024-05-14 11:45:36] INFO root fetch - processPackages [oip-tracking-client]: Remove: archive file [/home/abi/fetcher/tmp/oip_tracking_client-0.0.3.dev0-py3-none-any.whl.zip]
+[2024-05-14 11:45:36] INFO root fetch - main [MainThread]: End processing [oip-tracking-client]: success
+[2024-05-14 11:45:36] INFO root fetch - processPackages [mocket]: Remove: archive file [/home/abi/fetcher/tmp/mocket-3.9.42.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - processPackages [mocket]: Remove: archive file [/home/abi/fetcher/tmp/mocket-3.9.44.tar.gz]
+[2024-05-14 11:45:36] INFO root fetch - main [MainThread]: End processing [mocket]: success
+[2024-05-14 11:45:37] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.6.0.tar.gz]
+[2024-05-14 11:45:37] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.7.0.tar.gz]
+[2024-05-14 11:45:37] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
+[2024-05-14 11:45:37] INFO root fetch - main [MainThread]: Store serial: [23198969]
