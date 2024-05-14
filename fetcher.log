@@ -15046,3 +15046,96 @@
 [2024-05-14 10:23:03] INFO root fetch - processPackages [scipion-em]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-3.7.0.tar.gz]
 [2024-05-14 10:23:03] INFO root fetch - main [MainThread]: End processing [scipion-em]: success
 [2024-05-14 10:23:03] INFO root fetch - main [MainThread]: Store serial: [23197911]
+[2024-05-14 10:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197911]
+[2024-05-14 10:25:18] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crowdin-api-client
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-block-local
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-utils-dev
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heracless
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drex
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phenomApis
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-payments-payu
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: donware
+[2024-05-14 10:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pms-encoder
+[2024-05-14 10:25:18] INFO root fetch - processPackages [drex]: New version: [0.0.244] Old Version: [0.0.2434]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [donware]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [text-block-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [django-payments-payu]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc4] Old Version: [0.9.9rc3]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [heracless]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [crowdin-api-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-14 10:25:18] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/69/f7/e85fdfeb54f5f4eeb02d051301244edc2817718f5aced677fa32a4bb892d/donware-0.1.5.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/a3/6e/09c4b521a336a203fc5d75bb2ab0b47e2e55d959009e6ea1c4f4e34dcda3/tsugu-0.9.9rc3.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/93/94/a84de6f8af0e85794beee12b751d15bbc2554255debaf0e0bc57db44c060/drex-0.0.2434.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [django-payments-payu]: Downloading https://files.pythonhosted.org/packages/16/c2/619185811891bbb6fa1c5e86c03c4cc97760a7028aea76385b7e12b205d0/django-payments-payu-1.3.1.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/70/2c/1e2d2d092952d9578a3bd66ea8d19829b2cdcb307254112a3b482d4403bd/text-block-local-0.0.8.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [heracless]: Downloading https://files.pythonhosted.org/packages/dd/4b/cc107c6773d32d35ecda28c11023d8abc1e9219b9bc12aa88fe0e2e9aed6/heracless-0.2.2.tar.gz
+[2024-05-14 10:25:18] INFO root fetch - processPackages [crowdin-api-client]: Downloading https://files.pythonhosted.org/packages/8f/64/d4dbb685c8770f980727d75c643667295d082998741d850ba04bb5189a0e/crowdin-api-client-1.8.0.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/89/a4/7086b32ccadd552db37d7838d6584e4fe556b708cc4b882e63895924bd57/easy_utils_dev-2.9.8.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [donware]: Downloading https://files.pythonhosted.org/packages/c9/b9/b4d1561ac12861069590953e9b6187cd13a541edb4cd4b4ea1e62f0ff21c/donware-0.1.6.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/aa/2c/31f1da69e1345babcd3664b300482894becc3bde9893ea4bd24b7b9a581f/tsugu-0.9.9rc4.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/71/bc/24522c5007f2452a7e32a445163d898233d9b0cc266aed587c5f36dc2bc9/text-block-local-0.0.9.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [drex]: Downloading https://files.pythonhosted.org/packages/4f/a5/d697ab3d97531d082665b7e815d95910783f1b10c0ba60ffdca92edf4565/drex-0.0.244.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240514/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [donware]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [donware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donware-0.1.5.tar.gz tmp/donware-0.1.6.tar.gz --markdown 20240514/d/donware/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc3.tar.gz tmp/tsugu-0.9.9rc4.tar.gz --markdown 20240514/t/tsugu/0.9.9rc3-0.9.9rc4/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/52/df/0bb33809cc04a0dd3cf1f9d26e4880b2dcbc1e5bd512fc6f3d93c0f698a1/easy_utils_dev-2.9.9.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.8.tar.gz tmp/text-block-local-0.0.9.tar.gz --markdown 20240514/t/text-block-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [django-payments-payu]: Downloading https://files.pythonhosted.org/packages/ce/33/036302a4fb80ee793efbafab4987a2b826435d0aac0e301d9bcb43c2ee43/django-payments-payu-1.4.0.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [crowdin-api-client]: Downloading https://files.pythonhosted.org/packages/15/3f/3daba2ef4dc2dcbe405b9804e3fd575a613fb32aa00c0ec02fffa4f86646/crowdin-api-client-1.9.0.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [heracless]: Downloading https://files.pythonhosted.org/packages/0b/7d/b0652450dde07b30b739fc023db40879965319a055d59db2780ddfd6d55a/heracless-0.2.3.tar.gz
+[2024-05-14 10:25:19] INFO root fetch - processPackages [drex]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [drex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drex-0.0.2434.tar.gz tmp/drex-0.0.244.tar.gz --markdown 20240514/d/drex/0.0.2434-0.0.244/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.8.tar.gz tmp/easy_utils_dev-2.9.9.tar.gz --markdown 20240514/e/easy-utils-dev/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [heracless]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [heracless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heracless-0.2.2.tar.gz tmp/heracless-0.2.3.tar.gz --markdown 20240514/h/heracless/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [django-payments-payu]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [django-payments-payu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-payments-payu-1.3.1.tar.gz tmp/django-payments-payu-1.4.0.tar.gz --markdown 20240514/d/django-payments-payu/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-05-14 10:25:19] INFO root fetch - processPackages [crowdin-api-client]: executing diffoscope
+[2024-05-14 10:25:19] INFO root fetch - processPackages [crowdin-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crowdin-api-client-1.8.0.tar.gz tmp/crowdin-api-client-1.9.0.tar.gz --markdown 20240514/c/crowdin-api-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-14 10:25:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 10:25:20] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.5.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - processPackages [donware]: Remove: archive file [/home/abi/fetcher/tmp/donware-0.1.6.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - main [MainThread]: End processing [donware]: success
+[2024-05-14 10:25:20] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.8.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.9.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2024-05-14 10:25:20] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.8.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.9.tar.gz]
+[2024-05-14 10:25:20] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-05-14 10:25:21] INFO root fetch - processPackages [heracless]: Remove: archive file [/home/abi/fetcher/tmp/heracless-0.2.2.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - processPackages [heracless]: Remove: archive file [/home/abi/fetcher/tmp/heracless-0.2.3.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [heracless]: success
+[2024-05-14 10:25:21] INFO root fetch - processPackages [django-payments-payu]: Remove: archive file [/home/abi/fetcher/tmp/django-payments-payu-1.3.1.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - processPackages [django-payments-payu]: Remove: archive file [/home/abi/fetcher/tmp/django-payments-payu-1.4.0.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [django-payments-payu]: success
+[2024-05-14 10:25:21] INFO root fetch - processPackages [crowdin-api-client]: Remove: archive file [/home/abi/fetcher/tmp/crowdin-api-client-1.8.0.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - processPackages [crowdin-api-client]: Remove: archive file [/home/abi/fetcher/tmp/crowdin-api-client-1.9.0.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [crowdin-api-client]: success
+[2024-05-14 10:25:21] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.2434.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - processPackages [drex]: Remove: archive file [/home/abi/fetcher/tmp/drex-0.0.244.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [drex]: success
+[2024-05-14 10:25:21] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc3.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc4.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 10:25:21] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-14 10:25:21] INFO root fetch - main [MainThread]: Store serial: [23197964]
