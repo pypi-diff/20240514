@@ -8582,3 +8582,45 @@
 [2024-05-14 05:04:34] INFO root fetch - processPackages [odoo-addon-account-reconcile-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_reconcile_oca-17.0.1.0.1.1-py3-none-any.whl.zip]
 [2024-05-14 05:04:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-reconcile-oca]: success
 [2024-05-14 05:04:34] INFO root fetch - main [MainThread]: Store serial: [23195114]
+[2024-05-14 05:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195114]
+[2024-05-14 05:06:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 05:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GazooResearchUtils
+[2024-05-14 05:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatshow-phy-mod-otfs
+[2024-05-14 05:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cli-FSD
+[2024-05-14 05:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scholarsync
+[2024-05-14 05:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-tools-ai-bnq
+[2024-05-14 05:06:43] INFO root fetch - processPackages [common-tools-ai-bnq]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 05:06:43] WARNING root fetch - processPackages [scholarsync]: Skipping, unable to determine old version
+[2024-05-14 05:06:43] INFO root fetch - main [MainThread]: End processing [scholarsync] error
+[2024-05-14 05:06:43] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/bc/c7/f8284fe2411aa7af12ee08467cb21c9d0c0d7a4cc46822e4b606cac4013a/common-tools-ai-bnq-0.1.5.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [GazooResearchUtils]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-14 05:06:43] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-14 05:06:43] INFO root fetch - processPackages [cli-FSD]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-05-14 05:06:43] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/73/1c/c1539e91ed085c7b0f97c32166997ce0558214bc7e7b986c8399a2ae74de/whatshow_phy_mod_otfs-2.1.8.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [common-tools-ai-bnq]: Downloading https://files.pythonhosted.org/packages/e8/24/2faab990150a115d2225b0d352f9262123782245df19ad1d4f943c3dac96/common-tools-ai-bnq-0.1.6.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/1c/2d/488b111fe2794a07f5f276c7ca2dcdb73e729a8bf99a73474e90542ab851/GazooResearchUtils-1.4.6.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [cli-FSD]: Downloading https://files.pythonhosted.org/packages/2b/e9/c2d26361f72818a601c2f6c5e75b0afce313691844a3ad6cf61c8c76c6e3/cli-FSD-1.0.5.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [common-tools-ai-bnq]: executing diffoscope
+[2024-05-14 05:06:43] INFO root fetch - processPackages [common-tools-ai-bnq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-tools-ai-bnq-0.1.5.tar.gz tmp/common-tools-ai-bnq-0.1.6.tar.gz --markdown 20240514/c/common-tools-ai-bnq/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 05:06:43] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Downloading https://files.pythonhosted.org/packages/c8/14/cec0cbce11fe985cc9cf3c2bedfdacbdd9ab71faf59909f83e5bb6ac22f6/whatshow_phy_mod_otfs-2.1.9.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: executing diffoscope
+[2024-05-14 05:06:43] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whatshow_phy_mod_otfs-2.1.8.tar.gz tmp/whatshow_phy_mod_otfs-2.1.9.tar.gz --markdown 20240514/w/whatshow-phy-mod-otfs/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-14 05:06:43] INFO root fetch - processPackages [GazooResearchUtils]: Downloading https://files.pythonhosted.org/packages/c3/7e/1ba17a610f7b91c6b46e80a0b54b770f33c2047d783bbdbbfddaa7e7f19b/GazooResearchUtils-1.4.7.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [cli-FSD]: Downloading https://files.pythonhosted.org/packages/1f/0b/8d1c80ffdc3d38637b5368b4be143dd49d33e98e6e981b306659fceee398/cli-FSD-1.0.7.tar.gz
+[2024-05-14 05:06:43] INFO root fetch - processPackages [GazooResearchUtils]: executing diffoscope
+[2024-05-14 05:06:43] INFO root fetch - processPackages [GazooResearchUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GazooResearchUtils-1.4.6.tar.gz tmp/GazooResearchUtils-1.4.7.tar.gz --markdown 20240514/G/GazooResearchUtils/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-14 05:06:44] INFO root fetch - processPackages [cli-FSD]: executing diffoscope
+[2024-05-14 05:06:44] INFO root fetch - processPackages [cli-FSD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli-FSD-1.0.5.tar.gz tmp/cli-FSD-1.0.7.tar.gz --markdown 20240514/c/cli-FSD/1.0.5-1.0.7/README.md --exclude *.pyd
+[2024-05-14 05:06:44] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.5.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - processPackages [common-tools-ai-bnq]: Remove: archive file [/home/abi/fetcher/tmp/common-tools-ai-bnq-0.1.6.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - main [MainThread]: End processing [common-tools-ai-bnq]: success
+[2024-05-14 05:06:44] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.8.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - processPackages [whatshow-phy-mod-otfs]: Remove: archive file [/home/abi/fetcher/tmp/whatshow_phy_mod_otfs-2.1.9.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - main [MainThread]: End processing [whatshow-phy-mod-otfs]: success
+[2024-05-14 05:06:44] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.4.6.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - processPackages [GazooResearchUtils]: Remove: archive file [/home/abi/fetcher/tmp/GazooResearchUtils-1.4.7.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - main [MainThread]: End processing [GazooResearchUtils]: success
+[2024-05-14 05:06:44] INFO root fetch - processPackages [cli-FSD]: Remove: archive file [/home/abi/fetcher/tmp/cli-FSD-1.0.5.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - processPackages [cli-FSD]: Remove: archive file [/home/abi/fetcher/tmp/cli-FSD-1.0.7.tar.gz]
+[2024-05-14 05:06:44] INFO root fetch - main [MainThread]: End processing [cli-FSD]: success
+[2024-05-14 05:06:44] INFO root fetch - main [MainThread]: Store serial: [23195129]
