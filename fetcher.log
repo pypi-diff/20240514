@@ -18674,3 +18674,33 @@
 [2024-05-14 12:18:40] INFO root fetch - processPackages [cityseer]: Remove: archive file [/home/abi/fetcher/tmp/cityseer-4.9.0.tar.gz]
 [2024-05-14 12:18:40] INFO root fetch - main [MainThread]: End processing [cityseer]: success
 [2024-05-14 12:18:40] INFO root fetch - main [MainThread]: Store serial: [23199396]
+[2024-05-14 12:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199396]
+[2024-05-14 12:20:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 12:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fab-react-toolkit
+[2024-05-14 12:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu
+[2024-05-14 12:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blueshed-gust
+[2024-05-14 12:20:51] INFO root fetch - processPackages [blueshed-gust]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:20:51] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc8] Old Version: [0.9.9rc7]
+[2024-05-14 12:20:51] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 12:20:51] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/cc/5b/ec81a25eaf1f23e72a2ea437a084b63fb85fa090265df5266db0334191b6/tsugu-0.9.9rc7.tar.gz
+[2024-05-14 12:20:51] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/eb/37/bcf532a46cff56d9f025b5be989824ac0a11fa2b0e101faf1b4f987d7ed7/blueshed_gust-0.0.8.tar.gz
+[2024-05-14 12:20:51] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/7f/06/7310e1048443276b159139981db143095c5509c7c819279d03d34523f171/fab_react_toolkit-0.4.8.tar.gz
+[2024-05-14 12:20:51] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/3a/13/6139944cfe252d5c019a26f51cec49aa4ab161028e15d93adc875c9ca056/tsugu-0.9.9rc8.tar.gz
+[2024-05-14 12:20:51] INFO root fetch - processPackages [blueshed-gust]: Downloading https://files.pythonhosted.org/packages/bb/c8/5d4c62dd10b82fd6451062263767b4a0796cdb7eb5547c17515cfaa18eff/blueshed_gust-0.0.9.tar.gz
+[2024-05-14 12:20:51] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 12:20:51] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc7.tar.gz tmp/tsugu-0.9.9rc8.tar.gz --markdown 20240514/t/tsugu/0.9.9rc7-0.9.9rc8/README.md --exclude *.pyd
+[2024-05-14 12:20:51] INFO root fetch - processPackages [blueshed-gust]: executing diffoscope
+[2024-05-14 12:20:51] INFO root fetch - processPackages [blueshed-gust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueshed_gust-0.0.8.tar.gz tmp/blueshed_gust-0.0.9.tar.gz --markdown 20240514/b/blueshed-gust/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:20:51] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/bf/b5/6afe085c039a3c9753ae526c75241b24a6f5694dd0dc5c38b83815e16777/fab_react_toolkit-0.4.9.tar.gz
+[2024-05-14 12:20:51] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-05-14 12:20:51] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.8.tar.gz tmp/fab_react_toolkit-0.4.9.tar.gz --markdown 20240514/f/fab-react-toolkit/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 12:20:52] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.8.tar.gz]
+[2024-05-14 12:20:52] INFO root fetch - processPackages [blueshed-gust]: Remove: archive file [/home/abi/fetcher/tmp/blueshed_gust-0.0.9.tar.gz]
+[2024-05-14 12:20:52] INFO root fetch - main [MainThread]: End processing [blueshed-gust]: success
+[2024-05-14 12:20:52] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc7.tar.gz]
+[2024-05-14 12:20:52] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc8.tar.gz]
+[2024-05-14 12:20:52] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 12:20:52] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.8.tar.gz]
+[2024-05-14 12:20:52] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.9.tar.gz]
+[2024-05-14 12:20:52] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-05-14 12:20:52] INFO root fetch - main [MainThread]: Store serial: [23199421]
