@@ -13969,3 +13969,51 @@
 [2024-05-14 09:47:51] INFO root fetch - processPackages [tsfpga]: Remove: archive file [/home/abi/fetcher/tmp/tsfpga-9.0.0.tar.gz]
 [2024-05-14 09:47:51] INFO root fetch - main [MainThread]: End processing [tsfpga]: success
 [2024-05-14 09:47:51] INFO root fetch - main [MainThread]: Store serial: [23197381]
+[2024-05-14 09:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197381]
+[2024-05-14 09:50:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 09:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phidata
+[2024-05-14 09:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ava-llm
+[2024-05-14 09:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbluemind5
+[2024-05-14 09:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctrip-app-ui
+[2024-05-14 09:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testcontainers
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ava-llm]: New version: [0.0.23] Old Version: [0.0.22]
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ctrip-app-ui]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-14 09:50:03] INFO root fetch - processPackages [phidata]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-05-14 09:50:03] INFO root fetch - processPackages [testcontainers]: New version: [4.4.1] Old Version: [4.4.0]
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/76/03/d8b0186778019b369eaae87c1f93226da289ee705d13f7a7b749ce9ac73f/ctrip-app-ui-0.4.3.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [netbluemind5]: New version: [5.0.7397] Old Version: [5.0.7317]
+[2024-05-14 09:50:03] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/78/84/519dcf54fd7bbefb74d36942c96d2b2c90e94417a73c1a146a1dab7fb851/phidata-2.4.6.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ava-llm]: Downloading https://files.pythonhosted.org/packages/c2/d1/63771856a56db9b599d18e7df845d3ef85647ff24058bf9d4cc683b28cf0/ava_llm-0.0.22.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/96/3f/0ece1a2d55835771777d5899b3a51c301703f0e4ea2003dd4ebe7714e313/testcontainers-4.4.0.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/f0/9b/412455f67d8f6899d1859e3d0f7d2f9bcb8ebafc69b4c40bb62210afbd85/netbluemind5-5.0.7317.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ctrip-app-ui]: Downloading https://files.pythonhosted.org/packages/84/6b/75940e5744e4bf127c053569e180cee0bc24ccd96b25cefff036a1491c40/ctrip-app-ui-0.4.4.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ava-llm]: Downloading https://files.pythonhosted.org/packages/3d/b3/9411dd21e16c3a3ed3bdec9bd43d5bb71e92361034783bf6b37ba3e116d7/ava_llm-0.0.23.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/2c/35/a59f15b569572e9d23146e8b4e9c3dfc3eebaf66dd43837adbaa411472cc/phidata-2.4.7.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ctrip-app-ui]: executing diffoscope
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ctrip-app-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctrip-app-ui-0.4.3.tar.gz tmp/ctrip-app-ui-0.4.4.tar.gz --markdown 20240514/c/ctrip-app-ui/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-14 09:50:03] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/0f/2a/1945ad70f5a534d8eb32646f889c3a9ee055b0ca91a85067e8401a678bf7/testcontainers-4.4.1.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ava-llm]: executing diffoscope
+[2024-05-14 09:50:03] INFO root fetch - processPackages [ava-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ava_llm-0.0.22.tar.gz tmp/ava_llm-0.0.23.tar.gz --markdown 20240514/a/ava-llm/0.0.22-0.0.23/README.md --exclude *.pyd
+[2024-05-14 09:50:03] INFO root fetch - processPackages [testcontainers]: executing diffoscope
+[2024-05-14 09:50:03] INFO root fetch - processPackages [testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcontainers-4.4.0.tar.gz tmp/testcontainers-4.4.1.tar.gz --markdown 20240514/t/testcontainers/4.4.0-4.4.1/README.md --exclude *.pyd
+[2024-05-14 09:50:03] INFO root fetch - processPackages [netbluemind5]: Downloading https://files.pythonhosted.org/packages/56/dd/48ba53658e1fd3ee109f675d94ea782d3befc38b58524b5ac87c700d9937/netbluemind5-5.0.7397.tar.gz
+[2024-05-14 09:50:03] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-14 09:50:03] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.6.tar.gz tmp/phidata-2.4.7.tar.gz --markdown 20240514/p/phidata/2.4.6-2.4.7/README.md --exclude *.pyd
+[2024-05-14 09:50:03] INFO root fetch - processPackages [netbluemind5]: executing diffoscope
+[2024-05-14 09:50:03] INFO root fetch - processPackages [netbluemind5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbluemind5-5.0.7317.tar.gz tmp/netbluemind5-5.0.7397.tar.gz --markdown 20240514/n/netbluemind5/5.0.7317-5.0.7397/README.md --exclude *.pyd
+[2024-05-14 09:50:04] INFO root fetch - processPackages [ava-llm]: Remove: archive file [/home/abi/fetcher/tmp/ava_llm-0.0.22.tar.gz]
+[2024-05-14 09:50:04] INFO root fetch - processPackages [ava-llm]: Remove: archive file [/home/abi/fetcher/tmp/ava_llm-0.0.23.tar.gz]
+[2024-05-14 09:50:04] INFO root fetch - main [MainThread]: End processing [ava-llm]: success
+[2024-05-14 09:50:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.4.3.tar.gz]
+[2024-05-14 09:50:04] INFO root fetch - processPackages [ctrip-app-ui]: Remove: archive file [/home/abi/fetcher/tmp/ctrip-app-ui-0.4.4.tar.gz]
+[2024-05-14 09:50:04] INFO root fetch - main [MainThread]: End processing [ctrip-app-ui]: success
+[2024-05-14 09:50:04] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.4.0.tar.gz]
+[2024-05-14 09:50:04] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.4.1.tar.gz]
+[2024-05-14 09:50:04] INFO root fetch - main [MainThread]: End processing [testcontainers]: success
+[2024-05-14 09:50:05] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.6.tar.gz]
+[2024-05-14 09:50:05] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.7.tar.gz]
+[2024-05-14 09:50:05] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-14 09:50:06] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7317.tar.gz]
+[2024-05-14 09:50:06] INFO root fetch - processPackages [netbluemind5]: Remove: archive file [/home/abi/fetcher/tmp/netbluemind5-5.0.7397.tar.gz]
+[2024-05-14 09:50:06] INFO root fetch - main [MainThread]: End processing [netbluemind5]: success
+[2024-05-14 09:50:06] INFO root fetch - main [MainThread]: Store serial: [23197398]
