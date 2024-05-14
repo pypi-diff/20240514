@@ -7836,3 +7836,26 @@
 [2024-05-14 04:02:46] INFO root fetch - processPackages [ujson]: Remove: archive file [/home/abi/fetcher/tmp/ujson-5.9.0.tar.gz]
 [2024-05-14 04:02:46] INFO root fetch - main [MainThread]: End processing [ujson]: success
 [2024-05-14 04:02:46] INFO root fetch - main [MainThread]: Store serial: [23194843]
+[2024-05-14 04:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194843]
+[2024-05-14 04:04:54] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-14 04:06:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194843]
+[2024-05-14 04:07:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libbs
+[2024-05-14 04:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbopenapi
+[2024-05-14 04:07:00] INFO root fetch - processPackages [dbopenapi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 04:07:00] INFO root fetch - processPackages [dbopenapi]: Downloading https://files.pythonhosted.org/packages/b1/5c/16d6c62700c3e6057d57c09d31db10281faa024ff8df76acd3b232846cdf/dbopenapi-0.0.2.tar.gz
+[2024-05-14 04:07:00] INFO root fetch - processPackages [libbs]: New version: [1.3.1] Old Version: [1.2.7]
+[2024-05-14 04:07:00] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/09/27/a027bc94a3b458aefe913a09ac6da2c5e9a4984a21dfa810412c4debad70/libbs-1.2.7.tar.gz
+[2024-05-14 04:07:00] INFO root fetch - processPackages [dbopenapi]: Downloading https://files.pythonhosted.org/packages/8c/4c/b679e391fe197a073a76363eb46cd32ec1949275cff2fc579f72d58d4ce4/dbopenapi-0.0.3.tar.gz
+[2024-05-14 04:07:00] INFO root fetch - processPackages [dbopenapi]: executing diffoscope
+[2024-05-14 04:07:00] INFO root fetch - processPackages [dbopenapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbopenapi-0.0.2.tar.gz tmp/dbopenapi-0.0.3.tar.gz --markdown 20240514/d/dbopenapi/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 04:07:00] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/e1/38/5c35f077a71f563162dde49120fe85b80c20c0a191e35907c1579fac52f2/libbs-1.3.1.tar.gz
+[2024-05-14 04:07:01] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-05-14 04:07:01] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.2.7.tar.gz tmp/libbs-1.3.1.tar.gz --markdown 20240514/l/libbs/1.2.7-1.3.1/README.md --exclude *.pyd
+[2024-05-14 04:07:01] INFO root fetch - processPackages [dbopenapi]: Remove: archive file [/home/abi/fetcher/tmp/dbopenapi-0.0.2.tar.gz]
+[2024-05-14 04:07:01] INFO root fetch - processPackages [dbopenapi]: Remove: archive file [/home/abi/fetcher/tmp/dbopenapi-0.0.3.tar.gz]
+[2024-05-14 04:07:01] INFO root fetch - main [MainThread]: End processing [dbopenapi]: success
+[2024-05-14 04:07:01] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.7.tar.gz]
+[2024-05-14 04:07:01] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.3.1.tar.gz]
+[2024-05-14 04:07:01] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-05-14 04:07:01] INFO root fetch - main [MainThread]: Store serial: [23194849]
