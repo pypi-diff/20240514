@@ -22918,3 +22918,83 @@
 [2024-05-14 14:54:37] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.11.tar.gz]
 [2024-05-14 14:54:37] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-05-14 14:54:37] INFO root fetch - main [MainThread]: Store serial: [23201241]
+[2024-05-14 14:56:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201241]
+[2024-05-14 14:56:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s3-radar
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prodmatic
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: visualpython
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinx-click
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fab-react-toolkit
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deltafi
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrt-lib-rasmusklitgaard
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: funcnodes
+[2024-05-14 14:56:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SimpleSchemaGenerator
+[2024-05-14 14:56:48] INFO root fetch - processPackages [s3-radar]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [SimpleSchemaGenerator]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [sphinx-click]: New version: [5.2.2] Old Version: [5.2.0]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [funcnodes]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [deltafi]: New version: [2.0rc1715691282958] Old Version: [2.0rc1714076410617]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [s3-radar]: Downloading https://files.pythonhosted.org/packages/6b/f5/496033d4e0336c4e9c35c1ca25083b19717bfb3348cfeb3d9ef0b3f05c5a/s3_radar-0.1.3.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [sphinx-click]: Downloading https://files.pythonhosted.org/packages/3e/ef/ae751e476afa0ebd423f338f8235c1323457409c1abb1c3465fa4b3cd79d/sphinx_click-5.2.0.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [prodmatic]: New version: [2024.5.14] Old Version: [2024.5.10]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [SimpleSchemaGenerator]: Downloading https://files.pythonhosted.org/packages/51/8b/474de22c9227aeab0f5540bafa7ede7c9b2b6977d094d67bec6b90e1bee4/SimpleSchemaGenerator-0.7.0-py3-none-any.whl
+[2024-05-14 14:56:48] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [visualpython]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-05-14 14:56:48] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/e0/14/ae53bf0c52d3e33a4385fa9fce7989993f22e79ef5538153cfa914d3cd8e/funcnodes-0.2.6.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/7f/06/7310e1048443276b159139981db143095c5509c7c819279d03d34523f171/fab_react_toolkit-0.4.8.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/16/04/ef9c355cb0ee7cbc4585b37b3b0124d0558d208678d73aea612e9a6c5c13/deltafi-2.0rc1714076410617.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [prodmatic]: Downloading https://files.pythonhosted.org/packages/b5/3e/828b48bad9ff6a17655583aa8160a3526179219d5a4f368e03967c8f6397/prodmatic-2024.5.10.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/8a/62/7852d3068e24194da2e1630e4138973790765b5459f93cc96df7581eb8ac/pyrt_lib_rasmusklitgaard-0.4.2.tar.gz
+[2024-05-14 14:56:48] INFO root fetch - processPackages [visualpython]: Downloading https://files.pythonhosted.org/packages/3f/d6/83e39b8110d404f10334d92789b9a5fb79b70e30fefc454af1236f0ee080/visualpython-3.0.1.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [sphinx-click]: Downloading https://files.pythonhosted.org/packages/17/43/0d3989c243ba02d9562a969468d58fd668f1d2fa6d17d4bdffafb0d04229/sphinx_click-5.2.2.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/bf/b5/6afe085c039a3c9753ae526c75241b24a6f5694dd0dc5c38b83815e16777/fab_react_toolkit-0.4.9.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [s3-radar]: Downloading https://files.pythonhosted.org/packages/eb/1e/ed9f6b4b25bc7023297b93ac915aad44ff75717d290d9e04fd52c6f63f0a/s3_radar-0.1.4.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [SimpleSchemaGenerator]: Downloading https://files.pythonhosted.org/packages/1b/f2/66584c25e21fe4c3e4555582b4af66c8fcaae81f7c5128b69ea68fccf888/SimpleSchemaGenerator-0.7.1-py3-none-any.whl
+[2024-05-14 14:56:49] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/b2/69/7e3e781a525c68474296f775934d8208afa40e6cabfe8290a848c3f579c0/funcnodes-0.2.7.tar.gz
+[2024-05-14 14:56:49] WARNING root fetch - processPackages [visualpython]: Skipping package: exceeds size limit 14952677>=10485760
+[2024-05-14 14:56:49] INFO root fetch - main [MainThread]: End processing [visualpython] error
+[2024-05-14 14:56:49] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab_react_toolkit-0.4.8.tar.gz tmp/fab_react_toolkit-0.4.9.tar.gz --markdown 20240514/f/fab-react-toolkit/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [deltafi]: Downloading https://files.pythonhosted.org/packages/37/25/155e118aafea2ec3eccffe57bb14ce8398e3d20e5474f5c9a5b7305af32a/deltafi-2.0rc1715691282958.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [s3-radar]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [s3-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s3_radar-0.1.3.tar.gz tmp/s3_radar-0.1.4.tar.gz --markdown 20240514/s/s3-radar/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [sphinx-click]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [sphinx-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_click-5.2.0.tar.gz tmp/sphinx_click-5.2.2.tar.gz --markdown 20240514/s/sphinx-click/5.2.0-5.2.2/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [SimpleSchemaGenerator]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [SimpleSchemaGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleSchemaGenerator-0.7.0-py3-none-any.whl.zip tmp/SimpleSchemaGenerator-0.7.1-py3-none-any.whl.zip --markdown 20240514/S/SimpleSchemaGenerator/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [prodmatic]: Downloading https://files.pythonhosted.org/packages/0c/97/2d44b7b8fec890d1a1b1be9622ff4d42dc12fcc33b9c0ad94f1b7f2d46b1/prodmatic-2024.5.14.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Downloading https://files.pythonhosted.org/packages/71/f2/2dd2ae1491ed6ee667f3e88c7e562edbd805042bf1517c767f7f842649ec/pyrt_lib_rasmusklitgaard-0.4.3.tar.gz
+[2024-05-14 14:56:49] INFO root fetch - processPackages [deltafi]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [deltafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltafi-2.0rc1714076410617.tar.gz tmp/deltafi-2.0rc1715691282958.tar.gz --markdown 20240514/d/deltafi/2.0rc1714076410617-2.0rc1715691282958/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.6.tar.gz tmp/funcnodes-0.2.7.tar.gz --markdown 20240514/f/funcnodes/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [prodmatic]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [prodmatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodmatic-2024.5.10.tar.gz tmp/prodmatic-2024.5.14.tar.gz --markdown 20240514/p/prodmatic/2024.5.10-2024.5.14/README.md --exclude *.pyd
+[2024-05-14 14:56:49] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: executing diffoscope
+[2024-05-14 14:56:49] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrt_lib_rasmusklitgaard-0.4.2.tar.gz tmp/pyrt_lib_rasmusklitgaard-0.4.3.tar.gz --markdown 20240514/p/pyrt-lib-rasmusklitgaard/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-05-14 14:56:50] INFO root fetch - processPackages [s3-radar]: Remove: archive file [/home/abi/fetcher/tmp/s3_radar-0.1.3.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [s3-radar]: Remove: archive file [/home/abi/fetcher/tmp/s3_radar-0.1.4.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [s3-radar]: success
+[2024-05-14 14:56:50] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.8.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab_react_toolkit-0.4.9.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-05-14 14:56:50] INFO root fetch - processPackages [SimpleSchemaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSchemaGenerator-0.7.0-py3-none-any.whl.zip]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [SimpleSchemaGenerator]: Remove: archive file [/home/abi/fetcher/tmp/SimpleSchemaGenerator-0.7.1-py3-none-any.whl.zip]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [SimpleSchemaGenerator]: success
+[2024-05-14 14:56:50] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-2.0rc1714076410617.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [deltafi]: Remove: archive file [/home/abi/fetcher/tmp/deltafi-2.0rc1715691282958.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [deltafi]: success
+[2024-05-14 14:56:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.2.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [pyrt-lib-rasmusklitgaard]: Remove: archive file [/home/abi/fetcher/tmp/pyrt_lib_rasmusklitgaard-0.4.3.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [pyrt-lib-rasmusklitgaard]: success
+[2024-05-14 14:56:50] INFO root fetch - processPackages [prodmatic]: Remove: archive file [/home/abi/fetcher/tmp/prodmatic-2024.5.10.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [prodmatic]: Remove: archive file [/home/abi/fetcher/tmp/prodmatic-2024.5.14.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [prodmatic]: success
+[2024-05-14 14:56:50] INFO root fetch - processPackages [sphinx-click]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_click-5.2.0.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - processPackages [sphinx-click]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_click-5.2.2.tar.gz]
+[2024-05-14 14:56:50] INFO root fetch - main [MainThread]: End processing [sphinx-click]: success
+[2024-05-14 14:57:30] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.6.tar.gz]
+[2024-05-14 14:57:30] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.7.tar.gz]
+[2024-05-14 14:57:30] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-14 14:57:30] INFO root fetch - main [MainThread]: Store serial: [23201282]
