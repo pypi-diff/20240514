@@ -16131,3 +16131,48 @@
 [2024-05-14 10:57:19] INFO root fetch - processPackages [dao-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/dao-analyzer-1.2.8.dev7.tar.gz]
 [2024-05-14 10:57:19] INFO root fetch - main [MainThread]: End processing [dao-analyzer]: success
 [2024-05-14 10:57:19] INFO root fetch - main [MainThread]: Store serial: [23198362]
+[2024-05-14 10:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198362]
+[2024-05-14 10:59:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpf-and-cnpj-generator
+[2024-05-14 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: omegi-python-instrumentation
+[2024-05-14 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-structure-demos-hans
+[2024-05-14 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuksa-client
+[2024-05-14 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: common-hms-library
+[2024-05-14 10:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-admin-assets
+[2024-05-14 10:59:35] INFO root fetch - processPackages [omegi-python-instrumentation]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 10:59:35] INFO root fetch - processPackages [kuksa-client]: New version: [0.4.3a2] Old Version: [0.4.3a1]
+[2024-05-14 10:59:35] WARNING root fetch - processPackages [common-hms-library]: Skipping, unable to determine old version
+[2024-05-14 10:59:35] INFO root fetch - main [MainThread]: End processing [common-hms-library] error
+[2024-05-14 10:59:35] WARNING root fetch - processPackages [data-structure-demos-hans]: Skipping, unable to determine old version
+[2024-05-14 10:59:35] INFO root fetch - main [MainThread]: End processing [data-structure-demos-hans] error
+[2024-05-14 10:59:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: New version: [0.0.0.1] Old Version: [0.0.0]
+[2024-05-14 10:59:35] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/d7/dc/4f947d95a0890099da8fe3617bda4ef93f9358b7bdfadc93f957d5b03470/omegi-python-instrumentation-0.1.3.tar.gz
+[2024-05-14 10:59:35] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1540] Old Version: [1.0.0.post1539]
+[2024-05-14 10:59:35] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/70/6a/df0af7567ec5ec9cebe02a48de594645ed19bcfe9388106df69ba89cba5d/kuksa_client-0.4.3a1.tar.gz
+[2024-05-14 10:59:35] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/56/32/46cd78dca775f19ed2255359f0e51a968d50b495f0f776b24db1032afd66/nucliadb_admin_assets-1.0.0.post1539-py3-none-any.whl
+[2024-05-14 10:59:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Downloading https://files.pythonhosted.org/packages/51/e2/5ebf3aa68cd501e6f46da2fa5ff91e0a91df8fc727bef5a44c6cc47262c8/cpf_and_cnpj_generator-0.0.0.tar.gz
+[2024-05-14 10:59:35] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/60/b9/3983c0c8fe2b856ee11613e4d1b3e98bd14b0a14c075bce8afbedcc04aaf/kuksa_client-0.4.3a2.tar.gz
+[2024-05-14 10:59:35] INFO root fetch - processPackages [omegi-python-instrumentation]: Downloading https://files.pythonhosted.org/packages/53/00/099b57fe6b6c58deb68d106890ab7cac63167ee1b7e6bfcb951bbea63a07/omegi-python-instrumentation-0.1.4.tar.gz
+[2024-05-14 10:59:35] INFO root fetch - processPackages [kuksa-client]: executing diffoscope
+[2024-05-14 10:59:35] INFO root fetch - processPackages [kuksa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuksa_client-0.4.3a1.tar.gz tmp/kuksa_client-0.4.3a2.tar.gz --markdown 20240514/k/kuksa-client/0.4.3a1-0.4.3a2/README.md --exclude *.pyd
+[2024-05-14 10:59:35] INFO root fetch - processPackages [omegi-python-instrumentation]: executing diffoscope
+[2024-05-14 10:59:35] INFO root fetch - processPackages [omegi-python-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omegi-python-instrumentation-0.1.3.tar.gz tmp/omegi-python-instrumentation-0.1.4.tar.gz --markdown 20240514/o/omegi-python-instrumentation/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 10:59:35] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Downloading https://files.pythonhosted.org/packages/26/ba/2c1c483ad47d2d61a5f0459bff7276cd4f2b63dd3870734562a904392077/cpf_and_cnpj_generator-0.0.0.1.tar.gz
+[2024-05-14 10:59:35] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/2d/94/9d0f45e8f6db58963577b7a1dea24c7db853e5d1bbe01f6790f4823291fb/nucliadb_admin_assets-1.0.0.post1540-py3-none-any.whl
+[2024-05-14 10:59:36] INFO root fetch - processPackages [cpf-and-cnpj-generator]: executing diffoscope
+[2024-05-14 10:59:36] INFO root fetch - processPackages [cpf-and-cnpj-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpf_and_cnpj_generator-0.0.0.tar.gz tmp/cpf_and_cnpj_generator-0.0.0.1.tar.gz --markdown 20240514/c/cpf-and-cnpj-generator/0.0.0-0.0.0.1/README.md --exclude *.pyd
+[2024-05-14 10:59:36] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-05-14 10:59:36] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1539-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1540-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-admin-assets/1.0.0.post1539-1.0.0.post1540/README.md --exclude *.pyd
+[2024-05-14 10:59:36] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.3.tar.gz]
+[2024-05-14 10:59:36] INFO root fetch - processPackages [omegi-python-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/omegi-python-instrumentation-0.1.4.tar.gz]
+[2024-05-14 10:59:36] INFO root fetch - main [MainThread]: End processing [omegi-python-instrumentation]: success
+[2024-05-14 10:59:36] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Remove: archive file [/home/abi/fetcher/tmp/cpf_and_cnpj_generator-0.0.0.tar.gz]
+[2024-05-14 10:59:36] INFO root fetch - processPackages [cpf-and-cnpj-generator]: Remove: archive file [/home/abi/fetcher/tmp/cpf_and_cnpj_generator-0.0.0.1.tar.gz]
+[2024-05-14 10:59:36] INFO root fetch - main [MainThread]: End processing [cpf-and-cnpj-generator]: success
+[2024-05-14 10:59:36] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.3a1.tar.gz]
+[2024-05-14 10:59:36] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.3a2.tar.gz]
+[2024-05-14 10:59:36] INFO root fetch - main [MainThread]: End processing [kuksa-client]: success
+[2024-05-14 10:59:50] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1539-py3-none-any.whl.zip]
+[2024-05-14 10:59:50] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1540-py3-none-any.whl.zip]
+[2024-05-14 10:59:50] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-05-14 10:59:50] INFO root fetch - main [MainThread]: Store serial: [23198389]
