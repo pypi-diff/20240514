@@ -23413,3 +23413,141 @@
 [2024-05-14 15:15:44] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.5.9-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-05-14 15:15:44] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-05-14 15:15:44] INFO root fetch - main [MainThread]: Store serial: [23201493]
+[2024-05-14 15:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201493]
+[2024-05-14 15:18:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linien-client
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: linien-gui
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libvirt-provider
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steam-sdk
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zepben.protobuf
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speechmatics-python
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: motile-toolbox
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: malpolon
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: conf-root
+[2024-05-14 15:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mmo-tools
+[2024-05-14 15:18:00] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-05-14 15:18:00] INFO root fetch - processPackages [libvirt-provider]: New version: [0.0.0a6] Old Version: [0.0.0a3]
+[2024-05-14 15:18:01] WARNING root fetch - processPackages [motile-toolbox]: Skipping, unable to determine old version
+[2024-05-14 15:18:01] INFO root fetch - processPackages [motile-toolbox]: Start processing: dh-potluck
+[2024-05-14 15:18:01] INFO root fetch - main [MainThread]: End processing [motile-toolbox] error
+[2024-05-14 15:18:01] INFO root fetch - processPackages [speechmatics-python]: New version: [1.9.0] Old Version: [1.8.4]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-gui]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [conf-root]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [malpolon]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [mmo-tools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-client]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-05-14 15:18:01] INFO root fetch - processPackages [steam-sdk]: New version: [2024.5.4] Old Version: [2024.5.3]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/08/63/5e58b7e080d2a0905b31150b584d70a046a561e41eddc9332d2dcbb8e03c/linien_gui-2.0.1.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [libvirt-provider]: Downloading https://files.pythonhosted.org/packages/12/f5/15eb97b114e4f743293330908fdc8d20f7b39d47f73f93a25b0bfd58426c/libvirt_provider-0.0.0a3.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [dh-potluck]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-14 15:18:01] INFO root fetch - processPackages [malpolon]: Downloading https://files.pythonhosted.org/packages/a2/a2/635e1a9aa9b5038f04ceb57140e2b0ac5f5707a013423e700bd9d1b4fa23/malpolon-1.0.3.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/55/b9/7d01ef19ae6ec79d4e8367e3f4f00ca8a5aaee67c361e6692eb3c625712b/linien_client-2.0.1.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [speechmatics-python]: Downloading https://files.pythonhosted.org/packages/28/8f/df3c4123fec7fa30ede361865129b08b962003f6ce42bc4e68bab6942e97/speechmatics-python-1.8.4.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [mmo-tools]: Downloading https://files.pythonhosted.org/packages/33/8c/d427b881a2bb97434748ec91a99d13a06bce513c6bae305850d12596fd9a/mmo_tools-0.1.6.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [conf-root]: Downloading https://files.pythonhosted.org/packages/b1/8f/cb143dfffed99832621e3ce9da8cec815732e4ed1c5dcb142d63473b8e14/conf_root-0.3.0.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/11/ea/0d8ce3061a251e5b7fcf38385aa25205ef6483d1efa945157550fa05b944/steam-sdk-2024.5.3.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-05-14 15:18:01] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/6c/85/d5529ba47bcfff2278b73467b2003491ff930a8916ec90ab6d347fbd037b/dh-potluck-1.9.0.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-gui]: Downloading https://files.pythonhosted.org/packages/a2/d6/9645af193d50d36d77129347905b7ea2e44046324ca80c20a93d9f710252/linien_gui-2.0.2.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-05-14 15:18:01] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240514/z/zepben.protobuf/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-05-14 15:18:01] INFO root fetch - processPackages [libvirt-provider]: Downloading https://files.pythonhosted.org/packages/8a/fb/08a2bd792f61428972a7e60bce3cf10446b563f315f424af8dee97bb2ce3/libvirt_provider-0.0.0a6.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-client]: Downloading https://files.pythonhosted.org/packages/a7/ad/6faa83f77eadf6c123b640a8ff8621f8aa46636f93d3ad93b07190dc45ff/linien_client-2.0.2.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [speechmatics-python]: Downloading https://files.pythonhosted.org/packages/58/ec/0f0029e84effaacc957be5a79127177f722133664014ee39d376be9c768d/speechmatics-python-1.9.0.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [conf-root]: Downloading https://files.pythonhosted.org/packages/0b/f6/a04bc3a58bda18892323420e9c72f50f8514af1593b42ffb6f10c92b2749/conf_root-0.3.1.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [mmo-tools]: Downloading https://files.pythonhosted.org/packages/3a/10/e644dd3b762f04974635c05e627a8ad87ba68de129a4662f60902da8937b/mmo_tools-0.1.7.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [malpolon]: Downloading https://files.pythonhosted.org/packages/5a/5c/e13a0e6c1f453bdc43d889f627ab25500971288487bd3b364795d8f7e8dd/malpolon-1.1.0.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/ce/fd/be8fb70588efb73850ef2c02933b3a23d9be7b703e09ff3d59c3c2193410/steam-sdk-2024.5.4.tar.gz
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-gui]: executing diffoscope
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_gui-2.0.1.tar.gz tmp/linien_gui-2.0.2.tar.gz --markdown 20240514/l/linien-gui/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-14 15:18:01] INFO root fetch - processPackages [libvirt-provider]: executing diffoscope
+[2024-05-14 15:18:01] INFO root fetch - processPackages [libvirt-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt_provider-0.0.0a3.tar.gz tmp/libvirt_provider-0.0.0a6.tar.gz --markdown 20240514/l/libvirt-provider/0.0.0a3-0.0.0a6/README.md --exclude *.pyd
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-client]: executing diffoscope
+[2024-05-14 15:18:01] INFO root fetch - processPackages [linien-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linien_client-2.0.1.tar.gz tmp/linien_client-2.0.2.tar.gz --markdown 20240514/l/linien-client/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-14 15:18:01] INFO root fetch - processPackages [mmo-tools]: executing diffoscope
+[2024-05-14 15:18:01] INFO root fetch - processPackages [mmo-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmo_tools-0.1.6.tar.gz tmp/mmo_tools-0.1.7.tar.gz --markdown 20240514/m/mmo-tools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 15:18:01] INFO root fetch - processPackages [conf-root]: executing diffoscope
+[2024-05-14 15:18:01] INFO root fetch - processPackages [conf-root]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf_root-0.3.0.tar.gz tmp/conf_root-0.3.1.tar.gz --markdown 20240514/c/conf-root/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-14 15:18:01] INFO root fetch - processPackages [dh-potluck]: Downloading https://files.pythonhosted.org/packages/5d/ea/c5f6e8c82d824dad4198a98dfb092cefc1dfdd950baaf6168a964441a559/dh-potluck-1.9.1.tar.gz
+[2024-05-14 15:18:02] INFO root fetch - processPackages [malpolon]: executing diffoscope
+[2024-05-14 15:18:02] INFO root fetch - processPackages [malpolon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malpolon-1.0.3.tar.gz tmp/malpolon-1.1.0.tar.gz --markdown 20240514/m/malpolon/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-05-14 15:18:02] INFO root fetch - processPackages [speechmatics-python]: executing diffoscope
+[2024-05-14 15:18:02] INFO root fetch - processPackages [speechmatics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechmatics-python-1.8.4.tar.gz tmp/speechmatics-python-1.9.0.tar.gz --markdown 20240514/s/speechmatics-python/1.8.4-1.9.0/README.md --exclude *.pyd
+[2024-05-14 15:18:02] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2024-05-14 15:18:02] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2024.5.3.tar.gz tmp/steam-sdk-2024.5.4.tar.gz --markdown 20240514/s/steam-sdk/2024.5.3-2024.5.4/README.md --exclude *.pyd
+[2024-05-14 15:18:02] INFO root fetch - processPackages [dh-potluck]: executing diffoscope
+[2024-05-14 15:18:02] INFO root fetch - processPackages [dh-potluck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dh-potluck-1.9.0.tar.gz tmp/dh-potluck-1.9.1.tar.gz --markdown 20240514/d/dh-potluck/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-14 15:18:03] INFO root fetch - processPackages [mmo-tools]: Remove: archive file [/home/abi/fetcher/tmp/mmo_tools-0.1.6.tar.gz]
+[2024-05-14 15:18:03] INFO root fetch - processPackages [mmo-tools]: Remove: archive file [/home/abi/fetcher/tmp/mmo_tools-0.1.7.tar.gz]
+[2024-05-14 15:18:03] INFO root fetch - processPackages [mmo-tools]: Start processing: resolve-robotics-uri-py
+[2024-05-14 15:18:03] INFO root fetch - main [MainThread]: End processing [mmo-tools]: success
+[2024-05-14 15:18:04] INFO root fetch - processPackages [resolve-robotics-uri-py]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.1.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [linien-gui]: Remove: archive file [/home/abi/fetcher/tmp/linien_gui-2.0.2.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [linien-gui]: Start processing: BartePaySDK
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [linien-gui]: success
+[2024-05-14 15:18:04] WARNING root fetch - processPackages [BartePaySDK]: Skipping, unable to determine old version
+[2024-05-14 15:18:04] INFO root fetch - processPackages [BartePaySDK]: Start processing: django-smartbase-admin
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [BartePaySDK] error
+[2024-05-14 15:18:04] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.1.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [linien-client]: Remove: archive file [/home/abi/fetcher/tmp/linien_client-2.0.2.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [linien-client]: Start processing: junifer
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [linien-client]: success
+[2024-05-14 15:18:04] INFO root fetch - processPackages [conf-root]: Remove: archive file [/home/abi/fetcher/tmp/conf_root-0.3.0.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [conf-root]: Remove: archive file [/home/abi/fetcher/tmp/conf_root-0.3.1.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [conf-root]: Start processing: funcnodes
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [conf-root]: success
+[2024-05-14 15:18:04] INFO root fetch - processPackages [libvirt-provider]: Remove: archive file [/home/abi/fetcher/tmp/libvirt_provider-0.0.0a3.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [speechmatics-python]: Remove: archive file [/home/abi/fetcher/tmp/speechmatics-python-1.8.4.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [libvirt-provider]: Remove: archive file [/home/abi/fetcher/tmp/libvirt_provider-0.0.0a6.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [speechmatics-python]: Remove: archive file [/home/abi/fetcher/tmp/speechmatics-python-1.9.0.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [libvirt-provider]: Start processing: bc-korea-vector-map
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [libvirt-provider]: success
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [speechmatics-python]: success
+[2024-05-14 15:18:04] INFO root fetch - processPackages [resolve-robotics-uri-py]: Downloading https://files.pythonhosted.org/packages/e6/aa/977612046faeabee5b2c73bcad198d0f905b3e576ef4433750461813c995/resolve-robotics-uri-py-0.2.0.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [junifer]: New version: [0.0.5.dev62] Old Version: [0.0.5.dev57]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [funcnodes]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-14 15:18:04] WARNING root fetch - processPackages [bc-korea-vector-map]: Skipping, unable to determine old version
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [bc-korea-vector-map] error
+[2024-05-14 15:18:04] INFO root fetch - processPackages [malpolon]: Remove: archive file [/home/abi/fetcher/tmp/malpolon-1.0.3.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [malpolon]: Remove: archive file [/home/abi/fetcher/tmp/malpolon-1.1.0.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [malpolon]: success
+[2024-05-14 15:18:04] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/2b/ab/cc01cdc6e541df8308738bc51e8d44f5c2b460f24dfe3465c71ded0d8036/junifer-0.0.5.dev57.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/b2/69/7e3e781a525c68474296f775934d8208afa40e6cabfe8290a848c3f579c0/funcnodes-0.2.7.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.0.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - processPackages [dh-potluck]: Remove: archive file [/home/abi/fetcher/tmp/dh-potluck-1.9.1.tar.gz]
+[2024-05-14 15:18:04] INFO root fetch - main [MainThread]: End processing [dh-potluck]: success
+[2024-05-14 15:18:04] INFO root fetch - processPackages [resolve-robotics-uri-py]: Downloading https://files.pythonhosted.org/packages/09/fe/3ebe45cb6008cc97b946d87d0b88e32903bc0906ad4f220ba738f7812414/resolve_robotics_uri_py-0.3.0.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/24/90/e663f6860ab2044f57f6a512eb0bea71ee30c26fcabdcb45b407c6068323/junifer-0.0.5.dev62.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/41/e9/f6d85ce69f932d3d49ed6ffd73370a498efcc151703809f4996b1b809ffa/funcnodes-0.2.8.tar.gz
+[2024-05-14 15:18:04] INFO root fetch - processPackages [resolve-robotics-uri-py]: executing diffoscope
+[2024-05-14 15:18:04] INFO root fetch - processPackages [resolve-robotics-uri-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolve-robotics-uri-py-0.2.0.tar.gz tmp/resolve_robotics_uri_py-0.3.0.tar.gz --markdown 20240514/r/resolve-robotics-uri-py/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-14 15:18:05] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-05-14 15:18:05] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-05-14 15:18:05] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-05-14 15:18:05] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-05-14 15:18:05] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.5.dev57.tar.gz tmp/junifer-0.0.5.dev62.tar.gz --markdown 20240514/j/junifer/0.0.5.dev57-0.0.5.dev62/README.md --exclude *.pyd
+[2024-05-14 15:18:05] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-14 15:18:05] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.7.tar.gz tmp/funcnodes-0.2.8.tar.gz --markdown 20240514/f/funcnodes/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-14 15:18:05] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-14 15:18:05] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240514/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-14 15:18:05] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.3.tar.gz]
+[2024-05-14 15:18:05] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2024.5.4.tar.gz]
+[2024-05-14 15:18:05] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2024-05-14 15:18:05] INFO root fetch - processPackages [resolve-robotics-uri-py]: Remove: archive file [/home/abi/fetcher/tmp/resolve-robotics-uri-py-0.2.0.tar.gz]
+[2024-05-14 15:18:05] INFO root fetch - processPackages [resolve-robotics-uri-py]: Remove: archive file [/home/abi/fetcher/tmp/resolve_robotics_uri_py-0.3.0.tar.gz]
+[2024-05-14 15:18:05] INFO root fetch - main [MainThread]: End processing [resolve-robotics-uri-py]: success
+[2024-05-14 15:18:06] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.7.tar.gz]
+[2024-05-14 15:18:06] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.8.tar.gz]
+[2024-05-14 15:18:06] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-14 15:18:07] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev57.tar.gz]
+[2024-05-14 15:18:07] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.5.dev62.tar.gz]
+[2024-05-14 15:18:07] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-05-14 15:18:11] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-14 15:18:11] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-14 15:18:11] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-14 15:18:11] INFO root fetch - main [MainThread]: Store serial: [23201549]
