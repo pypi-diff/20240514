@@ -22998,3 +22998,48 @@
 [2024-05-14 14:57:30] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.7.tar.gz]
 [2024-05-14 14:57:30] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
 [2024-05-14 14:57:30] INFO root fetch - main [MainThread]: Store serial: [23201282]
+[2024-05-14 14:59:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201282]
+[2024-05-14 14:59:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nowcasting-datamodel
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: postmark-template-translate
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ca-vntl-helper
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indexnetwork-sdk
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ClappScrapers
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dify-knowledge-pipline
+[2024-05-14 14:59:39] INFO root fetch - processPackages [indexnetwork-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ca-vntl-helper]: New version: [1.0.2] Old Version: [0.0.2]
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 14:59:39] WARNING root fetch - processPackages [dify-knowledge-pipline]: Skipping, unable to determine old version
+[2024-05-14 14:59:39] WARNING root fetch - processPackages [postmark-template-translate]: Skipping, unable to determine old version
+[2024-05-14 14:59:39] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/7a/d9/ae82f15188d6b01e5c0503eb584a51c00fd0caf2b0aec53a9a01079db267/indexnetwork_sdk-0.0.3.tar.gz
+[2024-05-14 14:59:39] INFO root fetch - main [MainThread]: End processing [dify-knowledge-pipline] error
+[2024-05-14 14:59:39] INFO root fetch - main [MainThread]: End processing [postmark-template-translate] error
+[2024-05-14 14:59:39] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/41/b3/1c9da4c28e149aee130f633a6bf9eeb17b089a57eab1a9de123e9e600d31/ca_vntl_helper-0.0.2.tar.gz
+[2024-05-14 14:59:39] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-14 14:59:39] INFO root fetch - processPackages [indexnetwork-sdk]: Downloading https://files.pythonhosted.org/packages/82/a4/9f81284db4219081c7ea8d55270d90bd058ae77dc33a16449ad1e2294db4/indexnetwork_sdk-0.0.4.tar.gz
+[2024-05-14 14:59:40] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/1c/b1/59a9915375868de28c63c4daecf8fad3f1b17f2e2e195c7e901f0d717ae2/nowcasting_datamodel-1.5.8.tar.gz
+[2024-05-14 14:59:40] INFO root fetch - processPackages [indexnetwork-sdk]: executing diffoscope
+[2024-05-14 14:59:40] INFO root fetch - processPackages [indexnetwork-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnetwork_sdk-0.0.3.tar.gz tmp/indexnetwork_sdk-0.0.4.tar.gz --markdown 20240514/i/indexnetwork-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/94/a5/a70effd4363faf0883b9c433f568e4250ff8b7c781dd6069744a55f19e93/ca_vntl_helper-1.0.2.tar.gz
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-0.0.2.tar.gz tmp/ca_vntl_helper-1.0.2.tar.gz --markdown 20240514/c/ca-vntl-helper/0.0.2-1.0.2/README.md --exclude *.pyd
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240514/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 14:59:40] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/e1/29/2f161e72e5afe3e3a4176debc51596fb16247c07e08d93e9fcba28b2cfba/nowcasting_datamodel-1.5.9.tar.gz
+[2024-05-14 14:59:40] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.3.tar.gz]
+[2024-05-14 14:59:40] INFO root fetch - processPackages [indexnetwork-sdk]: Remove: archive file [/home/abi/fetcher/tmp/indexnetwork_sdk-0.0.4.tar.gz]
+[2024-05-14 14:59:40] INFO root fetch - main [MainThread]: End processing [indexnetwork-sdk]: success
+[2024-05-14 14:59:40] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2024-05-14 14:59:40] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.8.tar.gz tmp/nowcasting_datamodel-1.5.9.tar.gz --markdown 20240514/n/nowcasting-datamodel/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-0.0.2.tar.gz]
+[2024-05-14 14:59:40] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-1.0.2.tar.gz]
+[2024-05-14 14:59:40] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-14 14:59:41] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-14 14:59:41] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-14 14:59:41] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-14 14:59:41] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.8.tar.gz]
+[2024-05-14 14:59:41] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.9.tar.gz]
+[2024-05-14 14:59:41] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2024-05-14 14:59:41] INFO root fetch - main [MainThread]: Store serial: [23201307]
