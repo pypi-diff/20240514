@@ -19843,3 +19843,81 @@
 [2024-05-14 13:00:37] INFO root fetch - processPackages [feems]: Remove: archive file [/home/abi/fetcher/tmp/feems-0.10.7.tar.gz]
 [2024-05-14 13:00:37] INFO root fetch - main [MainThread]: End processing [feems]: success
 [2024-05-14 13:00:37] INFO root fetch - main [MainThread]: Store serial: [23199904]
+[2024-05-14 13:02:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199904]
+[2024-05-14 13:02:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ca-vntl-helper
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dodata
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-contextmenus
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DataExtractorOEG
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PVNet
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stam
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modelmerge
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sortipy
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: digitalhub-ml
+[2024-05-14 13:02:47] INFO root fetch - processPackages [dodata]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ca-vntl-helper]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [modelmerge]: New version: [0.3.8] Old Version: [0.3.7]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/3f/98/b32250b3b514f749a70345bae12913392452b17b38915866b07956c795fc/modelmerge-0.3.7.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/53/67/4b4d3c4c681dcb601f4a223c19f90cffa90e11be6bb0418999bb50b3179f/ca_vntl_helper-0.0.1.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [netbox-contextmenus]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-14 13:02:47] WARNING root fetch - processPackages [sortipy]: Skipping, unable to determine old version
+[2024-05-14 13:02:47] INFO root fetch - main [MainThread]: End processing [sortipy] error
+[2024-05-14 13:02:47] INFO root fetch - processPackages [digitalhub-ml]: New version: [0.4.0b8] Old Version: [0.4.0b4]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/fb/f9/385c316fc3557ae0c6c5eb94b659caad235d4616b871de54562e489d8d72/dataextractoroeg-0.4.9.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [dodata]: Downloading https://files.pythonhosted.org/packages/67/67/39d0e66b6fc73e5ef0b87a078396c1c56c783d7e8342eb4285684531d572/dodata-0.4.9.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [stam]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-14 13:02:47] INFO root fetch - processPackages [netbox-contextmenus]: Downloading https://files.pythonhosted.org/packages/eb/cb/07e29d8dbad12175f70d9ad4b4a59ae5711e50839e4290ed50eab36bf433/netbox_contextmenus-1.4.0.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ca-vntl-helper]: Downloading https://files.pythonhosted.org/packages/41/b3/1c9da4c28e149aee130f633a6bf9eeb17b089a57eab1a9de123e9e600d31/ca_vntl_helper-0.0.2.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/94/17/9950f26b58cfdb5f65eaff0f667a627c17d9b3e18a2700da6b3a203292bf/digitalhub_ml-0.4.0b4.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ca-vntl-helper]: executing diffoscope
+[2024-05-14 13:02:47] INFO root fetch - processPackages [ca-vntl-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ca_vntl_helper-0.0.1.tar.gz tmp/ca_vntl_helper-0.0.2.tar.gz --markdown 20240514/c/ca-vntl-helper/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 13:02:47] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/71/51/c571aacc5c35836319752c66b0b0a53f6ce8fa280473b3f32a98fbee258d/dataextractoroeg-0.5.0.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [stam]: Downloading https://files.pythonhosted.org/packages/55/5f/f0a48f15de3260b2ac4be3caff458501c7b8ef694c75fa49fba210db467e/stam-0.7.0.tar.gz
+[2024-05-14 13:02:47] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/d1/83/796c0a3a9d9c7e27130044d01fddcb3a14e9fa1d5acf42bd0eb33beadae8/modelmerge-0.3.8.tar.gz
+[2024-05-14 13:02:48] INFO root fetch - processPackages [dodata]: Downloading https://files.pythonhosted.org/packages/6c/a0/6899440698aabfe1062859d5718c669fb2fe93fb8ec9771a3097ed89d241/dodata-0.5.0.tar.gz
+[2024-05-14 13:02:48] INFO root fetch - processPackages [netbox-contextmenus]: Downloading https://files.pythonhosted.org/packages/81/d0/da3c0b7bd1247e8103ccf6b69688a8624116859dada6b9e70f1be2cfc7b8/netbox_contextmenus-1.4.1.tar.gz
+[2024-05-14 13:02:48] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-14 13:02:48] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.9.tar.gz tmp/dataextractoroeg-0.5.0.tar.gz --markdown 20240514/D/DataExtractorOEG/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-14 13:02:48] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-14 13:02:48] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.7.tar.gz tmp/modelmerge-0.3.8.tar.gz --markdown 20240514/m/modelmerge/0.3.7-0.3.8/README.md --exclude *.pyd
+[2024-05-14 13:02:48] INFO root fetch - processPackages [netbox-contextmenus]: executing diffoscope
+[2024-05-14 13:02:48] INFO root fetch - processPackages [netbox-contextmenus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_contextmenus-1.4.0.tar.gz tmp/netbox_contextmenus-1.4.1.tar.gz --markdown 20240514/n/netbox-contextmenus/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-14 13:02:48] INFO root fetch - processPackages [digitalhub-ml]: Downloading https://files.pythonhosted.org/packages/cd/32/0809aacb0d06e249bb7c90f7a0bd2d51f60acb5284030ed74935f0f621d1/digitalhub_ml-0.4.0b8.tar.gz
+[2024-05-14 13:02:48] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-05-14 13:02:48] INFO root fetch - processPackages [dodata]: executing diffoscope
+[2024-05-14 13:02:48] INFO root fetch - processPackages [dodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodata-0.4.9.tar.gz tmp/dodata-0.5.0.tar.gz --markdown 20240514/d/dodata/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-14 13:02:48] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-05-14 13:02:48] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240514/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-14 13:02:48] INFO root fetch - processPackages [stam]: Downloading https://files.pythonhosted.org/packages/9f/69/a2a48c530e5420850a8d065f2da1a7ed7f7a10d7fad8625697f4b11c2ebb/stam-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 13:02:48] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-0.0.1.tar.gz]
+[2024-05-14 13:02:48] INFO root fetch - processPackages [ca-vntl-helper]: Remove: archive file [/home/abi/fetcher/tmp/ca_vntl_helper-0.0.2.tar.gz]
+[2024-05-14 13:02:48] INFO root fetch - main [MainThread]: End processing [ca-vntl-helper]: success
+[2024-05-14 13:02:48] INFO root fetch - processPackages [digitalhub-ml]: executing diffoscope
+[2024-05-14 13:02:48] INFO root fetch - processPackages [digitalhub-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_ml-0.4.0b4.tar.gz tmp/digitalhub_ml-0.4.0b8.tar.gz --markdown 20240514/d/digitalhub-ml/0.4.0b4-0.4.0b8/README.md --exclude *.pyd
+[2024-05-14 13:02:48] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.9.tar.gz]
+[2024-05-14 13:02:48] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.5.0.tar.gz]
+[2024-05-14 13:02:48] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-14 13:02:48] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.7.tar.gz]
+[2024-05-14 13:02:48] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.8.tar.gz]
+[2024-05-14 13:02:48] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-14 13:02:49] INFO root fetch - processPackages [netbox-contextmenus]: Remove: archive file [/home/abi/fetcher/tmp/netbox_contextmenus-1.4.0.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - processPackages [netbox-contextmenus]: Remove: archive file [/home/abi/fetcher/tmp/netbox_contextmenus-1.4.1.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - main [MainThread]: End processing [netbox-contextmenus]: success
+[2024-05-14 13:02:49] INFO root fetch - processPackages [stam]: executing diffoscope
+[2024-05-14 13:02:49] INFO root fetch - processPackages [stam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stam-0.7.0.tar.gz tmp/stam-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240514/s/stam/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-14 13:02:49] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-05-14 13:02:49] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b4.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - processPackages [digitalhub-ml]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_ml-0.4.0b8.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - main [MainThread]: End processing [digitalhub-ml]: success
+[2024-05-14 13:02:49] INFO root fetch - processPackages [stam]: Remove: archive file [/home/abi/fetcher/tmp/stam-0.7.0.tar.gz]
+[2024-05-14 13:02:49] INFO root fetch - processPackages [stam]: Remove: archive file [/home/abi/fetcher/tmp/stam-0.8.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-14 13:02:49] INFO root fetch - main [MainThread]: End processing [stam]: success
+[2024-05-14 13:02:50] INFO root fetch - processPackages [dodata]: Remove: archive file [/home/abi/fetcher/tmp/dodata-0.4.9.tar.gz]
+[2024-05-14 13:02:50] INFO root fetch - processPackages [dodata]: Remove: archive file [/home/abi/fetcher/tmp/dodata-0.5.0.tar.gz]
+[2024-05-14 13:02:50] INFO root fetch - main [MainThread]: End processing [dodata]: success
+[2024-05-14 13:02:50] INFO root fetch - main [MainThread]: Store serial: [23199930]
