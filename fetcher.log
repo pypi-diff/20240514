@@ -21433,3 +21433,95 @@
 [2024-05-14 14:00:43] INFO root fetch - processPackages [c4m-pdk-sky130]: Remove: archive file [/home/abi/fetcher/tmp/c4m_pdk_sky130-0.2.2.post2.tar.gz]
 [2024-05-14 14:00:43] INFO root fetch - main [MainThread]: End processing [c4m-pdk-sky130]: success
 [2024-05-14 14:00:43] INFO root fetch - main [MainThread]: Store serial: [23200647]
+[2024-05-14 14:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200647]
+[2024-05-14 14:03:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Scrapy
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyQtUIkit
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: basic-web-server
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkscreener
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-contour
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbp-sdk
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymodaq-plugins-signal-recovery
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ckanext-nhm
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: delphai-utils
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: translate-util
+[2024-05-14 14:03:03] INFO root fetch - processPackages [torch-contour]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [basic-web-server]: New version: [0.2] Old Version: [0.1]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240514.371] Old Version: [0.44.20240513.370]
+[2024-05-14 14:03:03] WARNING root fetch - processPackages [pymodaq-plugins-signal-recovery]: Skipping, unable to determine old version
+[2024-05-14 14:03:03] INFO root fetch - processPackages [pymodaq-plugins-signal-recovery]: Start processing: teo
+[2024-05-14 14:03:03] INFO root fetch - main [MainThread]: End processing [pymodaq-plugins-signal-recovery] error
+[2024-05-14 14:03:03] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/55/73/1c695bb8dddbe0c81e814b47e47531bd70b8199c14bf9daf6eb3d400d30e/torch_contour-0.0.4.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ckanext-nhm]: New version: [6.7.1] Old Version: [6.7.0]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/d8/70/196238a26b6ddf5d3c0962f500f0e5191541134e412f17f56a4c3f1f8974/pkscreener-0.44.20240513.370.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [nbp-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [translate-util]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.9.4] Old Version: [2.9.3]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [Scrapy]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [teo]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [delphai-utils]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-14 14:03:03] INFO root fetch - processPackages [basic-web-server]: Downloading https://files.pythonhosted.org/packages/06/04/09b492b13e8e195da7f62da7c1c29f955a8e18109f393b0c7c3e2857d889/basic_web_server-0.1.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/40/1a/d636b21100f68befaa91e3dd0d846e5abf0684098e10dbc217b3ffaa8390/PyQtUIkit-2.9.3.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [Scrapy]: Downloading https://files.pythonhosted.org/packages/a2/e0/b003accc4146ceae36d400486434890db3c453505de5b8298ac2af529232/Scrapy-2.8.0.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [nbp-sdk]: Downloading https://files.pythonhosted.org/packages/3c/d1/ea74b5286f287ba80cda5f32d4e2cd397a05789ea54c6f4a779d26ffe8ac/nbp_sdk-0.1.4.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/b1/e9/d6c6c71d9ba363284528d0085e2537ab5241ca9c41177346095254276a2c/teo-0.2.8.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/8b/28/58fdcaaa845fc31db5eccb8a6f05d5052f2a17022ec41d34962eff8159d5/delphai_utils-4.1.0.tar.gz
+[2024-05-14 14:03:03] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/85/b8/b843acd3d0b72ff0a46efeaf23892a44d0296872bf73bb8fab5add57c4f5/ckanext_nhm-6.7.0.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [translate-util]: Downloading https://files.pythonhosted.org/packages/9c/aa/b38f5db7ca7c5325eab0274d1000d2c04a9620f46677ae99f006b7d4ef64/translate_util-1.1.3.tar.gz
+[2024-05-14 14:03:04] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 55573830>=10485760
+[2024-05-14 14:03:04] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2024-05-14 14:03:04] INFO root fetch - processPackages [torch-contour]: Downloading https://files.pythonhosted.org/packages/68/d9/5401427f94d43a70ce316d31e9aa0bedbe73b4f6e97f035c29f4e8fcf18b/torch_contour-0.0.5.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/7a/fe/2692e61040588904b1de97913f01c2be1ccf3a8642c750f20005dc7807d7/pkscreener-0.44.20240514.371.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [torch-contour]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [torch-contour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_contour-0.0.4.tar.gz tmp/torch_contour-0.0.5.tar.gz --markdown 20240514/t/torch-contour/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [teo]: Downloading https://files.pythonhosted.org/packages/1a/6e/79fac05caa23b6f8d6325ce41b4c00733012f08b4aee6cd1b1d45c11bd0a/teo-0.2.9.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [basic-web-server]: Downloading https://files.pythonhosted.org/packages/b8/88/58b4af57bf1b4abe8e87a49c045e0b28f23707511980e13f8cbc79e5413d/basic_web_server-0.2.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [nbp-sdk]: Downloading https://files.pythonhosted.org/packages/a4/93/4b6e53c5e9f428b3aa6abc326310679da647af5b465fc7879b7609f8bb73/nbp_sdk-0.1.5.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/5f/8a/f1afc3788ac0473e139864087cb04723fa4d7296761ecc1ac97fcbda97f0/delphai_utils-4.1.1.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/2e/47/9c7a845880448933cbadbbdb3aaa39eeee86fa65f22173af1bdc3833e09d/PyQtUIkit-2.9.4.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [translate-util]: Downloading https://files.pythonhosted.org/packages/9c/00/f28e40fc11b3c5e129968e00cc7ed11abcd32b0c23f81bda7eb4870f56ac/translate_util-1.1.4.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [teo]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [teo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teo-0.2.8.tar.gz tmp/teo-0.2.9.tar.gz --markdown 20240514/t/teo/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [Scrapy]: Downloading https://files.pythonhosted.org/packages/eb/b0/7da031ff0ce073839984097724db2c54e8c4b7938acb9ef4691a98620ce7/Scrapy-2.9.0.tar.gz
+[2024-05-14 14:03:04] INFO root fetch - processPackages [basic-web-server]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [basic-web-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_web_server-0.1.tar.gz tmp/basic_web_server-0.2.tar.gz --markdown 20240514/b/basic-web-server/0.1-0.2/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240513.370.tar.gz tmp/pkscreener-0.44.20240514.371.tar.gz --markdown 20240514/p/pkscreener/0.44.20240513.370-0.44.20240514.371/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [nbp-sdk]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [nbp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbp_sdk-0.1.4.tar.gz tmp/nbp_sdk-0.1.5.tar.gz --markdown 20240514/n/nbp-sdk/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [delphai-utils]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [delphai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_utils-4.1.0.tar.gz tmp/delphai_utils-4.1.1.tar.gz --markdown 20240514/d/delphai-utils/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [translate-util]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [translate-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate_util-1.1.3.tar.gz tmp/translate_util-1.1.4.tar.gz --markdown 20240514/t/translate-util/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.9.3.tar.gz tmp/PyQtUIkit-2.9.4.tar.gz --markdown 20240514/P/PyQtUIkit/2.9.3-2.9.4/README.md --exclude *.pyd
+[2024-05-14 14:03:04] INFO root fetch - processPackages [Scrapy]: executing diffoscope
+[2024-05-14 14:03:04] INFO root fetch - processPackages [Scrapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Scrapy-2.8.0.tar.gz tmp/Scrapy-2.9.0.tar.gz --markdown 20240514/S/Scrapy/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-14 14:03:05] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.4.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [torch-contour]: Remove: archive file [/home/abi/fetcher/tmp/torch_contour-0.0.5.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [torch-contour]: success
+[2024-05-14 14:03:05] INFO root fetch - processPackages [basic-web-server]: Remove: archive file [/home/abi/fetcher/tmp/basic_web_server-0.1.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [basic-web-server]: Remove: archive file [/home/abi/fetcher/tmp/basic_web_server-0.2.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [basic-web-server]: success
+[2024-05-14 14:03:05] INFO root fetch - processPackages [nbp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nbp_sdk-0.1.4.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [nbp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nbp_sdk-0.1.5.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [nbp-sdk]: success
+[2024-05-14 14:03:05] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240513.370.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240514.371.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-14 14:03:05] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.8.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [teo]: Remove: archive file [/home/abi/fetcher/tmp/teo-0.2.9.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [teo]: success
+[2024-05-14 14:03:05] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.1.0.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.1.1.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [delphai-utils]: success
+[2024-05-14 14:03:05] INFO root fetch - processPackages [translate-util]: Remove: archive file [/home/abi/fetcher/tmp/translate_util-1.1.3.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - processPackages [translate-util]: Remove: archive file [/home/abi/fetcher/tmp/translate_util-1.1.4.tar.gz]
+[2024-05-14 14:03:05] INFO root fetch - main [MainThread]: End processing [translate-util]: success
+[2024-05-14 14:03:06] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.3.tar.gz]
+[2024-05-14 14:03:06] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.9.4.tar.gz]
+[2024-05-14 14:03:06] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-05-14 14:03:08] INFO root fetch - processPackages [Scrapy]: Remove: archive file [/home/abi/fetcher/tmp/Scrapy-2.8.0.tar.gz]
+[2024-05-14 14:03:08] INFO root fetch - processPackages [Scrapy]: Remove: archive file [/home/abi/fetcher/tmp/Scrapy-2.9.0.tar.gz]
+[2024-05-14 14:03:08] INFO root fetch - main [MainThread]: End processing [Scrapy]: success
+[2024-05-14 14:03:08] INFO root fetch - main [MainThread]: Store serial: [23200679]
