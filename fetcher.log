@@ -10329,3 +10329,15 @@
 [2024-05-14 06:55:10] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat-17.0.1.0.1.6-py3-none-any.whl.zip]
 [2024-05-14 06:55:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
 [2024-05-14 06:55:10] INFO root fetch - main [MainThread]: Store serial: [23195783]
+[2024-05-14 06:57:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195783]
+[2024-05-14 06:57:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 06:57:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wah
+[2024-05-14 06:57:19] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 06:57:19] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-14 06:57:20] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-14 06:57:20] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-14 06:57:20] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240514/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 06:57:20] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-14 06:57:20] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-14 06:57:20] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-14 06:57:20] INFO root fetch - main [MainThread]: Store serial: [23195785]
