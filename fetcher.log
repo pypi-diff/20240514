@@ -23626,3 +23626,42 @@
 [2024-05-14 15:20:24] INFO root fetch - processPackages [hgraph]: Remove: archive file [/home/abi/fetcher/tmp/hgraph-0.2.9.tar.gz]
 [2024-05-14 15:20:24] INFO root fetch - main [MainThread]: End processing [hgraph]: success
 [2024-05-14 15:20:24] INFO root fetch - main [MainThread]: Store serial: [23201573]
+[2024-05-14 15:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201573]
+[2024-05-14 15:22:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 15:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thriftpy2
+[2024-05-14 15:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-micro
+[2024-05-14 15:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superblocks-types
+[2024-05-14 15:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grasp_planning
+[2024-05-14 15:22:34] INFO root fetch - processPackages [grasp_planning]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-05-14 15:22:34] INFO root fetch - processPackages [superblocks-types]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-14 15:22:34] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/28/a8/a48e82f1315529f959cd35b3fd3135342a806b5fb9e2bfa2e4e249f5801a/grasp_planning-0.4.2.tar.gz
+[2024-05-14 15:22:34] INFO root fetch - processPackages [thriftpy2]: New version: [0.5.1rc1] Old Version: [0.5.0]
+[2024-05-14 15:22:34] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/b8/18/667a65d3b75a272035ca399b898a38afcf3e263721772605f43eb0be25ba/superblocks-types-0.0.6.tar.gz
+[2024-05-14 15:22:34] INFO root fetch - processPackages [tflite-micro]: New version: [0.dev20240514031124] Old Version: [0.dev20240509045337]
+[2024-05-14 15:22:35] INFO root fetch - processPackages [thriftpy2]: Downloading https://files.pythonhosted.org/packages/ed/b9/3296ead586c7484e099765fa15734a44586508f5306ba9ea6d4a719decd5/thriftpy2-0.5.0.tar.gz
+[2024-05-14 15:22:35] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/84/bd/f03a443a43ba59bd5d5147995247769c600d9763f61fe61c7b0e8849e185/tflite_micro-0.dev20240509045337-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-14 15:22:35] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/7b/6b/6e765f5842ab5984efbf8f5e81580720f1c218eca5ad3f3eba36fa8db93e/grasp_planning-0.5.0.tar.gz
+[2024-05-14 15:22:35] INFO root fetch - processPackages [superblocks-types]: Downloading https://files.pythonhosted.org/packages/64/9a/481cd9ecc7d2e9c7e18629919458a54d9f0281a4e70c7d20562dd236168c/superblocks-types-0.0.7.tar.gz
+[2024-05-14 15:22:35] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-14 15:22:35] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.4.2.tar.gz tmp/grasp_planning-0.5.0.tar.gz --markdown 20240514/g/grasp_planning/0.4.2-0.5.0/README.md --exclude *.pyd
+[2024-05-14 15:22:35] INFO root fetch - processPackages [superblocks-types]: executing diffoscope
+[2024-05-14 15:22:35] INFO root fetch - processPackages [superblocks-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superblocks-types-0.0.6.tar.gz tmp/superblocks-types-0.0.7.tar.gz --markdown 20240514/s/superblocks-types/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-14 15:22:35] INFO root fetch - processPackages [thriftpy2]: Downloading https://files.pythonhosted.org/packages/5c/22/f60826bdfa0b0f5367c4097c0d15486a31221b9dc5a5a8182f117eb392fd/thriftpy2-0.5.1rc1.tar.gz
+[2024-05-14 15:22:35] INFO root fetch - processPackages [tflite-micro]: Downloading https://files.pythonhosted.org/packages/e7/9f/81dce03d16b4a6863718e7fb1de796f0507301f9fc4fac9c5a904b8e0f8c/tflite_micro-0.dev20240514031124-cp311-cp311-manylinux_2_28_x86_64.whl
+[2024-05-14 15:22:35] INFO root fetch - processPackages [thriftpy2]: executing diffoscope
+[2024-05-14 15:22:35] INFO root fetch - processPackages [thriftpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thriftpy2-0.5.0.tar.gz tmp/thriftpy2-0.5.1rc1.tar.gz --markdown 20240514/t/thriftpy2/0.5.0-0.5.1rc1/README.md --exclude *.pyd
+[2024-05-14 15:22:35] INFO root fetch - processPackages [tflite-micro]: executing diffoscope
+[2024-05-14 15:22:35] INFO root fetch - processPackages [tflite-micro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_micro-0.dev20240509045337-cp311-cp311-manylinux_2_28_x86_64.whl.zip tmp/tflite_micro-0.dev20240514031124-cp311-cp311-manylinux_2_28_x86_64.whl.zip --markdown 20240514/t/tflite-micro/0.dev20240509045337-0.dev20240514031124/README.md --exclude *.pyd
+[2024-05-14 15:22:36] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.4.2.tar.gz]
+[2024-05-14 15:22:36] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.0.tar.gz]
+[2024-05-14 15:22:36] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-14 15:22:36] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.6.tar.gz]
+[2024-05-14 15:22:36] INFO root fetch - processPackages [superblocks-types]: Remove: archive file [/home/abi/fetcher/tmp/superblocks-types-0.0.7.tar.gz]
+[2024-05-14 15:22:36] INFO root fetch - main [MainThread]: End processing [superblocks-types]: success
+[2024-05-14 15:22:36] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240509045337-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-14 15:22:36] INFO root fetch - processPackages [tflite-micro]: Remove: archive file [/home/abi/fetcher/tmp/tflite_micro-0.dev20240514031124-cp311-cp311-manylinux_2_28_x86_64.whl.zip]
+[2024-05-14 15:22:36] INFO root fetch - main [MainThread]: End processing [tflite-micro]: success
+[2024-05-14 15:22:36] INFO root fetch - processPackages [thriftpy2]: Remove: archive file [/home/abi/fetcher/tmp/thriftpy2-0.5.0.tar.gz]
+[2024-05-14 15:22:36] INFO root fetch - processPackages [thriftpy2]: Remove: archive file [/home/abi/fetcher/tmp/thriftpy2-0.5.1rc1.tar.gz]
+[2024-05-14 15:22:36] INFO root fetch - main [MainThread]: End processing [thriftpy2]: success
+[2024-05-14 15:22:36] INFO root fetch - main [MainThread]: Store serial: [23201589]
