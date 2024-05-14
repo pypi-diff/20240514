@@ -10341,3 +10341,15 @@
 [2024-05-14 06:57:20] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
 [2024-05-14 06:57:20] INFO root fetch - main [MainThread]: End processing [wah]: success
 [2024-05-14 06:57:20] INFO root fetch - main [MainThread]: Store serial: [23195785]
+[2024-05-14 06:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195785]
+[2024-05-14 06:59:29] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 06:59:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xurpas-data-quality
+[2024-05-14 06:59:29] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.3a4] Old Version: [0.0.3a2]
+[2024-05-14 06:59:30] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/f2/f6/a706872e1c4c7da8a23ee0fbbe2d71a55eebe8198309f178611a7ccc9c37/xurpas_data_quality-0.0.3a2-py3-none-any.whl
+[2024-05-14 06:59:30] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/0b/86/1217c4b6afd11ba08d9ddcb52c12d4528ae1c83a5fdd15d198cb5c355b94/xurpas_data_quality-0.0.3a4.tar.gz
+[2024-05-14 06:59:30] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-14 06:59:30] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.3a2-py3-none-any.whl.zip tmp/xurpas_data_quality-0.0.3a4.tar.gz --markdown 20240514/x/xurpas-data-quality/0.0.3a2-0.0.3a4/README.md --exclude *.pyd
+[2024-05-14 06:59:31] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a2-py3-none-any.whl.zip]
+[2024-05-14 06:59:31] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a4.tar.gz]
+[2024-05-14 06:59:31] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-14 06:59:31] INFO root fetch - main [MainThread]: Store serial: [23195788]
