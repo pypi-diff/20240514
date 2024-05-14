@@ -10161,3 +10161,24 @@
 [2024-05-14 06:41:59] INFO root fetch - processPackages [ETLT]: Remove: archive file [/home/abi/fetcher/tmp/etlt-1.0.0.tar.gz]
 [2024-05-14 06:41:59] INFO root fetch - main [MainThread]: End processing [ETLT]: success
 [2024-05-14 06:41:59] INFO root fetch - main [MainThread]: Store serial: [23195724]
+[2024-05-14 06:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195724]
+[2024-05-14 06:44:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 06:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: variable-local
+[2024-05-14 06:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: derivative
+[2024-05-14 06:44:14] INFO root fetch - processPackages [variable-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 06:44:14] INFO root fetch - processPackages [derivative]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-14 06:44:14] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/70/d7/8f1cedc8864b64b1a14b0babb14012e1b55d36ce7f7d4131efd3a144ba8d/variable_local-0.0.98.tar.gz
+[2024-05-14 06:44:15] INFO root fetch - processPackages [derivative]: Downloading https://files.pythonhosted.org/packages/f0/37/43116503aa6b6b7dcf6786ed7f9e557b0558d08124a0c018335395b7d8df/derivative-0.6.0.tar.gz
+[2024-05-14 06:44:15] INFO root fetch - processPackages [variable-local]: Downloading https://files.pythonhosted.org/packages/20/8b/ee9947a8caefb731b30941901e0fe4a1c3ea3ec0e2f19a88de6dbd7bc499/variable_local-0.0.99.tar.gz
+[2024-05-14 06:44:15] INFO root fetch - processPackages [variable-local]: executing diffoscope
+[2024-05-14 06:44:15] INFO root fetch - processPackages [variable-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/variable_local-0.0.98.tar.gz tmp/variable_local-0.0.99.tar.gz --markdown 20240514/v/variable-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 06:44:15] INFO root fetch - processPackages [derivative]: Downloading https://files.pythonhosted.org/packages/06/be/c10f7eb264b05ff42d67c4d44e262e166b8ee7f13d4a48aa87d9ff9dd38c/derivative-0.6.1.tar.gz
+[2024-05-14 06:44:15] INFO root fetch - processPackages [derivative]: executing diffoscope
+[2024-05-14 06:44:15] INFO root fetch - processPackages [derivative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/derivative-0.6.0.tar.gz tmp/derivative-0.6.1.tar.gz --markdown 20240514/d/derivative/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-14 06:44:15] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.98.tar.gz]
+[2024-05-14 06:44:15] INFO root fetch - processPackages [variable-local]: Remove: archive file [/home/abi/fetcher/tmp/variable_local-0.0.99.tar.gz]
+[2024-05-14 06:44:15] INFO root fetch - main [MainThread]: End processing [variable-local]: success
+[2024-05-14 06:44:16] INFO root fetch - processPackages [derivative]: Remove: archive file [/home/abi/fetcher/tmp/derivative-0.6.0.tar.gz]
+[2024-05-14 06:44:16] INFO root fetch - processPackages [derivative]: Remove: archive file [/home/abi/fetcher/tmp/derivative-0.6.1.tar.gz]
+[2024-05-14 06:44:16] INFO root fetch - main [MainThread]: End processing [derivative]: success
+[2024-05-14 06:44:16] INFO root fetch - main [MainThread]: Store serial: [23195730]
