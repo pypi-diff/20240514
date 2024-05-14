@@ -20958,3 +20958,84 @@
 [2024-05-14 13:38:25] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.9.tar.gz]
 [2024-05-14 13:38:25] INFO root fetch - main [MainThread]: End processing [mathbib]: success
 [2024-05-14 13:38:25] INFO root fetch - main [MainThread]: Store serial: [23200431]
+[2024-05-14 13:40:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200431]
+[2024-05-14 13:40:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odbc2deltalake
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owega
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-bench
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-pbx-admin
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: virtual-camera
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: linkedin-user-scrape
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: protes
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartboiler
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: antsibull
+[2024-05-14 13:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fotoobo
+[2024-05-14 13:40:34] WARNING root fetch - processPackages [virtual-camera]: Skipping, unable to determine old version
+[2024-05-14 13:40:34] INFO root fetch - main [MainThread]: End processing [virtual-camera] error
+[2024-05-14 13:40:34] WARNING root fetch - processPackages [linkedin-user-scrape]: Skipping, unable to determine old version
+[2024-05-14 13:40:34] INFO root fetch - main [MainThread]: End processing [linkedin-user-scrape] error
+[2024-05-14 13:40:34] INFO root fetch - processPackages [antsibull]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [owega]: New version: [5.7.4] Old Version: [5.7.3]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [llm-bench]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [fotoobo]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [protes]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [smartboiler]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/2e/9c/6c4f8ff66ef29a5670e1d816f53f4d63bee1f6218a63158d475b0b8a7a51/owega-5.7.3.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [django-pbx-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-14 13:40:34] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/80/58/9f0dfa43324776ac13d4d29df6d3a3774158b5d87e7ad4f64bf2bb64844d/antsibull-0.8.0.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/60/8a/62f1a75f4a93a252dbb188a71192d3fa69b90655d827f1a90464c09306d8/odbc2deltalake-0.9.0.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [llm-bench]: Downloading https://files.pythonhosted.org/packages/e4/1e/96e8e21a12cce6b75d40ef58ee187c01da8c44ea854f32fe4678648dcb90/llm_bench-0.4.8.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/8f/e1/431648a51c89243b203a07dd76935750f2eaa7b8e06f802c1ff0c7723413/fotoobo-2.1.0.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/94/1b/557f2016be749affc259d91e4f4db643bab09686c2b458dcad019c83e77f/smartboiler-1.0.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [protes]: Downloading https://files.pythonhosted.org/packages/ff/27/85546aec9701149452d19599a420d2c986a0ebbad92d1da424c309715ff0/protes-0.3.6.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/5d/89/1e07bfd3d252b2b5c525353006d441e9b58a55ac738e2b41a0ecfacf2008/django_pbx_admin-1.8.1-py3-none-any.whl
+[2024-05-14 13:40:34] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/be/50/b57eeff35a70b5a0c950808a36195a57c18c5c920176f026011c903597bc/owega-5.7.4.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/40/21/de47d6527979090205d05aaf002a69b9447cf479be6f424141c1ea076168/antsibull-0.9.0.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/c5/78/1f89a261b7929df384f9ba80767aa8cb2943103f07c2773672f1ebc74e9d/odbc2deltalake-0.9.1.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-14 13:40:34] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.7.3.tar.gz tmp/owega-5.7.4.tar.gz --markdown 20240514/o/owega/5.7.3-5.7.4/README.md --exclude *.pyd
+[2024-05-14 13:40:34] INFO root fetch - processPackages [llm-bench]: Downloading https://files.pythonhosted.org/packages/e4/75/2d98ade554705da63eb2766a12984f3f6fc8b6925b37f796ffa48846b3ef/llm_bench-0.4.9.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-05-14 13:40:34] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.9.0.tar.gz tmp/odbc2deltalake-0.9.1.tar.gz --markdown 20240514/o/odbc2deltalake/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-14 13:40:34] INFO root fetch - processPackages [antsibull]: executing diffoscope
+[2024-05-14 13:40:34] INFO root fetch - processPackages [antsibull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-0.8.0.tar.gz tmp/antsibull-0.9.0.tar.gz --markdown 20240514/a/antsibull/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 13:40:34] INFO root fetch - processPackages [fotoobo]: Downloading https://files.pythonhosted.org/packages/2e/74/c789e58a4a3a62ddb4d58cbc04e2880894478fc691ec71d820db5074ccce/fotoobo-2.1.1.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/71/ed/407e7d2a7edde8d9e6c46a00c6734c91e40b9d755e28acce9cac40e89868/smartboiler-1.0.1.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [llm-bench]: executing diffoscope
+[2024-05-14 13:40:34] INFO root fetch - processPackages [llm-bench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_bench-0.4.8.tar.gz tmp/llm_bench-0.4.9.tar.gz --markdown 20240514/l/llm-bench/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 13:40:34] INFO root fetch - processPackages [protes]: Downloading https://files.pythonhosted.org/packages/97/f2/105c4567600206f6e8ef604ea411ae739d58e6b8c6ced2a7edb3ecded40d/protes-0.3.7.tar.gz
+[2024-05-14 13:40:34] INFO root fetch - processPackages [fotoobo]: executing diffoscope
+[2024-05-14 13:40:34] INFO root fetch - processPackages [fotoobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fotoobo-2.1.0.tar.gz tmp/fotoobo-2.1.1.tar.gz --markdown 20240514/f/fotoobo/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-14 13:40:35] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-14 13:40:35] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-1.0.tar.gz tmp/smartboiler-1.0.1.tar.gz --markdown 20240514/s/smartboiler/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 13:40:35] INFO root fetch - processPackages [protes]: executing diffoscope
+[2024-05-14 13:40:35] INFO root fetch - processPackages [protes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protes-0.3.6.tar.gz tmp/protes-0.3.7.tar.gz --markdown 20240514/p/protes/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-14 13:40:35] INFO root fetch - processPackages [django-pbx-admin]: Downloading https://files.pythonhosted.org/packages/9f/68/7cd5526d96c78fa3115fa7d469d50acb284144a6d6468ec29edac3ec09ff/django_pbx_admin-1.9.0-py3-none-any.whl
+[2024-05-14 13:40:35] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.0.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.9.1.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-05-14 13:40:35] INFO root fetch - processPackages [llm-bench]: Remove: archive file [/home/abi/fetcher/tmp/llm_bench-0.4.8.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - processPackages [llm-bench]: Remove: archive file [/home/abi/fetcher/tmp/llm_bench-0.4.9.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - main [MainThread]: End processing [llm-bench]: success
+[2024-05-14 13:40:35] INFO root fetch - processPackages [protes]: Remove: archive file [/home/abi/fetcher/tmp/protes-0.3.6.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - processPackages [protes]: Remove: archive file [/home/abi/fetcher/tmp/protes-0.3.7.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - main [MainThread]: End processing [protes]: success
+[2024-05-14 13:40:35] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.3.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.7.4.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-14 13:40:35] INFO root fetch - processPackages [antsibull]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-0.8.0.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - processPackages [antsibull]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-0.9.0.tar.gz]
+[2024-05-14 13:40:35] INFO root fetch - main [MainThread]: End processing [antsibull]: success
+[2024-05-14 13:40:36] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-2.1.0.tar.gz]
+[2024-05-14 13:40:36] INFO root fetch - processPackages [fotoobo]: Remove: archive file [/home/abi/fetcher/tmp/fotoobo-2.1.1.tar.gz]
+[2024-05-14 13:40:36] INFO root fetch - main [MainThread]: End processing [fotoobo]: success
+[2024-05-14 13:40:36] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-1.0.tar.gz]
+[2024-05-14 13:40:36] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-1.0.1.tar.gz]
+[2024-05-14 13:40:36] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-14 13:40:37] INFO root fetch - processPackages [django-pbx-admin]: executing diffoscope
+[2024-05-14 13:40:37] INFO root fetch - processPackages [django-pbx-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip --markdown 20240514/d/django-pbx-admin/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-14 13:40:38] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.8.1-py3-none-any.whl.zip]
+[2024-05-14 13:40:38] INFO root fetch - processPackages [django-pbx-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_pbx_admin-1.9.0-py3-none-any.whl.zip]
+[2024-05-14 13:40:38] INFO root fetch - main [MainThread]: End processing [django-pbx-admin]: success
+[2024-05-14 13:40:38] INFO root fetch - main [MainThread]: Store serial: [23200460]
