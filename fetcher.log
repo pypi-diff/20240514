@@ -17875,3 +17875,108 @@
 [2024-05-14 11:50:36] INFO root fetch - processPackages [youqu]: Remove: archive file [/home/abi/fetcher/tmp/youqu-2.6.0.tar.gz]
 [2024-05-14 11:50:36] INFO root fetch - main [MainThread]: End processing [youqu]: success
 [2024-05-14 11:50:36] INFO root fetch - main [MainThread]: Store serial: [23199061]
+[2024-05-14 11:52:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199061]
+[2024-05-14 11:53:00] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dwave-sona-core
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dock-cli
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wise-pizza
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-workflow-sdk-preview
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sniffing-io
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: julearn
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agi-med-utils
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: massconnect
+[2024-05-14 11:53:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pdocr-rpc
+[2024-05-14 11:53:00] INFO root fetch - processPackages [wise-pizza]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-14 11:53:00] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-14 11:53:00] INFO root fetch - processPackages [dock-cli]: New version: [1.1.0rc0] Old Version: [1.1.0]
+[2024-05-14 11:53:00] INFO root fetch - processPackages [sniffing-io]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 11:53:00] INFO root fetch - processPackages [julearn]: New version: [0.3.3.dev8] Old Version: [0.3.3.dev4]
+[2024-05-14 11:53:00] INFO root fetch - processPackages [wise-pizza]: Downloading https://files.pythonhosted.org/packages/95/38/a8eae6e519c3b2bae5e2118e7bfa2106eccb629a32da96fe115e6dcd9e0a/wise-pizza-0.2.4.tar.gz
+[2024-05-14 11:53:00] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-14 11:53:00] INFO root fetch - processPackages [agi-med-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 11:53:00] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-14 11:53:00] WARNING root fetch - processPackages [massconnect]: Skipping, unable to determine old version
+[2024-05-14 11:53:00] INFO root fetch - processPackages [massconnect]: Start processing: openlane
+[2024-05-14 11:53:00] INFO root fetch - processPackages [pdocr-rpc]: New version: [2024.5.14] Old Version: [2023.8.23]
+[2024-05-14 11:53:00] INFO root fetch - main [MainThread]: End processing [massconnect] error
+[2024-05-14 11:53:00] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/b1/e1/2c8e747a76ef868f1b6ea5714cbf984d8ac45db77ebbd3af0f1605361054/julearn-0.3.3.dev4.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240514095037] Old Version: [3.4.1.dev20240514065930]
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/60/71/c6a812d9f2c5a80060796107fd384c4a039fe7d2a2d1893880da400d902b/dock_cli-1.1.0.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/58/0f/9c532e7d9dfd10ef09a33368ee685f8e4b4052dbf3a1b270f662e6fd6e5c/sniffing-io-0.0.3.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [openlane]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-14 11:53:01] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d4/92/97ac7c40bc8158d072c5405408e61a6f904149e099340b97555f54f6aa10/localstack_core-3.4.1.dev20240514065930.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/3d/18/8af7e560ac0be2dee98cc658a122579cce6a655d518e83e44c5c6c98aaef/agi_med_utils-0.0.1.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/f0/f0/8da51ecdd53ce8bf44723b71c4faeb631d48f1db6d7ac24dbc9fbb621baf/pdocr_rpc-2023.8.23.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [wise-pizza]: Downloading https://files.pythonhosted.org/packages/25/ff/5d73201c558b5224920899937054891b49657201680b81d4768fea2fae3c/wise-pizza-0.2.5.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [julearn]: Downloading https://files.pythonhosted.org/packages/0d/f9/915966a039e9a791dae631c8ffab39898ee611523cfd2938e2f72d89314a/julearn-0.3.3.dev8.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/ab/90/c291ffbb27ef692ef9fe04b7195a904cd10b228858f60162bc44cba20582/openlane-2.0.4.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240514/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [sniffing-io]: Downloading https://files.pythonhosted.org/packages/b3/7c/3204b8ebceebf63917d339f12c3d921ac7e3a2939e42427514cb0e920ec2/sniffing-io-0.0.4.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [wise-pizza]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [wise-pizza]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wise-pizza-0.2.4.tar.gz tmp/wise-pizza-0.2.5.tar.gz --markdown 20240514/w/wise-pizza/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/4c/a4/29991cea62210989fde2a8f409530f0af247372bd529921f33b231a69055/dock_cli-1.1.0rc0.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [sniffing-io]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [sniffing-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sniffing-io-0.0.3.tar.gz tmp/sniffing-io-0.0.4.tar.gz --markdown 20240514/s/sniffing-io/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dock-cli]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [dock-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock_cli-1.1.0.tar.gz tmp/dock_cli-1.1.0rc0.tar.gz --markdown 20240514/d/dock-cli/1.1.0-1.1.0rc0/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/8b/51/ac73089aea944e2243b1d6145ab29366bb244eba023e865372e30ada0dfd/agi_med_utils-0.0.2.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [julearn]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [julearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/julearn-0.3.3.dev4.tar.gz tmp/julearn-0.3.3.dev8.tar.gz --markdown 20240514/j/julearn/0.3.3.dev4-0.3.3.dev8/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [pdocr-rpc]: Downloading https://files.pythonhosted.org/packages/1b/02/d7ec9458e80206ea60e867e6d920b396ded597d5e06c62a99cc03b385f31/pdocr_rpc-2024.5.14.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [agi-med-utils]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [agi-med-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_utils-0.0.1.tar.gz tmp/agi_med_utils-0.0.2.tar.gz --markdown 20240514/a/agi-med-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/87/ca/572dcc28dfc8398a5ee9df26a5a7fbfc53e4fb600c742abf58a5bbd1c877/localstack_core-3.4.1.dev20240514095037.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/c8/cd/23be71c56ec5399a2044a13dd8e8ad1a5a849509ef46fa866e9aa700f7de/openlane-2.0.5.tar.gz
+[2024-05-14 11:53:01] INFO root fetch - processPackages [pdocr-rpc]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [pdocr-rpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdocr_rpc-2023.8.23.tar.gz tmp/pdocr_rpc-2024.5.14.tar.gz --markdown 20240514/p/pdocr-rpc/2023.8.23-2024.5.14/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240514/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-14 11:53:01] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2024-05-14 11:53:01] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.4.tar.gz tmp/openlane-2.0.5.tar.gz --markdown 20240514/o/openlane/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-14 11:53:02] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-14 11:53:02] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240514065930.tar.gz tmp/localstack_core-3.4.1.dev20240514095037.tar.gz --markdown 20240514/l/localstack-core/3.4.1.dev20240514065930-3.4.1.dev20240514095037/README.md --exclude *.pyd
+[2024-05-14 11:53:02] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.3.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [sniffing-io]: Remove: archive file [/home/abi/fetcher/tmp/sniffing-io-0.0.4.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [sniffing-io]: Start processing: tempit
+[2024-05-14 11:53:02] INFO root fetch - main [MainThread]: End processing [sniffing-io]: success
+[2024-05-14 11:53:02] INFO root fetch - processPackages [tempit]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [wise-pizza]: Remove: archive file [/home/abi/fetcher/tmp/wise-pizza-0.2.4.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [wise-pizza]: Remove: archive file [/home/abi/fetcher/tmp/wise-pizza-0.2.5.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - main [MainThread]: End processing [wise-pizza]: success
+[2024-05-14 11:53:02] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock_cli-1.1.0.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock_cli-1.1.0rc0.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - main [MainThread]: End processing [dock-cli]: success
+[2024-05-14 11:53:02] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.1.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.2.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - main [MainThread]: End processing [agi-med-utils]: success
+[2024-05-14 11:53:02] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2023.8.23.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - processPackages [pdocr-rpc]: Remove: archive file [/home/abi/fetcher/tmp/pdocr_rpc-2024.5.14.tar.gz]
+[2024-05-14 11:53:02] INFO root fetch - main [MainThread]: End processing [pdocr-rpc]: success
+[2024-05-14 11:53:03] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-14 11:53:03] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/c3/7d/3183a83e93095aa555ac3bdaf3ebc0e4e16711b244d22e50cd6ed4adba0e/tempit-0.1.4.tar.gz
+[2024-05-14 11:53:03] INFO root fetch - processPackages [tempit]: Downloading https://files.pythonhosted.org/packages/08/0b/c6e8a0cfdb3809f40cda4a74ef668a1d185932b0b48d2190e791d8cbc198/tempit-0.1.5.tar.gz
+[2024-05-14 11:53:03] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev4.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - processPackages [julearn]: Remove: archive file [/home/abi/fetcher/tmp/julearn-0.3.3.dev8.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - main [MainThread]: End processing [julearn]: success
+[2024-05-14 11:53:03] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.4.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - processPackages [tempit]: executing diffoscope
+[2024-05-14 11:53:03] INFO root fetch - processPackages [tempit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tempit-0.1.4.tar.gz tmp/tempit-0.1.5.tar.gz --markdown 20240514/t/tempit/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 11:53:03] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.5.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2024-05-14 11:53:03] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-14 11:53:03] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-14 11:53:04] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.4.tar.gz]
+[2024-05-14 11:53:04] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.5.tar.gz]
+[2024-05-14 11:53:04] INFO root fetch - main [MainThread]: End processing [tempit]: success
+[2024-05-14 11:53:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240514065930.tar.gz]
+[2024-05-14 11:53:06] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240514095037.tar.gz]
+[2024-05-14 11:53:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-14 11:53:06] INFO root fetch - main [MainThread]: Store serial: [23199103]
