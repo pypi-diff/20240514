@@ -3174,3 +3174,42 @@
 [2024-05-14 02:43:27] INFO root fetch - processPackages [meetlify]: Remove: archive file [/home/abi/fetcher/tmp/meetlify-0.1.4.tar.gz]
 [2024-05-14 02:43:27] INFO root fetch - main [MainThread]: End processing [meetlify]: success
 [2024-05-14 02:43:27] INFO root fetch - main [MainThread]: Store serial: [23193126]
+[2024-05-14 02:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23193126]
+[2024-05-14 02:45:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 02:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: albumentations
+[2024-05-14 02:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dalgorithms
+[2024-05-14 02:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-05-14 02:45:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sdv
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 02:45:36] INFO root fetch - processPackages [albumentations]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-14 02:45:36] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405130044] Old Version: [4.9.4.dev202405120044]
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/9e/99/c7a6c439c8d20c6ef8f670dc2853f0b8bfbe2e82c0e02a311906bc729f8f/dalgorithms-0.1.1.tar.gz
+[2024-05-14 02:45:36] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/94/9a/950e11bf9b7b2b7e513595f7f74cf97c4a788a4b5a6a76ff8f94184b5a2a/albumentations-1.4.6.tar.gz
+[2024-05-14 02:45:36] INFO root fetch - processPackages [sdv]: New version: [1.9.0.dev0] Old Version: [1.9.0]
+[2024-05-14 02:45:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/cf/2f/5a29aae97201b34490525b6ebcbc3ca233982b4ff2b1a527a0f8cd4a1495/tfds-nightly-4.9.4.dev202405120044.tar.gz
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: Downloading https://files.pythonhosted.org/packages/46/d9/beadb54dc8caf0ad23dee39b99119d808eb215b18224fcaa2cb9841e7f94/dalgorithms-0.1.2-py3-none-any.whl
+[2024-05-14 02:45:36] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/fd/10/7b11f6164ad70ba433b7d821a254d4c3f3df372d5f29eb28ac108fa9afde/sdv-1.9.0.tar.gz
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: executing diffoscope
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dalgorithms-0.1.1.tar.gz tmp/dalgorithms-0.1.2-py3-none-any.whl.zip --markdown 20240514/d/dalgorithms/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 02:45:36] INFO root fetch - processPackages [albumentations]: Downloading https://files.pythonhosted.org/packages/80/13/33e7a84a74751c3b97c8596b300aa0bdb6ef6e900914af77fbd219275e81/albumentations-1.4.7.tar.gz
+[2024-05-14 02:45:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/2c/00/9f6ea1af13a524a347d3aaebe40c60d90e66b4530092b5b2d9a3b8211ca7/tfds-nightly-4.9.4.dev202405130044.tar.gz
+[2024-05-14 02:45:36] INFO root fetch - processPackages [albumentations]: executing diffoscope
+[2024-05-14 02:45:36] INFO root fetch - processPackages [albumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/albumentations-1.4.6.tar.gz tmp/albumentations-1.4.7.tar.gz --markdown 20240514/a/albumentations/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.1.tar.gz]
+[2024-05-14 02:45:36] INFO root fetch - processPackages [dalgorithms]: Remove: archive file [/home/abi/fetcher/tmp/dalgorithms-0.1.2-py3-none-any.whl.zip]
+[2024-05-14 02:45:36] INFO root fetch - main [MainThread]: End processing [dalgorithms]: success
+[2024-05-14 02:45:36] INFO root fetch - processPackages [sdv]: Downloading https://files.pythonhosted.org/packages/e7/88/19cfd5ef7b5a2b0f06b0c5c0c7909e7a5a755bede4fd08693e68585e8628/sdv-1.9.0.dev0.tar.gz
+[2024-05-14 02:45:37] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-14 02:45:37] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405120044.tar.gz tmp/tfds-nightly-4.9.4.dev202405130044.tar.gz --markdown 20240514/t/tfds-nightly/4.9.4.dev202405120044-4.9.4.dev202405130044/README.md --exclude *.pyd
+[2024-05-14 02:45:37] INFO root fetch - processPackages [sdv]: executing diffoscope
+[2024-05-14 02:45:37] INFO root fetch - processPackages [sdv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdv-1.9.0.tar.gz tmp/sdv-1.9.0.dev0.tar.gz --markdown 20240514/s/sdv/1.9.0-1.9.0.dev0/README.md --exclude *.pyd
+[2024-05-14 02:45:37] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.6.tar.gz]
+[2024-05-14 02:45:37] INFO root fetch - processPackages [albumentations]: Remove: archive file [/home/abi/fetcher/tmp/albumentations-1.4.7.tar.gz]
+[2024-05-14 02:45:37] INFO root fetch - main [MainThread]: End processing [albumentations]: success
+[2024-05-14 02:45:39] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.9.0.tar.gz]
+[2024-05-14 02:45:39] INFO root fetch - processPackages [sdv]: Remove: archive file [/home/abi/fetcher/tmp/sdv-1.9.0.dev0.tar.gz]
+[2024-05-14 02:45:39] INFO root fetch - main [MainThread]: End processing [sdv]: success
+[2024-05-14 02:45:45] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405120044.tar.gz]
+[2024-05-14 02:45:45] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405130044.tar.gz]
+[2024-05-14 02:45:45] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-14 02:45:45] INFO root fetch - main [MainThread]: Store serial: [23193138]
