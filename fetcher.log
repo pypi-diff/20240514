@@ -20908,3 +20908,53 @@
 [2024-05-14 13:36:14] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
 [2024-05-14 13:36:14] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-05-14 13:36:14] INFO root fetch - main [MainThread]: Store serial: [23200406]
+[2024-05-14 13:38:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200406]
+[2024-05-14 13:38:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mathbib
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tromero-tailor
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osmtoroadgraph
+[2024-05-14 13:38:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-antd-components-callback-fix
+[2024-05-14 13:38:23] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-14 13:38:23] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-14 13:38:23] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-14 13:38:23] INFO root fetch - processPackages [tromero-tailor]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-05-14 13:38:23] INFO root fetch - processPackages [mathbib]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-14 13:38:23] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-14 13:38:23] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-14 13:38:23] WARNING root fetch - processPackages [osmtoroadgraph]: Skipping, unable to determine old version
+[2024-05-14 13:38:23] INFO root fetch - main [MainThread]: End processing [osmtoroadgraph] error
+[2024-05-14 13:38:23] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-14 13:38:23] WARNING root fetch - processPackages [streamlit-antd-components-callback-fix]: Skipping, unable to determine old version
+[2024-05-14 13:38:23] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components-callback-fix] error
+[2024-05-14 13:38:23] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-14 13:38:23] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-14 13:38:23] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/60/c4/1eb23d9e56db26c6acdd4c83982661b67cbebc3258ef80ddc3f525068184/tromero_tailor-0.0.14.tar.gz
+[2024-05-14 13:38:23] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/8c/41/374e387d590194fae67fe6a936228ff7104472e36604fd624c465a2e2597/mathbib-0.7.8.tar.gz
+[2024-05-14 13:38:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-14 13:38:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-14 13:38:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-14 13:38:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240514/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-14 13:38:24] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/95/10/b9752242b5e4803630f6c875b757245531c5e0dea3d2942deaeb776f11ca/tromero_tailor-0.0.15.tar.gz
+[2024-05-14 13:38:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-14 13:38:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240514/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-14 13:38:24] INFO root fetch - processPackages [tromero-tailor]: executing diffoscope
+[2024-05-14 13:38:24] INFO root fetch - processPackages [tromero-tailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tromero_tailor-0.0.14.tar.gz tmp/tromero_tailor-0.0.15.tar.gz --markdown 20240514/t/tromero-tailor/0.0.14-0.0.15/README.md --exclude *.pyd
+[2024-05-14 13:38:24] INFO root fetch - processPackages [mathbib]: Downloading https://files.pythonhosted.org/packages/2c/ed/95158a9fccb7730803906d404e77a5067c0ec1b419a10705ad0d779a63f1/mathbib-0.7.9.tar.gz
+[2024-05-14 13:38:24] INFO root fetch - processPackages [mathbib]: executing diffoscope
+[2024-05-14 13:38:24] INFO root fetch - processPackages [mathbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathbib-0.7.8.tar.gz tmp/mathbib-0.7.9.tar.gz --markdown 20240514/m/mathbib/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-14 13:38:24] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.14.tar.gz]
+[2024-05-14 13:38:24] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.15.tar.gz]
+[2024-05-14 13:38:24] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
+[2024-05-14 13:38:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-14 13:38:25] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-14 13:38:25] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-14 13:38:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-14 13:38:25] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-14 13:38:25] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-14 13:38:25] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.8.tar.gz]
+[2024-05-14 13:38:25] INFO root fetch - processPackages [mathbib]: Remove: archive file [/home/abi/fetcher/tmp/mathbib-0.7.9.tar.gz]
+[2024-05-14 13:38:25] INFO root fetch - main [MainThread]: End processing [mathbib]: success
+[2024-05-14 13:38:25] INFO root fetch - main [MainThread]: Store serial: [23200431]
