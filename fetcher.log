@@ -13416,3 +13416,57 @@
 [2024-05-14 09:29:43] INFO root fetch - processPackages [streamfitter]: Remove: archive file [/home/abi/fetcher/tmp/streamfitter-0.1.1.tar.gz]
 [2024-05-14 09:29:43] INFO root fetch - main [MainThread]: End processing [streamfitter]: success
 [2024-05-14 09:29:43] INFO root fetch - main [MainThread]: Store serial: [23197102]
+[2024-05-14 09:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197102]
+[2024-05-14 09:31:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HakObserverpy
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crop_lca
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gotailwind
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solar-registry
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: megaxdl
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cwslib1
+[2024-05-14 09:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neonize
+[2024-05-14 09:31:54] INFO root fetch - processPackages [HakObserverpy]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-14 09:31:54] INFO root fetch - processPackages [solar-registry]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-14 09:31:54] WARNING root fetch - processPackages [megaxdl]: Skipping, unable to determine old version
+[2024-05-14 09:31:54] INFO root fetch - main [MainThread]: End processing [megaxdl] error
+[2024-05-14 09:31:54] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/9d/c2/ab5d103f06cb6c1705f6b0efce3d402f97528427011dabc446b13814b73e/solar_registry-0.2.2.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [crop_lca]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-14 09:31:54] INFO root fetch - processPackages [neonize]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:31:54] INFO root fetch - processPackages [gotailwind]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-14 09:31:54] WARNING root fetch - processPackages [cwslib1]: Skipping, unable to determine old version
+[2024-05-14 09:31:54] INFO root fetch - main [MainThread]: End processing [cwslib1] error
+[2024-05-14 09:31:54] INFO root fetch - processPackages [HakObserverpy]: Downloading https://files.pythonhosted.org/packages/c2/40/4c2ff5daabf183ea69cf89c344484c2dd70f39ea19e5eba25aa5f00b5472/HakObserverpy-0.6.2.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [crop_lca]: Downloading https://files.pythonhosted.org/packages/89/c5/b98595c2c231e76f4528fac3ee94e757fad555eedc12623eb81a4dd13baa/crop_lca-0.2.1.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [gotailwind]: Downloading https://files.pythonhosted.org/packages/c8/ca/0efc172748dcd8ee812d95982b49b676bf6e27a358271e9532fc520aeabb/gotailwind-0.2.2.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [neonize]: Downloading https://files.pythonhosted.org/packages/dc/8e/5f09c75f3e8deb54b2544918415199596079637429be7758246e79dab2cf/neonize-0.0.8.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/5f/b8/bbcbffafb688a9eb36ca7780130a7602f402cb78e1148b66f1136fa0f2c0/solar_registry-0.2.3.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-14 09:31:54] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.2.tar.gz tmp/solar_registry-0.2.3.tar.gz --markdown 20240514/s/solar-registry/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 09:31:54] INFO root fetch - processPackages [HakObserverpy]: Downloading https://files.pythonhosted.org/packages/ba/c0/2b186e6f3429f31ee90c62b685b65ba31913de9cc2d68628bd3d3ef7cfa3/HakObserverpy-0.6.3.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [crop_lca]: Downloading https://files.pythonhosted.org/packages/fc/91/d8bad30a6dd51b31f71d9be3097061a404b9dbdd93e3da6a6fd97292f4bc/crop_lca-0.2.2.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [HakObserverpy]: executing diffoscope
+[2024-05-14 09:31:54] INFO root fetch - processPackages [HakObserverpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HakObserverpy-0.6.2.tar.gz tmp/HakObserverpy-0.6.3.tar.gz --markdown 20240514/H/HakObserverpy/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-14 09:31:54] INFO root fetch - processPackages [gotailwind]: Downloading https://files.pythonhosted.org/packages/f8/36/b675288fcd1bc252ca3265e17dd8c615e4ae9ad7f5d1dfe46802eec80cc6/gotailwind-0.2.3.tar.gz
+[2024-05-14 09:31:54] INFO root fetch - processPackages [gotailwind]: executing diffoscope
+[2024-05-14 09:31:54] INFO root fetch - processPackages [gotailwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotailwind-0.2.2.tar.gz tmp/gotailwind-0.2.3.tar.gz --markdown 20240514/g/gotailwind/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 09:31:54] INFO root fetch - processPackages [crop_lca]: executing diffoscope
+[2024-05-14 09:31:54] INFO root fetch - processPackages [crop_lca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crop_lca-0.2.1.tar.gz tmp/crop_lca-0.2.2.tar.gz --markdown 20240514/c/crop_lca/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-14 09:31:54] INFO root fetch - processPackages [neonize]: Downloading https://files.pythonhosted.org/packages/ef/f8/3dea4193164cfeb541b14dd609b22659cfe82ed64ac42d6b2a5a8d865ca6/neonize-0.0.9.tar.gz
+[2024-05-14 09:31:55] INFO root fetch - processPackages [neonize]: executing diffoscope
+[2024-05-14 09:31:55] INFO root fetch - processPackages [neonize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neonize-0.0.8.tar.gz tmp/neonize-0.0.9.tar.gz --markdown 20240514/n/neonize/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:31:55] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.2.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.3.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-14 09:31:55] INFO root fetch - processPackages [HakObserverpy]: Remove: archive file [/home/abi/fetcher/tmp/HakObserverpy-0.6.2.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - processPackages [HakObserverpy]: Remove: archive file [/home/abi/fetcher/tmp/HakObserverpy-0.6.3.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - main [MainThread]: End processing [HakObserverpy]: success
+[2024-05-14 09:31:55] INFO root fetch - processPackages [gotailwind]: Remove: archive file [/home/abi/fetcher/tmp/gotailwind-0.2.2.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - processPackages [gotailwind]: Remove: archive file [/home/abi/fetcher/tmp/gotailwind-0.2.3.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - main [MainThread]: End processing [gotailwind]: success
+[2024-05-14 09:31:55] INFO root fetch - processPackages [crop_lca]: Remove: archive file [/home/abi/fetcher/tmp/crop_lca-0.2.1.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - processPackages [crop_lca]: Remove: archive file [/home/abi/fetcher/tmp/crop_lca-0.2.2.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - main [MainThread]: End processing [crop_lca]: success
+[2024-05-14 09:31:55] INFO root fetch - processPackages [neonize]: Remove: archive file [/home/abi/fetcher/tmp/neonize-0.0.8.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - processPackages [neonize]: Remove: archive file [/home/abi/fetcher/tmp/neonize-0.0.9.tar.gz]
+[2024-05-14 09:31:55] INFO root fetch - main [MainThread]: End processing [neonize]: success
+[2024-05-14 09:31:55] INFO root fetch - main [MainThread]: Store serial: [23197129]
