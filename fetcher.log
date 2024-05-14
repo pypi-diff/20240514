@@ -9979,3 +9979,38 @@
 [2024-05-14 06:26:10] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-14 06:26:10] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2024-05-14 06:26:10] INFO root fetch - main [MainThread]: Store serial: [23195639]
+[2024-05-14 06:28:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195639]
+[2024-05-14 06:28:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 06:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antsibull
+[2024-05-14 06:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tracktour
+[2024-05-14 06:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drepr-v2
+[2024-05-14 06:28:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: filez4eva
+[2024-05-14 06:28:23] INFO root fetch - processPackages [tracktour]: New version: [0.0.5rc1] Old Version: [0.0.4]
+[2024-05-14 06:28:23] INFO root fetch - processPackages [drepr-v2]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-14 06:28:23] INFO root fetch - processPackages [antsibull]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 06:28:23] INFO root fetch - processPackages [filez4eva]: New version: [3.0.0] Old Version: [2.2.8]
+[2024-05-14 06:28:23] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/80/58/9f0dfa43324776ac13d4d29df6d3a3774158b5d87e7ad4f64bf2bb64844d/antsibull-0.8.0.tar.gz
+[2024-05-14 06:28:23] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/eb/93/85108235cc24ecbecef355daaf7cd22be7e794edfb1185f27724f322a1ee/drepr_v2-1.3.2.tar.gz
+[2024-05-14 06:28:23] INFO root fetch - processPackages [tracktour]: Downloading https://files.pythonhosted.org/packages/06/95/b2b49e43662568ea7aa8d49196b8ff1ab3076b9cc8207643a0d0d83ecce0/tracktour-0.0.5rc1.tar.gz
+[2024-05-14 06:28:23] WARNING root fetch - processPackages [tracktour]: Skipping package: exceeds size limit 13042685>=10485760
+[2024-05-14 06:28:23] INFO root fetch - main [MainThread]: End processing [tracktour] error
+[2024-05-14 06:28:23] INFO root fetch - processPackages [filez4eva]: Downloading https://files.pythonhosted.org/packages/ed/9d/505c65380c98968cd43bb89d814c42d53691b517b7b961508a9c9ecc9389/filez4eva-2.2.8.tar.gz
+[2024-05-14 06:28:24] INFO root fetch - processPackages [antsibull]: Downloading https://files.pythonhosted.org/packages/40/21/de47d6527979090205d05aaf002a69b9447cf479be6f424141c1ea076168/antsibull-0.9.0.tar.gz
+[2024-05-14 06:28:24] INFO root fetch - processPackages [drepr-v2]: Downloading https://files.pythonhosted.org/packages/9e/6f/b8ccd97c6009efb9f06b2faa6a8497cc75ede94c44e0c8e885918fb12251/drepr_v2-1.3.3.tar.gz
+[2024-05-14 06:28:24] INFO root fetch - processPackages [antsibull]: executing diffoscope
+[2024-05-14 06:28:24] INFO root fetch - processPackages [antsibull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antsibull-0.8.0.tar.gz tmp/antsibull-0.9.0.tar.gz --markdown 20240514/a/antsibull/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 06:28:24] INFO root fetch - processPackages [drepr-v2]: executing diffoscope
+[2024-05-14 06:28:24] INFO root fetch - processPackages [drepr-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drepr_v2-1.3.2.tar.gz tmp/drepr_v2-1.3.3.tar.gz --markdown 20240514/d/drepr-v2/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-14 06:28:24] INFO root fetch - processPackages [filez4eva]: Downloading https://files.pythonhosted.org/packages/45/7c/f8bf8f6577945a853401180897457e401a04963f6c91a5264d01ab74862c/filez4eva-3.0.0.tar.gz
+[2024-05-14 06:28:24] INFO root fetch - processPackages [filez4eva]: executing diffoscope
+[2024-05-14 06:28:24] INFO root fetch - processPackages [filez4eva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filez4eva-2.2.8.tar.gz tmp/filez4eva-3.0.0.tar.gz --markdown 20240514/f/filez4eva/2.2.8-3.0.0/README.md --exclude *.pyd
+[2024-05-14 06:28:24] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.2.tar.gz]
+[2024-05-14 06:28:24] INFO root fetch - processPackages [drepr-v2]: Remove: archive file [/home/abi/fetcher/tmp/drepr_v2-1.3.3.tar.gz]
+[2024-05-14 06:28:24] INFO root fetch - main [MainThread]: End processing [drepr-v2]: success
+[2024-05-14 06:28:24] INFO root fetch - processPackages [antsibull]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-0.8.0.tar.gz]
+[2024-05-14 06:28:24] INFO root fetch - processPackages [antsibull]: Remove: archive file [/home/abi/fetcher/tmp/antsibull-0.9.0.tar.gz]
+[2024-05-14 06:28:24] INFO root fetch - main [MainThread]: End processing [antsibull]: success
+[2024-05-14 06:28:25] INFO root fetch - processPackages [filez4eva]: Remove: archive file [/home/abi/fetcher/tmp/filez4eva-2.2.8.tar.gz]
+[2024-05-14 06:28:25] INFO root fetch - processPackages [filez4eva]: Remove: archive file [/home/abi/fetcher/tmp/filez4eva-3.0.0.tar.gz]
+[2024-05-14 06:28:25] INFO root fetch - main [MainThread]: End processing [filez4eva]: success
+[2024-05-14 06:28:25] INFO root fetch - main [MainThread]: Store serial: [23195652]
