@@ -19645,3 +19645,51 @@
 [2024-05-14 12:51:48] INFO root fetch - processPackages [tucan]: Remove: archive file [/home/abi/fetcher/tmp/tucan-0.2.0.tar.gz]
 [2024-05-14 12:51:48] INFO root fetch - main [MainThread]: End processing [tucan]: success
 [2024-05-14 12:51:48] INFO root fetch - main [MainThread]: Store serial: [23199826]
+[2024-05-14 12:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199826]
+[2024-05-14 12:53:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 12:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digitalhub-data
+[2024-05-14 12:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-overbracket
+[2024-05-14 12:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phenomApis
+[2024-05-14 12:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DataExtractorOEG
+[2024-05-14 12:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betterbib
+[2024-05-14 12:53:57] INFO root fetch - processPackages [DataExtractorOEG]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-14 12:53:57] INFO root fetch - processPackages [digitalhub-data]: New version: [0.4.0b8] Old Version: [0.4.0b4]
+[2024-05-14 12:53:57] INFO root fetch - processPackages [betterbib]: New version: [7.1.8] Old Version: [7.1.4]
+[2024-05-14 12:53:57] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:53:57] INFO root fetch - processPackages [nonebot-plugin-overbracket]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-14 12:53:57] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/b6/cb/17fedcd2a5bddadef1c84b24c2e11e33a90eaf6d0387e088cb9c3bc889d9/digitalhub_data-0.4.0b4.tar.gz
+[2024-05-14 12:53:57] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/fb/f9/385c316fc3557ae0c6c5eb94b659caad235d4616b871de54562e489d8d72/dataextractoroeg-0.4.9.tar.gz
+[2024-05-14 12:53:57] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-05-14 12:53:57] INFO root fetch - processPackages [nonebot-plugin-overbracket]: Downloading https://files.pythonhosted.org/packages/b1/8e/962ce332ab460774666edd145a7ead2311c5d4e70a51af81c4efb325c2be/nonebot-plugin-overbracket-0.1.2.tar.gz
+[2024-05-14 12:53:57] INFO root fetch - processPackages [betterbib]: Downloading https://files.pythonhosted.org/packages/c7/a7/f692f9262f8681cb751b770851d1461ef723ad6843d2dc74116791b88b3d/betterbib-7.1.4-py3-none-any.whl
+[2024-05-14 12:53:58] INFO root fetch - processPackages [digitalhub-data]: Downloading https://files.pythonhosted.org/packages/92/30/43b226e75e5aa303de53cd3cb636cf993b5f3b61ae38146e4842af90c65f/digitalhub_data-0.4.0b8.tar.gz
+[2024-05-14 12:53:58] INFO root fetch - processPackages [DataExtractorOEG]: Downloading https://files.pythonhosted.org/packages/71/51/c571aacc5c35836319752c66b0b0a53f6ce8fa280473b3f32a98fbee258d/dataextractoroeg-0.5.0.tar.gz
+[2024-05-14 12:53:58] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-05-14 12:53:58] INFO root fetch - processPackages [nonebot-plugin-overbracket]: Downloading https://files.pythonhosted.org/packages/28/2c/647db371ed8e0de4000b4773339aae31f28ca3abd6047470f588be32022d/nonebot_plugin_overbracket-0.2.0.tar.gz
+[2024-05-14 12:53:58] INFO root fetch - processPackages [digitalhub-data]: executing diffoscope
+[2024-05-14 12:53:58] INFO root fetch - processPackages [digitalhub-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digitalhub_data-0.4.0b4.tar.gz tmp/digitalhub_data-0.4.0b8.tar.gz --markdown 20240514/d/digitalhub-data/0.4.0b4-0.4.0b8/README.md --exclude *.pyd
+[2024-05-14 12:53:58] INFO root fetch - processPackages [DataExtractorOEG]: executing diffoscope
+[2024-05-14 12:53:58] INFO root fetch - processPackages [DataExtractorOEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataextractoroeg-0.4.9.tar.gz tmp/dataextractoroeg-0.5.0.tar.gz --markdown 20240514/D/DataExtractorOEG/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-14 12:53:58] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-05-14 12:53:58] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240514/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:53:58] INFO root fetch - processPackages [nonebot-plugin-overbracket]: executing diffoscope
+[2024-05-14 12:53:58] INFO root fetch - processPackages [nonebot-plugin-overbracket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-overbracket-0.1.2.tar.gz tmp/nonebot_plugin_overbracket-0.2.0.tar.gz --markdown 20240514/n/nonebot-plugin-overbracket/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-14 12:53:58] INFO root fetch - processPackages [betterbib]: Downloading https://files.pythonhosted.org/packages/9c/b2/bea9a73811e6ca6953ba812cc025a992956fc67b100b6b12fac8880c6f86/betterbib-7.1.8-py3-none-any.whl
+[2024-05-14 12:53:58] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b4.tar.gz]
+[2024-05-14 12:53:58] INFO root fetch - processPackages [digitalhub-data]: Remove: archive file [/home/abi/fetcher/tmp/digitalhub_data-0.4.0b8.tar.gz]
+[2024-05-14 12:53:58] INFO root fetch - main [MainThread]: End processing [digitalhub-data]: success
+[2024-05-14 12:53:58] INFO root fetch - processPackages [nonebot-plugin-overbracket]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-overbracket-0.1.2.tar.gz]
+[2024-05-14 12:53:58] INFO root fetch - processPackages [nonebot-plugin-overbracket]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_overbracket-0.2.0.tar.gz]
+[2024-05-14 12:53:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-overbracket]: success
+[2024-05-14 12:53:58] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.4.9.tar.gz]
+[2024-05-14 12:53:58] INFO root fetch - processPackages [DataExtractorOEG]: Remove: archive file [/home/abi/fetcher/tmp/dataextractoroeg-0.5.0.tar.gz]
+[2024-05-14 12:53:58] INFO root fetch - main [MainThread]: End processing [DataExtractorOEG]: success
+[2024-05-14 12:53:58] INFO root fetch - processPackages [betterbib]: executing diffoscope
+[2024-05-14 12:53:58] INFO root fetch - processPackages [betterbib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterbib-7.1.4-py3-none-any.whl.zip tmp/betterbib-7.1.8-py3-none-any.whl.zip --markdown 20240514/b/betterbib/7.1.4-7.1.8/README.md --exclude *.pyd
+[2024-05-14 12:53:59] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-05-14 12:53:59] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-05-14 12:53:59] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-05-14 12:53:59] INFO root fetch - processPackages [betterbib]: Remove: archive file [/home/abi/fetcher/tmp/betterbib-7.1.4-py3-none-any.whl.zip]
+[2024-05-14 12:53:59] INFO root fetch - processPackages [betterbib]: Remove: archive file [/home/abi/fetcher/tmp/betterbib-7.1.8-py3-none-any.whl.zip]
+[2024-05-14 12:53:59] INFO root fetch - main [MainThread]: End processing [betterbib]: success
+[2024-05-14 12:53:59] INFO root fetch - main [MainThread]: Store serial: [23199840]
