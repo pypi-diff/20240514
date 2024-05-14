@@ -8681,3 +8681,24 @@
 [2024-05-14 05:13:18] INFO root fetch - processPackages [elm-messenger]: Remove: archive file [/home/abi/fetcher/tmp/elm_messenger-0.3.1.tar.gz]
 [2024-05-14 05:13:18] INFO root fetch - main [MainThread]: End processing [elm-messenger]: success
 [2024-05-14 05:13:18] INFO root fetch - main [MainThread]: Store serial: [23195146]
+[2024-05-14 05:15:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195146]
+[2024-05-14 05:15:26] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 05:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyefergy
+[2024-05-14 05:15:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wrongbutusefulsbi
+[2024-05-14 05:15:27] INFO root fetch - processPackages [wrongbutusefulsbi]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 05:15:27] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/04/09/3ea1105c9a62053bc9589723ef1e536095218803961763fdb624ea9ac5ca/wrongbutusefulsbi-0.0.3.tar.gz
+[2024-05-14 05:15:27] INFO root fetch - processPackages [pyefergy]: New version: [22.1.1] Old Version: [22.1.0]
+[2024-05-14 05:15:27] INFO root fetch - processPackages [pyefergy]: Downloading https://files.pythonhosted.org/packages/c3/7f/23c09d5a4382e9d986e2ddf1dc7c68bf770fa02e2d83c3d15c2df6e7efa2/pyefergy-22.1.0.tar.gz
+[2024-05-14 05:15:27] INFO root fetch - processPackages [wrongbutusefulsbi]: Downloading https://files.pythonhosted.org/packages/65/09/f72450d6440adcb2f80813753e0fd4736c8f0e8dbffc00ebe480974594ef/wrongbutusefulsbi-0.0.4.tar.gz
+[2024-05-14 05:15:27] INFO root fetch - processPackages [wrongbutusefulsbi]: executing diffoscope
+[2024-05-14 05:15:27] INFO root fetch - processPackages [wrongbutusefulsbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrongbutusefulsbi-0.0.3.tar.gz tmp/wrongbutusefulsbi-0.0.4.tar.gz --markdown 20240514/w/wrongbutusefulsbi/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 05:15:27] INFO root fetch - processPackages [pyefergy]: Downloading https://files.pythonhosted.org/packages/5e/19/103e280a562ea33d41e63132416c938a13941537f3d2e09c3011d2d8ae7c/pyefergy-22.1.1.tar.gz
+[2024-05-14 05:15:27] INFO root fetch - processPackages [pyefergy]: executing diffoscope
+[2024-05-14 05:15:27] INFO root fetch - processPackages [pyefergy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyefergy-22.1.0.tar.gz tmp/pyefergy-22.1.1.tar.gz --markdown 20240514/p/pyefergy/22.1.0-22.1.1/README.md --exclude *.pyd
+[2024-05-14 05:15:28] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.3.tar.gz]
+[2024-05-14 05:15:28] INFO root fetch - processPackages [wrongbutusefulsbi]: Remove: archive file [/home/abi/fetcher/tmp/wrongbutusefulsbi-0.0.4.tar.gz]
+[2024-05-14 05:15:28] INFO root fetch - main [MainThread]: End processing [wrongbutusefulsbi]: success
+[2024-05-14 05:15:28] INFO root fetch - processPackages [pyefergy]: Remove: archive file [/home/abi/fetcher/tmp/pyefergy-22.1.0.tar.gz]
+[2024-05-14 05:15:28] INFO root fetch - processPackages [pyefergy]: Remove: archive file [/home/abi/fetcher/tmp/pyefergy-22.1.1.tar.gz]
+[2024-05-14 05:15:28] INFO root fetch - main [MainThread]: End processing [pyefergy]: success
+[2024-05-14 05:15:28] INFO root fetch - main [MainThread]: Store serial: [23195153]
