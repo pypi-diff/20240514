@@ -10939,3 +10939,134 @@
 [2024-05-14 07:36:52] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240512-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2024-05-14 07:36:52] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2024-05-14 07:36:52] INFO root fetch - main [MainThread]: Store serial: [23196009]
+[2024-05-14 07:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196009]
+[2024-05-14 07:39:01] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-14 07:41:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196009]
+[2024-05-14 07:41:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nornir-arista
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-cpp-agent
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ws-sim868
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agoraiot
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: agora-busclient
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agora-config
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: agora-logging
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agora-redis-client
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agora-twin-property
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agora-utils
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agoraiot]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [llama-cpp-agent]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-twin-property]: New version: [1.1.54] Old Version: [1.1.49b0]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-redis-client]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-utils]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-busclient]: New version: [1.1.54] Old Version: [1.1.52]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/b0/ac/99d5b937721ec192682b8ce1ec5d79be58b141b909d263b7cd79884a3e2b/llama_cpp_agent-0.2.5.tar.gz
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-config]: New version: [1.1.55] Old Version: [1.1.54]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ws-sim868]: New version: [1.0.0b3] Old Version: [1.0.0b2]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [nornir-arista]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/b5/b7/1f7c2c250c32b5dd3f4e16cffe59eb11dc926cbb35d3d391e6d79a1f0bff/agora_busclient-1.1.52-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-logging]: New version: [1.1.55] Old Version: [1.1.54]
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/67/d7/4c57936ce9fa3c1b3d7a49290c5ee766875b761eb2a561668f41c4617dfa/agora_redis_client-1.1.52-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/b0/c3/a7627c24fee9275e351dc315b5142a83d4a7e88154edd66dfcd258bd5dbe/agora_utils-1.1.52-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/8e/fd/e85ce9ee74c32a7eba07d12b48f2ad64da04414fb07045ad90409d90c542/agora_logging-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-twin-property]: Downloading https://files.pythonhosted.org/packages/04/6a/56e02669528a430d6d181523a7b6399ad8b1aadf70fd669ccff60195dc45/agora_twin_property-1.1.49b0-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/2c/6f/f4070539b047ea362cca4449f48ccda4eab94cf81ca09017abfa935bb735/agora_config-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/41/aa/3acef09c94d0bee3ea6ce62c7a0682bf21f0f05bf5f877069822d7bbf6b2/agoraiot-1.1.52-py2.py3-none-any.whl
+[2024-05-14 07:41:07] INFO root fetch - processPackages [ws-sim868]: Downloading https://files.pythonhosted.org/packages/ab/b2/5b152f8d6237463860041137a5f799f46bd18f6c282bca2329d626ac0313/ws_sim868-1.0.0b2.tar.gz
+[2024-05-14 07:41:07] INFO root fetch - processPackages [nornir-arista]: Downloading https://files.pythonhosted.org/packages/24/43/6f2fbb9e2bb405037b7392b80701f575c63fb41f78edac499f5b88b6e794/nornir_arista-0.0.1.tar.gz
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/02/45/94ce37c3388c12f66e7eb52e65b2a64b03fb8fa2cf4e36e477215ae41b7b/agora_redis_client-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/02/87/0d54c4154845fa126fe5d0f11b212eb3f96f02f01f00ccc0623e0b53b2a6/agora_utils-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/d2/20/c6acdff15163685c9fa95e844f454bfc2b4abc93fda61b2b0997e4d60c53/agora_busclient-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-twin-property]: Downloading https://files.pythonhosted.org/packages/5e/8e/d8d0dffff6b77fb11bf115b4b4a3f117bacd910ebeaceed12dac9922297c/agora_twin_property-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/3d/fe/b2c984bbb19180636e7b23eaec350478930f7afa36ef1a5c4cb1dfe5b98c/agoraiot-1.1.54-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [llama-cpp-agent]: Downloading https://files.pythonhosted.org/packages/70/b6/74160b0443d6cd49b5a121c9a1ba230383697285a8671ecf4cdb68ab1a61/llama_cpp_agent-0.2.6.tar.gz
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/a0/fb/53c5f016b368633ef1dbf6e94e33aa88dbaee3788ac8e7b348978f8d9ac5/agora_logging-1.1.55-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.1.52-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.1.54-py2.py3-none-any.whl.zip --markdown 20240514/a/agora-redis-client/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/99/17/50408948a8f010c32ab66dfaeb5502adaf8336c791c38c6a07ec3b70f9a0/agora_config-1.1.55-py2.py3-none-any.whl
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.1.52-py2.py3-none-any.whl.zip tmp/agora_utils-1.1.54-py2.py3-none-any.whl.zip --markdown 20240514/a/agora-utils/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.1.52-py2.py3-none-any.whl.zip tmp/agora_busclient-1.1.54-py2.py3-none-any.whl.zip --markdown 20240514/a/agora-busclient/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-twin-property]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-twin-property]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_twin_property-1.1.49b0-py2.py3-none-any.whl.zip tmp/agora_twin_property-1.1.54-py2.py3-none-any.whl.zip --markdown 20240514/a/agora-twin-property/1.1.49b0-1.1.54/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.1.52-py2.py3-none-any.whl.zip tmp/agoraiot-1.1.54-py2.py3-none-any.whl.zip --markdown 20240514/a/agoraiot/1.1.52-1.1.54/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [llama-cpp-agent]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [llama-cpp-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_cpp_agent-0.2.5.tar.gz tmp/llama_cpp_agent-0.2.6.tar.gz --markdown 20240514/l/llama-cpp-agent/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [ws-sim868]: Downloading https://files.pythonhosted.org/packages/58/4c/4614c5d168a5acf4711cad3b31e485266687cba901c08a176c7dba1b2fff/ws_sim868-1.0.0b3.tar.gz
+[2024-05-14 07:41:08] INFO root fetch - processPackages [nornir-arista]: Downloading https://files.pythonhosted.org/packages/bf/e9/0c9adb33892a9345d6f4af8e073b91a5640d269ba10f3937687a426ec342/nornir_arista-0.0.2.tar.gz
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.1.54-py2.py3-none-any.whl.zip tmp/agora_logging-1.1.55-py2.py3-none-any.whl.zip --markdown 20240514/a/agora-logging/1.1.54-1.1.55/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.1.54-py2.py3-none-any.whl.zip tmp/agora_config-1.1.55-py2.py3-none-any.whl.zip --markdown 20240514/a/agora-config/1.1.54-1.1.55/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [nornir-arista]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [nornir-arista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_arista-0.0.1.tar.gz tmp/nornir_arista-0.0.2.tar.gz --markdown 20240514/n/nornir-arista/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 07:41:08] INFO root fetch - processPackages [ws-sim868]: executing diffoscope
+[2024-05-14 07:41:08] INFO root fetch - processPackages [ws-sim868]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ws_sim868-1.0.0b2.tar.gz tmp/ws_sim868-1.0.0b3.tar.gz --markdown 20240514/w/ws-sim868/1.0.0b2-1.0.0b3/README.md --exclude *.pyd
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-redis-client]: Start processing: multicloud-diagrams
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-twin-property]: Remove: archive file [/home/abi/fetcher/tmp/agora_twin_property-1.1.49b0-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-twin-property]: Remove: archive file [/home/abi/fetcher/tmp/agora_twin_property-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-twin-property]: Start processing: odoo14-addon-project-mail-chatter
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agora-twin-property]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [multicloud-diagrams]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-utils]: Start processing: langcheck
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agoraiot]: Start processing: neural-amp-modeler
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.1.55-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [langcheck]: New version: [0.8.0.dev1] Old Version: [0.7.1]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.52-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [neural-amp-modeler]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [ws-sim868]: Remove: archive file [/home/abi/fetcher/tmp/ws_sim868-1.0.0b2.tar.gz]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [ws-sim868]: Remove: archive file [/home/abi/fetcher/tmp/ws_sim868-1.0.0b3.tar.gz]
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [ws-sim868]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/23/bc/bd2d8d9768ef5002081e14784a5bf8fe6327a7960ea4f62c9a3c46862ba3/multicloud_diagrams-0.3.8.tar.gz
+[2024-05-14 07:41:09] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Downloading https://files.pythonhosted.org/packages/e4/7b/968eb012dd656cd14144a759809528ce5debf38759bed1f608d04e72785a/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl
+[2024-05-14 07:41:09] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.5.tar.gz]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [llama-cpp-agent]: Remove: archive file [/home/abi/fetcher/tmp/llama_cpp_agent-0.2.6.tar.gz]
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [llama-cpp-agent]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.54-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.1.55-py2.py3-none-any.whl.zip]
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [nornir-arista]: Remove: archive file [/home/abi/fetcher/tmp/nornir_arista-0.0.1.tar.gz]
+[2024-05-14 07:41:09] INFO root fetch - processPackages [nornir-arista]: Remove: archive file [/home/abi/fetcher/tmp/nornir_arista-0.0.2.tar.gz]
+[2024-05-14 07:41:09] INFO root fetch - main [MainThread]: End processing [nornir-arista]: success
+[2024-05-14 07:41:09] INFO root fetch - processPackages [langcheck]: Downloading https://files.pythonhosted.org/packages/94/f4/2d64f378a3d96655831e1e94ac6e6c92a8dc601808b03d4bb95e64846fc9/langcheck-0.7.1.tar.gz
+[2024-05-14 07:41:09] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/e9/91/f5434bd27220279bdf19ff49b24f724451854f273b8e36faee7f456039f9/neural-amp-modeler-0.8.1.tar.gz
+[2024-05-14 07:41:09] INFO root fetch - processPackages [multicloud-diagrams]: Downloading https://files.pythonhosted.org/packages/93/bd/2df888c482aa053bc871a7c784ffb1bb0e5e29cd0be64f95d889af5db7b4/multicloud_diagrams-0.3.9.tar.gz
+[2024-05-14 07:41:09] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Downloading https://files.pythonhosted.org/packages/79/c2/3c1b3d3165e5233338fedcdfe23767a9ee0555541fe8f48f571f1237e27e/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl
+[2024-05-14 07:41:09] INFO root fetch - processPackages [langcheck]: Downloading https://files.pythonhosted.org/packages/7e/06/ba74a529ae159dee2f50a6397f50e528b66dee529a8bfbd6d3c67d8348c6/langcheck-0.8.0.dev1.tar.gz
+[2024-05-14 07:41:10] INFO root fetch - processPackages [multicloud-diagrams]: executing diffoscope
+[2024-05-14 07:41:10] INFO root fetch - processPackages [multicloud-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multicloud_diagrams-0.3.8.tar.gz tmp/multicloud_diagrams-0.3.9.tar.gz --markdown 20240514/m/multicloud-diagrams/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 07:41:10] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/1b/a6/6953c47faf86c97c418f9e727c341ab6c769f144236bb756fae639f77c12/neural_amp_modeler-0.8.2.tar.gz
+[2024-05-14 07:41:10] INFO root fetch - processPackages [langcheck]: executing diffoscope
+[2024-05-14 07:41:10] INFO root fetch - processPackages [langcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcheck-0.7.1.tar.gz tmp/langcheck-0.8.0.dev1.tar.gz --markdown 20240514/l/langcheck/0.7.1-0.8.0.dev1/README.md --exclude *.pyd
+[2024-05-14 07:41:10] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: executing diffoscope
+[2024-05-14 07:41:10] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20240514/o/odoo14-addon-project-mail-chatter/14.0.1.1.1.dev8-14.0.1.1.1.dev9/README.md --exclude *.pyd
+[2024-05-14 07:41:10] INFO root fetch - processPackages [neural-amp-modeler]: executing diffoscope
+[2024-05-14 07:41:10] INFO root fetch - processPackages [neural-amp-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-amp-modeler-0.8.1.tar.gz tmp/neural_amp_modeler-0.8.2.tar.gz --markdown 20240514/n/neural-amp-modeler/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-14 07:41:10] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.8.tar.gz]
+[2024-05-14 07:41:10] INFO root fetch - processPackages [multicloud-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/multicloud_diagrams-0.3.9.tar.gz]
+[2024-05-14 07:41:10] INFO root fetch - main [MainThread]: End processing [multicloud-diagrams]: success
+[2024-05-14 07:41:10] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev8-py3-none-any.whl.zip]
+[2024-05-14 07:41:10] INFO root fetch - processPackages [odoo14-addon-project-mail-chatter]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_mail_chatter-14.0.1.1.1.dev9-py3-none-any.whl.zip]
+[2024-05-14 07:41:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-mail-chatter]: success
+[2024-05-14 07:41:10] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.7.1.tar.gz]
+[2024-05-14 07:41:10] INFO root fetch - processPackages [langcheck]: Remove: archive file [/home/abi/fetcher/tmp/langcheck-0.8.0.dev1.tar.gz]
+[2024-05-14 07:41:10] INFO root fetch - main [MainThread]: End processing [langcheck]: success
+[2024-05-14 07:41:11] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.8.1.tar.gz]
+[2024-05-14 07:41:11] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural_amp_modeler-0.8.2.tar.gz]
+[2024-05-14 07:41:11] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
+[2024-05-14 07:41:11] INFO root fetch - main [MainThread]: Store serial: [23196042]
