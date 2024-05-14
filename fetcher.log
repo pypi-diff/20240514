@@ -20655,3 +20655,50 @@
 [2024-05-14 13:27:02] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a8.tar.gz]
 [2024-05-14 13:27:02] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
 [2024-05-14 13:27:02] INFO root fetch - main [MainThread]: Store serial: [23200275]
+[2024-05-14 13:29:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200275]
+[2024-05-14 13:29:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 13:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wata
+[2024-05-14 13:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: structstore
+[2024-05-14 13:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stacchip
+[2024-05-14 13:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valmi-connector-lib
+[2024-05-14 13:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conetwork-test
+[2024-05-14 13:29:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-nftc
+[2024-05-14 13:29:12] INFO root fetch - processPackages [structstore]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 13:29:12] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 13:29:12] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-14 13:29:12] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/95/e7/797822261b6f8fea8183edc6ac694f0b60d3c6366f037ffb1df8c7910ecc/structstore-0.1.2.tar.gz
+[2024-05-14 13:29:12] WARNING root fetch - processPackages [stacchip]: Skipping, unable to determine old version
+[2024-05-14 13:29:12] INFO root fetch - main [MainThread]: End processing [stacchip] error
+[2024-05-14 13:29:12] INFO root fetch - processPackages [wata]: New version: [0.1.2.17] Old Version: [0.1.2.16.1]
+[2024-05-14 13:29:12] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 13:29:12] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-05-14 13:29:12] INFO root fetch - processPackages [antchain-nftc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 13:29:12] INFO root fetch - processPackages [wata]: Downloading https://files.pythonhosted.org/packages/df/88/052d63f7fd0e2a145023bac365c534af4934fa3613de4483d574b9f170c2/wata-0.1.2.16.1.tar.gz
+[2024-05-14 13:29:12] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-05-14 13:29:12] WARNING root fetch - processPackages [wata]: Skipping package: exceeds size limit 45881728>=10485760
+[2024-05-14 13:29:12] INFO root fetch - main [MainThread]: End processing [wata] error
+[2024-05-14 13:29:12] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/1e/9e/5c70bb34abb70f3ef9fdb99921004355586cd3873850b11f11068704999a/conetwork_test-0.1.9.tar.gz
+[2024-05-14 13:29:12] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/70/d0/07aaf551363dca8be98b05dd2dbc394a2c5c0cac5ce037ed661c64532e84/antchain_nftc-1.0.8.tar.gz
+[2024-05-14 13:29:12] INFO root fetch - processPackages [structstore]: Downloading https://files.pythonhosted.org/packages/15/71/b263ed85e17ddbeb0407a5faf62e9436b85d2faeb414d847006cb95dd5f8/structstore-0.1.3.tar.gz
+[2024-05-14 13:29:12] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-05-14 13:29:12] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240514/v/valmi-connector-lib/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-14 13:29:12] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 13:29:12] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.8.tar.gz tmp/conetwork_test-0.1.9.tar.gz --markdown 20240514/c/conetwork-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 13:29:12] INFO root fetch - processPackages [structstore]: executing diffoscope
+[2024-05-14 13:29:12] INFO root fetch - processPackages [structstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structstore-0.1.2.tar.gz tmp/structstore-0.1.3.tar.gz --markdown 20240514/s/structstore/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 13:29:13] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/a0/5d/8ad4372b715b6b24700a1942458941881a34cf2277755309e68024f1d6b1/antchain_nftc-1.0.9.tar.gz
+[2024-05-14 13:29:13] INFO root fetch - processPackages [antchain-nftc]: executing diffoscope
+[2024-05-14 13:29:13] INFO root fetch - processPackages [antchain-nftc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftc-1.0.8.tar.gz tmp/antchain_nftc-1.0.9.tar.gz --markdown 20240514/a/antchain-nftc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 13:29:13] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-05-14 13:29:13] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-05-14 13:29:13] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-05-14 13:29:13] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 13:29:13] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.9.tar.gz]
+[2024-05-14 13:29:13] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 13:29:13] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.2.tar.gz]
+[2024-05-14 13:29:13] INFO root fetch - processPackages [structstore]: Remove: archive file [/home/abi/fetcher/tmp/structstore-0.1.3.tar.gz]
+[2024-05-14 13:29:13] INFO root fetch - main [MainThread]: End processing [structstore]: success
+[2024-05-14 13:29:14] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.8.tar.gz]
+[2024-05-14 13:29:14] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.9.tar.gz]
+[2024-05-14 13:29:14] INFO root fetch - main [MainThread]: End processing [antchain-nftc]: success
+[2024-05-14 13:29:14] INFO root fetch - main [MainThread]: Store serial: [23200295]
