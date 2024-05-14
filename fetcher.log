@@ -23665,3 +23665,63 @@
 [2024-05-14 15:22:36] INFO root fetch - processPackages [thriftpy2]: Remove: archive file [/home/abi/fetcher/tmp/thriftpy2-0.5.1rc1.tar.gz]
 [2024-05-14 15:22:36] INFO root fetch - main [MainThread]: End processing [thriftpy2]: success
 [2024-05-14 15:22:36] INFO root fetch - main [MainThread]: Store serial: [23201589]
+[2024-05-14 15:24:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201589]
+[2024-05-14 15:24:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eztils
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skillsnetwork-jupyter-extension
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fletmint
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BartePaySDK
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tq42-grpc-client
+[2024-05-14 15:24:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: malin
+[2024-05-14 15:24:45] INFO root fetch - processPackages [eztils]: New version: [0.4.94] Old Version: [0.4.93]
+[2024-05-14 15:24:45] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 15:24:45] INFO root fetch - processPackages [BartePaySDK]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 15:24:45] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: New version: [2.3.0rc3] Old Version: [2.3.0rc2]
+[2024-05-14 15:24:46] INFO root fetch - processPackages [cg]: New version: [60.7.9] Old Version: [60.7.8]
+[2024-05-14 15:24:46] INFO root fetch - processPackages [fletmint]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-14 15:24:46] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-14 15:24:46] WARNING root fetch - processPackages [malin]: Skipping, unable to determine old version
+[2024-05-14 15:24:46] INFO root fetch - main [MainThread]: End processing [malin] error
+[2024-05-14 15:24:46] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/c0/a6/d41cb9d3c34174e300a7c977709a92d75b0ca66333d6b4a8225a9f2c1061/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/44/4c/2c6765cf909b3cf89d94a9f9f15ebc4762df0f315a7e114363bf0635bf61/cg-60.7.8.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/85/e0/ac43e93c3828c0e1aa6322970499c9aa19a19f4064dfd4953b7500ff83bd/eztils-0.4.93.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [BartePaySDK]: Downloading https://files.pythonhosted.org/packages/66/37/d39eb921e7c2780dd18f508f4e61135414f8ccdfdd858a004adee54c576a/BartePaySDK-0.0.1.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [fletmint]: Downloading https://files.pythonhosted.org/packages/4e/4a/4351f145197a797b8e47e3417672f4f56dd11a93b4072239683df8658452/fletmint-0.1.3.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Downloading https://files.pythonhosted.org/packages/82/5c/420beab7693d27f7c5afcece5e24df2dcddd209b864dec30e57629e4e9a4/skillsnetwork_jupyter_extension-2.3.0rc3.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [eztils]: Downloading https://files.pythonhosted.org/packages/ed/c1/f585e5bfdbcbbd728fab118d9cb9abb433f495fccf86cfa34e0702192223/eztils-0.4.94.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-14 15:24:46] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240514/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 15:24:46] INFO root fetch - processPackages [BartePaySDK]: Downloading https://files.pythonhosted.org/packages/fe/51/c1cbbcc0289e8e5ac3b01abea3b64b6b78658dd39ce865ca3bcf9daaca6e/BartePaySDK-0.0.2.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-14 15:24:46] INFO root fetch - processPackages [fletmint]: Downloading https://files.pythonhosted.org/packages/49/81/2dbd5ed9dc5d8171836a17a5897dbc69546b708d7f3dc40a00ec40b2e5d6/fletmint-0.1.4.tar.gz
+[2024-05-14 15:24:46] INFO root fetch - processPackages [eztils]: executing diffoscope
+[2024-05-14 15:24:46] INFO root fetch - processPackages [eztils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eztils-0.4.93.tar.gz tmp/eztils-0.4.94.tar.gz --markdown 20240514/e/eztils/0.4.93-0.4.94/README.md --exclude *.pyd
+[2024-05-14 15:24:46] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: executing diffoscope
+[2024-05-14 15:24:46] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz tmp/skillsnetwork_jupyter_extension-2.3.0rc3.tar.gz --markdown 20240514/s/skillsnetwork-jupyter-extension/2.3.0rc2-2.3.0rc3/README.md --exclude *.pyd
+[2024-05-14 15:24:46] INFO root fetch - processPackages [BartePaySDK]: executing diffoscope
+[2024-05-14 15:24:46] INFO root fetch - processPackages [BartePaySDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BartePaySDK-0.0.1.tar.gz tmp/BartePaySDK-0.0.2.tar.gz --markdown 20240514/B/BartePaySDK/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 15:24:46] INFO root fetch - processPackages [fletmint]: executing diffoscope
+[2024-05-14 15:24:46] INFO root fetch - processPackages [fletmint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fletmint-0.1.3.tar.gz tmp/fletmint-0.1.4.tar.gz --markdown 20240514/f/fletmint/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-14 15:24:47] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-14 15:24:47] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.8.tar.gz tmp/cg-60.7.9-py3-none-any.whl.zip --markdown 20240514/c/cg/60.7.8-60.7.9/README.md --exclude *.pyd
+[2024-05-14 15:24:47] INFO root fetch - processPackages [BartePaySDK]: Remove: archive file [/home/abi/fetcher/tmp/BartePaySDK-0.0.1.tar.gz]
+[2024-05-14 15:24:47] INFO root fetch - processPackages [BartePaySDK]: Remove: archive file [/home/abi/fetcher/tmp/BartePaySDK-0.0.2.tar.gz]
+[2024-05-14 15:24:47] INFO root fetch - main [MainThread]: End processing [BartePaySDK]: success
+[2024-05-14 15:24:47] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.93.tar.gz]
+[2024-05-14 15:24:47] INFO root fetch - processPackages [eztils]: Remove: archive file [/home/abi/fetcher/tmp/eztils-0.4.94.tar.gz]
+[2024-05-14 15:24:47] INFO root fetch - main [MainThread]: End processing [eztils]: success
+[2024-05-14 15:24:47] INFO root fetch - processPackages [fletmint]: Remove: archive file [/home/abi/fetcher/tmp/fletmint-0.1.3.tar.gz]
+[2024-05-14 15:24:47] INFO root fetch - processPackages [fletmint]: Remove: archive file [/home/abi/fetcher/tmp/fletmint-0.1.4.tar.gz]
+[2024-05-14 15:24:47] INFO root fetch - main [MainThread]: End processing [fletmint]: success
+[2024-05-14 15:24:48] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc2.tar.gz]
+[2024-05-14 15:24:48] INFO root fetch - processPackages [skillsnetwork-jupyter-extension]: Remove: archive file [/home/abi/fetcher/tmp/skillsnetwork_jupyter_extension-2.3.0rc3.tar.gz]
+[2024-05-14 15:24:48] INFO root fetch - main [MainThread]: End processing [skillsnetwork-jupyter-extension]: success
+[2024-05-14 15:24:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.8.tar.gz]
+[2024-05-14 15:24:48] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-14 15:24:48] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-14 15:24:48] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-14 15:24:48] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-14 15:24:48] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-14 15:24:48] INFO root fetch - main [MainThread]: Store serial: [23201613]
