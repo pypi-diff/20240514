@@ -21576,3 +21576,51 @@
 [2024-05-14 14:07:31] INFO root fetch - processPackages [sigmund]: Remove: archive file [/home/abi/fetcher/tmp/sigmund-0.19.0.tar.gz]
 [2024-05-14 14:07:31] INFO root fetch - main [MainThread]: End processing [sigmund]: success
 [2024-05-14 14:07:31] INFO root fetch - main [MainThread]: Store serial: [23200722]
+[2024-05-14 14:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200722]
+[2024-05-14 14:09:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 14:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gcp-pal
+[2024-05-14 14:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-click
+[2024-05-14 14:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartboiler
+[2024-05-14 14:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torcheval-nightly
+[2024-05-14 14:09:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arikaim
+[2024-05-14 14:09:40] INFO root fetch - processPackages [sphinx-click]: New version: [5.2.0] Old Version: [5.1.0]
+[2024-05-14 14:09:40] INFO root fetch - processPackages [gcp-pal]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 14:09:40] INFO root fetch - processPackages [arikaim]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 14:09:40] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-14 14:09:40] INFO root fetch - processPackages [smartboiler]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-14 14:09:41] INFO root fetch - processPackages [sphinx-click]: Downloading https://files.pythonhosted.org/packages/9a/9b/5ab964dc1b4a47a0f3bfb6cb48c7a234d95f956e5338ad4e55797f86c4f5/sphinx-click-5.1.0.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/b9/53/0499b1bdad8e79c84118cbf501ebb26b70c8b5b60bce463c4a8d0618fe81/gcp_pal-1.0.8.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [arikaim]: Downloading https://files.pythonhosted.org/packages/2d/d9/3714c20e5bb2123390720359fcb7d67e0e1404a1a9a0a7db2fb6140afe2c/arikaim-0.5.8.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/98/c1/96a1c122528ea0121ecc29466d1a6b26c68b8a6036aae6bdb121ddcfdbff/torcheval_nightly-2024.5.8.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/94/1b/557f2016be749affc259d91e4f4db643bab09686c2b458dcad019c83e77f/smartboiler-1.0.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [sphinx-click]: Downloading https://files.pythonhosted.org/packages/3e/ef/ae751e476afa0ebd423f338f8235c1323457409c1abb1c3465fa4b3cd79d/sphinx_click-5.2.0.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [gcp-pal]: Downloading https://files.pythonhosted.org/packages/8c/b8/2efa9600008859fa691d602891fa9c6bb228fd92cd7f0036d55241b68620/gcp_pal-1.0.9.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/60/c3/da56bee236b598ba0c7ed2929a00a2cf4f41f79676194a22cd34a85b00eb/torcheval_nightly-2024.5.9.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [arikaim]: Downloading https://files.pythonhosted.org/packages/a8/ba/a768fd65c5203c8c8ae73dd32e468a4229d5a3b0ebe8b4b14a8d187a533c/arikaim-0.5.9.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/71/ed/407e7d2a7edde8d9e6c46a00c6734c91e40b9d755e28acce9cac40e89868/smartboiler-1.0.1.tar.gz
+[2024-05-14 14:09:41] INFO root fetch - processPackages [sphinx-click]: executing diffoscope
+[2024-05-14 14:09:41] INFO root fetch - processPackages [sphinx-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-click-5.1.0.tar.gz tmp/sphinx_click-5.2.0.tar.gz --markdown 20240514/s/sphinx-click/5.1.0-5.2.0/README.md --exclude *.pyd
+[2024-05-14 14:09:41] INFO root fetch - processPackages [arikaim]: executing diffoscope
+[2024-05-14 14:09:41] INFO root fetch - processPackages [arikaim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arikaim-0.5.8.tar.gz tmp/arikaim-0.5.9.tar.gz --markdown 20240514/a/arikaim/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 14:09:41] INFO root fetch - processPackages [gcp-pal]: executing diffoscope
+[2024-05-14 14:09:41] INFO root fetch - processPackages [gcp-pal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcp_pal-1.0.8.tar.gz tmp/gcp_pal-1.0.9.tar.gz --markdown 20240514/g/gcp-pal/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 14:09:41] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-05-14 14:09:41] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval_nightly-2024.5.8.tar.gz tmp/torcheval_nightly-2024.5.9.tar.gz --markdown 20240514/t/torcheval-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-14 14:09:41] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-05-14 14:09:41] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-1.0.tar.gz tmp/smartboiler-1.0.1.tar.gz --markdown 20240514/s/smartboiler/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 14:09:42] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-1.0.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-1.0.1.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-05-14 14:09:42] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.8.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - processPackages [gcp-pal]: Remove: archive file [/home/abi/fetcher/tmp/gcp_pal-1.0.9.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - main [MainThread]: End processing [gcp-pal]: success
+[2024-05-14 14:09:42] INFO root fetch - processPackages [arikaim]: Remove: archive file [/home/abi/fetcher/tmp/arikaim-0.5.8.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - processPackages [arikaim]: Remove: archive file [/home/abi/fetcher/tmp/arikaim-0.5.9.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - main [MainThread]: End processing [arikaim]: success
+[2024-05-14 14:09:42] INFO root fetch - processPackages [sphinx-click]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-click-5.1.0.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - processPackages [sphinx-click]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_click-5.2.0.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - main [MainThread]: End processing [sphinx-click]: success
+[2024-05-14 14:09:42] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.8.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval_nightly-2024.5.9.tar.gz]
+[2024-05-14 14:09:42] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-05-14 14:09:42] INFO root fetch - main [MainThread]: Store serial: [23200734]
