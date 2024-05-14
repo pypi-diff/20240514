@@ -8366,3 +8366,51 @@
 [2024-05-14 04:49:22] INFO root fetch - processPackages [lightspark]: Remove: archive file [/home/abi/fetcher/tmp/lightspark-2.7.0.zip]
 [2024-05-14 04:49:22] INFO root fetch - main [MainThread]: End processing [lightspark]: success
 [2024-05-14 04:49:22] INFO root fetch - main [MainThread]: Store serial: [23195041]
+[2024-05-14 04:51:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195041]
+[2024-05-14 04:51:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whylogs
+[2024-05-14 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: douyin-api
+[2024-05-14 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-meshing-prime
+[2024-05-14 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Books-pkg
+[2024-05-14 04:51:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duwi-smart-sdk
+[2024-05-14 04:51:31] INFO root fetch - processPackages [duwi-smart-sdk]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 04:51:31] INFO root fetch - processPackages [douyin-api]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-14 04:51:31] INFO root fetch - processPackages [ansys-meshing-prime]: New version: [0.6.0.dev9] Old Version: [0.6.0.dev8]
+[2024-05-14 04:51:31] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/60/30/855b6161982de2d90baf4576fa245ea6fff1d01c7d15c81dfeb3776728a7/duwi_smart_sdk-0.3.1.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: Downloading https://files.pythonhosted.org/packages/30/fe/a2328a0be4abc5082cd828ccd6d0698904512f692234fd1385ea3b774c56/books_pkg-1.0.0.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [whylogs]: New version: [1.4.0rc0] Old Version: [1.4.0]
+[2024-05-14 04:51:31] INFO root fetch - processPackages [douyin-api]: Downloading https://files.pythonhosted.org/packages/28/b2/880a8541d24b8244031f374cf8a4bfc170b622959139a9a8669346206299/douyin-api-0.1.6.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: Downloading https://files.pythonhosted.org/packages/59/c4/8f102f424ce7b01c1bd6c43c342516c99dd80bff191d20fbdc42481f858d/books_pkg-1.0.1.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/36/a3/cd3a329738949fbb360254c78bf83d19022069c3b5ea222cfdb4fd794ead/ansys_meshing_prime-0.6.0.dev8.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/74/29/71c8db7f819cb381c55d51b0d5207cf46211e5536e03a6c27f89f07f6f4e/whylogs-1.4.0.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: executing diffoscope
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/books_pkg-1.0.0.tar.gz tmp/books_pkg-1.0.1.tar.gz --markdown 20240514/B/Books-pkg/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 04:51:31] INFO root fetch - processPackages [duwi-smart-sdk]: Downloading https://files.pythonhosted.org/packages/67/71/730fe947b30799f808a182e7f072d2aa6a801de57c99c33915a74d474d57/duwi_smart_sdk-0.3.2.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [duwi-smart-sdk]: executing diffoscope
+[2024-05-14 04:51:31] INFO root fetch - processPackages [duwi-smart-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smart_sdk-0.3.1.tar.gz tmp/duwi_smart_sdk-0.3.2.tar.gz --markdown 20240514/d/duwi-smart-sdk/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-14 04:51:31] INFO root fetch - processPackages [douyin-api]: Downloading https://files.pythonhosted.org/packages/4e/0c/0cc877fb5a42d866b57cb19fb07bff1a92f697f3284757354d8897841557/douyin-api-0.1.7.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [douyin-api]: executing diffoscope
+[2024-05-14 04:51:31] INFO root fetch - processPackages [douyin-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/douyin-api-0.1.6.tar.gz tmp/douyin-api-0.1.7.tar.gz --markdown 20240514/d/douyin-api/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-14 04:51:31] INFO root fetch - processPackages [ansys-meshing-prime]: Downloading https://files.pythonhosted.org/packages/bc/a2/fa441463b5acfa293eaeeda9ae1bbe664af2b00a85870cc22466e5d16904/ansys_meshing_prime-0.6.0.dev9.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [whylogs]: Downloading https://files.pythonhosted.org/packages/02/1e/41641228774ab33efe236a2a4228b230b57a30117f933d671bc40d5433de/whylogs-1.4.0rc0.tar.gz
+[2024-05-14 04:51:31] INFO root fetch - processPackages [ansys-meshing-prime]: executing diffoscope
+[2024-05-14 04:51:31] INFO root fetch - processPackages [ansys-meshing-prime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_meshing_prime-0.6.0.dev8.tar.gz tmp/ansys_meshing_prime-0.6.0.dev9.tar.gz --markdown 20240514/a/ansys-meshing-prime/0.6.0.dev8-0.6.0.dev9/README.md --exclude *.pyd
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: Remove: archive file [/home/abi/fetcher/tmp/books_pkg-1.0.0.tar.gz]
+[2024-05-14 04:51:31] INFO root fetch - processPackages [Books-pkg]: Remove: archive file [/home/abi/fetcher/tmp/books_pkg-1.0.1.tar.gz]
+[2024-05-14 04:51:31] INFO root fetch - main [MainThread]: End processing [Books-pkg]: success
+[2024-05-14 04:51:32] INFO root fetch - processPackages [whylogs]: executing diffoscope
+[2024-05-14 04:51:32] INFO root fetch - processPackages [whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whylogs-1.4.0.tar.gz tmp/whylogs-1.4.0rc0.tar.gz --markdown 20240514/w/whylogs/1.4.0-1.4.0rc0/README.md --exclude *.pyd
+[2024-05-14 04:51:32] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.3.1.tar.gz]
+[2024-05-14 04:51:32] INFO root fetch - processPackages [duwi-smart-sdk]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smart_sdk-0.3.2.tar.gz]
+[2024-05-14 04:51:32] INFO root fetch - main [MainThread]: End processing [duwi-smart-sdk]: success
+[2024-05-14 04:51:32] INFO root fetch - processPackages [douyin-api]: Remove: archive file [/home/abi/fetcher/tmp/douyin-api-0.1.6.tar.gz]
+[2024-05-14 04:51:32] INFO root fetch - processPackages [douyin-api]: Remove: archive file [/home/abi/fetcher/tmp/douyin-api-0.1.7.tar.gz]
+[2024-05-14 04:51:32] INFO root fetch - main [MainThread]: End processing [douyin-api]: success
+[2024-05-14 04:51:33] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.0.tar.gz]
+[2024-05-14 04:51:33] INFO root fetch - processPackages [whylogs]: Remove: archive file [/home/abi/fetcher/tmp/whylogs-1.4.0rc0.tar.gz]
+[2024-05-14 04:51:33] INFO root fetch - main [MainThread]: End processing [whylogs]: success
+[2024-05-14 04:51:34] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev8.tar.gz]
+[2024-05-14 04:51:34] INFO root fetch - processPackages [ansys-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys_meshing_prime-0.6.0.dev9.tar.gz]
+[2024-05-14 04:51:34] INFO root fetch - main [MainThread]: End processing [ansys-meshing-prime]: success
+[2024-05-14 04:51:34] INFO root fetch - main [MainThread]: Store serial: [23195055]
