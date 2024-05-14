@@ -18275,3 +18275,87 @@
 [2024-05-14 12:02:30] INFO root fetch - processPackages [OctoPrint]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-1.9.3.tar.gz]
 [2024-05-14 12:02:30] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
 [2024-05-14 12:02:30] INFO root fetch - main [MainThread]: Store serial: [23199207]
+[2024-05-14 12:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199207]
+[2024-05-14 12:04:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dig-ass-ocr-protos
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dig-ass-chat-protos
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dig-ass-critic-protos
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dig-ass-text-protos
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ignition-framework
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinscrape
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pisahkan-ktp
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensortrax
+[2024-05-14 12:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: avro-py
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-chat-protos]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-text-protos]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-critic-protos]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [pisahkan-ktp]: New version: [0.2.10] Old Version: [0.1.8]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-ocr-protos]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [pinscrape]: New version: [3.0.5] Old Version: [3.0.3]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [ignition-framework]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [avro-py]: New version: [2024.5.14] Old Version: [2024.5.1]
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/ad/24/d4a58a2cd1fbe9a26874a1e93e7f4151628e81acdfc9bcd3be0c742961e4/dig_ass_chat_protos-1.0.0.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/2b/3a/387ea282eb5bded48977904c2b3f0bb394ab1427593a5420c8ce02405ed7/pisahkan_ktp-0.1.8.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/d1/56/4660bcb4b81f4cacdd4c54fd271b3e33fb11a74748ea465e7eb3da738f08/dig_ass_critic_protos-1.0.0.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/23/f3/f29b0e463c1656bf4d8dd5e0893876e3b66811c28525fe434a04538818e2/dig_ass_text_protos-1.0.1.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/6a/33/8e0e00916ab23a4829b8db8208d2e75c197887024b9393215073613efa10/dig_ass_ocr_protos-0.0.5.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [ignition-framework]: Downloading https://files.pythonhosted.org/packages/2a/ff/5752cfa3baceb25de24b1edace4140da00c306c560174f92502a842f8c83/ignition_framework-3.6.0-py3-none-any.whl
+[2024-05-14 12:04:39] INFO root fetch - processPackages [pinscrape]: Downloading https://files.pythonhosted.org/packages/33/a9/82a44eaeafc2195514a3d6ad3c5802022e04ae5663434fb8e2429aaff8bb/pinscrape-3.0.3.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/30/26/b85f8bb970de74821afb5a49cf1a486d0408fda8fcda1599f0bba879bc99/dig_ass_text_protos-1.0.2.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [avro-py]: Downloading https://files.pythonhosted.org/packages/6a/04/8601aefb5df8049d0ed0b4f6a1ddb42c504d4d6972f0c4faf729064ce093/avro_py-2024.5.1.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/f9/f7/547e3c09bb5d63279fcdef17d990a85f7f13ab23a604fc436b2fd6efd20e/dig_ass_chat_protos-1.0.1.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/82/a6/74c4e9b3cd2efb8b97425a8f3e87960496e00ce29bf11fee65748d25bb61/dig_ass_critic_protos-1.0.2.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [pisahkan-ktp]: Downloading https://files.pythonhosted.org/packages/7a/ba/efaba7df0f7035fc00ec27a28a6a703ced05e4ac74d5f61e493f61af4a1b/pisahkan_ktp-0.2.10.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-ocr-protos]: Downloading https://files.pythonhosted.org/packages/99/07/b88a403bb0df410b85972eb91a996694ced2e21cadba65949a8656e703cf/dig_ass_ocr_protos-0.0.6.tar.gz
+[2024-05-14 12:04:39] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2024-05-14 12:04:39] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20240514/t/tensortrax/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-text-protos]: executing diffoscope
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-text-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_text_protos-1.0.1.tar.gz tmp/dig_ass_text_protos-1.0.2.tar.gz --markdown 20240514/d/dig-ass-text-protos/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-chat-protos]: executing diffoscope
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-chat-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_chat_protos-1.0.0.tar.gz tmp/dig_ass_chat_protos-1.0.1.tar.gz --markdown 20240514/d/dig-ass-chat-protos/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-critic-protos]: executing diffoscope
+[2024-05-14 12:04:39] INFO root fetch - processPackages [dig-ass-critic-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_critic_protos-1.0.0.tar.gz tmp/dig_ass_critic_protos-1.0.2.tar.gz --markdown 20240514/d/dig-ass-critic-protos/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-14 12:04:40] INFO root fetch - processPackages [dig-ass-ocr-protos]: executing diffoscope
+[2024-05-14 12:04:40] INFO root fetch - processPackages [dig-ass-ocr-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ocr_protos-0.0.5.tar.gz tmp/dig_ass_ocr_protos-0.0.6.tar.gz --markdown 20240514/d/dig-ass-ocr-protos/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 12:04:40] INFO root fetch - processPackages [pinscrape]: Downloading https://files.pythonhosted.org/packages/2b/c7/ea3099d157f56e876cf40312294aee875533796b8dc582da3d45d3e59bdc/pinscrape-3.0.5.tar.gz
+[2024-05-14 12:04:40] INFO root fetch - processPackages [pisahkan-ktp]: executing diffoscope
+[2024-05-14 12:04:40] INFO root fetch - processPackages [pisahkan-ktp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pisahkan_ktp-0.1.8.tar.gz tmp/pisahkan_ktp-0.2.10.tar.gz --markdown 20240514/p/pisahkan-ktp/0.1.8-0.2.10/README.md --exclude *.pyd
+[2024-05-14 12:04:40] INFO root fetch - processPackages [ignition-framework]: Downloading https://files.pythonhosted.org/packages/9b/7e/99f67e7a35d992ee9cd99703842c910653e2515f7b8204ef7670977c018a/ignition_framework-3.6.1-py3-none-any.whl
+[2024-05-14 12:04:40] INFO root fetch - processPackages [pinscrape]: executing diffoscope
+[2024-05-14 12:04:40] INFO root fetch - processPackages [pinscrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinscrape-3.0.3.tar.gz tmp/pinscrape-3.0.5.tar.gz --markdown 20240514/p/pinscrape/3.0.3-3.0.5/README.md --exclude *.pyd
+[2024-05-14 12:04:40] INFO root fetch - processPackages [avro-py]: Downloading https://files.pythonhosted.org/packages/07/2f/aa7b4066aebdfb31ad1249d8a06af3d4560fc59fd0a1fb6c898c06d93f61/avro_py-2024.5.14.tar.gz
+[2024-05-14 12:04:40] INFO root fetch - processPackages [ignition-framework]: executing diffoscope
+[2024-05-14 12:04:40] INFO root fetch - processPackages [ignition-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_framework-3.6.0-py3-none-any.whl.zip tmp/ignition_framework-3.6.1-py3-none-any.whl.zip --markdown 20240514/i/ignition-framework/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-05-14 12:04:40] INFO root fetch - processPackages [avro-py]: executing diffoscope
+[2024-05-14 12:04:40] INFO root fetch - processPackages [avro-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avro_py-2024.5.1.tar.gz tmp/avro_py-2024.5.14.tar.gz --markdown 20240514/a/avro-py/2024.5.1-2024.5.14/README.md --exclude *.pyd
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.0.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-1.0.2.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.5.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-ocr-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ocr_protos-0.0.6.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [dig-ass-ocr-protos]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.0.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-1.0.1.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [pinscrape]: Remove: archive file [/home/abi/fetcher/tmp/pinscrape-3.0.3.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [pinscrape]: Remove: archive file [/home/abi/fetcher/tmp/pinscrape-3.0.5.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [pinscrape]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.1.8.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [pisahkan-ktp]: Remove: archive file [/home/abi/fetcher/tmp/pisahkan_ktp-0.2.10.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.8.5.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [pisahkan-ktp]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [tensortrax]: Remove: archive file [/home/abi/fetcher/tmp/tensortrax-0.9.0.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.1.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-1.0.2.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [dig-ass-text-protos]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [avro-py]: Remove: archive file [/home/abi/fetcher/tmp/avro_py-2024.5.1.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [avro-py]: Remove: archive file [/home/abi/fetcher/tmp/avro_py-2024.5.14.tar.gz]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [avro-py]: success
+[2024-05-14 12:04:41] INFO root fetch - processPackages [ignition-framework]: Remove: archive file [/home/abi/fetcher/tmp/ignition_framework-3.6.0-py3-none-any.whl.zip]
+[2024-05-14 12:04:41] INFO root fetch - processPackages [ignition-framework]: Remove: archive file [/home/abi/fetcher/tmp/ignition_framework-3.6.1-py3-none-any.whl.zip]
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: End processing [ignition-framework]: success
+[2024-05-14 12:04:41] INFO root fetch - main [MainThread]: Store serial: [23199243]
