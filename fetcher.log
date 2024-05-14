@@ -10806,3 +10806,42 @@
 [2024-05-14 07:30:00] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
 [2024-05-14 07:30:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
 [2024-05-14 07:30:00] INFO root fetch - main [MainThread]: Store serial: [23195960]
+[2024-05-14 07:32:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195960]
+[2024-05-14 07:32:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crazy-thursday
+[2024-05-14 07:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gridtk
+[2024-05-14 07:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cancer-simulation
+[2024-05-14 07:32:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfx
+[2024-05-14 07:32:08] INFO root fetch - processPackages [cancer-simulation]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-14 07:32:08] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 07:32:08] INFO root fetch - processPackages [crazy-thursday]: New version: [2024.5.9.1] Old Version: [2024.5.9.0]
+[2024-05-14 07:32:08] INFO root fetch - processPackages [gridtk]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-05-14 07:32:08] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-14 07:32:08] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/ff/42/4bfdcfbb3610be3d63aa363b485786fe25f36b2ea6eace008752e9b268a8/cancer_simulation-0.7.2.tar.gz
+[2024-05-14 07:32:08] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/3f/0a/108e3af749c5757158be48151418c2bbea49bff2269af8811bade316080a/crazy_thursday-2024.5.9.0.tar.gz
+[2024-05-14 07:32:09] INFO root fetch - processPackages [gridtk]: Downloading https://files.pythonhosted.org/packages/23/97/c0c2aaae556fd47adb9982506c2c6ca5e02566dc9e54ba2c69c0b1cd5ac0/gridtk-2.0.1.tar.gz
+[2024-05-14 07:32:09] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/20/70/a719fb059f910b10790f6a51b1c5c3ff943f1349c91c46142f1911323575/crazy_thursday-2024.5.9.1.tar.gz
+[2024-05-14 07:32:09] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-14 07:32:09] INFO root fetch - processPackages [cancer-simulation]: Downloading https://files.pythonhosted.org/packages/61/18/d7cc8f28919af4aa4a395af41bda28b512e74bc3fac1c6e9c69778402a44/cancer_simulation-0.7.3.tar.gz
+[2024-05-14 07:32:09] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-14 07:32:09] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240514/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 07:32:09] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2024-05-14 07:32:09] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy_thursday-2024.5.9.0.tar.gz tmp/crazy_thursday-2024.5.9.1.tar.gz --markdown 20240514/c/crazy-thursday/2024.5.9.0-2024.5.9.1/README.md --exclude *.pyd
+[2024-05-14 07:32:09] INFO root fetch - processPackages [cancer-simulation]: executing diffoscope
+[2024-05-14 07:32:09] INFO root fetch - processPackages [cancer-simulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cancer_simulation-0.7.2.tar.gz tmp/cancer_simulation-0.7.3.tar.gz --markdown 20240514/c/cancer-simulation/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-14 07:32:09] INFO root fetch - processPackages [gridtk]: Downloading https://files.pythonhosted.org/packages/98/08/59e5035dde278e4611291cf08edf9faa94152c4d627d2a1df398a076df2c/gridtk-2.1.0.tar.gz
+[2024-05-14 07:32:09] INFO root fetch - processPackages [gridtk]: executing diffoscope
+[2024-05-14 07:32:09] INFO root fetch - processPackages [gridtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridtk-2.0.1.tar.gz tmp/gridtk-2.1.0.tar.gz --markdown 20240514/g/gridtk/2.0.1-2.1.0/README.md --exclude *.pyd
+[2024-05-14 07:32:09] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.0.tar.gz]
+[2024-05-14 07:32:09] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy_thursday-2024.5.9.1.tar.gz]
+[2024-05-14 07:32:09] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2024-05-14 07:32:09] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.2.tar.gz]
+[2024-05-14 07:32:09] INFO root fetch - processPackages [cancer-simulation]: Remove: archive file [/home/abi/fetcher/tmp/cancer_simulation-0.7.3.tar.gz]
+[2024-05-14 07:32:09] INFO root fetch - main [MainThread]: End processing [cancer-simulation]: success
+[2024-05-14 07:32:09] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-14 07:32:09] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-14 07:32:09] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-14 07:32:10] INFO root fetch - processPackages [gridtk]: Remove: archive file [/home/abi/fetcher/tmp/gridtk-2.0.1.tar.gz]
+[2024-05-14 07:32:10] INFO root fetch - processPackages [gridtk]: Remove: archive file [/home/abi/fetcher/tmp/gridtk-2.1.0.tar.gz]
+[2024-05-14 07:32:10] INFO root fetch - main [MainThread]: End processing [gridtk]: success
+[2024-05-14 07:32:10] INFO root fetch - main [MainThread]: Store serial: [23195972]
