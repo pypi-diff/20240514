@@ -8903,3 +8903,33 @@
 [2024-05-14 05:28:35] INFO root fetch - processPackages [MyLLM]: Remove: archive file [/home/abi/fetcher/tmp/myllm-4.8.9.tar.gz]
 [2024-05-14 05:28:35] INFO root fetch - main [MainThread]: End processing [MyLLM]: success
 [2024-05-14 05:28:35] INFO root fetch - main [MainThread]: Store serial: [23195225]
+[2024-05-14 05:30:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195225]
+[2024-05-14 05:30:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 05:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-upcloud
+[2024-05-14 05:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keras-nlp-nightly
+[2024-05-14 05:30:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RegScale-CLI
+[2024-05-14 05:30:44] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024041003] Old Version: [0.9.0.dev2024040803]
+[2024-05-14 05:30:44] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-14 05:30:44] INFO root fetch - processPackages [RegScale-CLI]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-14 05:30:44] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e9/c8/7f581d2ae825faa0b7973bcc73c15e31c01c7e1f5c085a746ded34473011/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz
+[2024-05-14 05:30:44] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/c0/3c/af33368b4c7a4b70e95bce5aa26c2a0e4a13891861c926506de5ee00d648/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz
+[2024-05-14 05:30:44] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/2b/3f/878438fa28f5ffd3c38125c73b4b234937896776bf6f52a64031c5602a30/RegScale_CLI-5.8.0-py3-none-any.whl
+[2024-05-14 05:30:44] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/74/95/bdeb12dec2c7c5b69ee11a239dcb09345f2e4180ca0e26e6f12bef8f5013/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz
+[2024-05-14 05:30:45] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-05-14 05:30:45] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz --markdown 20240514/k/keras-nlp-nightly/0.9.0.dev2024040803-0.9.0.dev2024041003/README.md --exclude *.pyd
+[2024-05-14 05:30:45] INFO root fetch - processPackages [RegScale-CLI]: Downloading https://files.pythonhosted.org/packages/81/07/778978d646b2a15a81f5db8b7ec76ce6f41543e491b67f82cc41051e8332/RegScale_CLI-5.9.0-py3-none-any.whl
+[2024-05-14 05:30:45] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Downloading https://files.pythonhosted.org/packages/11/34/e1c239edd060e043f3bda7830f678ebce24c01902bdaeb3e433a968bab0b/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz
+[2024-05-14 05:30:45] INFO root fetch - processPackages [RegScale-CLI]: executing diffoscope
+[2024-05-14 05:30:45] INFO root fetch - processPackages [RegScale-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip --markdown 20240514/R/RegScale-CLI/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-14 05:30:45] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: executing diffoscope
+[2024-05-14 05:30:45] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz --markdown 20240514/c/cdktf-cdktf-provider-upcloud/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-14 05:30:46] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-8.0.0.tar.gz]
+[2024-05-14 05:30:46] INFO root fetch - processPackages [cdktf-cdktf-provider-upcloud]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-upcloud-9.0.0.tar.gz]
+[2024-05-14 05:30:46] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-upcloud]: success
+[2024-05-14 05:30:46] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.8.0-py3-none-any.whl.zip]
+[2024-05-14 05:30:46] INFO root fetch - processPackages [RegScale-CLI]: Remove: archive file [/home/abi/fetcher/tmp/RegScale_CLI-5.9.0-py3-none-any.whl.zip]
+[2024-05-14 05:30:46] INFO root fetch - main [MainThread]: End processing [RegScale-CLI]: success
+[2024-05-14 05:30:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040803.tar.gz]
+[2024-05-14 05:30:46] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024041003.tar.gz]
+[2024-05-14 05:30:46] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-05-14 05:30:46] INFO root fetch - main [MainThread]: Store serial: [23195233]
