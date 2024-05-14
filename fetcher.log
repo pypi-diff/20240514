@@ -11112,3 +11112,39 @@
 [2024-05-14 07:43:21] INFO root fetch - processPackages [tgqSim]: Remove: archive file [/home/abi/fetcher/tmp/tgqSim-0.1.7.tar.gz]
 [2024-05-14 07:43:21] INFO root fetch - main [MainThread]: End processing [tgqSim]: success
 [2024-05-14 07:43:21] INFO root fetch - main [MainThread]: Store serial: [23196058]
+[2024-05-14 07:45:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196058]
+[2024-05-14 07:45:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HakObserverpy
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyextrica
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mulankit
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mygraserpipackage
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: df-app
+[2024-05-14 07:45:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scim2-filter-parser
+[2024-05-14 07:45:30] WARNING root fetch - processPackages [HakObserverpy]: Skipping, unable to determine old version
+[2024-05-14 07:45:30] INFO root fetch - main [MainThread]: End processing [HakObserverpy] error
+[2024-05-14 07:45:30] WARNING root fetch - processPackages [mulankit]: Skipping, unable to determine old version
+[2024-05-14 07:45:30] INFO root fetch - main [MainThread]: End processing [mulankit] error
+[2024-05-14 07:45:30] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-14 07:45:30] WARNING root fetch - processPackages [pyextrica]: Skipping, unable to determine old version
+[2024-05-14 07:45:30] INFO root fetch - main [MainThread]: End processing [pyextrica] error
+[2024-05-14 07:45:30] WARNING root fetch - processPackages [df-app]: Skipping, unable to determine old version
+[2024-05-14 07:45:30] INFO root fetch - main [MainThread]: End processing [df-app] error
+[2024-05-14 07:45:30] WARNING root fetch - processPackages [mygraserpipackage]: Skipping, unable to determine old version
+[2024-05-14 07:45:30] INFO root fetch - main [MainThread]: End processing [mygraserpipackage] error
+[2024-05-14 07:45:30] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-14 07:45:30] INFO root fetch - processPackages [scim2-filter-parser]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-14 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-14 07:45:31] INFO root fetch - processPackages [scim2-filter-parser]: Downloading https://files.pythonhosted.org/packages/a5/b1/d8cb9f0848cb02f590aed8b50b53b14887339a69f07c3a0e12efd1ed57e8/scim2_filter_parser-0.5.0.tar.gz
+[2024-05-14 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-14 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240514/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-14 07:45:31] INFO root fetch - processPackages [scim2-filter-parser]: Downloading https://files.pythonhosted.org/packages/54/df/ad9718acce76e81a93c57327356eecd23701625f240fbe03d305250399e6/scim2_filter_parser-0.5.1.tar.gz
+[2024-05-14 07:45:31] INFO root fetch - processPackages [scim2-filter-parser]: executing diffoscope
+[2024-05-14 07:45:31] INFO root fetch - processPackages [scim2-filter-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scim2_filter_parser-0.5.0.tar.gz tmp/scim2_filter_parser-0.5.1.tar.gz --markdown 20240514/s/scim2-filter-parser/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-14 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-14 07:45:31] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-14 07:45:31] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-14 07:45:32] INFO root fetch - processPackages [scim2-filter-parser]: Remove: archive file [/home/abi/fetcher/tmp/scim2_filter_parser-0.5.0.tar.gz]
+[2024-05-14 07:45:32] INFO root fetch - processPackages [scim2-filter-parser]: Remove: archive file [/home/abi/fetcher/tmp/scim2_filter_parser-0.5.1.tar.gz]
+[2024-05-14 07:45:32] INFO root fetch - main [MainThread]: End processing [scim2-filter-parser]: success
+[2024-05-14 07:45:32] INFO root fetch - main [MainThread]: Store serial: [23196084]
