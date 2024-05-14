@@ -12184,3 +12184,42 @@
 [2024-05-14 08:40:27] INFO root fetch - processPackages [jellyfin-mpv-shim]: Remove: archive file [/home/abi/fetcher/tmp/jellyfin-mpv-shim-2.7.0.tar.gz]
 [2024-05-14 08:40:27] INFO root fetch - main [MainThread]: End processing [jellyfin-mpv-shim]: success
 [2024-05-14 08:40:27] INFO root fetch - main [MainThread]: Store serial: [23196656]
+[2024-05-14 08:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196656]
+[2024-05-14 08:42:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 08:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fleece-network
+[2024-05-14 08:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-kookit
+[2024-05-14 08:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-14 08:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopkg-wrapper
+[2024-05-14 08:42:37] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.0] Old Version: [0.3.1]
+[2024-05-14 08:42:37] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/19/ac/970fb5cf51b2450b93da832fa3984b5b6b52abf2401a35b718a70cecf04a/cvprocessor-0.3.1.tar.gz
+[2024-05-14 08:42:37] INFO root fetch - processPackages [pytest-kookit]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-14 08:42:37] INFO root fetch - processPackages [fleece-network]: New version: [0.4.0] Old Version: [0.2.2]
+[2024-05-14 08:42:37] INFO root fetch - processPackages [autopkg-wrapper]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-14 08:42:38] INFO root fetch - processPackages [fleece-network]: Downloading https://files.pythonhosted.org/packages/be/cb/046876953f5722c2e77055136cc933f8cabd06d083f4b00902f8f732bf65/fleece_network-0.2.2.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/f1/56/6a92e5558d6ae10774ab13f87e9010cbd50e1b2c8550492a4a76f7d551d3/pytest_kookit-0.0.2.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/f4/17/b235db7b02ca5bf790c48850f6374fe88c34a65fe6d96601f4149b5e0fcd/cvprocessor-0.5.0.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [autopkg-wrapper]: Downloading https://files.pythonhosted.org/packages/f7/2b/886d3ff8f98e6defab79c4078758b4aa91eecdf088c0d47e9ae5f6fb2444/autopkg_wrapper-2024.5.1.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 08:42:38] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.3.1.tar.gz tmp/cvprocessor-0.5.0.tar.gz --markdown 20240514/c/cvprocessor/0.3.1-0.5.0/README.md --exclude *.pyd
+[2024-05-14 08:42:38] INFO root fetch - processPackages [fleece-network]: Downloading https://files.pythonhosted.org/packages/ca/90/dff3d2f24159f3fd4dbbecf301eb9bdbc371b6698a9bb5eb4e1c130fc561/fleece_network-0.4.0.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [pytest-kookit]: Downloading https://files.pythonhosted.org/packages/73/40/3fd9b299cc8700945aa4ea39da67f3eecd8d8c960349c808b7026de710c2/pytest_kookit-0.1.0.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [autopkg-wrapper]: Downloading https://files.pythonhosted.org/packages/84/f0/18fe6f29e3cb9408a4c048fe4396783ab0c1aafb7b54a07374d5b8ade041/autopkg_wrapper-2024.5.2.tar.gz
+[2024-05-14 08:42:38] INFO root fetch - processPackages [pytest-kookit]: executing diffoscope
+[2024-05-14 08:42:38] INFO root fetch - processPackages [pytest-kookit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_kookit-0.0.2.tar.gz tmp/pytest_kookit-0.1.0.tar.gz --markdown 20240514/p/pytest-kookit/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-14 08:42:38] INFO root fetch - processPackages [fleece-network]: executing diffoscope
+[2024-05-14 08:42:38] INFO root fetch - processPackages [fleece-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleece_network-0.2.2.tar.gz tmp/fleece_network-0.4.0.tar.gz --markdown 20240514/f/fleece-network/0.2.2-0.4.0/README.md --exclude *.pyd
+[2024-05-14 08:42:38] INFO root fetch - processPackages [autopkg-wrapper]: executing diffoscope
+[2024-05-14 08:42:38] INFO root fetch - processPackages [autopkg-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopkg_wrapper-2024.5.1.tar.gz tmp/autopkg_wrapper-2024.5.2.tar.gz --markdown 20240514/a/autopkg-wrapper/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-14 08:42:38] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.3.1.tar.gz]
+[2024-05-14 08:42:38] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.0.tar.gz]
+[2024-05-14 08:42:38] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 08:42:39] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.2.2.tar.gz]
+[2024-05-14 08:42:39] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.4.0.tar.gz]
+[2024-05-14 08:42:39] INFO root fetch - main [MainThread]: End processing [fleece-network]: success
+[2024-05-14 08:42:39] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.0.2.tar.gz]
+[2024-05-14 08:42:39] INFO root fetch - processPackages [pytest-kookit]: Remove: archive file [/home/abi/fetcher/tmp/pytest_kookit-0.1.0.tar.gz]
+[2024-05-14 08:42:39] INFO root fetch - main [MainThread]: End processing [pytest-kookit]: success
+[2024-05-14 08:42:39] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.5.1.tar.gz]
+[2024-05-14 08:42:39] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.5.2.tar.gz]
+[2024-05-14 08:42:39] INFO root fetch - main [MainThread]: End processing [autopkg-wrapper]: success
+[2024-05-14 08:42:39] INFO root fetch - main [MainThread]: Store serial: [23196671]
