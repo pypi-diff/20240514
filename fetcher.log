@@ -2529,3 +2529,90 @@
 [2024-05-14 02:13:41] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.8.1.tar.gz]
 [2024-05-14 02:13:41] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
 [2024-05-14 02:13:41] INFO root fetch - main [MainThread]: Store serial: [23192817]
+[2024-05-14 02:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192817]
+[2024-05-14 02:15:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: athena-intelligence
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-ignite
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pms-encoder
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-common
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-gitlab-runner
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openinference-instrumentation
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ducttape-calpads
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonaffinityz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.58] Old Version: [0.1.57]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [pms-encoder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240513] Old Version: [0.6.0.dev20240512]
+[2024-05-14 02:15:50] WARNING root fetch - processPackages [ducttape-calpads]: Skipping, unable to determine old version
+[2024-05-14 02:15:50] INFO root fetch - processPackages [ducttape-calpads]: Start processing: abstract-shapes
+[2024-05-14 02:15:50] INFO root fetch - main [MainThread]: End processing [ducttape-calpads] error
+[2024-05-14 02:15:50] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [openinference-instrumentation]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 02:15:50] WARNING root fetch - processPackages [nonaffinityz]: Skipping, unable to determine old version
+[2024-05-14 02:15:50] INFO root fetch - main [MainThread]: End processing [nonaffinityz] error
+[2024-05-14 02:15:50] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/16/fa/c3d8477e295ea7656f7c9dcaa37e189581afa8a2c87b30cad2b390a06ff7/athena_intelligence-0.1.57.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/80/f1/88f2f54188c15bf6cca5ba7a3a347b8d1c83b15a626f541acf3dde5aa63d/pms_encoder-0.0.8.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 02:15:50] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/d0/e0/31dcb978ba0db0436c939047aa516ac8ddcda11b0ce6ae63816e4db77f30/pytorch_ignite-0.6.0.dev20240512.tar.gz
+[2024-05-14 02:15:50] INFO root fetch - processPackages [openinference-instrumentation]: Downloading https://files.pythonhosted.org/packages/15/b8/8b87094424ffbc3ef36dda8a88f884c4e234c6f5a7ebb5a93ff77cc64cfc/openinference_instrumentation-0.1.5.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/be/c0/1783445327530f30ca3ec35c18788131da2161d0131172a24a4a232da4a3/athena_intelligence-0.1.58.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [pms-encoder]: Downloading https://files.pythonhosted.org/packages/93/31/8bb081756db42925fab6507b6e0f497d6bf45acd407ff38cb00f2aaec54c/pms_encoder-0.0.9.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.57.tar.gz tmp/athena_intelligence-0.1.58.tar.gz --markdown 20240514/a/athena-intelligence/0.1.57-0.1.58/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [pms-encoder]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [pms-encoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pms_encoder-0.0.8.tar.gz tmp/pms_encoder-0.0.9.tar.gz --markdown 20240514/p/pms-encoder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240514/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240514/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [openinference-instrumentation]: Downloading https://files.pythonhosted.org/packages/00/83/cadc57437849348e5db0c7667ed65178b2fd0d635da3b77d30b2aaecafba/openinference_instrumentation-0.1.6.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/85/71/17096cb6857dc3224f57ad2c5029bd14cfd79f079551ee6d8fd34e4fefa8/pytorch_ignite-0.6.0.dev20240513.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-14 02:15:51] INFO root fetch - processPackages [openinference-instrumentation]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [openinference-instrumentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation-0.1.5.tar.gz tmp/openinference_instrumentation-0.1.6.tar.gz --markdown 20240514/o/openinference-instrumentation/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240512.tar.gz tmp/pytorch_ignite-0.6.0.dev20240513.tar.gz --markdown 20240514/p/pytorch-ignite/0.6.0.dev20240512-0.6.0.dev20240513/README.md --exclude *.pyd
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-14 02:15:51] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240514/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-14 02:15:52] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.8.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [pms-encoder]: Remove: archive file [/home/abi/fetcher/tmp/pms_encoder-0.0.9.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [pms-encoder]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [openinference-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation-0.1.5.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [openinference-instrumentation]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation-0.1.6.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation]: success
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.57.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.58.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-14 02:15:52] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240512.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240513.tar.gz]
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-14 02:15:52] INFO root fetch - main [MainThread]: Store serial: [23192852]
