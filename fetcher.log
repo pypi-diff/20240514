@@ -18151,3 +18151,42 @@
 [2024-05-14 11:58:03] INFO root fetch - processPackages [tempit]: Remove: archive file [/home/abi/fetcher/tmp/tempit-0.1.6.tar.gz]
 [2024-05-14 11:58:03] INFO root fetch - main [MainThread]: End processing [tempit]: success
 [2024-05-14 11:58:03] INFO root fetch - main [MainThread]: Store serial: [23199156]
+[2024-05-14 12:00:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199156]
+[2024-05-14 12:00:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: therix
+[2024-05-14 12:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poetry-dockerize-plugin
+[2024-05-14 12:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: QtHarmony
+[2024-05-14 12:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servicelayer
+[2024-05-14 12:00:12] INFO root fetch - processPackages [QtHarmony]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-14 12:00:12] INFO root fetch - processPackages [therix]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 12:00:12] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-14 12:00:12] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/99/d5/4e68e17530bdd81793ffc35ec6513cbd992d48a80a4fe832bc27f32b910d/therix-0.1.5.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [poetry-dockerize-plugin]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-14 12:00:12] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/02/3a/76bda8e658afe02b129c7356b0173ac2e0812639e30aa9b987f991f70b0d/qtharmony-0.2.5.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [poetry-dockerize-plugin]: Downloading https://files.pythonhosted.org/packages/ca/6e/ac315862b444430e3beba71443ad57df8c2ef98ab8ba9f53d8628e30e3f4/poetry_dockerize_plugin-0.5.0.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/a8/15/9150bf610cd902509a491259a113ebf7e5a0f72383003c07faae9808acca/qtharmony-0.2.6.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/dd/df/f6cbfcbfe0924de4d4ee92e6d5a199efa91aac0de56a1c918aede4e765a8/therix-0.1.6.tar.gz
+[2024-05-14 12:00:12] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-14 12:00:12] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240514/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-14 12:00:12] INFO root fetch - processPackages [QtHarmony]: executing diffoscope
+[2024-05-14 12:00:12] INFO root fetch - processPackages [QtHarmony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtharmony-0.2.5.tar.gz tmp/qtharmony-0.2.6.tar.gz --markdown 20240514/Q/QtHarmony/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-14 12:00:12] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-14 12:00:12] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.5.tar.gz tmp/therix-0.1.6.tar.gz --markdown 20240514/t/therix/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 12:00:12] INFO root fetch - processPackages [poetry-dockerize-plugin]: Downloading https://files.pythonhosted.org/packages/f2/5d/5e44ec2ec66fd425355adb7b717210c868c9d6356b0e322de25558c6efd4/poetry_dockerize_plugin-0.6.0.tar.gz
+[2024-05-14 12:00:13] INFO root fetch - processPackages [poetry-dockerize-plugin]: executing diffoscope
+[2024-05-14 12:00:13] INFO root fetch - processPackages [poetry-dockerize-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_dockerize_plugin-0.5.0.tar.gz tmp/poetry_dockerize_plugin-0.6.0.tar.gz --markdown 20240514/p/poetry-dockerize-plugin/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-14 12:00:13] INFO root fetch - processPackages [poetry-dockerize-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dockerize_plugin-0.5.0.tar.gz]
+[2024-05-14 12:00:13] INFO root fetch - processPackages [poetry-dockerize-plugin]: Remove: archive file [/home/abi/fetcher/tmp/poetry_dockerize_plugin-0.6.0.tar.gz]
+[2024-05-14 12:00:13] INFO root fetch - main [MainThread]: End processing [poetry-dockerize-plugin]: success
+[2024-05-14 12:00:13] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-14 12:00:13] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-14 12:00:13] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-14 12:00:14] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.5.tar.gz]
+[2024-05-14 12:00:14] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.6.tar.gz]
+[2024-05-14 12:00:14] INFO root fetch - main [MainThread]: End processing [QtHarmony]: success
+[2024-05-14 12:00:14] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.5.tar.gz]
+[2024-05-14 12:00:14] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.6.tar.gz]
+[2024-05-14 12:00:14] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-14 12:00:14] INFO root fetch - main [MainThread]: Store serial: [23199168]
