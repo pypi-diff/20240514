@@ -18392,3 +18392,51 @@
 [2024-05-14 12:06:52] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.7.4.tar.gz]
 [2024-05-14 12:06:52] INFO root fetch - main [MainThread]: End processing [yplib]: success
 [2024-05-14 12:06:52] INFO root fetch - main [MainThread]: Store serial: [23199262]
+[2024-05-14 12:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199262]
+[2024-05-14 12:09:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 12:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimllearning
+[2024-05-14 12:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rai-sdk
+[2024-05-14 12:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uav-collision-avoidance
+[2024-05-14 12:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testit-importer-allure
+[2024-05-14 12:09:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ebilab
+[2024-05-14 12:09:01] INFO root fetch - processPackages [mimllearning]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-14 12:09:01] INFO root fetch - processPackages [rai-sdk]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-14 12:09:01] INFO root fetch - processPackages [ebilab]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-05-14 12:09:01] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/01/19/bfbea72ad47ab5447ad6cb90652413489191201adb3c2e7a9013402809c5/mimllearning-0.4.8.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [testit-importer-allure]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-14 12:09:01] INFO root fetch - processPackages [uav-collision-avoidance]: New version: [0.8.3] Old Version: [0.7.0]
+[2024-05-14 12:09:01] INFO root fetch - processPackages [rai-sdk]: Downloading https://files.pythonhosted.org/packages/8b/ad/961c9259206d64c811f57080da076f04e0a26b50e2c81fef9ba64deead9e/rai-sdk-0.7.4.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/f0/a0/735d782fd114ca356dfaad1e1efbe0fafffceb52e3c1b7aa7b7fa470cd14/uav_collision_avoidance-0.7.0-py3-none-any.whl
+[2024-05-14 12:09:01] INFO root fetch - processPackages [testit-importer-allure]: Downloading https://files.pythonhosted.org/packages/81/9d/31aad747798a75aa1e5aaf3a1c9ac8e33a508dd10ae879193f6c10e13ba8/testit_importer_allure-1.6.2.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/f8/7d/6df2016ccef23501af512d7bc80f18bcc6e2bbf712e454f5558d610db7b2/ebilab-2.5.0.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [mimllearning]: Downloading https://files.pythonhosted.org/packages/84/bd/958d70b5217227bc933005c3bb746e70ea6d2a534843b2e0f6a0e93e2c98/mimllearning-0.4.9.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [rai-sdk]: Downloading https://files.pythonhosted.org/packages/bc/45/af1153fdced6a2cdc8b11e341458c7c3c070ce42d1247366a5de981995dc/rai_sdk-0.7.5.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/a8/b6/f201d1c9eba84d8f7725cc366346c844992877bac41019bd8783f2b365b5/uav_collision_avoidance-0.8.3-py3-none-any.whl
+[2024-05-14 12:09:01] INFO root fetch - processPackages [testit-importer-allure]: Downloading https://files.pythonhosted.org/packages/9a/bd/0d49166d2a4863f83e2f32b2256e4df87727f02ffe890b4e2391603631d9/testit_importer_allure-1.6.3.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [rai-sdk]: executing diffoscope
+[2024-05-14 12:09:01] INFO root fetch - processPackages [rai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rai-sdk-0.7.4.tar.gz tmp/rai_sdk-0.7.5.tar.gz --markdown 20240514/r/rai-sdk/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-14 12:09:01] INFO root fetch - processPackages [ebilab]: Downloading https://files.pythonhosted.org/packages/77/56/7a42771c38f7c6bfa64a1cff2dd23eacbfd923d603ed98aaf989bce5bc7b/ebilab-2.6.0.tar.gz
+[2024-05-14 12:09:01] INFO root fetch - processPackages [mimllearning]: executing diffoscope
+[2024-05-14 12:09:01] INFO root fetch - processPackages [mimllearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimllearning-0.4.8.tar.gz tmp/mimllearning-0.4.9.tar.gz --markdown 20240514/m/mimllearning/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-14 12:09:01] INFO root fetch - processPackages [uav-collision-avoidance]: executing diffoscope
+[2024-05-14 12:09:01] INFO root fetch - processPackages [uav-collision-avoidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uav_collision_avoidance-0.7.0-py3-none-any.whl.zip tmp/uav_collision_avoidance-0.8.3-py3-none-any.whl.zip --markdown 20240514/u/uav-collision-avoidance/0.7.0-0.8.3/README.md --exclude *.pyd
+[2024-05-14 12:09:01] INFO root fetch - processPackages [testit-importer-allure]: executing diffoscope
+[2024-05-14 12:09:01] INFO root fetch - processPackages [testit-importer-allure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit_importer_allure-1.6.2.tar.gz tmp/testit_importer_allure-1.6.3.tar.gz --markdown 20240514/t/testit-importer-allure/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-14 12:09:01] INFO root fetch - processPackages [ebilab]: executing diffoscope
+[2024-05-14 12:09:01] INFO root fetch - processPackages [ebilab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebilab-2.5.0.tar.gz tmp/ebilab-2.6.0.tar.gz --markdown 20240514/e/ebilab/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-05-14 12:09:02] INFO root fetch - processPackages [rai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rai-sdk-0.7.4.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - processPackages [rai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rai_sdk-0.7.5.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - main [MainThread]: End processing [rai-sdk]: success
+[2024-05-14 12:09:02] INFO root fetch - processPackages [testit-importer-allure]: Remove: archive file [/home/abi/fetcher/tmp/testit_importer_allure-1.6.2.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - processPackages [testit-importer-allure]: Remove: archive file [/home/abi/fetcher/tmp/testit_importer_allure-1.6.3.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - main [MainThread]: End processing [testit-importer-allure]: success
+[2024-05-14 12:09:02] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.8.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - processPackages [mimllearning]: Remove: archive file [/home/abi/fetcher/tmp/mimllearning-0.4.9.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - main [MainThread]: End processing [mimllearning]: success
+[2024-05-14 12:09:02] INFO root fetch - processPackages [ebilab]: Remove: archive file [/home/abi/fetcher/tmp/ebilab-2.5.0.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - processPackages [ebilab]: Remove: archive file [/home/abi/fetcher/tmp/ebilab-2.6.0.tar.gz]
+[2024-05-14 12:09:02] INFO root fetch - main [MainThread]: End processing [ebilab]: success
+[2024-05-14 12:09:03] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.7.0-py3-none-any.whl.zip]
+[2024-05-14 12:09:03] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.8.3-py3-none-any.whl.zip]
+[2024-05-14 12:09:03] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
+[2024-05-14 12:09:03] INFO root fetch - main [MainThread]: Store serial: [23199276]
