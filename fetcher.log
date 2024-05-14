@@ -9701,3 +9701,15 @@
 [2024-05-14 06:05:51] INFO root fetch - processPackages [cytimes]: Remove: archive file [/home/abi/fetcher/tmp/cytimes-1.0.0.tar.gz]
 [2024-05-14 06:05:51] INFO root fetch - main [MainThread]: End processing [cytimes]: success
 [2024-05-14 06:05:51] INFO root fetch - main [MainThread]: Store serial: [23195527]
+[2024-05-14 06:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195527]
+[2024-05-14 06:08:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-14 06:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-priority-loadbalancer
+[2024-05-14 06:08:01] INFO root fetch - processPackages [openai-priority-loadbalancer]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 06:08:01] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/fe/0d/0b8cbeabcf2440adb39e9d41d789781e3114dbd3993627e53ec558ed582c/openai_priority_loadbalancer-0.0.3.tar.gz
+[2024-05-14 06:08:01] INFO root fetch - processPackages [openai-priority-loadbalancer]: Downloading https://files.pythonhosted.org/packages/80/6b/6db9f62557708e859ea4e806907e5bb00b7c00bd201a48683c48168d7214/openai_priority_loadbalancer-0.0.4.tar.gz
+[2024-05-14 06:08:01] INFO root fetch - processPackages [openai-priority-loadbalancer]: executing diffoscope
+[2024-05-14 06:08:01] INFO root fetch - processPackages [openai-priority-loadbalancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_priority_loadbalancer-0.0.3.tar.gz tmp/openai_priority_loadbalancer-0.0.4.tar.gz --markdown 20240514/o/openai-priority-loadbalancer/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 06:08:02] INFO root fetch - processPackages [openai-priority-loadbalancer]: Remove: archive file [/home/abi/fetcher/tmp/openai_priority_loadbalancer-0.0.3.tar.gz]
+[2024-05-14 06:08:02] INFO root fetch - processPackages [openai-priority-loadbalancer]: Remove: archive file [/home/abi/fetcher/tmp/openai_priority_loadbalancer-0.0.4.tar.gz]
+[2024-05-14 06:08:02] INFO root fetch - main [MainThread]: End processing [openai-priority-loadbalancer]: success
+[2024-05-14 06:08:02] INFO root fetch - main [MainThread]: Store serial: [23195531]
