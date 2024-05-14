@@ -20702,3 +20702,87 @@
 [2024-05-14 13:29:14] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.9.tar.gz]
 [2024-05-14 13:29:14] INFO root fetch - main [MainThread]: End processing [antchain-nftc]: success
 [2024-05-14 13:29:14] INFO root fetch - main [MainThread]: Store serial: [23200295]
+[2024-05-14 13:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200295]
+[2024-05-14 13:31:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-nftc
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: riversand
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacenavigator
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrattle
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-esimd-21
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glytrait
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiocoap
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: galv
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pizzoo
+[2024-05-14 13:31:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: WGSE-NG
+[2024-05-14 13:31:24] INFO root fetch - processPackages [pizzoo]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-14 13:31:24] INFO root fetch - processPackages [riversand]: New version: [1.2.4] Old Version: [1.2.2]
+[2024-05-14 13:31:24] INFO root fetch - processPackages [antchain-nftc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-14 13:31:24] INFO root fetch - processPackages [WGSE-NG]: New version: [0.0.4a9] Old Version: [0.0.4a8]
+[2024-05-14 13:31:24] INFO root fetch - processPackages [aiocoap]: New version: [0.4b3] Old Version: [0.4b2]
+[2024-05-14 13:31:24] INFO root fetch - processPackages [glytrait]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-14 13:31:25] INFO root fetch - processPackages [spacenavigator]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-14 13:31:25] WARNING root fetch - processPackages [pyrattle]: Skipping, unable to determine old version
+[2024-05-14 13:31:25] INFO root fetch - main [MainThread]: End processing [pyrattle] error
+[2024-05-14 13:31:25] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240514] Old Version: [2.5.0b20240513]
+[2024-05-14 13:31:25] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/70/d0/07aaf551363dca8be98b05dd2dbc394a2c5c0cac5ce037ed661c64532e84/antchain_nftc-1.0.8.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [galv]: New version: [2.1.9] Old Version: [2.1.29]
+[2024-05-14 13:31:25] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/83/65/e0b0e58b00188fef8b97a9994290e112bd010a8f8e0a02697995181eb392/wgse_ng-0.0.4a8.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/0a/47/c1d6994babb2747240a708a08a37aaeab39957135ddc4e0f52990fb7667d/riversand-1.2.2.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [aiocoap]: Downloading https://files.pythonhosted.org/packages/8a/db/1e5c95ebb821c23f89afd9e3755b871b29b519dbb51d77b9cae03de96571/aiocoap-0.4b2.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/69/6d/1aa3fee39d862b69df983699baf08fddc3ad812ab4971a32b1d5b4da4f23/pizzoo-0.9.6.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/39/d5/69589f926618bddd998dc5573482194d7e732ca03fcec34624ca4f2a3698/glytrait-0.1.4.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [spacenavigator]: Downloading https://files.pythonhosted.org/packages/56/8f/4235906baacb60aed9260ad02345b9ad5140d109fe707d743143e02f2ed2/spacenavigator-0.2.2.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/63/0b/eae11194ed9b6f0428a373fa4b7a8f9af7b600012fec69c3c6d769b0b593/galv-2.1.29.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/45/be/5cb2123e217c523b878ccbab68498935c0af69d65e8e25b1fe26d31501d0/bigdl_core_xe_esimd_21-2.5.0b20240513-cp39-cp39-win_amd64.whl
+[2024-05-14 13:31:25] INFO root fetch - processPackages [antchain-nftc]: Downloading https://files.pythonhosted.org/packages/a0/5d/8ad4372b715b6b24700a1942458941881a34cf2277755309e68024f1d6b1/antchain_nftc-1.0.9.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [riversand]: Downloading https://files.pythonhosted.org/packages/38/d5/9bfafd2385780a4cf34ed3bfffa5e34593036c4fd6048967f51b1d90566d/riversand-1.2.4.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [antchain-nftc]: executing diffoscope
+[2024-05-14 13:31:25] INFO root fetch - processPackages [antchain-nftc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftc-1.0.8.tar.gz tmp/antchain_nftc-1.0.9.tar.gz --markdown 20240514/a/antchain-nftc/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-14 13:31:25] INFO root fetch - processPackages [riversand]: executing diffoscope
+[2024-05-14 13:31:25] INFO root fetch - processPackages [riversand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riversand-1.2.2.tar.gz tmp/riversand-1.2.4.tar.gz --markdown 20240514/r/riversand/1.2.2-1.2.4/README.md --exclude *.pyd
+[2024-05-14 13:31:25] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/fd/fc/7c78d5838895c272e41c93913f9c0a69f6038a8c5b1dbede82dc181383bb/glytrait-0.1.5.tar.gz
+[2024-05-14 13:31:25] INFO root fetch - processPackages [glytrait]: executing diffoscope
+[2024-05-14 13:31:25] INFO root fetch - processPackages [glytrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glytrait-0.1.4.tar.gz tmp/glytrait-0.1.5.tar.gz --markdown 20240514/g/glytrait/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-14 13:31:25] INFO root fetch - processPackages [galv]: Downloading https://files.pythonhosted.org/packages/b8/0b/d4417c37709cf81423d1204af54c886d20a8ea4ffaef0717f4924309ff26/galv-2.1.9.tar.gz
+[2024-05-14 13:31:26] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.2.tar.gz]
+[2024-05-14 13:31:26] INFO root fetch - processPackages [riversand]: Remove: archive file [/home/abi/fetcher/tmp/riversand-1.2.4.tar.gz]
+[2024-05-14 13:31:26] INFO root fetch - main [MainThread]: End processing [riversand]: success
+[2024-05-14 13:31:26] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.8.tar.gz]
+[2024-05-14 13:31:26] INFO root fetch - processPackages [antchain-nftc]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftc-1.0.9.tar.gz]
+[2024-05-14 13:31:26] INFO root fetch - main [MainThread]: End processing [antchain-nftc]: success
+[2024-05-14 13:31:26] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.4.tar.gz]
+[2024-05-14 13:31:26] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.5.tar.gz]
+[2024-05-14 13:31:26] INFO root fetch - main [MainThread]: End processing [glytrait]: success
+[2024-05-14 13:31:26] INFO root fetch - processPackages [WGSE-NG]: Downloading https://files.pythonhosted.org/packages/e6/e6/c446e368750bba023113dd7b0185f8409b5b0ac8e2152edfbf9970de461c/wgse_ng-0.0.4a9.tar.gz
+[2024-05-14 13:31:27] INFO root fetch - processPackages [WGSE-NG]: executing diffoscope
+[2024-05-14 13:31:27] INFO root fetch - processPackages [WGSE-NG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wgse_ng-0.0.4a8.tar.gz tmp/wgse_ng-0.0.4a9.tar.gz --markdown 20240514/W/WGSE-NG/0.0.4a8-0.0.4a9/README.md --exclude *.pyd
+[2024-05-14 13:31:29] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a8.tar.gz]
+[2024-05-14 13:31:29] INFO root fetch - processPackages [WGSE-NG]: Remove: archive file [/home/abi/fetcher/tmp/wgse_ng-0.0.4a9.tar.gz]
+[2024-05-14 13:31:29] INFO root fetch - main [MainThread]: End processing [WGSE-NG]: success
+[2024-05-14 13:31:40] INFO root fetch - processPackages [spacenavigator]: Downloading https://files.pythonhosted.org/packages/28/72/7083adc856b005ff3206e8b536b88e2d760442c8a1daa9c0aac5858939fa/spacenavigator-0.2.3-py3-none-any.whl
+[2024-05-14 13:31:40] INFO root fetch - processPackages [pizzoo]: Downloading https://files.pythonhosted.org/packages/73/17/4bc2c3663bf102779d52170db45aa258d772ac9ecc41dbc4b7b890f47369/pizzoo-0.9.7.tar.gz
+[2024-05-14 13:31:40] INFO root fetch - processPackages [aiocoap]: Downloading https://files.pythonhosted.org/packages/85/d4/655cee7954903af13a61497e9d2473315494f43b6991740140fac317b6b1/aiocoap-0.4b3.tar.gz
+[2024-05-14 13:31:40] INFO root fetch - processPackages [spacenavigator]: executing diffoscope
+[2024-05-14 13:31:40] INFO root fetch - processPackages [spacenavigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacenavigator-0.2.2.tar.gz tmp/spacenavigator-0.2.3-py3-none-any.whl.zip --markdown 20240514/s/spacenavigator/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 13:31:41] INFO root fetch - processPackages [pizzoo]: executing diffoscope
+[2024-05-14 13:31:41] INFO root fetch - processPackages [pizzoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pizzoo-0.9.6.tar.gz tmp/pizzoo-0.9.7.tar.gz --markdown 20240514/p/pizzoo/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-14 13:31:41] INFO root fetch - processPackages [aiocoap]: executing diffoscope
+[2024-05-14 13:31:41] INFO root fetch - processPackages [aiocoap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocoap-0.4b2.tar.gz tmp/aiocoap-0.4b3.tar.gz --markdown 20240514/a/aiocoap/0.4b2-0.4b3/README.md --exclude *.pyd
+[2024-05-14 13:31:41] INFO root fetch - processPackages [galv]: executing diffoscope
+[2024-05-14 13:31:41] INFO root fetch - processPackages [galv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galv-2.1.29.tar.gz tmp/galv-2.1.9.tar.gz --markdown 20240514/g/galv/2.1.29-2.1.9/README.md --exclude *.pyd
+[2024-05-14 13:31:41] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/c2/54/6225021178afe0c9d920201280bf5d60b369ef47089a5a5f78ce244bf14f/bigdl_core_xe_esimd_21-2.5.0b20240514-cp39-cp39-manylinux2010_x86_64.whl
+[2024-05-14 13:31:41] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46711128>=10485760
+[2024-05-14 13:31:41] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-05-14 13:31:41] INFO root fetch - processPackages [spacenavigator]: Remove: archive file [/home/abi/fetcher/tmp/spacenavigator-0.2.2.tar.gz]
+[2024-05-14 13:31:41] INFO root fetch - processPackages [spacenavigator]: Remove: archive file [/home/abi/fetcher/tmp/spacenavigator-0.2.3-py3-none-any.whl.zip]
+[2024-05-14 13:31:41] INFO root fetch - main [MainThread]: End processing [spacenavigator]: success
+[2024-05-14 13:31:41] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.6.tar.gz]
+[2024-05-14 13:31:41] INFO root fetch - processPackages [pizzoo]: Remove: archive file [/home/abi/fetcher/tmp/pizzoo-0.9.7.tar.gz]
+[2024-05-14 13:31:41] INFO root fetch - main [MainThread]: End processing [pizzoo]: success
+[2024-05-14 13:31:42] INFO root fetch - processPackages [aiocoap]: Remove: archive file [/home/abi/fetcher/tmp/aiocoap-0.4b2.tar.gz]
+[2024-05-14 13:31:42] INFO root fetch - processPackages [aiocoap]: Remove: archive file [/home/abi/fetcher/tmp/aiocoap-0.4b3.tar.gz]
+[2024-05-14 13:31:42] INFO root fetch - main [MainThread]: End processing [aiocoap]: success
+[2024-05-14 13:31:45] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.29.tar.gz]
+[2024-05-14 13:31:45] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
+[2024-05-14 13:31:45] INFO root fetch - main [MainThread]: End processing [galv]: success
+[2024-05-14 13:31:45] INFO root fetch - main [MainThread]: Store serial: [23200330]
