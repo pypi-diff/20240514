@@ -7309,3 +7309,48 @@
 [2024-05-14 03:25:16] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip]
 [2024-05-14 03:25:16] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy]: success
 [2024-05-14 03:25:16] INFO root fetch - main [MainThread]: Store serial: [23194195]
+[2024-05-14 03:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194195]
+[2024-05-14 03:27:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ku-of-fuzzy
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ambivalent
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lxs-SimpleTools
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bw-aggregation
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: risb
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstract-shapes
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ku-of-fuzzy]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 03:27:25] WARNING root fetch - processPackages [ambivalent]: Skipping, unable to determine old version
+[2024-05-14 03:27:25] INFO root fetch - main [MainThread]: End processing [ambivalent] error
+[2024-05-14 03:27:25] INFO root fetch - processPackages [abstract-shapes]: New version: [0.0.0.9] Old Version: [0.0.0.8]
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/9a/68/869787fd0971bd7f094fa014af005b6e9bc09cc720a63a7f118dab54e86e/ku_of_fuzzy-0.1.0.tar.gz
+[2024-05-14 03:27:25] INFO root fetch - processPackages [bw-aggregation]: New version: [1.1] Old Version: [1.0rc1]
+[2024-05-14 03:27:25] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/1f/5e/6dd8d718cacb908774fef75d6eaafe4a98ba9860e59da0d73dfb0524e8f2/abstract_shapes-0.0.0.8.tar.gz
+[2024-05-14 03:27:25] INFO root fetch - processPackages [risb]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-14 03:27:25] WARNING root fetch - processPackages [lxs-SimpleTools]: Skipping, unable to determine old version
+[2024-05-14 03:27:25] INFO root fetch - main [MainThread]: End processing [lxs-SimpleTools] error
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ku-of-fuzzy]: Downloading https://files.pythonhosted.org/packages/f2/9d/65f1892472931621dfbef882913219e0ca243987f3f630a40a835a4fe7d0/ku_of_fuzzy-0.1.1-py3-none-any.whl
+[2024-05-14 03:27:25] INFO root fetch - processPackages [abstract-shapes]: Downloading https://files.pythonhosted.org/packages/07/c5/eb5d4fb9695416d17a00e6da932d2ec3c55e5cfcb38bc4d09a9d7b69a31d/abstract_shapes-0.0.0.9.tar.gz
+[2024-05-14 03:27:25] INFO root fetch - processPackages [bw-aggregation]: Downloading https://files.pythonhosted.org/packages/52/80/ae474ebf1b7ed4bd5efec038bb2ccb858a34a97f6ee09427359eedf319cc/bw_aggregation-1.0rc1.tar.gz
+[2024-05-14 03:27:25] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/9d/ce/e0c963a2a82ae4c9de65e963c327645357cbabbda8a7a3362de314f4390f/risb-0.0.5.tar.gz
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ku-of-fuzzy]: executing diffoscope
+[2024-05-14 03:27:25] INFO root fetch - processPackages [ku-of-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ku_of_fuzzy-0.1.0.tar.gz tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip --markdown 20240514/k/ku-of-fuzzy/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 03:27:25] INFO root fetch - processPackages [abstract-shapes]: executing diffoscope
+[2024-05-14 03:27:25] INFO root fetch - processPackages [abstract-shapes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstract_shapes-0.0.0.8.tar.gz tmp/abstract_shapes-0.0.0.9.tar.gz --markdown 20240514/a/abstract-shapes/0.0.0.8-0.0.0.9/README.md --exclude *.pyd
+[2024-05-14 03:27:26] INFO root fetch - processPackages [bw-aggregation]: Downloading https://files.pythonhosted.org/packages/94/60/d0240a5f7b164483ef834c503fbe110f311707fde0b64f17ad6adc242cc0/bw_aggregation-1.1.tar.gz
+[2024-05-14 03:27:26] INFO root fetch - processPackages [risb]: Downloading https://files.pythonhosted.org/packages/49/0c/8dfc2f40daf992d4636c795344ceb4eb26e628d6368fd3480bdb3ac86aee/risb-0.0.6.tar.gz
+[2024-05-14 03:27:26] INFO root fetch - processPackages [bw-aggregation]: executing diffoscope
+[2024-05-14 03:27:26] INFO root fetch - processPackages [bw-aggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw_aggregation-1.0rc1.tar.gz tmp/bw_aggregation-1.1.tar.gz --markdown 20240514/b/bw-aggregation/1.0rc1-1.1/README.md --exclude *.pyd
+[2024-05-14 03:27:26] INFO root fetch - processPackages [risb]: executing diffoscope
+[2024-05-14 03:27:26] INFO root fetch - processPackages [risb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/risb-0.0.5.tar.gz tmp/risb-0.0.6.tar.gz --markdown 20240514/r/risb/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-14 03:27:26] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.8.tar.gz]
+[2024-05-14 03:27:26] INFO root fetch - processPackages [abstract-shapes]: Remove: archive file [/home/abi/fetcher/tmp/abstract_shapes-0.0.0.9.tar.gz]
+[2024-05-14 03:27:26] INFO root fetch - main [MainThread]: End processing [abstract-shapes]: success
+[2024-05-14 03:27:26] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.0.tar.gz]
+[2024-05-14 03:27:26] INFO root fetch - processPackages [ku-of-fuzzy]: Remove: archive file [/home/abi/fetcher/tmp/ku_of_fuzzy-0.1.1-py3-none-any.whl.zip]
+[2024-05-14 03:27:26] INFO root fetch - main [MainThread]: End processing [ku-of-fuzzy]: success
+[2024-05-14 03:27:27] INFO root fetch - processPackages [bw-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/bw_aggregation-1.0rc1.tar.gz]
+[2024-05-14 03:27:27] INFO root fetch - processPackages [bw-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/bw_aggregation-1.1.tar.gz]
+[2024-05-14 03:27:27] INFO root fetch - main [MainThread]: End processing [bw-aggregation]: success
+[2024-05-14 03:27:27] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.0.5.tar.gz]
+[2024-05-14 03:27:27] INFO root fetch - processPackages [risb]: Remove: archive file [/home/abi/fetcher/tmp/risb-0.0.6.tar.gz]
+[2024-05-14 03:27:27] INFO root fetch - main [MainThread]: End processing [risb]: success
+[2024-05-14 03:27:27] INFO root fetch - main [MainThread]: Store serial: [23194263]
