@@ -20786,3 +20786,53 @@
 [2024-05-14 13:31:45] INFO root fetch - processPackages [galv]: Remove: archive file [/home/abi/fetcher/tmp/galv-2.1.9.tar.gz]
 [2024-05-14 13:31:45] INFO root fetch - main [MainThread]: End processing [galv]: success
 [2024-05-14 13:31:45] INFO root fetch - main [MainThread]: Store serial: [23200330]
+[2024-05-14 13:33:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200330]
+[2024-05-14 13:33:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-trading212-alinalihassan
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lighting-deepams
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karp-lex-types
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: virtual-camera
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docmesh-cli
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ngsolve
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oj-tools
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akips
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dagster-toolbox
+[2024-05-14 13:33:56] WARNING root fetch - processPackages [virtual-camera]: Skipping, unable to determine old version
+[2024-05-14 13:33:56] INFO root fetch - main [MainThread]: End processing [virtual-camera] error
+[2024-05-14 13:33:56] WARNING root fetch - processPackages [karp-lex-types]: Skipping, unable to determine old version
+[2024-05-14 13:33:56] INFO root fetch - main [MainThread]: End processing [karp-lex-types] error
+[2024-05-14 13:33:56] WARNING root fetch - processPackages [python-trading212-alinalihassan]: Skipping, unable to determine old version
+[2024-05-14 13:33:56] INFO root fetch - main [MainThread]: End processing [python-trading212-alinalihassan] error
+[2024-05-14 13:33:56] WARNING root fetch - processPackages [lighting-deepams]: Skipping, unable to determine old version
+[2024-05-14 13:33:56] INFO root fetch - main [MainThread]: End processing [lighting-deepams] error
+[2024-05-14 13:33:56] INFO root fetch - processPackages [dagster-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 13:33:56] INFO root fetch - processPackages [akips]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-14 13:33:56] WARNING root fetch - processPackages [oj-tools]: Skipping, unable to determine old version
+[2024-05-14 13:33:56] INFO root fetch - main [MainThread]: End processing [oj-tools] error
+[2024-05-14 13:33:56] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 13:33:56] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403.post8.dev0] Old Version: [6.2.2403.post5.dev0]
+[2024-05-14 13:33:57] INFO root fetch - processPackages [akips]: Downloading https://files.pythonhosted.org/packages/f8/73/f9a2244ede048f9d94a73a3f6cf12c5cfd58b186b4be7a6c0dce8a85a57f/akips-0.2.2.tar.gz
+[2024-05-14 13:33:57] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/81/cc/33840416f22e9cedd1d0dcbedc15117fe3695e9ddd263039c591c0dd4efa/dagster-toolbox-0.0.8.tar.gz
+[2024-05-14 13:33:57] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/2a/30/879c482211aac40f0f3aa3dbb89c40668ff08cd8731c71c8b50d1526f657/docmesh_cli-0.0.4.tar.gz
+[2024-05-14 13:33:57] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/6f/10/3cdc83d04b5b7f5615e223cc6e1a0c2c2560dd8d3ea729c1967616873591/ngsolve-6.2.2403.post5.dev0-cp38-cp38-macosx_10_15_universal2.whl
+[2024-05-14 13:33:57] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 34288271>=10485760
+[2024-05-14 13:33:57] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-14 13:33:57] INFO root fetch - processPackages [akips]: Downloading https://files.pythonhosted.org/packages/b2/30/6988d2b41a9e5030c486f61c275a473360f730b70d1648b8c43e50af7652/akips-0.2.3.tar.gz
+[2024-05-14 13:33:57] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/73/e6/d53fa4126708edd874001690a469f7bbe7cec7b58d598e330d20bb35bbe8/docmesh_cli-0.0.5.tar.gz
+[2024-05-14 13:33:57] INFO root fetch - processPackages [dagster-toolbox]: Downloading https://files.pythonhosted.org/packages/9a/6b/b9a026c41f2d2b39ba0fcb5ab35c4d26a67f87fe2e7701a3c0d492d27289/dagster-toolbox-0.0.9.tar.gz
+[2024-05-14 13:33:57] INFO root fetch - processPackages [akips]: executing diffoscope
+[2024-05-14 13:33:57] INFO root fetch - processPackages [akips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akips-0.2.2.tar.gz tmp/akips-0.2.3.tar.gz --markdown 20240514/a/akips/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-14 13:33:57] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-14 13:33:57] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.4.tar.gz tmp/docmesh_cli-0.0.5.tar.gz --markdown 20240514/d/docmesh-cli/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 13:33:57] INFO root fetch - processPackages [dagster-toolbox]: executing diffoscope
+[2024-05-14 13:33:57] INFO root fetch - processPackages [dagster-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster-toolbox-0.0.8.tar.gz tmp/dagster-toolbox-0.0.9.tar.gz --markdown 20240514/d/dagster-toolbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 13:33:58] INFO root fetch - processPackages [akips]: Remove: archive file [/home/abi/fetcher/tmp/akips-0.2.2.tar.gz]
+[2024-05-14 13:33:58] INFO root fetch - processPackages [akips]: Remove: archive file [/home/abi/fetcher/tmp/akips-0.2.3.tar.gz]
+[2024-05-14 13:33:58] INFO root fetch - main [MainThread]: End processing [akips]: success
+[2024-05-14 13:33:58] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.8.tar.gz]
+[2024-05-14 13:33:58] INFO root fetch - processPackages [dagster-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/dagster-toolbox-0.0.9.tar.gz]
+[2024-05-14 13:33:58] INFO root fetch - main [MainThread]: End processing [dagster-toolbox]: success
+[2024-05-14 13:33:58] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.4.tar.gz]
+[2024-05-14 13:33:58] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.5.tar.gz]
+[2024-05-14 13:33:58] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-14 13:33:58] INFO root fetch - main [MainThread]: Store serial: [23200364]
