@@ -20836,3 +20836,75 @@
 [2024-05-14 13:33:58] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.5.tar.gz]
 [2024-05-14 13:33:58] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
 [2024-05-14 13:33:58] INFO root fetch - main [MainThread]: Store serial: [23200364]
+[2024-05-14 13:36:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200364]
+[2024-05-14 13:36:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filepattern
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funding-service-design-utils
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synrbl
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CorePlatPy
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-trading212-alinalihassan
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-smartbase-admin
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: danila-lib
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: async-bakalari-api
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghfc-utils
+[2024-05-14 13:36:07] INFO root fetch - processPackages [synrbl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 13:36:07] WARNING root fetch - processPackages [python-trading212-alinalihassan]: Skipping, unable to determine old version
+[2024-05-14 13:36:07] INFO root fetch - main [MainThread]: End processing [python-trading212-alinalihassan] error
+[2024-05-14 13:36:07] INFO root fetch - processPackages [CorePlatPy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 13:36:07] INFO root fetch - processPackages [danila-lib]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-14 13:36:07] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/28/86/082dee5389753c8bd486879e55d26d3f2185a225fadf2f1fe4bb9beb9d85/synrbl-0.0.8.tar.gz
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ghfc-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 13:36:07] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-14 13:36:07] WARNING root fetch - processPackages [async-bakalari-api]: Skipping, unable to determine old version
+[2024-05-14 13:36:07] INFO root fetch - main [MainThread]: End processing [async-bakalari-api] error
+[2024-05-14 13:36:07] INFO root fetch - processPackages [filepattern]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-14 13:36:07] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-14 13:36:07] INFO root fetch - processPackages [CorePlatPy]: Downloading https://files.pythonhosted.org/packages/e7/c6/abaafee875c4675cfdb9537de6256be94555b88a2cb9d7680b5f8585da18/CorePlatPy-0.0.2-py3-none-any.whl
+[2024-05-14 13:36:07] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/6a/50/25f2930fd84b82d834d0ec640016fa7af3538f0ec513d98c4533f90d1963/danila-lib-1.4.1.tar.gz
+[2024-05-14 13:36:07] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2024-05-14 13:36:07] INFO root fetch - processPackages [ghfc-utils]: Downloading https://files.pythonhosted.org/packages/68/ff/f2c9b4a3234b2caed41b3a8fab5efa173d843687931e58187c3dbad44c09/ghfc_utils-0.0.1.tar.gz
+[2024-05-14 13:36:07] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-14 13:36:07] INFO root fetch - processPackages [filepattern]: Downloading https://files.pythonhosted.org/packages/5b/0e/d8b33563ac7541ea989ca05fb05109d840956181a3e24dd242af5ef2d2c0/filepattern-2.0.5-cp39-cp39-win_amd64.whl
+[2024-05-14 13:36:08] INFO root fetch - processPackages [CorePlatPy]: Downloading https://files.pythonhosted.org/packages/dd/93/3c55f855d10522afbdc348b6f7648e651e045896e21b1fd783dc20754f0f/CorePlatPy-0.0.3-py3-none-any.whl
+[2024-05-14 13:36:08] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/5c/22/f5f6d1874b599ff46d6155b4de52df7c7f58286b82037d3db18c4cb84902/synrbl-0.0.9.tar.gz
+[2024-05-14 13:36:08] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/79/f0/d5a2303fb1ec51595f130c75239b576dc2daddc542eea42e9ec9db8a7b08/danila-lib-1.4.2.tar.gz
+[2024-05-14 13:36:08] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2024-05-14 13:36:08] INFO root fetch - processPackages [ghfc-utils]: Downloading https://files.pythonhosted.org/packages/ac/9c/da5ddc921ed1969b3d12bf5375ed7d6a325297d84bf8eea2232df038d090/ghfc_utils-0.0.2.tar.gz
+[2024-05-14 13:36:08] INFO root fetch - processPackages [CorePlatPy]: executing diffoscope
+[2024-05-14 13:36:08] INFO root fetch - processPackages [CorePlatPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CorePlatPy-0.0.2-py3-none-any.whl.zip tmp/CorePlatPy-0.0.3-py3-none-any.whl.zip --markdown 20240514/C/CorePlatPy/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 13:36:08] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-14 13:36:08] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.1.tar.gz tmp/danila-lib-1.4.2.tar.gz --markdown 20240514/d/danila-lib/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-14 13:36:08] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2024-05-14 13:36:08] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20240514/f/funding-service-design-utils/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-14 13:36:08] INFO root fetch - processPackages [ghfc-utils]: executing diffoscope
+[2024-05-14 13:36:08] INFO root fetch - processPackages [ghfc-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghfc_utils-0.0.1.tar.gz tmp/ghfc_utils-0.0.2.tar.gz --markdown 20240514/g/ghfc-utils/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 13:36:08] INFO root fetch - processPackages [filepattern]: Downloading https://files.pythonhosted.org/packages/d6/df/8fbff4c513e72041005531935f245f658327aa47d0d0432da3d3be88f1fe/filepattern-2.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-14 13:36:08] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-14 13:36:08] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-14 13:36:08] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240514/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-14 13:36:08] INFO root fetch - processPackages [filepattern]: executing diffoscope
+[2024-05-14 13:36:08] INFO root fetch - processPackages [filepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filepattern-2.0.5-cp39-cp39-win_amd64.whl.zip tmp/filepattern-2.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240514/f/filepattern/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-14 13:36:09] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.1.tar.gz]
+[2024-05-14 13:36:09] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.2.tar.gz]
+[2024-05-14 13:36:09] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-14 13:36:09] INFO root fetch - processPackages [CorePlatPy]: Remove: archive file [/home/abi/fetcher/tmp/CorePlatPy-0.0.2-py3-none-any.whl.zip]
+[2024-05-14 13:36:09] INFO root fetch - processPackages [CorePlatPy]: Remove: archive file [/home/abi/fetcher/tmp/CorePlatPy-0.0.3-py3-none-any.whl.zip]
+[2024-05-14 13:36:09] INFO root fetch - main [MainThread]: End processing [CorePlatPy]: success
+[2024-05-14 13:36:09] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2024-05-14 13:36:09] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2024-05-14 13:36:09] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2024-05-14 13:36:09] INFO root fetch - processPackages [ghfc-utils]: Remove: archive file [/home/abi/fetcher/tmp/ghfc_utils-0.0.1.tar.gz]
+[2024-05-14 13:36:09] INFO root fetch - processPackages [ghfc-utils]: Remove: archive file [/home/abi/fetcher/tmp/ghfc_utils-0.0.2.tar.gz]
+[2024-05-14 13:36:09] INFO root fetch - main [MainThread]: End processing [ghfc-utils]: success
+[2024-05-14 13:36:09] INFO root fetch - processPackages [filepattern]: Remove: archive file [/home/abi/fetcher/tmp/filepattern-2.0.5-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 13:36:09] INFO root fetch - processPackages [filepattern]: Remove: archive file [/home/abi/fetcher/tmp/filepattern-2.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-14 13:36:09] INFO root fetch - main [MainThread]: End processing [filepattern]: success
+[2024-05-14 13:36:10] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-05-14 13:36:10] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.8.tar.gz tmp/synrbl-0.0.9.tar.gz --markdown 20240514/s/synrbl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 13:36:12] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.8.tar.gz]
+[2024-05-14 13:36:12] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.9.tar.gz]
+[2024-05-14 13:36:12] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-05-14 13:36:14] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-14 13:36:14] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-14 13:36:14] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-14 13:36:14] INFO root fetch - main [MainThread]: Store serial: [23200406]
