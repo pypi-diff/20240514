@@ -12964,3 +12964,42 @@
 [2024-05-14 09:11:08] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
 [2024-05-14 09:11:08] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
 [2024-05-14 09:11:08] INFO root fetch - main [MainThread]: Store serial: [23196934]
+[2024-05-14 09:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196934]
+[2024-05-14 09:13:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-core-package
+[2024-05-14 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyuftp
+[2024-05-14 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neural-amp-modeler
+[2024-05-14 09:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2024-05-14 09:13:17] INFO root fetch - processPackages [test-core-package]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 09:13:17] INFO root fetch - processPackages [neural-amp-modeler]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-14 09:13:17] INFO root fetch - processPackages [pyuftp]: New version: [1.0.2] Old Version: [0.0.6]
+[2024-05-14 09:13:17] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/0a/13/d2760a88cbb88c1520811d33b898a96631f13a1ee037a4fc80b6ac22f6a4/test_core_package-0.1.0.tar.gz
+[2024-05-14 09:13:17] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/e9/91/f5434bd27220279bdf19ff49b24f724451854f273b8e36faee7f456039f9/neural-amp-modeler-0.8.1.tar.gz
+[2024-05-14 09:13:17] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-14 09:13:18] INFO root fetch - processPackages [pyuftp]: Downloading https://files.pythonhosted.org/packages/ce/f5/186a922b25bd1058b7a53cd605545e374373c9a78b681bb8caa7dc757cf0/pyuftp-0.0.6.tar.gz
+[2024-05-14 09:13:18] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-14 09:13:18] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/98/e2/1cf489bc6a518f591f36d801d91a2c378c513fa359c0f37ec205e2f05d1b/test_core_package-0.1.1.tar.gz
+[2024-05-14 09:13:18] INFO root fetch - processPackages [neural-amp-modeler]: Downloading https://files.pythonhosted.org/packages/1b/a6/6953c47faf86c97c418f9e727c341ab6c769f144236bb756fae639f77c12/neural_amp_modeler-0.8.2.tar.gz
+[2024-05-14 09:13:18] INFO root fetch - processPackages [pyuftp]: Downloading https://files.pythonhosted.org/packages/92/48/326eba01e000526af53bfc9bf8444baae4ee01059609152dc7bb056c2a5e/pyuftp-1.0.2.tar.gz
+[2024-05-14 09:13:18] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-14 09:13:18] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-14 09:13:18] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.1.0.tar.gz tmp/test_core_package-0.1.1.tar.gz --markdown 20240514/t/test-core-package/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 09:13:18] INFO root fetch - processPackages [neural-amp-modeler]: executing diffoscope
+[2024-05-14 09:13:18] INFO root fetch - processPackages [neural-amp-modeler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neural-amp-modeler-0.8.1.tar.gz tmp/neural_amp_modeler-0.8.2.tar.gz --markdown 20240514/n/neural-amp-modeler/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-14 09:13:19] INFO root fetch - processPackages [pyuftp]: executing diffoscope
+[2024-05-14 09:13:19] INFO root fetch - processPackages [pyuftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuftp-0.0.6.tar.gz tmp/pyuftp-1.0.2.tar.gz --markdown 20240514/p/pyuftp/0.0.6-1.0.2/README.md --exclude *.pyd
+[2024-05-14 09:13:19] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-14 09:13:19] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240514/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-14 09:13:19] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.1.0.tar.gz]
+[2024-05-14 09:13:19] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.1.1.tar.gz]
+[2024-05-14 09:13:19] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-14 09:13:19] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural-amp-modeler-0.8.1.tar.gz]
+[2024-05-14 09:13:19] INFO root fetch - processPackages [neural-amp-modeler]: Remove: archive file [/home/abi/fetcher/tmp/neural_amp_modeler-0.8.2.tar.gz]
+[2024-05-14 09:13:19] INFO root fetch - main [MainThread]: End processing [neural-amp-modeler]: success
+[2024-05-14 09:13:19] INFO root fetch - processPackages [pyuftp]: Remove: archive file [/home/abi/fetcher/tmp/pyuftp-0.0.6.tar.gz]
+[2024-05-14 09:13:19] INFO root fetch - processPackages [pyuftp]: Remove: archive file [/home/abi/fetcher/tmp/pyuftp-1.0.2.tar.gz]
+[2024-05-14 09:13:19] INFO root fetch - main [MainThread]: End processing [pyuftp]: success
+[2024-05-14 09:13:19] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-14 09:13:19] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-14 09:13:19] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-14 09:13:19] INFO root fetch - main [MainThread]: Store serial: [23196947]
