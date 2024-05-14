@@ -7758,3 +7758,24 @@
 [2024-05-14 03:58:21] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.7.tar.gz]
 [2024-05-14 03:58:21] INFO root fetch - main [MainThread]: End processing [flowee]: success
 [2024-05-14 03:58:21] INFO root fetch - main [MainThread]: Store serial: [23194747]
+[2024-05-14 04:00:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194747]
+[2024-05-14 04:00:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sawsi
+[2024-05-14 04:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ujson
+[2024-05-14 04:00:29] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-05-14 04:00:30] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-05-14 04:00:30] INFO root fetch - processPackages [ujson]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-14 04:00:30] INFO root fetch - processPackages [ujson]: Downloading https://files.pythonhosted.org/packages/15/16/ff0a051f9a6e122f07630ed1e9cbe0e0b769273e123673f0d2aa17fe3a36/ujson-5.8.0.tar.gz
+[2024-05-14 04:00:30] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-05-14 04:00:30] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-05-14 04:00:30] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240514/s/sawsi/9.8-9.9/README.md --exclude *.pyd
+[2024-05-14 04:00:31] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-05-14 04:00:31] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-05-14 04:00:31] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-05-14 04:00:31] INFO root fetch - processPackages [ujson]: Downloading https://files.pythonhosted.org/packages/6e/54/6f2bdac7117e89a47de4511c9f01732a283457ab1bf856e1e51aa861619e/ujson-5.9.0.tar.gz
+[2024-05-14 04:00:32] INFO root fetch - processPackages [ujson]: executing diffoscope
+[2024-05-14 04:00:32] INFO root fetch - processPackages [ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ujson-5.8.0.tar.gz tmp/ujson-5.9.0.tar.gz --markdown 20240514/u/ujson/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-14 04:00:34] INFO root fetch - processPackages [ujson]: Remove: archive file [/home/abi/fetcher/tmp/ujson-5.8.0.tar.gz]
+[2024-05-14 04:00:34] INFO root fetch - processPackages [ujson]: Remove: archive file [/home/abi/fetcher/tmp/ujson-5.9.0.tar.gz]
+[2024-05-14 04:00:34] INFO root fetch - main [MainThread]: End processing [ujson]: success
+[2024-05-14 04:00:34] INFO root fetch - main [MainThread]: Store serial: [23194750]
