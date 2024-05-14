@@ -7470,3 +7470,24 @@
 [2024-05-14 03:34:29] INFO root fetch - processPackages [evomap]: Remove: archive file [/home/abi/fetcher/tmp/evomap-0.3.1.tar.gz]
 [2024-05-14 03:34:29] INFO root fetch - main [MainThread]: End processing [evomap]: success
 [2024-05-14 03:34:29] INFO root fetch - main [MainThread]: Store serial: [23194480]
+[2024-05-14 03:36:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194480]
+[2024-05-14 03:36:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 03:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spakky-core
+[2024-05-14 03:36:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchsense
+[2024-05-14 03:36:38] INFO root fetch - processPackages [spakky-core]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-14 03:36:38] INFO root fetch - processPackages [torchsense]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 03:36:38] INFO root fetch - processPackages [spakky-core]: Downloading https://files.pythonhosted.org/packages/00/89/a60a8c635a72b40aa44f33aa7dac2eea514665e281ebf848dca350c39a65/spakky_core-0.7.8.tar.gz
+[2024-05-14 03:36:38] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/5a/5f/760146a1ca5bac429d08983b537f0cb303d558d19b316710b32fc9309d50/torchsense-0.0.2.tar.gz
+[2024-05-14 03:36:38] INFO root fetch - processPackages [torchsense]: Downloading https://files.pythonhosted.org/packages/74/e6/d899e71286192cb0eaffdb6c6a095e2468df41f5c4fd2e23d1f278ea6c62/torchsense-0.0.3.tar.gz
+[2024-05-14 03:36:39] INFO root fetch - processPackages [torchsense]: executing diffoscope
+[2024-05-14 03:36:39] INFO root fetch - processPackages [torchsense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsense-0.0.2.tar.gz tmp/torchsense-0.0.3.tar.gz --markdown 20240514/t/torchsense/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 03:36:39] INFO root fetch - processPackages [spakky-core]: Downloading https://files.pythonhosted.org/packages/c8/cd/b8c03005e0a9cac715b483e9d58fe8def2df30b6c3815ffb82a4f8914b0c/spakky_core-0.7.9.tar.gz
+[2024-05-14 03:36:39] INFO root fetch - processPackages [spakky-core]: executing diffoscope
+[2024-05-14 03:36:39] INFO root fetch - processPackages [spakky-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spakky_core-0.7.8.tar.gz tmp/spakky_core-0.7.9.tar.gz --markdown 20240514/s/spakky-core/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-14 03:36:39] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.2.tar.gz]
+[2024-05-14 03:36:39] INFO root fetch - processPackages [torchsense]: Remove: archive file [/home/abi/fetcher/tmp/torchsense-0.0.3.tar.gz]
+[2024-05-14 03:36:39] INFO root fetch - main [MainThread]: End processing [torchsense]: success
+[2024-05-14 03:36:39] INFO root fetch - processPackages [spakky-core]: Remove: archive file [/home/abi/fetcher/tmp/spakky_core-0.7.8.tar.gz]
+[2024-05-14 03:36:39] INFO root fetch - processPackages [spakky-core]: Remove: archive file [/home/abi/fetcher/tmp/spakky_core-0.7.9.tar.gz]
+[2024-05-14 03:36:39] INFO root fetch - main [MainThread]: End processing [spakky-core]: success
+[2024-05-14 03:36:39] INFO root fetch - main [MainThread]: Store serial: [23194546]
