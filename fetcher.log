@@ -13077,3 +13077,105 @@
 [2024-05-14 09:18:35] ERROR root fetch - processPackages [SoL]: Timeout during execution of pkgdiff
 [2024-05-14 09:18:35] INFO root fetch - main [MainThread]: End processing [SoL] error
 [2024-05-14 09:18:35] INFO root fetch - main [MainThread]: Store serial: [23196969]
+[2024-05-14 09:20:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196969]
+[2024-05-14 09:20:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QtHarmony
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: carbon-registry-indexer
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catchment_data_api
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccross
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-project-wbs
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: conetwork
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conetwork
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eurmlsdk
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: recce-nightly
+[2024-05-14 09:20:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-core-package
+[2024-05-14 09:20:45] INFO root fetch - processPackages [catchment_data_api]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [eurmlsdk]: New version: [0.0.82] Old Version: [0.0.81]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [test-core-package]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [recce-nightly]: New version: [0.9.0.20240313] Old Version: [0.9.0.20240312]
+[2024-05-14 09:20:45] WARNING root fetch - processPackages [conetwork]: Skipping, unable to determine old version
+[2024-05-14 09:20:45] WARNING root fetch - processPackages [conetwork]: Skipping, unable to determine old version
+[2024-05-14 09:20:45] INFO root fetch - processPackages [conetwork]: Start processing: bluepyefe
+[2024-05-14 09:20:45] INFO root fetch - main [MainThread]: End processing [conetwork] error
+[2024-05-14 09:20:45] INFO root fetch - processPackages [conetwork]: Start processing: eazyAI
+[2024-05-14 09:20:45] INFO root fetch - main [MainThread]: End processing [conetwork] error
+[2024-05-14 09:20:45] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/ef/c7/d3c3c76a665a73a45d10d1f71627aaa6132483fd5467e7a3625b0f15d1d1/eurmlsdk-0.0.81.tar.gz
+[2024-05-14 09:20:45] INFO root fetch - processPackages [QtHarmony]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [odoo14-addon-project-wbs]: New version: [14.0.1.0.4] Old Version: [14.0.1.0.3.dev1]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [carbon-registry-indexer]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [sccross]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [catchment_data_api]: Downloading https://files.pythonhosted.org/packages/ac/b5/523fef84d4f5014c87264e89b57f8f660c9e392fe1054e9e02e8e39c9670/catchment_data_api-0.1.0.tar.gz
+[2024-05-14 09:20:45] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/c6/8c/cde0615abf888d0ccade0e1fc90482c4c402fedef38bf8fb00d1202e6ad2/recce-nightly-0.9.0.20240312.tar.gz
+[2024-05-14 09:20:45] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/98/e2/1cf489bc6a518f591f36d801d91a2c378c513fa359c0f37ec205e2f05d1b/test_core_package-0.1.1.tar.gz
+[2024-05-14 09:20:45] WARNING root fetch - processPackages [eazyAI]: Skipping, unable to determine old version
+[2024-05-14 09:20:45] INFO root fetch - processPackages [eazyAI]: Start processing: pybi-next
+[2024-05-14 09:20:45] INFO root fetch - main [MainThread]: End processing [eazyAI] error
+[2024-05-14 09:20:45] INFO root fetch - processPackages [bluepyefe]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-14 09:20:45] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/a9/f4/31aba2f458bd975c8f156b4c45eadd75961cacf26248e3f5f6e08d68d30d/qtharmony-0.2.3.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [sccross]: Downloading https://files.pythonhosted.org/packages/9f/fc/9e7a9c1932a271bf74613dfcfb4b6ab1e0ad90d6334842ddf75a109cf78c/sccross-1.0.3.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/6a/ea/27f744d6e0e724c6e0575edb2c67737c6a70147e7ebcd97674a2959d66dd/carbon-registry-indexer-0.1.8.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [pybi-next]: New version: [0.5.0b9] Old Version: [0.5.0b8]
+[2024-05-14 09:20:46] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/6b/9f/698277c2a39aeb13fa2df4adfa8e52c6bc44c2654206ac3d26ed2768557a/odoo14_addon_project_wbs-14.0.1.0.3.dev1-py3-none-any.whl
+[2024-05-14 09:20:46] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/9e/0d/3bd7040c54b44293a4cf36529fa4e8c9c06b73f72bef5416d3c6df1c607a/bluepyefe-2.3.8.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [eurmlsdk]: Downloading https://files.pythonhosted.org/packages/d4/b0/2fcb49ace3cdc11c69c53dac85a950f8594ee060392dedb298521ca6b5ca/eurmlsdk-0.0.82.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [catchment_data_api]: Downloading https://files.pythonhosted.org/packages/76/73/f6dd85062e2bc2d81ea06a5bd7b49bfaa30afb9919d1e861183feb588e2e/catchment_data_api-0.1.1.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [test-core-package]: Downloading https://files.pythonhosted.org/packages/b8/0d/d43b74e1fc3b0b1f02ebd8e4757a7b39745398f670252b61e210d947dc86/test_core_package-0.1.2.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/22/c1/43c1420a9cc04c17aa7d4e269ce5d68744b53031676cbb3a79e07a1b643c/pybi-next-0.5.0b8.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/52/11/d0c59f6609b46f5766293823d2b30e4fd872dbea146425e2d959b41a44a4/recce-nightly-0.9.0.20240313.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [eurmlsdk]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [eurmlsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurmlsdk-0.0.81.tar.gz tmp/eurmlsdk-0.0.82.tar.gz --markdown 20240514/e/eurmlsdk/0.0.81-0.0.82/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/af/71/aa968de85e918db9c796223ecbf1d6bdbce57945c326c3909d1e7bb8805c/qtharmony-0.2.4.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [test-core-package]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [test-core-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_core_package-0.1.1.tar.gz tmp/test_core_package-0.1.2.tar.gz --markdown 20240514/t/test-core-package/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [catchment_data_api]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [catchment_data_api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchment_data_api-0.1.0.tar.gz tmp/catchment_data_api-0.1.1.tar.gz --markdown 20240514/c/catchment_data_api/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [sccross]: Downloading https://files.pythonhosted.org/packages/e2/02/38271fc5c7532b87b235e6a5414e48d39da67463e32ebcd58a6ca3c608dc/sccross-1.0.4.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [carbon-registry-indexer]: Downloading https://files.pythonhosted.org/packages/e5/cd/1e1e95e6852f521936093508bcf7bbf278df34c6892a3bcd86aa33caf947/carbon-registry-indexer-0.1.9.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [QtHarmony]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [QtHarmony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtharmony-0.2.3.tar.gz tmp/qtharmony-0.2.4.tar.gz --markdown 20240514/Q/QtHarmony/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Downloading https://files.pythonhosted.org/packages/f9/01/af5c768d9812485513b7151317ceb987b5c7a1a4c5b08583f6f5a8d8b1a2/odoo14_addon_project_wbs-14.0.1.0.4-py3-none-any.whl
+[2024-05-14 09:20:46] INFO root fetch - processPackages [recce-nightly]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [recce-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-nightly-0.9.0.20240312.tar.gz tmp/recce-nightly-0.9.0.20240313.tar.gz --markdown 20240514/r/recce-nightly/0.9.0.20240312-0.9.0.20240313/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/31/11/0a3d4bfd0ec4abcf9868b8d8a6c2e8a7d71c3851bd1edb4d6f6f27e8a78a/bluepyefe-2.3.9.tar.gz
+[2024-05-14 09:20:46] INFO root fetch - processPackages [carbon-registry-indexer]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [carbon-registry-indexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbon-registry-indexer-0.1.8.tar.gz tmp/carbon-registry-indexer-0.1.9.tar.gz --markdown 20240514/c/carbon-registry-indexer/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [sccross]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [sccross]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sccross-1.0.3.tar.gz tmp/sccross-1.0.4.tar.gz --markdown 20240514/s/sccross/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [odoo14-addon-project-wbs]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [odoo14-addon-project-wbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_wbs-14.0.1.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_project_wbs-14.0.1.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo14-addon-project-wbs/14.0.1.0.3.dev1-14.0.1.0.4/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2024-05-14 09:20:46] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.3.8.tar.gz tmp/bluepyefe-2.3.9.tar.gz --markdown 20240514/b/bluepyefe/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-14 09:20:46] INFO root fetch - processPackages [pybi-next]: Downloading https://files.pythonhosted.org/packages/fc/fc/db8c8ea59dc981ec720475bfe2d338ce72f2141eda24691b66a5f36d6c23/pybi-next-0.5.0b9.tar.gz
+[2024-05-14 09:20:47] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.81.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [eurmlsdk]: Remove: archive file [/home/abi/fetcher/tmp/eurmlsdk-0.0.82.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [eurmlsdk]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [pybi-next]: executing diffoscope
+[2024-05-14 09:20:47] INFO root fetch - processPackages [pybi-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybi-next-0.5.0b8.tar.gz tmp/pybi-next-0.5.0b9.tar.gz --markdown 20240514/p/pybi-next/0.5.0b8-0.5.0b9/README.md --exclude *.pyd
+[2024-05-14 09:20:47] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.1.1.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [test-core-package]: Remove: archive file [/home/abi/fetcher/tmp/test_core_package-0.1.2.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [test-core-package]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.3.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.4.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [QtHarmony]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [catchment_data_api]: Remove: archive file [/home/abi/fetcher/tmp/catchment_data_api-0.1.0.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [catchment_data_api]: Remove: archive file [/home/abi/fetcher/tmp/catchment_data_api-0.1.1.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [catchment_data_api]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.8.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [carbon-registry-indexer]: Remove: archive file [/home/abi/fetcher/tmp/carbon-registry-indexer-0.1.9.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [carbon-registry-indexer]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_wbs-14.0.1.0.3.dev1-py3-none-any.whl.zip]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [odoo14-addon-project-wbs]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_project_wbs-14.0.1.0.4-py3-none-any.whl.zip]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-wbs]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.8.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.3.9.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2024-05-14 09:20:47] INFO root fetch - processPackages [sccross]: Remove: archive file [/home/abi/fetcher/tmp/sccross-1.0.3.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - processPackages [sccross]: Remove: archive file [/home/abi/fetcher/tmp/sccross-1.0.4.tar.gz]
+[2024-05-14 09:20:47] INFO root fetch - main [MainThread]: End processing [sccross]: success
+[2024-05-14 09:20:49] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240312.tar.gz]
+[2024-05-14 09:20:49] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
+[2024-05-14 09:20:49] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
+[2024-05-14 09:20:50] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.5.0b8.tar.gz]
+[2024-05-14 09:20:50] INFO root fetch - processPackages [pybi-next]: Remove: archive file [/home/abi/fetcher/tmp/pybi-next-0.5.0b9.tar.gz]
+[2024-05-14 09:20:50] INFO root fetch - main [MainThread]: End processing [pybi-next]: success
+[2024-05-14 09:20:50] INFO root fetch - main [MainThread]: Store serial: [23197010]
