@@ -15700,3 +15700,141 @@
 [2024-05-14 10:44:09] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.2.dev6.tar.gz]
 [2024-05-14 10:44:09] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-14 10:44:09] INFO root fetch - main [MainThread]: Store serial: [23198204]
+[2024-05-14 10:46:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198204]
+[2024-05-14 10:46:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiomisc
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airton_ac
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dcaspt2-input-generator
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lektricowifi
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testpkg3322
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsugu
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-cpu
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poetry-plugin-lambda-build
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cycode
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ydb-sqlalchemy
+[2024-05-14 10:46:24] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc6] Old Version: [0.9.9rc5]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [testpkg3322]: New version: [2.35.9] Old Version: [2.35.8]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [poetry-plugin-lambda-build]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [cycode]: New version: [1.9.5.dev5] Old Version: [1.9.5.dev4]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/23/04/35c1a1c99ef4b9f9b30aa9235d91bafa8e903df5f36f27a00eadaae22394/tsugu-0.9.9rc5.tar.gz
+[2024-05-14 10:46:24] INFO root fetch - processPackages [lektricowifi]: New version: [0.0.9] Old Version: [0.0.26]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [airton_ac]: New version: [3.0.0] Old Version: [2.2.1]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [ydb-sqlalchemy]: New version: [0.0.1b9] Old Version: [0.0.1b8]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/b1/67/52cb48ac291fac86746f7dbd7cf0baea244b43de02f8c2aba020823bc50f/cycode-1.9.5.dev4.tar.gz
+[2024-05-14 10:46:24] INFO root fetch - processPackages [dcaspt2-input-generator]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/b9/c9/e486ba09062c28172d0bc9a928073148958a49a2848f1dc98e76b0e3ca5a/testpkg3322-2.35.8.tar.gz
+[2024-05-14 10:46:24] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2024-05-14 10:46:24] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240514] Old Version: [2.17.0.dev20240513]
+[2024-05-14 10:46:25] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/a8/7a/088f3c74711560dc9eacf0c2f16ac3144a40645aaf686a7b847f2d2b1b4e/poetry_plugin_lambda_build-0.5.1.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/1c/4c/478ce7db02c478131e392c7fd45a94e20e295a7f13605d55cf5462105649/lektricowifi-0.0.26.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [dcaspt2-input-generator]: Downloading https://files.pythonhosted.org/packages/00/82/a2fc805d136fffe1245cece60c2ecb7e166c520040e0dd6b0c6ad4fa4e4b/dcaspt2_input_generator-0.6.1.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [ydb-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/a7/d3/f9f9da00584b7fc5b8b8c119b5c3f94c1f715e5d3f5311cd5675290e5af4/ydb-sqlalchemy-0.0.1b8.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [airton_ac]: Downloading https://files.pythonhosted.org/packages/55/c6/a7dea125961c495b350e24d99fdadfb6b62ed74c84330f4f1960c85bb698/airton_ac-2.2.1.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [testpkg3322]: Downloading https://files.pythonhosted.org/packages/d6/11/333284ab2e508038695e9308bdb436693df60040d7ce7a2e0aacac7f5bdb/testpkg3322-2.35.9.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/69/3e/4cdfa458ef7e98bff8febf8266cc2fff83a927be6f8593ad22f83ba762f5/tf_nightly_cpu-2.17.0.dev20240513-cp39-cp39-win_amd64.whl
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/c1/ff/72eb6ce4262ad98fdb162e186d2f88d632b9053ff968826037d3159b4a0b/tsugu-0.9.9rc6.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/57/f1/26e9e2b7a0b9fd8fc6b011758da990329df36337e38cf312f30ac765c0cc/cycode-1.9.5.dev5.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [testpkg3322]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [testpkg3322]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpkg3322-2.35.8.tar.gz tmp/testpkg3322-2.35.9.tar.gz --markdown 20240514/t/testpkg3322/2.35.8-2.35.9/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.9.9rc5.tar.gz tmp/tsugu-0.9.9rc6.tar.gz --markdown 20240514/t/tsugu/0.9.9rc5-0.9.9rc6/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Downloading https://files.pythonhosted.org/packages/9c/6b/e75d255583e3e41d5e8f7d700b9052d4a9600b68d9a88f858849af8c1c1f/poetry_plugin_lambda_build-0.5.2.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [lektricowifi]: Downloading https://files.pythonhosted.org/packages/14/11/f224fa1f58d2852240b73632f6f13082434177fb1ee9610a7285b6225a73/lektricowifi-0.0.9.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [dcaspt2-input-generator]: Downloading https://files.pythonhosted.org/packages/ed/a4/e62fba5486362f21ab76af4440ce47a871668465f93baec5e9bb8500ebcb/dcaspt2_input_generator-0.6.2.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.5.dev4.tar.gz tmp/cycode-1.9.5.dev5.tar.gz --markdown 20240514/c/cycode/1.9.5.dev4-1.9.5.dev5/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [airton_ac]: Downloading https://files.pythonhosted.org/packages/b6/13/599ae465478de1a087628ab3cd30ff71eb9ce438b4bc7723f0f27a0dda08/airton_ac-3.0.0.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/f5/d3/8f6a70bb294804ba979225b8f6f2f8692792397e4cfcf8468d5a0589aa56/tf_nightly_cpu-2.17.0.dev20240514-cp39-cp39-win_amd64.whl
+[2024-05-14 10:46:25] INFO root fetch - processPackages [lektricowifi]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [lektricowifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lektricowifi-0.0.26.tar.gz tmp/lektricowifi-0.0.9.tar.gz --markdown 20240514/l/lektricowifi/0.0.26-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [ydb-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/4e/4c/52555526f923fcab8dbd3230b93d0cdb7f79fecd4fd4171d50e3c55d9db7/ydb-sqlalchemy-0.0.1b9.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [poetry-plugin-lambda-build]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [poetry-plugin-lambda-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_lambda_build-0.5.1.tar.gz tmp/poetry_plugin_lambda_build-0.5.2.tar.gz --markdown 20240514/p/poetry-plugin-lambda-build/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2024-05-14 10:46:25] INFO root fetch - processPackages [dcaspt2-input-generator]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [dcaspt2-input-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcaspt2_input_generator-0.6.1.tar.gz tmp/dcaspt2_input_generator-0.6.2.tar.gz --markdown 20240514/d/dcaspt2-input-generator/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [airton_ac]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [airton_ac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airton_ac-2.2.1.tar.gz tmp/airton_ac-3.0.0.tar.gz --markdown 20240514/a/airton_ac/2.2.1-3.0.0/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [ydb-sqlalchemy]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [ydb-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-sqlalchemy-0.0.1b8.tar.gz tmp/ydb-sqlalchemy-0.0.1b9.tar.gz --markdown 20240514/y/ydb-sqlalchemy/0.0.1b8-0.0.1b9/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20240514/a/aiomisc/9.8.1-9.8.4/README.md --exclude *.pyd
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-14 10:46:25] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip --markdown 20240514/t/tf-nightly-cpu/2.17.0.dev20240513-2.17.0.dev20240514/README.md --exclude *.pyd
+[2024-05-14 10:46:26] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.8.tar.gz]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [testpkg3322]: Remove: archive file [/home/abi/fetcher/tmp/testpkg3322-2.35.9.tar.gz]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [testpkg3322]: Start processing: messages-local
+[2024-05-14 10:46:26] INFO root fetch - main [MainThread]: End processing [testpkg3322]: success
+[2024-05-14 10:46:26] INFO root fetch - processPackages [messages-local]: New version: [0.0.55] Old Version: [0.0.54]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/93/6d/f145434ae6b2018c600f4bf663d9bb5eb720f21836001194645bd2401c7f/messages_local-0.0.54.tar.gz
+[2024-05-14 10:46:26] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.26.tar.gz]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [lektricowifi]: Remove: archive file [/home/abi/fetcher/tmp/lektricowifi-0.0.9.tar.gz]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [lektricowifi]: Start processing: cybsi-cloud-sdk
+[2024-05-14 10:46:26] INFO root fetch - main [MainThread]: End processing [lektricowifi]: success
+[2024-05-14 10:46:26] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc5.tar.gz]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc6.tar.gz]
+[2024-05-14 10:46:26] INFO root fetch - processPackages [tsugu]: Start processing: udata-front
+[2024-05-14 10:46:26] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 10:46:26] INFO root fetch - processPackages [cybsi-cloud-sdk]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [ydb-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/ydb-sqlalchemy-0.0.1b8.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [ydb-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/ydb-sqlalchemy-0.0.1b9.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [ydb-sqlalchemy]: Start processing: mapieng
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [ydb-sqlalchemy]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev19669] Old Version: [4.0.3.dev19461]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [messages-local]: Downloading https://files.pythonhosted.org/packages/75/1c/7cbbf90368d57e16da07f959840894304e8c9902602d4f7e5cda76233189/messages_local-0.0.55.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [airton_ac]: Remove: archive file [/home/abi/fetcher/tmp/airton_ac-2.2.1.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [airton_ac]: Remove: archive file [/home/abi/fetcher/tmp/airton_ac-3.0.0.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [airton_ac]: Start processing: smartlink-local
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [airton_ac]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev4.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.5.dev5.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240513-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240514-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [mapieng]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.1.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.4.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.1.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.2.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [dcaspt2-input-generator]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [messages-local]: executing diffoscope
+[2024-05-14 10:46:27] INFO root fetch - processPackages [messages-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messages_local-0.0.54.tar.gz tmp/messages_local-0.0.55.tar.gz --markdown 20240514/m/messages-local/0.0.54-0.0.55/README.md --exclude *.pyd
+[2024-05-14 10:46:27] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/ac/b0/38b7ff928460bf9e68d39a2db1f433e6f43f03af4cfdc3c52062c5d369de/udata_front-4.0.3.dev19461-py2.py3-none-any.whl
+[2024-05-14 10:46:27] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.1.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [poetry-plugin-lambda-build]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_lambda_build-0.5.2.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [poetry-plugin-lambda-build]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [cybsi-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/83/d1/12acc64f5c47b5bf3a6994a85cfa7d538fc3df7c8e8542fc466fe07f426b/cybsi_cloud_sdk-1.1.0.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [smartlink-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/86/71/69b8036ee86bbd5cfb4a6dfa94bbf4b6ce4b1686a628408478d0995b0a86/mapieng-0.1.0.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/33/0f/ea9406a1f10f69f535bf20c7279bd77b0c5e4be50c06b370e07773712231/smartlink-local-0.0.8.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [cybsi-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/91/92/c3d39784d83195e032dfa3dc6a80e97410dabbd3629e2eb96fc3900da5f5/cybsi_cloud_sdk-1.1.1.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [smartlink-local]: Downloading https://files.pythonhosted.org/packages/c8/e8/2941eb5c3e5dac4ad8d31d1a52137f323e161b66acc1f4d50ca9d1c0102b/smartlink-local-0.0.9.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [cybsi-cloud-sdk]: executing diffoscope
+[2024-05-14 10:46:27] INFO root fetch - processPackages [cybsi-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybsi_cloud_sdk-1.1.0.tar.gz tmp/cybsi_cloud_sdk-1.1.1.tar.gz --markdown 20240514/c/cybsi-cloud-sdk/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-14 10:46:27] INFO root fetch - processPackages [smartlink-local]: executing diffoscope
+[2024-05-14 10:46:27] INFO root fetch - processPackages [smartlink-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlink-local-0.0.8.tar.gz tmp/smartlink-local-0.0.9.tar.gz --markdown 20240514/s/smartlink-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 10:46:27] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/70/7f/df8ef26866a8c56a9ea9b9c12ebfc93ceaa403a2232b0b7574ab4c500e11/udata_front-4.0.3.dev19669-py2.py3-none-any.whl
+[2024-05-14 10:46:27] INFO root fetch - processPackages [mapieng]: Downloading https://files.pythonhosted.org/packages/81/a5/030a25a5a61e21f031d0a74ccf2226e30a3c77e26e5f14957237e32e09c1/mapieng-0.1.1.tar.gz
+[2024-05-14 10:46:27] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.54.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - processPackages [messages-local]: Remove: archive file [/home/abi/fetcher/tmp/messages_local-0.0.55.tar.gz]
+[2024-05-14 10:46:27] INFO root fetch - main [MainThread]: End processing [messages-local]: success
+[2024-05-14 10:46:27] INFO root fetch - processPackages [mapieng]: executing diffoscope
+[2024-05-14 10:46:27] INFO root fetch - processPackages [mapieng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapieng-0.1.0.tar.gz tmp/mapieng-0.1.1.tar.gz --markdown 20240514/m/mapieng/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 10:46:28] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.8.tar.gz]
+[2024-05-14 10:46:28] INFO root fetch - processPackages [smartlink-local]: Remove: archive file [/home/abi/fetcher/tmp/smartlink-local-0.0.9.tar.gz]
+[2024-05-14 10:46:28] INFO root fetch - main [MainThread]: End processing [smartlink-local]: success
+[2024-05-14 10:46:28] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-05-14 10:46:28] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip tmp/udata_front-4.0.3.dev19669-py2.py3-none-any.whl.zip --markdown 20240514/u/udata-front/4.0.3.dev19461-4.0.3.dev19669/README.md --exclude *.pyd
+[2024-05-14 10:46:28] INFO root fetch - processPackages [cybsi-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_cloud_sdk-1.1.0.tar.gz]
+[2024-05-14 10:46:28] INFO root fetch - processPackages [cybsi-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_cloud_sdk-1.1.1.tar.gz]
+[2024-05-14 10:46:28] INFO root fetch - main [MainThread]: End processing [cybsi-cloud-sdk]: success
+[2024-05-14 10:46:28] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.0.tar.gz]
+[2024-05-14 10:46:28] INFO root fetch - processPackages [mapieng]: Remove: archive file [/home/abi/fetcher/tmp/mapieng-0.1.1.tar.gz]
+[2024-05-14 10:46:28] INFO root fetch - main [MainThread]: End processing [mapieng]: success
+[2024-05-14 10:48:04] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19461-py2.py3-none-any.whl.zip]
+[2024-05-14 10:48:04] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-4.0.3.dev19669-py2.py3-none-any.whl.zip]
+[2024-05-14 10:48:04] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-05-14 10:48:04] INFO root fetch - main [MainThread]: Store serial: [23198259]
