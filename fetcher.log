@@ -8435,3 +8435,44 @@
 [2024-05-14 04:53:44] INFO root fetch - processPackages [hamu-tool]: Remove: archive file [/home/abi/fetcher/tmp/hamu-tool-0.0.8.tar.gz]
 [2024-05-14 04:53:44] INFO root fetch - main [MainThread]: End processing [hamu-tool]: success
 [2024-05-14 04:53:44] INFO root fetch - main [MainThread]: Store serial: [23195061]
+[2024-05-14 04:55:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195061]
+[2024-05-14 04:55:52] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-14 04:57:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195061]
+[2024-05-14 04:57:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 04:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardex
+[2024-05-14 04:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GSG
+[2024-05-14 04:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-alpaca-api
+[2024-05-14 04:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypothesis-torch
+[2024-05-14 04:57:58] INFO root fetch - processPackages [GSG]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-05-14 04:57:58] INFO root fetch - processPackages [hypothesis-torch]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-05-14 04:57:58] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-05-14 04:57:58] INFO root fetch - processPackages [py-alpaca-api]: New version: [0.3.5] Old Version: [0.3.0]
+[2024-05-14 04:57:58] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-05-14 04:57:58] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/ac/e7/03f2560140340d856a3e126652daaa62fd4de996010769fa3a07952a73d8/hypothesis_torch-0.6.3.tar.gz
+[2024-05-14 04:57:58] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/4a/c6/e9c1fdbe1f546bbf465c3b898acff9031919894bf13ca7453b0ffa5c43d8/GSG-0.5.5.tar.gz
+[2024-05-14 04:57:58] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/76/b0/93280211f8c80817e58207bc8ec8109cc80efd2796c36bd0d1191fd8a11f/py_alpaca_api-0.3.0.tar.gz
+[2024-05-14 04:57:58] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-05-14 04:57:58] INFO root fetch - processPackages [GSG]: Downloading https://files.pythonhosted.org/packages/63/7d/2d8ac2de8a643f4de26a5d0869ef008147514712b0b117a513c10851911a/GSG-0.5.6.tar.gz
+[2024-05-14 04:57:58] INFO root fetch - processPackages [hypothesis-torch]: Downloading https://files.pythonhosted.org/packages/63/6f/3cc5f822ca79dd3e3ea7c523f36737a520646256baedba28bb0216d42170/hypothesis_torch-0.6.4.tar.gz
+[2024-05-14 04:57:59] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-05-14 04:57:59] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240514/c/cardex/0.2.0.dev8-0.2.0.dev9/README.md --exclude *.pyd
+[2024-05-14 04:57:59] INFO root fetch - processPackages [GSG]: executing diffoscope
+[2024-05-14 04:57:59] INFO root fetch - processPackages [GSG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GSG-0.5.5.tar.gz tmp/GSG-0.5.6.tar.gz --markdown 20240514/G/GSG/0.5.5-0.5.6/README.md --exclude *.pyd
+[2024-05-14 04:57:59] INFO root fetch - processPackages [hypothesis-torch]: executing diffoscope
+[2024-05-14 04:57:59] INFO root fetch - processPackages [hypothesis-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypothesis_torch-0.6.3.tar.gz tmp/hypothesis_torch-0.6.4.tar.gz --markdown 20240514/h/hypothesis-torch/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-05-14 04:57:59] INFO root fetch - processPackages [py-alpaca-api]: Downloading https://files.pythonhosted.org/packages/26/ce/0e227807da709ce15c0d1c48bb5c0faa37fecb0e4df9c4bd049e24181371/py_alpaca_api-0.3.5.tar.gz
+[2024-05-14 04:57:59] INFO root fetch - processPackages [py-alpaca-api]: executing diffoscope
+[2024-05-14 04:57:59] INFO root fetch - processPackages [py-alpaca-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_alpaca_api-0.3.0.tar.gz tmp/py_alpaca_api-0.3.5.tar.gz --markdown 20240514/p/py-alpaca-api/0.3.0-0.3.5/README.md --exclude *.pyd
+[2024-05-14 04:57:59] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.5.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - processPackages [GSG]: Remove: archive file [/home/abi/fetcher/tmp/GSG-0.5.6.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - main [MainThread]: End processing [GSG]: success
+[2024-05-14 04:57:59] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-05-14 04:57:59] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.6.3.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - processPackages [hypothesis-torch]: Remove: archive file [/home/abi/fetcher/tmp/hypothesis_torch-0.6.4.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - main [MainThread]: End processing [hypothesis-torch]: success
+[2024-05-14 04:57:59] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.3.0.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - processPackages [py-alpaca-api]: Remove: archive file [/home/abi/fetcher/tmp/py_alpaca_api-0.3.5.tar.gz]
+[2024-05-14 04:57:59] INFO root fetch - main [MainThread]: End processing [py-alpaca-api]: success
+[2024-05-14 04:57:59] INFO root fetch - main [MainThread]: Store serial: [23195073]
