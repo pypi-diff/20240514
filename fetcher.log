@@ -2655,3 +2655,72 @@
 [2024-05-14 02:18:02] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
 [2024-05-14 02:18:02] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
 [2024-05-14 02:18:02] INFO root fetch - main [MainThread]: Store serial: [23192863]
+[2024-05-14 02:20:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23192863]
+[2024-05-14 02:20:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calra-lambda
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-budibase
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Geode-Common
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: braintrust
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: argovisHelpers
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hab-gui
+[2024-05-14 02:20:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kmerdb
+[2024-05-14 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-14 02:20:11] WARNING root fetch - processPackages [calra-lambda]: Skipping, unable to determine old version
+[2024-05-14 02:20:11] INFO root fetch - main [MainThread]: End processing [calra-lambda] error
+[2024-05-14 02:20:11] INFO root fetch - processPackages [argovisHelpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-14 02:20:11] INFO root fetch - processPackages [braintrust]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 02:20:11] INFO root fetch - processPackages [Geode-Common]: New version: [31.1.0rc2] Old Version: [31.1.0rc1]
+[2024-05-14 02:20:11] INFO root fetch - processPackages [hab-gui]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 02:20:11] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-14 02:20:11] INFO root fetch - processPackages [argovisHelpers]: Downloading https://files.pythonhosted.org/packages/dc/fb/015a17f5953024b0ebd76d1f15a17c2d90e91891e9cc15d866d196c97a26/argovisHelpers-0.0.8.tar.gz
+[2024-05-14 02:20:11] INFO root fetch - processPackages [kmerdb]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-14 02:20:11] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/de/c6/30b3eb7e4b1c5983c8ec7e822a7e696104c7a7f1790bed3ef80a987f4941/braintrust-0.0.98.tar.gz
+[2024-05-14 02:20:11] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-14 02:20:11] INFO root fetch - processPackages [hab-gui]: Downloading https://files.pythonhosted.org/packages/c2/af/4baa02ebb1165ad5ed9c46613cbf87ac513f554a019ee15d1a454991bb4c/hab_gui-0.8.0.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/b6/c3/56768cb67208e6be535d9f8f9ab09f4ba2c64d21eb5ff086995cb97ae2d3/Geode_Common-31.1.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240514/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-14 02:20:12] INFO root fetch - processPackages [kmerdb]: Downloading https://files.pythonhosted.org/packages/c4/f7/efe3c66573f011c3cff73f274eaf6c24c60a49d7333a3645148959c5e616/kmerdb-0.8.1.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [braintrust]: Downloading https://files.pythonhosted.org/packages/bd/26/72df543bed4a12c9562f49bd7e81c0844d75e2a98f58941a7d24609cfb0a/braintrust-0.0.99.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [argovisHelpers]: Downloading https://files.pythonhosted.org/packages/c4/9b/69aa0ac205011a5c0353157c71c7c7d7418cfde221bcf8db32db64d593e8/argovisHelpers-0.0.9.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [braintrust]: executing diffoscope
+[2024-05-14 02:20:12] INFO root fetch - processPackages [braintrust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braintrust-0.0.98.tar.gz tmp/braintrust-0.0.99.tar.gz --markdown 20240514/b/braintrust/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 02:20:12] INFO root fetch - processPackages [argovisHelpers]: executing diffoscope
+[2024-05-14 02:20:12] INFO root fetch - processPackages [argovisHelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argovisHelpers-0.0.8.tar.gz tmp/argovisHelpers-0.0.9.tar.gz --markdown 20240514/a/argovisHelpers/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 02:20:12] INFO root fetch - processPackages [hab-gui]: Downloading https://files.pythonhosted.org/packages/d1/94/fb7c62f738ed4e836dc18043348be2703853b06e2c8ac94f84be6f9166fd/hab_gui-0.9.0.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/f0/46/437faa982368b5d43ed9fbda613415c79b0f536a43818331a120aa717cae/Geode_Common-31.1.0rc2-cp39-cp39-win_amd64.whl
+[2024-05-14 02:20:12] INFO root fetch - processPackages [kmerdb]: Downloading https://files.pythonhosted.org/packages/ac/64/075ab3f982c16b033609c4f41dbba0f02fc3ab9dc52aff7123b31490e732/kmerdb-0.8.2.tar.gz
+[2024-05-14 02:20:12] INFO root fetch - processPackages [hab-gui]: executing diffoscope
+[2024-05-14 02:20:12] INFO root fetch - processPackages [hab-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hab_gui-0.8.0.tar.gz tmp/hab_gui-0.9.0.tar.gz --markdown 20240514/h/hab-gui/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-14 02:20:12] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-14 02:20:12] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240514/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-14 02:20:12] INFO root fetch - processPackages [kmerdb]: executing diffoscope
+[2024-05-14 02:20:12] INFO root fetch - processPackages [kmerdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kmerdb-0.8.1.tar.gz tmp/kmerdb-0.8.2.tar.gz --markdown 20240514/k/kmerdb/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-14 02:20:13] INFO root fetch - processPackages [argovisHelpers]: Remove: archive file [/home/abi/fetcher/tmp/argovisHelpers-0.0.8.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - processPackages [argovisHelpers]: Remove: archive file [/home/abi/fetcher/tmp/argovisHelpers-0.0.9.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - main [MainThread]: End processing [argovisHelpers]: success
+[2024-05-14 02:20:13] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2024-05-14 02:20:13] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-31.1.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-31.1.0rc2-cp39-cp39-win_amd64.whl.zip --markdown 20240514/G/Geode-Common/31.1.0rc1-31.1.0rc2/README.md --exclude *.pyd
+[2024-05-14 02:20:13] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.98.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - processPackages [braintrust]: Remove: archive file [/home/abi/fetcher/tmp/braintrust-0.0.99.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - main [MainThread]: End processing [braintrust]: success
+[2024-05-14 02:20:13] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-14 02:20:13] INFO root fetch - processPackages [hab-gui]: Remove: archive file [/home/abi/fetcher/tmp/hab_gui-0.8.0.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - processPackages [hab-gui]: Remove: archive file [/home/abi/fetcher/tmp/hab_gui-0.9.0.tar.gz]
+[2024-05-14 02:20:13] INFO root fetch - main [MainThread]: End processing [hab-gui]: success
+[2024-05-14 02:20:14] INFO root fetch - processPackages [kmerdb]: Remove: archive file [/home/abi/fetcher/tmp/kmerdb-0.8.1.tar.gz]
+[2024-05-14 02:20:14] INFO root fetch - processPackages [kmerdb]: Remove: archive file [/home/abi/fetcher/tmp/kmerdb-0.8.2.tar.gz]
+[2024-05-14 02:20:14] INFO root fetch - main [MainThread]: End processing [kmerdb]: success
+[2024-05-14 02:20:29] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 02:20:29] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-31.1.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-14 02:20:29] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2024-05-14 02:20:29] INFO root fetch - main [MainThread]: Store serial: [23192887]
