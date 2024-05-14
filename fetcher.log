@@ -9053,3 +9053,27 @@
 [2024-05-14 05:37:18] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.2.0rc1.tar.gz]
 [2024-05-14 05:37:18] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
 [2024-05-14 05:37:18] INFO root fetch - main [MainThread]: Store serial: [23195282]
+[2024-05-14 05:39:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195282]
+[2024-05-14 05:39:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 05:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fmodpy
+[2024-05-14 05:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addons-oca-ddmrp
+[2024-05-14 05:39:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-priority-loadbalancer
+[2024-05-14 05:39:29] INFO root fetch - processPackages [fmodpy]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-05-14 05:39:29] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: New version: [14.0.20240513.0] Old Version: [14.0.20220216.0]
+[2024-05-14 05:39:29] WARNING root fetch - processPackages [openai-priority-loadbalancer]: Skipping, unable to determine old version
+[2024-05-14 05:39:29] INFO root fetch - main [MainThread]: End processing [openai-priority-loadbalancer] error
+[2024-05-14 05:39:29] INFO root fetch - processPackages [fmodpy]: Downloading https://files.pythonhosted.org/packages/c5/27/9b782299e07bc7d6ea1ec68ee509c7d48f34c2d98eda86afacd82ca2ccd2/fmodpy-1.7.3.tar.gz
+[2024-05-14 05:39:29] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: Downloading https://files.pythonhosted.org/packages/a3/1f/8954718f6fdd7739dd0768f91585a0778d2d80a5306de7a32ef8c6be39bb/odoo14_addons_oca_ddmrp-14.0.20220216.0-py3-none-any.whl
+[2024-05-14 05:39:29] INFO root fetch - processPackages [fmodpy]: Downloading https://files.pythonhosted.org/packages/0d/46/0c2f83157f8ee8247caa2e510d15535731572dff5be23e138218f910e7e7/fmodpy-1.7.4.tar.gz
+[2024-05-14 05:39:29] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: Downloading https://files.pythonhosted.org/packages/a0/5b/f3e50820f7b7dc506392be91ceaf2ebcc11fb55a5007e9079e2b961b4356/odoo14_addons_oca_ddmrp-14.0.20240513.0-py3-none-any.whl
+[2024-05-14 05:39:29] INFO root fetch - processPackages [fmodpy]: executing diffoscope
+[2024-05-14 05:39:29] INFO root fetch - processPackages [fmodpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmodpy-1.7.3.tar.gz tmp/fmodpy-1.7.4.tar.gz --markdown 20240514/f/fmodpy/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-05-14 05:39:29] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: executing diffoscope
+[2024-05-14 05:39:29] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_ddmrp-14.0.20220216.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_ddmrp-14.0.20240513.0-py3-none-any.whl.zip --markdown 20240514/o/odoo14-addons-oca-ddmrp/14.0.20220216.0-14.0.20240513.0/README.md --exclude *.pyd
+[2024-05-14 05:39:30] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_ddmrp-14.0.20220216.0-py3-none-any.whl.zip]
+[2024-05-14 05:39:30] INFO root fetch - processPackages [odoo14-addons-oca-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_ddmrp-14.0.20240513.0-py3-none-any.whl.zip]
+[2024-05-14 05:39:30] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-ddmrp]: success
+[2024-05-14 05:39:30] INFO root fetch - processPackages [fmodpy]: Remove: archive file [/home/abi/fetcher/tmp/fmodpy-1.7.3.tar.gz]
+[2024-05-14 05:39:30] INFO root fetch - processPackages [fmodpy]: Remove: archive file [/home/abi/fetcher/tmp/fmodpy-1.7.4.tar.gz]
+[2024-05-14 05:39:30] INFO root fetch - main [MainThread]: End processing [fmodpy]: success
+[2024-05-14 05:39:30] INFO root fetch - main [MainThread]: Store serial: [23195291]
