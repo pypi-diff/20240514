@@ -18190,3 +18190,88 @@
 [2024-05-14 12:00:14] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.6.tar.gz]
 [2024-05-14 12:00:14] INFO root fetch - main [MainThread]: End processing [therix]: success
 [2024-05-14 12:00:14] INFO root fetch - main [MainThread]: Store serial: [23199168]
+[2024-05-14 12:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199168]
+[2024-05-14 12:02:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-keras-nightly
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QuantumCatch
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OctoPrint
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dwave-sona-core
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: contact-group-local
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-base-view-inheritance-extension
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serializor
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netgen-mesher
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dcw-finder
+[2024-05-14 12:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dig-ass-ep-protos
+[2024-05-14 12:02:24] INFO root fetch - processPackages [dig-ass-ep-protos]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [dcw-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [contact-group-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [serializor]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024051309] Old Version: [2.17.0.dev2024051209]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [QuantumCatch]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: New version: [14.0.2.0.0] Old Version: [14.0.1.1.3.dev3]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [OctoPrint]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post40.dev0] Old Version: [6.2.2403.post4.dev0]
+[2024-05-14 12:02:24] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/63/e5/ff261731db98a38a39f4657a4cd1e04b2a998f175a7af36c640220ff9b00/contact-group-local-0.0.8.tar.gz
+[2024-05-14 12:02:24] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/19/a8/1f738810b9b53b808c05bcabb7f431b9f03ca037547b85c856851e9bdac2/dcw-finder-0.0.8.tar.gz
+[2024-05-14 12:02:24] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-14 12:02:24] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/f7/93/be31f25db319f6e4ae983df88ef7b9d5908b4b18911edd3435efa9c2653a/serializor-1.0.1.tar.gz
+[2024-05-14 12:02:24] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/40/71/b4b4904daecc513ebc1472c144a834669006d7c55b40500978c75bc3ee12/tf_keras_nightly-2.17.0.dev2024051209.tar.gz
+[2024-05-14 12:02:24] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/55/04/cb94dc4e6b44e516370c3de2f18d783ca78299a84a47a09c2e00d61bbaec/dig_ass_ep_protos-1.0.0.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [QuantumCatch]: Downloading https://files.pythonhosted.org/packages/fa/7c/7fe7c46bb0589f75a172b66a084c809bf8af174811a4727c02812615060f/quantumcatch-0.2.3.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/b1/4e/0c9c53436f3af7541a1bb6de295680d8776c05838659f9d69fa7bc5c0172/odoo14_addon_base_view_inheritance_extension-14.0.1.1.3.dev3-py3-none-any.whl
+[2024-05-14 12:02:25] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/b3/2a/fda9f0196741bde1eab8bceb34521d749408bf0b5d0c72c8db4e638968fc/netgen_mesher-6.2.2403.post4.dev0-cp38-cp38-macosx_10_15_universal2.whl
+[2024-05-14 12:02:25] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/38/d2/d5be70ce765911a45630217a58619553812e3a8d1134a0f85189eb680f43/OctoPrint-1.9.2.tar.gz
+[2024-05-14 12:02:25] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 43326626>=10485760
+[2024-05-14 12:02:25] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-14 12:02:25] INFO root fetch - processPackages [contact-group-local]: Downloading https://files.pythonhosted.org/packages/84/cc/f78576331b2ff0f497f4640872d65b71ec33ae804f6a44bb2f10f1957687/contact-group-local-0.0.9.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dcw-finder]: Downloading https://files.pythonhosted.org/packages/9d/d4/07781569a8af94ced0ee13fae250d76e80b5f14db81c0cbec3a9e23a0e54/dcw-finder-0.0.9.tar.gz
+[2024-05-14 12:02:25] WARNING root fetch - processPackages [QuantumCatch]: Skipping package: exceeds size limit 30287842>=10485760
+[2024-05-14 12:02:25] INFO root fetch - main [MainThread]: End processing [QuantumCatch] error
+[2024-05-14 12:02:25] INFO root fetch - processPackages [serializor]: Downloading https://files.pythonhosted.org/packages/16/e4/d1f49ce73042c30fac5d89e4fa962257b9cd1d9b209d8fe6b7966ef7e4a1/serializor-1.0.2.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [contact-group-local]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [contact-group-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact-group-local-0.0.8.tar.gz tmp/contact-group-local-0.0.9.tar.gz --markdown 20240514/c/contact-group-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dcw-finder]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dcw-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcw-finder-0.0.8.tar.gz tmp/dcw-finder-0.0.9.tar.gz --markdown 20240514/d/dcw-finder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/1a/eb/6ed9abdcdde0082bef76330edfd49705ce2c6b68a21ef5de434f7bddd4e5/dig_ass_ep_protos-1.0.1.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240514/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-14 12:02:25] INFO root fetch - processPackages [serializor]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [serializor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serializor-1.0.1.tar.gz tmp/serializor-1.0.2.tar.gz --markdown 20240514/s/serializor/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dig-ass-ep-protos]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [dig-ass-ep-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ep_protos-1.0.0.tar.gz tmp/dig_ass_ep_protos-1.0.1.tar.gz --markdown 20240514/d/dig-ass-ep-protos/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-14 12:02:25] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/01/49/67545e1be94636c9a956e3c25b0fc8c92c32da01a318656b3b505abb68bf/odoo14_addon_base_view_inheritance_extension-14.0.2.0.0-py3-none-any.whl
+[2024-05-14 12:02:25] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/df/f9/47d5fae526079596139fbcd60677ec4082ed6dd9405944fb41dfda2d695a/tf_keras_nightly-2.17.0.dev2024051309.tar.gz
+[2024-05-14 12:02:25] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_view_inheritance_extension-14.0.1.1.3.dev3-py3-none-any.whl.zip tmp/odoo14_addon_base_view_inheritance_extension-14.0.2.0.0-py3-none-any.whl.zip --markdown 20240514/o/odoo14-addon-base-view-inheritance-extension/14.0.1.1.3.dev3-14.0.2.0.0/README.md --exclude *.pyd
+[2024-05-14 12:02:25] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-14 12:02:25] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024051209.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024051309.tar.gz --markdown 20240514/t/tf-keras-nightly/2.17.0.dev2024051209-2.17.0.dev2024051309/README.md --exclude *.pyd
+[2024-05-14 12:02:26] INFO root fetch - processPackages [OctoPrint]: Downloading https://files.pythonhosted.org/packages/98/85/87e9539a5c7262c49be21e3dd214fa7247b04fb643ad6ac53d1bc61f9fe0/OctoPrint-1.9.3.tar.gz
+[2024-05-14 12:02:26] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.8.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - processPackages [contact-group-local]: Remove: archive file [/home/abi/fetcher/tmp/contact-group-local-0.0.9.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - main [MainThread]: End processing [contact-group-local]: success
+[2024-05-14 12:02:26] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.0.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-1.0.1.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - main [MainThread]: End processing [dig-ass-ep-protos]: success
+[2024-05-14 12:02:26] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.8.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - processPackages [dcw-finder]: Remove: archive file [/home/abi/fetcher/tmp/dcw-finder-0.0.9.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - main [MainThread]: End processing [dcw-finder]: success
+[2024-05-14 12:02:26] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-14 12:02:26] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-14 12:02:26] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_view_inheritance_extension-14.0.1.1.3.dev3-py3-none-any.whl.zip]
+[2024-05-14 12:02:26] INFO root fetch - processPackages [odoo14-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_view_inheritance_extension-14.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-14 12:02:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-view-inheritance-extension]: success
+[2024-05-14 12:02:26] INFO root fetch - processPackages [OctoPrint]: executing diffoscope
+[2024-05-14 12:02:26] INFO root fetch - processPackages [OctoPrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoPrint-1.9.2.tar.gz tmp/OctoPrint-1.9.3.tar.gz --markdown 20240514/O/OctoPrint/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-14 12:02:27] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.1.tar.gz]
+[2024-05-14 12:02:27] INFO root fetch - processPackages [serializor]: Remove: archive file [/home/abi/fetcher/tmp/serializor-1.0.2.tar.gz]
+[2024-05-14 12:02:28] INFO root fetch - main [MainThread]: End processing [serializor]: success
+[2024-05-14 12:02:28] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051209.tar.gz]
+[2024-05-14 12:02:28] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024051309.tar.gz]
+[2024-05-14 12:02:28] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-14 12:02:30] INFO root fetch - processPackages [OctoPrint]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-1.9.2.tar.gz]
+[2024-05-14 12:02:30] INFO root fetch - processPackages [OctoPrint]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-1.9.3.tar.gz]
+[2024-05-14 12:02:30] INFO root fetch - main [MainThread]: End processing [OctoPrint]: success
+[2024-05-14 12:02:30] INFO root fetch - main [MainThread]: Store serial: [23199207]
