@@ -21744,3 +21744,114 @@
 [2024-05-14 14:14:05] INFO root fetch - processPackages [ted2zim]: Remove: archive file [/home/abi/fetcher/tmp/ted2zim-3.0.1.tar.gz]
 [2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [ted2zim]: success
 [2024-05-14 14:14:05] INFO root fetch - main [MainThread]: Store serial: [23200776]
+[2024-05-14 14:16:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200776]
+[2024-05-14 14:16:15] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mistralrs
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mistralrs-accelerate
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mistralrs-cuda
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mistralrs-metal
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistralrs-mkl
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scaleway
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scaleway-async
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pkscreener
+[2024-05-14 14:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyterlab-new-launcher
+[2024-05-14 14:16:15] INFO root fetch - processPackages [kcli]: New version: [99.0.202405131653] Old Version: [99.0.202405131618]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240514.372] Old Version: [0.44.20240514.371]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ee/ad/914835dc782d9a479bb78eecf38f759af661741a4a80e704041aceb20988/kcli-99.0.202405131618.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-metal]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-accelerate]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-mkl]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [jupyterlab-new-launcher]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-cuda]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [scaleway]: New version: [2.2.1] Old Version: [2.1.0]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [scaleway-async]: New version: [2.2.1] Old Version: [2.1.0]
+[2024-05-14 14:16:15] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/7a/fe/2692e61040588904b1de97913f01c2be1ccf3a8642c750f20005dc7807d7/pkscreener-0.44.20240514.371.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/25/07/ba50d3cc56b721f452b7c463812642302defc3efb9c88618a2bea705de72/jupyterlab_new_launcher-0.2.3.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/c1/94/85e8a69431272f01d3d506c29bf592c96c4754bb3de2bb6bb2a6bdcfaf92/mistralrs_metal-0.1.5.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/62/e7/743f7342f5cf0a6a7a77c80733e545cf92c04c516cc76985a42606381841/mistralrs_mkl-0.1.5.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/27/a3/4d78c0ad3deb2b0b15f9c1792301239ef797b05d3db5597ce809d0b581a6/mistralrs_cuda-0.1.5.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/eb/6f/1bd24967bd68005b87356d952044acc13cc77c6253e04c44caf9fd56b921/mistralrs_accelerate-0.1.5.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/26/a3/31ac876436ca3106b1cd94de05deb4524072f399dffd7475bc00cd38e400/mistralrs-0.1.5.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/8b/8a/b04fd4c468d7861c3c792b7b7bcec00763c7b487febe42ba87e9d2f83f58/scaleway-2.1.0.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/95/e3/8e71ef44757cfd429bc27b9f151c127fc06c97bc2dc59d104c13002849ec/scaleway_async-2.1.0.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/cb/c4/c19501135e6486803774bf4c313b90ab9be3a230aaa1c544f0a1ff406133/kcli-99.0.202405131653.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/13/7a/cb46f76f1e1a694530669c0b915f39d7814c772ae436ca67bc10ab400d40/pkscreener-0.44.20240514.372.tar.gz
+[2024-05-14 14:16:15] INFO root fetch - processPackages [jupyterlab-new-launcher]: Downloading https://files.pythonhosted.org/packages/1e/74/da2bc17f4ea514eab719df15e9fbc05072983bd50786bd4f63d0685ec3b5/jupyterlab_new_launcher-0.3.0.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/64/ff/37ded4b97ec172af32fd0d6354cb44e3fe4d8872291a598a9e668d2a5b23/mistralrs_mkl-0.1.7.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/6c/f4/22716a35132cc0405584e4709018c303605e6e9dc84207345058f125a7f8/mistralrs-0.1.7.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/16/0a/51622b926f438156a7034b0565800cb9a09813be7eb86ac66e5ed84d3039/mistralrs_accelerate-0.1.7.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/57/03/d03238c7a179bc95c7954a216d0a931c2430f893a3ad750911f9e39a208a/mistralrs_cuda-0.1.7.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/d7/cb/1c1829f026d8730188a6dd7b8c0b74ba12488ec5f0014bf6f2ac26557a8e/mistralrs_metal-0.1.7.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240514.371.tar.gz tmp/pkscreener-0.44.20240514.372.tar.gz --markdown 20240514/p/pkscreener/0.44.20240514.371-0.44.20240514.372/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/c7/86/e639f6890b01d3db6ad88437de75e4b494d97b4584c25bf6b1c3471b7712/scaleway-2.2.1.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405131618.tar.gz tmp/kcli-99.0.202405131653.tar.gz --markdown 20240514/k/kcli/99.0.202405131618-99.0.202405131653/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/6e/a1/0597a773f8750ca2de595b22cfc034b14f59927dff26e2a65b24a0ab4a88/scaleway_async-2.2.1.tar.gz
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-mkl]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-mkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_mkl-0.1.5.tar.gz tmp/mistralrs_mkl-0.1.7.tar.gz --markdown 20240514/m/mistralrs-mkl/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [jupyterlab-new-launcher]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [jupyterlab-new-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_new_launcher-0.2.3.tar.gz tmp/jupyterlab_new_launcher-0.3.0.tar.gz --markdown 20240514/j/jupyterlab-new-launcher/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-accelerate]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_accelerate-0.1.5.tar.gz tmp/mistralrs_accelerate-0.1.7.tar.gz --markdown 20240514/m/mistralrs-accelerate/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-metal]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_metal-0.1.5.tar.gz tmp/mistralrs_metal-0.1.7.tar.gz --markdown 20240514/m/mistralrs-metal/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-cuda]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_cuda-0.1.5.tar.gz tmp/mistralrs_cuda-0.1.7.tar.gz --markdown 20240514/m/mistralrs-cuda/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.5.tar.gz tmp/mistralrs-0.1.7.tar.gz --markdown 20240514/m/mistralrs/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-2.1.0.tar.gz tmp/scaleway-2.2.1.tar.gz --markdown 20240514/s/scaleway/2.1.0-2.2.1/README.md --exclude *.pyd
+[2024-05-14 14:16:16] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2024-05-14 14:16:16] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-2.1.0.tar.gz tmp/scaleway_async-2.2.1.tar.gz --markdown 20240514/s/scaleway-async/2.1.0-2.2.1/README.md --exclude *.pyd
+[2024-05-14 14:16:17] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240514.371.tar.gz]
+[2024-05-14 14:16:17] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240514.372.tar.gz]
+[2024-05-14 14:16:17] INFO root fetch - processPackages [pkscreener]: Start processing: collective.behavior.relatedmedia
+[2024-05-14 14:16:17] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-05-14 14:16:17] INFO root fetch - processPackages [collective.behavior.relatedmedia]: New version: [3.6.0] Old Version: [3.5.4]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.5.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.7.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-mkl]: Start processing: pulumi-xyz
+[2024-05-14 14:16:18] INFO root fetch - main [MainThread]: End processing [mistralrs-mkl]: success
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.5.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.7.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - main [MainThread]: End processing [mistralrs-accelerate]: success
+[2024-05-14 14:16:18] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/39/67/dcf0525c48bcf9a1ee7b97cb471821674db9c8d10c4f9f92e04a379ec1a2/collective.behavior.relatedmedia-3.5.4.tar.gz
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.5.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.7.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
+[2024-05-14 14:16:18] INFO root fetch - processPackages [pulumi-xyz]: New version: [1.0.0] Old Version: [0.0.1a1711039277]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.5.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.7.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.5.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.7.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - main [MainThread]: End processing [mistralrs-metal]: success
+[2024-05-14 14:16:18] INFO root fetch - processPackages [pulumi-xyz]: Downloading https://files.pythonhosted.org/packages/c6/9a/d936e9b488e8450dab3c5898d0ba931d38fb601b5bcb10d90ebb9b2052da/pulumi_xyz-0.0.1a1711039277.tar.gz
+[2024-05-14 14:16:18] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Downloading https://files.pythonhosted.org/packages/a0/c7/c4295a136cb7038da1ccc00a896cfb5dc742a7e34ceda851f1fa04f22d42/collective_behavior_relatedmedia-3.6.0.tar.gz
+[2024-05-14 14:16:18] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.2.3.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - processPackages [jupyterlab-new-launcher]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_new_launcher-0.3.0.tar.gz]
+[2024-05-14 14:16:18] INFO root fetch - main [MainThread]: End processing [jupyterlab-new-launcher]: success
+[2024-05-14 14:16:18] INFO root fetch - processPackages [pulumi-xyz]: Downloading https://files.pythonhosted.org/packages/f4/ac/2190f0d6e55f9ffae82c20d61e3c7bc75e8e73076f1ac2635252d2e20f55/pulumi_xyz-1.0.0.tar.gz
+[2024-05-14 14:16:19] INFO root fetch - processPackages [pulumi-xyz]: executing diffoscope
+[2024-05-14 14:16:19] INFO root fetch - processPackages [pulumi-xyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_xyz-0.0.1a1711039277.tar.gz tmp/pulumi_xyz-1.0.0.tar.gz --markdown 20240514/p/pulumi-xyz/0.0.1a1711039277-1.0.0/README.md --exclude *.pyd
+[2024-05-14 14:16:19] INFO root fetch - processPackages [collective.behavior.relatedmedia]: executing diffoscope
+[2024-05-14 14:16:19] INFO root fetch - processPackages [collective.behavior.relatedmedia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.behavior.relatedmedia-3.5.4.tar.gz tmp/collective_behavior_relatedmedia-3.6.0.tar.gz --markdown 20240514/c/collective.behavior.relatedmedia/3.5.4-3.6.0/README.md --exclude *.pyd
+[2024-05-14 14:16:19] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-2.1.0.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-2.2.1.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2024-05-14 14:16:19] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-2.1.0.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-2.2.1.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2024-05-14 14:16:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405131618.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405131653.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-14 14:16:19] INFO root fetch - processPackages [pulumi-xyz]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_xyz-0.0.1a1711039277.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - processPackages [pulumi-xyz]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_xyz-1.0.0.tar.gz]
+[2024-05-14 14:16:19] INFO root fetch - main [MainThread]: End processing [pulumi-xyz]: success
+[2024-05-14 14:16:26] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective.behavior.relatedmedia-3.5.4.tar.gz]
+[2024-05-14 14:16:26] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective_behavior_relatedmedia-3.6.0.tar.gz]
+[2024-05-14 14:16:26] INFO root fetch - main [MainThread]: End processing [collective.behavior.relatedmedia]: success
+[2024-05-14 14:16:26] INFO root fetch - main [MainThread]: Store serial: [23200808]
