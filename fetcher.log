@@ -8000,3 +8000,33 @@
 [2024-05-14 04:22:07] INFO root fetch - processPackages [types-hvac]: Remove: archive file [/home/abi/fetcher/tmp/types-hvac-2.1.0.20240514.tar.gz]
 [2024-05-14 04:22:07] INFO root fetch - main [MainThread]: End processing [types-hvac]: success
 [2024-05-14 04:22:07] INFO root fetch - main [MainThread]: Store serial: [23194900]
+[2024-05-14 04:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194900]
+[2024-05-14 04:24:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 04:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-05-14 04:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stable-ts
+[2024-05-14 04:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stable-ts-whisperless
+[2024-05-14 04:24:16] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240513] Old Version: [1.2.20240512]
+[2024-05-14 04:24:16] INFO root fetch - processPackages [stable-ts-whisperless]: New version: [2.17.2] Old Version: [2.17.1]
+[2024-05-14 04:24:16] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/49/07/caf3a0e702b39e25f7ed588396389be0d7b69f93987a7fcd2cd4e1aa8fb2/iam_actions-1.2.20240512.tar.gz
+[2024-05-14 04:24:16] INFO root fetch - processPackages [stable-ts]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/b5/4e/230d64b0c72299e3c08c40e04a51172b8f39e267b1d237cf0897e3ae4599/stable-ts-2.8.1.tar.gz
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts-whisperless]: Downloading https://files.pythonhosted.org/packages/69/0f/e81523dfcadada851967ac5d341dbf048ee91f86d1865b684767f2e017b6/stable-ts-whisperless-2.17.1.tar.gz
+[2024-05-14 04:24:17] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/65/cf/2088a5a8469c43ea66adee11c8902ac6f8ff8f3eec81a8040c1946e885fb/iam_actions-1.2.20240513.tar.gz
+[2024-05-14 04:24:17] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-14 04:24:17] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240512.tar.gz tmp/iam_actions-1.2.20240513.tar.gz --markdown 20240514/i/iam-actions/1.2.20240512-1.2.20240513/README.md --exclude *.pyd
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts-whisperless]: Downloading https://files.pythonhosted.org/packages/c0/7b/3a847520596d02f57864082bc37c05cc45474899531236503656eb21b508/stable-ts-whisperless-2.17.2.tar.gz
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/48/20/4e33cc411acc1eb3efa9decb3190a678dccd77cbe25fe1322a08fcdec691/stable-ts-2.9.0.tar.gz
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts-whisperless]: executing diffoscope
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts-whisperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-whisperless-2.17.1.tar.gz tmp/stable-ts-whisperless-2.17.2.tar.gz --markdown 20240514/s/stable-ts-whisperless/2.17.1-2.17.2/README.md --exclude *.pyd
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2024-05-14 04:24:17] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.8.1.tar.gz tmp/stable-ts-2.9.0.tar.gz --markdown 20240514/s/stable-ts/2.8.1-2.9.0/README.md --exclude *.pyd
+[2024-05-14 04:24:18] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.8.1.tar.gz]
+[2024-05-14 04:24:18] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.9.0.tar.gz]
+[2024-05-14 04:24:18] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2024-05-14 04:24:18] INFO root fetch - processPackages [stable-ts-whisperless]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-whisperless-2.17.1.tar.gz]
+[2024-05-14 04:24:18] INFO root fetch - processPackages [stable-ts-whisperless]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-whisperless-2.17.2.tar.gz]
+[2024-05-14 04:24:18] INFO root fetch - main [MainThread]: End processing [stable-ts-whisperless]: success
+[2024-05-14 04:24:18] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240512.tar.gz]
+[2024-05-14 04:24:18] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240513.tar.gz]
+[2024-05-14 04:24:18] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-14 04:24:18] INFO root fetch - main [MainThread]: Store serial: [23194907]
