@@ -14314,3 +14314,59 @@
 [2024-05-14 09:59:35] INFO root fetch - processPackages [xdeps]: Remove: archive file [/home/abi/fetcher/tmp/xdeps-0.6.0-cp38-cp38-musllinux_1_1_x86_64.whl.zip]
 [2024-05-14 09:59:35] INFO root fetch - main [MainThread]: End processing [xdeps]: success
 [2024-05-14 09:59:35] INFO root fetch - main [MainThread]: Store serial: [23197538]
+[2024-05-14 10:01:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197538]
+[2024-05-14 10:01:49] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WGSE-NG-3rd-party
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edubot
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: landcover_assignment
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servicelayer
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tq42-grpc-client
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azure-native
+[2024-05-14 10:01:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-product-pricelist-direct-print
+[2024-05-14 10:01:49] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-14 10:01:49] INFO root fetch - processPackages [landcover_assignment]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-14 10:01:49] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-14 10:01:49] INFO root fetch - processPackages [edubot]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-14 10:01:49] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-14 10:01:49] WARNING root fetch - processPackages [WGSE-NG-3rd-party]: Skipping, unable to determine old version
+[2024-05-14 10:01:49] INFO root fetch - main [MainThread]: End processing [WGSE-NG-3rd-party] error
+[2024-05-14 10:01:49] INFO root fetch - processPackages [landcover_assignment]: Downloading https://files.pythonhosted.org/packages/83/a3/0ce556d2b8b213407dc450be30a5a66fc02fd495d94e07d83006192db8d3/landcover_assignment-0.2.1.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: New version: [16.0.1.0.4] Old Version: [16.0.1.0.3]
+[2024-05-14 10:01:49] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-14 10:01:49] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-14 10:01:49] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-14 10:01:49] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-14 10:01:49] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/31/9c/3f86c518bb36a107791b3454813636fcf2d7b289617e54fe7a5df4fce74b/edubot-0.7.5.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [landcover_assignment]: Downloading https://files.pythonhosted.org/packages/51/e2/26b7d24f738f88cc687eb8dbdbc70756d99dc398cb8017a182ca74907d8c/landcover_assignment-0.2.2.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [landcover_assignment]: executing diffoscope
+[2024-05-14 10:01:49] INFO root fetch - processPackages [landcover_assignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landcover_assignment-0.2.1.tar.gz tmp/landcover_assignment-0.2.2.tar.gz --markdown 20240514/l/landcover_assignment/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-14 10:01:49] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/43/10/cd09a802a66d4da01f5e78384488963d308e0f6e41b29af50a9e30855980/odoo_addon_product_pricelist_direct_print-16.0.1.0.3-py3-none-any.whl
+[2024-05-14 10:01:49] INFO root fetch - processPackages [edubot]: Downloading https://files.pythonhosted.org/packages/9d/75/2cd5361e66f5cbf594db489e5e50a5fa2c944bed549b7f44f77530d0d1db/edubot-0.7.6.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-14 10:01:49] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240514/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-14 10:01:49] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-14 10:01:49] INFO root fetch - processPackages [edubot]: executing diffoscope
+[2024-05-14 10:01:49] INFO root fetch - processPackages [edubot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edubot-0.7.5.tar.gz tmp/edubot-0.7.6.tar.gz --markdown 20240514/e/edubot/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-14 10:01:49] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-14 10:01:49] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240514/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-14 10:01:50] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Downloading https://files.pythonhosted.org/packages/dd/68/67797893330b9c9c30083fa11370291282d8f24fbdcaef28a6a702f104f3/odoo_addon_product_pricelist_direct_print-16.0.1.0.4-py3-none-any.whl
+[2024-05-14 10:01:50] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: executing diffoscope
+[2024-05-14 10:01:50] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-product-pricelist-direct-print/16.0.1.0.3-16.0.1.0.4/README.md --exclude *.pyd
+[2024-05-14 10:01:50] INFO root fetch - processPackages [landcover_assignment]: Remove: archive file [/home/abi/fetcher/tmp/landcover_assignment-0.2.1.tar.gz]
+[2024-05-14 10:01:50] INFO root fetch - processPackages [landcover_assignment]: Remove: archive file [/home/abi/fetcher/tmp/landcover_assignment-0.2.2.tar.gz]
+[2024-05-14 10:01:50] INFO root fetch - main [MainThread]: End processing [landcover_assignment]: success
+[2024-05-14 10:01:51] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-14 10:01:51] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-14 10:01:51] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-14 10:01:51] INFO root fetch - processPackages [edubot]: Remove: archive file [/home/abi/fetcher/tmp/edubot-0.7.5.tar.gz]
+[2024-05-14 10:01:51] INFO root fetch - processPackages [edubot]: Remove: archive file [/home/abi/fetcher/tmp/edubot-0.7.6.tar.gz]
+[2024-05-14 10:01:51] INFO root fetch - main [MainThread]: End processing [edubot]: success
+[2024-05-14 10:01:51] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-05-14 10:01:51] INFO root fetch - processPackages [odoo-addon-product-pricelist-direct-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_direct_print-16.0.1.0.4-py3-none-any.whl.zip]
+[2024-05-14 10:01:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-direct-print]: success
+[2024-05-14 10:01:52] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-14 10:01:52] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-14 10:01:52] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-14 10:01:52] INFO root fetch - main [MainThread]: Store serial: [23197587]
