@@ -8070,3 +8070,30 @@
 [2024-05-14 04:26:57] INFO root fetch - processPackages [karellen-llvm-toolchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/karellen_llvm_toolchain_tools-18.1.5.0.post21-py3-none-manylinux2014_x86_64.whl.zip]
 [2024-05-14 04:26:57] INFO root fetch - main [MainThread]: End processing [karellen-llvm-toolchain-tools]: success
 [2024-05-14 04:26:57] INFO root fetch - main [MainThread]: Store serial: [23194919]
+[2024-05-14 04:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194919]
+[2024-05-14 04:29:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 04:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: immunopipe
+[2024-05-14 04:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ugot
+[2024-05-14 04:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Books-pkg
+[2024-05-14 04:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-edge-torch-nightly
+[2024-05-14 04:29:06] WARNING root fetch - processPackages [Books-pkg]: Skipping, unable to determine old version
+[2024-05-14 04:29:06] INFO root fetch - main [MainThread]: End processing [Books-pkg] error
+[2024-05-14 04:29:06] INFO root fetch - processPackages [ugot]: New version: [0.2.9] Old Version: [0.2.13]
+[2024-05-14 04:29:06] INFO root fetch - processPackages [immunopipe]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-05-14 04:29:06] WARNING root fetch - processPackages [ai-edge-torch-nightly]: Skipping, unable to determine old version
+[2024-05-14 04:29:06] INFO root fetch - main [MainThread]: End processing [ai-edge-torch-nightly] error
+[2024-05-14 04:29:06] INFO root fetch - processPackages [ugot]: Downloading https://files.pythonhosted.org/packages/d5/7b/6778759632d6787a11b23cb367310ecff2a9379debc076443358640ed3d1/ugot-0.2.13.tar.gz
+[2024-05-14 04:29:07] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/89/53/c13e8b6ed93c489ab409578add2c4a40175b9a52a8023c7a4a347a8cf46f/immunopipe-1.3.7.tar.gz
+[2024-05-14 04:29:07] INFO root fetch - processPackages [immunopipe]: Downloading https://files.pythonhosted.org/packages/ea/ff/5153ea5634f5f433d1a6db5b73b0b44ad4c92f998d19157ec33ef39538c9/immunopipe-1.3.8.tar.gz
+[2024-05-14 04:29:07] INFO root fetch - processPackages [ugot]: Downloading https://files.pythonhosted.org/packages/e3/c9/4aba2122a226101e00871b1247dfd2d22ba1caee9668b57daff45dfc9176/ugot-0.2.9.tar.gz
+[2024-05-14 04:29:07] INFO root fetch - processPackages [immunopipe]: executing diffoscope
+[2024-05-14 04:29:07] INFO root fetch - processPackages [immunopipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immunopipe-1.3.7.tar.gz tmp/immunopipe-1.3.8.tar.gz --markdown 20240514/i/immunopipe/1.3.7-1.3.8/README.md --exclude *.pyd
+[2024-05-14 04:29:07] INFO root fetch - processPackages [ugot]: executing diffoscope
+[2024-05-14 04:29:07] INFO root fetch - processPackages [ugot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ugot-0.2.13.tar.gz tmp/ugot-0.2.9.tar.gz --markdown 20240514/u/ugot/0.2.13-0.2.9/README.md --exclude *.pyd
+[2024-05-14 04:29:07] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.7.tar.gz]
+[2024-05-14 04:29:07] INFO root fetch - processPackages [immunopipe]: Remove: archive file [/home/abi/fetcher/tmp/immunopipe-1.3.8.tar.gz]
+[2024-05-14 04:29:07] INFO root fetch - main [MainThread]: End processing [immunopipe]: success
+[2024-05-14 04:29:08] INFO root fetch - processPackages [ugot]: Remove: archive file [/home/abi/fetcher/tmp/ugot-0.2.13.tar.gz]
+[2024-05-14 04:29:08] INFO root fetch - processPackages [ugot]: Remove: archive file [/home/abi/fetcher/tmp/ugot-0.2.9.tar.gz]
+[2024-05-14 04:29:08] INFO root fetch - main [MainThread]: End processing [ugot]: success
+[2024-05-14 04:29:08] INFO root fetch - main [MainThread]: Store serial: [23194932]
