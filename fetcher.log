@@ -14812,3 +14812,51 @@
 [2024-05-14 10:15:45] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.1.tar.gz]
 [2024-05-14 10:15:45] INFO root fetch - main [MainThread]: End processing [nova]: success
 [2024-05-14 10:15:45] INFO root fetch - main [MainThread]: Store serial: [23197785]
+[2024-05-14 10:17:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197785]
+[2024-05-14 10:18:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-14 10:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tsugu
+[2024-05-14 10:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aka-data-prep
+[2024-05-14 10:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cvprocessor
+[2024-05-14 10:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: urwid
+[2024-05-14 10:18:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nova
+[2024-05-14 10:18:00] INFO root fetch - processPackages [aka-data-prep]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-14 10:18:00] INFO root fetch - processPackages [cvprocessor]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-14 10:18:00] INFO root fetch - processPackages [tsugu]: New version: [0.9.9rc3] Old Version: [0.6.1]
+[2024-05-14 10:18:00] INFO root fetch - processPackages [nova]: New version: [29.0.1] Old Version: [29.0.0.0rc1]
+[2024-05-14 10:18:00] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/94/dc/7e34b497c81b705dbdd3823db90b78a4d6564766f8481610eab8bd40416b/aka-data-prep-0.0.4.tar.gz
+[2024-05-14 10:18:00] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/0f/b2/88a8324f3fbd28c31610e2b2c825e0c1c0dcc232554c3f223961ecd66c00/cvprocessor-0.5.8.tar.gz
+[2024-05-14 10:18:00] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/16/43/99ee284e1f64a42b52b7922ebb454c91279be1c44c6d7d01dbd91d5f457b/tsugu-0.6.1.tar.gz
+[2024-05-14 10:18:00] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/76/c8/9246d62ae3f2f1e5edf9ae1d09c18d7e6422ace7aff5733c9c9cd3e7bd65/nova-29.0.0.0rc1.tar.gz
+[2024-05-14 10:18:00] INFO root fetch - processPackages [urwid]: New version: [2.6.9] Old Version: [2.6.8]
+[2024-05-14 10:18:01] INFO root fetch - processPackages [urwid]: Downloading https://files.pythonhosted.org/packages/8d/c5/cf2a6947260600be7503ade31bcf83b6a0388d97e358707260ddca8a4ada/urwid-2.6.8.tar.gz
+[2024-05-14 10:18:01] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/a3/6e/09c4b521a336a203fc5d75bb2ab0b47e2e55d959009e6ea1c4f4e34dcda3/tsugu-0.9.9rc3.tar.gz
+[2024-05-14 10:18:01] INFO root fetch - processPackages [aka-data-prep]: Downloading https://files.pythonhosted.org/packages/47/ef/b79a28d10fff9d84b137c66d242acd1b9f04882f9eae1481b0243d32c182/aka-data-prep-0.0.5.tar.gz
+[2024-05-14 10:18:01] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-14 10:18:01] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.6.1.tar.gz tmp/tsugu-0.9.9rc3.tar.gz --markdown 20240514/t/tsugu/0.6.1-0.9.9rc3/README.md --exclude *.pyd
+[2024-05-14 10:18:01] INFO root fetch - processPackages [cvprocessor]: Downloading https://files.pythonhosted.org/packages/39/1c/48e9bda623abe1466465e352136ee932806f2fa3c906f286852f652bbb82/cvprocessor-0.5.9.tar.gz
+[2024-05-14 10:18:01] INFO root fetch - processPackages [aka-data-prep]: executing diffoscope
+[2024-05-14 10:18:01] INFO root fetch - processPackages [aka-data-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aka-data-prep-0.0.4.tar.gz tmp/aka-data-prep-0.0.5.tar.gz --markdown 20240514/a/aka-data-prep/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-14 10:18:01] INFO root fetch - processPackages [cvprocessor]: executing diffoscope
+[2024-05-14 10:18:01] INFO root fetch - processPackages [cvprocessor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvprocessor-0.5.8.tar.gz tmp/cvprocessor-0.5.9.tar.gz --markdown 20240514/c/cvprocessor/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-14 10:18:01] INFO root fetch - processPackages [nova]: Downloading https://files.pythonhosted.org/packages/8d/6b/ff5cf31b4688013e469745a0917d9029392e343353daa6401901a9044aab/nova-29.0.1.tar.gz
+[2024-05-14 10:18:01] INFO root fetch - processPackages [urwid]: Downloading https://files.pythonhosted.org/packages/a0/59/efaa1084ba46194824de9db61d869f4dfc932fb8592aac7375a7ec7aff45/urwid-2.6.9.tar.gz
+[2024-05-14 10:18:01] INFO root fetch - processPackages [urwid]: executing diffoscope
+[2024-05-14 10:18:01] INFO root fetch - processPackages [urwid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urwid-2.6.8.tar.gz tmp/urwid-2.6.9.tar.gz --markdown 20240514/u/urwid/2.6.8-2.6.9/README.md --exclude *.pyd
+[2024-05-14 10:18:01] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.6.1.tar.gz]
+[2024-05-14 10:18:01] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.9.9rc3.tar.gz]
+[2024-05-14 10:18:01] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.4.tar.gz]
+[2024-05-14 10:18:01] INFO root fetch - processPackages [aka-data-prep]: Remove: archive file [/home/abi/fetcher/tmp/aka-data-prep-0.0.5.tar.gz]
+[2024-05-14 10:18:01] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-14 10:18:01] INFO root fetch - main [MainThread]: End processing [aka-data-prep]: success
+[2024-05-14 10:18:01] INFO root fetch - processPackages [nova]: executing diffoscope
+[2024-05-14 10:18:01] INFO root fetch - processPackages [nova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nova-29.0.0.0rc1.tar.gz tmp/nova-29.0.1.tar.gz --markdown 20240514/n/nova/29.0.0.0rc1-29.0.1/README.md --exclude *.pyd
+[2024-05-14 10:18:01] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.8.tar.gz]
+[2024-05-14 10:18:01] INFO root fetch - processPackages [cvprocessor]: Remove: archive file [/home/abi/fetcher/tmp/cvprocessor-0.5.9.tar.gz]
+[2024-05-14 10:18:01] INFO root fetch - main [MainThread]: End processing [cvprocessor]: success
+[2024-05-14 10:18:03] INFO root fetch - processPackages [urwid]: Remove: archive file [/home/abi/fetcher/tmp/urwid-2.6.8.tar.gz]
+[2024-05-14 10:18:03] INFO root fetch - processPackages [urwid]: Remove: archive file [/home/abi/fetcher/tmp/urwid-2.6.9.tar.gz]
+[2024-05-14 10:18:03] INFO root fetch - main [MainThread]: End processing [urwid]: success
+[2024-05-14 10:18:22] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.0.0rc1.tar.gz]
+[2024-05-14 10:18:22] INFO root fetch - processPackages [nova]: Remove: archive file [/home/abi/fetcher/tmp/nova-29.0.1.tar.gz]
+[2024-05-14 10:18:22] INFO root fetch - main [MainThread]: End processing [nova]: success
+[2024-05-14 10:18:22] INFO root fetch - main [MainThread]: Store serial: [23197799]
