@@ -16904,3 +16904,111 @@
 [2024-05-14 11:22:36] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-05-14 11:22:36] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-05-14 11:22:36] INFO root fetch - main [MainThread]: Store serial: [23198676]
+[2024-05-14 11:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198676]
+[2024-05-14 11:25:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: byzerllm
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: conetwork-test
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nef-pipelines
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecord-cli
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: virtual-camera
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytonapi
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uiautomator2
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ibott-files
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dwave-sona-core
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyAibote
+[2024-05-14 11:25:02] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.70] Old Version: [0.1.69]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.88]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [conetwork-test]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [dwave-sona-core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [uiautomator2]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [mecord-cli]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [pytonapi]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [PyAibote]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ibott-files]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/0e/34/63e9d21f8e332a8047c4dc01c53ce9b1680f18e509cdd4cb205e332bc3c0/nef_pipelines-0.1.69.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/23/65/7ed60e3890ed904e473e036d169e34435e5a1d6e40b783991a4c9f560f52/conetwork_test-0.1.8.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/42/54/adb8c6f4d5981c3a567cc1019010a45e1432f363bd027a2be23dad7c32eb/uiautomator2-3.0.8.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/7c/bf/66e6ad83ca0dd75592f8185e3bd1a6f8c9965bb170b7b3b18b4228228ff9/mecord-cli-0.7.8.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/db/7c/9339ceb47958f7d191e79904c25617e39aa742a8888ee55b02cca9f7553b/dwave_sona_core-1.2.8.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a1/4b/c7d2689ae8a86a5809d1fd59966c77d8f115c738d955cf9c3c010ac8fece/byzerllm-0.1.88.tar.gz
+[2024-05-14 11:25:02] WARNING root fetch - processPackages [virtual-camera]: Skipping, unable to determine old version
+[2024-05-14 11:25:02] INFO root fetch - processPackages [virtual-camera]: Start processing: rooms-shared-services
+[2024-05-14 11:25:02] INFO root fetch - main [MainThread]: End processing [virtual-camera] error
+[2024-05-14 11:25:02] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/30/0a/e1a8d35e11a22fc2fd579ff7a05f6568de78c75d2b05cbd8da2970b18baf/PyAibote-1.4.6.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/06/f0/dfec49d3128a26ded3d6a00c384f5d70aae36fa48b48bf4a013dacd01052/pytonapi-0.2.9.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-05-14 11:25:02] INFO root fetch - processPackages [ibott-files]: Downloading https://files.pythonhosted.org/packages/16/e8/9ccb221fca1037c9d46c4b940b35492a2be41afc6ffeaae24c7f076ccfee/ibott-files-1.0.6.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [conetwork-test]: Downloading https://files.pythonhosted.org/packages/1e/9e/5c70bb34abb70f3ef9fdb99921004355586cd3873850b11f11068704999a/conetwork_test-0.1.9.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/82/1f/6cd56c8023053a161c0daaa6d9953b37ecac0cfa01e9c4911db6c9a422f3/dwave_sona_core-1.2.9.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-05-14 11:25:02] INFO root fetch - processPackages [conetwork-test]: executing diffoscope
+[2024-05-14 11:25:02] INFO root fetch - processPackages [conetwork-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conetwork_test-0.1.8.tar.gz tmp/conetwork_test-0.1.9.tar.gz --markdown 20240514/c/conetwork-test/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-1.2.8.tar.gz tmp/dwave_sona_core-1.2.9.tar.gz --markdown 20240514/d/dwave-sona-core/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [PyAibote]: Downloading https://files.pythonhosted.org/packages/6b/cc/797d2b5cb1f1d3e886f601bbb4d39ff399701e2c78d624b2b6a88326bcf7/PyAibote-1.4.7.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/0c/8e/d768265936737a48d2c9eb798081be989a71a08aa57a47026f6b637c9232/nef_pipelines-0.1.70.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/a8/0e/393f4180294f5db1aa68198a7225ae62b0fad8a12db45b815e9db9b533ed/pytonapi-0.3.0.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/70/13/191f5410fea42e233e3d24471a04404a7d4f46b99c28a29c24913449788b/mecord-cli-0.7.9.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [uiautomator2]: Downloading https://files.pythonhosted.org/packages/45/e9/352ceaa7f871f2ff3b9c8cf661414f73c6857dffc42977c57b9a621b837c/uiautomator2-3.0.9.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [ibott-files]: Downloading https://files.pythonhosted.org/packages/73/f2/31e133f39556bcaa929837a8368003456975a9ad09413c7c1a436c79d585/ibott-files-1.0.7.tar.gz
+[2024-05-14 11:25:03] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.7.8.tar.gz tmp/mecord-cli-0.7.9.tar.gz --markdown 20240514/m/mecord-cli/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [PyAibote]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [PyAibote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAibote-1.4.6.tar.gz tmp/PyAibote-1.4.7.tar.gz --markdown 20240514/P/PyAibote/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [pytonapi]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [pytonapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonapi-0.2.9.tar.gz tmp/pytonapi-0.3.0.tar.gz --markdown 20240514/p/pytonapi/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240514/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.88.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240514/b/byzerllm/0.1.88-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.69.tar.gz tmp/nef_pipelines-0.1.70.tar.gz --markdown 20240514/n/nef-pipelines/0.1.69-0.1.70/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [ibott-files]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [ibott-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibott-files-1.0.6.tar.gz tmp/ibott-files-1.0.7.tar.gz --markdown 20240514/i/ibott-files/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-14 11:25:03] INFO root fetch - processPackages [uiautomator2]: executing diffoscope
+[2024-05-14 11:25:03] INFO root fetch - processPackages [uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiautomator2-3.0.8.tar.gz tmp/uiautomator2-3.0.9.tar.gz --markdown 20240514/u/uiautomator2/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-05-14 11:25:04] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.8.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-1.2.9.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [dwave-sona-core]: Start processing: home-assistant-chip-clusters
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.8.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [conetwork-test]: Remove: archive file [/home/abi/fetcher/tmp/conetwork_test-0.1.9.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [conetwork-test]: Start processing: cms-pri-chmod
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [conetwork-test]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [home-assistant-chip-clusters]: New version: [2024.5.0] Old Version: [2024.4.1]
+[2024-05-14 11:25:04] WARNING root fetch - processPackages [cms-pri-chmod]: Skipping, unable to determine old version
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [cms-pri-chmod] error
+[2024-05-14 11:25:04] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/d2/22/e31ca4a3d190b9742d32a54fad0c8749634c10da16e85d176b69905991cb/home_assistant_chip_clusters-2024.4.1-py3-none-any.whl
+[2024-05-14 11:25:04] INFO root fetch - processPackages [ibott-files]: Remove: archive file [/home/abi/fetcher/tmp/ibott-files-1.0.6.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [ibott-files]: Remove: archive file [/home/abi/fetcher/tmp/ibott-files-1.0.7.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [ibott-files]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.4.6.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [PyAibote]: Remove: archive file [/home/abi/fetcher/tmp/PyAibote-1.4.7.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [PyAibote]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.9.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.3.0.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [pytonapi]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.8.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.7.9.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-05-14 11:25:04] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-05-14 11:25:04] INFO root fetch - processPackages [home-assistant-chip-clusters]: Downloading https://files.pythonhosted.org/packages/10/97/cb496458df76d369469b16eec0104c133372887b6ba55abe7fd92e43aac8/home_assistant_chip_clusters-2024.5.0-py3-none-any.whl
+[2024-05-14 11:25:04] INFO root fetch - processPackages [home-assistant-chip-clusters]: executing diffoscope
+[2024-05-14 11:25:04] INFO root fetch - processPackages [home-assistant-chip-clusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_clusters-2024.4.1-py3-none-any.whl.zip tmp/home_assistant_chip_clusters-2024.5.0-py3-none-any.whl.zip --markdown 20240514/h/home-assistant-chip-clusters/2024.4.1-2024.5.0/README.md --exclude *.pyd
+[2024-05-14 11:25:05] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.8.tar.gz]
+[2024-05-14 11:25:05] INFO root fetch - processPackages [uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/uiautomator2-3.0.9.tar.gz]
+[2024-05-14 11:25:05] INFO root fetch - main [MainThread]: End processing [uiautomator2]: success
+[2024-05-14 11:25:05] INFO root fetch - processPackages [home-assistant-chip-clusters]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_chip_clusters-2024.4.1-py3-none-any.whl.zip]
+[2024-05-14 11:25:05] INFO root fetch - processPackages [home-assistant-chip-clusters]: Remove: archive file [/home/abi/fetcher/tmp/home_assistant_chip_clusters-2024.5.0-py3-none-any.whl.zip]
+[2024-05-14 11:25:05] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-clusters]: success
+[2024-05-14 11:25:05] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.88.tar.gz]
+[2024-05-14 11:25:05] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-05-14 11:25:05] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-05-14 11:25:06] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.69.tar.gz]
+[2024-05-14 11:25:06] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.70.tar.gz]
+[2024-05-14 11:25:06] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-05-14 11:25:06] INFO root fetch - main [MainThread]: Store serial: [23198720]
