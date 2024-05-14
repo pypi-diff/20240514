@@ -21855,3 +21855,68 @@
 [2024-05-14 14:16:26] INFO root fetch - processPackages [collective.behavior.relatedmedia]: Remove: archive file [/home/abi/fetcher/tmp/collective_behavior_relatedmedia-3.6.0.tar.gz]
 [2024-05-14 14:16:26] INFO root fetch - main [MainThread]: End processing [collective.behavior.relatedmedia]: success
 [2024-05-14 14:16:26] INFO root fetch - main [MainThread]: Store serial: [23200808]
+[2024-05-14 14:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200808]
+[2024-05-14 14:18:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solver-multiRPC
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speculos
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MelodyMaster
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eis1600
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiddler-client
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-openeo
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2024-05-14 14:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cruds
+[2024-05-14 14:18:35] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.8] Old Version: [2024.5.7]
+[2024-05-14 14:18:35] INFO root fetch - processPackages [kfish]: New version: [99.0.202405131656] Old Version: [99.0.202405131621]
+[2024-05-14 14:18:35] INFO root fetch - processPackages [cruds]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-14 14:18:35] INFO root fetch - processPackages [speculos]: New version: [0.9.1.dev2] Old Version: [0.9.0]
+[2024-05-14 14:18:35] WARNING root fetch - processPackages [MelodyMaster]: Skipping, unable to determine old version
+[2024-05-14 14:18:35] INFO root fetch - main [MainThread]: End processing [MelodyMaster] error
+[2024-05-14 14:18:35] INFO root fetch - processPackages [solver-multiRPC]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-14 14:18:35] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/3c/42/2ec0b807e93ae5c89dc6206737535b34e664da8fa03e50b67da3be49b52b/eodc_faas_openeo-2024.5.7.tar.gz
+[2024-05-14 14:18:35] INFO root fetch - processPackages [fiddler-client]: New version: [3.2.0.dev2] Old Version: [3.2.0.dev1]
+[2024-05-14 14:18:35] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/a3/7f/6b6980f6548667b3e8fc749388a7056467b40af541d2c7dcd4f2095c8f2d/kfish-99.0.202405131621-py3-none-any.whl
+[2024-05-14 14:18:35] INFO root fetch - processPackages [eis1600]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-05-14 14:18:36] INFO root fetch - processPackages [speculos]: Downloading https://files.pythonhosted.org/packages/73/c1/a955137995c6712d9645dc608c4361b528ba1279925b7d5774b4ea0d6389/speculos-0.9.0.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [solver-multiRPC]: Downloading https://files.pythonhosted.org/packages/3f/fb/a5b17ba39fa66f9854f788fa376bac8617b9a7970d416a852f0b86a4cc1c/solver-multiRPC-2.0.2.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [cruds]: Downloading https://files.pythonhosted.org/packages/af/44/35581df20ea1b4bc9a8007485bae03bf6d2cc83cd5ec28a7fb1a34258b53/cruds-1.0.2.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/23/17/85da19cbb2f253f18b4f62fc1ddd520757c2e6c220d0317fe1716b7267c0/eis1600-1.6.7.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/b9/0d/52570ea697cbf6eb078b19325be83c7ee199e8845ef97af6b3bcab1ce910/fiddler_client-3.2.0.dev1.tar.gz
+[2024-05-14 14:18:36] WARNING root fetch - processPackages [speculos]: Skipping package: exceeds size limit 16603495>=10485760
+[2024-05-14 14:18:36] INFO root fetch - main [MainThread]: End processing [speculos] error
+[2024-05-14 14:18:36] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ce/8a/def0c9bf030309cae0e4fe2631b49ffb8a21f84bdecf1b4edb9a4d18d6c9/kfish-99.0.202405131656-py3-none-any.whl
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-05-14 14:18:36] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202405131621-py3-none-any.whl.zip tmp/kfish-99.0.202405131656-py3-none-any.whl.zip --markdown 20240514/k/kfish/99.0.202405131621-99.0.202405131656/README.md --exclude *.pyd
+[2024-05-14 14:18:36] INFO root fetch - processPackages [solver-multiRPC]: Downloading https://files.pythonhosted.org/packages/47/bf/4f50e6e253125985750fe7f8830cbeb194f9e1cc7a58f2d8da4d783c7058/solver-multiRPC-2.0.3.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [cruds]: Downloading https://files.pythonhosted.org/packages/25/0e/2f020553f56f988b80cfb9e62a5ecc53b58ce20f721b942d3e0454ec7c2d/cruds-1.1.0.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.7.tar.gz tmp/eodc_faas_openeo-2024.5.8.tar.gz --markdown 20240514/e/eodc-faas-openeo/2024.5.7-2024.5.8/README.md --exclude *.pyd
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eis1600]: Downloading https://files.pythonhosted.org/packages/a9/8a/2664f4769539dc9e7b7add3cddeb186c169a6158465dc0434facf3ae8099/eis1600-1.6.8.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [solver-multiRPC]: executing diffoscope
+[2024-05-14 14:18:36] INFO root fetch - processPackages [solver-multiRPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solver-multiRPC-2.0.2.tar.gz tmp/solver-multiRPC-2.0.3.tar.gz --markdown 20240514/s/solver-multiRPC/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-14 14:18:36] INFO root fetch - processPackages [cruds]: executing diffoscope
+[2024-05-14 14:18:36] INFO root fetch - processPackages [fiddler-client]: Downloading https://files.pythonhosted.org/packages/14/6b/c328023e91ee77e2e63cf24b26c0755d021b905f67feb962008a1fd8868f/fiddler_client-3.2.0.dev2.tar.gz
+[2024-05-14 14:18:36] INFO root fetch - processPackages [cruds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cruds-1.0.2.tar.gz tmp/cruds-1.1.0.tar.gz --markdown 20240514/c/cruds/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eis1600]: executing diffoscope
+[2024-05-14 14:18:36] INFO root fetch - processPackages [eis1600]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eis1600-1.6.7.tar.gz tmp/eis1600-1.6.8.tar.gz --markdown 20240514/e/eis1600/1.6.7-1.6.8/README.md --exclude *.pyd
+[2024-05-14 14:18:36] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2024-05-14 14:18:36] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler_client-3.2.0.dev1.tar.gz tmp/fiddler_client-3.2.0.dev2.tar.gz --markdown 20240514/f/fiddler-client/3.2.0.dev1-3.2.0.dev2/README.md --exclude *.pyd
+[2024-05-14 14:18:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405131621-py3-none-any.whl.zip]
+[2024-05-14 14:18:37] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202405131656-py3-none-any.whl.zip]
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-05-14 14:18:37] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.7.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-14 14:18:37] INFO root fetch - processPackages [cruds]: Remove: archive file [/home/abi/fetcher/tmp/cruds-1.0.2.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - processPackages [cruds]: Remove: archive file [/home/abi/fetcher/tmp/cruds-1.1.0.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [cruds]: success
+[2024-05-14 14:18:37] INFO root fetch - processPackages [solver-multiRPC]: Remove: archive file [/home/abi/fetcher/tmp/solver-multiRPC-2.0.2.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - processPackages [solver-multiRPC]: Remove: archive file [/home/abi/fetcher/tmp/solver-multiRPC-2.0.3.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [solver-multiRPC]: success
+[2024-05-14 14:18:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler_client-3.2.0.dev1.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - processPackages [fiddler-client]: Remove: archive file [/home/abi/fetcher/tmp/fiddler_client-3.2.0.dev2.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2024-05-14 14:18:37] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.7.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - processPackages [eis1600]: Remove: archive file [/home/abi/fetcher/tmp/eis1600-1.6.8.tar.gz]
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: End processing [eis1600]: success
+[2024-05-14 14:18:37] INFO root fetch - main [MainThread]: Store serial: [23200832]
