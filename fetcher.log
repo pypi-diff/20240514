@@ -11447,3 +11447,33 @@
 [2024-05-14 08:02:59] INFO root fetch - processPackages [locustdb]: Remove: archive file [/home/abi/fetcher/tmp/locustdb-0.5.3-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-05-14 08:02:59] INFO root fetch - main [MainThread]: End processing [locustdb]: success
 [2024-05-14 08:02:59] INFO root fetch - main [MainThread]: Store serial: [23196272]
+[2024-05-14 08:05:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23196272]
+[2024-05-14 08:05:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-14 08:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zepben.protobuf
+[2024-05-14 08:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logprep
+[2024-05-14 08:05:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htt
+[2024-05-14 08:05:08] INFO root fetch - processPackages [htt]: New version: [0.9] Old Version: [0.8]
+[2024-05-14 08:05:08] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2024-05-14 08:05:08] INFO root fetch - processPackages [logprep]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-05-14 08:05:08] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/44/9f/4e24bd8cc850dd610afb0047bea11fbc8885507fe8ecf1f06b0486d45c93/htt-0.8.tar.gz
+[2024-05-14 08:05:08] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2024-05-14 08:05:08] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/b7/dd/b6e64a3f20c4983b74dc9863c3153f386d95293807969ea2c0d705c29d06/logprep-9.0.2.tar.gz
+[2024-05-14 08:05:08] INFO root fetch - processPackages [htt]: Downloading https://files.pythonhosted.org/packages/87/6a/ca73587d0d0b4fffad8f8daad555cb2903ae583af0db8bd1e235267f8122/htt-0.9.tar.gz
+[2024-05-14 08:05:08] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2024-05-14 08:05:08] INFO root fetch - processPackages [htt]: executing diffoscope
+[2024-05-14 08:05:08] INFO root fetch - processPackages [htt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htt-0.8.tar.gz tmp/htt-0.9.tar.gz --markdown 20240514/h/htt/0.8-0.9/README.md --exclude *.pyd
+[2024-05-14 08:05:09] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/94/cd/e89069de4cb8f48c0cad5adb1b7f61c8b9a3230aa17787ad56945151ff83/logprep-9.0.3.tar.gz
+[2024-05-14 08:05:09] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2024-05-14 08:05:09] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20240514/z/zepben.protobuf/0.9.0b2-0.9.0b3/README.md --exclude *.pyd
+[2024-05-14 08:05:09] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.8.tar.gz]
+[2024-05-14 08:05:09] INFO root fetch - processPackages [htt]: Remove: archive file [/home/abi/fetcher/tmp/htt-0.9.tar.gz]
+[2024-05-14 08:05:09] INFO root fetch - main [MainThread]: End processing [htt]: success
+[2024-05-14 08:05:09] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2024-05-14 08:05:09] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-9.0.2.tar.gz tmp/logprep-9.0.3.tar.gz --markdown 20240514/l/logprep/9.0.2-9.0.3/README.md --exclude *.pyd
+[2024-05-14 08:05:10] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip]
+[2024-05-14 08:05:10] INFO root fetch - processPackages [zepben.protobuf]: Remove: archive file [/home/abi/fetcher/tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip]
+[2024-05-14 08:05:10] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2024-05-14 08:05:11] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.2.tar.gz]
+[2024-05-14 08:05:11] INFO root fetch - processPackages [logprep]: Remove: archive file [/home/abi/fetcher/tmp/logprep-9.0.3.tar.gz]
+[2024-05-14 08:05:11] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2024-05-14 08:05:11] INFO root fetch - main [MainThread]: Store serial: [23196281]
