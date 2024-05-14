@@ -16440,3 +16440,86 @@
 [2024-05-14 11:06:49] INFO root fetch - processPackages [mosaik-emissions]: Remove: archive file [/home/abi/fetcher/tmp/mosaik_emissions-0.1.1.tar.gz]
 [2024-05-14 11:06:49] INFO root fetch - main [MainThread]: End processing [mosaik-emissions]: success
 [2024-05-14 11:06:49] INFO root fetch - main [MainThread]: Store serial: [23198511]
+[2024-05-14 11:09:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198511]
+[2024-05-14 11:09:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: saes6-jerry
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: local_tuya_ceiling_fan
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statlance
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qibochem
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soarv1
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lucy01
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DrissionPage
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lwk
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netgen-mesher
+[2024-05-14 11:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: onnxslim
+[2024-05-14 11:09:04] WARNING root fetch - processPackages [saes6-jerry]: Skipping, unable to determine old version
+[2024-05-14 11:09:04] INFO root fetch - main [MainThread]: End processing [saes6-jerry] error
+[2024-05-14 11:09:04] INFO root fetch - processPackages [soarv1]: New version: [0.3] Old Version: [0.2]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [onnxslim]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [lwk]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [local_tuya_ceiling_fan]: New version: [2.0.0] Old Version: [1.5.1]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [lucy01]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [statlance]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [qibochem]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-14 11:09:04] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/9f/73/d993023200d70e2754c3df5344c692e7246f60bc66f3df0360e0a7e87edc/soarv1-0.2.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post40.dev0] Old Version: [6.2.2403.post39.dev0]
+[2024-05-14 11:09:05] INFO root fetch - processPackages [DrissionPage]: New version: [4.0.4.9] Old Version: [4.0.4.8]
+[2024-05-14 11:09:05] INFO root fetch - processPackages [onnxslim]: Downloading https://files.pythonhosted.org/packages/93/d1/3dcbf04b6a0333842d61262e77f177a6300427bbc036d138d908e9640148/onnxslim-0.1.9.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [lwk]: Downloading https://files.pythonhosted.org/packages/7a/09/c41be262780aa2fd6d2ef6bbc0a6ddbb77111cc0f2924df000048dac4c06/lwk-0.3.0-py3-none-win_amd64.whl
+[2024-05-14 11:09:05] INFO root fetch - processPackages [local_tuya_ceiling_fan]: Downloading https://files.pythonhosted.org/packages/94/7c/3614ae8adee277ceb78347e41ab4ca35982ef8a57578ee893752ce6307a3/local_tuya_ceiling_fan-1.5.1.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [lucy01]: Downloading https://files.pythonhosted.org/packages/92/69/5691fab36c21acce1b15b923eddb4b4f111e5ca1313ab14839c80c4ef3b6/lucy01-0.0.0.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [qibochem]: Downloading https://files.pythonhosted.org/packages/0d/4b/a20d824ea728b881130173f4592ca3be58d3730ce3562e20db30ccc43af9/qibochem-0.0.2.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [soarv1]: Downloading https://files.pythonhosted.org/packages/33/a5/b9948a10129f63f7bf64e03a59df28b0bde43465168863d85f82a9235dfb/soarv1-0.3.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [DrissionPage]: Downloading https://files.pythonhosted.org/packages/56/a7/6e4cb2fc6c3d98ce7aa86af28784841a513088d9d8ba11cbff686e0f994c/DrissionPage-4.0.4.8.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/ee/b6/5b9e9ee747859e2387ad014c71a25f51b4403dd8c3d97692d6127a361c15/netgen_mesher-6.2.2403.post39.dev0-cp39-cp39-win_amd64.whl
+[2024-05-14 11:09:05] INFO root fetch - processPackages [statlance]: Downloading https://files.pythonhosted.org/packages/87/96/a1f9edeb141ee998577181b637c7d50233f150f817c3986590d0dc50b9d9/statlance-0.1.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [soarv1]: executing diffoscope
+[2024-05-14 11:09:05] INFO root fetch - processPackages [soarv1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soarv1-0.2.tar.gz tmp/soarv1-0.3.tar.gz --markdown 20240514/s/soarv1/0.2-0.3/README.md --exclude *.pyd
+[2024-05-14 11:09:05] INFO root fetch - processPackages [lucy01]: Downloading https://files.pythonhosted.org/packages/9d/b8/8e5f824dcdddd2070531854ae4c16e145aae746f81f0d41dbbf18061949f/lucy01-0.0.1.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [qibochem]: Downloading https://files.pythonhosted.org/packages/ca/c8/5281fc8fad845256c827a6a20fccd31f2352edfad7c2fcc9e18ccecc6251/qibochem-0.0.3.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [onnxslim]: Downloading https://files.pythonhosted.org/packages/73/0d/b646c4f2c67d560f67ae268b672173ef7de6d1e39d4abc10f533775add1c/onnxslim-0.1.9.1.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [local_tuya_ceiling_fan]: Downloading https://files.pythonhosted.org/packages/c2/a4/bcc0c8a6d853c785d9bed79d9f8ecd4574f2c8ae486628ffe883f31b1e8f/local_tuya_ceiling_fan-2.0.0.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [statlance]: Downloading https://files.pythonhosted.org/packages/88/db/ed8c1126fb4723e5eb98e4954676e0edc9b00b2ce91cf58f8b628057d388/statlance-0.1.1.tar.gz
+[2024-05-14 11:09:05] INFO root fetch - processPackages [DrissionPage]: Downloading https://files.pythonhosted.org/packages/9d/f5/ef025d988ab04091ffbbe8f73491f01e59a564075bd77921ca75a467637c/DrissionPage-4.0.4.9.tar.gz
+[2024-05-14 11:09:05] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20428011>=10485760
+[2024-05-14 11:09:05] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-14 11:09:05] INFO root fetch - processPackages [onnxslim]: executing diffoscope
+[2024-05-14 11:09:05] INFO root fetch - processPackages [onnxslim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxslim-0.1.9.tar.gz tmp/onnxslim-0.1.9.1.tar.gz --markdown 20240514/o/onnxslim/0.1.9-0.1.9.1/README.md --exclude *.pyd
+[2024-05-14 11:09:05] INFO root fetch - processPackages [local_tuya_ceiling_fan]: executing diffoscope
+[2024-05-14 11:09:05] INFO root fetch - processPackages [local_tuya_ceiling_fan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_tuya_ceiling_fan-1.5.1.tar.gz tmp/local_tuya_ceiling_fan-2.0.0.tar.gz --markdown 20240514/l/local_tuya_ceiling_fan/1.5.1-2.0.0/README.md --exclude *.pyd
+[2024-05-14 11:09:05] INFO root fetch - processPackages [lucy01]: executing diffoscope
+[2024-05-14 11:09:05] INFO root fetch - processPackages [lucy01]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucy01-0.0.0.tar.gz tmp/lucy01-0.0.1.tar.gz --markdown 20240514/l/lucy01/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-14 11:09:05] INFO root fetch - processPackages [qibochem]: executing diffoscope
+[2024-05-14 11:09:05] INFO root fetch - processPackages [qibochem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibochem-0.0.2.tar.gz tmp/qibochem-0.0.3.tar.gz --markdown 20240514/q/qibochem/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-14 11:09:05] INFO root fetch - processPackages [DrissionPage]: executing diffoscope
+[2024-05-14 11:09:05] INFO root fetch - processPackages [DrissionPage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DrissionPage-4.0.4.8.tar.gz tmp/DrissionPage-4.0.4.9.tar.gz --markdown 20240514/D/DrissionPage/4.0.4.8-4.0.4.9/README.md --exclude *.pyd
+[2024-05-14 11:09:06] INFO root fetch - processPackages [statlance]: executing diffoscope
+[2024-05-14 11:09:06] INFO root fetch - processPackages [statlance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statlance-0.1.tar.gz tmp/statlance-0.1.1.tar.gz --markdown 20240514/s/statlance/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-14 11:09:06] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.2.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - processPackages [soarv1]: Remove: archive file [/home/abi/fetcher/tmp/soarv1-0.3.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - main [MainThread]: End processing [soarv1]: success
+[2024-05-14 11:09:06] INFO root fetch - processPackages [lucy01]: Remove: archive file [/home/abi/fetcher/tmp/lucy01-0.0.0.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - processPackages [lucy01]: Remove: archive file [/home/abi/fetcher/tmp/lucy01-0.0.1.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - main [MainThread]: End processing [lucy01]: success
+[2024-05-14 11:09:06] INFO root fetch - processPackages [onnxslim]: Remove: archive file [/home/abi/fetcher/tmp/onnxslim-0.1.9.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - processPackages [onnxslim]: Remove: archive file [/home/abi/fetcher/tmp/onnxslim-0.1.9.1.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - main [MainThread]: End processing [onnxslim]: success
+[2024-05-14 11:09:06] INFO root fetch - processPackages [qibochem]: Remove: archive file [/home/abi/fetcher/tmp/qibochem-0.0.2.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - processPackages [qibochem]: Remove: archive file [/home/abi/fetcher/tmp/qibochem-0.0.3.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - main [MainThread]: End processing [qibochem]: success
+[2024-05-14 11:09:06] INFO root fetch - processPackages [local_tuya_ceiling_fan]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya_ceiling_fan-1.5.1.tar.gz]
+[2024-05-14 11:09:06] INFO root fetch - processPackages [local_tuya_ceiling_fan]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya_ceiling_fan-2.0.0.tar.gz]
+[2024-05-14 11:09:07] INFO root fetch - main [MainThread]: End processing [local_tuya_ceiling_fan]: success
+[2024-05-14 11:09:07] INFO root fetch - processPackages [statlance]: Remove: archive file [/home/abi/fetcher/tmp/statlance-0.1.tar.gz]
+[2024-05-14 11:09:07] INFO root fetch - processPackages [statlance]: Remove: archive file [/home/abi/fetcher/tmp/statlance-0.1.1.tar.gz]
+[2024-05-14 11:09:07] INFO root fetch - main [MainThread]: End processing [statlance]: success
+[2024-05-14 11:09:07] INFO root fetch - processPackages [lwk]: Downloading https://files.pythonhosted.org/packages/19/1d/78adb89841e56115b08bb0b5e001d2b70c4da436cdff1beca2c275f9c9c7/lwk-0.4.0-py3-none-win_amd64.whl
+[2024-05-14 11:09:07] INFO root fetch - processPackages [DrissionPage]: Remove: archive file [/home/abi/fetcher/tmp/DrissionPage-4.0.4.8.tar.gz]
+[2024-05-14 11:09:07] INFO root fetch - processPackages [DrissionPage]: Remove: archive file [/home/abi/fetcher/tmp/DrissionPage-4.0.4.9.tar.gz]
+[2024-05-14 11:09:07] INFO root fetch - main [MainThread]: End processing [DrissionPage]: success
+[2024-05-14 11:09:08] INFO root fetch - processPackages [lwk]: executing diffoscope
+[2024-05-14 11:09:08] INFO root fetch - processPackages [lwk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lwk-0.3.0-py3-none-win_amd64.whl.zip tmp/lwk-0.4.0-py3-none-win_amd64.whl.zip --markdown 20240514/l/lwk/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-14 11:10:01] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.3.0-py3-none-win_amd64.whl.zip]
+[2024-05-14 11:10:01] INFO root fetch - processPackages [lwk]: Remove: archive file [/home/abi/fetcher/tmp/lwk-0.4.0-py3-none-win_amd64.whl.zip]
+[2024-05-14 11:10:01] INFO root fetch - main [MainThread]: End processing [lwk]: success
+[2024-05-14 11:10:01] INFO root fetch - main [MainThread]: Store serial: [23198542]
