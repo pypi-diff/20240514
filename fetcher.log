@@ -13894,3 +13894,78 @@
 [2024-05-14 09:45:37] INFO root fetch - processPackages [weaverbird]: Remove: archive file [/home/abi/fetcher/tmp/weaverbird-0.9.0.tar.gz]
 [2024-05-14 09:45:37] INFO root fetch - main [MainThread]: End processing [weaverbird]: success
 [2024-05-14 09:45:37] INFO root fetch - main [MainThread]: Store serial: [23197356]
+[2024-05-14 09:47:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23197356]
+[2024-05-14 09:47:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: momodeltool
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paradi
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cameo-geo-query
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sparc-curation-tools
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QtHarmony
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsfpga
+[2024-05-14 09:47:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syntho-cli
+[2024-05-14 09:47:48] INFO root fetch - processPackages [paradi]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [16.0.1.7.4] Old Version: [16.0.1.7.3.1]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [QtHarmony]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [paradi]: Downloading https://files.pythonhosted.org/packages/4f/a9/c78ff50a3e11cb5f3f9e699e54508559dfe29d6196ade1511100e82c0f94/paradi-0.1.2.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/44/e1/17ba8a023b98004a2546d608d41148ae8d7e4842aebdbab90ffe71c70db5/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl
+[2024-05-14 09:47:48] INFO root fetch - processPackages [tsfpga]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [sparc-curation-tools]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [syntho-cli]: New version: [1.7.0b1] Old Version: [1.7.0a1]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/a9/f4/31aba2f458bd975c8f156b4c45eadd75961cacf26248e3f5f6e08d68d30d/qtharmony-0.2.3.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [momodeltool]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [cameo-geo-query]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-14 09:47:48] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/ea/c5/1cc79b1a63d5f112f560811aa2de54a4d9704db3babb4d16ee2b62081c82/momodeltool-0.0.8.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [sparc-curation-tools]: Downloading https://files.pythonhosted.org/packages/11/4e/1006b08a2f05f868d1208bc339a50545d80ae3eb24491eb4aa549ac450c9/sparc_curation_tools-0.7.1-py3-none-any.whl
+[2024-05-14 09:47:48] INFO root fetch - processPackages [tsfpga]: Downloading https://files.pythonhosted.org/packages/1c/80/3a4cbdb5bd6e2e20845e5cd3b47542e516e9a514480232c2bcc365312bf1/tsfpga-8.0.1.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/01/8f/143bac4eb140429277c3555f56a07dd24578f82d0c19c78610a3c6abcd19/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl
+[2024-05-14 09:47:48] INFO root fetch - processPackages [QtHarmony]: Downloading https://files.pythonhosted.org/packages/af/71/aa968de85e918db9c796223ecbf1d6bdbce57945c326c3909d1e7bb8805c/qtharmony-0.2.4.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/77/87/5899bc584955458fd1ec54d6a29a164ff1551e41947359d622a5289c7b02/cameo_geo_query-1.0.7.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/8c/7c/0665afa803e540419a7c718f8f3ccac8b41e400c51158c5194d774612d00/syntho-cli-1.7.0a1.tar.gz
+[2024-05-14 09:47:48] INFO root fetch - processPackages [paradi]: Downloading https://files.pythonhosted.org/packages/b4/75/52759220b450352acdac0643cc77a90a81a9895bc7baaf1915b5e7b36a14/paradi-0.1.3.tar.gz
+[2024-05-14 09:47:49] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-ddmrp/16.0.1.7.3.1-16.0.1.7.4/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [QtHarmony]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [QtHarmony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtharmony-0.2.3.tar.gz tmp/qtharmony-0.2.4.tar.gz --markdown 20240514/Q/QtHarmony/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [paradi]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [paradi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradi-0.1.2.tar.gz tmp/paradi-0.1.3.tar.gz --markdown 20240514/p/paradi/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [sparc-curation-tools]: Downloading https://files.pythonhosted.org/packages/6b/a9/a0331ca718ff6cb974393265d496809405f4fd0b9aea77e6c9773cddba59/sparc_curation_tools-0.7.2-py3-none-any.whl
+[2024-05-14 09:47:49] INFO root fetch - processPackages [momodeltool]: Downloading https://files.pythonhosted.org/packages/53/73/28eccdf93b18bd55dee87208b71c6da98fe28ee06d1d53267ae24ccda52d/momodeltool-0.0.9.tar.gz
+[2024-05-14 09:47:49] INFO root fetch - processPackages [tsfpga]: Downloading https://files.pythonhosted.org/packages/49/34/efa8bef3eed9f55657ed13baa8f2c79d94df3b4a9608915c0d7b664d711e/tsfpga-9.0.0.tar.gz
+[2024-05-14 09:47:49] INFO root fetch - processPackages [sparc-curation-tools]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [sparc-curation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparc_curation_tools-0.7.1-py3-none-any.whl.zip tmp/sparc_curation_tools-0.7.2-py3-none-any.whl.zip --markdown 20240514/s/sparc-curation-tools/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [cameo-geo-query]: Downloading https://files.pythonhosted.org/packages/c0/97/58868a2cf5de3a0ed6c033a295ad565a7a767580d6bcf83031afa1f6b2ec/cameo_geo_query-1.0.8.tar.gz
+[2024-05-14 09:47:49] INFO root fetch - processPackages [syntho-cli]: Downloading https://files.pythonhosted.org/packages/c8/2d/b6a4b24e2103202ed59d324434746802cd30fb965ca3ca6b49e94abe4fb7/syntho-cli-1.7.0b1.tar.gz
+[2024-05-14 09:47:49] INFO root fetch - processPackages [momodeltool]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [momodeltool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momodeltool-0.0.8.tar.gz tmp/momodeltool-0.0.9.tar.gz --markdown 20240514/m/momodeltool/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [cameo-geo-query]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [cameo-geo-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameo_geo_query-1.0.7.tar.gz tmp/cameo_geo_query-1.0.8.tar.gz --markdown 20240514/c/cameo-geo-query/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [syntho-cli]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [syntho-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntho-cli-1.7.0a1.tar.gz tmp/syntho-cli-1.7.0b1.tar.gz --markdown 20240514/s/syntho-cli/1.7.0a1-1.7.0b1/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [tsfpga]: executing diffoscope
+[2024-05-14 09:47:49] INFO root fetch - processPackages [tsfpga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsfpga-8.0.1.tar.gz tmp/tsfpga-9.0.0.tar.gz --markdown 20240514/t/tsfpga/8.0.1-9.0.0/README.md --exclude *.pyd
+[2024-05-14 09:47:49] INFO root fetch - processPackages [paradi]: Remove: archive file [/home/abi/fetcher/tmp/paradi-0.1.2.tar.gz]
+[2024-05-14 09:47:49] INFO root fetch - processPackages [paradi]: Remove: archive file [/home/abi/fetcher/tmp/paradi-0.1.3.tar.gz]
+[2024-05-14 09:47:49] INFO root fetch - main [MainThread]: End processing [paradi]: success
+[2024-05-14 09:47:50] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.3.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - processPackages [QtHarmony]: Remove: archive file [/home/abi/fetcher/tmp/qtharmony-0.2.4.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - main [MainThread]: End processing [QtHarmony]: success
+[2024-05-14 09:47:50] INFO root fetch - processPackages [sparc-curation-tools]: Remove: archive file [/home/abi/fetcher/tmp/sparc_curation_tools-0.7.1-py3-none-any.whl.zip]
+[2024-05-14 09:47:50] INFO root fetch - processPackages [sparc-curation-tools]: Remove: archive file [/home/abi/fetcher/tmp/sparc_curation_tools-0.7.2-py3-none-any.whl.zip]
+[2024-05-14 09:47:50] INFO root fetch - main [MainThread]: End processing [sparc-curation-tools]: success
+[2024-05-14 09:47:50] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.7.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - processPackages [cameo-geo-query]: Remove: archive file [/home/abi/fetcher/tmp/cameo_geo_query-1.0.8.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - main [MainThread]: End processing [cameo-geo-query]: success
+[2024-05-14 09:47:50] INFO root fetch - processPackages [momodeltool]: Remove: archive file [/home/abi/fetcher/tmp/momodeltool-0.0.8.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - processPackages [momodeltool]: Remove: archive file [/home/abi/fetcher/tmp/momodeltool-0.0.9.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - main [MainThread]: End processing [momodeltool]: success
+[2024-05-14 09:47:50] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0a1.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - processPackages [syntho-cli]: Remove: archive file [/home/abi/fetcher/tmp/syntho-cli-1.7.0b1.tar.gz]
+[2024-05-14 09:47:50] INFO root fetch - main [MainThread]: End processing [syntho-cli]: success
+[2024-05-14 09:47:50] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.3.1-py3-none-any.whl.zip]
+[2024-05-14 09:47:50] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-16.0.1.7.4-py3-none-any.whl.zip]
+[2024-05-14 09:47:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2024-05-14 09:47:51] INFO root fetch - processPackages [tsfpga]: Remove: archive file [/home/abi/fetcher/tmp/tsfpga-8.0.1.tar.gz]
+[2024-05-14 09:47:51] INFO root fetch - processPackages [tsfpga]: Remove: archive file [/home/abi/fetcher/tmp/tsfpga-9.0.0.tar.gz]
+[2024-05-14 09:47:51] INFO root fetch - main [MainThread]: End processing [tsfpga]: success
+[2024-05-14 09:47:51] INFO root fetch - main [MainThread]: Store serial: [23197381]
