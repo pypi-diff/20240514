@@ -19020,3 +19020,132 @@
 [2024-05-14 12:31:57] INFO root fetch - processPackages [educommon]: Remove: archive file [/home/abi/fetcher/tmp/educommon-3.9.6.tar.gz]
 [2024-05-14 12:31:57] INFO root fetch - main [MainThread]: End processing [educommon]: success
 [2024-05-14 12:31:57] INFO root fetch - main [MainThread]: Store serial: [23199530]
+[2024-05-14 12:34:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23199530]
+[2024-05-14 12:34:07] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-dataset
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-models
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-protos
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-mixin
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-telemetry
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cepack
+[2024-05-14 12:34:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lensless
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-models]: New version: [3.1.0.post498] Old Version: [3.1.0.post497]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.1.0.post498] Old Version: [3.1.0.post497]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb]: New version: [3.1.0.post498] Old Version: [3.1.0.post497]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.1.0.post498] Old Version: [3.1.0.post497]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.1.0.post498] Old Version: [3.1.0.post497]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.1.0.post498] Old Version: [3.1.0.post497]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nonebot-plugin-mixin]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [cepack]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [lensless]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.1.0.post499] Old Version: [3.1.0.post498]
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/9f/67/9be4e9aff3bdb267f1be71a3a14f6de42f706d7887c8ed396eb6d89a52de/nucliadb_models-3.1.0.post497-py3-none-any.whl
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/d0/73/80121be4e36ef846aae700df7c526a418a8826a7453ee89cf79f66fec706/nucliadb_protos-3.1.0.post497-py3-none-any.whl
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ca/0f/704726051524ea0851b09d61df3fa67d4b8799db9d088743d9b631b57211/nucliadb_dataset-3.1.0.post497-py3-none-any.whl
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/71/2f/24f9afae43a01a9409cd1a0322f998b8eece60dbb9e4d14c946cbcacfbe6/nucliadb_utils-3.1.0.post497-py3-none-any.whl
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/dd/56/1e9db45429d550e9254fa6091c1548538f25d943e0dc44b3b6bda3842cde/nucliadb_telemetry-3.1.0.post497-py3-none-any.whl
+[2024-05-14 12:34:07] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/e3/7c/0b30ff3b4380d5109da186295f4fce58183c1153949805496e7555b79cd4/nucliadb-3.1.0.post497-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/c0/7b/b42ac8fd4f94bf8bf06470237db1cb82cbd07467e9e30f1249753e22274e/cepack-0.0.3.tar.gz
+[2024-05-14 12:34:08] INFO root fetch - processPackages [lensless]: Downloading https://files.pythonhosted.org/packages/e1/b4/fe977aa25f8a9d5853d36bd39e4deeb1bdb513354d49eee3e43672d281b8/lensless-1.0.6.tar.gz
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/30/33/1460c2612d5ecc39df81349b2d89005c880d6c2ecc15cc0cd2fec8afafae/nucliadb_sdk-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nonebot-plugin-mixin]: Downloading https://files.pythonhosted.org/packages/fc/27/5cb7a869a4ad9902be9515279d135b1e65ec8d2a5413f6b14a0baeea7d22/nonebot-plugin-mixin-0.1.2.tar.gz
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/ff/a1/6a1df366325267090c8a2e94a2abd92a495edc96b22a3b0ff9c9c36904f1/nucliadb_protos-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/2e/48/7aae36935ae350931839465f66ec438fdfbc3da7413df44572daff3adf64/nucliadb_models-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e2/11/cfadf30efd08e9b5ce03bfab47ad895811138672ba49497df47959539438/nucliadb_dataset-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/af/a5/3126cba4c2353e8a588523e9773c5b726ed7ca3677cdfc45301e238b9e61/nucliadb_utils-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/42/94/99b5275709fac95aec1efe0a57d30e57a2f5d051a0bbc4cb32b78f0921e3/nucliadb_telemetry-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.1.0.post497-py3-none-any.whl.zip tmp/nucliadb_protos-3.1.0.post498-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-protos/3.1.0.post497-3.1.0.post498/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [cepack]: Downloading https://files.pythonhosted.org/packages/b0/e7/a2e340d249d5d13eb5292910241d57bb9d281c3f5d1d4e721e5c31442d56/cepack-0.0.4.tar.gz
+[2024-05-14 12:34:08] INFO root fetch - processPackages [lensless]: Downloading https://files.pythonhosted.org/packages/31/b8/d429cedc3d1483678624d380a397f99a67a66a63a3cbf4a54f21239629d3/lensless-1.0.7.tar.gz
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.1.0.post497-py3-none-any.whl.zip tmp/nucliadb_dataset-3.1.0.post498-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-dataset/3.1.0.post497-3.1.0.post498/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/34/55/51217f3a224c9ce1328d21a48ad2284970e07008243734698eacdf8f7e4d/nucliadb-3.1.0.post498-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nonebot-plugin-mixin]: Downloading https://files.pythonhosted.org/packages/15/a8/2b633e0f474b0f3cafae12d5c4220859407330e874ea46701ddb7caf37a3/nonebot_plugin_mixin-0.2.0.tar.gz
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.1.0.post497-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.1.0.post498-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-telemetry/3.1.0.post497-3.1.0.post498/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.1.0.post497-py3-none-any.whl.zip tmp/nucliadb_models-3.1.0.post498-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-models/3.1.0.post497-3.1.0.post498/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.1.0.post497-py3-none-any.whl.zip tmp/nucliadb_utils-3.1.0.post498-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-utils/3.1.0.post497-3.1.0.post498/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [cepack]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [cepack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cepack-0.0.3.tar.gz tmp/cepack-0.0.4.tar.gz --markdown 20240514/c/cepack/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/34/77/e71958f6de5cc5f3f7c63bd501ef9d1c70a5177f31f82b1bb6014715ff4c/nucliadb_sdk-3.1.0.post499-py3-none-any.whl
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nonebot-plugin-mixin]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nonebot-plugin-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-mixin-0.1.2.tar.gz tmp/nonebot_plugin_mixin-0.2.0.tar.gz --markdown 20240514/n/nonebot-plugin-mixin/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [lensless]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [lensless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lensless-1.0.6.tar.gz tmp/lensless-1.0.7.tar.gz --markdown 20240514/l/lensless/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.1.0.post497-py3-none-any.whl.zip tmp/nucliadb-3.1.0.post498-py3-none-any.whl.zip --markdown 20240514/n/nucliadb/3.1.0.post497-3.1.0.post498/README.md --exclude *.pyd
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-14 12:34:08] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.1.0.post498-py3-none-any.whl.zip tmp/nucliadb_sdk-3.1.0.post499-py3-none-any.whl.zip --markdown 20240514/n/nucliadb-sdk/3.1.0.post498-3.1.0.post499/README.md --exclude *.pyd
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nonebot-plugin-mixin]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-mixin-0.1.2.tar.gz]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nonebot-plugin-mixin]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_mixin-0.2.0.tar.gz]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nonebot-plugin-mixin]: Start processing: MMLToolbox
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-mixin]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: neurohab
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-protos]: Start processing: modelmerge
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.3.tar.gz]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [cepack]: Remove: archive file [/home/abi/fetcher/tmp/cepack-0.0.4.tar.gz]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [cepack]: Start processing: autopkg-wrapper
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [cepack]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [modelmerge]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [autopkg-wrapper]: New version: [2024.5.2] Old Version: [2024.5.1]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [MMLToolbox]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [neurohab]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.1.0.post499-py3-none-any.whl.zip]
+[2024-05-14 12:34:09] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-14 12:34:09] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/8b/a1/0e5e430b6bd3cfe161ded74e999f323ce428adba2d7eef59c6344b54696c/modelmerge-0.3.6.tar.gz
+[2024-05-14 12:34:09] INFO root fetch - processPackages [autopkg-wrapper]: Downloading https://files.pythonhosted.org/packages/f7/2b/886d3ff8f98e6defab79c4078758b4aa91eecdf088c0d47e9ae5f6fb2444/autopkg_wrapper-2024.5.1.tar.gz
+[2024-05-14 12:34:10] INFO root fetch - processPackages [MMLToolbox]: Downloading https://files.pythonhosted.org/packages/a5/ad/899ddf342628fcd919814fdbd67d1314b77ba18864fbcdb4123fa9e4b166/MMLToolbox-1.2.0-py3-none-any.whl
+[2024-05-14 12:34:10] INFO root fetch - processPackages [neurohab]: Downloading https://files.pythonhosted.org/packages/7e/cd/7982947f3109afc02c2a4d022fbf1f5c897d705683692f2dca7b37bc358b/neurohab-0.0.1.tar.gz
+[2024-05-14 12:34:10] INFO root fetch - processPackages [autopkg-wrapper]: Downloading https://files.pythonhosted.org/packages/84/f0/18fe6f29e3cb9408a4c048fe4396783ab0c1aafb7b54a07374d5b8ade041/autopkg_wrapper-2024.5.2.tar.gz
+[2024-05-14 12:34:10] INFO root fetch - processPackages [lensless]: Remove: archive file [/home/abi/fetcher/tmp/lensless-1.0.6.tar.gz]
+[2024-05-14 12:34:10] INFO root fetch - processPackages [lensless]: Remove: archive file [/home/abi/fetcher/tmp/lensless-1.0.7.tar.gz]
+[2024-05-14 12:34:10] INFO root fetch - main [MainThread]: End processing [lensless]: success
+[2024-05-14 12:34:10] INFO root fetch - processPackages [autopkg-wrapper]: executing diffoscope
+[2024-05-14 12:34:10] INFO root fetch - processPackages [autopkg-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopkg_wrapper-2024.5.1.tar.gz tmp/autopkg_wrapper-2024.5.2.tar.gz --markdown 20240514/a/autopkg-wrapper/2024.5.1-2024.5.2/README.md --exclude *.pyd
+[2024-05-14 12:34:10] INFO root fetch - processPackages [modelmerge]: Downloading https://files.pythonhosted.org/packages/3f/98/b32250b3b514f749a70345bae12913392452b17b38915866b07956c795fc/modelmerge-0.3.7.tar.gz
+[2024-05-14 12:34:10] INFO root fetch - processPackages [MMLToolbox]: Downloading https://files.pythonhosted.org/packages/c5/48/5a229a8c949eb10810a1c838aba152aa4ea365a90b91c4a84688837dd33a/MMLToolbox-1.2.1-py3-none-any.whl
+[2024-05-14 12:34:10] INFO root fetch - processPackages [modelmerge]: executing diffoscope
+[2024-05-14 12:34:10] INFO root fetch - processPackages [modelmerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelmerge-0.3.6.tar.gz tmp/modelmerge-0.3.7.tar.gz --markdown 20240514/m/modelmerge/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-05-14 12:34:10] INFO root fetch - processPackages [neurohab]: Downloading https://files.pythonhosted.org/packages/4a/cc/411214aa7c7fb7240bb3fe1682b31118c70a5ac662e13370c753646b9a4a/neurohab-0.0.2.tar.gz
+[2024-05-14 12:34:10] INFO root fetch - processPackages [MMLToolbox]: executing diffoscope
+[2024-05-14 12:34:10] INFO root fetch - processPackages [MMLToolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MMLToolbox-1.2.0-py3-none-any.whl.zip tmp/MMLToolbox-1.2.1-py3-none-any.whl.zip --markdown 20240514/M/MMLToolbox/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-05-14 12:34:10] INFO root fetch - processPackages [neurohab]: executing diffoscope
+[2024-05-14 12:34:10] INFO root fetch - processPackages [neurohab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurohab-0.0.1.tar.gz tmp/neurohab-0.0.2.tar.gz --markdown 20240514/n/neurohab/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-14 12:34:10] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.5.1.tar.gz]
+[2024-05-14 12:34:10] INFO root fetch - processPackages [autopkg-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/autopkg_wrapper-2024.5.2.tar.gz]
+[2024-05-14 12:34:10] INFO root fetch - main [MainThread]: End processing [autopkg-wrapper]: success
+[2024-05-14 12:34:11] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.6.tar.gz]
+[2024-05-14 12:34:11] INFO root fetch - processPackages [modelmerge]: Remove: archive file [/home/abi/fetcher/tmp/modelmerge-0.3.7.tar.gz]
+[2024-05-14 12:34:11] INFO root fetch - main [MainThread]: End processing [modelmerge]: success
+[2024-05-14 12:34:11] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post497-py3-none-any.whl.zip]
+[2024-05-14 12:34:11] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.1.0.post498-py3-none-any.whl.zip]
+[2024-05-14 12:34:11] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-14 12:34:11] INFO root fetch - processPackages [MMLToolbox]: Remove: archive file [/home/abi/fetcher/tmp/MMLToolbox-1.2.0-py3-none-any.whl.zip]
+[2024-05-14 12:34:11] INFO root fetch - processPackages [MMLToolbox]: Remove: archive file [/home/abi/fetcher/tmp/MMLToolbox-1.2.1-py3-none-any.whl.zip]
+[2024-05-14 12:34:11] INFO root fetch - main [MainThread]: End processing [MMLToolbox]: success
+[2024-05-14 12:34:11] INFO root fetch - processPackages [neurohab]: Remove: archive file [/home/abi/fetcher/tmp/neurohab-0.0.1.tar.gz]
+[2024-05-14 12:34:11] INFO root fetch - processPackages [neurohab]: Remove: archive file [/home/abi/fetcher/tmp/neurohab-0.0.2.tar.gz]
+[2024-05-14 12:34:11] INFO root fetch - main [MainThread]: End processing [neurohab]: success
+[2024-05-14 12:34:11] INFO root fetch - main [MainThread]: Store serial: [23199563]
