@@ -16673,3 +16673,101 @@
 [2024-05-14 11:15:04] INFO root fetch - processPackages [qecore]: Remove: archive file [/home/abi/fetcher/tmp/qecore-3.9.tar.gz]
 [2024-05-14 11:15:04] INFO root fetch - main [MainThread]: End processing [qecore]: success
 [2024-05-14 11:15:04] INFO root fetch - main [MainThread]: Store serial: [23198601]
+[2024-05-14 11:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23198601]
+[2024-05-14 11:17:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agptools
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu118
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iSwitch
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syncmodels
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finml-utils
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nvfuser-cu121
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: process-time-azure-devops
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bcitoolbox
+[2024-05-14 11:17:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: obs-waykey
+[2024-05-14 11:17:28] INFO root fetch - processPackages [iSwitch]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-14 11:17:28] INFO root fetch - processPackages [obs-waykey]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 11:17:28] INFO root fetch - processPackages [finml-utils]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-14 11:17:28] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [swarmtube]: New version: [0.1.39] Old Version: [0.1.38]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [process-time-azure-devops]: New version: [0.0.7] Old Version: [0.0.5]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [bcitoolbox]: New version: [0.0.2.9] Old Version: [0.0.2.8]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [iSwitch]: Downloading https://files.pythonhosted.org/packages/c1/ec/d52f1db907f606316837abcf350161123cf8ffabbe6643bb3ef044ed6cad/iSwitch-1.0.3.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.4.dev20240514] Old Version: [0.2.3.dev20240511]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [obs-waykey]: Downloading https://files.pythonhosted.org/packages/b3/0f/e8aeb7610330c71ae8342833c95428eaf47829f6876f271c027179f9bc31/obs_waykey-0.1.0.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/6b/c8/50e2c3ba0418d85df1876db8568961da2f8c3cc03f455e14990e0bdca3d5/finml_utils-2.2.0.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.4.dev20240514] Old Version: [0.2.3.dev20240511]
+[2024-05-14 11:17:29] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/89/be/1958adf4937f8cb5f4d3e827df0e8bde02be87d58323c4f2804236e99840/swarmtube-0.1.38-py2.py3-none-any.whl
+[2024-05-14 11:17:29] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-14 11:17:29] INFO root fetch - processPackages [process-time-azure-devops]: Downloading https://files.pythonhosted.org/packages/fa/bf/b648709c206d8411ec359f780da09d9edd97af2fbfd91e324bd532756d75/process_time_azure_devops-0.0.5.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [bcitoolbox]: Downloading https://files.pythonhosted.org/packages/77/45/62e8e48867a99e175a20c41ed33a15929806a11df4bec9eba7a8a7cf6db2/bcitoolbox-0.0.2.8.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/23/03/ebe077784c4ff4d4cda317e5390e85c72d8e1ce299b6e3d169065b1326f6/nvfuser_cu118-0.2.3.dev20240511.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/45/f6/71d8d4a5275d0cf61c647953959c5d2e0d9fe7b309f6c3e2315f3f93cc28/nvfuser_cu121-0.2.3.dev20240511.tar.gz
+[2024-05-14 11:17:29] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-14 11:17:30] ERROR root fetch - processPackages [obs-waykey]: Unable to fetch info: No such project/version 'obs-waykey' 0.1.1
+[2024-05-14 11:17:30] INFO root fetch - processPackages [obs-waykey]: Start processing: turbodbc
+[2024-05-14 11:17:30] INFO root fetch - main [MainThread]: End processing [obs-waykey] error
+[2024-05-14 11:17:30] INFO root fetch - processPackages [finml-utils]: Downloading https://files.pythonhosted.org/packages/31/77/28421c2e3b4da7be67ff1f2639d1853e9c5d3df5ec460d3d96a9c605a0eb/finml_utils-2.2.1.tar.gz
+[2024-05-14 11:17:30] INFO root fetch - processPackages [process-time-azure-devops]: Downloading https://files.pythonhosted.org/packages/b2/79/f983382cffeba4feda3b8700f5d2595435645a2398daf1a8c99ade85ee69/process_time_azure_devops-0.0.7.tar.gz
+[2024-05-14 11:17:30] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/e7/f4/1d62e6ce96133101c041161bfbaad1d9a0efbee03f06c7bb056ef85015fa/nvfuser_cu118-0.2.4.dev20240514.tar.gz
+[2024-05-14 11:17:30] INFO root fetch - processPackages [turbodbc]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-14 11:17:30] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/35/99/65b421b0edc4175a5c5f72e2ae3649bbd3527dbd406edfe0c555b0263515/nvfuser_cu121-0.2.4.dev20240514.tar.gz
+[2024-05-14 11:17:30] INFO root fetch - processPackages [bcitoolbox]: Downloading https://files.pythonhosted.org/packages/8e/71/db1a873c5c2121808cb01666b13d55fdbe9bd937fdf560a88125e4c87796/bcitoolbox-0.0.2.9.tar.gz
+[2024-05-14 11:17:30] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-14 11:17:30] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c3/f6/8abb508da1939381908ad2cbcb2190ecd9dc1b6b810bfe0b2c96c96f2caf/swarmtube-0.1.39-py2.py3-none-any.whl
+[2024-05-14 11:17:30] INFO root fetch - processPackages [iSwitch]: Downloading https://files.pythonhosted.org/packages/7b/ad/b1f8cbcc17eb04381ebe0885426d36301f23c26a7613130d54f0c463c36a/iSwitch-1.0.5.tar.gz
+[2024-05-14 11:17:30] INFO root fetch - processPackages [finml-utils]: executing diffoscope
+[2024-05-14 11:17:30] INFO root fetch - processPackages [finml-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finml_utils-2.2.0.tar.gz tmp/finml_utils-2.2.1.tar.gz --markdown 20240514/f/finml-utils/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-14 11:17:30] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-14 11:17:30] INFO root fetch - processPackages [process-time-azure-devops]: executing diffoscope
+[2024-05-14 11:17:30] INFO root fetch - processPackages [process-time-azure-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process_time_azure_devops-0.0.5.tar.gz tmp/process_time_azure_devops-0.0.7.tar.gz --markdown 20240514/p/process-time-azure-devops/0.0.5-0.0.7/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.3.dev20240511.tar.gz tmp/nvfuser_cu121-0.2.4.dev20240514.tar.gz --markdown 20240514/n/nvfuser-cu121/0.2.3.dev20240511-0.2.4.dev20240514/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [bcitoolbox]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [bcitoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcitoolbox-0.0.2.8.tar.gz tmp/bcitoolbox-0.0.2.9.tar.gz --markdown 20240514/b/bcitoolbox/0.0.2.8-0.0.2.9/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240514/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.38-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.39-py2.py3-none-any.whl.zip --markdown 20240514/s/swarmtube/0.1.38-0.1.39/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [turbodbc]: Downloading https://files.pythonhosted.org/packages/0a/fe/6136d0ec863933b174bf7fa03456682fb4c368264ea8cc7846f833de278d/turbodbc-4.8.0.tar.gz
+[2024-05-14 11:17:31] INFO root fetch - processPackages [iSwitch]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [iSwitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iSwitch-1.0.3.tar.gz tmp/iSwitch-1.0.5.tar.gz --markdown 20240514/i/iSwitch/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.3.dev20240511.tar.gz tmp/nvfuser_cu118-0.2.4.dev20240514.tar.gz --markdown 20240514/n/nvfuser-cu118/0.2.3.dev20240511-0.2.4.dev20240514/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240514/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-14 11:17:31] INFO root fetch - processPackages [turbodbc]: Downloading https://files.pythonhosted.org/packages/b6/12/e5e6dbdb42df256f1c5eebdb99abfe3bc4aa5fe6894cb495120b1c88c076/turbodbc-4.9.0.tar.gz
+[2024-05-14 11:17:31] INFO root fetch - processPackages [turbodbc]: executing diffoscope
+[2024-05-14 11:17:31] INFO root fetch - processPackages [turbodbc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbodbc-4.8.0.tar.gz tmp/turbodbc-4.9.0.tar.gz --markdown 20240514/t/turbodbc/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-14 11:17:32] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.2.0.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [finml-utils]: Remove: archive file [/home/abi/fetcher/tmp/finml_utils-2.2.1.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [finml-utils]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.3.dev20240511.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.4.dev20240514.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.3.dev20240511.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.4.dev20240514.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [process-time-azure-devops]: Remove: archive file [/home/abi/fetcher/tmp/process_time_azure_devops-0.0.5.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [process-time-azure-devops]: Remove: archive file [/home/abi/fetcher/tmp/process_time_azure_devops-0.0.7.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [process-time-azure-devops]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [iSwitch]: Remove: archive file [/home/abi/fetcher/tmp/iSwitch-1.0.3.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [iSwitch]: Remove: archive file [/home/abi/fetcher/tmp/iSwitch-1.0.5.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [iSwitch]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.38-py2.py3-none-any.whl.zip]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.39-py2.py3-none-any.whl.zip]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [bcitoolbox]: Remove: archive file [/home/abi/fetcher/tmp/bcitoolbox-0.0.2.8.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [bcitoolbox]: Remove: archive file [/home/abi/fetcher/tmp/bcitoolbox-0.0.2.9.tar.gz]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [bcitoolbox]: success
+[2024-05-14 11:17:32] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-14 11:17:32] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-14 11:17:32] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-14 11:17:33] INFO root fetch - processPackages [turbodbc]: Remove: archive file [/home/abi/fetcher/tmp/turbodbc-4.8.0.tar.gz]
+[2024-05-14 11:17:33] INFO root fetch - processPackages [turbodbc]: Remove: archive file [/home/abi/fetcher/tmp/turbodbc-4.9.0.tar.gz]
+[2024-05-14 11:17:33] INFO root fetch - main [MainThread]: End processing [turbodbc]: success
+[2024-05-14 11:17:33] INFO root fetch - main [MainThread]: Store serial: [23198633]
