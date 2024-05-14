@@ -21102,3 +21102,67 @@
 [2024-05-14 13:45:01] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.5.tar.gz]
 [2024-05-14 13:45:01] INFO root fetch - main [MainThread]: End processing [figaro]: success
 [2024-05-14 13:45:01] INFO root fetch - main [MainThread]: Store serial: [23200493]
+[2024-05-14 13:47:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200493]
+[2024-05-14 13:47:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-click
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkpyai
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkmavrykchain
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kkpyai
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: riscemu
+[2024-05-14 13:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fish-util
+[2024-05-14 13:47:11] INFO root fetch - processPackages [danila-lib]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-14 13:47:11] INFO root fetch - processPackages [fish-util]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-05-14 13:47:11] INFO root fetch - processPackages [sphinx-click]: New version: [5.2.0] Old Version: [5.1.0]
+[2024-05-14 13:47:11] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.9] Old Version: [6.25.8]
+[2024-05-14 13:47:11] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/6a/50/25f2930fd84b82d834d0ec640016fa7af3538f0ec513d98c4533f90d1963/danila-lib-1.4.1.tar.gz
+[2024-05-14 13:47:11] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 13:47:11] INFO root fetch - processPackages [kkpyai]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-14 13:47:11] INFO root fetch - processPackages [riscemu]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-14 13:47:12] INFO root fetch - processPackages [sphinx-click]: Downloading https://files.pythonhosted.org/packages/9a/9b/5ab964dc1b4a47a0f3bfb6cb48c7a234d95f956e5338ad4e55797f86c4f5/sphinx-click-5.1.0.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [fish-util]: Downloading https://files.pythonhosted.org/packages/77/b2/ae0a164742962a72c52aaf4883f63276a020a80d55d09e5849efd53a00a0/fish_util-0.0.1.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/41/d3/9eaff2d61cda5a93cc3aa554dac6f205851c8b6303358abc745bc574c29b/kkpyai-0.8.0.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/4f/e9/6e535121a07acdeb06fceb1240da088046994124deadd1080957718f847b/mkmavrykchain-6.25.8-py3-none-any.whl
+[2024-05-14 13:47:12] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/79/f0/d5a2303fb1ec51595f130c75239b576dc2daddc542eea42e9ec9db8a7b08/danila-lib-1.4.2.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [riscemu]: Downloading https://files.pythonhosted.org/packages/75/6e/d1949a72058d9183b2745b88ae0d100fd6b7b1642f7f87ec318a266331db/riscemu-2.2.5.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.4.1.tar.gz tmp/danila-lib-1.4.2.tar.gz --markdown 20240514/d/danila-lib/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-14 13:47:12] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/a3/84/0f1c74e0273e0e35a030e34242c803b740f9c21c97de8071b93ad5209999/mkmavrykchain-6.25.9-py3-none-any.whl
+[2024-05-14 13:47:12] INFO root fetch - processPackages [fish-util]: Downloading https://files.pythonhosted.org/packages/c1/f3/88478adb5f8abd245e85c70a516f1998d3ea942e6475f1315437b8b348de/fish_util-0.0.4.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [sphinx-click]: Downloading https://files.pythonhosted.org/packages/3e/ef/ae751e476afa0ebd423f338f8235c1323457409c1abb1c3465fa4b3cd79d/sphinx_click-5.2.0.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: Downloading https://files.pythonhosted.org/packages/5d/fb/68ee41a5230bff7f50616754d4177eecd0f6602c85b5310d16ae044f2361/kkpyai-0.9.0.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.8-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.9-py3-none-any.whl.zip --markdown 20240514/m/mkmavrykchain/6.25.8-6.25.9/README.md --exclude *.pyd
+[2024-05-14 13:47:12] INFO root fetch - processPackages [fish-util]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [fish-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fish_util-0.0.1.tar.gz tmp/fish_util-0.0.4.tar.gz --markdown 20240514/f/fish-util/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-05-14 13:47:12] INFO root fetch - processPackages [sphinx-click]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [sphinx-click]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-click-5.1.0.tar.gz tmp/sphinx_click-5.2.0.tar.gz --markdown 20240514/s/sphinx-click/5.1.0-5.2.0/README.md --exclude *.pyd
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240514/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 13:47:12] INFO root fetch - processPackages [riscemu]: Downloading https://files.pythonhosted.org/packages/75/4b/5c4d473a6a27511b448ec5d7f52eba12176dbc51d789791892f59c81ff8e/riscemu-2.2.6.tar.gz
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [kkpyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyai-0.8.0.tar.gz tmp/kkpyai-0.9.0.tar.gz --markdown 20240514/k/kkpyai/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-14 13:47:12] INFO root fetch - processPackages [riscemu]: executing diffoscope
+[2024-05-14 13:47:12] INFO root fetch - processPackages [riscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riscemu-2.2.5.tar.gz tmp/riscemu-2.2.6.tar.gz --markdown 20240514/r/riscemu/2.2.5-2.2.6/README.md --exclude *.pyd
+[2024-05-14 13:47:13] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.8.0.tar.gz]
+[2024-05-14 13:47:13] INFO root fetch - processPackages [kkpyai]: Remove: archive file [/home/abi/fetcher/tmp/kkpyai-0.9.0.tar.gz]
+[2024-05-14 13:47:13] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-05-14 13:47:13] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.1.tar.gz]
+[2024-05-14 13:47:13] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.4.2.tar.gz]
+[2024-05-14 13:47:13] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-14 13:47:13] INFO root fetch - main [MainThread]: End processing [kkpyai]: success
+[2024-05-14 13:47:13] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.8-py3-none-any.whl.zip]
+[2024-05-14 13:47:13] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.9-py3-none-any.whl.zip]
+[2024-05-14 13:47:13] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-05-14 13:47:13] INFO root fetch - processPackages [sphinx-click]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-click-5.1.0.tar.gz]
+[2024-05-14 13:47:13] INFO root fetch - processPackages [sphinx-click]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_click-5.2.0.tar.gz]
+[2024-05-14 13:47:13] INFO root fetch - main [MainThread]: End processing [sphinx-click]: success
+[2024-05-14 13:47:14] INFO root fetch - processPackages [fish-util]: Remove: archive file [/home/abi/fetcher/tmp/fish_util-0.0.1.tar.gz]
+[2024-05-14 13:47:14] INFO root fetch - processPackages [fish-util]: Remove: archive file [/home/abi/fetcher/tmp/fish_util-0.0.4.tar.gz]
+[2024-05-14 13:47:14] INFO root fetch - main [MainThread]: End processing [fish-util]: success
+[2024-05-14 13:47:14] INFO root fetch - processPackages [riscemu]: Remove: archive file [/home/abi/fetcher/tmp/riscemu-2.2.5.tar.gz]
+[2024-05-14 13:47:14] INFO root fetch - processPackages [riscemu]: Remove: archive file [/home/abi/fetcher/tmp/riscemu-2.2.6.tar.gz]
+[2024-05-14 13:47:14] INFO root fetch - main [MainThread]: End processing [riscemu]: success
+[2024-05-14 13:47:14] INFO root fetch - main [MainThread]: Store serial: [23200516]
