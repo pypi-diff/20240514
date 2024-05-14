@@ -23078,3 +23078,24 @@
 [2024-05-14 15:01:53] INFO root fetch - processPackages [pymilvus]: Remove: archive file [/home/abi/fetcher/tmp/pymilvus-2.4.2.tar.gz]
 [2024-05-14 15:01:53] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
 [2024-05-14 15:01:53] INFO root fetch - main [MainThread]: Store serial: [23201320]
+[2024-05-14 15:03:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23201320]
+[2024-05-14 15:04:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 15:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: grand-cypher
+[2024-05-14 15:04:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FJFormer
+[2024-05-14 15:04:02] INFO root fetch - processPackages [FJFormer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 15:04:02] INFO root fetch - processPackages [grand-cypher]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-05-14 15:04:02] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/0b/43/850472cfcc60a0b17d735c2f45192f54fa27699e51327cc54c462f338d8b/fjformer-0.0.8.tar.gz
+[2024-05-14 15:04:02] INFO root fetch - processPackages [grand-cypher]: Downloading https://files.pythonhosted.org/packages/74/55/2b3b44de1020a304011d564d34a7d6397879d2458a21b69fb0b1f0039a03/grand-cypher-0.7.0.tar.gz
+[2024-05-14 15:04:02] INFO root fetch - processPackages [FJFormer]: Downloading https://files.pythonhosted.org/packages/8f/ec/c16449606954b352deeb85b070a59df2b7f8672cf157269ebbf120b62e62/fjformer-0.0.9.tar.gz
+[2024-05-14 15:04:02] INFO root fetch - processPackages [FJFormer]: executing diffoscope
+[2024-05-14 15:04:02] INFO root fetch - processPackages [FJFormer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fjformer-0.0.8.tar.gz tmp/fjformer-0.0.9.tar.gz --markdown 20240514/F/FJFormer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 15:04:02] INFO root fetch - processPackages [grand-cypher]: Downloading https://files.pythonhosted.org/packages/b6/b4/1ed095cdcdc760019e2bb33d836f469c0dd929a7b5f70d30cd1d666e34c8/grand-cypher-0.8.0.tar.gz
+[2024-05-14 15:04:03] INFO root fetch - processPackages [grand-cypher]: executing diffoscope
+[2024-05-14 15:04:03] INFO root fetch - processPackages [grand-cypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grand-cypher-0.7.0.tar.gz tmp/grand-cypher-0.8.0.tar.gz --markdown 20240514/g/grand-cypher/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-05-14 15:04:03] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.8.tar.gz]
+[2024-05-14 15:04:03] INFO root fetch - processPackages [FJFormer]: Remove: archive file [/home/abi/fetcher/tmp/fjformer-0.0.9.tar.gz]
+[2024-05-14 15:04:03] INFO root fetch - main [MainThread]: End processing [FJFormer]: success
+[2024-05-14 15:04:03] INFO root fetch - processPackages [grand-cypher]: Remove: archive file [/home/abi/fetcher/tmp/grand-cypher-0.7.0.tar.gz]
+[2024-05-14 15:04:03] INFO root fetch - processPackages [grand-cypher]: Remove: archive file [/home/abi/fetcher/tmp/grand-cypher-0.8.0.tar.gz]
+[2024-05-14 15:04:03] INFO root fetch - main [MainThread]: End processing [grand-cypher]: success
+[2024-05-14 15:04:03] INFO root fetch - main [MainThread]: Store serial: [23201326]
