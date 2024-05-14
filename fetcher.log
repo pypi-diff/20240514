@@ -21681,3 +21681,66 @@
 [2024-05-14 14:11:54] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
 [2024-05-14 14:11:54] INFO root fetch - main [MainThread]: End processing [altscore]: success
 [2024-05-14 14:11:54] INFO root fetch - main [MainThread]: Store serial: [23200751]
+[2024-05-14 14:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200751]
+[2024-05-14 14:14:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-lambda-unstable
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: affipred
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightswitch_kr
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scaleway-core
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ted2zim
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karp-lex-types
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: entity-recognition-lib
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alfetcher
+[2024-05-14 14:14:03] WARNING root fetch - processPackages [lightswitch_kr]: Skipping, unable to determine old version
+[2024-05-14 14:14:03] INFO root fetch - main [MainThread]: End processing [lightswitch_kr] error
+[2024-05-14 14:14:03] INFO root fetch - processPackages [entity-recognition-lib]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-14 14:14:03] INFO root fetch - processPackages [async-lambda-unstable]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-14 14:14:03] INFO root fetch - processPackages [karp-lex-types]: New version: [0.6.4] Old Version: [0.6.2]
+[2024-05-14 14:14:03] WARNING root fetch - processPackages [affipred]: Skipping, unable to determine old version
+[2024-05-14 14:14:03] INFO root fetch - main [MainThread]: End processing [affipred] error
+[2024-05-14 14:14:03] INFO root fetch - processPackages [ted2zim]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-05-14 14:14:03] INFO root fetch - processPackages [scaleway-core]: New version: [2.2.1] Old Version: [2.1.0]
+[2024-05-14 14:14:03] INFO root fetch - processPackages [alfetcher]: New version: [1.1.0] Old Version: [1.0.0a0]
+[2024-05-14 14:14:04] INFO root fetch - processPackages [async-lambda-unstable]: Downloading https://files.pythonhosted.org/packages/a0/de/c94cb413681e919889e50dca45c1c0690ae89b7791b007f2dd364e4533f0/async-lambda-unstable-0.3.8.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [entity-recognition-lib]: Downloading https://files.pythonhosted.org/packages/7b/fd/df33e4406e0014c4b32de461451ccc3ed1c659ef194ee95bdb865f2ca460/entity_recognition_lib-0.1.5.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/88/f6/1f884c09668e78fb445d102d0e682598ab166f231ac79ecba65c1fc4244b/scaleway_core-2.1.0.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [ted2zim]: Downloading https://files.pythonhosted.org/packages/b7/24/d4e22b891c66d682e6ea4be4dea8f8c975db7a8fd176895dfe3f20136d07/ted2zim-3.0.0.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/3a/3a/8256bdb0ec2e8125542ff38617d6dd2665a82e525dc30f7e1f8269a736b4/karp_lex_types-0.6.2.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [alfetcher]: Downloading https://files.pythonhosted.org/packages/09/f5/ae425425d6818dfc8c35bd3496667a74b8eb02ab893a41bbb0b00a4e3605/alfetcher-1.0.0a0.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [async-lambda-unstable]: Downloading https://files.pythonhosted.org/packages/2e/0f/5d1122c56d6d544422fde64462e19fb2ad68e59011ea162c1f07d13415b0/async-lambda-unstable-0.3.9.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [entity-recognition-lib]: Downloading https://files.pythonhosted.org/packages/66/06/d0ad995f257860ff0533bd38ba86321aa8a3f75b4237bd04cdac99534cdb/entity_recognition_lib-0.1.6.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/d2/8a/fbd2d0187828fe9a168dc6146204946d6201cce7a45a87e8ee39c8817f41/karp_lex_types-0.6.4.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [ted2zim]: Downloading https://files.pythonhosted.org/packages/9e/ef/89d605c7705e0e75ca5ce21c3a3ff5bad080e0a0bd685cf183ee3f90470b/ted2zim-3.0.1.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [alfetcher]: Downloading https://files.pythonhosted.org/packages/d1/f0/a79e1030aafd1dac005d1faca9ecb3e5946263e7cf7ecdf863db3df00a18/alfetcher-1.1.0.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/93/e5/9403218c0d9e05fb7a0fbcae3b815403a034b576fad5edf901986df0cf43/scaleway_core-2.2.1.tar.gz
+[2024-05-14 14:14:04] INFO root fetch - processPackages [async-lambda-unstable]: executing diffoscope
+[2024-05-14 14:14:04] INFO root fetch - processPackages [async-lambda-unstable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async-lambda-unstable-0.3.8.tar.gz tmp/async-lambda-unstable-0.3.9.tar.gz --markdown 20240514/a/async-lambda-unstable/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-14 14:14:04] INFO root fetch - processPackages [entity-recognition-lib]: executing diffoscope
+[2024-05-14 14:14:04] INFO root fetch - processPackages [entity-recognition-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entity_recognition_lib-0.1.5.tar.gz tmp/entity_recognition_lib-0.1.6.tar.gz --markdown 20240514/e/entity-recognition-lib/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-14 14:14:04] INFO root fetch - processPackages [karp-lex-types]: executing diffoscope
+[2024-05-14 14:14:04] INFO root fetch - processPackages [karp-lex-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp_lex_types-0.6.2.tar.gz tmp/karp_lex_types-0.6.4.tar.gz --markdown 20240514/k/karp-lex-types/0.6.2-0.6.4/README.md --exclude *.pyd
+[2024-05-14 14:14:04] INFO root fetch - processPackages [alfetcher]: executing diffoscope
+[2024-05-14 14:14:04] INFO root fetch - processPackages [alfetcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfetcher-1.0.0a0.tar.gz tmp/alfetcher-1.1.0.tar.gz --markdown 20240514/a/alfetcher/1.0.0a0-1.1.0/README.md --exclude *.pyd
+[2024-05-14 14:14:04] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2024-05-14 14:14:04] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-2.1.0.tar.gz tmp/scaleway_core-2.2.1.tar.gz --markdown 20240514/s/scaleway-core/2.1.0-2.2.1/README.md --exclude *.pyd
+[2024-05-14 14:14:04] INFO root fetch - processPackages [ted2zim]: executing diffoscope
+[2024-05-14 14:14:04] INFO root fetch - processPackages [ted2zim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ted2zim-3.0.0.tar.gz tmp/ted2zim-3.0.1.tar.gz --markdown 20240514/t/ted2zim/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-05-14 14:14:05] INFO root fetch - processPackages [entity-recognition-lib]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_lib-0.1.5.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - processPackages [entity-recognition-lib]: Remove: archive file [/home/abi/fetcher/tmp/entity_recognition_lib-0.1.6.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [entity-recognition-lib]: success
+[2024-05-14 14:14:05] INFO root fetch - processPackages [async-lambda-unstable]: Remove: archive file [/home/abi/fetcher/tmp/async-lambda-unstable-0.3.8.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - processPackages [async-lambda-unstable]: Remove: archive file [/home/abi/fetcher/tmp/async-lambda-unstable-0.3.9.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [async-lambda-unstable]: success
+[2024-05-14 14:14:05] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-2.1.0.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-2.2.1.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2024-05-14 14:14:05] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.6.2.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.6.4.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [karp-lex-types]: success
+[2024-05-14 14:14:05] INFO root fetch - processPackages [alfetcher]: Remove: archive file [/home/abi/fetcher/tmp/alfetcher-1.0.0a0.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - processPackages [alfetcher]: Remove: archive file [/home/abi/fetcher/tmp/alfetcher-1.1.0.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [alfetcher]: success
+[2024-05-14 14:14:05] INFO root fetch - processPackages [ted2zim]: Remove: archive file [/home/abi/fetcher/tmp/ted2zim-3.0.0.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - processPackages [ted2zim]: Remove: archive file [/home/abi/fetcher/tmp/ted2zim-3.0.1.tar.gz]
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: End processing [ted2zim]: success
+[2024-05-14 14:14:05] INFO root fetch - main [MainThread]: Store serial: [23200776]
