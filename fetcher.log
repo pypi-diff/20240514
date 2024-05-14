@@ -21246,3 +21246,32 @@
 [2024-05-14 13:51:36] INFO root fetch - processPackages [stockpyl]: Remove: archive file [/home/abi/fetcher/tmp/stockpyl-1.0.0.tar.gz]
 [2024-05-14 13:51:36] INFO root fetch - main [MainThread]: End processing [stockpyl]: success
 [2024-05-14 13:51:36] INFO root fetch - main [MainThread]: Store serial: [23200552]
+[2024-05-14 13:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200552]
+[2024-05-14 13:53:45] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 13:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imagedata
+[2024-05-14 13:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyreqwest-impersonate
+[2024-05-14 13:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: virtual-camera
+[2024-05-14 13:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unreal-stub
+[2024-05-14 13:53:45] INFO root fetch - processPackages [virtual-camera]: New version: [0.0.2.post0] Old Version: [0.0.1]
+[2024-05-14 13:53:45] INFO root fetch - processPackages [imagedata]: New version: [3.5.5rc2] Old Version: [3.5.5rc1]
+[2024-05-14 13:53:45] INFO root fetch - processPackages [pyreqwest-impersonate]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-14 13:53:46] WARNING root fetch - processPackages [unreal-stub]: Skipping, unable to determine old version
+[2024-05-14 13:53:46] INFO root fetch - main [MainThread]: End processing [unreal-stub] error
+[2024-05-14 13:53:46] INFO root fetch - processPackages [virtual-camera]: Downloading https://files.pythonhosted.org/packages/6e/40/a11a7229601c709dbc567e670695db0244a97cb9fb72b83b4cb8798c3e18/virtual_camera-0.0.1.tar.gz
+[2024-05-14 13:53:46] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/8b/73/54275cf21a673e2f46b3fa3f59780967b7469240ebae74fbc34305e16413/pyreqwest_impersonate-0.4.4.tar.gz
+[2024-05-14 13:53:46] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/ec/b4/d5337dbe7eac09bb8176a169752bf12b34cb2b940ce04f2cf2655968f249/imagedata-3.5.5rc1.tar.gz
+[2024-05-14 13:53:46] INFO root fetch - processPackages [virtual-camera]: Downloading https://files.pythonhosted.org/packages/b4/0f/cdc9af6304be9e645d56a404aa0dd162125c624470e96576b9a71d66d09b/virtual_camera-0.0.2.post0.tar.gz
+[2024-05-14 13:53:46] INFO root fetch - processPackages [pyreqwest-impersonate]: Downloading https://files.pythonhosted.org/packages/f1/65/74063855d2add2edf436cf25d3ffadbd6e95ec57ac5352a407b9c94648f4/pyreqwest_impersonate-0.4.5.tar.gz
+[2024-05-14 13:53:46] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27633565>=10485760
+[2024-05-14 13:53:46] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-05-14 13:53:46] INFO root fetch - processPackages [virtual-camera]: executing diffoscope
+[2024-05-14 13:53:46] INFO root fetch - processPackages [virtual-camera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtual_camera-0.0.1.tar.gz tmp/virtual_camera-0.0.2.post0.tar.gz --markdown 20240514/v/virtual-camera/0.0.1-0.0.2.post0/README.md --exclude *.pyd
+[2024-05-14 13:53:46] INFO root fetch - processPackages [pyreqwest-impersonate]: executing diffoscope
+[2024-05-14 13:53:46] INFO root fetch - processPackages [pyreqwest-impersonate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyreqwest_impersonate-0.4.4.tar.gz tmp/pyreqwest_impersonate-0.4.5.tar.gz --markdown 20240514/p/pyreqwest-impersonate/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-14 13:53:47] INFO root fetch - processPackages [virtual-camera]: Remove: archive file [/home/abi/fetcher/tmp/virtual_camera-0.0.1.tar.gz]
+[2024-05-14 13:53:47] INFO root fetch - processPackages [virtual-camera]: Remove: archive file [/home/abi/fetcher/tmp/virtual_camera-0.0.2.post0.tar.gz]
+[2024-05-14 13:53:47] INFO root fetch - main [MainThread]: End processing [virtual-camera]: success
+[2024-05-14 13:53:47] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.4.4.tar.gz]
+[2024-05-14 13:53:47] INFO root fetch - processPackages [pyreqwest-impersonate]: Remove: archive file [/home/abi/fetcher/tmp/pyreqwest_impersonate-0.4.5.tar.gz]
+[2024-05-14 13:53:47] INFO root fetch - main [MainThread]: End processing [pyreqwest-impersonate]: success
+[2024-05-14 13:53:47] INFO root fetch - main [MainThread]: Store serial: [23200572]
