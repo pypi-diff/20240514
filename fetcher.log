@@ -10845,3 +10845,40 @@
 [2024-05-14 07:32:10] INFO root fetch - processPackages [gridtk]: Remove: archive file [/home/abi/fetcher/tmp/gridtk-2.1.0.tar.gz]
 [2024-05-14 07:32:10] INFO root fetch - main [MainThread]: End processing [gridtk]: success
 [2024-05-14 07:32:10] INFO root fetch - main [MainThread]: Store serial: [23195972]
+[2024-05-14 07:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195972]
+[2024-05-14 07:34:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 07:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidyxbrl
+[2024-05-14 07:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xurpas-data-quality
+[2024-05-14 07:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hot-spot-analysis
+[2024-05-14 07:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hot-spot-analysis
+[2024-05-14 07:34:19] INFO root fetch - processPackages [tidyxbrl]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-14 07:34:19] INFO root fetch - processPackages [xurpas-data-quality]: New version: [0.0.4] Old Version: [0.0.3a5]
+[2024-05-14 07:34:19] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/d5/4e/e787ef6306f0b1bee91d1093f9f2325042e39d325215fe16a13a354b1c4e/xurpas_data_quality-0.0.3a5.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/f2/4e/fc8321fca3dfd907fd4c7d3b6570ae9ff4a0e43ce5c21a38143f1107770a/tidyxbrl-1.0.2.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: New version: [1.0.0] Old Version: [0.1.4]
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: New version: [1.0.0] Old Version: [0.1.4]
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: Downloading https://files.pythonhosted.org/packages/f0/7d/7c5b059af9319295531a8231846704332199b02ed57c33d6d815e4cee859/hot_spot_analysis-0.1.4.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: Downloading https://files.pythonhosted.org/packages/f0/7d/7c5b059af9319295531a8231846704332199b02ed57c33d6d815e4cee859/hot_spot_analysis-0.1.4.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [tidyxbrl]: Downloading https://files.pythonhosted.org/packages/6f/2e/7584e8dabfb53cdba80bc740290dc2f99f06eaed9036f0dc703b70cd47c7/tidyxbrl-1.0.3.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [xurpas-data-quality]: Downloading https://files.pythonhosted.org/packages/85/ee/2349cae5cc198139fc7bfde1990ea146e9998e410a95efa4835ed4df480e/xurpas_data_quality-0.0.4.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [tidyxbrl]: executing diffoscope
+[2024-05-14 07:34:19] INFO root fetch - processPackages [tidyxbrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidyxbrl-1.0.2.tar.gz tmp/tidyxbrl-1.0.3.tar.gz --markdown 20240514/t/tidyxbrl/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-14 07:34:19] INFO root fetch - processPackages [xurpas-data-quality]: executing diffoscope
+[2024-05-14 07:34:19] INFO root fetch - processPackages [xurpas-data-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xurpas_data_quality-0.0.3a5.tar.gz tmp/xurpas_data_quality-0.0.4.tar.gz --markdown 20240514/x/xurpas-data-quality/0.0.3a5-0.0.4/README.md --exclude *.pyd
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: Downloading https://files.pythonhosted.org/packages/e8/de/93f43555062a85009e45e1b9d2863f50ebbd6a886ea6c45a7563d8abc82f/hot_spot_analysis-1.0.0.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: Downloading https://files.pythonhosted.org/packages/e8/de/93f43555062a85009e45e1b9d2863f50ebbd6a886ea6c45a7563d8abc82f/hot_spot_analysis-1.0.0.tar.gz
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: executing diffoscope
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot_spot_analysis-0.1.4.tar.gz tmp/hot_spot_analysis-1.0.0.tar.gz --markdown 20240514/h/hot-spot-analysis/0.1.4-1.0.0/README.md --exclude *.pyd
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: executing diffoscope
+[2024-05-14 07:34:19] INFO root fetch - processPackages [hot-spot-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hot_spot_analysis-0.1.4.tar.gz tmp/hot_spot_analysis-1.0.0.tar.gz --markdown 20240514/h/hot-spot-analysis/0.1.4-1.0.0/README.md --exclude *.pyd
+[2024-05-14 07:34:20] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.3a5.tar.gz]
+[2024-05-14 07:34:20] INFO root fetch - processPackages [xurpas-data-quality]: Remove: archive file [/home/abi/fetcher/tmp/xurpas_data_quality-0.0.4.tar.gz]
+[2024-05-14 07:34:20] INFO root fetch - main [MainThread]: End processing [xurpas-data-quality]: success
+[2024-05-14 07:34:20] INFO root fetch - processPackages [hot-spot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hot_spot_analysis-0.1.4.tar.gz]
+[2024-05-14 07:34:20] INFO root fetch - processPackages [hot-spot-analysis]: Remove: archive file [/home/abi/fetcher/tmp/hot_spot_analysis-1.0.0.tar.gz]
+[2024-05-14 07:34:20] INFO root fetch - main [MainThread]: End processing [hot-spot-analysis]: success
+[2024-05-14 07:34:20] INFO root fetch - main [MainThread]: End processing [hot-spot-analysis]: success
+[2024-05-14 07:34:20] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.2.tar.gz]
+[2024-05-14 07:34:20] INFO root fetch - processPackages [tidyxbrl]: Remove: archive file [/home/abi/fetcher/tmp/tidyxbrl-1.0.3.tar.gz]
+[2024-05-14 07:34:20] INFO root fetch - main [MainThread]: End processing [tidyxbrl]: success
+[2024-05-14 07:34:20] INFO root fetch - main [MainThread]: Store serial: [23195984]
