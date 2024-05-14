@@ -7521,3 +7521,18 @@
 [2024-05-14 03:38:50] INFO root fetch - processPackages [idemlib]: Remove: archive file [/home/abi/fetcher/tmp/idemlib-0.1.6.tar.gz]
 [2024-05-14 03:38:50] INFO root fetch - main [MainThread]: End processing [idemlib]: success
 [2024-05-14 03:38:50] INFO root fetch - main [MainThread]: Store serial: [23194612]
+[2024-05-14 03:40:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194612]
+[2024-05-14 03:40:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-14 03:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flightcondition
+[2024-05-14 03:40:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basic-web-server
+[2024-05-14 03:40:58] WARNING root fetch - processPackages [basic-web-server]: Skipping, unable to determine old version
+[2024-05-14 03:40:58] INFO root fetch - main [MainThread]: End processing [basic-web-server] error
+[2024-05-14 03:40:59] INFO root fetch - processPackages [flightcondition]: New version: [24.5.13] Old Version: [24.3.31]
+[2024-05-14 03:40:59] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/84/62/006e6ba9306f4643049177786e9e5025f9fef534a8282b4aa5d2a4375ea6/flightcondition-24.3.31.tar.gz
+[2024-05-14 03:40:59] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/67/c2/9a6cdaebd23cc2bca8251ac2c441eec53f8e70ae8ef2aaca2005b5453efe/flightcondition-24.5.13.tar.gz
+[2024-05-14 03:40:59] INFO root fetch - processPackages [flightcondition]: executing diffoscope
+[2024-05-14 03:40:59] INFO root fetch - processPackages [flightcondition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightcondition-24.3.31.tar.gz tmp/flightcondition-24.5.13.tar.gz --markdown 20240514/f/flightcondition/24.3.31-24.5.13/README.md --exclude *.pyd
+[2024-05-14 03:41:00] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-24.3.31.tar.gz]
+[2024-05-14 03:41:00] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-24.5.13.tar.gz]
+[2024-05-14 03:41:00] INFO root fetch - main [MainThread]: End processing [flightcondition]: success
+[2024-05-14 03:41:00] INFO root fetch - main [MainThread]: Store serial: [23194668]
