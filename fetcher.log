@@ -22138,3 +22138,106 @@
 [2024-05-14 14:29:44] INFO root fetch - processPackages [yycli]: Remove: archive file [/home/abi/fetcher/tmp/yycli-0.0.5.tar.gz]
 [2024-05-14 14:29:44] INFO root fetch - main [MainThread]: End processing [yycli]: success
 [2024-05-14 14:29:44] INFO root fetch - main [MainThread]: Store serial: [23200905]
+[2024-05-14 14:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200905]
+[2024-05-14 14:31:52] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drawio0utils
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrattle
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdfizer
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karp-lex-core
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zrb
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syntrac-sdk
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ixoncdkingress
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inoopa_utils
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: super-hello
+[2024-05-14 14:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jccrypto
+[2024-05-14 14:31:52] INFO root fetch - processPackages [pyrattle]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-14 14:31:52] INFO root fetch - processPackages [jccrypto]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-14 14:31:52] INFO root fetch - processPackages [inoopa_utils]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-14 14:31:52] INFO root fetch - processPackages [karp-lex-core]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-05-14 14:31:53] INFO root fetch - processPackages [syntrac-sdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-14 14:31:53] INFO root fetch - processPackages [rdfizer]: New version: [4.7.dev1682603926] Old Version: [4.7.dev1682603874]
+[2024-05-14 14:31:53] INFO root fetch - processPackages [ixoncdkingress]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-14 14:31:53] WARNING root fetch - processPackages [drawio0utils]: Skipping, unable to determine old version
+[2024-05-14 14:31:53] INFO root fetch - processPackages [drawio0utils]: Start processing: super-hello
+[2024-05-14 14:31:53] INFO root fetch - main [MainThread]: End processing [drawio0utils] error
+[2024-05-14 14:31:53] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/a0/24/b911a769e68404b28a043df8fa70dcb1a205d883a5b8eb5551b2e29e769b/inoopa_utils-2.9.8.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/c6/a5/31d6767b0860d5864866b880f9dfc0a8505eea42def5e5446234befe374d/jccrypto-1.0.5-py3-none-any.whl
+[2024-05-14 14:31:53] INFO root fetch - processPackages [zrb]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-14 14:31:53] INFO root fetch - processPackages [super-hello]: New version: [0.2] Old Version: [0.1]
+[2024-05-14 14:31:53] INFO root fetch - processPackages [pyrattle]: Downloading https://files.pythonhosted.org/packages/64/fa/164ef71c72c999b849b37a95e4ab68038585e6e90a1eec6b590450312ce8/pyrattle-0.1.0.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [super-hello]: New version: [0.2] Old Version: [0.1]
+[2024-05-14 14:31:53] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/9c/69/f926f79050903d7181f6dd0e91e494af7ba43c4c9369205e9332f4a4db3f/rdfizer-4.7.dev1682603874.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/b3/1b/2738933755f61b85947702010ca1d9403e64824e49dcdc082f1b61a07b4a/ixoncdkingress-0.0.8.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/32/39/a7e9fbbb7d0cb16c4ef2cdecfa0052b5b5059c4b0f8cd6cc390052054a0b/zrb-0.9.2.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [karp-lex-core]: Downloading https://files.pythonhosted.org/packages/d8/bd/42fd37d1fe1b32aacb14889d7ffdd2a988c076dee592cfd611a8398cc920/karp_lex_core-0.6.2.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/33/5b/2d703d289f715a8656a3f187b932e1a131293216db641885120a99e91948/syntrac_sdk-0.0.7.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [super-hello]: Downloading https://files.pythonhosted.org/packages/e3/b2/bc447bf981b0085ed77a8d4c820d12a18cd746c35d71e808c611a3b1f2b8/super_hello-0.1.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [jccrypto]: Downloading https://files.pythonhosted.org/packages/5b/60/1de971727669399546ab4b72aec0a753299943dc1eeae956a037f46788ce/jccrypto-1.0.6-py3-none-any.whl
+[2024-05-14 14:31:53] INFO root fetch - processPackages [super-hello]: Downloading https://files.pythonhosted.org/packages/e3/b2/bc447bf981b0085ed77a8d4c820d12a18cd746c35d71e808c611a3b1f2b8/super_hello-0.1.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/d9/a2/9ecd86dc35b14396fac082afed001b7cf3eb323bec68b4986cf3b5194b67/inoopa_utils-2.9.9.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [jccrypto]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [jccrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jccrypto-1.0.5-py3-none-any.whl.zip tmp/jccrypto-1.0.6-py3-none-any.whl.zip --markdown 20240514/j/jccrypto/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-14 14:31:53] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.9.8.tar.gz tmp/inoopa_utils-2.9.9.tar.gz --markdown 20240514/i/inoopa_utils/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-14 14:31:53] INFO root fetch - processPackages [pyrattle]: Downloading https://files.pythonhosted.org/packages/ae/7a/eaf091e17cfbfb15fe62ba3b4fbd3cb2f349c84562a895e0f34fba7210ca/pyrattle-0.1.1.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [karp-lex-core]: Downloading https://files.pythonhosted.org/packages/30/06/92c4fc11ac32aae7e0f8d74dfaa9678b1e27795ef95ac2bf3bf923db2331/karp_lex_core-0.6.3.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [ixoncdkingress]: Downloading https://files.pythonhosted.org/packages/81/5d/64486ddfc794e9b261c3c76607feaa76e92ecb01cd26ffd13bced3ecac65/ixoncdkingress-0.0.9.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [syntrac-sdk]: Downloading https://files.pythonhosted.org/packages/12/06/2483c9f3160c69ded539017aae36b09ce2e93ce6d7263c1778cf90f8498b/syntrac_sdk-0.0.8.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [rdfizer]: Downloading https://files.pythonhosted.org/packages/70/cd/8dd4da328815d460b588f71a1270cf043ce0d2cae360ce0b321d3d1255b6/rdfizer-4.7.dev1682603926.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [pyrattle]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [pyrattle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrattle-0.1.0.tar.gz tmp/pyrattle-0.1.1.tar.gz --markdown 20240514/p/pyrattle/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-14 14:31:53] INFO root fetch - processPackages [karp-lex-core]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [karp-lex-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp_lex_core-0.6.2.tar.gz tmp/karp_lex_core-0.6.3.tar.gz --markdown 20240514/k/karp-lex-core/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-05-14 14:31:53] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/f6/b9/43574b23dd1c57d67788b82511937efe23fc957250685ba62b6025db3166/zrb-0.9.3.tar.gz
+[2024-05-14 14:31:53] INFO root fetch - processPackages [ixoncdkingress]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [ixoncdkingress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixoncdkingress-0.0.8.tar.gz tmp/ixoncdkingress-0.0.9.tar.gz --markdown 20240514/i/ixoncdkingress/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-14 14:31:53] INFO root fetch - processPackages [syntrac-sdk]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [syntrac-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntrac_sdk-0.0.7.tar.gz tmp/syntrac_sdk-0.0.8.tar.gz --markdown 20240514/s/syntrac-sdk/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-14 14:31:53] INFO root fetch - processPackages [rdfizer]: executing diffoscope
+[2024-05-14 14:31:53] INFO root fetch - processPackages [rdfizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfizer-4.7.dev1682603874.tar.gz tmp/rdfizer-4.7.dev1682603926.tar.gz --markdown 20240514/r/rdfizer/4.7.dev1682603874-4.7.dev1682603926/README.md --exclude *.pyd
+[2024-05-14 14:31:54] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2024-05-14 14:31:54] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.9.2.tar.gz tmp/zrb-0.9.3.tar.gz --markdown 20240514/z/zrb/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-14 14:31:54] INFO root fetch - processPackages [super-hello]: Downloading https://files.pythonhosted.org/packages/34/e1/fbe02b5188c01d65f51173f2eab8c79b9c69d78b98d29fe6a262158d00f1/super_hello-0.2.tar.gz
+[2024-05-14 14:31:54] INFO root fetch - processPackages [super-hello]: Downloading https://files.pythonhosted.org/packages/34/e1/fbe02b5188c01d65f51173f2eab8c79b9c69d78b98d29fe6a262158d00f1/super_hello-0.2.tar.gz
+[2024-05-14 14:31:54] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.8.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.9.9.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [inoopa_utils]: Start processing: packaged
+[2024-05-14 14:31:54] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-05-14 14:31:54] INFO root fetch - processPackages [pyrattle]: Remove: archive file [/home/abi/fetcher/tmp/pyrattle-0.1.0.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [pyrattle]: Remove: archive file [/home/abi/fetcher/tmp/pyrattle-0.1.1.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - main [MainThread]: End processing [pyrattle]: success
+[2024-05-14 14:31:54] INFO root fetch - processPackages [packaged]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.5-py3-none-any.whl.zip]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [jccrypto]: Remove: archive file [/home/abi/fetcher/tmp/jccrypto-1.0.6-py3-none-any.whl.zip]
+[2024-05-14 14:31:54] INFO root fetch - main [MainThread]: End processing [jccrypto]: success
+[2024-05-14 14:31:54] INFO root fetch - processPackages [karp-lex-core]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_core-0.6.2.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [karp-lex-core]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_core-0.6.3.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - main [MainThread]: End processing [karp-lex-core]: success
+[2024-05-14 14:31:54] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.8.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [ixoncdkingress]: Remove: archive file [/home/abi/fetcher/tmp/ixoncdkingress-0.0.9.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - main [MainThread]: End processing [ixoncdkingress]: success
+[2024-05-14 14:31:54] INFO root fetch - processPackages [super-hello]: executing diffoscope
+[2024-05-14 14:31:54] INFO root fetch - processPackages [super-hello]: executing diffoscope
+[2024-05-14 14:31:54] INFO root fetch - processPackages [super-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super_hello-0.1.tar.gz tmp/super_hello-0.2.tar.gz --markdown 20240514/s/super-hello/0.1-0.2/README.md --exclude *.pyd
+[2024-05-14 14:31:54] INFO root fetch - processPackages [super-hello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super_hello-0.1.tar.gz tmp/super_hello-0.2.tar.gz --markdown 20240514/s/super-hello/0.1-0.2/README.md --exclude *.pyd
+[2024-05-14 14:31:54] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/81/15/cf1813b23f40b94f0288fffed7d1a4c572d90e647789cd08e05f477482ee/packaged-0.3.0.tar.gz
+[2024-05-14 14:31:54] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603874.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - processPackages [rdfizer]: Remove: archive file [/home/abi/fetcher/tmp/rdfizer-4.7.dev1682603926.tar.gz]
+[2024-05-14 14:31:54] INFO root fetch - main [MainThread]: End processing [rdfizer]: success
+[2024-05-14 14:31:55] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.7.tar.gz]
+[2024-05-14 14:31:55] INFO root fetch - processPackages [syntrac-sdk]: Remove: archive file [/home/abi/fetcher/tmp/syntrac_sdk-0.0.8.tar.gz]
+[2024-05-14 14:31:55] INFO root fetch - main [MainThread]: End processing [syntrac-sdk]: success
+[2024-05-14 14:31:55] INFO root fetch - processPackages [packaged]: Downloading https://files.pythonhosted.org/packages/3c/2c/03acd4de02a6a731c588569483cac99fcd9202105621e1798b8dc1559a47/packaged-0.3.1.tar.gz
+[2024-05-14 14:31:55] INFO root fetch - processPackages [packaged]: executing diffoscope
+[2024-05-14 14:31:55] INFO root fetch - processPackages [packaged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaged-0.3.0.tar.gz tmp/packaged-0.3.1.tar.gz --markdown 20240514/p/packaged/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-14 14:31:55] INFO root fetch - processPackages [super-hello]: Remove: archive file [/home/abi/fetcher/tmp/super_hello-0.1.tar.gz]
+[2024-05-14 14:31:55] INFO root fetch - processPackages [super-hello]: Remove: archive file [/home/abi/fetcher/tmp/super_hello-0.2.tar.gz]
+[2024-05-14 14:31:55] INFO root fetch - main [MainThread]: End processing [super-hello]: success
+[2024-05-14 14:31:55] INFO root fetch - main [MainThread]: End processing [super-hello]: success
+[2024-05-14 14:31:55] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.3.0.tar.gz]
+[2024-05-14 14:31:55] INFO root fetch - processPackages [packaged]: Remove: archive file [/home/abi/fetcher/tmp/packaged-0.3.1.tar.gz]
+[2024-05-14 14:31:55] INFO root fetch - main [MainThread]: End processing [packaged]: success
+[2024-05-14 14:31:59] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.2.tar.gz]
+[2024-05-14 14:31:59] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.9.3.tar.gz]
+[2024-05-14 14:31:59] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2024-05-14 14:31:59] INFO root fetch - main [MainThread]: Store serial: [23200939]
