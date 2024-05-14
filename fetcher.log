@@ -21069,3 +21069,36 @@
 [2024-05-14 13:42:49] INFO root fetch - processPackages [queue-kv]: Remove: archive file [/home/abi/fetcher/tmp/queue_kv-0.1.6.tar.gz]
 [2024-05-14 13:42:49] INFO root fetch - main [MainThread]: End processing [queue-kv]: success
 [2024-05-14 13:42:49] INFO root fetch - main [MainThread]: Store serial: [23200480]
+[2024-05-14 13:44:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23200480]
+[2024-05-14 13:45:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 13:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-antd-components-callback-fix
+[2024-05-14 13:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idun-guardian-sdk
+[2024-05-14 13:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arthorian-quest
+[2024-05-14 13:45:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: figaro
+[2024-05-14 13:45:00] WARNING root fetch - processPackages [streamlit-antd-components-callback-fix]: Skipping, unable to determine old version
+[2024-05-14 13:45:00] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components-callback-fix] error
+[2024-05-14 13:45:00] INFO root fetch - processPackages [figaro]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-05-14 13:45:00] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/f1/5b/13c0c2666952cbcc1e466337c538fa789fc9c1fade261e95d3a443c3a3b3/figaro-1.6.4.tar.gz
+[2024-05-14 13:45:00] INFO root fetch - processPackages [idun-guardian-sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-14 13:45:00] INFO root fetch - processPackages [arthorian-quest]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-05-14 13:45:00] INFO root fetch - processPackages [arthorian-quest]: Downloading https://files.pythonhosted.org/packages/57/53/9cc2a77f8f5ebd42f97e71a8d28178f4f42c8507f6a4efcd3b638ed6360c/arthorian-quest-0.2.1.tar.gz
+[2024-05-14 13:45:00] INFO root fetch - processPackages [idun-guardian-sdk]: Downloading https://files.pythonhosted.org/packages/bb/02/50b706652613c14ded68eb336a66f766054d508a830901c876bc4bcb724d/idun_guardian_sdk-0.1.2.tar.gz
+[2024-05-14 13:45:00] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/c9/a8/3f8b635afeb2ffca8f42279c0514889a985b1ca4835165d644f53d809741/figaro-1.6.5.tar.gz
+[2024-05-14 13:45:00] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2024-05-14 13:45:00] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.6.4.tar.gz tmp/figaro-1.6.5.tar.gz --markdown 20240514/f/figaro/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-05-14 13:45:00] INFO root fetch - processPackages [arthorian-quest]: Downloading https://files.pythonhosted.org/packages/88/20/3bc322030bc326b2325138d07e5f0a115e3ccc7588ad4650587d503c4e8a/arthorian-quest-0.2.3.tar.gz
+[2024-05-14 13:45:00] INFO root fetch - processPackages [idun-guardian-sdk]: Downloading https://files.pythonhosted.org/packages/57/25/595423e3a5d9b0436dd40c78edac32b7bee52fd312f4c5853217013823a8/idun_guardian_sdk-0.1.3.tar.gz
+[2024-05-14 13:45:00] INFO root fetch - processPackages [arthorian-quest]: executing diffoscope
+[2024-05-14 13:45:00] INFO root fetch - processPackages [arthorian-quest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthorian-quest-0.2.1.tar.gz tmp/arthorian-quest-0.2.3.tar.gz --markdown 20240514/a/arthorian-quest/0.2.1-0.2.3/README.md --exclude *.pyd
+[2024-05-14 13:45:01] INFO root fetch - processPackages [idun-guardian-sdk]: executing diffoscope
+[2024-05-14 13:45:01] INFO root fetch - processPackages [idun-guardian-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idun_guardian_sdk-0.1.2.tar.gz tmp/idun_guardian_sdk-0.1.3.tar.gz --markdown 20240514/i/idun-guardian-sdk/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-14 13:45:01] INFO root fetch - processPackages [arthorian-quest]: Remove: archive file [/home/abi/fetcher/tmp/arthorian-quest-0.2.1.tar.gz]
+[2024-05-14 13:45:01] INFO root fetch - processPackages [arthorian-quest]: Remove: archive file [/home/abi/fetcher/tmp/arthorian-quest-0.2.3.tar.gz]
+[2024-05-14 13:45:01] INFO root fetch - main [MainThread]: End processing [arthorian-quest]: success
+[2024-05-14 13:45:01] INFO root fetch - processPackages [idun-guardian-sdk]: Remove: archive file [/home/abi/fetcher/tmp/idun_guardian_sdk-0.1.2.tar.gz]
+[2024-05-14 13:45:01] INFO root fetch - processPackages [idun-guardian-sdk]: Remove: archive file [/home/abi/fetcher/tmp/idun_guardian_sdk-0.1.3.tar.gz]
+[2024-05-14 13:45:01] INFO root fetch - main [MainThread]: End processing [idun-guardian-sdk]: success
+[2024-05-14 13:45:01] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.4.tar.gz]
+[2024-05-14 13:45:01] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.5.tar.gz]
+[2024-05-14 13:45:01] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2024-05-14 13:45:01] INFO root fetch - main [MainThread]: Store serial: [23200493]
