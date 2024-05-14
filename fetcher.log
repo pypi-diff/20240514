@@ -7725,3 +7725,36 @@
 [2024-05-14 03:56:11] INFO root fetch - processPackages [sentry-stack-dingding]: Remove: archive file [/home/abi/fetcher/tmp/sentry-stack-dingding-1.0.9.tar.gz]
 [2024-05-14 03:56:11] INFO root fetch - main [MainThread]: End processing [sentry-stack-dingding]: success
 [2024-05-14 03:56:11] INFO root fetch - main [MainThread]: Store serial: [23194736]
+[2024-05-14 03:58:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23194736]
+[2024-05-14 03:58:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-14 03:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowee
+[2024-05-14 03:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ELSholdings
+[2024-05-14 03:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beam-client
+[2024-05-14 03:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RabbitSpider
+[2024-05-14 03:58:19] WARNING root fetch - processPackages [ELSholdings]: Skipping, unable to determine old version
+[2024-05-14 03:58:19] INFO root fetch - main [MainThread]: End processing [ELSholdings] error
+[2024-05-14 03:58:19] INFO root fetch - processPackages [flowee]: New version: [1.7] Old Version: [1.6]
+[2024-05-14 03:58:19] INFO root fetch - processPackages [RabbitSpider]: New version: [1.6] Old Version: [1.5]
+[2024-05-14 03:58:19] INFO root fetch - processPackages [beam-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-14 03:58:19] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/f5/fc/0e8616e5d631ac277dab5338bc90d79f2b6890e2ca93dd398b5b49cf9402/flowee-1.6.tar.gz
+[2024-05-14 03:58:19] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/a6/52/1bb4807187acf471bd158ee1ad0ecf4d99f28b29a4f155192f5726d39776/rabbitspider-1.5.tar.gz
+[2024-05-14 03:58:19] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/ac/ee/27de4b2569a707f2361330414b50f795635cafa3adaf9743f08393a1b368/beam_client-0.2.8.tar.gz
+[2024-05-14 03:58:20] INFO root fetch - processPackages [RabbitSpider]: Downloading https://files.pythonhosted.org/packages/c6/f1/3d0018c9322790d67187a9cd181254a08ae7bc47e87ffc0951866b007d7c/rabbitspider-1.6.tar.gz
+[2024-05-14 03:58:20] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/30/15/606a85353776a9e1c941977e724bfc92806b27223b9e341df4fc22e5bbdf/beam_client-0.2.9.tar.gz
+[2024-05-14 03:58:20] INFO root fetch - processPackages [RabbitSpider]: executing diffoscope
+[2024-05-14 03:58:20] INFO root fetch - processPackages [RabbitSpider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rabbitspider-1.5.tar.gz tmp/rabbitspider-1.6.tar.gz --markdown 20240514/R/RabbitSpider/1.5-1.6/README.md --exclude *.pyd
+[2024-05-14 03:58:20] INFO root fetch - processPackages [flowee]: Downloading https://files.pythonhosted.org/packages/90/21/acd5d7b7c336b64a7cea486318c58d841cf9dc1b1dcdfbb9c87fff923021/flowee-1.7.tar.gz
+[2024-05-14 03:58:20] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-14 03:58:20] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.8.tar.gz tmp/beam_client-0.2.9.tar.gz --markdown 20240514/b/beam-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-14 03:58:20] INFO root fetch - processPackages [flowee]: executing diffoscope
+[2024-05-14 03:58:20] INFO root fetch - processPackages [flowee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowee-1.6.tar.gz tmp/flowee-1.7.tar.gz --markdown 20240514/f/flowee/1.6-1.7/README.md --exclude *.pyd
+[2024-05-14 03:58:20] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.8.tar.gz]
+[2024-05-14 03:58:20] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.9.tar.gz]
+[2024-05-14 03:58:20] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-14 03:58:21] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/rabbitspider-1.5.tar.gz]
+[2024-05-14 03:58:21] INFO root fetch - processPackages [RabbitSpider]: Remove: archive file [/home/abi/fetcher/tmp/rabbitspider-1.6.tar.gz]
+[2024-05-14 03:58:21] INFO root fetch - main [MainThread]: End processing [RabbitSpider]: success
+[2024-05-14 03:58:21] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.6.tar.gz]
+[2024-05-14 03:58:21] INFO root fetch - processPackages [flowee]: Remove: archive file [/home/abi/fetcher/tmp/flowee-1.7.tar.gz]
+[2024-05-14 03:58:21] INFO root fetch - main [MainThread]: End processing [flowee]: success
+[2024-05-14 03:58:21] INFO root fetch - main [MainThread]: Store serial: [23194747]
