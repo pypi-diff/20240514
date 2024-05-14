@@ -9557,3 +9557,44 @@
 [2024-05-14 05:57:04] INFO root fetch - processPackages [myfaasmctl]: Remove: archive file [/home/abi/fetcher/tmp/myfaasmctl-0.0.2.tar.gz]
 [2024-05-14 05:57:04] INFO root fetch - main [MainThread]: End processing [myfaasmctl]: success
 [2024-05-14 05:57:04] INFO root fetch - main [MainThread]: Store serial: [23195450]
+[2024-05-14 05:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23195450]
+[2024-05-14 05:59:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-14 05:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-priority-loadbalancer
+[2024-05-14 05:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-event-session
+[2024-05-14 05:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CodingRider
+[2024-05-14 05:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google
+[2024-05-14 05:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datameg
+[2024-05-14 05:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-retry
+[2024-05-14 05:59:13] WARNING root fetch - processPackages [openai-priority-loadbalancer]: Skipping, unable to determine old version
+[2024-05-14 05:59:13] INFO root fetch - main [MainThread]: End processing [openai-priority-loadbalancer] error
+[2024-05-14 05:59:13] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [16.0.1.2.0.4] Old Version: [16.0.1.2.0.3]
+[2024-05-14 05:59:13] INFO root fetch - processPackages [CodingRider]: New version: [2.6] Old Version: [2.5]
+[2024-05-14 05:59:13] WARNING root fetch - processPackages [datameg]: Skipping, unable to determine old version
+[2024-05-14 05:59:13] INFO root fetch - main [MainThread]: End processing [datameg] error
+[2024-05-14 05:59:13] INFO root fetch - processPackages [pytest-retry]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-14 05:59:13] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/32/a8/911596a436f8abb924cc2334a006fd3dcfc6a9e5576d5df765bf4f865622/codingrider-2.5.tar.gz
+[2024-05-14 05:59:13] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-05-14 05:59:13] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/40/8b/78b514a40e2b52cf98a261cb3825e8ae2cbcec3c8022846f653c6c574e9c/odoo_addon_event_session-16.0.1.2.0.3-py3-none-any.whl
+[2024-05-14 05:59:13] INFO root fetch - processPackages [pytest-retry]: Downloading https://files.pythonhosted.org/packages/41/29/a8142013afdbc4fbb2a1ceaedf46a722eb56981f76572126b2e28c320745/pytest-retry-1.6.2.tar.gz
+[2024-05-14 05:59:13] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/38/8e/fcb0358ec1a555837d4cad74bbe97207bd6fe247dc32a5f79b90aaaac8b8/cdktf-cdktf-provider-google-9.0.4.tar.gz
+[2024-05-14 05:59:13] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 22123916>=10485760
+[2024-05-14 05:59:13] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2024-05-14 05:59:13] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/c6/64/1b18bd77d5c5a036898aac9f98f7f18fabe7cb24d68b576b538f4c47aca5/codingrider-2.6.tar.gz
+[2024-05-14 05:59:13] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/63/2c/f175bf2752f0186a2d715edb89aef0d71e5baa40e295d6f51498fa925fb7/odoo_addon_event_session-16.0.1.2.0.4-py3-none-any.whl
+[2024-05-14 05:59:13] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-05-14 05:59:13] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codingrider-2.5.tar.gz tmp/codingrider-2.6.tar.gz --markdown 20240514/C/CodingRider/2.5-2.6/README.md --exclude *.pyd
+[2024-05-14 05:59:13] INFO root fetch - processPackages [pytest-retry]: Downloading https://files.pythonhosted.org/packages/9c/95/8e1be0250a5063c28a1e713b9665ce3bb76a7807096da1b8d6b36cb8856b/pytest_retry-1.6.3.tar.gz
+[2024-05-14 05:59:13] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2024-05-14 05:59:13] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-16.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_event_session-16.0.1.2.0.4-py3-none-any.whl.zip --markdown 20240514/o/odoo-addon-event-session/16.0.1.2.0.3-16.0.1.2.0.4/README.md --exclude *.pyd
+[2024-05-14 05:59:14] INFO root fetch - processPackages [pytest-retry]: executing diffoscope
+[2024-05-14 05:59:14] INFO root fetch - processPackages [pytest-retry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240514:/home/abi/fetcher/20240514:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-retry-1.6.2.tar.gz tmp/pytest_retry-1.6.3.tar.gz --markdown 20240514/p/pytest-retry/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-14 05:59:14] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.5.tar.gz]
+[2024-05-14 05:59:14] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/codingrider-2.6.tar.gz]
+[2024-05-14 05:59:14] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-05-14 05:59:14] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.2.0.3-py3-none-any.whl.zip]
+[2024-05-14 05:59:14] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.2.0.4-py3-none-any.whl.zip]
+[2024-05-14 05:59:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2024-05-14 05:59:14] INFO root fetch - processPackages [pytest-retry]: Remove: archive file [/home/abi/fetcher/tmp/pytest-retry-1.6.2.tar.gz]
+[2024-05-14 05:59:14] INFO root fetch - processPackages [pytest-retry]: Remove: archive file [/home/abi/fetcher/tmp/pytest_retry-1.6.3.tar.gz]
+[2024-05-14 05:59:14] INFO root fetch - main [MainThread]: End processing [pytest-retry]: success
+[2024-05-14 05:59:14] INFO root fetch - main [MainThread]: Store serial: [23195471]
